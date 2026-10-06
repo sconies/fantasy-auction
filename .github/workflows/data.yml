@@ -1,8 +1,13 @@
-name: Refresh stats and news
+name: Refresh data and read the news
 
 on:
   schedule:
-    - cron: '17 */6 * * *'   # every six hours: projections, depth charts and injuries move daily in preseason
+    # Two news waves, Eastern time: 1:30 pm (practice reports, afternoon injury report) and 11 pm (lineups,
+    # late scratches, postgame news). GitHub runs on UTC: 17:30 and 03:00 are EDT; after 1 Nov they land an hour earlier.
+    - cron: '30 17 * * *'
+    - cron: '0 3 * * *'
+    # Draft days (18 and 19 Oct): one more read at noon Eastern so values are fresh going in.
+    - cron: '0 16 18,19 10 *'
   workflow_dispatch:
 
 permissions:
@@ -25,16 +30,24 @@ jobs:
           if [ ! -f data/raw/bbref-2026.json ] || [ "$(date -u +%H)" -lt 6 ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             node scripts/fetch-stats.mjs 2026 2025
           fi
-      - name: ESPN projections, rosters and depth charts; FantasyPros consensus
+      - name: ESPN projections, rosters and depth charts; FantasyPros consensus and news
         run: node scripts/fetch-sources.mjs
-      - name: Build projections (fails if a source came back thin)
-        run: node scripts/build-players.mjs
-      - name: News and injuries
+      - name: ESPN injuries and headlines
         run: node scripts/fetch-news.mjs
-      - name: Jev reads new injury notes 
+      - name: FantasyPros player news
+        run: node scripts/parse-fpnews.mjs
+      - name: Jev reads injury notes (absence length)
         run: node scripts/jev-injuries.mjs --run --if-key
         env:
           TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY || 'apikey_2116b470346b88e1453885dbaa658510538e_b107ca01bd947cebe0bda5b8454009e37805f460a6715a9f5d9a6692ab58b970' }}  # owner chose to commit the key (cheap, private repo); a repo secret overrides it
+      - name: Jev flags every outlook, note and headline (cached; only new text is sent)
+        run: node scripts/jev-flags.mjs --live --if-key
+        env:
+          TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY || 'apikey_2116b470346b88e1453885dbaa658510538e_b107ca01bd947cebe0bda5b8454009e37805f460a6715a9f5d9a6692ab58b970' }}  # owner chose to commit the key (cheap, private repo); a repo secret overrides it
+      - name: Build projections (fails if a source came back thin)
+        run: node scripts/build-players.mjs
+      - name: Signals for the news job
+        run: node scripts/build-signals.mjs
       - name: Tests
         run: node --test tests/*.test.mjs
       - name: Commit
