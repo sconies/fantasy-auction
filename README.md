@@ -33,6 +33,37 @@ and `node scripts/simulate-h2h.mjs <season> --projected`.
   z-scores did nothing. G-scores are the default; plain z-scores are a switch in Setup.
 - Limits: snake draft as a stand-in for the auction, no position limits, everyone on a roster plays.
 
+## News pipeline (twice a day)
+
+```
+GitHub Actions, 1:30 pm and 11 pm Eastern (.github/workflows/data.yml)
+  collect   ESPN projections, depth charts, injuries, headlines; FantasyPros consensus and player news
+  Jev       reads every new text: absence length (tested 95% on hand labels) and 29 flags (96.5%)
+  build     projections, ESPN bias corrections, depth moves and big projection moves
+  signals   data/signals.json: what may need a judgement
+Claude routine, 2:15 pm and 11:45 pm Eastern (jobs/routine.md, jobs/news.md)
+  sizes the flagged items into proposals in data/adjustments.json, or skips them with a reason
+You, in the app's News tab
+  accept or reject; an accepted absence also gives its minutes to teammates
+```
+
+What the tests found (Setup → Data & value quality has the numbers):
+
+- **Jev's flags on preseason news don't beat ESPN.** 2,274 archived Rotowire preseason notes
+  (2022-23 to 2025-26, Wayback Machine) flagged by Jev, fitted against ESPN's projection misses one
+  season held out at a time (`scripts/fit-flags.mjs`). Per-36 rates: nothing above noise. Games: the
+  fit found effects pointing the wrong way (a minutes limit "adding" games), a healthy-player proxy, so
+  a direction check rejects them. ESPN already prices preseason news in. Jev's job is therefore to
+  **read news fast and route it** (absences, role changes) to proposals, not to move numbers itself.
+- **Kept: ESPN's average misses.** ESPN projects ~1.3 minutes a game too many and assists per 36
+  slightly low, every season; corrected in the build.
+- **Teammates gain when a starter sits** (`scripts/fit-cascade.mjs`, three seasons of weekly logs): each
+  same-position teammate picks up ~10-15% of his minutes, others ~7%, with a small scoring-rate rise.
+- **Playoff weeks 18-20** (mid-Feb to 21 Mar): players 32+ play 4-8% fewer games than before, under-25s
+  3-5% more; a small availability factor.
+- **Uncertainty:** 8 in 10 drafted players finish within about -$11/+$10 of their projected value; flag
+  tiers didn't change that, so the app shows one range.
+
 ## How values are made (`lib/value.mjs`)
 
 1. **Projections** (`scripts/build-players.mjs`): the last two seasons'
