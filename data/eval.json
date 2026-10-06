@@ -1,0 +1,117 @@
+{
+ "builtAt": "2026-10-06T07:21:53.442Z",
+ "method": "Project season T from T-1 and T-2, value it, compare with the same valuation of what happened in T",
+ "summary": [
+  {
+   "label": "naive: last season as it happened",
+   "seasons": [
+    2026
+   ],
+   "spearman": 0.456,
+   "maeDollars": 9.67,
+   "top50StayedTop75": 0.64,
+   "wastedShare": 0.169,
+   "unprojectedValue": 162
+  },
+  {
+   "label": "model (current settings)",
+   "seasons": [
+    2026
+   ],
+   "spearman": 0.489,
+   "maeDollars": 9.24,
+   "top50StayedTop75": 0.68,
+   "wastedShare": 0.159,
+   "unprojectedValue": 162
+  },
+  {
+   "label": "model, no age curve",
+   "seasons": [
+    2026
+   ],
+   "spearman": 0.47,
+   "maeDollars": 9.47,
+   "top50StayedTop75": 0.62,
+   "wastedShare": 0.167,
+   "unprojectedValue": 162
+  },
+  {
+   "label": "model, last season only",
+   "seasons": [
+    2026
+   ],
+   "spearman": 0.489,
+   "maeDollars": 9.24,
+   "top50StayedTop75": 0.68,
+   "wastedShare": 0.159,
+   "unprojectedValue": 162
+  },
+  {
+   "label": "model, seasons equal",
+   "seasons": [
+    2026
+   ],
+   "spearman": 0.489,
+   "maeDollars": 9.24,
+   "top50StayedTop75": 0.68,
+   "wastedShare": 0.159,
+   "unprojectedValue": 162
+  },
+  {
+   "label": "model, no games regression",
+   "seasons": [
+    2026
+   ],
+   "spearman": 0.477,
+   "maeDollars": 9.44,
+   "top50StayedTop75": 0.66,
+   "wastedShare": 0.159,
+   "unprojectedValue": 162
+  },
+  {
+   "label": "model, strong games regression",
+   "seasons": [
+    2026
+   ],
+   "spearman": 0.493,
+   "maeDollars": 9.16,
+   "top50StayedTop75": 0.66,
+   "wastedShare": 0.158,
+   "unprojectedValue": 162
+  }
+ ],
+ "detail": [
+  {
+   "target": 2026,
+   "variant": "model",
+   "n": 238,
+   "spearman": 0.489,
+   "maeDollars": 9.24,
+   "top50StayedTop75": 0.68,
+   "wastedShare": 0.159,
+   "unprojectedValue": 162,
+   "unprojected": [
+    "Cooper Flagg $26",
+    "VJ Edgecombe $22",
+    "Kon Knueppel $21",
+    "Saddiq Bey $15",
+    "Jay Huff $12",
+    "Cam Spencer $9",
+    "Derik Queen $5",
+    "Sandro Mamukelashvili $5"
+   ],
+   "biggestMisses": [
+    "Kawhi Leonard: projected $16, worth $65",
+    "Tyrese Haliburton: projected $47, worth $0",
+    "Nickeil Alexander-Walker: projected $0, worth $38",
+    "Tyrese Maxey: projected $33, worth $68",
+    "Damian Lillard: projected $30, worth $0",
+    "Donovan Clingan: projected $3, worth $33",
+    "Scottie Barnes: projected $22, worth $51",
+    "Jayson Tatum: projected $39, worth $10",
+    "Domantas Sabonis: projected $32, worth $4",
+    "Kyrie Irving: projected $27, worth $0"
+   ]
+  }
+ ]
+}

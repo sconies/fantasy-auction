@@ -1,0 +1,20 @@
+name: Snapshot raw sources
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: node scripts/fetch-sources.mjs
+      - run: for s in 2021 2022 2023 2024; do node scripts/fetch-stats.mjs $s; done
+      - name: Commit to the sources-snapshot branch
+        run: |
+          git config user.name "data-bot"; git config user.email "data-bot@users.noreply.github.com"
+          git checkout -B sources-snapshot
+          git add -f data/sources data/raw
+          git commit -m "Raw source snapshot $(date -u +%F\ %H:%M)"
+          git push -f origin sources-snapshot
