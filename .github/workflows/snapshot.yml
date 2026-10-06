@@ -2,12 +2,16 @@ name: Snapshot raw sources
 on: workflow_dispatch
 permissions:
   contents: write
+concurrency:
+  group: writes-to-main
+  cancel-in-progress: false
+
 jobs:
   snapshot:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with: { node-version: 22 }
       - run: node scripts/fetch-sources.mjs
       - run: node scripts/fetch-espn-history.mjs 2026 2025 2024 2023
