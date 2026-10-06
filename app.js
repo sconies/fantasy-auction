@@ -19,8 +19,9 @@ let S = blank();
 try { S = { ...S, ...JSON.parse(localStorage.getItem(KEY) || '{}') }; } catch {}
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch {} };
 
-let league, built, news, claudeAdj, evalData, qa, roles, tau, h2h, jev, jevTest;
+let league, built, news, claudeAdj, evalData, qa, roles, tau, h2h, jev, jevTest, cascade, flagEval, flagTest;
 let tab = 'ranks';
+let lastCascade = new Map();
 let ranked = [], byId = new Map();
 
 const loadJson = async (f, fallback) => { try { const r = await fetch(f, { cache: 'no-cache' }); return r.ok ? await r.json() : fallback; } catch { return fallback; } };
@@ -34,6 +35,9 @@ async function init() {
   tau = (await loadJson('data/model/tau.json', null))?.tau ?? null;
   jev = (await loadJson('data/jev/injuries.json', null))?.byName ?? {};
   jevTest = await loadJson('data/jev/test-injuries.json', null);
+  cascade = (await loadJson('data/model/cascade.json', null))?.model ?? null;
+  flagEval = await loadJson('data/eval-flags.json', null);
+  flagTest = await loadJson('data/jev/test-flags.json', null);
   h2h = (await Promise.all([2026, 2025, 2024].map(y => loadJson(`data/eval-h2h-${y}-projected.json`, null)))).filter(Boolean);
   document.querySelectorAll('#tabs button').forEach(b => b.onclick = () => { tab = b.dataset.tab; render(); });
   $('#sheet').onclick = e => { if (e.target.id === 'sheet') closeSheet(); };
@@ -89,13 +93,45 @@ function adjustmentsFor(id, proposals) {
   return list;
 }
 
+// When a player is out, his minutes go to teammates in the shares measured on three seasons of game logs
+// (data/model/cascade.json): same-position teammates by their place in the pecking order, others less.
+const GROUP = p => ({ PG: 'G', SG: 'G', SF: 'W', PF: 'B', C: 'B' }[(p.pos ?? [])[0]] ?? 'W');
+function cascadeAdjustments(proposals) {
+  const out = new Map();
+  if (!cascade || S.cascade === 'off') return out;
+  const base = new Map(basePlayers().map(p => [p.id, p]));
+  for (const a of proposals) {
+    if (S.decisions[a.id] !== 'accepted') continue;
+    const A = base.get(a.playerId);
+    if (!A || !(A.min >= 20)) continue;
+    const missed = a.games != null ? Math.max(0, A.projG - a.games) : a.gamesDelta < 0 ? -a.gamesDelta : 0;
+    if (!missed) continue;
+    const mates = basePlayers().filter(b => b.team === A.team && b.id !== A.id && b.min >= 8);
+    const same = mates.filter(b => GROUP(b) === GROUP(A)).sort((x, y) => y.min - x.min);
+    for (const B of mates) {
+      const r = GROUP(B) === GROUP(A) ? same.indexOf(B) + 1 : 0;
+      const slot = r === 1 ? cascade.sameGroupRank1 : r === 2 ? cascade.sameGroupRank2 : r >= 3 ? cascade.sameGroupRank3plus : cascade.otherGroup;
+      const share = Math.max(0, slot?.minutesShare ?? 0);
+      const extraMin = A.min * share * Math.min(missed, B.projG) / 82; // averaged over his season
+      if (extraMin < 0.05) continue;
+      const list = out.get(B.id) ?? [];
+      list.push({ minutesMult: (B.min + extraMin) / B.min, cascadeFrom: A.name, extraMin, missed });
+      out.set(B.id, list);
+    }
+  }
+  return out;
+}
+
 function valuesWith(proposals, punt = S.punt) {
-  const players = basePlayers().map(p => applyAdjustments(p, adjustmentsFor(p.id, proposals)));
+  const cas = cascadeAdjustments(proposals);
+  const players = basePlayers().map(p => applyAdjustments(p, [...adjustmentsFor(p.id, proposals), ...(cas.get(p.id) ?? [])]));
+
   // G-scores by default: they won 61-66% of simulated weeks against plain z-scores (Setup → Data & value quality).
   return computeValues(players, { league, punt, tau: S.formula === 'z' ? null : tau });
 }
 
 function recompute() {
+  lastCascade = cascadeAdjustments(allProposals());
   ranked = valuesWith(allProposals());
   byId = new Map(ranked.map(p => [p.id, p]));
 }
@@ -205,6 +241,7 @@ function openPlayer(id) {
     <h3>Role and sources</h3>
     <div class="muted">${esc(depthLabel(p))} on the ESPN depth chart · projection: ${esc({ blend: '75% ESPN + 25% stats model', espn: 'ESPN only', model: 'stats model only', manual: 'entered by hand' }[p.source] ?? '')}</div>
     ${sourcesTable(p)}
+    ${lastCascade.get(id)?.length ? `<div class="muted up">${lastCascade.get(id).map(c => `+${c.extraMin.toFixed(1)} min a game over the season while ${esc(c.cascadeFrom)} is out (${c.missed} games)`).join('<br>')}</div>` : ''}
     ${p.flags?.length ? `<div class="warn">${p.flags.map(f => `<div>⚑ ${esc(f)}</div>`).join('')}</div>` : ''}
     ${p.notes?.length ? `<div class="muted">${p.notes.map(esc).join(' ')}</div>` : ''}
     ${p.outlook ? `<details><summary class="muted">ESPN outlook</summary><div class="muted">${esc(p.outlook)}</div></details>` : ''}

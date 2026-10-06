@@ -9,6 +9,8 @@ import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { normName } from '../lib/value.mjs';
 import { projectAll, STATS } from '../lib/project.mjs';
 import { parseEspnPlayers, parseFantasyPros, depthIndex } from '../lib/sources.mjs';
+import { applyFlagEffects, TARGETS } from '../lib/flag-effects.mjs';
+import { FLAG_KEYS, FLAGS } from '../lib/flags.mjs';
 
 export const ESPN_WEIGHT = 0.75;
 const json = f => (existsSync(f) ? JSON.parse(readFileSync(f, 'utf8')) : null);
@@ -29,6 +31,22 @@ const bbById = new Map(bbCur.map(r => [r.id, r]));
 const model = new Map(projectAll(bbCur, bbOld).map(p => [normName(p.name), p]));
 const r1 = x => +(+x).toFixed(2);
 
+// Jev's flags on this season's text (outlooks, injury notes, headlines, FantasyPros news): the strongest
+// mention of each flag per player. The fitted effects apply only if they beat ESPN on held-out seasons.
+const liveFlags = new Map(Object.entries(json('data/jev/flags.json')?.players ?? {}).map(([k, v]) => {
+  const x = { has_news: 1 };
+  for (const f of FLAG_KEYS) x[f] = Math.max(0, ...v.texts.map(t => t.flags?.[f] ?? 0));
+  return [k, x];
+}));
+const effects = json('data/model/flag-effects.json');
+const flagEval = json('data/eval-flags.json');
+const useFlagEffects = !!(effects && flagEval?.decision?.use);
+const effectsLabel = flagEval?.decision?.useFlags ? 'adjusted by fitted Jev flag effects' : 'corrected for ESPN\'s average misses';
+const risk = json('data/model/risk.json');
+// Playoff weeks (18-20, mid-Feb to 21 Mar): over 2023-24..2025-26 players 32+ played 4-8% fewer games
+// in them than before, under-25s 3-5% more. Those weeks decide the title, so they count a little extra.
+const playoffFactor = age => (age == null ? 1 : age >= 32 ? 0.985 : age < 25 ? 1.008 : 1);
+
 const players = [];
 const seen = new Set();
 for (const e of espn) {
@@ -44,9 +62,20 @@ for (const e of espn) {
     p[s] = src === 'blend' ? ESPN_WEIGHT * e.proj[s] + (1 - ESPN_WEIGHT) * m[s] : (e.proj ?? m)[s];
     p[s] = s === 'projG' ? Math.round(p[s]) : r1(p[s]);
   }
+  const x = liveFlags.get(key) ?? null;
+  if (x) p.jevFlags = Object.fromEntries(FLAG_KEYS.filter(k => x[k] >= 0.5).map(k => [k, +x[k].toFixed(2)]));
+  if (useFlagEffects) {
+    const before = { ...p };
+    Object.assign(p, applyFlagEffects(p, x, effects.model));
+    p.flagEffect = { games: p.projG - before.projG, min: r1(p.min - before.min), pts: r1(p.pts - before.pts), reb: r1(p.reb - before.reb), ast: r1(p.ast - before.ast),
+      tpm: r1(p.tpm - before.tpm), stl: r1(p.stl - before.stl), blk: r1(p.blk - before.blk), tov: r1(p.tov - before.tov) };
+    for (const s of STATS) p[s] = r1(p[s]);
+  }
+  if (risk) p.risk = riskTier(x);
   const f = fp.get(key), d = depth.get(e.espnId), bb = m && bbById.get(m.id);
   p.pos = positions[e.espnId] ?? (f?.pos?.length ? f.pos : e.pos.length ? e.pos : (m ? [bb?.pos].filter(Boolean) : []));
   p.age = m?.age ?? null;
+  p.playoffFactor = playoffFactor(p.age);
   p.depth = d ? { pos: d.pos, rank: d.rank, starter: d.starter } : null;
   p.market = e.market.espnAvgAuction ? +e.market.espnAvgAuction.toFixed(1) : null;
   p.marketSource = 'ESPN average auction price';
@@ -71,6 +100,12 @@ for (const [key, m] of model) {
 }
 for (const x of extra) players.push({ projG: 70, source: 'manual', flags: [], ...x });
 
+// Risk tier from the flags, with the dollar range measured for that tier in the backtest (data/model/risk.json).
+function riskTier(x) {
+  const hit = t => !t.anyOf.length || t.anyOf.some(f => (x?.[f] ?? 0) >= t.threshold);
+  const t = risk.tiers.find(hit) ?? risk.tiers[risk.tiers.length - 1];
+  return { tier: t.name, low: t.low, high: t.high };
+}
 function flags(p, e, m, f, d, bb) {
   const out = [];
   if (!m) out.push(e.last ? 'Too few minutes last season for the stats model: projection is ESPN only.' : 'No NBA stats yet (rookie or returning from abroad): projection is ESPN only.');
@@ -104,7 +139,24 @@ if (qa.counts.depthChartPlayers < 400) problems.push(`depth charts cover only ${
 if (qa.starters < 140) problems.push(`only ${qa.starters} starters on depth charts`);
 qa.problems = problems;
 
-writeFileSync('data/players.json', JSON.stringify({ builtAt: qa.builtAt, season, method: `${ESPN_WEIGHT * 100}% ESPN projection + ${100 - ESPN_WEIGHT * 100}% stats model`, players }) + '\n');
+// Big projection moves since the last build (ESPN updates its projections through preseason).
+const old = new Map((json('data/players.json')?.players ?? []).map(q => [q.id, q]));
+{
+  const log = json('data/projection-changes.json') ?? { changes: [] };
+  const today = new Date().toISOString().slice(0, 10);
+  for (const p of players) {
+    const o = old.get(p.id);
+    if (!o) continue;
+    const parts = [];
+    if (Math.abs(p.min - o.min) >= 2) parts.push(`minutes ${o.min.toFixed(1)} → ${p.min.toFixed(1)}`);
+    if (Math.abs(p.projG - o.projG) >= 8) parts.push(`games ${o.projG} → ${p.projG}`);
+    if (o.team && p.team && o.team !== p.team) parts.push(`team ${o.team} → ${p.team}`);
+    if (parts.length) log.changes.push({ date: today, playerId: p.id, name: p.name, team: p.team, summary: parts.join(', ') });
+  }
+  log.changes = log.changes.slice(-400);
+  writeFileSync('data/projection-changes.json', JSON.stringify(log, null, 1) + '\n');
+}
+writeFileSync('data/players.json', JSON.stringify({ builtAt: qa.builtAt, season, method: `${ESPN_WEIGHT * 100}% ESPN projection + ${100 - ESPN_WEIGHT * 100}% stats model${useFlagEffects ? `, ${effectsLabel}` : ''}`, flagEffects: useFlagEffects, players }) + '\n');
 writeFileSync('data/qa.json', JSON.stringify(qa, null, 1) + '\n');
 // Role changes: compare with the depth charts from the previous run and log who moved in or out of the lineup.
 const before = json('data/depth.json')?.players ?? null;

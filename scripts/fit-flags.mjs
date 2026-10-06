@@ -100,39 +100,82 @@ for (const lambda of LAMBDAS) {
   }
   results.push({ lambda, err });
 }
-// Pick the penalty with the lowest total held-out error relative to ESPN, summed over targets.
-const gain = r => TARGETS.reduce((s, t) => s + (r.err[t].flags / r.err[t].espn), 0);
+// Pick the penalty with the lowest held-out error relative to the bias-only correction: flags must earn
+// their place against "ESPN plus its average miss", not against raw ESPN.
+const gain = r => TARGETS.reduce((s, t) => s + (r.err[t].flags / r.err[t].bias), 0);
 const best = results.reduce((a, b) => (gain(b) < gain(a) ? b : a));
 const lambda = best.lambda;
+// Per stat: no correction, bias only, or bias plus flags, whichever wins on held-out seasons. Flags need
+// a 1% edge over bias only, bias a 0.5% edge over nothing (a random-flag dry run passes neither).
+const choice = Object.fromEntries(TARGETS.map(t => {
+  const e = best.err[t];
+  if (e.flags < 0.99 * e.bias && e.flags < e.espn) return [t, 'flags'];
+  if (e.bias < 0.995 * e.espn) return [t, 'bias'];
+  return [t, 'none'];
+}));
+const restrict = (m, withFlags) => Object.fromEntries(TARGETS.map(t => [t, choice[t] === 'none' ? { intercept: 0, effects: {} }
+  : choice[t] === 'bias' || !withFlags ? { intercept: m[t].intercept, effects: {} } : m[t]]));
 
-// End to end: held-out ESPN projections with and without the flag effects, scored like every backtest.
+// End to end: held-out ESPN projections as is, with the bias corrections, and with bias plus flags.
 const flagsFor = T => {
   const m = new Map();
   for (const r of all.filter(r => r.T === T)) m.set(normName(r.name), r.x);
   return m;
 };
+const short = r => ({ spearman: +r.spearman.toFixed(3), mae: +r.maeDollars.toFixed(2) });
 const valueTest = [];
 for (const h of SEASONS) {
   const m = fitModel(all.filter(r => r.T !== h), SEASONS.filter(T => T !== h), lambda);
   const base = projections.espn(h), x = flagsFor(h);
-  const adjusted = new Map([...base].map(([k, p]) => [k, applyFlagEffects(p, x.get(k) ?? null, m)]));
-  const a = score(h, base), b = score(h, adjusted);
-  valueTest.push({ season: h, espn: { spearman: +a.spearman.toFixed(3), mae: +a.maeDollars.toFixed(2) }, espnPlusFlags: { spearman: +b.spearman.toFixed(3), mae: +b.maeDollars.toFixed(2) } });
+  const withModel = mm => new Map([...base].map(([k, p]) => [k, applyFlagEffects(p, x.get(k) ?? null, mm)]));
+  valueTest.push({ season: h, espn: short(score(h, base)), espnPlusBias: short(score(h, withModel(restrict(m, false)))), espnPlusFlags: short(score(h, withModel(restrict(m, true)))) });
 }
+const meanOf = (k, f) => valueTest.reduce((s, v) => s + v[k][f], 0) / valueTest.length;
+const beats = (a, b) => meanOf(a, 'mae') < meanOf(b, 'mae') && meanOf(a, 'spearman') >= meanOf(b, 'spearman') - 0.002;
+const decision = {
+  useFlags: Object.values(choice).includes('flags') && beats('espnPlusFlags', 'espnPlusBias'),
+  useBias: Object.values(choice).includes('bias') && beats('espnPlusBias', 'espn'),
+  choice,
+  mean: Object.fromEntries(['espn', 'espnPlusBias', 'espnPlusFlags'].map(k => [k, { spearman: +meanOf(k, 'spearman').toFixed(3), mae: +meanOf(k, 'mae').toFixed(2) }])),
+};
+decision.use = decision.useFlags || decision.useBias;
+console.log('decision', JSON.stringify(decision));
 
-const final = fitModel(all, SEASONS, lambda);
+// Risk: the spread of held-out dollar misses (what happened minus the projection) for players projected
+// to be drafted, by tier. The app shows a player's value with his tier's 10th-90th percentile range.
+const TIERS = [
+  { name: 'injury', label: 'Injury risk', anyOf: ['absence', 'recovering', 'injury_history', 'minutes_limit', 'load_managed'], threshold: 0.5 },
+  { name: 'role', label: 'Role in flux', anyOf: ['competition', 'new_team', 'role_up', 'role_down', 'breakout', 'opening', 'crowded', 'starter', 'bench', 'out_of_rotation'], threshold: 0.5 },
+  { name: 'steady', label: 'Steady', anyOf: [], threshold: 0.5 },
+];
+const tierOf = x => TIERS.find(t => !t.anyOf.length || t.anyOf.some(f => (x?.[f] ?? 0) >= t.threshold));
+const resid = Object.fromEntries(TIERS.map(t => [t.name, []]));
+for (const h of SEASONS) {
+  const m = fitModel(all.filter(r => r.T !== h), SEASONS.filter(T => T !== h), lambda);
+  const base = projections.espn(h), x = flagsFor(h);
+  const mm = decision.useFlags ? restrict(m, true) : decision.useBias ? restrict(m, false) : null;
+  const adjusted = mm ? new Map([...base].map(([k, p]) => [k, applyFlagEffects(p, x.get(k) ?? null, mm)])) : base;
+  for (const pr of score(h, adjusted).pairs.filter(p => p.projRank && p.projRank <= 182)) resid[tierOf(x.get(normName(pr.name))).name].push(pr.act - pr.proj);
+}
+const q = (a, p) => { const s = [...a].sort((x, y) => x - y); return s.length ? s[Math.min(s.length - 1, Math.floor(p * s.length))] : 0; };
+const riskModel = { builtAt: new Date().toISOString(), seasons: SEASONS, note: 'low/high = 10th/90th percentile of (actual $ - projected $) on held-out seasons, players projected top 182',
+  tiers: TIERS.map(t => ({ ...t, players: resid[t.name].length, low: Math.round(q(resid[t.name], 0.1)), median: Math.round(q(resid[t.name], 0.5)), high: Math.round(q(resid[t.name], 0.9)) })) };
+writeFileSync('data/model/risk.json', JSON.stringify(riskModel, null, 1) + '\n');
+console.table(riskModel.tiers.map(t => ({ tier: t.label, players: t.players, '10th pct': t.low, median: t.median, '90th pct': t.high })));
+
+const final = restrict(fitModel(all, SEASONS, lambda), decision.useFlags);
 const reduction = Object.fromEntries(TARGETS.map(t => {
   const e = best.err[t];
-  return [t, { players: e.n, errorVsEspn: +(1 - e.flags / e.espn).toFixed(4), errorVsEspnPlusBias: +(1 - e.flags / e.bias).toFixed(4) }];
+  return [t, { players: e.n, choice: choice[t], biasVsEspn: +(1 - e.bias / e.espn).toFixed(4), flagsVsBias: +(1 - e.flags / e.bias).toFixed(4) }];
 }));
 mkdirSync('data/model', { recursive: true });
 writeFileSync('data/model/flag-effects.json', JSON.stringify({ builtAt: new Date().toISOString(), seasons: SEASONS, lambda, players: all.length,
   note: 'Effect of each Jev flag (probability 0-1) on ESPN projection misses. games: games played; min: minutes per game; *36: per-36-minute rates; fgPct/ftPct: percentage points (0-1). Intercept = ESPN average miss.', model: final }, null, 1) + '\n');
 writeFileSync('data/eval-flags.json', JSON.stringify({ builtAt: new Date().toISOString(), seasons: SEASONS, lambda,
-  method: 'Leave one season out. Squared-error reduction on held-out seasons versus ESPN as is, and versus ESPN corrected only for its average miss. A flag is used only when its effect keeps its sign in every training season.',
-  heldOutErrorReduction: reduction, valueTest, lambdas: results.map(r => ({ lambda: r.lambda, score: +gain(r).toFixed(4) })) }, null, 1) + '\n');
+  method: 'Leave one season out. Per stat, choose no correction, ESPN bias only, or bias plus Jev flags by held-out squared error (flags need a 1% edge over bias). Flags are switched on only if the value backtest with them beats bias-only on held-out seasons. A flag enters a stat only when its effect keeps its sign in every training season.',
+  decision, heldOutErrorReduction: reduction, valueTest, lambdas: results.map(r => ({ lambda: r.lambda, score: +gain(r).toFixed(4) })) }, null, 1) + '\n');
 
 console.log(`players ${all.length} (${all.filter(r => r.x.has_news).length} with preseason news), seasons ${SEASONS.join(',')}, lambda ${lambda}`);
-console.table(Object.fromEntries(Object.entries(reduction).map(([t, v]) => [t, { n: v.players, 'vs ESPN': `${(v.errorVsEspn * 100).toFixed(1)}%`, 'vs ESPN+bias': `${(v.errorVsEspnPlusBias * 100).toFixed(1)}%` }])));
-console.table(valueTest.map(v => ({ season: v.season, 'ESPN rho': v.espn.spearman, '+flags rho': v.espnPlusFlags.spearman, 'ESPN MAE': v.espn.mae, '+flags MAE': v.espnPlusFlags.mae })));
+console.table(Object.fromEntries(Object.entries(reduction).map(([t, v]) => [t, { n: v.players, choice: v.choice, 'bias vs ESPN': `${(v.biasVsEspn * 100).toFixed(1)}%`, 'flags vs bias': `${(v.flagsVsBias * 100).toFixed(1)}%` }])));
+console.table(valueTest.map(v => ({ season: v.season, 'ESPN rho': v.espn.spearman, '+bias rho': v.espnPlusBias.spearman, '+flags rho': v.espnPlusFlags.spearman, 'ESPN MAE': v.espn.mae, '+bias MAE': v.espnPlusBias.mae, '+flags MAE': v.espnPlusFlags.mae })));
 for (const t of TARGETS) { const e = Object.entries(final[t].effects).filter(([, v]) => Math.abs(v) > 1e-3).sort((a, b) => Math.abs(b[1]) - Math.abs(a[1])); console.log(t.padEnd(7), 'bias', final[t].intercept, '|', e.map(([f, v]) => `${f} ${v > 0 ? '+' : ''}${v}`).join(', ')); }
