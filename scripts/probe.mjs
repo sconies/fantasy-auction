@@ -1,27 +1,30 @@
-// Diagnostic: where can we get past seasons' preseason player text? Not part of the data job.
+// Diagnostic: how much archived preseason player text exists on the Wayback Machine. Not part of the data job.
 const UA = { 'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36' };
-const espn = async (season, view) => {
-  const f = { players: { filterIds: { value: [3112335, 4066261, 4278073] } } };
-  const r = await fetch(`https://lm-api-reads.fantasy.espn.com/apis/v3/games/fba/seasons/${season}/segments/0/leaguedefaults/3?view=${view}`, { headers: { ...UA, 'x-fantasy-filter': JSON.stringify(f) } });
-  const d = await r.json().catch(() => ({}));
-  console.log('espn', season, view, r.status, (d.players ?? []).map(p => `${p.player?.fullName}: ${(p.player?.seasonOutlook ?? '').slice(0, 80)}`).join(' | '));
+const cdx = async (url, match, from, to) => {
+  const q = `https://web.archive.org/cdx/search/cdx?url=${encodeURIComponent(url)}&matchType=${match}&from=${from}&to=${to}&output=json&filter=statuscode:200&fl=timestamp,original&limit=20000`;
+  for (let i = 0; i < 3; i++) { try { const r = await fetch(q, { headers: UA, signal: AbortSignal.timeout(60000) }); if (r.ok) return (await r.json()).slice(1); } catch {} await new Promise(r => setTimeout(r, 4000)); }
+  return null;
 };
-for (const v of ['kona_playercard', 'kona_player_info', 'players_wl', 'kona_player_outlook']) await espn(2025, v);
-// Wayback snapshots of Rotowire NBA news, preseason 2024
-for (const url of ['rotowire.com/basketball/news.php', 'www.rotowire.com/basketball/news.php', 'www.cbssports.com/fantasy/basketball/players/news/all/', 'www.fantasypros.com/nba/news/']) {
-  const r = await fetch(`https://web.archive.org/cdx/search/cdx?url=${encodeURIComponent(url)}&from=20240901&to=20241025&output=json&filter=statuscode:200&collapse=timestamp:8`, { headers: UA });
-  const rows = await r.json().catch(() => []);
-  console.log('wayback', url, r.status, rows.length - 1, 'daily snapshots', rows.slice(1, 3).map(x => x[1]).join(','));
-  if (rows.length > 1) {
-    const ts = rows[1][1];
-    const page = await fetch(`https://web.archive.org/web/${ts}id_/https://${url}`, { headers: UA });
-    const html = await page.text();
-    const m = html.replace(/\s+/g, ' ').match(/.{0,200}(will start|ruled out|expected to miss|minutes).{0,200}/i);
-    console.log('  page', page.status, html.length, 'bytes; sample:', m?.[0]?.replace(/<[^>]+>/g, ' ').slice(0, 300));
+for (const yr of [2022, 2023, 2024, 2025]) {
+  const from = `${yr}0901`, to = `${yr}1022`;
+  const targets = [
+    ['cbs news all (any page)', 'www.cbssports.com/fantasy/basketball/players/news/', 'prefix'],
+    ['cbs player pages', 'www.cbssports.com/nba/players/', 'prefix'],
+    ['rotowire player pages', 'www.rotowire.com/basketball/player/', 'prefix'],
+    ['fantasypros nba news', 'www.fantasypros.com/nba/news/', 'prefix'],
+    ['fantasypros player news', 'www.fantasypros.com/nba/players/', 'prefix'],
+  ];
+  for (const [label, url, m] of targets) {
+    const rows = await cdx(url, m, from, to);
+    const uniq = rows ? new Set(rows.map(r => r[1].split('?')[0])).size : null;
+    console.log(yr, label, rows ? `${rows.length} captures, ${uniq} distinct pages, e.g. ${rows.slice(0, 2).map(r => r[1]).join(' ')}` : 'CDX failed');
   }
 }
-// FantasyPros live news page
-const fp = await fetch('https://www.fantasypros.com/nba/news/', { headers: UA }); const fh = await fp.text();
-console.log('fantasypros news', fp.status, fh.length, (fh.replace(/\s+/g, ' ').match(/.{0,150}(will start|ruled out|expected to miss|minutes).{0,150}/i)?.[0] ?? '').replace(/<[^>]+>/g, ' '));
-const rw = await fetch('https://www.rotowire.com/basketball/news.php', { headers: UA }); const rh = await rw.text();
-console.log('rotowire news', rw.status, rh.length, (rh.replace(/\s+/g, ' ').match(/.{0,150}(will start|ruled out|expected to miss|minutes).{0,150}/i)?.[0] ?? '').replace(/<[^>]+>/g, ' '));
+// What does a CBS player page hold?
+const rows = await cdx('www.cbssports.com/nba/players/', 'prefix', '20240901', '20241022');
+const pick = rows?.find(r => /\/nba\/players\/\d+\//.test(r[1]));
+if (pick) {
+  const html = await (await fetch(`https://web.archive.org/web/${pick[0]}id_/${pick[1]}`, { headers: UA })).text();
+  const t = html.replace(/<script[\s\S]*?<\/script>/g, '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ');
+  console.log('CBS player page', pick[1], html.length, t.match(/.{0,100}(Fantasy|outlook|Outlook|Latest).{0,500}/)?.[0]);
+}
