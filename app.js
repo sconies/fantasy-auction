@@ -1,3 +1,4 @@
+import { FLAGS } from './lib/flags.mjs';
 import { CATS, CAT_LABEL, applyAdjustments, computeValues, draftState, categoryTotals, fitScore, tierOf, normName } from './lib/value.mjs';
 
 const KEY = 'fa:v1';
@@ -19,7 +20,7 @@ let S = blank();
 try { S = { ...S, ...JSON.parse(localStorage.getItem(KEY) || '{}') }; } catch {}
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch {} };
 
-let league, built, news, claudeAdj, evalData, qa, roles, tau, h2h, jev, jevTest, cascade, flagEval, flagTest;
+let league, built, news, claudeAdj, evalData, qa, roles, tau, h2h, jev, jevTest, cascade, flagEval, flagTest, signals, newsRun, riskModel;
 let tab = 'ranks';
 let lastCascade = new Map();
 let ranked = [], byId = new Map();
@@ -38,6 +39,9 @@ async function init() {
   cascade = (await loadJson('data/model/cascade.json', null))?.model ?? null;
   flagEval = await loadJson('data/eval-flags.json', null);
   flagTest = await loadJson('data/jev/test-flags.json', null);
+  signals = await loadJson('data/signals.json', { signals: [] });
+  newsRun = await loadJson('data/news-run.json', null);
+  riskModel = await loadJson('data/model/risk.json', null);
   h2h = (await Promise.all([2026, 2025, 2024].map(y => loadJson(`data/eval-h2h-${y}-projected.json`, null)))).filter(Boolean);
   document.querySelectorAll('#tabs button').forEach(b => b.onclick = () => { tab = b.dataset.tab; render(); });
   $('#sheet').onclick = e => { if (e.target.id === 'sheet') closeSheet(); };
@@ -166,7 +170,7 @@ function playerRow(p, { right, drafted } = {}) {
 function defaultMoney(p) {
   const m = mine(p), mk = marketOf(p);
   const d = m - p.dollars;
-  return `<div class="big">${money(m)}</div><div class="small">${d ? `model ${money(p.dollars)} ` : ''}${mk != null ? `mkt ${money(mk)}` : ''}</div>`;
+  return `<div class="big">${money(m)}</div><div class="small">${p.risk && m > 0 ? `${money(Math.max(0, m + p.risk.low))}–${money(m + p.risk.high)} ` : ''}${d ? `model ${money(p.dollars)} ` : ''}${mk != null ? `mkt ${money(mk)}` : ''}</div>`;
 }
 const bindOpen = root => root.querySelectorAll('[data-open]').forEach(el => el.onclick = () => openPlayer(el.dataset.open));
 
@@ -238,6 +242,7 @@ function openPlayer(id) {
     <div class="muted">${line('min')} min · ${line('pts')} pts · ${line('reb')} reb · ${line('ast')} ast · ${line('stl')} stl · ${line('blk')} blk · ${line('tpm')} 3pm · ${line('tov')} to ·
       FG ${(100 * p.fgm / (p.fga || 1)).toFixed(1)}% on ${line('fga')} · FT ${(100 * p.ftm / (p.fta || 1)).toFixed(1)}% on ${line('fta')}</div>
     ${base.hist ? `<div class="muted">Last season: ${Object.entries(base.hist).map(([y, h]) => `${h.team ?? ''} ${h.g}g ${(+h.min).toFixed(0)}m ${(+h.pts).toFixed(1)}p`).join(' · ')}</div>` : ''}
+    ${jevSection(p)}
     <h3>Role and sources</h3>
     <div class="muted">${esc(depthLabel(p))} on the ESPN depth chart · projection: ${esc({ blend: '75% ESPN + 25% stats model', espn: 'ESPN only', model: 'stats model only', manual: 'entered by hand' }[p.source] ?? '')}</div>
     ${sourcesTable(p)}
@@ -271,6 +276,18 @@ function openPlayer(id) {
   };
   $('#o-clear').onclick = () => { delete S.overrides[id]; save(); recompute(); closeSheet(); render(); };
   bindDecisions($('#sheetBody'), () => openPlayer(id));
+}
+const flagLabel = k => (FLAGS[k]?.q ?? k).replace(/^(says|describes|highlights|mentions) (that )?(the player('s)? )?/, '').replace(/^the player /, '');
+function jevSection(p) {
+  const flags = Object.entries(p.jevFlags ?? {}).sort((a, b) => b[1] - a[1]);
+  const e = p.flagEffect;
+  const moved = e && Object.entries(e).filter(([, v]) => Math.abs(v) >= (v === e.games ? 1 : 0.05));
+  const tier = p.risk && riskModel?.tiers.find(t => t.name === p.risk.tier);
+  if (!flags.length && !moved?.length && !tier) return '';
+  return `<h3>What the news says</h3>
+    ${flags.length ? `<div class="chips">${flags.map(([k, v]) => `<span class="chip" title="${esc(FLAGS[k]?.q ?? '')}">${esc(flagLabel(k))} · ${Math.round(v * 100)}%</span>`).join('')}</div>` : '<div class="muted">Jev found nothing notable in his news.</div>'}
+    ${moved?.length ? `<div class="muted" style="margin-top:6px">Effect on his projection (fitted on four past seasons): ${moved.map(([k, v]) => `${k === 'games' ? 'games' : k} ${v > 0 ? '+' : ''}${k === 'games' ? v : v.toFixed(2)}`).join(', ')}</div>` : ''}
+    ${tier ? `<div class="muted" style="margin-top:6px">${esc(tier.label)}: in past seasons players like this finished between ${money(tier.low)} and +${money(tier.high)} of their projection (8 in 10 did).</div>` : ''}`;
 }
 function sourcesTable(p) {
   const rows = [['ESPN', p.sources?.espn], ['Stats model', p.sources?.model], ['FantasyPros', p.sources?.fp]].filter(([, v]) => v);
@@ -318,6 +335,7 @@ function renderNews() {
   const decided = props.filter(a => S.decisions[a.id]);
   const inj = (news.injuries ?? []).filter(i => basePlayers().some(p => normName(p.name) === normName(i.name)));
   $('#view').innerHTML = `
+    ${newsCheckPanel()}
     <div class="panel"><h2>Proposed changes (${pending.length})</h2>
       <div class="muted">From the injury report (games missed until the expected return) and from the news job. Accepting changes the player's games or minutes, and every value is recalculated.</div>
       ${pending.map(proposalHtml).join('') || '<div class="empty">Nothing waiting.</div>'}</div>
@@ -491,6 +509,17 @@ function renderSettings() {
   $('#s-import').onclick = () => { const j = prompt('Paste a backup'); if (!j) return; try { S = { ...blank(), ...JSON.parse(j) }; save(); recompute(); render(); } catch { alert('That is not a backup'); } };
 }
 
+function newsCheckPanel() {
+  const list = (signals?.signals ?? []).filter(x => byId.has(x.playerId));
+  const fresh = list.filter(x => x.status === 'new');
+  const when = d => (d ? new Date(d).toLocaleString([], { weekday: 'short', hour: 'numeric', minute: '2-digit' }) : 'never');
+  return `<div class="panel"><h2>News check</h2>
+    <div class="muted">Data refreshed ${esc(when(signals?.builtAt))} · Claude's last read ${esc(when(newsRun?.ranAt))}${newsRun?.ranAt ? `: ${newsRun.proposed} proposed, ${newsRun.skipped} skipped${newsRun.note ? ` (${esc(newsRun.note)})` : ''}` : ''}. Runs at 1:30 pm and 11 pm Eastern.</div>
+    ${list.length ? `<h3>Flagged by Jev (${fresh.length} new)</h3>${list.slice(0, 30).map(x => `<div class="news-item" data-open="${esc(x.playerId)}">
+      <b>${esc(x.name)}</b> <span class="muted">${esc(x.team ?? '')} · ${esc(x.kind)} · ${esc(String(x.date).slice(0, 10))}</span>${x.status === 'new' ? ' <span class="tag flag">new</span>' : ''}
+      <div class="muted">${esc(x.summary)}</div>${x.handledNote ? `<div class="muted">→ ${esc(x.handledNote)}</div>` : ''}</div>`).join('')}` : ''}
+  </div>`;
+}
 function qualityPanel() {
   const rows = (evalData?.summary ?? []).filter(s => s.spearman != null);
   const c = qa?.counts;
@@ -505,6 +534,11 @@ function qualityPanel() {
       ${h2h[0].results.map((row, i) => `<tr><td>${esc(row.formula)}</td>${h2h.map(r => `<td class="num">${Math.round(r.results[i].matchupWinRate * 100)}%</td>`).join('')}</tr>`).join('')}</table>
     <div class="muted" style="margin-top:6px">Weeks won by one team drafting with each formula from preseason projections against 13 teams using plain z-scores, replaying the real season's weekly stats. 50% = no better.</div>` : ''}
     ${jevTest ? `<h3>Jev reading injury notes</h3><div class="muted">${Math.round(jevTest.accuracyClear * 100)}% right on ${jevTest.perOption ? Object.values(jevTest.perOption).reduce((s, o) => s + o.examples, 0) : ''} hand-labelled notes (tested ${esc(jevTest.testedOn)}); it never said a player would miss games when the note said he wouldn't (${jevTest.missesGames.fp} false alarms, ${jevTest.missesGames.tp} of ${jevTest.missesGames.tp + jevTest.missesGames.fn} real absences caught). Its readings appear on injury proposals; nothing changes until you accept.</div>` : ''}
+    ${flagEval?.decision ? `<h3>Jev's news flags: do they predict anything?</h3>
+    <div class="muted">${flagTest ? `Reading: ${Math.round(flagTest.overallAccuracy * 100)}% right on hand-labelled outlooks. ` : ''}Fitted on ${esc(flagEval.seasons.map(t => `${t - 1}-${String(t).slice(2)}`).join(', '))} preseason notes, each season predicted from the others.</div>
+    <table><tr><th>Projection</th><th class="num">Rank corr.</th><th class="num">Avg $ miss</th></tr>
+      ${[['ESPN as is', 'espn'], ['+ ESPN’s average misses corrected', 'espnPlusBias'], ['+ Jev flag effects', 'espnPlusFlags']].map(([l, k]) => `<tr><td>${l}</td><td class="num">${flagEval.decision.mean[k].spearman.toFixed(3)}</td><td class="num">$${flagEval.decision.mean[k].mae.toFixed(2)}</td></tr>`).join('')}</table>
+    <div class="muted" style="margin-top:6px">In use: ${flagEval.decision.useFlags ? 'flag effects' : flagEval.decision.useBias ? 'bias corrections only (the flags did not beat them)' : 'neither'}. Per stat: ${esc(Object.entries(flagEval.decision.choice).filter(([, c]) => c !== 'none').map(([t, c]) => `${t} ${c}`).join(', ') || 'none')}.</div>` : ''}
     <h3>Formula</h3>
     <div class="chips"><button class="chip ${S.formula !== 'z' ? 'on' : ''}" data-formula="g">G-scores (recommended)</button><button class="chip ${S.formula === 'z' ? 'on' : ''}" data-formula="z">Plain z-scores</button></div>
   </div>`;

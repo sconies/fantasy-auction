@@ -99,3 +99,8 @@ test('G-scores shrink a noisy category and still spend the whole budget', () => 
   const total = g.slice(0, 182).reduce((s, p) => s + p.dollars, 0);
   assert.ok(Math.abs(total - 2800) < 0.01);
 });
+
+test('the app script parses (a syntax slip would blank the page)', async () => {
+  const { execFileSync } = await import('node:child_process');
+  execFileSync(process.execPath, ['--check', 'app.js']);
+});
