@@ -1,10 +1,28 @@
 {
- "builtAt": "2026-10-06T09:48:30.967Z",
+ "builtAt": "2026-10-06T21:47:39.309Z",
  "counts": {
-  "new": 0,
-  "toJudge": 0
+  "new": 7,
+  "toJudge": 7
  },
  "signals": [
+  {
+   "id": "injury:87902bdf3ed9",
+   "kind": "text",
+   "playerId": "3102531",
+   "name": "Kristaps Porzingis",
+   "team": "GSW",
+   "date": "2026-10-06T20:04Z",
+   "source": "injury",
+   "url": null,
+   "text": "Porzingis (undisclosed) remains out indefinitely, per Anthony Slater of ESPN.com.",
+   "flags": {
+    "absence": 0.77
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-06"
+  },
   {
    "id": "outlook:93085015339d",
    "kind": "outlook",
@@ -1562,6 +1580,90 @@
    "firstSeen": "2026-10-06"
   },
   {
+   "id": "depth:2991070:2026-10-06:SF #2",
+   "kind": "depth",
+   "playerId": "2991070",
+   "name": "Jerami Grant",
+   "team": "MEM",
+   "date": "2026-10-06",
+   "summary": "Depth chart SF #1 → SF #2",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "depth:4592691:2026-10-06:PF #2",
+   "kind": "depth",
+   "playerId": "4592691",
+   "name": "Jake LaRavia",
+   "team": "LAL",
+   "date": "2026-10-06",
+   "summary": "Depth chart PF #1 → PF #2",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "depth:5254165:2026-10-06:SG #1",
+   "kind": "depth",
+   "playerId": "5254165",
+   "name": "Keaton Wagler",
+   "team": "LAC",
+   "date": "2026-10-06",
+   "summary": "Depth chart SG #2 → SG #1",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "depth:6580:2026-10-06:SG #2",
+   "kind": "depth",
+   "playerId": "6580",
+   "name": "Bradley Beal",
+   "team": "LAC",
+   "date": "2026-10-06",
+   "summary": "Depth chart SG #3 → SG #2",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "depth:4065778:2026-10-06:PF #3",
+   "kind": "depth",
+   "playerId": "4065778",
+   "name": "Max Strus",
+   "team": "LAC",
+   "date": "2026-10-06",
+   "summary": "Depth chart SG #1 → PF #3",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "depth:5112087:2026-10-06:SF #1",
+   "kind": "depth",
+   "playerId": "5112087",
+   "name": "Jaylen Wells",
+   "team": "MEM",
+   "date": "2026-10-06",
+   "summary": "Depth chart SF #2 → SF #1",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "depth:3907498:2026-10-06:PF #1",
+   "kind": "depth",
+   "playerId": "3907498",
+   "name": "Matisse Thybulle",
+   "team": "LAL",
+   "date": "2026-10-06",
+   "summary": "Depth chart SF #3 → PF #1",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-06"
+  },
+  {
    "id": "headline:a0c7058923af",
    "kind": "text",
    "playerId": "4065778",
@@ -1640,25 +1742,6 @@
    "handledNote": "covered by 2026-10-06-harris-calf"
   },
   {
-   "id": "news:d11931b9bd32",
-   "kind": "text",
-   "playerId": "4600663",
-   "name": "Zach Edey",
-   "team": "MEM",
-   "date": "2026-10-05",
-   "source": "news",
-   "url": "https://www.fantasypros.com/nba/news/612374/zach-edey-ankle-on-track-season-opener.php",
-   "text": "Zach Edey (ankle) on track for season opener Zach Edey remains on track to be good to go for the Grizzlies season opener.  Fantasy Impact: Edey was recently cleared for full-speed activity. He is on track in his rehab.",
-   "flags": {
-    "recovering": 0.83
-   },
-   "summary": "is recovering or returning from a significant injury or surgery",
-   "judge": true,
-   "status": "handled",
-   "firstSeen": "2026-10-06",
-   "handledNote": "on track, no change; flag effects"
-  },
-  {
    "id": "news:012beabf4fd4",
    "kind": "text",
    "playerId": "3934673",
@@ -1677,6 +1760,25 @@
    "status": "handled",
    "firstSeen": "2026-10-06",
    "handledNote": "injury absence already in projection (22 games)"
+  },
+  {
+   "id": "news:d11931b9bd32",
+   "kind": "text",
+   "playerId": "4600663",
+   "name": "Zach Edey",
+   "team": "MEM",
+   "date": "2026-10-05",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/612374/zach-edey-ankle-on-track-season-opener.php",
+   "text": "Zach Edey (ankle) on track for season opener Zach Edey remains on track to be good to go for the Grizzlies season opener.  Fantasy Impact: Edey was recently cleared for full-speed activity. He is on track in his rehab.",
+   "flags": {
+    "recovering": 0.83
+   },
+   "summary": "is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "handled",
+   "firstSeen": "2026-10-06",
+   "handledNote": "on track, no change; flag effects"
   },
   {
    "id": "news:a7b36da58330",

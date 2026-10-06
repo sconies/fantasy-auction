@@ -1,3 +1,74 @@
 {
- "changes": []
+ "changes": [
+  {
+   "date": "2026-10-06",
+   "playerId": "2991070",
+   "name": "Jerami Grant",
+   "team": "MEM",
+   "from": "SF #1",
+   "to": "SF #2",
+   "promoted": false,
+   "projectedMin": 28.34
+  },
+  {
+   "date": "2026-10-06",
+   "playerId": "4592691",
+   "name": "Jake LaRavia",
+   "team": "LAL",
+   "from": "PF #1",
+   "to": "PF #2",
+   "promoted": false,
+   "projectedMin": 26.51
+  },
+  {
+   "date": "2026-10-06",
+   "playerId": "5254165",
+   "name": "Keaton Wagler",
+   "team": "LAC",
+   "from": "SG #2",
+   "to": "SG #1",
+   "promoted": true,
+   "projectedMin": 26.77
+  },
+  {
+   "date": "2026-10-06",
+   "playerId": "6580",
+   "name": "Bradley Beal",
+   "team": "LAC",
+   "from": "SG #3",
+   "to": "SG #2",
+   "promoted": true,
+   "projectedMin": 25.12
+  },
+  {
+   "date": "2026-10-06",
+   "playerId": "4065778",
+   "name": "Max Strus",
+   "team": "LAC",
+   "from": "SG #1",
+   "to": "PF #3",
+   "promoted": false,
+   "projectedMin": 24.35
+  },
+  {
+   "date": "2026-10-06",
+   "playerId": "5112087",
+   "name": "Jaylen Wells",
+   "team": "MEM",
+   "from": "SF #2",
+   "to": "SF #1",
+   "promoted": true,
+   "projectedMin": 23.97
+  },
+  {
+   "date": "2026-10-06",
+   "playerId": "3907498",
+   "name": "Matisse Thybulle",
+   "team": "LAL",
+   "from": "SF #3",
+   "to": "PF #1",
+   "promoted": true,
+   "projectedMin": 17.24
+  }
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-06T08:32:02.762Z",
+ "fetchedAt": "2026-10-06T21:47:37.779Z",
  "injuries": [
   {
    "name": "Aaron Wiggins",
@@ -65,6 +65,24 @@
    "injury": "Ankle"
   },
   {
+   "name": "Brandon Miller",
+   "team": "Charlotte Hornets",
+   "status": "Day-To-Day",
+   "comment": "Miller (leg) is listed as out for Tuesday's preseason game versus the Nets.",
+   "date": "2026-10-06T21:21Z",
+   "returnDate": "2026-10-11",
+   "injury": "Leg – Bruise"
+  },
+  {
+   "name": "Christian Anderson",
+   "team": "Charlotte Hornets",
+   "status": "Day-To-Day",
+   "comment": "Anderson (ankle) won't play in Tuesday's preseason game against the Nets.",
+   "date": "2026-10-06T21:16Z",
+   "returnDate": "2026-10-11",
+   "injury": "Ankle – Sprain"
+  },
+  {
    "name": "Kylan Boswell",
    "team": "Charlotte Hornets",
    "status": "Day-To-Day",
@@ -110,6 +128,15 @@
    "injury": "Ankle – Surgery"
   },
   {
+   "name": "Zach Collins",
+   "team": "Chicago Bulls",
+   "status": "Day-To-Day",
+   "comment": "Collins (toe) was a big part of Tuesday's practice, Joel Lorenzi of The Athletic reports.",
+   "date": "2026-10-06T17:37Z",
+   "returnDate": "2026-10-07",
+   "injury": "Toe – Surgery"
+  },
+  {
    "name": "Nic Claxton",
    "team": "Chicago Bulls",
    "status": "Day-To-Day",
@@ -117,15 +144,6 @@
    "date": "2026-10-05T18:00Z",
    "returnDate": "2026-10-21",
    "injury": "Hamstring"
-  },
-  {
-   "name": "Zach Collins",
-   "team": "Chicago Bulls",
-   "status": "Day-To-Day",
-   "comment": "Head coach Tiago Splitter said Monday that Collins (toe) is dealing with a soft tissue injury and isn't expected to practice Tuesday, K.C. Johnson of Chicago Sports Network reports.",
-   "date": "2026-09-28T23:31Z",
-   "returnDate": "2026-10-07",
-   "injury": "Toe – Surgery"
   },
   {
    "name": "Peyton Watson",
@@ -191,6 +209,15 @@
    "injury": "Rest"
   },
   {
+   "name": "Kristaps Porzingis",
+   "team": "Golden State Warriors",
+   "status": "Day-To-Day",
+   "comment": "Porzingis (undisclosed) remains out indefinitely, per Anthony Slater of ESPN.com.",
+   "date": "2026-10-06T20:04Z",
+   "returnDate": "2026-10-13",
+   "injury": "Undisclosed"
+  },
+  {
    "name": "Jimmy Butler III",
    "team": "Golden State Warriors",
    "status": "Out",
@@ -198,15 +225,6 @@
    "date": "2026-10-02T18:48Z",
    "returnDate": "2027-01-02",
    "injury": "Knee – Surgery"
-  },
-  {
-   "name": "Kristaps Porzingis",
-   "team": "Golden State Warriors",
-   "status": "Day-To-Day",
-   "comment": "Porzingis is out indefinitely due to an undisclosed issue, Anthony Slater of ESPN.com reports.",
-   "date": "2026-09-28T15:15Z",
-   "returnDate": "2026-10-13",
-   "injury": "Undisclosed"
   },
   {
    "name": "Moses Moody",
@@ -491,10 +509,19 @@
    "name": "Jalen Suggs",
    "team": "Orlando Magic",
    "status": "Day-To-Day",
-   "comment": "Suggs remains under the weather but appears to be improving, Jason Beede of the Orlando Sentinel reports.",
-   "date": "2026-10-05T16:33Z",
+   "comment": "Suggs remains under the weather but was able to get on the court and run around during Tuesday's practice, Jason Beede of the Orlando Sentinel reports.",
+   "date": "2026-10-06T15:56Z",
    "returnDate": "2026-10-07",
    "injury": "Illness"
+  },
+  {
+   "name": "Jonathan Isaac",
+   "team": "Orlando Magic",
+   "status": "Day-To-Day",
+   "comment": "Isaac (knee) won't travel with the Magic for Wednesday's preseason opener against the Grizzlies due to personal reasons, Jason Beede of the Orlando Sentinel reports.",
+   "date": "2026-10-06T15:42Z",
+   "returnDate": "2026-10-11",
+   "injury": "Knee – Sprain"
   },
   {
    "name": "Noah Penda",
@@ -524,22 +551,13 @@
    "injury": "Ankle – Surgery"
   },
   {
-   "name": "Jonathan Isaac",
-   "team": "Orlando Magic",
-   "status": "Day-To-Day",
-   "comment": "Isaac (knee) said he will be limited to open training camp, according to Orlando Magic Daily.",
-   "date": "2026-09-28T17:13Z",
-   "returnDate": "2026-10-07",
-   "injury": "Knee – Sprain"
-  },
-  {
    "name": "Ariel Hukporti",
    "team": "Philadelphia 76ers",
-   "status": "Day-To-Day",
-   "comment": "Hukporti (lower leg) didn't return to Monday's preseason game against the Knicks. He didn't score (0-1 FG, 0-1 3Pt) and recorded one assist in five minutes before exiting.",
-   "date": "2026-10-06T01:31Z",
-   "returnDate": "2026-10-08",
-   "injury": "Lower Leg – Not Specified"
+   "status": "Out",
+   "comment": "Hukporti has sustained a season-ending ruptured right Achilles tendon, per Shams Charania of ESPN.",
+   "date": "2026-10-06T19:17Z",
+   "returnDate": "2027-10-01",
+   "injury": "Achilles – Ruptured"
   },
   {
    "name": "Anfernee Simons",
@@ -677,6 +695,15 @@
    "injury": "Ankle – Surgery"
   },
   {
+   "name": "Trayce Jackson-Davis",
+   "team": "Toronto Raptors",
+   "status": "Day-To-Day",
+   "comment": "Correcting a previous report, Jackson-Davis (migraines) was absent from Tuesday's practice, Josh Lewenberg of TSN.ca reports.",
+   "date": "2026-10-06T16:35Z",
+   "returnDate": "2026-10-10",
+   "injury": "Head"
+  },
+  {
    "name": "Jamison Battle",
    "team": "Toronto Raptors",
    "status": "Day-To-Day",
@@ -686,15 +713,6 @@
    "injury": "Back – Not Specified"
   },
   {
-   "name": "Trayce Jackson-Davis",
-   "team": "Toronto Raptors",
-   "status": "Day-To-Day",
-   "comment": "Jackson-Davis (undisclosed) did not participate in Monday's practice, Josh Lewenberg of TSN.ca reports.",
-   "date": "2026-10-05T20:16Z",
-   "returnDate": "2026-10-10",
-   "injury": "Undisclosed"
-  },
-  {
    "name": "Allen Graves",
    "team": "Toronto Raptors",
    "status": "Day-To-Day",
@@ -702,24 +720,6 @@
    "date": "2026-10-05T20:15Z",
    "returnDate": "2026-10-10",
    "injury": "Groin – Not Specified"
-  },
-  {
-   "name": "Alijah Martin",
-   "team": "Toronto Raptors",
-   "status": "Day-To-Day",
-   "comment": "Martin (knee) was a full participant in Monday's practice, Esfandiar Baraheni of The Athletic reports.",
-   "date": "2026-10-05T20:15Z",
-   "returnDate": "2026-10-10",
-   "injury": "Knee – Inflammation"
-  },
-  {
-   "name": "Scottie Barnes",
-   "team": "Toronto Raptors",
-   "status": "Day-To-Day",
-   "comment": "Barnes said he injured his knee during the opening minute of Friday's preseason loss to Miami and is still experiencing some soreness, Josh Lewenberg of TSN.ca reports.",
-   "date": "2026-10-05T18:30Z",
-   "returnDate": "2026-10-10",
-   "injury": "Knee"
   },
   {
    "name": "Kawhi Leonard",
@@ -804,6 +804,64 @@
   }
  ],
  "articles": [
+  {
+   "headline": "NBA preseason buzz: Latest on trades, news and intel",
+   "description": "The NBA regular season is just a few weeks away, and we're tracking all the news, deals, and trades across the league.",
+   "published": "2026-10-06T20:24:58Z",
+   "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+   "athletes": []
+  },
+  {
+   "headline": "76ers lose backup center Ariel Hukporti to torn Achilles",
+   "description": "The 76ers' thin frontcourt took a big blow Tuesday after an MRI confirmed backup center Ariel Hukporti suffered a torn right Achilles.",
+   "published": "2026-10-06T19:47:05Z",
+   "url": "https://www.espn.com/nba/story/_/id/50118908/76ers-lose-backup-center-ariel-hukporti-torn-achilles",
+   "athletes": [
+    "Ariel Hukporti"
+   ]
+  },
+  {
+   "headline": "Did you miss the NBA offseason? Here's what to know for fantasy basketball",
+   "description": "Jim McCormick highlights all the changes -- and other things to know -- heading into the new fantasy basketball season.",
+   "published": "2026-10-06T18:24:59Z",
+   "url": "https://www.espn.com/fantasy/basketball/story/_/id/50117976/fantasy-basketball-offseason-news-2026-2027",
+   "athletes": []
+  },
+  {
+   "headline": "Why Stephen A. trusts LeBron to be playoff-ready",
+   "description": "Why Stephen A. trusts LeBron to be playoff-ready",
+   "published": "2026-10-06T16:00:28Z",
+   "url": "https://www.espn.com/video/clip/_/id/50117250/why-stephen-trusts-lebron-playoff-ready",
+   "athletes": [
+    "LeBron James"
+   ]
+  },
+  {
+   "headline": "Stephen A. sounds off on James Dolan, Knicks for their handling of KAT negotiations",
+   "description": "Stephen A. sounds off on James Dolan, Knicks for their handling of KAT negotiations",
+   "published": "2026-10-06T15:22:05Z",
+   "url": "https://www.espn.com/video/clip/_/id/50117157/stephen-sounds-james-dolan-knicks-their-handling-kat-negotiations",
+   "athletes": [
+    "Karl-Anthony Towns",
+    "Jalen Brunson"
+   ]
+  },
+  {
+   "headline": "Predicting how new NBA lottery, anti-tanking rules will impact 2026-27 season",
+   "description": "How could the changes aimed at circumventing tanking likely affect on-court outcomes this season?",
+   "published": "2026-10-06T15:14:50Z",
+   "url": "https://www.espn.com/nba/story/_/id/50079138/nba-new-lottery-rules-tanking-predictions",
+   "athletes": []
+  },
+  {
+   "headline": "Both sides of the contract divide between Karl-Anthony Towns and the Knicks",
+   "description": "Karl-Anthony Towns and the Knicks are far apart on extension talks. ESPN insiders break down each side, plus project where this saga is headed.",
+   "published": "2026-10-06T18:37:19Z",
+   "url": "https://www.espn.com/nba/story/_/id/50112265/karl-anthony-towns-new-york-knicks-extension-talks-next",
+   "athletes": [
+    "Karl-Anthony Towns"
+   ]
+  },
   {
    "headline": "Los Angeles Lakers vs. Sacramento Kings: Game Highlights",
    "description": "Los Angeles Lakers vs. Sacramento Kings: Game Highlights",
@@ -897,13 +955,6 @@
    ]
   },
   {
-   "headline": "NBA preseason buzz: Latest on trades, news and intel",
-   "description": "The NBA regular season is just a few weeks away, and we're tracking all the news, deals, and trades across the league.",
-   "published": "2026-10-05T22:31:24Z",
-   "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-   "athletes": []
-  },
-  {
    "headline": "Sources: Jordan Hawkins to join Bulls on two-way deal",
    "description": "Former lottery pick Jordan Hawkins is signing a two-way deal with the Chicago Bulls, sources told ESPN's Shams Charania on Monday.",
    "published": "2026-10-05T22:10:45Z",
@@ -951,7 +1002,7 @@
   {
    "headline": "Knicks' Karl-Anthony Towns not expecting contract extension soon",
    "description": "Karl-Anthony Towns says the chances \"don't look good\" for him getting a new extension with the Knicks before the start of the regular season.",
-   "published": "2026-10-05T20:50:17Z",
+   "published": "2026-10-06T13:01:23Z",
    "url": "https://www.espn.com/nba/story/_/id/50110415/knicks-karl-anthony-towns-not-expecting-extension-soon",
    "athletes": [
     "Karl-Anthony Towns"
@@ -1300,61 +1351,6 @@
     "Zach Edey",
     "Ayo Dosunmu"
    ]
-  },
-  {
-   "headline": "Clippers' Brandon Ingram gets in light work before practice",
-   "description": "Brandon Ingram, recovering from heel surgery, got in some light shooting and court work ahead of Clippers practice Tuesday in Hawai'i.",
-   "published": "2026-09-30T19:26:10Z",
-   "url": "https://www.espn.com/nba/story/_/id/50070155/clippers-brandom-ingram-gets-light-work-practice",
-   "athletes": [
-    "Brandon Ingram"
-   ]
-  },
-  {
-   "headline": "Michael Jordan's Game 3 'Last Dance' jersey sold for record amount",
-   "description": "Jordan wore the jersey in Game 3 of the 1998 NBA Finals.",
-   "published": "2026-09-30T18:34:36Z",
-   "url": "https://www.espn.com/nba/story/_/id/50069241/michael-jordan-last-dance-game-3-1998-nba-finals-game-worn-jersey-auction-record",
-   "athletes": []
-  },
-  {
-   "headline": "Suns' Dillon Brooks charged with DUI from March arrest",
-   "description": "Suns forward Dillon Brooks was charged Monday with driving under the influence following his March arrest in Scottsdale, Arizona, according to court records.",
-   "published": "2026-09-30T16:33:52Z",
-   "url": "https://www.espn.com/nba/story/_/id/50068731/suns-dillon-brooks-charged-dui-march-arrest",
-   "athletes": [
-    "Dillon Brooks"
-   ]
-  },
-  {
-   "headline": "Fantasy basketball: The pros and cons of points, roto and category leagues",
-   "description": "Which fantasy basketball scoring format should you play? Jim McCormick breaks down the most popular options so you can choose for yourself.",
-   "published": "2026-09-30T11:14:48Z",
-   "url": "https://www.espn.com/fantasy/basketball/story/_/id/38604409/fantasy-basketball-pros-cons-points-roto-category-leagues-nba-2026-27",
-   "athletes": []
-  },
-  {
-   "headline": "NBA preview 2026-27: What Bobby Marks is watching at 30 training camps",
-   "description": "As training camps get underway across the league, Bobby Marks examines roster, contract and fit questions for all 30 teams.",
-   "published": "2026-09-30T18:16:48Z",
-   "url": "https://www.espn.com/nba/story/_/id/50061973/nba-preview-2026-27-bobby-marks-training-camp-guide-duren-pistons-lebron-76ers-30-teams",
-   "athletes": [
-    "Kawhi Leonard",
-    "Anthony Davis",
-    "Walker Kessler",
-    "Giannis Antetokounmpo",
-    "LeBron James",
-    "Jaylen Brown",
-    "LaMelo Ball",
-    "Ja Morant"
-   ]
-  },
-  {
-   "headline": "NBA issues new guidelines, instructs refs to crack down on push-offs",
-   "description": "The NBA has issued new guidance to its referees on four types of \"high-volume and highly impactful\" calls, including push-offs.",
-   "published": "2026-09-30T03:28:29Z",
-   "url": "https://www.espn.com/nba/story/_/id/50063714/nba-issues-new-guidelines-instructs-refs-crack-push-offs",
-   "athletes": []
   }
  ]
 }
