@@ -9,6 +9,7 @@
 // Usage: node scripts/simulate-h2h.mjs [season]   -> data/eval-h2h.json
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { computeValues, CATS, CAT_LABEL } from '../lib/value.mjs';
+import { seasonLines, weeklyTau } from '../lib/h2h.mjs';
 
 const TEAMS = 14, ROSTER = 13;
 const season = +(process.argv[2] ?? 2026);
@@ -16,37 +17,6 @@ const weeklyFile = s => `data/history/weekly-${s}.json`;
 if (!existsSync(weeklyFile(season))) { console.log(`No ${weeklyFile(season)}; run scripts/fetch-weekly.mjs`); process.exit(0); }
 const W = JSON.parse(readFileSync(weeklyFile(season), 'utf8'));
 const K = ['fgm', 'fga', 'ftm', 'fta', 'tpm', 'pts', 'reb', 'ast', 'stl', 'blk', 'tov', 'min'];
-
-// Season per-game averages from the weekly totals.
-function seasonLines(w) {
-  return w.players.map(p => {
-    const tot = Object.fromEntries([...K, 'gp'].map(k => [k, 0]));
-    for (const wk of Object.values(p.weeks)) for (const k of [...K, 'gp']) tot[k] += wk[k];
-    const line = { id: p.espnId, name: p.name, projG: tot.gp, pos: [] };
-    for (const k of K) line[k] = tot.gp ? tot[k] / tot.gp : 0;
-    return line;
-  }).filter(p => p.projG >= 5);
-}
-
-// Week-to-week variance of each category's per-game rate, averaged over regulars: the H2H "noise".
-export function weeklyTau(w, pool) {
-  const ids = new Set(pool.map(p => p.id));
-  const all = w.players.filter(p => ids.has(p.espnId));
-  const fgPct = pool.reduce((s, p) => s + p.fgm, 0) / pool.reduce((s, p) => s + p.fga, 0);
-  const ftPct = pool.reduce((s, p) => s + p.ftm, 0) / pool.reduce((s, p) => s + p.fta, 0);
-  const acc = Object.fromEntries(CATS.map(c => [c, []]));
-  for (const p of all) {
-    const rates = Object.values(p.weeks).filter(wk => wk.gp >= 2).map(wk => ({
-      fg: (wk.fgm - fgPct * wk.fga) / wk.gp, ft: (wk.ftm - ftPct * wk.fta) / wk.gp, tpm: wk.tpm / wk.gp, pts: wk.pts / wk.gp,
-      reb: wk.reb / wk.gp, ast: wk.ast / wk.gp, stl: wk.stl / wk.gp, blk: wk.blk / wk.gp, tov: wk.tov / wk.gp }));
-    if (rates.length < 6) continue;
-    for (const c of CATS) {
-      const m = rates.reduce((s, r) => s + r[c], 0) / rates.length;
-      acc[c].push(rates.reduce((s, r) => s + (r[c] - m) ** 2, 0) / (rates.length - 1));
-    }
-  }
-  return Object.fromEntries(CATS.map(c => [c, acc[c].reduce((s, v) => s + v, 0) / acc[c].length]));
-}
 
 function draft(rankings, testSlot) {
   const teams = Array.from({ length: TEAMS }, () => []);
@@ -66,7 +36,7 @@ function draft(rankings, testSlot) {
 function play(teams, testSlot, weeksById) {
   const weeks = [...new Set([...weeksById.values()].flatMap(p => Object.keys(p.weeks)))].map(Number).sort((a, b) => a - b).slice(0, 17);
   const won = Object.fromEntries(CATS.map(c => [c, 0]));
-  let games = 0;
+  let games = 0, matchups = 0;
   for (const w of weeks) {
     const tot = teams.map(ids => {
       const t = Object.fromEntries(K.map(k => [k, 0]));
@@ -76,15 +46,41 @@ function play(teams, testSlot, weeksById) {
     for (let o = 0; o < TEAMS; o++) {
       if (o === testSlot) continue;
       games++;
-      for (const c of CATS) won[c] += tot[testSlot][c] > tot[o][c] ? 1 : tot[testSlot][c] === tot[o][c] ? 0.5 : 0;
+      let mine = 0, theirs = 0;
+      for (const c of CATS) {
+        const r = tot[testSlot][c] > tot[o][c] ? 1 : tot[testSlot][c] === tot[o][c] ? 0.5 : 0;
+        won[c] += r; mine += r; theirs += 1 - r;
+      }
+      matchups += mine > theirs ? 1 : mine === theirs ? 0.5 : 0; // the week goes to whoever wins more categories
     }
   }
-  return { won, games };
+  return { won, games, matchups };
 }
 
 const lines = seasonLines(W);
+// --projected: rank by what was known before the season (75% ESPN preseason + 25% stats model, as the app does),
+// then play the real weeks. Without it, rankings use the season as it happened (perfect foresight).
+const projected = process.argv.includes('--projected');
+async function preseasonLines() {
+  const { projectAll, STATS } = await import('../lib/project.mjs');
+  const { normName } = await import('../lib/value.mjs');
+  const raw = s => existsSync(`data/raw/bbref-${s}.json`) ? JSON.parse(readFileSync(`data/raw/bbref-${s}.json`, 'utf8')).players : null;
+  const espn = existsSync(`data/history/espn-preseason-${season}.json`) ? JSON.parse(readFileSync(`data/history/espn-preseason-${season}.json`, 'utf8')).players : [];
+  const model = new Map(projectAll(raw(season - 1) ?? [], raw(season - 2) ?? []).map(p => [normName(p.name), p]));
+  const idByName = new Map(W.players.map(p => [normName(p.name), p.espnId]));
+  const out = [];
+  for (const e of espn) {
+    const id = idByName.get(normName(e.name)); if (!id) continue;
+    const m = model.get(normName(e.name));
+    const p = { id, name: e.name, pos: [] };
+    for (const k of [...STATS, 'projG']) p[k] = m ? 0.75 * e[k] + 0.25 * m[k] : e[k];
+    out.push(p);
+  }
+  return out;
+}
+const rankLines = projected ? await preseasonLines() : lines;
 const weeksById = new Map(W.players.map(p => [p.espnId, p]));
-const base = computeValues(lines);
+const base = computeValues(rankLines);
 const pool = base.slice(0, TEAMS * ROSTER);
 // Estimate the weekly noise from a different season where we have one, so the test isn't fitted to itself.
 const tauSeason = existsSync(weeklyFile(season - 1)) ? season - 1 : season;
@@ -92,28 +88,28 @@ const tauW = tauSeason === season ? W : JSON.parse(readFileSync(weeklyFile(tauSe
 const tau = weeklyTau(tauW, computeValues(seasonLines(tauW)).slice(0, TEAMS * ROSTER));
 
 const formulas = {
-  'z-scores (current)': base,
-  'z-scores capped at ±3': computeValues(lines, { cap: 3 }),
-  'z-scores capped at ±2': computeValues(lines, { cap: 2 }),
-  'G-scores (z with weekly noise)': computeValues(lines, { tau }),
+  'plain z-scores': base,
+  'z-scores capped at ±3': computeValues(rankLines, { cap: 3 }),
+  'z-scores capped at ±2': computeValues(rankLines, { cap: 2 }),
+  'G-scores (z with weekly noise)': computeValues(rankLines, { tau }),
 };
 const baseRank = base.map(p => p.id);
 const results = [];
 for (const [label, ranked] of Object.entries(formulas)) {
   const test = ranked.map(p => p.id);
   const won = Object.fromEntries(CATS.map(c => [c, 0]));
-  let games = 0;
+  let games = 0, matchups = 0;
   for (let slot = 0; slot < TEAMS; slot++) {
     const r = play(draft({ test, base: baseRank }, slot), slot, weeksById);
     for (const c of CATS) won[c] += r.won[c];
-    games += r.games;
+    games += r.games; matchups += r.matchups;
   }
   const byCat = Object.fromEntries(CATS.map(c => [CAT_LABEL[c], +(won[c] / games).toFixed(3)]));
   const overall = CATS.reduce((s, c) => s + won[c], 0) / (games * CATS.length);
-  results.push({ formula: label, categoryWinRate: +overall.toFixed(4), byCategory: byCat });
+  results.push({ formula: label, matchupWinRate: +(matchups / games).toFixed(4), categoryWinRate: +overall.toFixed(4), byCategory: byCat });
 }
 const giannis = Object.fromEntries(Object.entries(formulas).map(([k, r]) => [k, r.find(p => /Antetokounmpo/.test(p.name))?.rank]));
-const out = { builtAt: new Date().toISOString(), season, tauFrom: tauSeason, tau, method: 'One team drafts by the formula, 13 by plain z-scores, snake draft from each slot in turn; real weekly stats replayed over 17 weeks against all 13 opponents. Category win rate: 50% = no better than plain z-scores.', results, giannisRank: giannis };
-writeFileSync(`data/eval-h2h-${season}.json`, JSON.stringify(out, null, 1) + '\n');
-console.table(results.map(r => ({ formula: r.formula, 'cat win %': (r.categoryWinRate * 100).toFixed(1), ...Object.fromEntries(Object.entries(r.byCategory).map(([k, v]) => [k, Math.round(v * 100)])) })));
+const out = { builtAt: new Date().toISOString(), season, rankedBy: projected ? 'preseason projection' : 'season as it happened', tauFrom: tauSeason, tau, method: 'One team drafts by the formula, 13 by plain z-scores, snake draft from each slot in turn; real weekly stats replayed over 17 weeks against all 13 opponents. Category win rate: 50% = no better than plain z-scores.', results, giannisRank: giannis };
+writeFileSync(`data/eval-h2h-${season}${projected ? '-projected' : ''}.json`, JSON.stringify(out, null, 1) + '\n');
+console.table(results.map(r => ({ formula: r.formula, 'week win %': (r.matchupWinRate * 100).toFixed(1), 'cat win %': (r.categoryWinRate * 100).toFixed(1), ...Object.fromEntries(Object.entries(r.byCategory).map(([k, v]) => [k, Math.round(v * 100)])) })));
 console.log('Giannis rank under each formula:', giannis);

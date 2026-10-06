@@ -17,6 +17,22 @@ head-to-head 9-category league with a $200 live auction (18–19 Oct 2026).
 - **Setup**: team names, market prices (paste Yahoo's average cost), pasted
   projections, and backup/restore.
 
+## How good are the values?
+
+Setup → **Data & value quality** shows both tests; re-run them with `node scripts/backtest.mjs`
+and `node scripts/simulate-h2h.mjs <season> --projected`.
+
+- **Projections** (`scripts/backtest.mjs` → `data/eval.json`): each of 2022-23 to 2025-26 projected
+  before it started, valued, and compared with what happened. Rank correlation: last season repeated
+  0.54, stats model 0.60, ESPN preseason 0.68, **75% ESPN + 25% stats model 0.68 with the smallest
+  dollar miss ($6.81)**. That blend is what the app uses.
+- **Formula** (`scripts/simulate-h2h.mjs` → `data/eval-h2h-*.json`): one team drafts from preseason
+  projections with each formula against 13 plain-z-score teams, then the real season's weekly stats
+  are replayed head to head. **G-scores** (z-scores that count each category's week-to-week noise,
+  `data/model/tau.json`) won 66%, 66% and 61% of weeks in 2025-26, 2024-25 and 2023-24; capping
+  z-scores did nothing. G-scores are the default; plain z-scores are a switch in Setup.
+- Limits: snake draft as a stand-in for the auction, no position limits, everyone on a roster plays.
+
 ## How values are made (`lib/value.mjs`)
 
 1. **Projections** (`scripts/build-players.mjs`): the last two seasons'

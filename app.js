@@ -19,7 +19,7 @@ let S = blank();
 try { S = { ...S, ...JSON.parse(localStorage.getItem(KEY) || '{}') }; } catch {}
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch {} };
 
-let league, built, news, claudeAdj, evalData, qa, roles;
+let league, built, news, claudeAdj, evalData, qa, roles, tau, h2h;
 let tab = 'ranks';
 let ranked = [], byId = new Map();
 
@@ -31,6 +31,8 @@ async function init() {
     loadJson('data/news.json', { injuries: [], articles: [] }), loadJson('data/adjustments.json', { adjustments: [] }),
     loadJson('data/eval.json', null), loadJson('data/qa.json', null), loadJson('data/role-changes.json', { changes: [] }),
   ]);
+  tau = (await loadJson('data/model/tau.json', null))?.tau ?? null;
+  h2h = (await Promise.all([2026, 2025, 2024].map(y => loadJson(`data/eval-h2h-${y}-projected.json`, null)))).filter(Boolean);
   document.querySelectorAll('#tabs button').forEach(b => b.onclick = () => { tab = b.dataset.tab; render(); });
   $('#sheet').onclick = e => { if (e.target.id === 'sheet') closeSheet(); };
   recompute(); render();
@@ -68,7 +70,8 @@ function adjustmentsFor(id, proposals) {
 
 function valuesWith(proposals, punt = S.punt) {
   const players = basePlayers().map(p => applyAdjustments(p, adjustmentsFor(p.id, proposals)));
-  return computeValues(players, { league, punt });
+  // G-scores by default: they won 61-66% of simulated weeks against plain z-scores (Setup → Data & value quality).
+  return computeValues(players, { league, punt, tau: S.formula === 'z' ? null : tau });
 }
 
 function recompute() {
@@ -413,6 +416,7 @@ function renderSettings() {
     D.teams = names; D.me = Math.min(+$('#s-me').value, names.length - 1); save(); render();
   };
   $('#s-me').onchange = e => { D.me = +e.target.value; save(); };
+  document.querySelectorAll('[data-formula]').forEach(b => b.onclick = () => { S.formula = b.dataset.formula; save(); recompute(); render(); });
   $('#s-reset').onclick = () => { if (confirm('Clear every pick?')) { D.picks = []; D.current = null; save(); render(); } };
   $('#s-market-go').onclick = () => {
     let n = 0;
@@ -438,6 +442,12 @@ function qualityPanel() {
     <table><tr><th>Method</th><th class="num">Rank corr.</th><th class="num">Avg $ miss</th><th class="num">Top 50 → top 75</th></tr>
       ${rows.map(r => `<tr><td>${esc(r.label)}<div class="muted">${esc(r.seasons.map(t => `${t - 1}-${String(t).slice(2)}`).join(', '))}</div></td><td class="num">${r.spearman.toFixed(2)}</td><td class="num">$${r.maeDollars.toFixed(2)}</td><td class="num">${Math.round(r.top50StayedTop75 * 100)}%</td></tr>`).join('')}</table>
     <div class="muted" style="margin-top:6px">${esc(evalData.method)}</div>` : ''}
+    ${h2h.length ? `<h3>Head-to-head test: which formula wins weeks?</h3>
+    <table><tr><th>Formula</th>${h2h.map(r => `<th class="num">${r.season - 1}-${String(r.season).slice(2)}</th>`).join('')}</tr>
+      ${h2h[0].results.map((row, i) => `<tr><td>${esc(row.formula)}</td>${h2h.map(r => `<td class="num">${Math.round(r.results[i].matchupWinRate * 100)}%</td>`).join('')}</tr>`).join('')}</table>
+    <div class="muted" style="margin-top:6px">Weeks won by one team drafting with each formula from preseason projections against 13 teams using plain z-scores, replaying the real season's weekly stats. 50% = no better.</div>` : ''}
+    <h3>Formula</h3>
+    <div class="chips"><button class="chip ${S.formula !== 'z' ? 'on' : ''}" data-formula="g">G-scores (recommended)</button><button class="chip ${S.formula === 'z' ? 'on' : ''}" data-formula="z">Plain z-scores</button></div>
   </div>`;
 }
 

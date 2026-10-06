@@ -1,0 +1,90 @@
+{
+ "builtAt": "2026-10-06T07:38:53.494Z",
+ "season": 2026,
+ "rankedBy": "season as it happened",
+ "tauFrom": 2025,
+ "tau": {
+  "fg": 0.7314273539036327,
+  "ft": 0.1337147893870504,
+  "tpm": 0.6057874126349578,
+  "pts": 16.578734756434734,
+  "reb": 2.8272755766321946,
+  "ast": 1.4056536926568373,
+  "stl": 0.3121368868354088,
+  "blk": 0.21598670672046288,
+  "tov": 0.5590286351577816
+ },
+ "method": "One team drafts by the formula, 13 by plain z-scores, snake draft from each slot in turn; real weekly stats replayed over 17 weeks against all 13 opponents. Category win rate: 50% = no better than plain z-scores.",
+ "results": [
+  {
+   "formula": "plain z-scores",
+   "matchupWinRate": 0.5,
+   "categoryWinRate": 0.5,
+   "byCategory": {
+    "FG%": 0.5,
+    "FT%": 0.5,
+    "3PM": 0.5,
+    "PTS": 0.5,
+    "REB": 0.5,
+    "AST": 0.5,
+    "STL": 0.5,
+    "BLK": 0.5,
+    "TO": 0.5
+   }
+  },
+  {
+   "formula": "z-scores capped at ±3",
+   "matchupWinRate": 0.5194,
+   "categoryWinRate": 0.5096,
+   "byCategory": {
+    "FG%": 0.584,
+    "FT%": 0.466,
+    "3PM": 0.445,
+    "PTS": 0.556,
+    "REB": 0.52,
+    "AST": 0.539,
+    "STL": 0.496,
+    "BLK": 0.506,
+    "TO": 0.473
+   }
+  },
+  {
+   "formula": "z-scores capped at ±2",
+   "matchupWinRate": 0.5095,
+   "categoryWinRate": 0.5054,
+   "byCategory": {
+    "FG%": 0.433,
+    "FT%": 0.467,
+    "3PM": 0.545,
+    "PTS": 0.499,
+    "REB": 0.566,
+    "AST": 0.463,
+    "STL": 0.541,
+    "BLK": 0.483,
+    "TO": 0.549
+   }
+  },
+  {
+   "formula": "G-scores (z with weekly noise)",
+   "matchupWinRate": 0.6391,
+   "categoryWinRate": 0.5443,
+   "byCategory": {
+    "FG%": 0.273,
+    "FT%": 0.486,
+    "3PM": 0.856,
+    "PTS": 0.808,
+    "REB": 0.558,
+    "AST": 0.87,
+    "STL": 0.566,
+    "BLK": 0.301,
+    "TO": 0.181
+   }
+  }
+ ],
+ "giannisRank": {
+  "plain z-scores": 72,
+  "z-scores capped at ±3": 65,
+  "z-scores capped at ±2": 78,
+  "G-scores (z with weekly noise)": 66
+ }
+}

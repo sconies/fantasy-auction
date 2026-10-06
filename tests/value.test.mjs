@@ -89,3 +89,13 @@ test('Basketball Reference per-game parser keeps traded players once, with the c
   assert.deepEqual([ps[0].name, ps[0].team, ps[0].g, ps[0].pts], ["Jo'e Doe", 'MIA', 70, 22.4]);
   assert.equal(ps[1].reb, 6.2);
 });
+
+test('G-scores shrink a noisy category and still spend the whole budget', () => {
+  const ps = fakePlayers();
+  const z = computeValues(ps), g = computeValues(ps, { tau: { fg: 0, ft: 0, tpm: 0, pts: 1000, reb: 0, ast: 0, stl: 0, blk: 0, tov: 0 } });
+  const zp = z.find(p => p.id === 'p0'), gp = g.find(p => p.id === 'p0');
+  assert.ok(Math.abs(gp.z.pts) < Math.abs(zp.z.pts) / 3, 'points barely count when their weekly noise is huge');
+  assert.ok(Math.abs(gp.z.reb - zp.z.reb) < 0.3, 'other categories are close to unchanged');
+  const total = g.slice(0, 182).reduce((s, p) => s + p.dollars, 0);
+  assert.ok(Math.abs(total - 2800) < 0.01);
+});
