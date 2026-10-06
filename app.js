@@ -138,11 +138,17 @@ function recompute() {
   lastCascade = cascadeAdjustments(allProposals());
   ranked = valuesWith(allProposals());
   byId = new Map(ranked.map(p => [p.id, p]));
+  const curve = ranked.map(p => p.dollars);
+  scaledMarket = new Map(ranked.filter(p => p.market > 0).sort((a, b) => b.market - a.market).map((p, i) => [p.id, curve[i] ?? 0]));
 }
 
 const ov = id => S.overrides[id] ?? {};
 const mine = p => Math.max(0, p.dollars + (+ov(p.id).dollars || 0));
-const marketOf = p => S.market[normName(p.name)] ?? p.market ?? undefined;
+// Market: your pasted prices (already in this league's dollars) win. Otherwise ESPN's average auction
+// price, which comes from mostly 10-team leagues, is put on this league's scale: a player's market rank
+// is priced at what that rank costs here (scripts/market-gaps.mjs explains why raw prices mislead).
+let scaledMarket = new Map();
+const marketOf = p => S.market[normName(p.name)] ?? scaledMarket.get(p.id) ?? undefined;
 const injuryOf = p => (news.injuries ?? []).find(i => normName(i.name) === normName(p.name));
 const dstate = () => draftState(ranked, S.draft.picks, { league, teamCount: S.draft.teams.length, priceOf: mine });
 
@@ -236,7 +242,7 @@ function openPlayer(id) {
     <div class="stat" style="margin-top:10px">
       <div><b>${money(mine(p))}</b><span>your value</span></div>
       <div><b>${money(p.dollars)}</b><span>model</span></div>
-      <div><b>${marketOf(p) != null ? money(marketOf(p)) : '–'}</b><span>market</span></div>
+      <div><b>${marketOf(p) != null ? money(marketOf(p)) : '–'}</b><span>market${p.market && !S.market[normName(p.name)] ? ` (ESPN $${Math.round(p.market)})` : ''}</span></div>
     </div>
     <h3>Projection per game (${p.projG} games)</h3>
     <div class="muted">${line('min')} min · ${line('pts')} pts · ${line('reb')} reb · ${line('ast')} ast · ${line('stl')} stl · ${line('blk')} blk · ${line('tpm')} 3pm · ${line('tov')} to ·
