@@ -51,6 +51,9 @@ button.danger { background: none; color: var(--bad); border: 1px solid var(--lin
 .tag { font-size: 11px; font-weight: 700; padding: 0 5px; border-radius: 4px; margin-left: 4px; }
 .tag.target { color: var(--good); border: 1px solid var(--good); }
 .tag.avoid { color: var(--bad); border: 1px solid var(--bad); }
+.tag.flag { color: var(--warn); border: 0; }
+.warn { color: var(--warn); font-size: 13px; margin-top: 6px; }
+details { margin-top: 6px; }
 .tag.inj { color: var(--warn); border: 1px solid var(--warn); }
 .tier { border-top: 1px dashed var(--line); margin: 8px 0 2px; padding-top: 4px; font-size: 12px; color: var(--muted); }
 .up { color: var(--good); } .down { color: var(--bad); }

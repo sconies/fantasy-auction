@@ -19,16 +19,17 @@ let S = blank();
 try { S = { ...S, ...JSON.parse(localStorage.getItem(KEY) || '{}') }; } catch {}
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch {} };
 
-let league, built, news, claudeAdj;
+let league, built, news, claudeAdj, evalData, qa, roles;
 let tab = 'ranks';
 let ranked = [], byId = new Map();
 
 const loadJson = async (f, fallback) => { try { const r = await fetch(f, { cache: 'no-cache' }); return r.ok ? await r.json() : fallback; } catch { return fallback; } };
 
 async function init() {
-  [league, built, news, claudeAdj] = await Promise.all([
+  [league, built, news, claudeAdj, evalData, qa, roles] = await Promise.all([
     loadJson('data/league.json', {}), loadJson('data/players.json', { players: [] }),
     loadJson('data/news.json', { injuries: [], articles: [] }), loadJson('data/adjustments.json', { adjustments: [] }),
+    loadJson('data/eval.json', null), loadJson('data/qa.json', null), loadJson('data/role-changes.json', { changes: [] }),
   ]);
   document.querySelectorAll('#tabs button').forEach(b => b.onclick = () => { tab = b.dataset.tab; render(); });
   $('#sheet').onclick = e => { if (e.target.id === 'sheet') closeSheet(); };
@@ -77,7 +78,7 @@ function recompute() {
 
 const ov = id => S.overrides[id] ?? {};
 const mine = p => Math.max(0, p.dollars + (+ov(p.id).dollars || 0));
-const marketOf = p => S.market[normName(p.name)];
+const marketOf = p => S.market[normName(p.name)] ?? p.market ?? undefined;
 const injuryOf = p => (news.injuries ?? []).find(i => normName(i.name) === normName(p.name));
 const dstate = () => draftState(ranked, S.draft.picks, { league, teamCount: S.draft.teams.length, priceOf: mine });
 
@@ -88,16 +89,17 @@ function catChips(p, punt = S.punt) {
     return `<span class="cat ${punt.includes(c) ? 'x' : z > 0.4 ? 'p' : z < -0.4 ? 'n' : ''}">${CAT_LABEL[c]} ${z > 0 ? '+' : ''}${z.toFixed(1)}</span>`;
   }).join('')}</div>`;
 }
+const depthLabel = p => (p.depth ? (p.depth.starter ? `Starter ${p.depth.pos}` : `${p.depth.pos} #${p.depth.rank}`) : 'No depth slot');
 function tags(p) {
   const o = ov(p.id), inj = injuryOf(p);
-  return `${o.tag ? `<span class="tag ${o.tag}">${o.tag === 'target' ? 'TARGET' : 'AVOID'}</span>` : ''}${inj ? `<span class="tag inj">${esc(inj.status)}</span>` : ''}`;
+  return `${o.tag ? `<span class="tag ${o.tag}">${o.tag === 'target' ? 'TARGET' : 'AVOID'}</span>` : ''}${inj ? `<span class="tag inj">${esc(inj.status)}</span>` : p.injury ? `<span class="tag inj">${esc(p.injury)}</span>` : ''}${p.flags?.length ? `<span class="tag flag" title="${esc(p.flags.join(' '))}">⚑</span>` : ''}`;
 }
 function playerRow(p, { right, drafted } = {}) {
   return `<div class="player ${drafted ? 'drafted' : ''}" data-open="${esc(p.id)}">
     <div class="rk">#${p.rank}</div>
     <div class="nm">${esc(p.name)}${tags(p)}</div>
     <div class="money">${right ?? defaultMoney(p)}</div>
-    <div class="sub">${esc(p.team ?? '')} · ${esc((p.pos ?? []).join(','))} · ${p.projG}g · ${(p.min ?? 0).toFixed(0)}m</div>
+    <div class="sub">${esc(p.team ?? '')} · ${esc((p.pos ?? []).join(','))} · ${esc(depthLabel(p))} · ${p.projG}g · ${(p.min ?? 0).toFixed(0)}m</div>
     ${catChips(p)}
   </div>`;
 }
@@ -119,12 +121,13 @@ function renderRanks() {
   if (f.show === 'avoid') list = list.filter(p => ov(p.id).tag === 'avoid');
   if (f.show === 'open') list = list.filter(p => !drafted.has(p.id));
   if (f.show === 'edited') list = list.filter(p => Object.keys(ov(p.id)).length);
+  if (f.show === 'flagged') list = list.filter(p => p.flags?.length);
   list = list.slice(0, 260);
 
   let html = `<div class="panel">
     <div class="row"><input id="q" placeholder="Search players" value="${esc(f.q)}">
       <select id="pos" class="shrink" style="width:auto">${['All', 'PG', 'SG', 'SF', 'PF', 'C'].map(x => `<option ${x === f.pos ? 'selected' : ''}>${x}</option>`).join('')}</select></div>
-    <div class="chips" style="margin-top:8px">${[['all', 'All'], ['open', 'Undrafted'], ['target', 'Targets'], ['avoid', 'Avoid'], ['edited', 'Edited']].map(([k, l]) => `<button class="chip ${f.show === k ? 'on' : ''}" data-show="${k}">${l}</button>`).join('')}</div>
+    <div class="chips" style="margin-top:8px">${[['all', 'All'], ['open', 'Undrafted'], ['target', 'Targets'], ['avoid', 'Avoid'], ['edited', 'Edited'], ['flagged', '⚑ Check']].map(([k, l]) => `<button class="chip ${f.show === k ? 'on' : ''}" data-show="${k}">${l}</button>`).join('')}</div>
     <h3>Punt (click a category to ignore it)</h3>
     <div class="chips">${CATS.map(c => `<button class="chip ${S.punt.includes(c) ? 'punt' : ''}" data-punt="${c}">${CAT_LABEL[c]}</button>`).join('')}</div>
   </div>`;
@@ -174,7 +177,13 @@ function openPlayer(id) {
     <h3>Projection per game (${p.projG} games)</h3>
     <div class="muted">${line('min')} min · ${line('pts')} pts · ${line('reb')} reb · ${line('ast')} ast · ${line('stl')} stl · ${line('blk')} blk · ${line('tpm')} 3pm · ${line('tov')} to ·
       FG ${(100 * p.fgm / (p.fga || 1)).toFixed(1)}% on ${line('fga')} · FT ${(100 * p.ftm / (p.fta || 1)).toFixed(1)}% on ${line('fta')}</div>
-    ${base.hist ? `<div class="muted">History: ${Object.entries(base.hist).map(([y, h]) => `${y - 1}-${String(y).slice(2)} ${h.g}g ${h.min}m ${h.pts}p`).join(' · ')}</div>` : ''}
+    ${base.hist ? `<div class="muted">Last season: ${Object.entries(base.hist).map(([y, h]) => `${h.team ?? ''} ${h.g}g ${(+h.min).toFixed(0)}m ${(+h.pts).toFixed(1)}p`).join(' · ')}</div>` : ''}
+    <h3>Role and sources</h3>
+    <div class="muted">${esc(depthLabel(p))} on the ESPN depth chart · projection: ${esc({ blend: '75% ESPN + 25% stats model', espn: 'ESPN only', model: 'stats model only', manual: 'entered by hand' }[p.source] ?? '')}</div>
+    ${sourcesTable(p)}
+    ${p.flags?.length ? `<div class="warn">${p.flags.map(f => `<div>⚑ ${esc(f)}</div>`).join('')}</div>` : ''}
+    ${p.notes?.length ? `<div class="muted">${p.notes.map(esc).join(' ')}</div>` : ''}
+    ${p.outlook ? `<details><summary class="muted">ESPN outlook</summary><div class="muted">${esc(p.outlook)}</div></details>` : ''}
     ${catChips(p)}
     <h3>Your judgement</h3>
     <div class="row">
@@ -201,6 +210,13 @@ function openPlayer(id) {
   };
   $('#o-clear').onclick = () => { delete S.overrides[id]; save(); recompute(); closeSheet(); render(); };
   bindDecisions($('#sheetBody'), () => openPlayer(id));
+}
+function sourcesTable(p) {
+  const rows = [['ESPN', p.sources?.espn], ['Stats model', p.sources?.model], ['FantasyPros', p.sources?.fp]].filter(([, v]) => v);
+  if (!rows.length) return '';
+  return `<table style="margin-top:6px"><tr><th>Source</th><th class="num">G</th><th class="num">Min</th><th class="num">Pts</th><th class="num">Reb</th><th class="num">Ast</th></tr>
+    ${rows.map(([n, v]) => `<tr><td>${n}</td><td class="num">${v.g}</td><td class="num">${(+v.min).toFixed(1)}</td><td class="num">${(+v.pts).toFixed(1)}</td><td class="num">${(+v.reb).toFixed(1)}</td><td class="num">${(+v.ast).toFixed(1)}</td></tr>`).join('')}
+    <tr><td><b>Used</b></td><td class="num"><b>${p.projG}</b></td><td class="num"><b>${p.min.toFixed(1)}</b></td><td class="num"><b>${p.pts.toFixed(1)}</b></td><td class="num"><b>${p.reb.toFixed(1)}</b></td><td class="num"><b>${p.ast.toFixed(1)}</b></td></tr></table>`;
 }
 function closeSheet() { $('#sheet').hidden = true; }
 
@@ -245,6 +261,8 @@ function renderNews() {
       <div class="muted">From the injury report (games missed until the expected return) and from the news job. Accepting changes the player's games or minutes, and every value is recalculated.</div>
       ${pending.map(proposalHtml).join('') || '<div class="empty">Nothing waiting.</div>'}</div>
     ${decided.length ? `<div class="panel"><h2>Decided</h2>${decided.map(proposalHtml).join('')}</div>` : ''}
+    <div class="panel"><h2>Depth chart moves (${(roles.changes ?? []).length})</h2><div class="muted">Each data refresh compares ESPN depth charts with the last one. A move doesn't change a value by itself: open the player and adjust minutes if you believe it.</div>
+      ${[...(roles.changes ?? [])].reverse().slice(0, 40).filter(c => byId.has(c.playerId)).map(c => `<div class="news-item" data-open="${esc(c.playerId)}"><b>${esc(c.name)}</b> ${esc(c.team)}: ${esc(c.from)} → <span class="${c.promoted ? 'up' : 'down'}">${esc(c.to)}</span><div class="muted">${esc(c.date)} · projected ${(+c.projectedMin).toFixed(0)} min</div></div>`).join('') || '<div class="empty">No moves since tracking started.</div>'}</div>
     <div class="panel"><h2>Injuries (${inj.length})</h2><div class="muted">ESPN, fetched ${esc(news.fetchedAt?.slice(0, 16).replace('T', ' ') ?? 'never')}</div>
       ${inj.map(i => { const p = basePlayers().find(x => normName(x.name) === normName(i.name)); return `<div class="news-item" data-open="${esc(p.id)}"><b>${esc(i.name)}</b> <span class="tag inj">${esc(i.status)}</span><div class="muted">${esc(i.comment)}</div></div>`; }).join('')}</div>
     <div class="panel"><h2>Headlines</h2>${(news.articles ?? []).slice(0, 40).map(a => `<div class="news-item"><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.headline)}</a><div class="muted">${esc(a.published?.slice(0, 10))} · ${esc(a.description ?? '')}</div></div>`).join('') || '<div class="empty">No headlines yet.</div>'}</div>`;
@@ -378,6 +396,7 @@ function renderSettings() {
   $('#view').innerHTML = `
     <div class="panel"><h2>League</h2><div class="muted">${esc(league.name)} · ${league.teams} teams · $${league.budget} · ${league.rosterSize} players (${esc(league.rosterPositions?.join(', '))}) · 9-cat head-to-head · ${esc(league.draft)}</div>
       <div class="muted" style="margin-top:6px">Projections: ${S.importedPlayers ? `${S.importedPlayers.length} pasted players` : `${built.players?.length ?? 0} players built ${esc(built.builtAt?.slice(0, 10) ?? 'never')}`}</div></div>
+    ${qualityPanel()}
     <div class="panel"><h2>Draft room</h2>
       <label>Which team is you</label><select id="s-me">${D.teams.map((t, i) => `<option value="${i}" ${i === D.me ? 'selected' : ''}>${esc(t)}</option>`).join('')}</select>
       <label style="margin-top:8px">Team names, one per line (order doesn't matter)</label><textarea id="s-teams">${esc(D.teams.join('\n'))}</textarea>
@@ -408,6 +427,18 @@ function renderSettings() {
   $('#s-proj-clear').onclick = () => { S.importedPlayers = null; save(); recompute(); render(); };
   $('#s-export').onclick = async () => { const j = JSON.stringify({ ...S, importedPlayers: S.importedPlayers }); try { await navigator.clipboard.writeText(j); alert('Backup copied'); } catch { prompt('Copy:', j); } };
   $('#s-import').onclick = () => { const j = prompt('Paste a backup'); if (!j) return; try { S = { ...blank(), ...JSON.parse(j) }; save(); recompute(); render(); } catch { alert('That is not a backup'); } };
+}
+
+function qualityPanel() {
+  const rows = (evalData?.summary ?? []).filter(s => s.spearman != null);
+  const c = qa?.counts;
+  return `<div class="panel"><h2>Data & value quality</h2>
+    ${c ? `<div class="muted">Built ${esc(qa.builtAt?.slice(0, 16).replace('T', ' '))}: ${c.players} players · ${c.blended} from ESPN + stats, ${c.espnOnly} ESPN only (mostly rookies), ${c.modelOnly} stats only · ${qa.starters} starters on depth charts · ${c.flagged} with a ⚑ to check${qa.problems?.length ? ` · <b class="down">problems: ${esc(qa.problems.join('; '))}</b>` : ''}</div>` : ''}
+    ${rows.length ? `<h3>Backtest: projections made before each season vs what happened</h3>
+    <table><tr><th>Method</th><th class="num">Rank corr.</th><th class="num">Avg $ miss</th><th class="num">Top 50 → top 75</th></tr>
+      ${rows.map(r => `<tr><td>${esc(r.label)}<div class="muted">${esc(r.seasons.map(t => `${t - 1}-${String(t).slice(2)}`).join(', '))}</div></td><td class="num">${r.spearman.toFixed(2)}</td><td class="num">$${r.maeDollars.toFixed(2)}</td><td class="num">${Math.round(r.top50StayedTop75 * 100)}%</td></tr>`).join('')}</table>
+    <div class="muted" style="margin-top:6px">${esc(evalData.method)}</div>` : ''}
+  </div>`;
 }
 
 // ---------- shell ----------
