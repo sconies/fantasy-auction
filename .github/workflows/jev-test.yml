@@ -1,0 +1,19 @@
+name: Test Jev on labelled injury notes
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: node scripts/jev-injuries.mjs --test
+        env:
+          TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY }}
+      - run: |
+          git config user.name "data-bot"; git config user.email "data-bot@users.noreply.github.com"
+          git add data/jev
+          git diff --cached --quiet || git commit -m "Jev injury test results"
+          git pull --rebase && git push

@@ -27,6 +27,10 @@ jobs:
         run: node scripts/build-players.mjs
       - name: News and injuries
         run: node scripts/fetch-news.mjs
+      - name: Jev reads new injury notes (skipped until the TYPESAFE_API_KEY secret exists)
+        run: node scripts/jev-injuries.mjs --run --if-key
+        env:
+          TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY }}
       - name: Tests
         run: node --test tests/*.test.mjs
       - name: Commit
