@@ -1,8 +1,8 @@
 {
- "builtAt": "2026-10-06T08:30:33.867Z",
+ "builtAt": "2026-10-06T08:32:11.122Z",
  "counts": {
-  "new": 0,
-  "toJudge": 0
+  "new": 5,
+  "toJudge": 5
  },
  "signals": [
   {
@@ -34,7 +34,7 @@
    "url": null,
    "text": "Gilgeous-Alexander won his second straight NBA MVP last season and remains one of the most consistent fantasy producers in the league. The Thunder are built perfectly to accentuate his strengths, with finishers and 3-and-D shooters at every position. This provides space for SGA to create off the dribble to generate efficient looks, assist opportunities and free throws galore. He has also averaged ",
    "flags": {
-    "playmaker": 0.71
+    "playmaker": 0.7
    },
    "summary": "will handle the ball or run the offense as a primary playmaker",
    "judge": false,
@@ -52,10 +52,10 @@
    "url": null,
    "text": "Doncic has won the NBA scoring crown in two of the last three seasons: his last full season with the Mavericks and his first full season with the Lakers. With former teammate LeBron James no longer on the squad, Doncic appears poised for the biggest season of his career. He has massive usage in the Lakers' offense, a talented second option in Austin Reaves to take some defensive pressure off, and ",
    "flags": {
-    "new_team": 0.94,
+    "new_team": 0.95,
     "opening": 0.9,
-    "usage_up": 0.89,
-    "playmaker": 0.79
+    "usage_up": 0.91,
+    "playmaker": 0.8
    },
    "summary": "changed teams (traded, signed or claimed) since last season; a teammate's absence or departure opens up opportunity for the player; should take on a bigger scoring or offensive load (more shots or touches); will handle the ball or run the offense as a primary playmaker",
    "judge": false,
@@ -91,7 +91,7 @@
    "url": null,
    "text": "Johnson has increased his scoring, rebounding and assists in each of his five seasons up to last season's rounded 23 points, 10 rebounds and 8 assists. He stepped forward as the franchise player for the Hawks, particularly after they traded away Trae Young. Johnson moves into this season as one of the few players in the league that has legitimate upside to average a triple-double.",
    "flags": {
-    "opening": 0.94
+    "opening": 0.93
    },
    "summary": "a teammate's absence or departure opens up opportunity for the player",
    "judge": false,
@@ -148,7 +148,7 @@
    "url": null,
    "text": "Sabonis' season was cut short by a knee injury that limited him to only 19 games, by far the fewest in a campaign in his career. In his three previous full seasons with the Kings, Sabonis had averaged a rounded 19 points, 13 rebounds and 7 assists in 77 games per year. The Kings have signaled a rebuild, letting veterans like DeMar DeRozan walk, and there are rumors that Sabonis could be on the mov",
    "flags": {
-    "role_up": 0.82
+    "role_up": 0.79
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season",
    "judge": false,
@@ -166,8 +166,8 @@
    "url": null,
    "text": "Maxey is coming off a campaign in which he averaged career highs in all six fantasy counting categories: points, assists, rebounds, steals, 3-pointers and blocks. He was fifth in fantasy points per game and fourth in total fantasy points and is still only 25 years old. The 76ers made big moves this offseason, bringing in both Jaylen Brown and LeBron James. While this increases the team's chances t",
    "flags": {
-    "role_down": 0.78,
-    "crowded": 0.77
+    "role_down": 0.79,
+    "crowded": 0.76
    },
    "summary": "the player's role, minutes or opportunity should shrink compared with last season; the team added players who could take the player's shots or minutes",
    "judge": false,
@@ -185,8 +185,8 @@
    "url": null,
    "text": "After spending his first seven seasons with the Atlanta Hawks, Young was traded to the Wizards in January. Young battled injury before and after the trade and was limited to only 15 total games played, the fewest in his career. This season, Young will be the leader of a new-look Wizards squad featuring fellow All-Star Anthony Davis and rookie No. 1 overall pick AJ Dybantsa. Young will be surrounde",
    "flags": {
-    "new_team": 0.96,
-    "playmaker": 0.74
+    "new_team": 0.97,
+    "playmaker": 0.76
    },
    "summary": "changed teams (traded, signed or claimed) since last season; will handle the ball or run the offense as a primary playmaker",
    "judge": false,
@@ -205,7 +205,7 @@
    "text": "Giddey has increased his scoring, rebounding and assist numbers in both of his seasons with the Bulls. Last season he averaged a rounded 17 points, 9 assists and 8 rebounds and became the clear focal point of the Bulls' offense. The Bulls are in the midst of a rebuild, also featuring rookie No. 4 overall pick Caleb Wilson, but Giddey's usage should be even higher this season and could even come cl",
    "flags": {
     "role_up": 0.97,
-    "usage_up": 0.93,
+    "usage_up": 0.94,
     "playmaker": 0.87
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season; should take on a bigger scoring or offensive load (more shots or touches); will handle the ball or run the offense as a primary playmaker",
@@ -224,7 +224,7 @@
    "url": null,
    "text": "Thompson was drafted as a once-a-generation athlete with the skill to potentially develop into a lead guard on offense and an elite defensive wing on defense. He has developed rapidly, improving his scoring, rebounding, and assist and steal numbers in each of his first three seasons. Thompson will likely step back as a distributor this season with the return of starting point guard Fred VanVleet, ",
    "flags": {
-    "usage_up": 0.84
+    "usage_up": 0.82
    },
    "summary": "should take on a bigger scoring or offensive load (more shots or touches)",
    "judge": false,
@@ -242,10 +242,9 @@
    "url": null,
    "text": "Haliburton is returning after a year away from the NBA recovering from a torn Achilles tendon. In his three full seasons with the Pacers, Haliburton has averaged a rounded 20-10 points-assists double-double with good shooting percentages and almost three 3-pointers a night. While Haliburton may be monitored early in the season, he is more than a year removed from the injury and expected to return ",
    "flags": {
-    "recovering": 0.99,
-    "minutes_limit": 0.72
+    "recovering": 0.99
    },
-   "summary": "is recovering or returning from a significant injury or surgery; is or will be on a minutes restriction in games (being limited in practice or held out of a practice does not count)",
+   "summary": "is recovering or returning from a significant injury or surgery",
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
@@ -261,10 +260,11 @@
    "url": null,
    "text": "Harden was traded to the Cavaliers midseason in exchange for Darius Garland, forming a dynamic backcourt with Donovan Mitchell. Pairing with Mitchell caps Harden's volume. and Harden's usage dropped dramatically after the trade in 26 games last season. In fact, it fell to a value that would have represented the second-lowest season-long Usage percentage over a full season since 2012. Expect his fa",
    "flags": {
-    "starter": 0.91,
-    "new_team": 0.9
+    "starter": 0.9,
+    "role_down": 0.71,
+    "new_team": 0.88
    },
-   "summary": "is expected to start or has been named a starter; changed teams (traded, signed or claimed) since last season",
+   "summary": "is expected to start or has been named a starter; the player's role, minutes or opportunity should shrink compared with last season; changed teams (traded, signed or claimed) since last season",
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
@@ -316,8 +316,8 @@
    "url": null,
    "text": "Injuries limited Davis to only 20 games last season and only 29 total with the Mavericks since his midseason trade there in the 2024-25 season. Last season, Davis was traded again to the Wizards though he was never able to play. This season, Davis is expected to return healthy and settle in as the primary big man for the Wizards. He will play next to point guard Trae Young, who excels at running t",
    "flags": {
-    "recovering": 0.81,
-    "role_up": 0.88
+    "recovering": 0.82,
+    "role_up": 0.87
    },
    "summary": "is recovering or returning from a significant injury or surgery; the player's role, minutes or opportunity should grow compared with last season",
    "judge": false,
@@ -389,8 +389,8 @@
    "url": null,
    "text": "White ranked 19th on the ESPN Player Rater last season, an unexpectedly high result. But White contributes positively to every fantasy category, including blocks (1.3 BPG last season), and those net positive contributions add up with no corresponding negatives. White's role remains consistent, and could even be a bit larger with Jaylen Brown traded away over the offseason, making White a great can",
    "flags": {
-    "role_up": 0.85,
-    "opening": 0.96
+    "role_up": 0.83,
+    "opening": 0.97
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season; a teammate's absence or departure opens up opportunity for the player",
    "judge": false,
@@ -409,8 +409,8 @@
    "text": "Garland is the franchise player for the Clippers this season after the Kawhi Leonard trade. Garland battled injury last season, but after being traded to the Clippers his numbers went up across the board even playing fewer minutes. Now healthy and in a larger role, Garland appears poised to have the best fantasy season of his career as long as he can stay healthy.",
    "flags": {
     "role_up": 0.95,
-    "new_team": 0.98,
-    "opening": 0.84
+    "new_team": 0.97,
+    "opening": 0.86
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season; changed teams (traded, signed or claimed) since last season; a teammate's absence or departure opens up opportunity for the player",
    "judge": false,
@@ -428,7 +428,7 @@
    "url": null,
    "text": "Knueppel broke every NBA rookie 3-point record last season and made a serious push to win the Rookie of the Year award ahead of college teammate Cooper Flagg before ultimately ending up as the runner up. Knueppel should have every opportunity to increase his shot share in his second season, though it should be noted that the trade of LaMelo Ball and his floor-general abilities could have a negativ",
    "flags": {
-    "role_up": 0.94,
+    "role_up": 0.95,
     "usage_up": 0.95
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season; should take on a bigger scoring or offensive load (more shots or touches)",
@@ -448,9 +448,10 @@
    "text": "Reaves made a star leap last season, proving that he had the capacity to produce major numbers when given the opportunity to. With LeBron James no longer on the Lakers' roster, Reaves now slots as the full-time second option on the team behind Luka Doncic with major upside whenever Doncic is out of the lineup. In four games when both Doncic and James were out of the lineup last season, Reaves aver",
    "flags": {
     "role_up": 0.91,
-    "opening": 0.97
+    "opening": 0.97,
+    "usage_up": 0.71
    },
-   "summary": "the player's role, minutes or opportunity should grow compared with last season; a teammate's absence or departure opens up opportunity for the player",
+   "summary": "the player's role, minutes or opportunity should grow compared with last season; a teammate's absence or departure opens up opportunity for the player; should take on a bigger scoring or offensive load (more shots or touches)",
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
@@ -467,9 +468,9 @@
    "text": "Brown is coming off his best individual season, operating as the sole focal point of the Celtics' offense with Jayson Tatum sidelined. After being traded to the 76ers this offseason, he is now in the opposite situation with several other high-usage teammates to share the ball with. Brown is in his peak seasons so should play well even with fewer shots, but his shot volume should lower significantl",
    "flags": {
     "role_down": 0.94,
-    "new_team": 0.96,
-    "opening": 0.72,
-    "crowded": 0.87
+    "new_team": 0.95,
+    "opening": 0.78,
+    "crowded": 0.88
    },
    "summary": "the player's role, minutes or opportunity should shrink compared with last season; changed teams (traded, signed or claimed) since last season; a teammate's absence or departure opens up opportunity for the player; the team added players who could take the player's shots or minutes",
    "judge": false,
@@ -488,7 +489,7 @@
    "text": "James willingly accepted a third option role with the Lakers last season, allowing Luka Doncic and Austin Reaves to operate at higher usage. After signing with the 76ers this offseason, James finds himself in a similar situation where he will likely be the third or fourth option behind teammates Tyrese Maxey, Jaylen Brown and Joel Embiid. James may play some point forward, so his assists may incre",
    "flags": {
     "new_team": 0.96,
-    "crowded": 0.81
+    "crowded": 0.84
    },
    "summary": "changed teams (traded, signed or claimed) since last season; the team added players who could take the player's shots or minutes",
    "judge": false,
@@ -507,7 +508,7 @@
    "text": "At 28 years old, Fox finds himself as the grizzled veteran on a team full of young, up-and-coming superstars. Fox's scoring in his first full season with the Spurs (18.6 PPG) was more than six points lower than his average for the five previous seasons (24.7 PPG), in large part because he had to share shots with Victor Wembanyama and Stephon Castle. Also because he had to share minutes with Dylan ",
    "flags": {
     "role_down": 0.9,
-    "new_team": 0.89,
+    "new_team": 0.9,
     "crowded": 0.97
    },
    "summary": "the player's role, minutes or opportunity should shrink compared with last season; changed teams (traded, signed or claimed) since last season; the team added players who could take the player's shots or minutes",
@@ -526,7 +527,7 @@
    "url": null,
    "text": "Banchero struggled with injury in 2024-25 but bounced back to play 72 games last season, the third time in his four seasons he has played at least 72 games. Banchero's game and production have been largely consistent through his first four NBA seasons, but his scoring dipped almost four points per game last season due to increased scoring talent among his teammates. Banchero's volume is slightly c",
    "flags": {
-    "crowded": 0.83
+    "crowded": 0.82
    },
    "summary": "the team added players who could take the player's shots or minutes",
    "judge": false,
@@ -544,7 +545,7 @@
    "url": null,
    "text": "Porter thrived in his first season with the Nets, leaning into the lead role to increase his scoring career high by more than five points up to the mid-20s. Porter remains the main option this season even after the trade that brought Julius Randle to town and should continue to produce. The question with Porter is always durability: he has only played more than 62 games twice in his seven-year car",
    "flags": {
-    "new_team": 0.81
+    "new_team": 0.85
    },
    "summary": "changed teams (traded, signed or claimed) since last season",
    "judge": false,
@@ -562,7 +563,7 @@
    "url": null,
    "text": "Daniels has been the best thief in the NBA for the past two seasons, averaging 2.5 SPG with the Hawks. This is the centerpiece for his fantasy value, though he does supplement with plus rebound and assist numbers. Daniels has played more than 33 minutes per game the last two seasons, but there is some question if his minutes may shrink since the Hawks brought in three new rotation-level perimeter ",
    "flags": {
-    "crowded": 0.85
+    "crowded": 0.84
    },
    "summary": "the team added players who could take the player's shots or minutes",
    "judge": false,
@@ -581,7 +582,7 @@
    "text": "Randle should be in for a bigger role this season after being traded from the Timberwolves to the Nets. Randle has been the second option to Anthony Edwards for the past two seasons but should have a higher usage on the rebuilding Nets. He, along with Michael Porter Jr., are the only veteran scorers on a team otherwise full of young, developing players.",
    "flags": {
     "role_up": 0.97,
-    "new_team": 0.94,
+    "new_team": 0.95,
     "usage_up": 0.97
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season; changed teams (traded, signed or claimed) since last season; should take on a bigger scoring or offensive load (more shots or touches)",
@@ -601,7 +602,7 @@
    "text": "Castle increased his role and production in Year 2, up from his Rookie of the Year numbers from the season before. He was drafted as an elite defender with the size to guard wings and the speed to guard point guards, but his offense took a big leap as well. He increased his scoring average and almost doubled his assist output. When healthy, the Spurs have two other strong lead guards in De'Aaron F",
    "flags": {
     "role_up": 0.88,
-    "usage_up": 0.73
+    "usage_up": 0.7
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season; should take on a bigger scoring or offensive load (more shots or touches)",
    "judge": false,
@@ -621,7 +622,7 @@
    "flags": {
     "recovering": 0.98,
     "role_up": 0.92,
-    "opening": 0.92,
+    "opening": 0.9,
     "usage_up": 0.94,
     "playmaker": 0.88
    },
@@ -641,8 +642,8 @@
    "url": null,
    "text": "Herro was the centerpiece of the package the Bucks received for trading Giannis Antetokounmpo. Herro averaged more than 20 PPG in each of the last five seasons as a contributor on the Heat, but his upside in Milwaukee could be much higher. On a fully rebuilding Bucks team, Herro has the opportunity to maximize his scoring potential. He should get as many shots as he can handle and likely produce t",
    "flags": {
-    "role_up": 0.92,
-    "usage_up": 0.98
+    "role_up": 0.93,
+    "usage_up": 0.97
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season; should take on a bigger scoring or offensive load (more shots or touches)",
    "judge": false,
@@ -660,8 +661,8 @@
    "url": null,
    "text": "Reid was the 2024-25 NBA Sixth Man of the Year and has been a metronome of consistent production for the last three seasons with the Timberwolves, averaging a rounded 14 points, 6 rebounds, 2 3-pointers and 2 combined blocks and steals. After being traded this summer, Reid may get starter minutes for the Hornets. If so, he has top-50 upside in category leagues.",
    "flags": {
-    "role_up": 0.86,
-    "new_team": 0.96
+    "role_up": 0.87,
+    "new_team": 0.97
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season; changed teams (traded, signed or claimed) since last season",
    "judge": false,
@@ -679,11 +680,11 @@
    "url": null,
    "text": "Ingram had surgery on his foot/heel during the offseason, then was traded to the LA Clippers in exchange for Kawhii Leonard. He will miss the start of the season recovering from the surgery but no return timeline has been announced. When fully healthy, Ingram projects as the leading scorer on a Clippers team devoid of experienced scorers. He should get more volume than he ever has and could genera",
    "flags": {
-    "absence": 0.95,
+    "absence": 0.96,
     "recovering": 0.97,
     "role_up": 0.93,
     "new_team": 0.96,
-    "opening": 0.78,
+    "opening": 0.77,
     "usage_up": 0.97
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery; the player's role, minutes or opportunity should grow compared with last season; changed teams (traded, signed or claimed) since last season; a teammate's absence or departure opens up opportunity for the player; should take on a bigger scoring or offensive load (more shots or touches)",
@@ -702,9 +703,9 @@
    "url": null,
    "text": "Miller's third season was almost a carbon copy of his second on a per-game basis, but he played in more than twice as many games (65) as the season before (27). He, along with sophomore Kon Knueppel, are the two primary scoring options for the Hornets and could get more volume this season after the departure of Lamelo Ball. Ball was the point guard as well, though, so his loss could also mean lowe",
    "flags": {
-    "role_up": 0.83,
-    "opening": 0.85,
-    "usage_up": 0.85
+    "role_up": 0.82,
+    "opening": 0.87,
+    "usage_up": 0.84
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season; a teammate's absence or departure opens up opportunity for the player; should take on a bigger scoring or offensive load (more shots or touches)",
    "judge": false,
@@ -723,8 +724,8 @@
    "text": "Lillard sat out last season with a torn Achilles, and when last he played it was as the second option to Giannis Antetokounmpo with the Bucks. This season, he will be back home with the Trail Blazers squad where he spent his first decade in the league. Portland is in the midst of rebuilding and have four strong lead guards, including Lillard, Jrue Holiday, Ja Morant and Scoot Henderson. The minute",
    "flags": {
     "recovering": 0.95,
-    "new_team": 0.87,
-    "crowded": 0.9
+    "new_team": 0.89,
+    "crowded": 0.91
    },
    "summary": "is recovering or returning from a significant injury or surgery; changed teams (traded, signed or claimed) since last season; the team added players who could take the player's shots or minutes",
    "judge": false,
@@ -742,7 +743,7 @@
    "url": null,
    "text": "Okongwu's minutes and scoring have increased in each of his six NBA seasons, up to 15.2 PPG in 31.0 MPG last season. Okongwu remains the starting center for the Hawks, making him the second rebounder behind Jalen Johnson and a primary defender notching more than a block and steal per game. He has also worked on his 3-point shot, increasing to 1.9 3PG last season.",
    "flags": {
-    "starter": 0.97
+    "starter": 0.98
    },
    "summary": "is expected to start or has been named a starter",
    "judge": false,
@@ -760,7 +761,7 @@
    "url": null,
    "text": "George broke out last season, settling in as the lead guard for the Jazz and pushing his scoring average up into the mid 20s. He also set new career marks in assists, with the threat of his own scoring imbalancing defenses and helping him create offense for teammates. The Jazz feature Lauri Markkanen as the main scoring option, but George is a close second. His challenge this season will be integr",
    "flags": {
-    "playmaker": 0.82
+    "playmaker": 0.81
    },
    "summary": "will handle the ball or run the offense as a primary playmaker",
    "judge": false,
@@ -778,9 +779,10 @@
    "url": null,
    "text": "Murphy has emerged as a primary option for the Pelicans, a high-volume shooter and scorer that goes on streaks where it seems he can't miss. The Pelicans have developed depth on the wing, with more players than available minutes, but Murphy is a priority that should maintain his role and shots. Murphy does have some durability concerns; in his five NBA seasons, he has only played more than 66 game",
    "flags": {
-    "crowded": 0.78
+    "crowded": 0.8,
+    "usage_up": 0.73
    },
-   "summary": "the team added players who could take the player's shots or minutes",
+   "summary": "the team added players who could take the player's shots or minutes; should take on a bigger scoring or offensive load (more shots or touches)",
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
@@ -796,10 +798,9 @@
    "url": null,
    "text": "Powell broke out two seasons ago with the Clippers, going from a productive scorer off the bench to a 20-plus points starter for first the Clippers and then the Heat. This season he has signed on to be the shooter-scorer wing for the Bulls. He should get plenty of good looks playing off Josh Giddey, particularly if rookie Caleb Wilson is able to play well enough to draw defensive attention of his ",
    "flags": {
-    "new_team": 0.95,
-    "usage_up": 0.72
+    "new_team": 0.95
    },
-   "summary": "changed teams (traded, signed or claimed) since last season; should take on a bigger scoring or offensive load (more shots or touches)",
+   "summary": "changed teams (traded, signed or claimed) since last season",
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
@@ -815,7 +816,7 @@
    "url": null,
    "text": "Wilson is a big forward with explosive athleticism that was in the conversation to be the No. 1 overall pick in the 2026 NBA draft before injury shortened his lone collegiate season. Wilson recovered from injury in time to play in the Las Vegas Summer League and unveil a previously unseen 3-point shot. He already projected to produce strong defensive and rebound numbers, as well as scoring in the ",
    "flags": {
-    "recovering": 0.89
+    "recovering": 0.9
    },
    "summary": "is recovering or returning from a significant injury or surgery",
    "judge": false,
@@ -833,8 +834,8 @@
    "url": null,
    "text": "Boozer was arguably the most professional-ready of the four rookies that were discussed as potential top picks in the 2026 NBA draft. A big forward with a strong inside-out game, the ability to clean the glass and surprising court vision. He is immediately the focal point of the Grizzlies' rebuild effort, and is an early favorite to win NBA Rookie of the Year. He could be a fantasy starter from da",
    "flags": {
-    "starter": 0.73,
-    "usage_up": 0.72
+    "starter": 0.7,
+    "usage_up": 0.74
    },
    "summary": "is expected to start or has been named a starter; should take on a bigger scoring or offensive load (more shots or touches)",
    "judge": false,
@@ -853,7 +854,7 @@
    "text": "Kessler was limited by shoulder surgery to only five games last season but should be returned to health for this, his first campaign with the Lakers. Kessler has been brought in to be the Lakers' franchise big man: an anchor on defense and a finisher on offense. Kessler is one of the best shot-blockers in the NBA and an athletic finisher around the rim, exactly the prototype for the type of big th",
    "flags": {
     "recovering": 0.98,
-    "role_up": 0.84,
+    "role_up": 0.82,
     "new_team": 0.95
    },
    "summary": "is recovering or returning from a significant injury or surgery; the player's role, minutes or opportunity should grow compared with last season; changed teams (traded, signed or claimed) since last season",
@@ -872,8 +873,8 @@
    "url": null,
    "text": "Gobert has been a model of consistency on defense and the glass for a decade. For the last two seasons, Gobert had been part of a triumverate of impact big men with Julius Randle and Naz Reid. This offseason, the Timberwolves traded Randle to the Nets and Reid to the Hornets without getting a starting caliber big in either deal. This solidifies Gobert with as many minutes as he can handle, so he s",
    "flags": {
-    "role_up": 0.96,
-    "opening": 0.97
+    "role_up": 0.95,
+    "opening": 0.96
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season; a teammate's absence or departure opens up opportunity for the player",
    "judge": false,
@@ -909,9 +910,9 @@
    "url": null,
    "text": "Jerome was limited by injury to only 15 games last season, but what he accomplished in those games was startling. He averaged a rounded 20 points, 6 assists and 3 3-pointers in only 23 minutes per game. Jerome should be in for a larger role for the Grizzlies this season after Ja Morant was traded away. If he can approach his per-minute production with more minutes, he has top-50 fantasy upside.",
    "flags": {
-    "role_up": 0.97,
+    "role_up": 0.98,
     "opening": 0.98,
-    "usage_up": 0.81
+    "usage_up": 0.83
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season; a teammate's absence or departure opens up opportunity for the player; should take on a bigger scoring or offensive load (more shots or touches)",
    "judge": false,
@@ -948,7 +949,7 @@
    "url": null,
    "text": "Sarr was the No. 2 overall pick in the 2024 NBA draft, and he has quietly been developing into a starting caliber center worthy of such lofty draft heritage. In roughly the same 27 minutes he averaged as a rookie, Sarr upped almost all of his fantasy stats as a sophomore. He is a strong shot-blocker and defender that appears to have 20-10 point-rebound upside in the near future. His ceiling may be",
    "flags": {
-    "crowded": 0.93
+    "crowded": 0.92
    },
    "summary": "the team added players who could take the player's shots or minutes",
    "judge": false,
@@ -967,8 +968,8 @@
    "text": "Buzelis had a major glowup in Year 2, nearly doubling his rookie season stats and establishing himself as a cornerstone for the rebuilding Bulls. He will be the starting small forward in a lineup featuring three new starters in addition to returning point guard Josh Giddey. Buzelis is called upon to provide strong shooting and scoring, as well as to defend and crash the boards. This generates soli",
    "flags": {
     "starter": 0.98,
-    "role_up": 0.85,
-    "usage_up": 0.86
+    "role_up": 0.83,
+    "usage_up": 0.85
    },
    "summary": "is expected to start or has been named a starter; the player's role, minutes or opportunity should grow compared with last season; should take on a bigger scoring or offensive load (more shots or touches)",
    "judge": false,
@@ -1005,8 +1006,8 @@
    "url": null,
    "text": "Zubac was traded to the Pacers at midseason, but was already dealing with injuries that nagged him for the rest of the campaign. Prior to the injury, while with the Clippers, Zubac was continuing his breakout play from the season before as a dominant rebounder and plus scorer with solid peripheral numbers. Now healthy, Zubac should return to that level while with the Pacers. He will have the added",
    "flags": {
-    "recovering": 0.78,
-    "new_team": 0.96
+    "recovering": 0.76,
+    "new_team": 0.95
    },
    "summary": "is recovering or returning from a significant injury or surgery; changed teams (traded, signed or claimed) since last season",
    "judge": false,
@@ -1024,7 +1025,7 @@
    "url": null,
    "text": "McCollum was traded to the Hawks at midseason and fit in perfectly with the rest of their lineup in 2025-26. More shooter-scorer lead guard than true point guard, McCollum works with backcourt-mate Nickeil Alexander-Walker to generate points and scoring opportunities for teammates while playing off Jalen Johnson. Fantasy-wise, McCollum's scoring, 3-point shooting, assists and rebounds make him a t",
    "flags": {
-    "new_team": 0.91
+    "new_team": 0.92
    },
    "summary": "changed teams (traded, signed or claimed) since last season",
    "judge": false,
@@ -1045,7 +1046,7 @@
     "starter": 0.93,
     "role_up": 0.98,
     "opening": 0.95,
-    "usage_up": 0.92
+    "usage_up": 0.91
    },
    "summary": "is expected to start or has been named a starter; the player's role, minutes or opportunity should grow compared with last season; a teammate's absence or departure opens up opportunity for the player; should take on a bigger scoring or offensive load (more shots or touches)",
    "judge": false,
@@ -1063,13 +1064,12 @@
    "url": null,
    "text": "Jackson was traded to the Jazz midseason in 2025-26, and only played three games with them before being shut down with a knee injury. He could get more minutes at center with the trade of Walker Kessler to the Lakers, though Jusuf Nurkic is still on roster. But Jackson is young and has the dynamic scoring ability to fit in with the other young Jazz. If he can channel the form that made him the 202",
    "flags": {
-    "absence": 0.7,
-    "minutes_limit": 0.71,
-    "role_up": 0.72,
-    "new_team": 0.9,
-    "opening": 0.93
+    "absence": 0.74,
+    "role_up": 0.74,
+    "new_team": 0.88,
+    "opening": 0.92
    },
-   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is or will be on a minutes restriction in games (being limited in practice or held out of a practice does not count); the player's role, minutes or opportunity should grow compared with last season; changed teams (traded, signed or claimed) since last season; a teammate's absence or departure opens up opportunity for the player",
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; the player's role, minutes or opportunity should grow compared with last season; changed teams (traded, signed or claimed) since last season; a teammate's absence or departure opens up opportunity for the player",
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
@@ -1085,12 +1085,11 @@
    "url": null,
    "text": "Morant is an enigma. Once considered a future face of the league, off-court issues and injuries derailed his last few seasons with the Grizzlies and ultimately led to his offseason trade to the Trail Blazers. Morant is now one of four high level lead guards on the team, including Damian Lillard, Jrue Holiday and Scoot Henderson. Morant may get fewer than his typical minutes and usage, which caps h",
    "flags": {
-    "minutes_limit": 0.78,
-    "role_down": 0.9,
+    "role_down": 0.89,
     "new_team": 0.98,
     "crowded": 0.88
    },
-   "summary": "is or will be on a minutes restriction in games (being limited in practice or held out of a practice does not count); the player's role, minutes or opportunity should shrink compared with last season; changed teams (traded, signed or claimed) since last season; the team added players who could take the player's shots or minutes",
+   "summary": "the player's role, minutes or opportunity should shrink compared with last season; changed teams (traded, signed or claimed) since last season; the team added players who could take the player's shots or minutes",
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
@@ -1106,7 +1105,7 @@
    "url": null,
    "text": "Edgecombe turned in an electric rookie season that established him as an impact player in the NBA. But the 76ers brought in several high level wings this offseason, including LeBron James and Jaylen Brown, that could put a ceiling on Edgecombe's upside. He demonstrated the ability to be a 20/5/5 type player with good 3-pointer and defensive numbers, but as the fourth or fifth option on a loaded 76",
    "flags": {
-    "role_down": 0.79,
+    "role_down": 0.81,
     "crowded": 0.84
    },
    "summary": "the player's role, minutes or opportunity should shrink compared with last season; the team added players who could take the player's shots or minutes",
@@ -1143,8 +1142,8 @@
    "url": null,
    "text": "DeRozan averaged more than 16 PPG for the 16th straight season with the Kings, before leaving this offseason to join the Nuggets. DeRozan is listed as a sixth man for the Nuggets, the primary backup at shooting guard and both forward slots. He may not get full starter minutes, but it should be close. DeRozan is a professional scorer, and he'll get to play off and be set up by the greatest passing ",
    "flags": {
-    "bench": 0.95,
-    "role_down": 0.84,
+    "bench": 0.94,
+    "role_down": 0.86,
     "new_team": 0.97
    },
    "summary": "is expected to come off the bench or has lost his starting job; the player's role, minutes or opportunity should shrink compared with last season; changed teams (traded, signed or claimed) since last season",
@@ -1163,7 +1162,7 @@
    "url": null,
    "text": "The Pelicans made headlines on NBA draft night in 2025 when they traded an unprotected first round pick for Queen. Queen then went out and turned in an impressive rookie season with rounded averages of 12 PPG, 7 RPG and 4 APG in 25 MPG. While the Pelicans have several talented options in the frontcourt, Queen seems to be a big part of their future plans and thus could push for more minutes and opp",
    "flags": {
-    "role_up": 0.94
+    "role_up": 0.93
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season",
    "judge": false,
@@ -1184,7 +1183,7 @@
     "bench": 0.96,
     "role_down": 0.92,
     "opening": 0.98,
-    "crowded": 0.91
+    "crowded": 0.9
    },
    "summary": "is expected to come off the bench or has lost his starting job; the player's role, minutes or opportunity should shrink compared with last season; a teammate's absence or departure opens up opportunity for the player; the team added players who could take the player's shots or minutes",
    "judge": false,
@@ -1202,9 +1201,9 @@
    "url": null,
    "text": "VanVleet missed all of last season with a knee injury, but perhaps more importantly the Rockets missed him. Even with the addition of Kevin Durant last season, the Rockets were only able to win the same 52 games they had won with VanVleet at the helm the season before. VanVleet therefore returns to his role as starting point guard with job security despite the depth of quality perimeter players th",
    "flags": {
-    "recovering": 0.93,
+    "recovering": 0.94,
     "starter": 0.98,
-    "playmaker": 0.83
+    "playmaker": 0.84
    },
    "summary": "is recovering or returning from a significant injury or surgery; is expected to start or has been named a starter; will handle the ball or run the offense as a primary playmaker",
    "judge": false,
@@ -1223,7 +1222,7 @@
    "text": "Pritchard's minutes and production have increased in each of the last three seasons, peaking with his rounded 17 PPG, 5 APG, 4 RPG and 3 3PG last season. His role was expanded last season by the injury to Jayson Tatum, and he is likely to maintain that elevated level this season after the offseason trade of Jaylen Brown. Payton is an outstanding 3-point shooter and solid playmaker that the Celtics",
    "flags": {
     "opening": 0.98,
-    "usage_up": 0.88
+    "usage_up": 0.87
    },
    "summary": "a teammate's absence or departure opens up opportunity for the player; should take on a bigger scoring or offensive load (more shots or touches)",
    "judge": false,
@@ -1277,7 +1276,7 @@
    "url": null,
    "text": "Hart took a step backwards statistically last season, partially because he was battling nagging injuries for most of the season. He played 11 fewer games with 7.4 fewer MPG than the season before, and that translated to his production. Nevertheless, he remains a dominant rebounder from the wing with plus contributions to assists, 3-pointers and steals who can also average in the low-teens in scori",
    "flags": {
-    "role_up": 0.95,
+    "role_up": 0.96,
     "opening": 0.75
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season; a teammate's absence or departure opens up opportunity for the player",
@@ -1297,7 +1296,7 @@
    "text": "Acuff was the best offense-creator in this year's NBA draft class, capable of generating volume points for himself as well as his teammates. Acuff has a slick handle and parking lot shooting range, and his first step allows him to get into the lane to draw fouls. Much of his effectiveness this season will be predicated on his ability to handle the physicality at the NBA level, to be able to still ",
    "flags": {
     "usage_up": 0.86,
-    "playmaker": 0.79
+    "playmaker": 0.8
    },
    "summary": "should take on a bigger scoring or offensive load (more shots or touches); will handle the ball or run the offense as a primary playmaker",
    "judge": false,
@@ -1335,7 +1334,7 @@
    "text": "McDaniels is coming off the best season of his career, and at 25 years old is on the cusp of his athletic prime years. McDaniels' role could be larger this season after the Timberwolves traded away Julius Randle and Naz Reid while bringing in only Jonathan Kuminga as a starting-caliber replacement. He is a jack-of-all trades that scores in the mid-teens, shoots good percentages and contributes 1+ ",
    "flags": {
     "role_up": 0.95,
-    "opening": 0.97,
+    "opening": 0.98,
     "usage_up": 0.77
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season; a teammate's absence or departure opens up opportunity for the player; should take on a bigger scoring or offensive load (more shots or touches)",
@@ -1354,8 +1353,8 @@
    "url": null,
    "text": "Rollins broke out in a major way last season, earning a starting nod and displaying a high-volume scoring all-around game that made him ain impact fantasy player. The Bucks went all-in on their rebuild this offseason by trading away Giannis Antetokounmpo and bringing back several young players, but Rollins is expected to maintain a large role in the aftermath. At 24 years old and still relatively ",
    "flags": {
-    "starter": 0.93,
-    "opening": 0.76
+    "starter": 0.94,
+    "opening": 0.73
    },
    "summary": "is expected to start or has been named a starter; a teammate's absence or departure opens up opportunity for the player",
    "judge": false,
@@ -1391,10 +1390,9 @@
    "url": null,
    "text": "Porzingis is one of the elite per-minute producers of his generation, but injuries have consistently derailed his availability and is already out for training camp. Porzingis missed 50 games last season and 40 the season before, and has missed at least 16 games in nine straight seasons. He is slotted to be the Warriors' starting center this season, and when he plays he will produce, but he is risk",
    "flags": {
-    "absence": 0.72,
     "starter": 0.98
    },
-   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is expected to start or has been named a starter",
+   "summary": "is expected to start or has been named a starter",
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
@@ -1411,10 +1409,9 @@
    "text": "Porter had an excellent season on a per-game basis, posting averages similar to his peak season with the Rockets in 2022-23. But he was limited to only 38 games, and had to undergo surgery on his right knee in April. When healthy, Porter will be one of several young guards vying for minutes on the rebuilding Bucks. Porter's production is likely capped by his situation, but if he gets anywhere near",
    "flags": {
     "recovering": 0.9,
-    "minutes_limit": 0.82,
-    "new_team": 0.76
+    "new_team": 0.78
    },
-   "summary": "is recovering or returning from a significant injury or surgery; is or will be on a minutes restriction in games (being limited in practice or held out of a practice does not count); changed teams (traded, signed or claimed) since last season",
+   "summary": "is recovering or returning from a significant injury or surgery; changed teams (traded, signed or claimed) since last season",
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
@@ -1430,9 +1427,10 @@
    "url": null,
    "text": "Vucevic was a metronome of double-double production for 13 seasons, averaging a rounded 18 points and 11 rebounds from 2012-13 through 2024-25. Last season, he was traded to the Celtics midseason and saw his minutes and production dip precipitously. Some was due to performance and some to injury, but he was not fantasy viable with the Celtics. This offseason he returned to the Magic and is expecte",
    "flags": {
+    "role_up": 0.7,
     "new_team": 0.97
    },
-   "summary": "changed teams (traded, signed or claimed) since last season",
+   "summary": "the player's role, minutes or opportunity should grow compared with last season; changed teams (traded, signed or claimed) since last season",
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
@@ -1466,7 +1464,7 @@
    "url": null,
    "text": "Barrett has been a consistent 20-point scorer for five straight seasons. He doesn't generate many defensive stats, but he does get a handful of rebounds and assists and knocks down almost two 3-pointers per game. Barrett's scoring output could be limited a bit this season by the presence of new high-volume scoring teammate Kawhi Leonard, but Barrett should remain the second scoring option for the ",
    "flags": {
-    "crowded": 0.85
+    "crowded": 0.87
    },
    "summary": "the team added players who could take the player's shots or minutes",
    "judge": false,
@@ -1484,7 +1482,7 @@
    "url": null,
    "text": "Harris enters the season competing with Julian Champagnie for the Spurs starting power forward job. He averaged 13.3 PPG and 5.1 RPG in 63 games for the Pistons last season, then raised his production to 18.1 PPG and 7.2 RPG in the playoffs. Harris brings shooting, rebounding and the ability to create his own shot, but San Antonio’s deep rotation could limit his usage. Winning the starting job wou",
    "flags": {
-    "new_team": 0.82
+    "new_team": 0.83
    },
    "summary": "changed teams (traded, signed or claimed) since last season",
    "judge": false,
@@ -1502,7 +1500,7 @@
    "url": null,
    "text": "Peterson enters his rookie season with Utah as the No. 2 overall pick and should have a path to significant minutes whether he starts immediately or not. He averaged 20.2 PPG and 4.2 RPG at Kansas while battling multiple health issues and shot 38.2% from beyond the arc. Utah has plenty of established scorers, which could keep Peterson’s usage in check early, but his shot creation and playmaking gi",
    "flags": {
-    "crowded": 0.78
+    "crowded": 0.77
    },
    "summary": "the team added players who could take the player's shots or minutes",
    "judge": false,
@@ -1538,7 +1536,7 @@
    "url": null,
    "text": "Fears enters his second season with the Pelicans looking to turn flashes from a solid rookie year into a bigger role. He averaged 14.3 PPG, 3.7 RPG, 3.4 APG and 1.2 SPG while playing all 82 games, but shot just 33.0% from beyond the arc and struggled defensively. Fears’ playmaking improved as the season went on, and another step there could push him toward 17.0 PPG and 5.0 APG. The downside is tha",
    "flags": {
-    "role_up": 0.78
+    "role_up": 0.77
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season",
    "judge": false,
@@ -1556,7 +1554,7 @@
    "url": null,
    "text": "Smith enters this season as a likely starter for the Rockets, but his role isn’t completely secure with Tari Eason pushing for more minutes. Smith averaged 15.8 PPG, 6.9 RPG and 2.3 3-pointers last season, then posted 17.5 PPG and 8.5 RPG in the playoffs. The fantasy appeal comes from his combination of threes, rebounds and blocks, but his limited playmaking and competition for minutes cap the ups",
    "flags": {
-    "starter": 0.9
+    "starter": 0.92
    },
    "summary": "is expected to start or has been named a starter",
    "judge": false,
@@ -1602,6 +1600,99 @@
    "handledNote": "covered by the injury proposal (ESPN return date + Jev reading)"
   },
   {
+   "id": "news:c77448e54a01",
+   "kind": "text",
+   "playerId": "5160992",
+   "name": "Alex Sarr",
+   "team": "WAS",
+   "date": "2026-10-05",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/612395/alex-sarr-foot-to-begin-contact-work-soon.php",
+   "text": "Alex Sarr (foot) to begin contact work soon Alex Sarr is expected to begin contact work soon.  Fantasy Impact: Sarr underwent surgery this offseason. He is continuing to work his way back to full strength.",
+   "flags": {
+    "recovering": 0.98
+   },
+   "summary": "is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "news:1fa962cde402",
+   "kind": "text",
+   "playerId": "6440",
+   "name": "Tobias Harris",
+   "team": "SAS",
+   "date": "2026-10-05",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/612394/tobias-harris-calf-will-not-be-rushed-back.php",
+   "text": "Tobias Harris (calf) will not be rushed back Spurs head coach Mitch Johnson said they will not rush Tobias Harris back to the court.  Fantasy Impact: Harris agreed to a two-year, $31 million contract with the Spurs this offseason. His status for the start of the season is uncertain as he battles a calf injury.",
+   "flags": {
+    "absence": 0.76,
+    "recovering": 0.74,
+    "new_team": 0.93
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery; changed teams (traded, signed or claimed) since last season",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "news:d11931b9bd32",
+   "kind": "text",
+   "playerId": "4600663",
+   "name": "Zach Edey",
+   "team": "MEM",
+   "date": "2026-10-05",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/612374/zach-edey-ankle-on-track-season-opener.php",
+   "text": "Zach Edey (ankle) on track for season opener Zach Edey remains on track to be good to go for the Grizzlies season opener.  Fantasy Impact: Edey was recently cleared for full-speed activity. He is on track in his rehab.",
+   "flags": {
+    "recovering": 0.83
+   },
+   "summary": "is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "news:012beabf4fd4",
+   "kind": "text",
+   "playerId": "3934673",
+   "name": "Donte DiVincenzo",
+   "team": "MIN",
+   "date": "2026-10-05",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/612376/donte-divincenzo-achilles-expected-to-return-some-point-this-season.php",
+   "text": "Donte DiVincenzo (Achilles) expected to return at some point this season Timberwolves president Tim Connelly believes Donte DiVincenzo will return at some point this season  Fantasy Impact: DiVincenzo remains without a clear timetable to return. He is unlikely to be on the fantasy radar this year.",
+   "flags": {
+    "absence": 0.92,
+    "recovering": 0.95
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "news:a7b36da58330",
+   "kind": "text",
+   "playerId": "3907387",
+   "name": "Ben Simmons",
+   "team": "SAC",
+   "date": "2026-10-05",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/612393/ben-simmons-not-expected-to-play-preseason-game-monday.php",
+   "text": "Ben Simmons not expected to play in preseason game Monday Ben Simmons is not expected to play in Monday's preseason game against the Lakers.  Fantasy Impact: It is not believed to be an injury related absence for Simmons. He signed a one-year contract with the Kings this offseason.",
+   "flags": {
+    "new_team": 0.97
+   },
+   "summary": "changed teams (traded, signed or claimed) since last season",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-06"
+  },
+  {
    "id": "headline:af45de00a6e3",
    "kind": "text",
    "playerId": "6440",
@@ -1612,7 +1703,7 @@
    "url": "https://www.espn.com/nba/story/_/id/50104825/spurs-tobias-harris-miss-preseason-left-calf-strain",
    "text": "Spurs' Tobias Harris to miss preseason with left calf strain. Spurs free agent acquisition Tobias Harris sustained a calf strain during camp that has him questionable for the team's Oct. 20 season opener vs. OKC.",
    "flags": {
-    "new_team": 0.85
+    "new_team": 0.88
    },
    "summary": "changed teams (traded, signed or claimed) since last season",
    "judge": true,
@@ -1631,8 +1722,8 @@
    "url": null,
    "text": "The Warriors hope to have Butler (knee) back early in 2027, per Keith Watkins of Yahoo Sports.",
    "flags": {
-    "absence": 0.78,
-    "recovering": 0.83
+    "absence": 0.8,
+    "recovering": 0.84
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
    "judge": true,
@@ -1651,7 +1742,7 @@
    "url": "https://www.espn.com/nba/story/_/id/50079853/76ers-envision-lebron-james-role-being-offense-creator",
    "text": "76ers envision LeBron James' role being 'offense creator'. Sixers coach Nick Nurse envisions LeBron James setting the table for the offense this season. \"I consider him a great offense creator,\" Nurse said.",
    "flags": {
-    "playmaker": 0.81
+    "playmaker": 0.79
    },
    "summary": "will handle the ball or run the offense as a primary playmaker",
    "judge": true,
@@ -1670,7 +1761,7 @@
    "url": null,
    "text": "Smith will miss a couple weeks with a strained right calf, Ira Winderman of the South Florida Sun Sentinel reports.",
    "flags": {
-    "absence": 0.91
+    "absence": 0.92
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
@@ -1708,7 +1799,7 @@
    "url": "https://www.espn.com/nba/story/_/id/50070155/clippers-brandom-ingram-gets-light-work-practice",
    "text": "Clippers' Brandon Ingram gets in light work before practice. Brandon Ingram, recovering from heel surgery, got in some light shooting and court work ahead of Clippers practice Tuesday in Hawai'i.",
    "flags": {
-    "recovering": 0.96
+    "recovering": 0.97
    },
    "summary": "is recovering or returning from a significant injury or surgery",
    "judge": true,
@@ -1803,7 +1894,7 @@
    "url": null,
    "text": "Williams underwent surgery Thursday to repair a torn labrum in his left shoulder and will miss an extended period of time, Shams Charania of ESPN reports.",
    "flags": {
-    "absence": 0.91
+    "absence": 0.92
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
@@ -1822,7 +1913,7 @@
    "url": null,
    "text": "Miller underwent surgery Wednesday to repair a torn left rotator cuff and will be re-evaluated in six months, per Law Murray of The Athletic.",
    "flags": {
-    "recovering": 0.9
+    "recovering": 0.89
    },
    "summary": "is recovering or returning from a significant injury or surgery",
    "judge": true,
