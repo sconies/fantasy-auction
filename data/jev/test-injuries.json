@@ -4,11 +4,11 @@
  "accuracyClear": 0.945,
  "accuracyReal": 0.933,
  "accuracyConstructed": 1,
- "accuracyAmbiguous": 0.643,
+ "accuracyAmbiguous": 0.571,
  "missesGames": {
   "tp": 17,
   "fp": 0,
-  "fn": 4
+  "fn": 3
  },
  "perOption": {
   "none": {
@@ -29,53 +29,53 @@
   "months": {
    "examples": 9,
    "precision": 1,
-   "recall": 0.778
+   "recall": 0.667
   },
   "season": {
-   "examples": 5,
-   "precision": 1,
-   "recall": 0.8
+   "examples": 4,
+   "precision": 0.8,
+   "recall": 1
   },
   "old": {
-   "examples": 3,
-   "precision": 0.75,
+   "examples": 4,
+   "precision": 1,
    "recall": 1
   }
  },
  "wrong": [
   {
-   "name": "Johnny Furphy",
-   "label": "season",
-   "jev": "old",
-   "confidence": 0.64,
-   "text": "Furphy was diagnosed with a torn right ACL on Monday and will miss the remainder of the season, Michael Scotto of USA Today reports."
+   "name": "Jimmy Butler III",
+   "label": "months",
+   "jev": "season",
+   "confidence": 0.34,
+   "text": "The Warriors hope to have Butler (knee) back early in 2027, per Keith Watkins of Yahoo Sports."
   },
   {
    "name": "Max Strus",
    "label": "weeks",
    "jev": "uncertain",
-   "confidence": 0.34,
+   "confidence": 0.4,
    "text": "Strus has been diagnosed with a partially torn plantar fascia in his right foot and he will be re-evaluated in four weeks, Ohm Youngmisuk of ESPN.com reports."
   },
   {
    "name": "Donte DiVincenzo",
    "label": "months",
    "jev": "none",
-   "confidence": 0.4,
+   "confidence": 0.53,
    "text": "DiVincenzo (Achilles) remains confident that he'll return during the 2026-27 season, Jon Krawczynski of The Athletic reports."
   },
   {
    "name": "Jalen Suggs",
    "label": "none",
    "jev": "uncertain",
-   "confidence": 0.56,
+   "confidence": 0.57,
    "text": "Suggs remains under the weather but appears to be improving, Jason Beede of the Orlando Sentinel reports."
   },
   {
    "name": "Mark Williams",
    "label": "months",
    "jev": "uncertain",
-   "confidence": 0.86,
+   "confidence": 0.88,
    "text": "Williams underwent surgery Thursday to repair a torn labrum in his left shoulder and will miss an extended period of time, Shams Charania of ESPN reports."
   }
  ]
