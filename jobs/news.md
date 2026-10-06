@@ -15,9 +15,12 @@ app's News tab, and nothing changes a value until they do.
   - injury absences already get a proposal from ESPN's date and Jev's reading;
   - teammates' extra minutes follow automatically when an absence is accepted (measured shares,
     `data/model/cascade.json`);
-  - ESPN outlook flags feed the fitted effects (`data/model/flag-effects.json`).
+  - ESPN's projection already prices in preseason news (tested: Jev's flags don't improve on it), so
+    a note that only restates what his projection shows needs no proposal.
 
   Mark such signals handled with a note saying which.
+- Write JSON back as `JSON.stringify(data, null, 1) + '\n'`, the format the files already use, so a
+  commit shows only what changed.
 - Read files with `node -e` for the fields you need. Never open `data/players.json`,
   `data/jev/flag-cache.json` or `data/sources/*` whole.
 
