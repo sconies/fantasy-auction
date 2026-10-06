@@ -49,7 +49,15 @@ await attempt('espn-depth', async () => {
 // 3. Consensus and other projections, and Yahoo's own auction prices (pages, parsed later).
 await attempt('fantasypros', async () => save('fantasypros.html', await get('https://www.fantasypros.com/nba/projections/overall.php')));
 await attempt('hashtag', async () => save('hashtag.html', await get('https://hashtagbasketball.com/fantasy-basketball-projections')));
-await attempt('fantasypros-news', async () => save('fantasypros-news.html', await get('https://www.fantasypros.com/nba/news/')));
+// FantasyPros player news: three pages of ~20 items each, so a twice-daily read doesn't miss a busy day.
+await attempt('fantasypros-news', async () => {
+  const pages = [];
+  for (const u of ['https://www.fantasypros.com/nba/news/', 'https://www.fantasypros.com/nba/player-news.php', 'https://www.fantasypros.com/nba/injury-news.php']) {
+    try { pages.push(await get(u)); } catch (e) { console.error(`fantasypros page ${u}: ${e.message}`); }
+  }
+  if (!pages.length) throw new Error('no FantasyPros news page answered');
+  save('fantasypros-news.html', pages.join('\n<!-- next page -->\n'));
+});
 await attempt('yahoo-auction', async () => save('yahoo-auction.html', await get('https://basketball.fantasysports.yahoo.com/nba/draftanalysis?type=auction')));
 
 writeFileSync('data/sources/fetch-log.json', JSON.stringify({ fetchedAt: new Date().toISOString(), failures }, null, 1) + '\n');

@@ -1,1 +1,14 @@
-{"adjustments":[]}
+{
+ "adjustments": [
+  {
+   "id": "2026-10-06-harris-calf",
+   "playerId": "6440",
+   "name": "Tobias Harris",
+   "date": "2026-10-06",
+   "gamesDelta": -2,
+   "reason": "Calf strain in camp; ESPN says he will miss the preseason and is questionable for the 20 Oct opener vs OKC. ESPN's return date is opening night, so no injury proposal covers it; -2 games for a likely slow start.",
+   "source": "ESPN headline 4 Oct 2026",
+   "signalId": "headline:af45de00a6e3"
+  }
+ ]
+}

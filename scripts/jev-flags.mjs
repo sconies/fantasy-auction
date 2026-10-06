@@ -9,7 +9,7 @@
 // Key from the environment only (TYPESAFE_API_KEY).
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { createHash } from 'node:crypto';
-import { FLAG_KEYS, jevQuestions } from '../lib/flags.mjs';
+import { FLAG_KEYS, FLAGS_VERSION, jevQuestions } from '../lib/flags.mjs';
 import { normName } from '../lib/value.mjs';
 
 const API_URL = 'https://api.typesafe.ai/v1/systemone', MODEL = 'jev-latest';
@@ -27,7 +27,7 @@ const QUESTIONS = jevQuestions();
 // Live and historical runs keep separate caches so the two workflows never edit the same file.
 const CACHE_FILE = arg('--history') ? 'data/jev/flag-cache-history.json' : 'data/jev/flag-cache.json';
 const cache = json(CACHE_FILE) ?? {};
-const hashOf = (player, text) => createHash('sha1').update(`${player}|${text}`).digest('hex').slice(0, 16);
+const hashOf = (player, text) => createHash('sha1').update(`v${FLAGS_VERSION}|${player}|${text}`).digest('hex').slice(0, 16);
 
 async function ask(player, text) {
   for (let attempt = 1; attempt <= 5; attempt++) {

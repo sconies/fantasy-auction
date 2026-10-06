@@ -1,1 +1,7 @@
-{"ranAt":null,"judged":0,"proposed":0,"skipped":0,"note":"not run yet"}
+{
+ "ranAt": "2026-10-06T08:29:08.514Z",
+ "judged": 15,
+ "proposed": 1,
+ "skipped": 14,
+ "note": "First run, by hand from jobs/news.md: 8 covered by injury proposals, 2 practice-only limits misread as minutes limits"
+}
