@@ -10,6 +10,7 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: 22 }
       - run: node scripts/fetch-sources.mjs
+      - run: node scripts/fetch-espn-history.mjs 2026 2025 2024 2023
       - run: for s in 2021 2022 2023 2024; do node scripts/fetch-stats.mjs $s; done
       - name: Commit to the sources-snapshot branch
         run: |
