@@ -6,12 +6,17 @@ import { writeFileSync, mkdirSync } from 'node:fs';
 const ID = { pts: 0, blk: 1, stl: 2, ast: 3, reb: 6, tov: 11, fgm: 13, fga: 14, ftm: 15, fta: 16, tpm: 17, min: 40 };
 mkdirSync('data/history', { recursive: true });
 for (const season of process.argv.slice(2).map(Number)) {
-  const filter = { players: { limit: 450, sortAppliedStatTotal: { sortAsc: false, sortPriority: 1, value: `00${season}` },
-    filterStatsForTopScoringPeriodIds: { value: 200, additionalValue: [`00${season}`] } } };
-  const url = `https://lm-api-reads.fantasy.espn.com/apis/v3/games/fba/seasons/${season}/segments/0/leaguedefaults/3?view=kona_player_info`;
-  const res = await fetch(url, { headers: { 'user-agent': 'Mozilla/5.0', 'x-fantasy-filter': JSON.stringify(filter) } });
-  if (!res.ok) throw new Error(`${season}: ${res.status}`);
-  const data = await res.json();
+  // ESPN truncates big answers, so ask 50 players at a time.
+  const data = { players: [] };
+  for (let offset = 0; offset < 450; offset += 50) {
+    const filter = { players: { limit: 50, offset, sortAppliedStatTotal: { sortAsc: false, sortPriority: 1, value: `00${season}` },
+      filterStatsForTopScoringPeriodIds: { value: 200, additionalValue: [`00${season}`] } } };
+    const url = `https://lm-api-reads.fantasy.espn.com/apis/v3/games/fba/seasons/${season}/segments/0/leaguedefaults/3?view=kona_player_info`;
+    const res = await fetch(url, { headers: { 'user-agent': 'Mozilla/5.0', 'x-fantasy-filter': JSON.stringify(filter) } });
+    if (!res.ok) throw new Error(`${season} offset ${offset}: ${res.status}`);
+    data.players.push(...(await res.json()).players);
+    await new Promise(r => setTimeout(r, 500));
+  }
   let first = Infinity, games = 0;
   for (const { player } of data.players) for (const s of player.stats ?? []) if (s.statSplitTypeId === 5 && s.seasonId === season && s.stats?.[42]) first = Math.min(first, s.scoringPeriodId);
   const players = [];
@@ -28,5 +33,5 @@ for (const season of process.argv.slice(2).map(Number)) {
   }
   writeFileSync(`data/history/weekly-${season}.json`, JSON.stringify({ season, source: 'ESPN game logs, grouped into 7-day weeks from the first game day', players }) + '\n');
   console.log(`${season}: ${players.length} players, ${games} player-games`);
-  if (games < 15000) throw new Error(`only ${games} player-games: ESPN may not have returned full game logs`);
+  if (games < 20000) throw new Error(`only ${games} player-games: ESPN may not have returned full game logs`);
 }
