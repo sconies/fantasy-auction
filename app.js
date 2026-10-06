@@ -510,14 +510,17 @@ function renderSettings() {
 }
 
 function newsCheckPanel() {
-  const list = (signals?.signals ?? []).filter(x => byId.has(x.playerId));
+  const all = (signals?.signals ?? []).filter(x => byId.has(x.playerId));
+  const list = all.filter(x => x.judge || x.kind === 'depth');
+  const info = all.filter(x => !x.judge && x.kind !== 'depth');
   const fresh = list.filter(x => x.status === 'new');
   const when = d => (d ? new Date(d).toLocaleString([], { weekday: 'short', hour: 'numeric', minute: '2-digit' }) : 'never');
   return `<div class="panel"><h2>News check</h2>
     <div class="muted">Data refreshed ${esc(when(signals?.builtAt))} · Claude's last read ${esc(when(newsRun?.ranAt))}${newsRun?.ranAt ? `: ${newsRun.proposed} proposed, ${newsRun.skipped} skipped${newsRun.note ? ` (${esc(newsRun.note)})` : ''}` : ''}. Runs at 1:30 pm and 11 pm Eastern.</div>
-    ${list.length ? `<h3>Flagged by Jev (${fresh.length} new)</h3>${list.slice(0, 30).map(x => `<div class="news-item" data-open="${esc(x.playerId)}">
+    ${list.length ? `<h3>News that may matter (${fresh.length} waiting for Claude)</h3>${list.slice(0, 30).map(x => `<div class="news-item" data-open="${esc(x.playerId)}">
       <b>${esc(x.name)}</b> <span class="muted">${esc(x.team ?? '')} · ${esc(x.kind)} · ${esc(String(x.date).slice(0, 10))}</span>${x.status === 'new' ? ' <span class="tag flag">new</span>' : ''}
       <div class="muted">${esc(x.summary)}</div>${x.handledNote ? `<div class="muted">→ ${esc(x.handledNote)}</div>` : ''}</div>`).join('')}` : ''}
+    ${info.length ? `<div class="muted" style="margin-top:6px">Also read: ${info.length} season outlooks and projection moves (open a player to see what Jev found).</div>` : ''}
   </div>`;
 }
 function qualityPanel() {

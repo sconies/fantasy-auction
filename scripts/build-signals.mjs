@@ -20,7 +20,8 @@ const relevant = p => p && (p.min >= 15 || (p.market ?? 0) >= 1);
 const prev = json('data/signals.json', { signals: [] });
 const known = new Map(prev.signals.map(s => [s.id, s]));
 const out = [];
-const add = s => { const old = known.get(s.id); out.push(old ? { ...s, status: old.status, firstSeen: old.firstSeen, handledNote: old.handledNote } : { ...s, status: 'new', firstSeen: today }); };
+// Signals nobody needs to judge are 'info' from the start; the rest are 'new' until the news job handles them.
+const add = s => { const old = known.get(s.id); out.push(old ? { ...s, status: s.judge ? old.status : 'info', firstSeen: old.firstSeen, handledNote: old.handledNote } : { ...s, status: s.judge ? 'new' : 'info', firstSeen: today }); };
 const hash = s => createHash('sha1').update(s).digest('hex').slice(0, 12);
 
 // Flags that mean the player's season may have changed, and need a judgement when they appear in news.

@@ -1,8 +1,8 @@
 {
- "builtAt": "2026-10-06T08:28:10.384Z",
+ "builtAt": "2026-10-06T08:30:33.867Z",
  "counts": {
-  "new": 97,
-  "toJudge": 15
+  "new": 0,
+  "toJudge": 0
  },
  "signals": [
   {
@@ -20,7 +20,7 @@
    },
    "summary": "will handle the ball or run the offense as a primary playmaker",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -38,7 +38,7 @@
    },
    "summary": "will handle the ball or run the offense as a primary playmaker",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -59,7 +59,7 @@
    },
    "summary": "changed teams (traded, signed or claimed) since last season; a teammate's absence or departure opens up opportunity for the player; should take on a bigger scoring or offensive load (more shots or touches); will handle the ball or run the offense as a primary playmaker",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -77,7 +77,7 @@
    },
    "summary": "changed teams (traded, signed or claimed) since last season",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -95,7 +95,7 @@
    },
    "summary": "a teammate's absence or departure opens up opportunity for the player",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -113,7 +113,7 @@
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -134,7 +134,7 @@
    },
    "summary": "is recovering or returning from a significant injury or surgery; the player's role, minutes or opportunity should grow compared with last season; a teammate's absence or departure opens up opportunity for the player; should take on a bigger scoring or offensive load (more shots or touches)",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -152,7 +152,7 @@
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -171,7 +171,7 @@
    },
    "summary": "the player's role, minutes or opportunity should shrink compared with last season; the team added players who could take the player's shots or minutes",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -190,7 +190,7 @@
    },
    "summary": "changed teams (traded, signed or claimed) since last season; will handle the ball or run the offense as a primary playmaker",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -210,7 +210,7 @@
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season; should take on a bigger scoring or offensive load (more shots or touches); will handle the ball or run the offense as a primary playmaker",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -228,7 +228,7 @@
    },
    "summary": "should take on a bigger scoring or offensive load (more shots or touches)",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -245,9 +245,9 @@
     "recovering": 0.99,
     "minutes_limit": 0.72
    },
-   "summary": "is recovering or returning from a significant injury or surgery; is or will be on a minutes restriction or a limited workload",
+   "summary": "is recovering or returning from a significant injury or surgery; is or will be on a minutes restriction in games (being limited in practice or held out of a practice does not count)",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -266,7 +266,7 @@
    },
    "summary": "is expected to start or has been named a starter; changed teams (traded, signed or claimed) since last season",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -284,7 +284,7 @@
    },
    "summary": "a teammate's absence or departure opens up opportunity for the player",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -302,7 +302,7 @@
    },
    "summary": "changed teams (traded, signed or claimed) since last season",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -321,7 +321,7 @@
    },
    "summary": "is recovering or returning from a significant injury or surgery; the player's role, minutes or opportunity should grow compared with last season",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -339,7 +339,7 @@
    },
    "summary": "the player's role, minutes or opportunity should shrink compared with last season",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -357,7 +357,7 @@
    },
    "summary": "changed teams (traded, signed or claimed) since last season",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -375,7 +375,7 @@
    },
    "summary": "is recovering or returning from a significant injury or surgery",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -394,7 +394,7 @@
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season; a teammate's absence or departure opens up opportunity for the player",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -414,7 +414,7 @@
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season; changed teams (traded, signed or claimed) since last season; a teammate's absence or departure opens up opportunity for the player",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -433,7 +433,7 @@
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season; should take on a bigger scoring or offensive load (more shots or touches)",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -452,7 +452,7 @@
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season; a teammate's absence or departure opens up opportunity for the player",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -473,7 +473,7 @@
    },
    "summary": "the player's role, minutes or opportunity should shrink compared with last season; changed teams (traded, signed or claimed) since last season; a teammate's absence or departure opens up opportunity for the player; the team added players who could take the player's shots or minutes",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -492,7 +492,7 @@
    },
    "summary": "changed teams (traded, signed or claimed) since last season; the team added players who could take the player's shots or minutes",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -512,7 +512,7 @@
    },
    "summary": "the player's role, minutes or opportunity should shrink compared with last season; changed teams (traded, signed or claimed) since last season; the team added players who could take the player's shots or minutes",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -530,7 +530,7 @@
    },
    "summary": "the team added players who could take the player's shots or minutes",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -548,7 +548,7 @@
    },
    "summary": "changed teams (traded, signed or claimed) since last season",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -566,7 +566,7 @@
    },
    "summary": "the team added players who could take the player's shots or minutes",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -586,7 +586,7 @@
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season; changed teams (traded, signed or claimed) since last season; should take on a bigger scoring or offensive load (more shots or touches)",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -605,7 +605,7 @@
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season; should take on a bigger scoring or offensive load (more shots or touches)",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -627,7 +627,7 @@
    },
    "summary": "is recovering or returning from a significant injury or surgery; the player's role, minutes or opportunity should grow compared with last season; a teammate's absence or departure opens up opportunity for the player; should take on a bigger scoring or offensive load (more shots or touches); will handle the ball or run the offense as a primary playmaker",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -646,7 +646,7 @@
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season; should take on a bigger scoring or offensive load (more shots or touches)",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -665,7 +665,7 @@
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season; changed teams (traded, signed or claimed) since last season",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -688,7 +688,7 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery; the player's role, minutes or opportunity should grow compared with last season; changed teams (traded, signed or claimed) since last season; a teammate's absence or departure opens up opportunity for the player; should take on a bigger scoring or offensive load (more shots or touches)",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -708,7 +708,7 @@
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season; a teammate's absence or departure opens up opportunity for the player; should take on a bigger scoring or offensive load (more shots or touches)",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -728,7 +728,7 @@
    },
    "summary": "is recovering or returning from a significant injury or surgery; changed teams (traded, signed or claimed) since last season; the team added players who could take the player's shots or minutes",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -746,7 +746,7 @@
    },
    "summary": "is expected to start or has been named a starter",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -764,7 +764,7 @@
    },
    "summary": "will handle the ball or run the offense as a primary playmaker",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -782,7 +782,7 @@
    },
    "summary": "the team added players who could take the player's shots or minutes",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -801,7 +801,7 @@
    },
    "summary": "changed teams (traded, signed or claimed) since last season; should take on a bigger scoring or offensive load (more shots or touches)",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -819,7 +819,7 @@
    },
    "summary": "is recovering or returning from a significant injury or surgery",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -838,7 +838,7 @@
    },
    "summary": "is expected to start or has been named a starter; should take on a bigger scoring or offensive load (more shots or touches)",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -858,7 +858,7 @@
    },
    "summary": "is recovering or returning from a significant injury or surgery; the player's role, minutes or opportunity should grow compared with last season; changed teams (traded, signed or claimed) since last season",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -877,7 +877,7 @@
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season; a teammate's absence or departure opens up opportunity for the player",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -895,7 +895,7 @@
    },
    "summary": "should take on a bigger scoring or offensive load (more shots or touches)",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -915,7 +915,7 @@
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season; a teammate's absence or departure opens up opportunity for the player; should take on a bigger scoring or offensive load (more shots or touches)",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -934,7 +934,7 @@
    },
    "summary": "is expected to start or has been named a starter; a teammate's absence or departure opens up opportunity for the player",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -952,7 +952,7 @@
    },
    "summary": "the team added players who could take the player's shots or minutes",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -972,7 +972,7 @@
    },
    "summary": "is expected to start or has been named a starter; the player's role, minutes or opportunity should grow compared with last season; should take on a bigger scoring or offensive load (more shots or touches)",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -991,7 +991,7 @@
    },
    "summary": "is expected to start or has been named a starter; changed teams (traded, signed or claimed) since last season",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -1010,7 +1010,7 @@
    },
    "summary": "is recovering or returning from a significant injury or surgery; changed teams (traded, signed or claimed) since last season",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -1028,7 +1028,7 @@
    },
    "summary": "changed teams (traded, signed or claimed) since last season",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -1049,7 +1049,7 @@
    },
    "summary": "is expected to start or has been named a starter; the player's role, minutes or opportunity should grow compared with last season; a teammate's absence or departure opens up opportunity for the player; should take on a bigger scoring or offensive load (more shots or touches)",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -1069,9 +1069,9 @@
     "new_team": 0.9,
     "opening": 0.93
    },
-   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is or will be on a minutes restriction or a limited workload; the player's role, minutes or opportunity should grow compared with last season; changed teams (traded, signed or claimed) since last season; a teammate's absence or departure opens up opportunity for the player",
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is or will be on a minutes restriction in games (being limited in practice or held out of a practice does not count); the player's role, minutes or opportunity should grow compared with last season; changed teams (traded, signed or claimed) since last season; a teammate's absence or departure opens up opportunity for the player",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -1090,9 +1090,9 @@
     "new_team": 0.98,
     "crowded": 0.88
    },
-   "summary": "is or will be on a minutes restriction or a limited workload; the player's role, minutes or opportunity should shrink compared with last season; changed teams (traded, signed or claimed) since last season; the team added players who could take the player's shots or minutes",
+   "summary": "is or will be on a minutes restriction in games (being limited in practice or held out of a practice does not count); the player's role, minutes or opportunity should shrink compared with last season; changed teams (traded, signed or claimed) since last season; the team added players who could take the player's shots or minutes",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -1111,7 +1111,7 @@
    },
    "summary": "the player's role, minutes or opportunity should shrink compared with last season; the team added players who could take the player's shots or minutes",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -1129,7 +1129,7 @@
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -1149,7 +1149,7 @@
    },
    "summary": "is expected to come off the bench or has lost his starting job; the player's role, minutes or opportunity should shrink compared with last season; changed teams (traded, signed or claimed) since last season",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -1167,7 +1167,7 @@
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -1188,7 +1188,7 @@
    },
    "summary": "is expected to come off the bench or has lost his starting job; the player's role, minutes or opportunity should shrink compared with last season; a teammate's absence or departure opens up opportunity for the player; the team added players who could take the player's shots or minutes",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -1208,7 +1208,7 @@
    },
    "summary": "is recovering or returning from a significant injury or surgery; is expected to start or has been named a starter; will handle the ball or run the offense as a primary playmaker",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -1227,7 +1227,7 @@
    },
    "summary": "a teammate's absence or departure opens up opportunity for the player; should take on a bigger scoring or offensive load (more shots or touches)",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -1245,7 +1245,7 @@
    },
    "summary": "will handle the ball or run the offense as a primary playmaker",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -1263,7 +1263,7 @@
    },
    "summary": "is expected to start or has been named a starter",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -1282,7 +1282,7 @@
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season; a teammate's absence or departure opens up opportunity for the player",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -1301,7 +1301,7 @@
    },
    "summary": "should take on a bigger scoring or offensive load (more shots or touches); will handle the ball or run the offense as a primary playmaker",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -1320,7 +1320,7 @@
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season; changed teams (traded, signed or claimed) since last season",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -1340,7 +1340,7 @@
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season; a teammate's absence or departure opens up opportunity for the player; should take on a bigger scoring or offensive load (more shots or touches)",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -1359,7 +1359,7 @@
    },
    "summary": "is expected to start or has been named a starter; a teammate's absence or departure opens up opportunity for the player",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -1377,7 +1377,7 @@
    },
    "summary": "changed teams (traded, signed or claimed) since last season",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -1396,7 +1396,7 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is expected to start or has been named a starter",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -1414,9 +1414,9 @@
     "minutes_limit": 0.82,
     "new_team": 0.76
    },
-   "summary": "is recovering or returning from a significant injury or surgery; is or will be on a minutes restriction or a limited workload; changed teams (traded, signed or claimed) since last season",
+   "summary": "is recovering or returning from a significant injury or surgery; is or will be on a minutes restriction in games (being limited in practice or held out of a practice does not count); changed teams (traded, signed or claimed) since last season",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -1434,7 +1434,7 @@
    },
    "summary": "changed teams (traded, signed or claimed) since last season",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -1452,7 +1452,7 @@
    },
    "summary": "changed teams (traded, signed or claimed) since last season",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -1470,7 +1470,7 @@
    },
    "summary": "the team added players who could take the player's shots or minutes",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -1488,7 +1488,7 @@
    },
    "summary": "changed teams (traded, signed or claimed) since last season",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -1506,7 +1506,7 @@
    },
    "summary": "the team added players who could take the player's shots or minutes",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -1524,7 +1524,7 @@
    },
    "summary": "is expected to start or has been named a starter",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -1542,7 +1542,7 @@
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -1560,7 +1560,7 @@
    },
    "summary": "is expected to start or has been named a starter",
    "judge": false,
-   "status": "new",
+   "status": "info",
    "firstSeen": "2026-10-06"
   },
   {
@@ -1691,7 +1691,7 @@
    "flags": {
     "minutes_limit": 0.92
    },
-   "summary": "is or will be on a minutes restriction or a limited workload",
+   "summary": "is or will be on a minutes restriction in games (being limited in practice or held out of a practice does not count)",
    "judge": true,
    "status": "handled",
    "firstSeen": "2026-10-06",
@@ -1786,7 +1786,7 @@
    "flags": {
     "minutes_limit": 0.88
    },
-   "summary": "is or will be on a minutes restriction or a limited workload",
+   "summary": "is or will be on a minutes restriction in games (being limited in practice or held out of a practice does not count)",
    "judge": true,
    "status": "handled",
    "firstSeen": "2026-10-06",
