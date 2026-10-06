@@ -1,0 +1,275 @@
+{
+ "labelledOn": "2026-10-06",
+ "labelledBy": "Claude, reading each ESPN 2026-27 outlook; only flags the text clearly answers are labelled",
+ "items": [
+  {
+   "player": "Nikola Jokic",
+   "text": "Jokic has been the top fantasy points scorer for six seasons and counting. He is coming off his second straight season averaging a triple-double, in which he notched a career-best 10.7 APG. The Nuggets offense is built entirely around Jokic, and he is surrounded by finishers at every position, which helps him generate assists and also opens up space for his own scoring. Jokic also remains one of the best rebounders in the league. Barring injury, he projects to lead the league in fantasy points yet again this season.",
+   "labels": {
+    "absence": false,
+    "injury_history": false,
+    "recovering": false,
+    "role_up": false,
+    "role_down": false,
+    "competition": false,
+    "new_team": false,
+    "usage_up": false,
+    "playmaker": true,
+    "rebounder": true,
+    "stretch_big": false,
+    "breakout": false,
+    "decline": false,
+    "crowded": false,
+    "rebuilding_team": false,
+    "opening": false
+   }
+  },
+  {
+   "player": "Tyrese Maxey",
+   "text": "Maxey is coming off a campaign in which he averaged career highs in all six fantasy counting categories: points, assists, rebounds, steals, 3-pointers and blocks. He was fifth in fantasy points per game and fourth in total fantasy points and is still only 25 years old. The 76ers made big moves this offseason, bringing in both Jaylen Brown and LeBron James. While this increases the team's chances to contend, it likely puts a cap on Maxey's volume upside.",
+   "labels": {
+    "crowded": true,
+    "usage_up": false,
+    "absence": false,
+    "injury_history": false,
+    "new_team": false,
+    "rebuilding_team": false,
+    "recovering": false
+   }
+  },
+  {
+   "player": "James Harden",
+   "text": "Harden was traded to the Cavaliers midseason in exchange for Darius Garland, forming a dynamic backcourt with Donovan Mitchell. Pairing with Mitchell caps Harden's volume. and Harden's usage dropped dramatically after the trade in 26 games last season. In fact, it fell to a value that would have represented the second-lowest season-long Usage percentage over a full season since 2012. Expect his fantasy value this season to be lower than his norm, but even attenuated he remains an impact fantasy starter.",
+   "labels": {
+    "crowded": true,
+    "role_down": true,
+    "usage_up": false,
+    "absence": false,
+    "injury_history": false,
+    "breakout": false
+   }
+  },
+  {
+   "player": "Evan Mobley",
+   "text": "Mobley only played 65 games last season due to injury, the third time in his five seasons that he has played less than 70 games. His production largely stayed consistent with the season before, within decimal points of 18 points, 9 rebounds, 3 assists, 2 blocks and 1 steal in both campaigns. At 25 years old, Mobley should still be improving year-over-year, so durability will be the biggest factor in his fantasy potential this season.",
+   "labels": {
+    "injury_history": true,
+    "breakout": true,
+    "absence": false,
+    "recovering": false,
+    "new_team": false,
+    "crowded": false,
+    "decline": false
+   }
+  },
+  {
+   "player": "Paolo Banchero",
+   "text": "Banchero struggled with injury in 2024-25 but bounced back to play 72 games last season, the third time in his four seasons he has played at least 72 games. Banchero's game and production have been largely consistent through his first four NBA seasons, but his scoring dipped almost four points per game last season due to increased scoring talent among his teammates. Banchero's volume is slightly capped playing alongside proven scorers Franz Wagner and Desmond Bane. ",
+   "labels": {
+    "crowded": true,
+    "usage_up": false,
+    "new_team": false,
+    "absence": false,
+    "breakout": false
+   }
+  },
+  {
+   "player": "Naz Reid",
+   "text": "Reid was the 2024-25 NBA Sixth Man of the Year and has been a metronome of consistent production for the last three seasons with the Timberwolves, averaging a rounded 14 points, 6 rebounds, 2 3-pointers and 2 combined blocks and steals. After being traded this summer, Reid may get starter minutes for the Hornets. If so, he has top-50 upside in category leagues.",
+   "labels": {
+    "new_team": true,
+    "role_up": true,
+    "absence": false,
+    "crowded": false,
+    "decline": false,
+    "injury_history": false
+   }
+  },
+  {
+   "player": "Cameron Boozer",
+   "text": "Boozer was arguably the most professional-ready of the four rookies that were discussed as potential top picks in the 2026 NBA draft. A big forward with a strong inside-out game, the ability to clean the glass and surprising court vision. He is immediately the focal point of the Grizzlies' rebuild effort, and is an early favorite to win NBA Rookie of the Year. He could be a fantasy starter from day 1.",
+   "labels": {
+    "rebuilding_team": true,
+    "rebounder": true,
+    "playmaker": false,
+    "breakout": true,
+    "usage_up": true,
+    "absence": false,
+    "injury_history": false,
+    "decline": false
+   }
+  },
+  {
+   "player": "Ivica Zubac",
+   "text": "Zubac was traded to the Pacers at midseason, but was already dealing with injuries that nagged him for the rest of the campaign. Prior to the injury, while with the Clippers, Zubac was continuing his breakout play from the season before as a dominant rebounder and plus scorer with solid peripheral numbers. Now healthy, Zubac should return to that level while with the Pacers. He will have the added benefit of the return of point guard Tyrese Haliburton, one of the best distributors in the NBA who should get Zubac plenty of great looks.",
+   "labels": {
+    "new_team": true,
+    "recovering": true,
+    "rebounder": true,
+    "absence": false,
+    "opening": false,
+    "stretch_big": false,
+    "decline": false
+   }
+  },
+  {
+   "player": "Fred VanVleet",
+   "text": "VanVleet missed all of last season with a knee injury, but perhaps more importantly the Rockets missed him. Even with the addition of Kevin Durant last season, the Rockets were only able to win the same 52 games they had won with VanVleet at the helm the season before. VanVleet therefore returns to his role as starting point guard with job security despite the depth of quality perimeter players the Rockets have on roster. His production expectation this season is similar to the 2024-25 campaign, making him a top-100 player that has top-50 upside if he instead returns to his levels from the early 2020s.",
+   "labels": {
+    "recovering": true,
+    "starter": true,
+    "absence": false,
+    "new_team": false,
+    "competition": false,
+    "bench": false
+   }
+  },
+  {
+   "player": "Kevin Porter Jr.",
+   "text": "Porter had an excellent season on a per-game basis, posting averages similar to his peak season with the Rockets in 2022-23. But he was limited to only 38 games, and had to undergo surgery on his right knee in April. When healthy, Porter will be one of several young guards vying for minutes on the rebuilding Bucks. Porter's production is likely capped by his situation, but if he gets anywhere near starter minutes he has shown he can produce enough to be a viable fantasy option.",
+   "labels": {
+    "recovering": true,
+    "competition": true,
+    "rebuilding_team": true,
+    "absence": false,
+    "new_team": false,
+    "starter": false
+   }
+  },
+  {
+   "player": "Myles Turner",
+   "text": "Turner will be looking to rebound from a disappointing first season in Milwaukee. He averaged 11.9 PPG and 5.3 RPG last season but remained effective from the perimeter, shooting 38.3% from 3-point range. Turner still offers a valuable combination of threes and blocks from the center position, but his declining scoring and rebounding numbers lower the ceiling. Milwaukee’s rebuild also creates some uncertainty around his long-term role. Turner is best viewed as a late round target for managers looking for blocks without sacrificing 3-point production.",
+   "labels": {
+    "decline": true,
+    "stretch_big": true,
+    "defender": true,
+    "rebuilding_team": true,
+    "new_team": false,
+    "absence": false,
+    "breakout": false
+   }
+  },
+  {
+   "player": "Shai Gilgeous-Alexander",
+   "text": "Gilgeous-Alexander won his second straight NBA MVP last season and remains one of the most consistent fantasy producers in the league. The Thunder are built perfectly to accentuate his strengths, with finishers and 3-and-D shooters at every position. This provides space for SGA to create off the dribble to generate efficient looks, assist opportunities and free throws galore. He has also averaged almost 72 games per season for the last four campaigns, making him a reliable high-production option.",
+   "labels": {
+    "injury_history": false,
+    "absence": false,
+    "usage_up": false,
+    "new_team": false,
+    "crowded": false,
+    "decline": false,
+    "recovering": false
+   }
+  },
+  {
+   "player": "Jalen Brunson",
+   "text": "Brunson reached the pinnacle of the NBA last season by leading the Knicks to their first championship in more than 50 years. He also turned in another strong fantasy campaign, almost exactly in line with his four year averages of a rounded 26 PPG, 3 RPG and 7 APG. The Knicks have one of the more stable lineups in the league, returning the same starting crew with similar roles. Brunson is still squarely in his prime at 30 years old, and his expectations this season should remain right in line with what he has done since arriving in New York.",
+   "labels": {
+    "role_up": false,
+    "role_down": false,
+    "new_team": false,
+    "decline": false,
+    "breakout": false,
+    "absence": false,
+    "competition": false,
+    "starter": true
+   }
+  },
+  {
+   "player": "Cooper Flagg",
+   "text": "Flagg is coming off a Rookie of the Year campaign but has the potential for major improvements in Year 2. Last season, then-head coach Jason Kidd experimented with Flagg at point guard, an added level of difficulty for a rookie already making the transition to the highest level. This season, new coach Dusty May and returning point guard Kyrie Irving should put Flagg in more advantageous positions to attack defenses. His stats should increase across the board, giving him fantasy upside as high as top-10. ",
+   "labels": {
+    "breakout": true,
+    "role_up": true,
+    "playmaker": false,
+    "new_team": false,
+    "absence": false,
+    "decline": false
+   }
+  },
+  {
+   "player": "Derrick White",
+   "text": "White ranked 19th on the ESPN Player Rater last season, an unexpectedly high result. But White contributes positively to every fantasy category, including blocks (1.3 BPG last season), and those net positive contributions add up with no corresponding negatives. White's role remains consistent, and could even be a bit larger with Jaylen Brown traded away over the offseason, making White a great candidate to outperform his likely ADP, particularly in category leagues.",
+   "labels": {
+    "opening": true,
+    "role_up": true,
+    "crowded": false,
+    "new_team": false,
+    "decline": false,
+    "absence": false
+   }
+  },
+  {
+   "player": "Nickeil Alexander-Walker",
+   "text": "Alexander-Walker was named the NBA Most Improved Player last season, his first with the Hawks, when he doubled his previous career-high to average 20.8 PPG. Alexander-Walker is a strong shooter-scorer and wing defender that fits in perfectly with the role Atlanta has for him. Playing as a finisher off shots created by Jalen Johnson and working with added space created by the shooting of CJ McCollum, Alexander-Walker should continue to thrive this season.",
+   "labels": {
+    "new_team": false,
+    "defender": true,
+    "role_up": false,
+    "absence": false,
+    "crowded": false,
+    "decline": false
+   }
+  },
+  {
+   "player": "Brandon Ingram",
+   "text": "Ingram had surgery on his foot/heel during the offseason, then was traded to the LA Clippers in exchange for Kawhii Leonard. He will miss the start of the season recovering from the surgery but no return timeline has been announced. When fully healthy, Ingram projects as the leading scorer on a Clippers team devoid of experienced scorers. He should get more volume than he ever has and could generate career-best offensive numbers ... again, when he is healthy enough to play. Ingram played 77 games last season, but only 18 the season before and never more than 64 games in any of the seven seasons prior.",
+   "labels": {
+    "absence": true,
+    "recovering": true,
+    "injury_history": true,
+    "new_team": true,
+    "usage_up": true,
+    "decline": false
+   }
+  },
+  {
+   "player": "Donovan Clingan",
+   "text": "Clingan entered the league as one of the best young shot-blockers in the league, then in Year 2 he improved the rest of his game to average a points-rebounds double-double with more than a 3-pointer per game. He has strong upside in points leagues, but it is even higher in category leagues where his shot-blocking and 3-point contributions from the center position are more valuable.",
+   "labels": {
+    "stretch_big": true,
+    "defender": true,
+    "absence": false,
+    "new_team": false,
+    "decline": false,
+    "crowded": false
+   }
+  },
+  {
+   "player": "AJ Dybantsa",
+   "text": "Dybantsa was the No. 1 overall pick in the 2026 NBA draft and enters the league as a scorer. He led the NCAA in scoring average as a freshman at BYU and was one of the leading scorers at the Las Vegas Summer League as well. Dybantsa has the size of a big forward but the ball-handling ability of a wing. He is great at getting to his spot and scoring from the mid-range, and he is also adept at drawing fouls and getting to the line. Dybantsa has a good chance to lead all rookies in scoring and establish himself as a fantasy starter immediately.",
+   "labels": {
+    "ft_weakness": false,
+    "playmaker": false,
+    "absence": false,
+    "new_team": false,
+    "rebuilding_team": false,
+    "decline": false
+   }
+  },
+  {
+   "player": "Payton Pritchard",
+   "text": "Pritchard's minutes and production have increased in each of the last three seasons, peaking with his rounded 17 PPG, 5 APG, 4 RPG and 3 3PG last season. His role was expanded last season by the injury to Jayson Tatum, and he is likely to maintain that elevated level this season after the offseason trade of Jaylen Brown. Payton is an outstanding 3-point shooter and solid playmaker that the Celtics will rely on again this season, giving him top-50 fantasy upside in category leagues.",
+   "labels": {
+    "opening": true,
+    "role_up": false,
+    "absence": false,
+    "new_team": false,
+    "decline": false,
+    "crowded": false
+   }
+  },
+  {
+   "player": "Nikola Vucevic",
+   "text": "Vucevic was a metronome of double-double production for 13 seasons, averaging a rounded 18 points and 11 rebounds from 2012-13 through 2024-25. Last season, he was traded to the Celtics midseason and saw his minutes and production dip precipitously. Some was due to performance and some to injury, but he was not fantasy viable with the Celtics. This offseason he returned to the Magic and is expected to compete with Wendell Carter Jr. for minutes. He may not get enough time to produce to his typical levels, but if for any reason he gets starter minutes again you can almost pencil his double-double in.",
+   "labels": {
+    "new_team": true,
+    "competition": true,
+    "role_down": true,
+    "absence": false,
+    "breakout": false
+   }
+  }
+ ]
+}
