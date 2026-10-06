@@ -1,0 +1,17 @@
+{
+  "name": "YUL to YYZ to SEA to SFO",
+  "yahooLeagueId": 81341,
+  "teams": 14,
+  "budget": 200,
+  "rosterSize": 13,
+  "minBid": 1,
+  "fullSeasonGames": 80,
+  "rosterPositions": ["PG", "SG", "G", "G", "SF", "PF", "F", "F", "C", "Util", "Util", "BN", "BN", "IL"],
+  "categories": ["FG%", "FT%", "3PTM", "PTS", "REB", "AST", "ST", "BLK", "TO"],
+  "maxAddsPerWeek": 2,
+  "playoffs": "6 teams, weeks 18-20, ends Sun 21 Mar 2027",
+  "draft": "Yahoo live auction, 18 or 19 Oct 2026; nomination order random snake; $1 increments; must keep $1 per open spot",
+  "seasonStart": "2026-10-20",
+  "seasonEnd": "2027-04-11",
+  "projectionSeasons": [2026, 2025]
+}

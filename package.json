@@ -1,0 +1,10 @@
+{
+  "name": "fantasy-auction",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "data": "node scripts/fetch-stats.mjs && node scripts/build-players.mjs && node scripts/fetch-news.mjs",
+    "serve": "python3 -m http.server"
+  }
+}

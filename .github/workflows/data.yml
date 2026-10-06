@@ -1,0 +1,36 @@
+name: Refresh stats and news
+
+on:
+  schedule:
+    - cron: '17 */6 * * *'   # every six hours; news is the part that moves
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Stats (once a day is plenty)
+        run: |
+          if [ ! -f data/raw/bbref-2026.json ] || [ "$(date -u +%H)" -lt 6 ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            node scripts/fetch-stats.mjs 2026 2025
+          fi
+      - name: Projections
+        run: node scripts/build-players.mjs
+      - name: News and injuries
+        run: node scripts/fetch-news.mjs
+      - name: Tests
+        run: node --test tests/*.test.mjs
+      - name: Commit
+        run: |
+          git config user.name "data-bot"
+          git config user.email "data-bot@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Refresh stats and news $(date -u +%F\ %H:%M)"
+          git push
