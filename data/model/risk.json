@@ -1,0 +1,43 @@
+{
+ "builtAt": "2026-10-06T08:26:52.337Z",
+ "seasons": [
+  2023,
+  2024,
+  2025,
+  2026
+ ],
+ "tiersDiffer": false,
+ "byFlagTier": [
+  {
+   "name": "injury",
+   "players": 204,
+   "low": -11,
+   "high": 11
+  },
+  {
+   "name": "role",
+   "players": 206,
+   "low": -11,
+   "high": 8
+  },
+  {
+   "name": "steady",
+   "players": 318,
+   "low": -11,
+   "high": 11
+  }
+ ],
+ "note": "low/high = 10th/90th percentile of (actual $ - projected $) on held-out seasons, players projected top 182. Flag tiers are used only if their ranges differ.",
+ "tiers": [
+  {
+   "name": "all",
+   "label": "Typical",
+   "anyOf": [],
+   "threshold": 0.5,
+   "players": 728,
+   "low": -11,
+   "median": -2,
+   "high": 10
+  }
+ ]
+}

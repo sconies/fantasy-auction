@@ -1,0 +1,224 @@
+{
+ "builtAt": "2026-10-06T08:26:52.474Z",
+ "seasons": [
+  2023,
+  2024,
+  2025,
+  2026
+ ],
+ "lambda": 0.3,
+ "method": "Leave one season out. Per stat, choose no correction, ESPN bias only, or bias plus Jev flags by held-out squared error (flags need a 1% edge over bias). Flags are switched on only if the value backtest with them beats bias-only on held-out seasons. A flag enters a stat only when its effect keeps its sign in every training season.",
+ "decision": {
+  "useFlags": false,
+  "useBias": true,
+  "choice": {
+   "games": "none",
+   "min": "bias",
+   "pts36": "none",
+   "reb36": "none",
+   "ast36": "bias",
+   "stl36": "none",
+   "blk36": "none",
+   "tpm36": "none",
+   "tov36": "none",
+   "fga36": "none",
+   "fta36": "none",
+   "fgPct": "none",
+   "ftPct": "none"
+  },
+  "contradictions": {
+   "games": [
+    "minutes_limit +1.67",
+    "load_managed +0.99"
+   ]
+  },
+  "mean": {
+   "espn": {
+    "spearman": 0.676,
+    "mae": 6.93
+   },
+   "espnPlusBias": {
+    "spearman": 0.678,
+    "mae": 6.88
+   },
+   "espnPlusFlags": {
+    "spearman": 0.678,
+    "mae": 6.88
+   }
+  },
+  "use": true
+ },
+ "heldOutErrorReduction": {
+  "games": {
+   "players": 1408,
+   "choice": "none",
+   "biasVsEspn": -0.1324,
+   "flagsVsBias": 0.0206,
+   "relativeVsEspn": 0.0399
+  },
+  "min": {
+   "players": 1227,
+   "choice": "bias",
+   "biasVsEspn": 0.072,
+   "flagsVsBias": -0.0029,
+   "relativeVsEspn": -0.0011
+  },
+  "pts36": {
+   "players": 1227,
+   "choice": "none",
+   "biasVsEspn": -0.017,
+   "flagsVsBias": 0.0032,
+   "relativeVsEspn": 0.0008
+  },
+  "reb36": {
+   "players": 1227,
+   "choice": "none",
+   "biasVsEspn": -0.0071,
+   "flagsVsBias": 0.0064,
+   "relativeVsEspn": 0.004
+  },
+  "ast36": {
+   "players": 1227,
+   "choice": "bias",
+   "biasVsEspn": 0.012,
+   "flagsVsBias": -0.0042,
+   "relativeVsEspn": -0.0031
+  },
+  "stl36": {
+   "players": 1227,
+   "choice": "none",
+   "biasVsEspn": -0.0032,
+   "flagsVsBias": 0.0016,
+   "relativeVsEspn": -0.0015
+  },
+  "blk36": {
+   "players": 1227,
+   "choice": "none",
+   "biasVsEspn": 0.0003,
+   "flagsVsBias": -0.0032,
+   "relativeVsEspn": -0.0017
+  },
+  "tpm36": {
+   "players": 1227,
+   "choice": "none",
+   "biasVsEspn": 0.0043,
+   "flagsVsBias": 0.0007,
+   "relativeVsEspn": -0.0039
+  },
+  "tov36": {
+   "players": 1227,
+   "choice": "none",
+   "biasVsEspn": -0.0147,
+   "flagsVsBias": -0.003,
+   "relativeVsEspn": -0.0021
+  },
+  "fga36": {
+   "players": 1227,
+   "choice": "none",
+   "biasVsEspn": -0.0106,
+   "flagsVsBias": 0.0022,
+   "relativeVsEspn": 0.0003
+  },
+  "fta36": {
+   "players": 1227,
+   "choice": "none",
+   "biasVsEspn": -0.0324,
+   "flagsVsBias": -0.0014,
+   "relativeVsEspn": -0.0013
+  },
+  "fgPct": {
+   "players": 1227,
+   "choice": "none",
+   "biasVsEspn": -0.0117,
+   "flagsVsBias": -0.0042,
+   "relativeVsEspn": -0.0002
+  },
+  "ftPct": {
+   "players": 1048,
+   "choice": "none",
+   "biasVsEspn": -0.0407,
+   "flagsVsBias": -0.0033,
+   "relativeVsEspn": -0.0004
+  }
+ },
+ "valueTest": [
+  {
+   "season": 2023,
+   "espn": {
+    "spearman": 0.761,
+    "mae": 5.67
+   },
+   "espnPlusBias": {
+    "spearman": 0.767,
+    "mae": 5.54
+   },
+   "espnPlusFlags": {
+    "spearman": 0.767,
+    "mae": 5.54
+   }
+  },
+  {
+   "season": 2024,
+   "espn": {
+    "spearman": 0.684,
+    "mae": 6.49
+   },
+   "espnPlusBias": {
+    "spearman": 0.685,
+    "mae": 6.48
+   },
+   "espnPlusFlags": {
+    "spearman": 0.685,
+    "mae": 6.48
+   }
+  },
+  {
+   "season": 2025,
+   "espn": {
+    "spearman": 0.654,
+    "mae": 7.05
+   },
+   "espnPlusBias": {
+    "spearman": 0.655,
+    "mae": 7
+   },
+   "espnPlusFlags": {
+    "spearman": 0.655,
+    "mae": 7
+   }
+  },
+  {
+   "season": 2026,
+   "espn": {
+    "spearman": 0.606,
+    "mae": 8.52
+   },
+   "espnPlusBias": {
+    "spearman": 0.606,
+    "mae": 8.52
+   },
+   "espnPlusFlags": {
+    "spearman": 0.606,
+    "mae": 8.52
+   }
+  }
+ ],
+ "lambdas": [
+  {
+   "lambda": 0.01,
+   "score": 13.055
+  },
+  {
+   "lambda": 0.03,
+   "score": 13.0044
+  },
+  {
+   "lambda": 0.1,
+   "score": 12.9643
+  },
+  {
+   "lambda": 0.3,
+   "score": 12.9559
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "builtAt": "2026-10-06T08:26:52.473Z",
+ "seasons": [
+  2023,
+  2024,
+  2025,
+  2026
+ ],
+ "lambda": 0.3,
+ "players": 1408,
+ "note": "Effect of each Jev flag (probability 0-1) on ESPN projection misses. games: games played; min: minutes per game; *36: per-36-minute rates; fgPct/ftPct: percentage points (0-1). Intercept = ESPN average miss.",
+ "model": {
+  "games": {
+   "intercept": 0,
+   "effects": {}
+  },
+  "min": {
+   "intercept": -1.3255,
+   "effects": {}
+  },
+  "pts36": {
+   "intercept": 0,
+   "effects": {}
+  },
+  "reb36": {
+   "intercept": 0,
+   "effects": {}
+  },
+  "ast36": {
+   "intercept": 0.1055,
+   "effects": {}
+  },
+  "stl36": {
+   "intercept": 0,
+   "effects": {}
+  },
+  "blk36": {
+   "intercept": 0,
+   "effects": {}
+  },
+  "tpm36": {
+   "intercept": 0,
+   "effects": {}
+  },
+  "tov36": {
+   "intercept": 0,
+   "effects": {}
+  },
+  "fga36": {
+   "intercept": 0,
+   "effects": {}
+  },
+  "fta36": {
+   "intercept": 0,
+   "effects": {}
+  },
+  "fgPct": {
+   "intercept": 0,
+   "effects": {}
+  },
+  "ftPct": {
+   "intercept": 0,
+   "effects": {}
+  }
+ }
+}

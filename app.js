@@ -286,8 +286,8 @@ function jevSection(p) {
   if (!flags.length && !moved?.length && !tier) return '';
   return `<h3>What the news says</h3>
     ${flags.length ? `<div class="chips">${flags.map(([k, v]) => `<span class="chip" title="${esc(FLAGS[k]?.q ?? '')}">${esc(flagLabel(k))} · ${Math.round(v * 100)}%</span>`).join('')}</div>` : '<div class="muted">Jev found nothing notable in his news.</div>'}
-    ${moved?.length ? `<div class="muted" style="margin-top:6px">Effect on his projection (fitted on four past seasons): ${moved.map(([k, v]) => `${k === 'games' ? 'games' : k} ${v > 0 ? '+' : ''}${k === 'games' ? v : v.toFixed(2)}`).join(', ')}</div>` : ''}
-    ${tier ? `<div class="muted" style="margin-top:6px">${esc(tier.label)}: in past seasons players like this finished between ${money(tier.low)} and +${money(tier.high)} of their projection (8 in 10 did).</div>` : ''}`;
+    ${moved?.length ? `<div class="muted" style="margin-top:6px">${flagEval?.decision?.useFlags ? 'Effect of his news on the projection (fitted on four past seasons)' : 'Correction for ESPN’s usual over-projection (about 1.3 minutes a game, four seasons)'}: ${moved.map(([k, v]) => `${k === 'games' ? 'games' : k} ${v > 0 ? '+' : ''}${k === 'games' ? v : v.toFixed(2)}`).join(', ')}</div>` : ''}
+    ${tier ? `<div class="muted" style="margin-top:6px">${tier.name === 'all' ? 'Uncertainty' : esc(tier.label)}: in past seasons 8 in 10 ${tier.name === 'all' ? 'drafted players' : 'players like this'} finished between ${money(tier.low)} and +${money(tier.high)} of their projection.</div>` : ''}`;
 }
 function sourcesTable(p) {
   const rows = [['ESPN', p.sources?.espn], ['Stats model', p.sources?.model], ['FantasyPros', p.sources?.fp]].filter(([, v]) => v);
