@@ -1,0 +1,27 @@
+name: Historical preseason news + Jev flags (for fitting flag effects)
+on: workflow_dispatch
+permissions:
+  contents: write
+concurrency:
+  group: writes-to-main
+  cancel-in-progress: false
+jobs:
+  text:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: 22 }
+      - run: node scripts/fetch-archive.mjs 2023 2024 2025 2026
+      - name: Jev flags every note
+        run: for T in 2023 2024 2025 2026; do node scripts/jev-flags.mjs --history data/history/rotowire-preseason-$T.json; done
+        env:
+          TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY || 'apikey_2116b470346b88e1453885dbaa658510538e_b107ca01bd947cebe0bda5b8454009e37805f460a6715a9f5d9a6692ab58b970' }}  # owner chose to commit the key (cheap, private repo); a repo secret overrides it
+      - name: Commit
+        run: |
+          git config user.name "data-bot"; git config user.email "data-bot@users.noreply.github.com"
+          git add data/history data/jev
+          git diff --cached --quiet || git commit -m "Historical preseason notes and Jev flags"
+          for i in 1 2 3 4; do git pull --rebase -q origin main && git push -q origin HEAD:main && exit 0; sleep $((i * 5)); done
+          exit 1
