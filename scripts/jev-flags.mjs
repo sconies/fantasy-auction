@@ -24,7 +24,8 @@ if (!key) {
 }
 
 const QUESTIONS = jevQuestions();
-const CACHE_FILE = 'data/jev/flag-cache.json';
+// Live and historical runs keep separate caches so the two workflows never edit the same file.
+const CACHE_FILE = arg('--history') ? 'data/jev/flag-cache-history.json' : 'data/jev/flag-cache.json';
 const cache = json(CACHE_FILE) ?? {};
 const hashOf = (player, text) => createHash('sha1').update(`${player}|${text}`).digest('hex').slice(0, 16);
 
