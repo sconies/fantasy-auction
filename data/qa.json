@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-10-06T08:32:11.053Z",
+ "builtAt": "2026-10-06T11:12:55.059Z",
  "counts": {
   "players": 426,
   "espnProjected": 348,
@@ -12,16 +12,14 @@
   "newTeam": 126
  },
  "top200MissingFantasyPros": [
-  "Ben Simmons",
-  "Russell Westbrook",
-  "Alex Caruso",
   "Khaman Maluach",
-  "Dean Wade",
-  "Bronny James"
+  "Bronny James",
+  "Maxime Raynaud",
+  "Alex Caruso",
+  "GG Jackson",
+  "Brayden Burries"
  ],
- "top200MissingDepth": [
-  "Russell Westbrook"
- ],
+ "top200MissingDepth": [],
  "starters": 150,
  "problems": []
 }

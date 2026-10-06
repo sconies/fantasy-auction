@@ -242,7 +242,7 @@ function openPlayer(id) {
     <div class="stat" style="margin-top:10px">
       <div><b>${money(mine(p))}</b><span>your value</span></div>
       <div><b>${money(p.dollars)}</b><span>model</span></div>
-      <div><b>${marketOf(p) != null ? money(marketOf(p)) : '–'}</b><span>market${p.market && !S.market[normName(p.name)] ? ` (ESPN $${Math.round(p.market)})` : ''}</span></div>
+      <div><b>${marketOf(p) != null ? money(marketOf(p)) : '–'}</b><span>market${p.market && !S.market[normName(p.name)] ? ` (Yahoo avg $${Math.round(p.market)}${p.yahoo ? `, Yahoo rank #${p.yahoo.rank}` : ''})` : ''}</span></div>
     </div>
     <h3>Projection per game (${p.projG} games)</h3>
     <div class="muted">${line('min')} min · ${line('pts')} pts · ${line('reb')} reb · ${line('ast')} ast · ${line('stl')} stl · ${line('blk')} blk · ${line('tpm')} 3pm · ${line('tov')} to ·

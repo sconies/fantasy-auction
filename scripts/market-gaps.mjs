@@ -1,5 +1,5 @@
-// Where does the app disagree with the market, and why? Compares the app's values with ESPN's average
-// auction prices, after putting the market on this league's scale (ESPN's leagues are mostly 10 teams):
+// Where does the app disagree with the market, and why? Compares the app's values with the market's
+// average auction prices (Yahoo when transcribed, else ESPN), after putting the market on this league's scale:
 // each player's market rank is priced at what that rank costs here. Then tests explanations.
 // Usage: node scripts/market-gaps.mjs   -> data/eval-market.json and a printed report
 import { readFileSync, writeFileSync } from 'node:fs';
@@ -26,7 +26,7 @@ const fit = {
   'app (G-scores, 9-cat)': corr(p => -p.rank, p => -p.mktRank),
   'plain 9-cat z-scores': corr(p => -zRank.get(p.id), p => -p.mktRank),
   'ESPN points-league ranking': corr(p => -p.ptsRank, p => -p.mktRank),
-  "ESPN's own suggested price": null,
+  "Yahoo's own preseason rank": corr(p => -(p.yahoo?.rank ?? 999), p => -p.mktRank),
 };
 
 const gap = p => p.dollars - p.mktHere;

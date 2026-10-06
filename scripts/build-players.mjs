@@ -43,6 +43,10 @@ const flagEval = json('data/eval-flags.json');
 const useFlagEffects = !!(effects && flagEval?.decision?.use);
 const effectsLabel = flagEval?.decision?.useFlags ? 'adjusted by fitted Jev flag effects' : 'corrected for ESPN\'s average misses';
 const risk = json('data/model/risk.json');
+// Yahoo's average auction cost (data/market/yahoo-auction.tsv, transcribed from Yahoo's Draft Analysis,
+// salary cap tab): the market the league actually sees. ESPN's average price is kept as a fallback field.
+const yahoo = new Map(existsSync('data/market/yahoo-auction.tsv') ? readFileSync('data/market/yahoo-auction.tsv', 'utf8').trim().split('\n').slice(1)
+  .map(l => l.split('\t')).map(([player, rank, avg, proj, pct]) => [normName(player), { rank: +rank, avg: +avg, proj: +proj, pct: +pct }]) : []);
 // Playoff weeks (18-20, mid-Feb to 21 Mar): over 2023-24..2025-26 players 32+ played 4-8% fewer games
 // in them than before, under-25s 3-5% more. Those weeks decide the title, so they count a little extra.
 const playoffFactor = age => (age == null ? 1 : age >= 32 ? 0.985 : age < 25 ? 1.008 : 1);
@@ -77,8 +81,11 @@ for (const e of espn) {
   p.age = m?.age ?? null;
   p.playoffFactor = playoffFactor(p.age);
   p.depth = d ? { pos: d.pos, rank: d.rank, starter: d.starter } : null;
-  p.market = e.market.espnAvgAuction ? +e.market.espnAvgAuction.toFixed(1) : null;
-  p.marketSource = 'ESPN average auction price';
+  const y = yahoo.get(key);
+  p.marketEspn = e.market.espnAvgAuction ? +e.market.espnAvgAuction.toFixed(1) : null;
+  p.market = yahoo.size ? (y ? y.avg : null) : p.marketEspn;
+  p.marketSource = yahoo.size ? 'Yahoo average auction cost' : 'ESPN average auction price';
+  if (y) p.yahoo = y;
   p.outlook = e.outlook ?? null;
   p.source = src;
   p.sources = {

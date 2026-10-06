@@ -1,49 +1,47 @@
 {
- "builtAt": "2026-10-06T11:04:37.423Z",
+ "builtAt": "2026-10-06T11:12:55.166Z",
  "method": "Market rank priced on this league's curve; rank agreement (Spearman) over players top 150 by either",
  "agreement": {
-  "app (G-scores, 9-cat)": 0.884,
-  "plain 9-cat z-scores": 0.838,
-  "ESPN points-league ranking": 0.974,
-  "ESPN's own suggested price": null
+  "app (G-scores, 9-cat)": 0.87,
+  "plain 9-cat z-scores": 0.823,
+  "ESPN points-league ranking": 0.897,
+  "Yahoo's own preseason rank": 0.949
  },
  "top": [
   {
-   "id": "4845367",
-   "name": "Stephon Castle",
-   "team": "SAS",
+   "id": "5041955",
+   "name": "Darryn Peterson",
+   "team": "UTA",
    "injury": null,
-   "min": 30.39,
-   "fgm": 5.84,
-   "fga": 12.64,
-   "ftm": 4.09,
-   "fta": 5.58,
-   "tpm": 1.25,
-   "pts": 17.01,
-   "reb": 5.19,
-   "ast": 7.08,
-   "stl": 1.11,
-   "blk": 0.3,
-   "tov": 3.15,
-   "projG": 72,
+   "min": 28.37,
+   "fgm": 6.73,
+   "fga": 14.9,
+   "ftm": 4.24,
+   "fta": 5.16,
+   "tpm": 0.88,
+   "pts": 18.57,
+   "reb": 3.62,
+   "ast": 2.75,
+   "stl": 1.24,
+   "blk": 0.29,
+   "tov": 2.2,
+   "projG": 73,
    "jevFlags": {
-    "role_up": 0.88,
-    "competition": 0.82,
-    "crowded": 0.5,
-    "usage_up": 0.7,
-    "defender": 0.81,
-    "breakout": 0.91
+    "injury_history": 0.82,
+    "competition": 0.84,
+    "crowded": 0.77,
+    "breakout": 0.85
    },
    "flagEffect": {
     "games": 0,
     "min": -1.33,
-    "pts": -0.74,
-    "reb": -0.23,
-    "ast": -0.22,
-    "tpm": -0.05,
-    "stl": -0.05,
+    "pts": -0.87,
+    "reb": -0.17,
+    "ast": -0.04,
+    "tpm": -0.04,
+    "stl": -0.06,
     "blk": -0.01,
-    "tov": -0.14
+    "tov": -0.1
    },
    "risk": {
     "tier": "all",
@@ -54,69 +52,174 @@
     "PG",
     "SG"
    ],
-   "age": 22,
-   "playoffFactor": 1.008,
+   "age": null,
+   "playoffFactor": 1,
    "depth": {
     "pos": "SG",
     "rank": 1,
     "starter": true
    },
-   "market": 10.3,
-   "marketSource": "ESPN average auction price",
-   "outlook": "Castle increased his role and production in Year 2, up from his Rookie of the Year numbers from the season before. He was drafted as an elite defender with the size to guard wings and the speed to guard point guards, but his offense took a big leap as well. He increased his scoring average and almost doubled his assist output. When healthy, the Spurs have two other strong lead guards in De'Aaron Fox and Dylan Harper that may cap Castle's assist opportunities, but he has room to increase his scoring and has 20 PPG potential in Year 3.",
+   "marketEspn": 1.8,
+   "market": 5,
+   "marketSource": "Yahoo average auction cost",
+   "yahoo": {
+    "rank": 115,
+    "avg": 5,
+    "proj": 2,
+    "pct": 99
+   },
+   "outlook": "Peterson enters his rookie season with Utah as the No. 2 overall pick and should have a path to significant minutes whether he starts immediately or not. He averaged 20.2 PPG and 4.2 RPG at Kansas while battling multiple health issues and shot 38.2% from beyond the arc. Utah has plenty of established scorers, which could keep Peterson’s usage in check early, but his shot creation and playmaking give him considerable upside. He’s an intriguing late-round target with room to outperform expectations.",
+   "source": "espn",
+   "sources": {
+    "espn": {
+     "g": 73,
+     "min": 29.7,
+     "pts": 19.44,
+     "reb": 3.79,
+     "ast": 2.79
+    },
+    "model": null,
+    "fp": {
+     "g": 75,
+     "min": 31.35,
+     "pts": 18.91,
+     "reb": 3.95,
+     "ast": 3.19
+    }
+   },
+   "flags": [],
+   "notes": [
+    "No NBA stats yet (rookie or returning from abroad): projection is ESPN only."
+   ],
+   "z": {
+    "fg": -0.470064273946701,
+    "ft": 0.2557813411617503,
+    "tpm": -0.5752638478358499,
+    "pts": 0.3942827413902262,
+    "reb": -0.7189281194460363,
+    "ast": -0.4234200740634486,
+    "stl": 0.3822903250228553,
+    "blk": -0.5674859716246156,
+    "tov": -0.3468214913045229
+   },
+   "perGame": -2.069629370646343,
+   "value": 0.13543503521101535,
+   "rank": 170,
+   "vorp": 0.10477918634018825,
+   "dollars": 1.824244777957668,
+   "mktRank": 62,
+   "mktHere": 18.908209097596643,
+   "ptsRank": 100
+  },
+  {
+   "id": "4432194",
+   "name": "Day'Ron Sharpe",
+   "team": "BKN",
+   "injury": null,
+   "min": 19.81,
+   "fgm": 3.65,
+   "fga": 6.68,
+   "ftm": 1.4,
+   "fta": 2.01,
+   "tpm": 0.19,
+   "pts": 8.85,
+   "reb": 7.5,
+   "ast": 2.12,
+   "stl": 0.87,
+   "blk": 0.82,
+   "tov": 1.5,
+   "projG": 67,
+   "flagEffect": {
+    "games": 0,
+    "min": -1.33,
+    "pts": -0.59,
+    "reb": -0.5,
+    "ast": -0.08,
+    "tpm": -0.01,
+    "stl": -0.06,
+    "blk": -0.06,
+    "tov": -0.1
+   },
+   "risk": {
+    "tier": "all",
+    "low": -11,
+    "high": 10
+   },
+   "pos": [
+    "C"
+   ],
+   "age": 25,
+   "playoffFactor": 1,
+   "depth": {
+    "pos": "C",
+    "rank": 1,
+    "starter": true
+   },
+   "marketEspn": 0.3,
+   "market": 4.2,
+   "marketSource": "Yahoo average auction cost",
+   "yahoo": {
+    "rank": 91,
+    "avg": 4.2,
+    "proj": 6,
+    "pct": 100
+   },
+   "outlook": null,
    "source": "blend",
    "sources": {
     "espn": {
-     "g": 72,
-     "min": 32.7,
-     "pts": 18.14,
-     "reb": 5.6,
-     "ast": 7.6
+     "g": 69,
+     "min": 22,
+     "pts": 9.71,
+     "reb": 8.41,
+     "ast": 2.2
     },
     "model": {
-     "g": 72,
-     "min": 28.77,
-     "pts": 16.59,
-     "reb": 4.89,
-     "ast": 6.41
+     "g": 61,
+     "min": 18.56,
+     "pts": 8.64,
+     "reb": 6.8,
+     "ast": 2.2
     },
     "fp": {
-     "g": 75,
-     "min": 31.6,
-     "pts": 17.17,
-     "reb": 5.05,
-     "ast": 6.67
+     "g": 73,
+     "min": 20.59,
+     "pts": 8.85,
+     "reb": 6.97,
+     "ast": 2.08
     }
    },
    "hist": {
     "2026": {
-     "g": 68,
-     "min": 30,
-     "pts": 16.7,
-     "team": "SAS"
+     "g": 62,
+     "min": 18.7,
+     "pts": 8.7,
+     "team": "BRK"
     }
    },
-   "flags": [],
+   "flags": [
+    "Listed starter at C but projected only 20 min."
+   ],
    "notes": [],
    "z": {
-    "fg": -0.2746377790471212,
-    "ft": -0.7442908544883879,
-    "tpm": -0.2711241955373013,
-    "pts": 0.16364476224954472,
-    "reb": -0.16514318656961002,
-    "ast": 1.461567066183084,
-    "stl": 0.1879416123017383,
-    "blk": -0.5524630702666985,
-    "tov": -1.252643785059084
+    "fg": 0.3898112558968455,
+    "ft": -0.4192015953768432,
+    "tpm": -1.14244319941963,
+    "pts": -1.042769282486329,
+    "reb": 0.6496613961976156,
+    "ast": -0.6976791729907731,
+    "stl": -0.17085601118340127,
+    "blk": 0.22872780034499038,
+    "tov": 0.32062651461989095
    },
-   "perGame": -1.4471494302338361,
-   "value": 0.6993622007843446,
-   "rank": 133,
-   "vorp": 0.6687063519135176,
-   "dollars": 6.260374104856303,
-   "mktRank": 49,
-   "mktHere": 21.662377923268867,
-   "ptsRank": 51
+   "perGame": -1.8841222943976343,
+   "value": 0.2796655648396363,
+   "rank": 159,
+   "vorp": 0.24900971596880916,
+   "dollars": 2.9588332875733645,
+   "mktRank": 68,
+   "mktHere": 17.48735214632008,
+   "ptsRank": 155
   },
   {
    "id": "3032977",
@@ -168,8 +271,15 @@
     "rank": 1,
     "starter": true
    },
-   "market": 61.8,
-   "marketSource": "ESPN average auction price",
+   "marketEspn": 61.8,
+   "market": 61,
+   "marketSource": "Yahoo average auction cost",
+   "yahoo": {
+    "rank": 6,
+    "avg": 61,
+    "proj": 55,
+    "pct": 100
+   },
    "outlook": "Antetokounmpo ended his storied career with the Bucks this offseason and will begin a new chapter with the Heat. Antetokounmpo has been one of the most consistent producers in fantasy this generation; in the seven seasons leading up to last, he averaged a rounded 30 points, 11 rebounds and 6 assists per game. Injuries limited him to only 36 games in 2025-26, but if he stays healthy Antetkounmpo should bounce back to his typical production this season.",
    "source": "blend",
    "sources": {
@@ -223,43 +333,46 @@
    "rank": 40,
    "vorp": 2.9529455591128824,
    "dollars": 24.22932675569493,
-   "mktRank": 5,
-   "mktHere": 39.59008136711605,
+   "mktRank": 6,
+   "mktHere": 38.67561338791308,
    "ptsRank": 5
   },
   {
-   "id": "4432573",
-   "name": "Paolo Banchero",
-   "team": "ORL",
+   "id": "3945274",
+   "name": "Luka Doncic",
+   "team": "LAL",
    "injury": null,
-   "min": 33.75,
-   "fgm": 7.66,
-   "fga": 16.79,
-   "ftm": 5.88,
-   "fta": 7.79,
-   "tpm": 1.38,
-   "pts": 22.57,
-   "reb": 7.71,
-   "ast": 5.1,
-   "stl": 0.75,
-   "blk": 0.58,
-   "tov": 2.99,
-   "projG": 68,
+   "min": 35.12,
+   "fgm": 10.39,
+   "fga": 21.88,
+   "ftm": 7,
+   "fta": 8.93,
+   "tpm": 3.79,
+   "pts": 31.57,
+   "reb": 8.04,
+   "ast": 8.5,
+   "stl": 1.56,
+   "blk": 0.47,
+   "tov": 3.83,
+   "projG": 67,
    "jevFlags": {
-    "injury_history": 0.83,
-    "recovering": 0.5,
-    "crowded": 0.82
+    "injury_history": 0.98,
+    "role_up": 0.67,
+    "new_team": 0.95,
+    "opening": 0.9,
+    "usage_up": 0.91,
+    "playmaker": 0.8
    },
    "flagEffect": {
     "games": 0,
     "min": -1.33,
-    "pts": -0.89,
+    "pts": -1.19,
     "reb": -0.3,
-    "ast": -0.1,
-    "tpm": -0.05,
-    "stl": -0.03,
+    "ast": -0.21,
+    "tpm": -0.14,
+    "stl": -0.06,
     "blk": -0.02,
-    "tov": -0.12
+    "tov": -0.14
    },
    "risk": {
     "tier": "all",
@@ -267,72 +380,190 @@
     "high": 10
    },
    "pos": [
-    "PF",
-    "SF"
+    "PG",
+    "SG"
    ],
-   "age": 24,
-   "playoffFactor": 1.008,
+   "age": 27,
+   "playoffFactor": 1,
    "depth": {
-    "pos": "PF",
+    "pos": "PG",
     "rank": 1,
     "starter": true
    },
-   "market": 14.5,
-   "marketSource": "ESPN average auction price",
-   "outlook": "Banchero struggled with injury in 2024-25 but bounced back to play 72 games last season, the third time in his four seasons he has played at least 72 games. Banchero's game and production have been largely consistent through his first four NBA seasons, but his scoring dipped almost four points per game last season due to increased scoring talent among his teammates. Banchero's volume is slightly capped playing alongside proven scorers Franz Wagner and Desmond Bane. ",
+   "marketEspn": 71.1,
+   "market": 73.3,
+   "marketSource": "Yahoo average auction cost",
+   "yahoo": {
+    "rank": 3,
+    "avg": 73.3,
+    "proj": 59,
+    "pct": 100
+   },
+   "outlook": "Doncic has won the NBA scoring crown in two of the last three seasons: his last full season with the Mavericks and his first full season with the Lakers. With former teammate LeBron James no longer on the squad, Doncic appears poised for the biggest season of his career. He has massive usage in the Lakers' offense, a talented second option in Austin Reaves to take some defensive pressure off, and finishers at every other position. The main risk is health, with Doncic having missed 50 games over the last two seasons, but when healthy he should challenge for top fantasy scorer in the league.",
    "source": "blend",
    "sources": {
     "espn": {
-     "g": 69,
-     "min": 35.2,
-     "pts": 23.42,
-     "reb": 7.9,
-     "ast": 5.2
+     "g": 68,
+     "min": 36.7,
+     "pts": 33.01,
+     "reb": 8.5,
+     "ast": 8.9
     },
     "model": {
-     "g": 65,
-     "min": 34.7,
-     "pts": 23.56,
-     "reb": 8.35,
-     "ast": 5.21
+     "g": 62,
+     "min": 35.69,
+     "pts": 32.01,
+     "reb": 7.84,
+     "ast": 8.13
     },
     "fp": {
      "g": 73,
-     "min": 35.19,
-     "pts": 24,
+     "min": 36.48,
+     "pts": 31.1,
      "reb": 8,
-     "ast": 5.26
+     "ast": 8.15
     }
    },
    "hist": {
     "2026": {
-     "g": 72,
-     "min": 34.8,
-     "pts": 22.2,
-     "team": "ORL"
+     "g": 64,
+     "min": 35.8,
+     "pts": 33.5,
+     "team": "LAL"
     }
    },
    "flags": [],
    "notes": [],
    "z": {
-    "fg": -0.45724993852291945,
-    "ft": -0.6882871545261972,
-    "tpm": -0.1642643177026762,
-    "pts": 0.9856621750842818,
-    "reb": 0.7237345400855453,
-    "ast": 0.5996098981257779,
-    "stl": -0.350254822925971,
-    "blk": -0.1318218322450199,
-    "tov": -1.1000842408477898
+    "fg": -0.20882641547885658,
+    "ft": -0.2539179591183694,
+    "tpm": 1.816753417539222,
+    "pts": 2.316265900895907,
+    "reb": 0.8401351947665773,
+    "ast": 2.0797383685272126,
+    "stl": 0.8606871563363747,
+    "blk": -0.2970737471821079,
+    "tov": -1.901021847957086
    },
-   "perGame": -0.5829556934749685,
-   "value": 1.4009499388402122,
-   "rank": 95,
-   "vorp": 1.3702940899693852,
-   "dollars": 11.77940941683296,
-   "mktRank": 41,
-   "mktHere": 23.85126319376494,
-   "ptsRank": 44
+   "perGame": 5.2527400683288725,
+   "value": 6.2567877936230865,
+   "rank": 4,
+   "vorp": 6.226131944752259,
+   "dollars": 49.97782586014544,
+   "mktRank": 3,
+   "mktHere": 63.29368038779406,
+   "ptsRank": 3
+  },
+  {
+   "id": "4278073",
+   "name": "Shai Gilgeous-Alexander",
+   "team": "OKC",
+   "injury": "DAY_TO_DAY",
+   "min": 32.41,
+   "fgm": 10.48,
+   "fga": 19.49,
+   "ftm": 7.5,
+   "fta": 8.48,
+   "tpm": 1.67,
+   "pts": 30.13,
+   "reb": 4.62,
+   "ast": 6.27,
+   "stl": 1.59,
+   "blk": 0.86,
+   "tov": 2.2,
+   "projG": 75,
+   "jevFlags": {
+    "playmaker": 0.7
+   },
+   "flagEffect": {
+    "games": 0,
+    "min": -1.33,
+    "pts": -1.23,
+    "reb": -0.19,
+    "ast": -0.16,
+    "tpm": -0.07,
+    "stl": -0.06,
+    "blk": -0.03,
+    "tov": -0.09
+   },
+   "risk": {
+    "tier": "all",
+    "low": -11,
+    "high": 10
+   },
+   "pos": [
+    "PG"
+   ],
+   "age": 28,
+   "playoffFactor": 1,
+   "depth": {
+    "pos": "PG",
+    "rank": 1,
+    "starter": true
+   },
+   "marketEspn": 71.5,
+   "market": 66.9,
+   "marketSource": "Yahoo average auction cost",
+   "yahoo": {
+    "rank": 4,
+    "avg": 66.9,
+    "proj": 57,
+    "pct": 100
+   },
+   "outlook": "Gilgeous-Alexander won his second straight NBA MVP last season and remains one of the most consistent fantasy producers in the league. The Thunder are built perfectly to accentuate his strengths, with finishers and 3-and-D shooters at every position. This provides space for SGA to create off the dribble to generate efficient looks, assist opportunities and free throws galore. He has also averaged almost 72 games per season for the last four campaigns, making him a reliable high-production option.",
+   "source": "blend",
+   "sources": {
+    "espn": {
+     "g": 76,
+     "min": 33.8,
+     "pts": 31.25,
+     "reb": 4.89,
+     "ast": 6.39
+    },
+    "model": {
+     "g": 71,
+     "min": 33.56,
+     "pts": 31.67,
+     "reb": 4.55,
+     "ast": 6.53
+    },
+    "fp": {
+     "g": 77,
+     "min": 34.23,
+     "pts": 31.09,
+     "reb": 4.53,
+     "ast": 6.25
+    }
+   },
+   "hist": {
+    "2026": {
+     "g": 68,
+     "min": 33.2,
+     "pts": 31.1,
+     "team": "OKC"
+    }
+   },
+   "flags": [],
+   "notes": [],
+   "z": {
+    "fg": 0.9764972102081462,
+    "ft": 1.5171689577414071,
+    "tpm": 0.07411540977456468,
+    "pts": 2.1033693047660464,
+    "reb": -0.36619886283684766,
+    "ast": 1.108948224705095,
+    "stl": 0.9055368592720171,
+    "blk": 0.2888194057766588,
+    "tov": -0.3468214913045229
+   },
+   "perGame": 6.261435018102564,
+   "value": 7.949518448573007,
+   "rank": 3,
+   "vorp": 7.918862599702179,
+   "dollars": 63.29368038779406,
+   "mktRank": 4,
+   "mktHere": 49.97782586014544,
+   "ptsRank": 2
   },
   {
    "id": "3102531",
@@ -385,8 +616,15 @@
     "rank": 1,
     "starter": true
    },
-   "market": 1.1,
-   "marketSource": "ESPN average auction price",
+   "marketEspn": 1.1,
+   "market": 1,
+   "marketSource": "Yahoo average auction cost",
+   "yahoo": {
+    "rank": 152,
+    "avg": 1,
+    "proj": 4,
+    "pct": 71
+   },
    "outlook": "Porzingis is one of the elite per-minute producers of his generation, but injuries have consistently derailed his availability and is already out for training camp. Porzingis missed 50 games last season and 40 the season before, and has missed at least 16 games in nine straight seasons. He is slotted to be the Warriors' starting center this season, and when he plays he will produce, but he is risky to draft in fantasy leagues before the late-middle rounds at the earliest.",
    "source": "blend",
    "sources": {
@@ -445,245 +683,41 @@
    "ptsRank": 113
   },
   {
-   "id": "6430",
-   "name": "Jimmy Butler III",
-   "team": "GSW",
-   "injury": "OUT",
-   "min": 30.81,
-   "fgm": 5.7,
-   "fga": 11.25,
-   "ftm": 5.93,
-   "fta": 6.94,
-   "tpm": 0.75,
-   "pts": 18.09,
-   "reb": 5.09,
-   "ast": 4.87,
-   "stl": 1.32,
-   "blk": 0.28,
-   "tov": 1.41,
-   "projG": 42,
-   "jevFlags": {
-    "absence": 0.8,
-    "recovering": 0.84
-   },
-   "flagEffect": {
-    "games": 0,
-    "min": -1.33,
-    "pts": -0.78,
-    "reb": -0.22,
-    "ast": -0.12,
-    "tpm": -0.03,
-    "stl": -0.06,
-    "blk": -0.01,
-    "tov": -0.06
-   },
-   "risk": {
-    "tier": "all",
-    "low": -11,
-    "high": 10
-   },
-   "pos": [
-    "PF",
-    "SF",
-    "SG"
-   ],
-   "age": 37,
-   "playoffFactor": 0.985,
-   "depth": {
-    "pos": "SF",
-    "rank": 8,
-    "starter": false
-   },
-   "market": 0.3,
-   "marketSource": "ESPN average auction price",
-   "outlook": null,
-   "source": "blend",
-   "sources": {
-    "espn": {
-     "g": 39,
-     "min": 32.4,
-     "pts": 19.41,
-     "reb": 5.41,
-     "ast": 5.1
-    },
-    "model": {
-     "g": 52,
-     "min": 31.35,
-     "pts": 17.24,
-     "reb": 5.02,
-     "ast": 4.65
-    },
-    "fp": {
-     "g": 49,
-     "min": 32.29,
-     "pts": 18.61,
-     "reb": 5.31,
-     "ast": 5
-    }
-   },
-   "hist": {
-    "2026": {
-     "g": 38,
-     "min": 31.1,
-     "pts": 20,
-     "team": "GSW"
-    }
-   },
-   "flags": [
-    "Third string or lower at SF on the depth chart, yet projected 31 min."
-   ],
-   "notes": [],
-   "z": {
-    "fg": 0.2321912369903654,
-    "ft": 0.8128237374289841,
-    "tpm": -0.6821237256704752,
-    "pts": 0.32331720934693947,
-    "reb": -0.20041611223052908,
-    "ast": 0.49948356042215164,
-    "stl": 0.5018895328512353,
-    "blk": -0.5825088729825326,
-    "tov": 0.4064412582387442
-   },
-   "perGame": 1.3110978243948832,
-   "value": 1.825011254936786,
-   "rank": 81,
-   "vorp": 1.794355406065959,
-   "dollars": 15.115284961730124,
-   "mktRank": 142,
-   "mktHere": 4.233396912401314,
-   "ptsRank": 185
-  },
-  {
-   "id": "6442",
-   "name": "Kyrie Irving",
-   "team": "DAL",
+   "id": "4845367",
+   "name": "Stephon Castle",
+   "team": "SAS",
    "injury": null,
-   "min": 33.27,
-   "fgm": 8.79,
-   "fga": 18.08,
-   "ftm": 3.33,
-   "fta": 3.65,
-   "tpm": 2.74,
-   "pts": 23.64,
-   "reb": 4.62,
-   "ast": 4.71,
-   "stl": 1.26,
-   "blk": 0.49,
-   "tov": 1.92,
-   "projG": 59,
+   "min": 30.39,
+   "fgm": 5.84,
+   "fga": 12.64,
+   "ftm": 4.09,
+   "fta": 5.58,
+   "tpm": 1.25,
+   "pts": 17.01,
+   "reb": 5.19,
+   "ast": 7.08,
+   "stl": 1.11,
+   "blk": 0.3,
+   "tov": 3.15,
+   "projG": 72,
    "jevFlags": {
-    "injury_history": 0.95,
-    "recovering": 0.98,
-    "role_up": 0.92,
-    "opening": 0.9,
-    "usage_up": 0.94,
-    "playmaker": 0.88
+    "role_up": 0.88,
+    "competition": 0.82,
+    "crowded": 0.5,
+    "usage_up": 0.7,
+    "defender": 0.81,
+    "breakout": 0.91
    },
    "flagEffect": {
     "games": 0,
     "min": -1.33,
-    "pts": -0.94,
-    "reb": -0.18,
-    "ast": -0.09,
-    "tpm": -0.11,
+    "pts": -0.74,
+    "reb": -0.23,
+    "ast": -0.22,
+    "tpm": -0.05,
     "stl": -0.05,
-    "blk": -0.02,
-    "tov": -0.08
-   },
-   "risk": {
-    "tier": "all",
-    "low": -11,
-    "high": 10
-   },
-   "pos": [
-    "PG"
-   ],
-   "age": null,
-   "playoffFactor": 1,
-   "depth": {
-    "pos": "PG",
-    "rank": 1,
-    "starter": true
-   },
-   "market": 10,
-   "marketSource": "ESPN average auction price",
-   "outlook": "Irving missed all of last season with a torn ACL but is reportedly almost fully recovered. He rejoins a very different Mavericks team, with Cooper Flagg as the new centerpiece and both Luka Doncic and Anthony Davis traded away. Irving is a high-usage guard that adjusted his passing game to play with Doncic; he should have the chance to create more offense and thus better fantasy numbers as the lead guard next to Flagg.",
-   "source": "espn",
-   "sources": {
-    "espn": {
-     "g": 59,
-     "min": 34.6,
-     "pts": 24.58,
-     "reb": 4.8,
-     "ast": 4.8
-    },
-    "model": null,
-    "fp": {
-     "g": 68,
-     "min": 35.43,
-     "pts": 24.13,
-     "reb": 4.5,
-     "ast": 4.87
-    }
-   },
-   "flags": [],
-   "notes": [
-    "No NBA stats yet (rookie or returning from abroad): projection is ESPN only."
-   ],
-   "z": {
-    "fg": 0.021502290524528803,
-    "ft": 0.8629635554918326,
-    "tpm": 0.953654404259557,
-    "pts": 1.1438561735974417,
-    "reb": -0.36619886283684766,
-    "ast": 0.42983045593267233,
-    "stl": 0.41219012697995033,
-    "blk": -0.2670279444662737,
-    "tov": -0.07984228893475719
-   },
-   "perGame": 3.1109279105481042,
-   "value": 3.9301221877226844,
-   "rank": 16,
-   "vorp": 3.899466338851857,
-   "dollars": 31.67512622387649,
-   "mktRank": 50,
-   "mktHere": 21.32133905568989,
-   "ptsRank": 49
-  },
-  {
-   "id": "5041955",
-   "name": "Darryn Peterson",
-   "team": "UTA",
-   "injury": null,
-   "min": 28.37,
-   "fgm": 6.73,
-   "fga": 14.9,
-   "ftm": 4.24,
-   "fta": 5.16,
-   "tpm": 0.88,
-   "pts": 18.57,
-   "reb": 3.62,
-   "ast": 2.75,
-   "stl": 1.24,
-   "blk": 0.29,
-   "tov": 2.2,
-   "projG": 73,
-   "jevFlags": {
-    "injury_history": 0.82,
-    "competition": 0.84,
-    "crowded": 0.77,
-    "breakout": 0.85
-   },
-   "flagEffect": {
-    "games": 0,
-    "min": -1.33,
-    "pts": -0.87,
-    "reb": -0.17,
-    "ast": -0.04,
-    "tpm": -0.04,
-    "stl": -0.06,
     "blk": -0.01,
-    "tov": -0.1
+    "tov": -0.14
    },
    "risk": {
     "tier": "all",
@@ -694,92 +728,203 @@
     "PG",
     "SG"
    ],
-   "age": null,
-   "playoffFactor": 1,
+   "age": 22,
+   "playoffFactor": 1.008,
    "depth": {
     "pos": "SG",
     "rank": 1,
     "starter": true
    },
-   "market": 1.8,
-   "marketSource": "ESPN average auction price",
-   "outlook": "Peterson enters his rookie season with Utah as the No. 2 overall pick and should have a path to significant minutes whether he starts immediately or not. He averaged 20.2 PPG and 4.2 RPG at Kansas while battling multiple health issues and shot 38.2% from beyond the arc. Utah has plenty of established scorers, which could keep Peterson’s usage in check early, but his shot creation and playmaking give him considerable upside. He’s an intriguing late-round target with room to outperform expectations.",
-   "source": "espn",
+   "marketEspn": 10.3,
+   "market": 4.3,
+   "marketSource": "Yahoo average auction cost",
+   "yahoo": {
+    "rank": 76,
+    "avg": 4.3,
+    "proj": 13,
+    "pct": 100
+   },
+   "outlook": "Castle increased his role and production in Year 2, up from his Rookie of the Year numbers from the season before. He was drafted as an elite defender with the size to guard wings and the speed to guard point guards, but his offense took a big leap as well. He increased his scoring average and almost doubled his assist output. When healthy, the Spurs have two other strong lead guards in De'Aaron Fox and Dylan Harper that may cap Castle's assist opportunities, but he has room to increase his scoring and has 20 PPG potential in Year 3.",
+   "source": "blend",
    "sources": {
     "espn": {
-     "g": 73,
-     "min": 29.7,
-     "pts": 19.44,
-     "reb": 3.79,
-     "ast": 2.79
+     "g": 72,
+     "min": 32.7,
+     "pts": 18.14,
+     "reb": 5.6,
+     "ast": 7.6
     },
-    "model": null,
+    "model": {
+     "g": 72,
+     "min": 28.77,
+     "pts": 16.59,
+     "reb": 4.89,
+     "ast": 6.41
+    },
     "fp": {
      "g": 75,
-     "min": 31.35,
-     "pts": 18.91,
-     "reb": 3.95,
-     "ast": 3.19
+     "min": 31.6,
+     "pts": 17.17,
+     "reb": 5.05,
+     "ast": 6.67
+    }
+   },
+   "hist": {
+    "2026": {
+     "g": 68,
+     "min": 30,
+     "pts": 16.7,
+     "team": "SAS"
     }
    },
    "flags": [],
-   "notes": [
-    "No NBA stats yet (rookie or returning from abroad): projection is ESPN only."
-   ],
+   "notes": [],
    "z": {
-    "fg": -0.470064273946701,
-    "ft": 0.2557813411617503,
-    "tpm": -0.5752638478358499,
-    "pts": 0.3942827413902262,
-    "reb": -0.7189281194460363,
-    "ast": -0.4234200740634486,
-    "stl": 0.3822903250228553,
-    "blk": -0.5674859716246156,
-    "tov": -0.3468214913045229
+    "fg": -0.2746377790471212,
+    "ft": -0.7442908544883879,
+    "tpm": -0.2711241955373013,
+    "pts": 0.16364476224954472,
+    "reb": -0.16514318656961002,
+    "ast": 1.461567066183084,
+    "stl": 0.1879416123017383,
+    "blk": -0.5524630702666985,
+    "tov": -1.252643785059084
    },
-   "perGame": -2.069629370646343,
-   "value": 0.13543503521101535,
-   "rank": 170,
-   "vorp": 0.10477918634018825,
-   "dollars": 1.824244777957668,
-   "mktRank": 96,
-   "mktHere": 11.675748447952177,
-   "ptsRank": 100
+   "perGame": -1.4471494302338361,
+   "value": 0.6993622007843446,
+   "rank": 133,
+   "vorp": 0.6687063519135176,
+   "dollars": 6.260374104856303,
+   "mktRank": 67,
+   "mktHere": 17.570495153837825,
+   "ptsRank": 51
   },
   {
-   "id": "3917376",
-   "name": "Jaylen Brown",
-   "team": "PHI",
+   "id": "5203685",
+   "name": "Khaman Maluach",
+   "team": "PHX",
    "injury": null,
-   "min": 31.56,
-   "fgm": 8.68,
-   "fga": 18.14,
-   "ftm": 4.35,
-   "fta": 5.62,
-   "tpm": 1.81,
-   "pts": 23.5,
-   "reb": 5.79,
-   "ast": 4.34,
-   "stl": 1.04,
-   "blk": 0.37,
-   "tov": 2.79,
-   "projG": 71,
+   "min": 21.67,
+   "fgm": 2.96,
+   "fga": 5.57,
+   "ftm": 1.13,
+   "fta": 1.61,
+   "tpm": 0.27,
+   "pts": 7.32,
+   "reb": 7.08,
+   "ast": 0.36,
+   "stl": 0.29,
+   "blk": 1.8,
+   "tov": 1.32,
+   "projG": 65,
+   "flagEffect": {
+    "games": 0,
+    "min": -1.33,
+    "pts": -0.45,
+    "reb": -0.43,
+    "ast": 0.05,
+    "tpm": -0.02,
+    "stl": -0.02,
+    "blk": -0.11,
+    "tov": -0.08
+   },
+   "risk": {
+    "tier": "all",
+    "low": -11,
+    "high": 10
+   },
+   "pos": [
+    "C"
+   ],
+   "age": null,
+   "playoffFactor": 1,
+   "depth": {
+    "pos": "C",
+    "rank": 2,
+    "starter": false
+   },
+   "marketEspn": 0.1,
+   "market": 1.3,
+   "marketSource": "Yahoo average auction cost",
+   "yahoo": {
+    "rank": 118,
+    "avg": 1.3,
+    "proj": 1,
+    "pct": 75
+   },
+   "outlook": null,
+   "source": "espn",
+   "sources": {
+    "espn": {
+     "g": 65,
+     "min": 23,
+     "pts": 7.77,
+     "reb": 7.51,
+     "ast": 0.31
+    },
+    "model": null,
+    "fp": null
+   },
+   "flags": [],
+   "notes": [
+    "Too few minutes last season for the stats model: projection is ESPN only."
+   ],
+   "z": {
+    "fg": 0.24580288322971083,
+    "ft": -0.31803149349590826,
+    "tpm": -1.0766832745983221,
+    "pts": -1.2689719158743051,
+    "reb": 0.5015151084217564,
+    "ast": -1.463863322375045,
+    "stl": -1.0379502679391548,
+    "blk": 1.7009721334208658,
+    "tov": 0.4922560018575972
+   },
+   "perGame": -2.224954147352805,
+   "value": -0.0056085415025483865,
+   "rank": 186,
+   "vorp": -0.03626439037337549,
+   "dollars": 0,
+   "mktRank": 101,
+   "mktHere": 10.745303772675886,
+   "ptsRank": 217
+  },
+  {
+   "id": "6583",
+   "name": "Anthony Davis",
+   "team": "WAS",
+   "injury": null,
+   "min": 30.95,
+   "fgm": 8.22,
+   "fga": 15.45,
+   "ftm": 4.56,
+   "fta": 5.79,
+   "tpm": 0.46,
+   "pts": 21.44,
+   "reb": 10.79,
+   "ast": 3.12,
+   "stl": 1.05,
+   "blk": 1.96,
+   "tov": 1.93,
+   "projG": 57,
    "jevFlags": {
-    "role_down": 0.94,
-    "new_team": 0.95,
-    "opening": 0.78,
-    "crowded": 0.88
+    "injury_history": 0.98,
+    "recovering": 0.82,
+    "role_up": 0.87,
+    "new_team": 0.51,
+    "usage_up": 0.58,
+    "rim_big": 0.8
    },
    "flagEffect": {
     "games": 0,
     "min": -1.33,
-    "pts": -0.99,
-    "reb": -0.24,
-    "ast": -0.09,
-    "tpm": -0.08,
-    "stl": -0.04,
-    "blk": -0.02,
-    "tov": -0.12
+    "pts": -0.92,
+    "reb": -0.46,
+    "ast": -0.04,
+    "tpm": -0.02,
+    "stl": -0.05,
+    "blk": -0.08,
+    "tov": -0.08
    },
    "risk": {
     "tier": "all",
@@ -788,282 +933,196 @@
    },
    "pos": [
     "PF",
-    "SF",
-    "SG"
+    "C"
    ],
-   "age": 30,
+   "age": 33,
+   "playoffFactor": 0.985,
+   "depth": {
+    "pos": "PF",
+    "rank": 1,
+    "starter": true
+   },
+   "marketEspn": 24.4,
+   "market": 19.2,
+   "marketSource": "Yahoo average auction cost",
+   "yahoo": {
+    "rank": 45,
+    "avg": 19.2,
+    "proj": 23,
+    "pct": 100
+   },
+   "outlook": "Injuries limited Davis to only 20 games last season and only 29 total with the Mavericks since his midseason trade there in the 2024-25 season. Last season, Davis was traded again to the Wizards though he was never able to play. This season, Davis is expected to return healthy and settle in as the primary big man for the Wizards. He will play next to point guard Trae Young, who excels at running the pick-and-roll and setting up his big man with easy shots. Durability is always a concern for Davis, but if he can remain healthy he could be in for the most efficient scoring season of his career playing next to Young.",
+   "source": "blend",
+   "sources": {
+    "espn": {
+     "g": 61,
+     "min": 32.2,
+     "pts": 22.59,
+     "reb": 11.39,
+     "ast": 3.2
+    },
+    "model": {
+     "g": 43,
+     "min": 32.53,
+     "pts": 21.67,
+     "reb": 10.81,
+     "ast": 3.03
+    },
+    "fp": {
+     "g": 69,
+     "min": 32.64,
+     "pts": 22.22,
+     "reb": 11.07,
+     "ast": 3.01
+    }
+   },
+   "hist": {
+    "2026": {
+     "g": 20,
+     "min": 31.3,
+     "pts": 20.4,
+     "team": "DAL"
+    }
+   },
+   "flags": [
+    "FantasyPros consensus has 69 games, we have 57."
+   ],
+   "notes": [
+    "New team: DAL → WAS. Role is a guess until he plays."
+   ],
+   "z": {
+    "fg": 0.6909037414492243,
+    "ft": -0.12057895732393169,
+    "tpm": -0.9205034531477161,
+    "pts": 0.8185974850657113,
+    "reb": 1.810140650441846,
+    "ast": -0.26234726993152774,
+    "stl": 0.09824220643045337,
+    "blk": 1.9413385551475393,
+    "tov": -0.08937726044796311
+   },
+   "perGame": 3.9664156976836353,
+   "value": 4.340336263790244,
+   "rank": 13,
+   "vorp": 4.309680414919416,
+   "dollars": 34.90207254645669,
+   "mktRank": 40,
+   "mktHere": 24.22932675569493,
+   "ptsRank": 36
+  },
+  {
+   "id": "4278104",
+   "name": "Michael Porter Jr.",
+   "team": "BKN",
+   "injury": null,
+   "min": 32.05,
+   "fgm": 7.92,
+   "fga": 16.81,
+   "ftm": 3.17,
+   "fta": 3.75,
+   "tpm": 3.11,
+   "pts": 22.13,
+   "reb": 6.89,
+   "ast": 2.81,
+   "stl": 0.93,
+   "blk": 0.32,
+   "tov": 2.05,
+   "projG": 68,
+   "jevFlags": {
+    "injury_history": 0.97,
+    "new_team": 0.85,
+    "usage_up": 0.6
+   },
+   "flagEffect": {
+    "games": 0,
+    "min": -1.33,
+    "pts": -0.91,
+    "reb": -0.28,
+    "ast": -0.02,
+    "tpm": -0.13,
+    "stl": -0.04,
+    "blk": -0.01,
+    "tov": -0.08
+   },
+   "risk": {
+    "tier": "all",
+    "low": -11,
+    "high": 10
+   },
+   "pos": [
+    "SF",
+    "PF"
+   ],
+   "age": 28,
    "playoffFactor": 1,
    "depth": {
     "pos": "SF",
     "rank": 1,
     "starter": true
    },
-   "market": 18.7,
-   "marketSource": "ESPN average auction price",
-   "outlook": "Brown is coming off his best individual season, operating as the sole focal point of the Celtics' offense with Jayson Tatum sidelined. After being traded to the 76ers this offseason, he is now in the opposite situation with several other high-usage teammates to share the ball with. Brown is in his peak seasons so should play well even with fewer shots, but his shot volume should lower significantly playing next to Tyrese Maxey, LeBron James, Joel Embiid and VJ Edgecombe.",
+   "marketEspn": 10.3,
+   "market": 3,
+   "marketSource": "Yahoo average auction cost",
+   "yahoo": {
+    "rank": 60,
+    "avg": 3,
+    "proj": 17,
+    "pct": 100
+   },
+   "outlook": "Porter thrived in his first season with the Nets, leaning into the lead role to increase his scoring career high by more than five points up to the mid-20s. Porter remains the main option this season even after the trade that brought Julius Randle to town and should continue to produce. The question with Porter is always durability: he has only played more than 62 games twice in his seven-year career.",
    "source": "blend",
    "sources": {
     "espn": {
-     "g": 71,
-     "min": 32.4,
-     "pts": 23.93,
-     "reb": 5.9,
-     "ast": 4.3
+     "g": 69,
+     "min": 33.5,
+     "pts": 23.51,
+     "reb": 7.2,
+     "ast": 2.9
     },
     "model": {
-     "g": 69,
-     "min": 34.37,
-     "pts": 26.17,
-     "reb": 6.43,
-     "ast": 4.82
-    },
-    "fp": {
-     "g": 74,
-     "min": 33.77,
-     "pts": 25.14,
-     "reb": 6.04,
-     "ast": 4.34
-    }
-   },
-   "hist": {
-    "2026": {
-     "g": 71,
-     "min": 34.4,
-     "pts": 28.7,
-     "team": "BOS"
-    }
-   },
-   "flags": [],
-   "notes": [
-    "New team: BOS → PHI. Role is a guess until he plays."
-   ],
-   "z": {
-    "fg": -0.11050603924197308,
-    "ft": -0.2739798227818777,
-    "tpm": 0.18919527821185347,
-    "pts": 1.1231578934181496,
-    "reb": 0.04649436739590305,
-    "ast": 0.2687576518007515,
-    "stl": 0.08329230545190587,
-    "blk": -0.44730276076127884,
-    "tov": -0.9093848105836714
-   },
-   "perGame": -0.03027593709023746,
-   "value": 1.941650658582168,
-   "rank": 78,
-   "vorp": 1.910994809711341,
-   "dollars": 16.03282806085923,
-   "mktRank": 36,
-   "mktHere": 25.883621720484594,
-   "ptsRank": 34
-  },
-  {
-   "id": "4395628",
-   "name": "Zion Williamson",
-   "team": "NOP",
-   "injury": null,
-   "min": 29.22,
-   "fgm": 8.22,
-   "fga": 14.05,
-   "ftm": 5.1,
-   "fta": 7.27,
-   "tpm": 0.05,
-   "pts": 21.58,
-   "reb": 5.81,
-   "ast": 4.04,
-   "stl": 1.03,
-   "blk": 0.64,
-   "tov": 2.32,
-   "projG": 62,
-   "jevFlags": {
-    "injury_history": 0.89,
-    "competition": 0.98
-   },
-   "flagEffect": {
-    "games": 0,
-    "min": -1.33,
-    "pts": -0.98,
-    "reb": -0.26,
-    "ast": -0.09,
-    "tpm": 0,
-    "stl": -0.05,
-    "blk": -0.03,
-    "tov": -0.1
-   },
-   "risk": {
-    "tier": "all",
-    "low": -11,
-    "high": 10
-   },
-   "pos": [
-    "C",
-    "PF"
-   ],
-   "age": 26,
-   "playoffFactor": 1,
-   "depth": {
-    "pos": "PF",
-    "rank": 1,
-    "starter": true
-   },
-   "market": 6.4,
-   "marketSource": "ESPN average auction price",
-   "outlook": "Williamson played 62 games last season, a positive bounce-back from the 30 he played the season before, and the second-most games he has played in the eight seasons since he was drafted. Williamson also had his smallest role with the Pelicans last season, notching career-lows in both points and rebounds per game. The Pelicans have a lot of startable talent in their frontcourt, including young players they want to build around, so Williamson's role and future with the Pelicans have enough questions to limit his fantasy upside even beyond the availability concerns.",
-   "source": "blend",
-   "sources": {
-    "espn": {
      "g": 64,
-     "min": 30.9,
-     "pts": 22.84,
-     "reb": 6.09,
-     "ast": 4.3
-    },
-    "model": {
-     "g": 57,
-     "min": 29.49,
-     "pts": 21.7,
-     "reb": 5.99,
-     "ast": 3.61
+     "min": 33.01,
+     "pts": 21.65,
+     "reb": 7.06,
+     "ast": 2.62
     },
     "fp": {
-     "g": 69,
-     "min": 29.96,
-     "pts": 22.16,
-     "reb": 5.9,
-     "ast": 4.26
+     "g": 73,
+     "min": 33.27,
+     "pts": 20.82,
+     "reb": 6.47,
+     "ast": 2.48
     }
    },
    "hist": {
     "2026": {
-     "g": 62,
-     "min": 29.7,
-     "pts": 21,
-     "team": "NOP"
+     "g": 52,
+     "min": 32.5,
+     "pts": 24.2,
+     "team": "BRK"
     }
    },
    "flags": [],
    "notes": [],
    "z": {
-    "fg": 1.3352019504015307,
-    "ft": -1.4413309575864957,
-    "tpm": -1.2575230678569185,
-    "pts": 0.8392957652450027,
-    "reb": 0.05354895252808667,
-    "ast": 0.13815808088297796,
-    "stl": 0.06834240447335839,
-    "blk": -0.041684424097517235,
-    "tov": -0.4612411494629935
+    "fg": -0.2197010819277532,
+    "ft": 0.36858356422321825,
+    "tpm": 1.2577940565581054,
+    "pts": 0.9206104373779355,
+    "reb": 0.4344965496660105,
+    "ast": -0.39730015987989387,
+    "stl": -0.08115660531211634,
+    "blk": -0.5224172675508643,
+    "tov": -0.2037969186064339
    },
-   "perGame": -0.7672324454729684,
-   "value": 1.124384633215981,
-   "rank": 108,
-   "vorp": 1.093728784345154,
-   "dollars": 9.603810265061293,
-   "mktRank": 63,
-   "mktHere": 18.552537283872645,
-   "ptsRank": 64
-  },
-  {
-   "id": "3934672",
-   "name": "Jalen Brunson",
-   "team": "NYK",
-   "injury": null,
-   "min": 33.92,
-   "fgm": 9.04,
-   "fga": 19.03,
-   "ftm": 5,
-   "fta": 5.98,
-   "tpm": 2.47,
-   "pts": 25.56,
-   "reb": 3.14,
-   "ast": 6.72,
-   "stl": 0.85,
-   "blk": 0.1,
-   "tov": 2.31,
-   "projG": 72,
-   "jevFlags": {},
-   "flagEffect": {
-    "games": 0,
-    "min": -1.33,
-    "pts": -1,
-    "reb": -0.12,
-    "ast": -0.16,
-    "tpm": -0.1,
-    "stl": -0.03,
-    "blk": 0,
-    "tov": -0.09
-   },
-   "risk": {
-    "tier": "all",
-    "low": -11,
-    "high": 10
-   },
-   "pos": [
-    "PG"
-   ],
-   "age": 30,
-   "playoffFactor": 1,
-   "depth": {
-    "pos": "PG",
-    "rank": 1,
-    "starter": true
-   },
-   "market": 43,
-   "marketSource": "ESPN average auction price",
-   "outlook": "Brunson reached the pinnacle of the NBA last season by leading the Knicks to their first championship in more than 50 years. He also turned in another strong fantasy campaign, almost exactly in line with his four year averages of a rounded 26 PPG, 3 RPG and 7 APG. The Knicks have one of the more stable lineups in the league, returning the same starting crew with similar roles. Brunson is still squarely in his prime at 30 years old, and his expectations this season should remain right in line with what he has done since arriving in New York.",
-   "source": "blend",
-   "sources": {
-    "espn": {
-     "g": 72,
-     "min": 35.3,
-     "pts": 26.92,
-     "reb": 3.31,
-     "ast": 6.9
-    },
-    "model": {
-     "g": 71,
-     "min": 35.12,
-     "pts": 25.48,
-     "reb": 3.11,
-     "ast": 6.81
-    },
-    "fp": {
-     "g": 75,
-     "min": 35.52,
-     "pts": 26.27,
-     "reb": 3.29,
-     "ast": 6.83
-    }
-   },
-   "hist": {
-    "2026": {
-     "g": 74,
-     "min": 35,
-     "pts": 26,
-     "team": "NYK"
-    }
-   },
-   "flags": [],
-   "notes": [],
-   "z": {
-    "fg": -0.1784374533165429,
-    "ft": 0.47416971664589797,
-    "tpm": 0.7317146579876431,
-    "pts": 1.4277183017705881,
-    "reb": -0.8882381626184469,
-    "ast": 1.3048475810817555,
-    "stl": -0.20075581314049626,
-    "blk": -0.8529210974250404,
-    "tov": -0.4517061779497878
-   },
-   "perGame": 1.3663915530355701,
-   "value": 3.2259985920697916,
-   "rank": 33,
-   "vorp": 3.1953427431989643,
-   "dollars": 26.136142604845737,
-   "mktRank": 13,
-   "mktHere": 34.90207254645669,
-   "ptsRank": 12
+   "perGame": 1.5571125745482077,
+   "value": 3.208889316351656,
+   "rank": 34,
+   "vorp": 3.178233467480829,
+   "dollars": 26.0015526003049,
+   "mktRank": 80,
+   "mktHere": 15.673135860620437,
+   "ptsRank": 50
   }
  ]
 }
