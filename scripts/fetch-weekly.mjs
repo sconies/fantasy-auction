@@ -33,5 +33,6 @@ for (const season of process.argv.slice(2).map(Number)) {
   }
   writeFileSync(`data/history/weekly-${season}.json`, JSON.stringify({ season, source: 'ESPN game logs, grouped into 7-day weeks from the first game day', players }) + '\n');
   console.log(`${season}: ${players.length} players, ${games} player-games`);
-  if (games < 20000) throw new Error(`only ${games} player-games: ESPN may not have returned full game logs`);
+  // The top ~235 players by season total are enough to cover a 182-player draft pool; require full logs for them.
+  if (players.length < 200 || games / players.length < 35) throw new Error(`${players.length} players, ${(games / players.length).toFixed(0)} games each: game logs look incomplete`);
 }
