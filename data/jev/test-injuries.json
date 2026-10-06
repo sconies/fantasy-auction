@@ -4,7 +4,7 @@
  "accuracyClear": 0.945,
  "accuracyReal": 0.933,
  "accuracyConstructed": 1,
- "accuracyAmbiguous": 0.571,
+ "accuracyAmbiguous": 0.643,
  "missesGames": {
   "tp": 17,
   "fp": 0,
@@ -47,35 +47,35 @@
    "name": "Jimmy Butler III",
    "label": "months",
    "jev": "season",
-   "confidence": 0.34,
+   "confidence": 0.23,
    "text": "The Warriors hope to have Butler (knee) back early in 2027, per Keith Watkins of Yahoo Sports."
   },
   {
    "name": "Max Strus",
    "label": "weeks",
    "jev": "uncertain",
-   "confidence": 0.4,
+   "confidence": 0.39,
    "text": "Strus has been diagnosed with a partially torn plantar fascia in his right foot and he will be re-evaluated in four weeks, Ohm Youngmisuk of ESPN.com reports."
   },
   {
    "name": "Donte DiVincenzo",
    "label": "months",
    "jev": "none",
-   "confidence": 0.53,
+   "confidence": 0.47,
    "text": "DiVincenzo (Achilles) remains confident that he'll return during the 2026-27 season, Jon Krawczynski of The Athletic reports."
   },
   {
    "name": "Jalen Suggs",
    "label": "none",
    "jev": "uncertain",
-   "confidence": 0.57,
+   "confidence": 0.59,
    "text": "Suggs remains under the weather but appears to be improving, Jason Beede of the Orlando Sentinel reports."
   },
   {
    "name": "Mark Williams",
    "label": "months",
    "jev": "uncertain",
-   "confidence": 0.88,
+   "confidence": 0.85,
    "text": "Williams underwent surgery Thursday to repair a torn labrum in his left shoulder and will miss an extended period of time, Shams Charania of ESPN reports."
   }
  ]
