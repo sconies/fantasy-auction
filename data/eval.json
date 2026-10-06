@@ -1,95 +1,212 @@
 {
- "builtAt": "2026-10-06T07:21:53.442Z",
+ "builtAt": "2026-10-06T07:23:43.618Z",
  "method": "Project season T from T-1 and T-2, value it, compare with the same valuation of what happened in T",
  "summary": [
   {
    "label": "naive: last season as it happened",
    "seasons": [
+    2023,
+    2024,
+    2025,
     2026
    ],
-   "spearman": 0.456,
-   "maeDollars": 9.67,
-   "top50StayedTop75": 0.64,
-   "wastedShare": 0.169,
-   "unprojectedValue": 162
+   "spearman": 0.559,
+   "maeDollars": 7.935,
+   "top50StayedTop75": 0.76,
+   "wastedShare": 0.117,
+   "unprojectedValue": 149
   },
   {
    "label": "model (current settings)",
    "seasons": [
+    2023,
+    2024,
+    2025,
     2026
    ],
-   "spearman": 0.489,
-   "maeDollars": 9.24,
-   "top50StayedTop75": 0.68,
-   "wastedShare": 0.159,
-   "unprojectedValue": 162
+   "spearman": 0.599,
+   "maeDollars": 7.357,
+   "top50StayedTop75": 0.79,
+   "wastedShare": 0.111,
+   "unprojectedValue": 125
   },
   {
    "label": "model, no age curve",
    "seasons": [
+    2023,
+    2024,
+    2025,
     2026
    ],
-   "spearman": 0.47,
-   "maeDollars": 9.47,
-   "top50StayedTop75": 0.62,
-   "wastedShare": 0.167,
-   "unprojectedValue": 162
+   "spearman": 0.58,
+   "maeDollars": 7.55,
+   "top50StayedTop75": 0.78,
+   "wastedShare": 0.12,
+   "unprojectedValue": 125
   },
   {
    "label": "model, last season only",
    "seasons": [
+    2023,
+    2024,
+    2025,
     2026
    ],
-   "spearman": 0.489,
-   "maeDollars": 9.24,
-   "top50StayedTop75": 0.68,
-   "wastedShare": 0.159,
-   "unprojectedValue": 162
+   "spearman": 0.58,
+   "maeDollars": 7.748,
+   "top50StayedTop75": 0.77,
+   "wastedShare": 0.114,
+   "unprojectedValue": 127
   },
   {
    "label": "model, seasons equal",
    "seasons": [
+    2023,
+    2024,
+    2025,
     2026
    ],
-   "spearman": 0.489,
-   "maeDollars": 9.24,
-   "top50StayedTop75": 0.68,
-   "wastedShare": 0.159,
-   "unprojectedValue": 162
+   "spearman": 0.587,
+   "maeDollars": 7.41,
+   "top50StayedTop75": 0.795,
+   "wastedShare": 0.116,
+   "unprojectedValue": 124
   },
   {
    "label": "model, no games regression",
    "seasons": [
+    2023,
+    2024,
+    2025,
     2026
    ],
-   "spearman": 0.477,
-   "maeDollars": 9.44,
-   "top50StayedTop75": 0.66,
-   "wastedShare": 0.159,
-   "unprojectedValue": 162
+   "spearman": 0.596,
+   "maeDollars": 7.435,
+   "top50StayedTop75": 0.775,
+   "wastedShare": 0.11,
+   "unprojectedValue": 125
   },
   {
    "label": "model, strong games regression",
    "seasons": [
+    2023,
+    2024,
+    2025,
     2026
    ],
-   "spearman": 0.493,
-   "maeDollars": 9.16,
-   "top50StayedTop75": 0.66,
-   "wastedShare": 0.158,
-   "unprojectedValue": 162
+   "spearman": 0.599,
+   "maeDollars": 7.357,
+   "top50StayedTop75": 0.79,
+   "wastedShare": 0.112,
+   "unprojectedValue": 125
   }
  ],
  "detail": [
   {
+   "target": 2023,
+   "variant": "model",
+   "n": 228,
+   "spearman": 0.594,
+   "maeDollars": 6.75,
+   "top50StayedTop75": 0.78,
+   "wastedShare": 0.111,
+   "unprojectedValue": 149,
+   "unprojected": [
+    "Kawhi Leonard $31",
+    "Walker Kessler $22",
+    "Jalen Williams $21",
+    "Jamal Murray $18",
+    "Keegan Murray $13",
+    "Jalen Duren $8",
+    "Zion Williamson $7",
+    "Jabari Smith Jr. $6"
+   ],
+   "biggestMisses": [
+    "Nic Claxton: projected $0, worth $36",
+    "Karl-Anthony Towns: projected $44, worth $10",
+    "Giannis Antetokounmpo: projected $41, worth $9",
+    "Brook Lopez: projected $7, worth $38",
+    "Miles Bridges: projected $28, worth $0",
+    "Shai Gilgeous-Alexander: projected $25, worth $52",
+    "Trey Murphy III: projected $0, worth $25",
+    "LaMelo Ball: projected $38, worth $13",
+    "Lonzo Ball: projected $24, worth $0",
+    "Khris Middleton: projected $26, worth $2"
+   ]
+  },
+  {
+   "target": 2024,
+   "variant": "model",
+   "n": 223,
+   "spearman": 0.621,
+   "maeDollars": 6.69,
+   "top50StayedTop75": 0.84,
+   "wastedShare": 0.099,
+   "unprojectedValue": 159,
+   "unprojected": [
+    "Victor Wembanyama $45",
+    "Chet Holmgren $36",
+    "Miles Bridges $18",
+    "Brandon Miller $11",
+    "Paul Reed $8",
+    "Dereck Lively II $7",
+    "Amen Thompson $7",
+    "Vince Williams Jr. $5"
+   ],
+   "biggestMisses": [
+    "Joel Embiid: projected $54, worth $33",
+    "LaMelo Ball: projected $28, worth $7",
+    "Daniel Gafford: projected $7, worth $27",
+    "Zach LaVine: projected $22, worth $3",
+    "Robert Williams: projected $19, worth $0",
+    "Anthony Davis: projected $38, worth $57",
+    "Jalen Johnson: projected $0, worth $18",
+    "Ja Morant: projected $18, worth $0",
+    "Isaiah Hartenstein: projected $2, worth $19",
+    "Mitchell Robinson: projected $17, worth $0"
+   ]
+  },
+  {
+   "target": 2025,
+   "variant": "model",
+   "n": 220,
+   "spearman": 0.678,
+   "maeDollars": 7.1,
+   "top50StayedTop75": 0.84,
+   "wastedShare": 0.075,
+   "unprojectedValue": 27,
+   "unprojected": [
+    "Kel'el Ware $6",
+    "Zach Edey $6",
+    "Alex Sarr $3",
+    "Lonzo Ball $2",
+    "Guerschon Yabusele $2",
+    "Marcus Bagley $2",
+    "N'Faly Dante $1",
+    "Jared McCain $1"
+   ],
+   "biggestMisses": [
+    "Joel Embiid: projected $49, worth $8",
+    "Dyson Daniels: projected $0, worth $40",
+    "Chet Holmgren: projected $39, worth $11",
+    "Christian Braun: projected $0, worth $25",
+    "Lauri Markkanen: projected $34, worth $10",
+    "Karl-Anthony Towns: projected $20, worth $43",
+    "Kawhi Leonard: projected $40, worth $17",
+    "Josh Hart: projected $11, worth $32",
+    "Ivica Zubac: projected $11, worth $31",
+    "Fred VanVleet: projected $36, worth $17"
+   ]
+  },
+  {
    "target": 2026,
    "variant": "model",
    "n": 238,
-   "spearman": 0.489,
-   "maeDollars": 9.24,
-   "top50StayedTop75": 0.68,
+   "spearman": 0.502,
+   "maeDollars": 8.89,
+   "top50StayedTop75": 0.7,
    "wastedShare": 0.159,
-   "unprojectedValue": 162,
+   "unprojectedValue": 163,
    "unprojected": [
     "Cooper Flagg $26",
     "VJ Edgecombe $22",
@@ -101,16 +218,16 @@
     "Sandro Mamukelashvili $5"
    ],
    "biggestMisses": [
-    "Kawhi Leonard: projected $16, worth $65",
-    "Tyrese Haliburton: projected $47, worth $0",
+    "Tyrese Haliburton: projected $46, worth $0",
+    "Kawhi Leonard: projected $26, worth $65",
     "Nickeil Alexander-Walker: projected $0, worth $38",
-    "Tyrese Maxey: projected $33, worth $68",
-    "Damian Lillard: projected $30, worth $0",
+    "Tyrese Maxey: projected $35, worth $68",
+    "Kyrie Irving: projected $31, worth $0",
+    "Anthony Davis: projected $43, worth $13",
     "Donovan Clingan: projected $3, worth $33",
-    "Scottie Barnes: projected $22, worth $51",
+    "Damian Lillard: projected $29, worth $0",
     "Jayson Tatum: projected $39, worth $10",
-    "Domantas Sabonis: projected $32, worth $4",
-    "Kyrie Irving: projected $27, worth $0"
+    "Domantas Sabonis: projected $32, worth $4"
    ]
   }
  ]
