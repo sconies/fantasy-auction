@@ -19,7 +19,7 @@ let S = blank();
 try { S = { ...S, ...JSON.parse(localStorage.getItem(KEY) || '{}') }; } catch {}
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch {} };
 
-let league, built, news, claudeAdj, evalData, qa, roles, tau, h2h;
+let league, built, news, claudeAdj, evalData, qa, roles, tau, h2h, jev, jevTest;
 let tab = 'ranks';
 let ranked = [], byId = new Map();
 
@@ -32,6 +32,8 @@ async function init() {
     loadJson('data/eval.json', null), loadJson('data/qa.json', null), loadJson('data/role-changes.json', { changes: [] }),
   ]);
   tau = (await loadJson('data/model/tau.json', null))?.tau ?? null;
+  jev = (await loadJson('data/jev/injuries.json', null))?.byName ?? {};
+  jevTest = await loadJson('data/jev/test-injuries.json', null);
   h2h = (await Promise.all([2026, 2025, 2024].map(y => loadJson(`data/eval-h2h-${y}-projected.json`, null)))).filter(Boolean);
   document.querySelectorAll('#tabs button').forEach(b => b.onclick = () => { tab = b.dataset.tab; render(); });
   $('#sheet').onclick = e => { if (e.target.id === 'sheet') closeSheet(); };
@@ -41,6 +43,10 @@ async function init() {
 const basePlayers = () => S.importedPlayers ?? built.players ?? [];
 
 // ---------- adjustments: news proposals + your own edits ----------
+// Injury proposals. ESPN's return date sizes the games missed; Jev's reading of the note (tested at
+// 95% on labelled notes, data/jev/test-injuries.json) checks it and covers notes without a date.
+const JEV_LABEL = { none: 'no regular-season games missed', uncertain: 'might miss the opener, no timeline', weeks: '1-6 weeks of the season', months: 'more than 6 weeks', season: 'the whole season', old: 'a note about an earlier season' };
+const ROUGH_GAMES = { weeks: 8, months: 30 }; // used only when a note has no return date
 function injuryProposals() {
   const idx = new Map(basePlayers().map(p => [normName(p.name), p]));
   const start = new Date(league.seasonStart), end = new Date(league.seasonEnd);
@@ -48,13 +54,28 @@ function injuryProposals() {
   const out = [];
   for (const i of news.injuries ?? []) {
     const p = idx.get(normName(i.name));
-    if (!p || !i.returnDate) continue;
-    const from = new Date(Math.max(Date.now(), start)), to = new Date(Math.min(new Date(i.returnDate), end));
-    const days = (to - from) / 864e5;
-    if (days <= 3) continue;
-    const missed = Math.round(82 * days / seasonDays);
-    out.push({ id: `inj:${p.id}:${i.returnDate}`, playerId: p.id, gamesDelta: -missed, source: 'ESPN injury report', date: i.date,
-      reason: `${i.status}${i.injury ? ` (${i.injury})` : ''}, expected back ${i.returnDate.slice(0, 10)}: about ${missed} games missed`, auto: true });
+    if (!p) continue;
+    const j = jev[i.name];
+    const jevText = j ? ` Jev reads the note as ${JEV_LABEL[j.choice] ?? j.choice}${j.confidence != null ? ` (${Math.round(j.confidence * 100)}% sure)` : ''}.` : '';
+    let missed = null;
+    if (i.returnDate) {
+      const from = new Date(Math.max(Date.now(), start)), to = new Date(Math.min(new Date(i.returnDate), end));
+      const days = (to - from) / 864e5;
+      if (days > 3) missed = Math.round(82 * days / seasonDays);
+    }
+    if (j?.choice === 'season') {
+      out.push({ id: `jev:${p.id}:season:${j.written}`, playerId: p.id, games: 0, source: 'Jev reading the injury note', date: i.date,
+        reason: `${i.status}: "${i.comment.slice(0, 140)}…" Jev reads this as out for the whole season (${Math.round((j.confidence ?? 0) * 100)}% sure).${missed != null ? ` ESPN's date implies only ${missed} games.` : ''}` });
+      continue;
+    }
+    if (missed != null) {
+      const stale = j?.choice === 'old' || j?.choice === 'none';
+      out.push({ id: `inj:${p.id}:${i.returnDate}`, playerId: p.id, gamesDelta: -missed, source: 'ESPN injury report', date: i.date, warn: stale,
+        reason: `${i.status}${i.injury ? ` (${i.injury})` : ''}, expected back ${i.returnDate.slice(0, 10)}: about ${missed} games missed.${jevText}${stale ? ' The note and the date disagree: check before accepting.' : ''}` });
+    } else if (j && ROUGH_GAMES[j.choice]) {
+      out.push({ id: `jev:${p.id}:${j.choice}:${j.written}`, playerId: p.id, gamesDelta: -ROUGH_GAMES[j.choice], source: 'Jev reading the injury note', date: i.date, warn: true,
+        reason: `${i.status}: "${i.comment.slice(0, 140)}…" No return date; Jev reads ${JEV_LABEL[j.choice]}. ${ROUGH_GAMES[j.choice]} games is a rough size: edit his games if you know better.` });
+    }
   }
   return out;
 }
@@ -231,7 +252,7 @@ function proposalHtml(a) {
     a.minutesMult && `minutes ×${a.minutesMult}`, a.minutes && `minutes → ${a.minutes}`, a.statMult && Object.entries(a.statMult).map(([k, m]) => `${k} ×${m}`).join(', ')].filter(Boolean).join(', ');
   return `<div class="news-item">
     <div><b>${esc(p?.name ?? a.name ?? a.playerId)}</b>: ${esc(change)} ${a.effect != null ? `<span class="${a.effect >= 0 ? 'up' : 'down'}">(${a.effect >= 0 ? '+' : ''}${money(a.effect)})</span>` : ''}</div>
-    <div class="muted">${esc(a.reason)}${a.source ? ` · ${esc(a.source)}` : ''}${a.date ? ` · ${esc(String(a.date).slice(0, 10))}` : ''}</div>
+    <div class="muted ${a.warn ? 'warn' : ''}">${esc(a.reason)}${a.source ? ` · ${esc(a.source)}` : ''}${a.date ? ` · ${esc(String(a.date).slice(0, 10))}` : ''}</div>
     <div class="row" style="margin-top:6px">
       ${d ? `<span class="muted">${d}</span><button class="ghost shrink" data-dec="${esc(a.id)}" data-v="">Undo</button>`
           : `<button class="btn shrink" data-dec="${esc(a.id)}" data-v="accepted">Accept</button><button class="ghost shrink" data-dec="${esc(a.id)}" data-v="rejected">Reject</button>`}
@@ -446,6 +467,7 @@ function qualityPanel() {
     <table><tr><th>Formula</th>${h2h.map(r => `<th class="num">${r.season - 1}-${String(r.season).slice(2)}</th>`).join('')}</tr>
       ${h2h[0].results.map((row, i) => `<tr><td>${esc(row.formula)}</td>${h2h.map(r => `<td class="num">${Math.round(r.results[i].matchupWinRate * 100)}%</td>`).join('')}</tr>`).join('')}</table>
     <div class="muted" style="margin-top:6px">Weeks won by one team drafting with each formula from preseason projections against 13 teams using plain z-scores, replaying the real season's weekly stats. 50% = no better.</div>` : ''}
+    ${jevTest ? `<h3>Jev reading injury notes</h3><div class="muted">${Math.round(jevTest.accuracyClear * 100)}% right on ${jevTest.perOption ? Object.values(jevTest.perOption).reduce((s, o) => s + o.examples, 0) : ''} hand-labelled notes (tested ${esc(jevTest.testedOn)}); it never said a player would miss games when the note said he wouldn't (${jevTest.missesGames.fp} false alarms, ${jevTest.missesGames.tp} of ${jevTest.missesGames.tp + jevTest.missesGames.fn} real absences caught). Its readings appear on injury proposals; nothing changes until you accept.</div>` : ''}
     <h3>Formula</h3>
     <div class="chips"><button class="chip ${S.formula !== 'z' ? 'on' : ''}" data-formula="g">G-scores (recommended)</button><button class="chip ${S.formula === 'z' ? 'on' : ''}" data-formula="z">Plain z-scores</button></div>
   </div>`;

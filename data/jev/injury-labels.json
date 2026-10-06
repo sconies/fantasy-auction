@@ -232,8 +232,9 @@
    "status": "Out",
    "date": "2026-02-09T21:43Z",
    "text": "Furphy was diagnosed with a torn right ACL on Monday and will miss the remainder of the season, Michael Scotto of USA Today reports.",
-   "label": "season",
-   "ambiguous": false
+   "label": "old",
+   "ambiguous": false,
+   "labelNote": "Relabelled after the Jev test: the note was written 9 Feb 2026, so \"the remainder of the season\" is 2025-26. Jev was right."
   },
   {
    "name": "Max Strus",

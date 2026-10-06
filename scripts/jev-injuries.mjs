@@ -72,6 +72,9 @@ if (argv.includes('--run')) {
   const answers = await pool(todo, i => ask({ note: i.comment, written: written(i.date) }));
   const notes = {};
   for (const i of news.injuries ?? []) { const h = hash(i); const k = todo.indexOf(i); notes[h] = k >= 0 ? { name: i.name, ...answers[k] } : prev[h]; }
-  writeFileSync(prevFile, JSON.stringify({ readAt: new Date().toISOString(), model: MODEL, notes }, null, 1) + '\n');
+  // byName: the reading of each player's current note, which is what the app looks up.
+  const byName = {};
+  for (const i of news.injuries ?? []) { const n = notes[hash(i)]; if (n?.choice) byName[i.name] = { choice: n.choice, confidence: n.confidence, written: written(i.date) }; }
+  writeFileSync(prevFile, JSON.stringify({ readAt: new Date().toISOString(), model: MODEL, notes, byName }, null, 1) + '\n');
   console.log(JSON.stringify({ jev: 'read', notes: Object.keys(notes).length, asked: todo.length }));
 }
