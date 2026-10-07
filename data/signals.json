@@ -1,10 +1,48 @@
 {
- "builtAt": "2026-10-07T09:35:53.546Z",
+ "builtAt": "2026-10-07T22:10:32.416Z",
  "counts": {
   "new": 3,
   "toJudge": 3
  },
  "signals": [
+  {
+   "id": "headline:af45de00a6e3",
+   "kind": "text",
+   "playerId": "6440",
+   "name": "Tobias Harris",
+   "team": "SAS",
+   "date": "2026-10-07T10:52:44Z",
+   "source": "headline",
+   "url": "https://www.espn.com/nba/story/_/id/50104825/spurs-tobias-harris-miss-preseason-left-calf-strain",
+   "text": "Spurs' Tobias Harris to miss preseason with left calf strain. Spurs free agent acquisition Tobias Harris sustained a calf strain during camp that has him questionable for the team's Oct. 20 season opener vs. OKC.",
+   "flags": {
+    "new_team": 0.88
+   },
+   "summary": "changed teams (traded, signed or claimed) since last season",
+   "judge": true,
+   "status": "handled",
+   "firstSeen": "2026-10-06",
+   "handledNote": "proposed 2026-10-06-harris-calf (-2 games)"
+  },
+  {
+   "id": "headline:a0c7058923af",
+   "kind": "text",
+   "playerId": "4065778",
+   "name": "Max Strus",
+   "team": "LAC",
+   "date": "2026-10-07T10:51:41Z",
+   "source": "headline",
+   "url": "https://www.espn.com/nba/story/_/id/50112557/sources-clippers-max-strus-foot-least-4-weeks",
+   "text": "Sources: Clippers' Max Strus (foot) out at least 4 weeks. Clippers wing Max Strus suffered a partial tear of the plantar fascia in his right foot and will be reevaluated in four weeks, league sources told ESPN.",
+   "flags": {
+    "absence": 0.95
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "handled",
+   "firstSeen": "2026-10-06",
+   "handledNote": "covered by the injury proposal (ESPN return date + Jev reading)"
+  },
   {
    "id": "injury:148968a312ab",
    "kind": "text",
@@ -1726,25 +1764,6 @@
    "handledNote": "skipped: depth-chart reorder, no reported role text; ESPN projection covers it"
   },
   {
-   "id": "headline:a0c7058923af",
-   "kind": "text",
-   "playerId": "4065778",
-   "name": "Max Strus",
-   "team": "LAC",
-   "date": "2026-10-05T22:41:42Z",
-   "source": "headline",
-   "url": "https://www.espn.com/nba/story/_/id/50112557/sources-clippers-max-strus-foot-least-4-weeks",
-   "text": "Sources: Clippers' Max Strus (foot) out at least 4 weeks. Clippers wing Max Strus suffered a partial tear of the plantar fascia in his right foot and will be reevaluated in four weeks, league sources told ESPN.",
-   "flags": {
-    "absence": 0.95
-   },
-   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
-   "judge": true,
-   "status": "handled",
-   "firstSeen": "2026-10-06",
-   "handledNote": "covered by the injury proposal (ESPN return date + Jev reading)"
-  },
-  {
    "id": "injury:ccd6e1d78acd",
    "kind": "text",
    "playerId": "3934673",
@@ -1860,25 +1879,6 @@
    "status": "handled",
    "firstSeen": "2026-10-06",
    "handledNote": "preseason rest, not injury; no change"
-  },
-  {
-   "id": "headline:af45de00a6e3",
-   "kind": "text",
-   "playerId": "6440",
-   "name": "Tobias Harris",
-   "team": "SAS",
-   "date": "2026-10-04T23:44:44Z",
-   "source": "headline",
-   "url": "https://www.espn.com/nba/story/_/id/50104825/spurs-tobias-harris-miss-preseason-left-calf-strain",
-   "text": "Spurs' Tobias Harris to miss preseason with left calf strain. Spurs free agent acquisition Tobias Harris sustained a calf strain during camp that has him questionable for the team's Oct. 20 season opener vs. OKC.",
-   "flags": {
-    "new_team": 0.88
-   },
-   "summary": "changed teams (traded, signed or claimed) since last season",
-   "judge": true,
-   "status": "handled",
-   "firstSeen": "2026-10-06",
-   "handledNote": "proposed 2026-10-06-harris-calf (-2 games)"
   },
   {
    "id": "injury:d3a80ee0a48d",

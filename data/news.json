@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-07T09:35:51.406Z",
+ "fetchedAt": "2026-10-07T22:10:30.887Z",
  "injuries": [
   {
    "name": "Aaron Wiggins",
@@ -149,8 +149,8 @@
    "name": "Morez Johnson Jr.",
    "team": "Dallas Mavericks",
    "status": "Day-To-Day",
-   "comment": "Head coach Dusty May said Wednesday that Johnson has been limited in training camp due to lower-leg soreness, Ron Harrod Jr. of DLLS Sports reports.",
-   "date": "2026-10-01T01:45Z",
+   "comment": "Johnson (lower leg) is expected to play in Friday's preseason opener against Houston, per Brad Townsend of The Dallas Morning News.",
+   "date": "2026-10-07T20:58Z",
    "returnDate": "2026-10-09",
    "injury": "Lower Leg – Soreness"
   },
@@ -185,8 +185,80 @@
    "name": "Jalen Duren",
    "team": "Detroit Pistons",
    "status": "Day-To-Day",
-   "comment": "Duren (rest) won't play in Monday's preseason game against the Suns, Hunter Patterson of The Athletic reports.",
-   "date": "2026-10-05T21:30Z",
+   "comment": "Duren (rest) is expected to play at some point this preseason, per Hunter Patterson of The Athletic.",
+   "date": "2026-10-07T18:57Z",
+   "returnDate": "2026-10-10",
+   "injury": "Rest"
+  },
+  {
+   "name": "Al Horford",
+   "team": "Golden State Warriors",
+   "status": "Day-To-Day",
+   "comment": "Horford (rest) is out for Wednesday's preseason game against Portland, per Tomer Azarly of ClutchPoints.com.",
+   "date": "2026-10-07T20:40Z",
+   "returnDate": "2026-10-10",
+   "injury": "Rest"
+  },
+  {
+   "name": "Gui Santos",
+   "team": "Golden State Warriors",
+   "status": "Day-To-Day",
+   "comment": "Santos (rest) won't travel with the Warriors for Wednesday's preseason game against the Trail Blazers, Dalton Johnson of NBC Sports Bay Area reports.",
+   "date": "2026-10-07T14:45Z",
+   "returnDate": "2026-10-10",
+   "injury": "Rest"
+  },
+  {
+   "name": "Brandin Podziemski",
+   "team": "Golden State Warriors",
+   "status": "Day-To-Day",
+   "comment": "Podziemski (rest) won't travel with the Warriors for Wednesday's preseason game against the Trail Blazers, Dalton Johnson of NBC Sports Bay Area reports.",
+   "date": "2026-10-07T14:43Z",
+   "returnDate": "2026-10-10",
+   "injury": "Rest"
+  },
+  {
+   "name": "Gary Payton II",
+   "team": "Golden State Warriors",
+   "status": "Day-To-Day",
+   "comment": "Payton (rest) is out for Wednesday's preseason game against the Trail Blazers, Dalton Johnson of NBC Sports Bay Area reports.",
+   "date": "2026-10-07T14:42Z",
+   "returnDate": "2026-10-10",
+   "injury": "Rest"
+  },
+  {
+   "name": "Georges Niang",
+   "team": "Golden State Warriors",
+   "status": "Day-To-Day",
+   "comment": "Niang (rest) won't travel with the Warriors for Wednesday's preseason game against Portland, Dalton Johnson of NBC Sports Bay Area reports.",
+   "date": "2026-10-07T14:40Z",
+   "returnDate": "2026-10-10",
+   "injury": "Rest"
+  },
+  {
+   "name": "De'Anthony Melton",
+   "team": "Golden State Warriors",
+   "status": "Day-To-Day",
+   "comment": "Melton (rest) won't travel with the Warriors for Wednesday's preseason game against the Trail Blazers, Dalton Johnson of NBC Sports Bay Area reports.",
+   "date": "2026-10-07T14:38Z",
+   "returnDate": "2026-10-10",
+   "injury": "Rest"
+  },
+  {
+   "name": "Yaxel Lendeborg",
+   "team": "Golden State Warriors",
+   "status": "Day-To-Day",
+   "comment": "Lendeborg (rest) is out for Wednesday's preseason game against the Trail Blazers, Anthony Slater of ESPN.com reports.",
+   "date": "2026-10-07T14:21Z",
+   "returnDate": "2026-10-10",
+   "injury": "Rest"
+  },
+  {
+   "name": "Stephen Curry",
+   "team": "Golden State Warriors",
+   "status": "Day-To-Day",
+   "comment": "Curry generated 16 points, 4-7 FG, 3-6 3Pt, 5-6 FT), five assists and two rebounds across 14 minutes in Tuesday's 124-98 preseason win over the Lakers.",
+   "date": "2026-10-07T13:20Z",
    "returnDate": "2026-10-10",
    "injury": "Rest"
   },
@@ -200,30 +272,12 @@
    "injury": "Rest"
   },
   {
-   "name": "Al Horford",
-   "team": "Golden State Warriors",
-   "status": "Day-To-Day",
-   "comment": "Horford will come off the bench for Tuesday's preseason game against the Lakers and he will not travel to Portland for Wednesday's exhibition, Anthony Slater of ESPN.com reports.",
-   "date": "2026-10-07T04:47Z",
-   "returnDate": "2026-10-10",
-   "injury": "Rest"
-  },
-  {
-   "name": "Stephen Curry",
-   "team": "Golden State Warriors",
-   "status": "Day-To-Day",
-   "comment": "Curry will be limited to \"around 20 minutes\" in Tuesday's preseason game against the Lakers, Anthony Slater of ESPN.com reports.",
-   "date": "2026-10-07T04:47Z",
-   "returnDate": "2026-10-10",
-   "injury": "Rest"
-  },
-  {
    "name": "Kristaps Porzingis",
    "team": "Golden State Warriors",
    "status": "Day-To-Day",
    "comment": "Porzingis (undisclosed) remains out indefinitely, per Anthony Slater of ESPN.com.",
    "date": "2026-10-06T20:04Z",
-   "returnDate": "2026-10-13",
+   "returnDate": "2026-10-21",
    "injury": "Undisclosed"
   },
   {
@@ -281,20 +335,11 @@
    "injury": "Knee – Surgery"
   },
   {
-   "name": "Max Strus",
-   "team": "LA Clippers",
-   "status": "Out",
-   "comment": "Strus has been diagnosed with a partially torn plantar fascia in his right foot and he will be re-evaluated in four weeks, Ohm Youngmisuk of ESPN.com reports.",
-   "date": "2026-10-05T22:21Z",
-   "returnDate": "2026-11-02",
-   "injury": "Foot"
-  },
-  {
    "name": "Kobe Sanders",
    "team": "LA Clippers",
    "status": "Day-To-Day",
-   "comment": "Sanders won't play in Sunday's preseason game against the Warriors due to a left hip impingement, Joey Linn of SI.com reports.",
-   "date": "2026-10-03T20:11Z",
+   "comment": "Sanders (hip) was limited to individual player development work and did not take part in five-on-five activity Wednesday, Tomer Azarly of ClutchPoints.com reports. Azarly adds that the Clippers said Sanders is day-to-day.",
+   "date": "2026-10-07T20:42Z",
    "returnDate": "2026-10-10",
    "injury": "Hip"
   },
@@ -302,10 +347,19 @@
    "name": "Bradley Beal",
    "team": "LA Clippers",
    "status": "Day-To-Day",
-   "comment": "Beal (knee) will miss the start of training camp, Law Murray of The Athletic reports.",
-   "date": "2026-09-28T18:12Z",
+   "comment": "Beal (knee) isn't participating in five-on-five work and is doing individual player development work, Tomer Azarly of ClutchPoints.com reports. Azarly adds that the Clippers said Wednesday that Beal is continuing to have inflammation managed.",
+   "date": "2026-10-07T20:35Z",
    "returnDate": "2026-10-10",
    "injury": "Knee – Inflammation"
+  },
+  {
+   "name": "Max Strus",
+   "team": "LA Clippers",
+   "status": "Out",
+   "comment": "Strus has been diagnosed with a partially torn plantar fascia in his right foot and he will be re-evaluated in four weeks, Ohm Youngmisuk of ESPN.com reports.",
+   "date": "2026-10-05T22:21Z",
+   "returnDate": "2026-11-02",
+   "injury": "Foot"
   },
   {
    "name": "Yanic Konan Niederhauser",
@@ -428,10 +482,28 @@
    "name": "Keshad Johnson",
    "team": "Miami Heat",
    "status": "Out",
-   "comment": "Johnson will be sidelined a few weeks with a right hamstring strain, Anthony Chiang of the Miami Herald reports.",
-   "date": "2026-10-02T17:05Z",
+   "comment": "Johnson (hamstring) is practicing in a limited fashion, per Ira Winderman of the South Florida Sun Sentinel.",
+   "date": "2026-10-07T18:04Z",
    "returnDate": "2026-10-26",
    "injury": "Hamstring"
+  },
+  {
+   "name": "Pelle Larsson",
+   "team": "Miami Heat",
+   "status": "Day-To-Day",
+   "comment": "Larsson didn't practice Wednesday due to an illness, Ira Winderman of the South Florida Sun Sentinel reports.",
+   "date": "2026-10-07T18:01Z",
+   "returnDate": "2026-10-08",
+   "injury": "Illness"
+  },
+  {
+   "name": "Andrew Wiggins",
+   "team": "Miami Heat",
+   "status": "Day-To-Day",
+   "comment": "Wiggins is dealing with an illness, per Ira Winderman of the South Florida Sun Sentinel.",
+   "date": "2026-10-07T18:01Z",
+   "returnDate": "2026-10-08",
+   "injury": "Illness"
   },
   {
    "name": "Dru Smith",
@@ -587,6 +659,33 @@
    "injury": "Ankle – Surgery"
   },
   {
+   "name": "Dominick Barlow",
+   "team": "Philadelphia 76ers",
+   "status": "Day-To-Day",
+   "comment": "Barlow (back) isn't expected to play in either of Philadelphia's next two preseason games against Brooklyn and Boston, Dave McMenamin of ESPN.com reports.",
+   "date": "2026-10-07T17:04Z",
+   "returnDate": "2026-10-16",
+   "injury": "Back"
+  },
+  {
+   "name": "Anfernee Simons",
+   "team": "Philadelphia 76ers",
+   "status": "Day-To-Day",
+   "comment": "Simons (right hamstring) isn't expected to play in either of Philadelphia's next two preseason games against Brooklyn and Boston, Dave McMenamin of ESPN reports.",
+   "date": "2026-10-07T17:00Z",
+   "returnDate": "2026-10-16",
+   "injury": "Undisclosed"
+  },
+  {
+   "name": "Adem Bona",
+   "team": "Philadelphia 76ers",
+   "status": "Day-To-Day",
+   "comment": "Bona (left foot) isn't expected to play in either of Philadelphia's next two preseason games against Brooklyn and Boston, Dave McMenamin of ESPN.com reports.",
+   "date": "2026-10-07T16:56Z",
+   "returnDate": "2026-10-16",
+   "injury": "Foot – Sprain"
+  },
+  {
    "name": "Ariel Hukporti",
    "team": "Philadelphia 76ers",
    "status": "Out",
@@ -594,33 +693,6 @@
    "date": "2026-10-06T19:17Z",
    "returnDate": "2027-10-01",
    "injury": "Achilles – Ruptured"
-  },
-  {
-   "name": "Anfernee Simons",
-   "team": "Philadelphia 76ers",
-   "status": "Day-To-Day",
-   "comment": "Simons (rest) won't play in Monday's preseason game against the Knicks, Chris Hine of The Minnesota Star Tribune reports.",
-   "date": "2026-10-05T17:59Z",
-   "returnDate": "2026-10-08",
-   "injury": "Undisclosed"
-  },
-  {
-   "name": "Dominick Barlow",
-   "team": "Philadelphia 76ers",
-   "status": "Day-To-Day",
-   "comment": "Barlow will be rested for Monday's preseason game against the Knicks, Chris Hine of The Minnesota Star Tribune reports.",
-   "date": "2026-10-05T17:56Z",
-   "returnDate": "2026-10-08",
-   "injury": "Back"
-  },
-  {
-   "name": "Adem Bona",
-   "team": "Philadelphia 76ers",
-   "status": "Day-To-Day",
-   "comment": "Bona (foot) will not play in Monday's preseason opener against New York, Chris Hine of The Minnesota Star Tribune reports.",
-   "date": "2026-10-05T17:54Z",
-   "returnDate": "2026-10-08",
-   "injury": "Foot – Sprain"
   },
   {
    "name": "Tyrese Maxey",
@@ -841,6 +913,53 @@
  ],
  "articles": [
   {
+   "headline": "Trail Blazers' Dundon says he intends to bring title to Portland",
+   "description": "New Trail Blazers owner Tom Dundon told season-ticket holders he intends to bring a championship to Portland.",
+   "published": "2026-10-07T21:59:02Z",
+   "url": "https://www.espn.com/nba/story/_/id/50127764/trail-blazers-dundon-says-intends-bring-title-portland",
+   "athletes": []
+  },
+  {
+   "headline": "Why Danny Green doesn't see Kyrie Irving staying in Dallas the entire season",
+   "description": "Why Danny Green doesn't see Kyrie Irving staying in Dallas the entire season",
+   "published": "2026-10-07T20:06:02Z",
+   "url": "https://www.espn.com/video/clip/_/id/50127157/why-danny-green-see-kyrie-irving-staying-dallas-entire-season",
+   "athletes": [
+    "Kyrie Irving"
+   ]
+  },
+  {
+   "headline": "Mike Breen apologizes after LeBron James refutes Embiid story",
+   "description": "Broadcaster Mike Breen apologized Wednesday for the reaction to a story he shared about LeBron James calling out Joel Embiid for showing up late, a story James has since disputed.",
+   "published": "2026-10-07T20:58:30Z",
+   "url": "https://www.espn.com/nba/story/_/id/50127138/mike-breen-apologizes-lebron-james-refutes-embiid-story",
+   "athletes": [
+    "LeBron James",
+    "Joel Embiid"
+   ]
+  },
+  {
+   "headline": "NBA preseason buzz: Latest on trades, news and intel",
+   "description": "The NBA regular season is just a few weeks away, and we're tracking all the news, deals, and trades across the league.",
+   "published": "2026-10-07T14:55:46Z",
+   "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+   "athletes": []
+  },
+  {
+   "headline": "United grind out much needed win",
+   "description": "Melbourne United survive a late surge from the Adelaide 36ers in their 96-91 win on the road in the NBL Ignite Cup.",
+   "published": "2026-10-07T11:06:36Z",
+   "url": "https://www.espn.com/video/clip/_/id/50124074/united-grind-much-needed-win",
+   "athletes": []
+  },
+  {
+   "headline": "Basketball Power Index: NBA projections, playoff chances for 2026-27 season",
+   "description": "ESPN's Basketball Power Index projections for the 2026-27 NBA season are out, including a ranking of all 30 teams.",
+   "published": "2026-10-07T14:18:28Z",
+   "url": "https://www.espn.com/nba/story/_/id/50111217/nba-season-projections-2026-27-bpi",
+   "athletes": []
+  },
+  {
    "headline": "Los Angeles Lakers vs. Golden State Warriors: Game Highlights",
    "description": "Los Angeles Lakers vs. Golden State Warriors: Game Highlights",
    "published": "2026-10-07T04:43:54Z",
@@ -908,23 +1027,16 @@
   {
    "headline": "Haliburton buys Iowa St. students tickets for Pacers game",
    "description": "Tyrese Haliburton purchased tickets for the student section at his alma mater Iowa State for the Pacers' first preseason game Wednesday.",
-   "published": "2026-10-07T02:30:33Z",
+   "published": "2026-10-07T10:50:12Z",
    "url": "https://www.espn.com/nba/story/_/id/50121039/haliburton-buys-iowa-st-students-tickets-pacers-game",
    "athletes": [
     "Tyrese Haliburton"
    ]
   },
   {
-   "headline": "NBA preseason buzz: Latest on trades, news and intel",
-   "description": "The NBA regular season is just a few weeks away, and we're tracking all the news, deals, and trades across the league.",
-   "published": "2026-10-06T20:24:58Z",
-   "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-   "athletes": []
-  },
-  {
    "headline": "76ers lose backup center Ariel Hukporti to torn Achilles",
    "description": "The 76ers' thin frontcourt took a big blow Tuesday after an MRI confirmed backup center Ariel Hukporti suffered a torn right Achilles.",
-   "published": "2026-10-06T19:47:05Z",
+   "published": "2026-10-07T10:50:34Z",
    "url": "https://www.espn.com/nba/story/_/id/50118908/76ers-lose-backup-center-ariel-hukporti-torn-achilles",
    "athletes": [
     "Ariel Hukporti"
@@ -1058,7 +1170,7 @@
   {
    "headline": "Sources: Clippers' Max Strus (foot) out at least 4 weeks",
    "description": "Clippers wing Max Strus suffered a partial tear of the plantar fascia in his right foot and will be reevaluated in four weeks, league sources told ESPN.",
-   "published": "2026-10-05T22:41:42Z",
+   "published": "2026-10-07T10:51:41Z",
    "url": "https://www.espn.com/nba/story/_/id/50112557/sources-clippers-max-strus-foot-least-4-weeks",
    "athletes": [
     "Max Strus"
@@ -1083,7 +1195,7 @@
   {
    "headline": "Hornets guard Coby White to sit preseason after calf strain",
    "description": "Hornets guard Coby White suffered a left calf strain during training camp and will miss the remainder of preseason, the team announced Monday.",
-   "published": "2026-10-05T21:23:55Z",
+   "published": "2026-10-07T10:52:11Z",
    "url": "https://www.espn.com/nba/story/_/id/50111860/hornets-guard-coby-white-sit-preseason-calf-strain",
    "athletes": [
     "Coby White"
@@ -1177,7 +1289,7 @@
   {
    "headline": "Spurs' Tobias Harris to miss preseason with left calf strain",
    "description": "Spurs free agent acquisition Tobias Harris sustained a calf strain during camp that has him questionable for the team's Oct. 20 season opener vs. OKC.",
-   "published": "2026-10-04T23:44:44Z",
+   "published": "2026-10-07T10:52:44Z",
    "url": "https://www.espn.com/nba/story/_/id/50104825/spurs-tobias-harris-miss-preseason-left-calf-strain",
    "athletes": [
     "Tobias Harris"
@@ -1320,52 +1432,6 @@
    "url": "https://www.espn.com/nba/story/_/id/50081576/jalen-duren-accepts-5-year-200m-deal-pistons-agent-says",
    "athletes": [
     "Jalen Duren"
-   ]
-  },
-  {
-   "headline": "76ers envision LeBron James' role being 'offense creator'",
-   "description": "Sixers coach Nick Nurse envisions LeBron James setting the table for the offense this season. \"I consider him a great offense creator,\" Nurse said.",
-   "published": "2026-10-02T02:31:59Z",
-   "url": "https://www.espn.com/nba/story/_/id/50079853/76ers-envision-lebron-james-role-being-offense-creator",
-   "athletes": [
-    "LeBron James"
-   ]
-  },
-  {
-   "headline": "'I need to win': Embiid talks 76ers' upcoming season with LeBron in the fold",
-   "description": "'I need to win': Embiid talks 76ers' upcoming season with LeBron in the fold",
-   "published": "2026-10-01T20:55:21Z",
-   "url": "https://www.espn.com/video/clip/_/id/50079209/embiid-talks-76ers-upcoming-season-lebron-fold",
-   "athletes": [
-    "Joel Embiid",
-    "LeBron James"
-   ]
-  },
-  {
-   "headline": "Victor Wembanyama has no interest in promoting betting sites",
-   "description": "Victor Wembanyama has no interest in promoting betting sites",
-   "published": "2026-10-01T19:44:26Z",
-   "url": "https://www.espn.com/video/clip/_/id/50078590/victor-wembanyama-no-interest-promoting-betting-sites",
-   "athletes": [
-    "Victor Wembanyama"
-   ]
-  },
-  {
-   "headline": "Spurs' Victor Wembanyama not interested in promoting betting sites",
-   "description": "Spurs star Victor Wembanyama said Thursday that he isn't interested in promoting sports betting sites.",
-   "published": "2026-10-01T19:50:57Z",
-   "url": "https://www.espn.com/nba/story/_/id/50078401/spurs-victor-wembanyama-not-interested-promoting-betting-sites",
-   "athletes": [
-    "Victor Wembanyama"
-   ]
-  },
-  {
-   "headline": "Jamal Shead, Raptors reach 3-year, $24M extension through 2029-30",
-   "description": "Raptors guard Jamal Shead has agreed to a three-year, $24 million contract extension with the franchise, his agent, KJ Smith, told ESPN.",
-   "published": "2026-10-01T14:55:04Z",
-   "url": "https://www.espn.com/nba/story/_/id/50076974/jamal-shead-raptors-reach-3-year-24m-extension-2029-30",
-   "athletes": [
-    "Jamal Shead"
    ]
   }
  ]
