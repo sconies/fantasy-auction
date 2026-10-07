@@ -20,8 +20,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-06"
+   "status": "handled",
+   "firstSeen": "2026-10-06",
+   "handledNote": "skipped: injury absence covered by automatic injury proposal"
   },
   {
    "id": "outlook:93085015339d",
@@ -1588,8 +1589,9 @@
    "date": "2026-10-06",
    "summary": "Depth chart SF #1 → SF #2",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-06"
+   "status": "handled",
+   "firstSeen": "2026-10-06",
+   "handledNote": "skipped: depth-chart reorder, no reported role text; ESPN projection covers it"
   },
   {
    "id": "depth:4592691:2026-10-06:PF #2",
@@ -1600,8 +1602,9 @@
    "date": "2026-10-06",
    "summary": "Depth chart PF #1 → PF #2",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-06"
+   "status": "handled",
+   "firstSeen": "2026-10-06",
+   "handledNote": "skipped: depth-chart reorder, no reported role text; ESPN projection covers it"
   },
   {
    "id": "depth:5254165:2026-10-06:SG #1",
@@ -1612,8 +1615,9 @@
    "date": "2026-10-06",
    "summary": "Depth chart SG #2 → SG #1",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-06"
+   "status": "handled",
+   "firstSeen": "2026-10-06",
+   "handledNote": "skipped: depth-chart reorder, no reported role text; ESPN projection covers it"
   },
   {
    "id": "depth:6580:2026-10-06:SG #2",
@@ -1636,8 +1640,9 @@
    "date": "2026-10-06",
    "summary": "Depth chart SG #1 → PF #3",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-06"
+   "status": "handled",
+   "firstSeen": "2026-10-06",
+   "handledNote": "skipped: depth-chart reorder, no reported role text; ESPN projection covers it"
   },
   {
    "id": "depth:5112087:2026-10-06:SF #1",
@@ -1648,8 +1653,9 @@
    "date": "2026-10-06",
    "summary": "Depth chart SF #2 → SF #1",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-06"
+   "status": "handled",
+   "firstSeen": "2026-10-06",
+   "handledNote": "skipped: depth-chart reorder, no reported role text; ESPN projection covers it"
   },
   {
    "id": "depth:3907498:2026-10-06:PF #1",
@@ -1660,8 +1666,9 @@
    "date": "2026-10-06",
    "summary": "Depth chart SF #3 → PF #1",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-06"
+   "status": "handled",
+   "firstSeen": "2026-10-06",
+   "handledNote": "skipped: depth-chart reorder, no reported role text; ESPN projection covers it"
   },
   {
    "id": "headline:a0c7058923af",
