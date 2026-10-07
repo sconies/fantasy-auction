@@ -3,19 +3,21 @@
 A phone-first draft companion for **YUL to YYZ to SEA to SFO**: a 14-team Yahoo
 head-to-head 9-category league with a $200 live auction (18–19 Oct 2026).
 
-- **Ranks**: every player's auction value from projections, plus your own
-  ±$ adjustment, Target/Avoid tags, games and minutes edits, and notes. Tap a
-  category to punt it and every value is recalculated.
-- **News**: injuries and headlines. Injuries with a return date become
-  proposed "games missed" changes. A Claude job (`jobs/news.md`) proposes role
-  and minutes changes. You accept or reject each one, and values recalculate.
-- **Draft**: type the nominated player and the app gives you a bid ceiling
-  (your value × live inflation, capped at your max bid), shows how many teams
-  can outbid you, and how well the player fits your categories. Log each sale
-  in two taps. It also tracks every team's money, open spots and max bid, the
-  best players left, and players worth nominating to drain budgets.
-- **Setup**: team names, market prices (paste Yahoo's average cost), pasted
-  projections, and backup/restore.
+The app is organised around getting ready for the auction:
+
+- **Prep**: days to the draft, a four-step checklist with progress, and what the Yahoo room is likely
+  to get wrong (players to let others overpay for, bargains to target).
+- **Board**: your price for every player, with what Yahoo drafters usually pay next to it (green is
+  a bargain, red is pricey). Tap a player to move his price with − / +, tag him Target or Avoid, see
+  why he's priced that way, and adjust his games or minutes.
+- **Yahoo**: the list to copy into Yahoo's pre-draft values: Yahoo's default crossed out, your value
+  beside it, biggest changes first. Tick each one off; a price that changes after you entered it comes
+  back to re-enter.
+- **News**: changes waiting for your OK, each with what it does to the price. Applying an absence
+  also gives teammates their measured share of his minutes.
+- **Draft**: on the night, type the nominated player to see your bid limit (adjusted for the money
+  left in the room), then record the sale.
+- **⚙ Settings**: team names, market prices, backup, and *How the numbers work*.
 
 ## How good are the values?
 

@@ -21,7 +21,7 @@ try { S = { ...S, ...JSON.parse(localStorage.getItem(KEY) || '{}') }; } catch {}
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch {} };
 
 let league, built, news, claudeAdj, evalData, qa, roles, tau, h2h, jev, jevTest, cascade, flagEval, flagTest, signals, newsRun, riskModel;
-let tab = 'ranks';
+let tab = ['prep', 'board', 'yahoo', 'news', 'draft'].includes(S.tab) ? S.tab : 'prep';
 let lastCascade = new Map();
 let ranked = [], byId = new Map();
 
@@ -43,8 +43,10 @@ async function init() {
   newsRun = await loadJson('data/news-run.json', null);
   riskModel = await loadJson('data/model/risk.json', null);
   h2h = (await Promise.all([2026, 2025, 2024].map(y => loadJson(`data/eval-h2h-${y}-projected.json`, null)))).filter(Boolean);
-  document.querySelectorAll('#tabs button').forEach(b => b.onclick = () => { tab = b.dataset.tab; render(); });
+  document.querySelectorAll('#tabs button').forEach(b => b.onclick = () => go(b.dataset.tab));
+  $('#settingsBtn').onclick = openSettings;
   $('#sheet').onclick = e => { if (e.target.id === 'sheet') closeSheet(); };
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeSheet(); });
   recompute(); render();
 }
 
@@ -152,302 +154,7 @@ const marketOf = p => S.market[normName(p.name)] ?? scaledMarket.get(p.id) ?? un
 const injuryOf = p => (news.injuries ?? []).find(i => normName(i.name) === normName(p.name));
 const dstate = () => draftState(ranked, S.draft.picks, { league, teamCount: S.draft.teams.length, priceOf: mine });
 
-// ---------- shared bits ----------
-function catChips(p, punt = S.punt) {
-  return `<div class="cats">${CATS.map(c => {
-    const z = p.z?.[c] ?? 0;
-    return `<span class="cat ${punt.includes(c) ? 'x' : z > 0.4 ? 'p' : z < -0.4 ? 'n' : ''}">${CAT_LABEL[c]} ${z > 0 ? '+' : ''}${z.toFixed(1)}</span>`;
-  }).join('')}</div>`;
-}
-const depthLabel = p => (p.depth ? (p.depth.starter ? `Starter ${p.depth.pos}` : `${p.depth.pos} #${p.depth.rank}`) : 'No depth slot');
-function tags(p) {
-  const o = ov(p.id), inj = injuryOf(p);
-  return `${o.tag ? `<span class="tag ${o.tag}">${o.tag === 'target' ? 'TARGET' : 'AVOID'}</span>` : ''}${inj ? `<span class="tag inj">${esc(inj.status)}</span>` : p.injury ? `<span class="tag inj">${esc(p.injury)}</span>` : ''}${p.flags?.length ? `<span class="tag flag" title="${esc(p.flags.join(' '))}">⚑</span>` : ''}`;
-}
-function playerRow(p, { right, drafted } = {}) {
-  return `<div class="player ${drafted ? 'drafted' : ''}" data-open="${esc(p.id)}">
-    <div class="rk">#${p.rank}</div>
-    <div class="nm">${esc(p.name)}${tags(p)}</div>
-    <div class="money">${right ?? defaultMoney(p)}</div>
-    <div class="sub">${esc(p.team ?? '')} · ${esc((p.pos ?? []).join(','))} · ${esc(depthLabel(p))} · ${p.projG}g · ${(p.min ?? 0).toFixed(0)}m</div>
-    ${catChips(p)}
-  </div>`;
-}
-function defaultMoney(p) {
-  const m = mine(p), mk = marketOf(p);
-  const d = m - p.dollars;
-  return `<div class="big">${money(m)}</div><div class="small">${p.risk && m > 0 ? `${money(Math.max(0, m + p.risk.low))}–${money(m + p.risk.high)} ` : ''}${d ? `model ${money(p.dollars)} ` : ''}${mk != null ? `mkt ${money(mk)}` : ''}</div>`;
-}
-const bindOpen = root => root.querySelectorAll('[data-open]').forEach(el => el.onclick = () => openPlayer(el.dataset.open));
-
-// ---------- ranks ----------
-function renderRanks() {
-  const f = S.filters;
-  const drafted = new Set(S.draft.picks.map(p => p.playerId));
-  let list = [...ranked].sort((a, b) => mine(b) - mine(a) || b.value - a.value);
-  if (f.q) list = list.filter(p => normName(p.name).includes(normName(f.q)));
-  if (f.pos !== 'All') list = list.filter(p => (p.pos ?? []).includes(f.pos));
-  if (f.show === 'target') list = list.filter(p => ov(p.id).tag === 'target');
-  if (f.show === 'avoid') list = list.filter(p => ov(p.id).tag === 'avoid');
-  if (f.show === 'open') list = list.filter(p => !drafted.has(p.id));
-  if (f.show === 'edited') list = list.filter(p => Object.keys(ov(p.id)).length);
-  if (f.show === 'flagged') list = list.filter(p => p.flags?.length);
-  list = list.slice(0, 260);
-
-  let html = `<div class="panel">
-    <div class="row"><input id="q" placeholder="Search players" value="${esc(f.q)}">
-      <select id="pos" class="shrink" style="width:auto">${['All', 'PG', 'SG', 'SF', 'PF', 'C'].map(x => `<option ${x === f.pos ? 'selected' : ''}>${x}</option>`).join('')}</select></div>
-    <div class="chips" style="margin-top:8px">${[['all', 'All'], ['open', 'Undrafted'], ['target', 'Targets'], ['avoid', 'Avoid'], ['edited', 'Edited'], ['flagged', '⚑ Check']].map(([k, l]) => `<button class="chip ${f.show === k ? 'on' : ''}" data-show="${k}">${l}</button>`).join('')}</div>
-    <h3>Punt (click a category to ignore it)</h3>
-    <div class="chips">${CATS.map(c => `<button class="chip ${S.punt.includes(c) ? 'punt' : ''}" data-punt="${c}">${CAT_LABEL[c]}</button>`).join('')}</div>
-  </div>`;
-  if (!ranked.length) html += `<div class="empty">No projections yet. The data job fills <code>data/players.json</code> on its first run, or paste stats under Setup.</div>`;
-  let lastTier = 0;
-  html += `<div class="list">${list.map(p => {
-    const t = tierOf(mine(p));
-    const head = t !== lastTier && !f.q ? `<div class="tier">Tier ${t}</div>` : '';
-    lastTier = t;
-    return head + playerRow(p, { drafted: drafted.has(p.id) });
-  }).join('')}</div>`;
-  $('#view').innerHTML = html;
-
-  $('#q').oninput = e => { f.q = e.target.value; save(); renderRanksKeepFocus(); };
-  $('#pos').onchange = e => { f.pos = e.target.value; save(); render(); };
-  document.querySelectorAll('[data-show]').forEach(b => b.onclick = () => { f.show = b.dataset.show; save(); render(); });
-  document.querySelectorAll('[data-punt]').forEach(b => b.onclick = () => {
-    const c = b.dataset.punt;
-    S.punt = S.punt.includes(c) ? S.punt.filter(x => x !== c) : [...S.punt, c];
-    save(); recompute(); render();
-  });
-  bindOpen($('#view'));
-}
-function renderRanksKeepFocus() {
-  const pos = $('#q').selectionStart;
-  renderRanks();
-  const q = $('#q'); q.focus(); q.setSelectionRange(pos, pos);
-}
-
-// ---------- player sheet ----------
-function openPlayer(id) {
-  const p = byId.get(id);
-  if (!p) return;
-  const o = ov(id), base = basePlayers().find(x => x.id === id) ?? {};
-  const props = allProposals().filter(a => a.playerId === id);
-  const inj = injuryOf(p);
-  const heads = (news.articles ?? []).filter(a => a.athletes?.some(n => normName(n) === normName(p.name)) || normName(a.headline).includes(normName(p.name)));
-  const line = k => (p[k] ?? 0).toFixed(1);
-  $('#sheetBody').innerHTML = `
-    <div class="row"><h2>${esc(p.name)} ${tags(p)}</h2><button class="ghost shrink" id="close">Close</button></div>
-    <div class="muted">${esc(p.team)} · ${esc((p.pos ?? []).join(', '))} · age ${p.age ?? '?'} · rank #${p.rank}</div>
-    <div class="stat" style="margin-top:10px">
-      <div><b>${money(mine(p))}</b><span>your value</span></div>
-      <div><b>${money(p.dollars)}</b><span>model</span></div>
-      <div><b>${marketOf(p) != null ? money(marketOf(p)) : '–'}</b><span>market${p.market && !S.market[normName(p.name)] ? ` (Yahoo avg $${Math.round(p.market)}${p.yahoo ? `, Yahoo rank #${p.yahoo.rank}` : ''})` : ''}</span></div>
-    </div>
-    <h3>Projection per game (${p.projG} games)</h3>
-    <div class="muted">${line('min')} min · ${line('pts')} pts · ${line('reb')} reb · ${line('ast')} ast · ${line('stl')} stl · ${line('blk')} blk · ${line('tpm')} 3pm · ${line('tov')} to ·
-      FG ${(100 * p.fgm / (p.fga || 1)).toFixed(1)}% on ${line('fga')} · FT ${(100 * p.ftm / (p.fta || 1)).toFixed(1)}% on ${line('fta')}</div>
-    ${base.hist ? `<div class="muted">Last season: ${Object.entries(base.hist).map(([y, h]) => `${h.team ?? ''} ${h.g}g ${(+h.min).toFixed(0)}m ${(+h.pts).toFixed(1)}p`).join(' · ')}</div>` : ''}
-    ${jevSection(p)}
-    <h3>Role and sources</h3>
-    <div class="muted">${esc(depthLabel(p))} on the ESPN depth chart · projection: ${esc({ blend: '75% ESPN + 25% stats model', espn: 'ESPN only', model: 'stats model only', manual: 'entered by hand' }[p.source] ?? '')}</div>
-    ${sourcesTable(p)}
-    ${lastCascade.get(id)?.length ? `<div class="muted up">${lastCascade.get(id).map(c => `+${c.extraMin.toFixed(1)} min a game over the season while ${esc(c.cascadeFrom)} is out (${c.missed} games)`).join('<br>')}</div>` : ''}
-    ${p.flags?.length ? `<div class="warn">${p.flags.map(f => `<div>⚑ ${esc(f)}</div>`).join('')}</div>` : ''}
-    ${p.notes?.length ? `<div class="muted">${p.notes.map(esc).join(' ')}</div>` : ''}
-    ${p.outlook ? `<details><summary class="muted">ESPN outlook</summary><div class="muted">${esc(p.outlook)}</div></details>` : ''}
-    ${catChips(p)}
-    <h3>Your judgement</h3>
-    <div class="row">
-      <div><label>$ up/down vs model</label><input id="o-d" type="number" step="1" value="${o.dollars ?? ''}" placeholder="0"></div>
-      <div><label>Tag</label><select id="o-t"><option value="">–</option><option value="target" ${o.tag === 'target' ? 'selected' : ''}>Target</option><option value="avoid" ${o.tag === 'avoid' ? 'selected' : ''}>Avoid</option></select></div>
-    </div>
-    <div class="row" style="margin-top:8px">
-      <div><label>Games (model ${base.projG ?? '?'})</label><input id="o-g" type="number" value="${o.games ?? ''}" placeholder="${base.projG ?? ''}"></div>
-      <div><label>Minutes × (role change)</label><input id="o-m" type="number" step="0.05" value="${o.minutesMult ?? ''}" placeholder="1.00"></div>
-    </div>
-    <div style="margin-top:8px"><label>Note</label><input id="o-n" value="${esc(o.note ?? '')}" placeholder="e.g. starting PF after the trade"></div>
-    <div class="row" style="margin-top:10px"><button class="btn" id="o-save">Save</button><button class="danger shrink" id="o-clear">Clear</button></div>
-    ${inj ? `<h3>Injury</h3><div>${esc(inj.status)}: ${esc(inj.comment)}</div>` : ''}
-    ${props.length ? `<h3>Proposed changes</h3>${props.map(proposalHtml).join('')}` : ''}
-    ${heads.length ? `<h3>Headlines</h3>${heads.slice(0, 6).map(a => `<div class="news-item"><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.headline)}</a><div class="muted">${esc(a.published?.slice(0, 10))}</div></div>`).join('')}` : ''}
-  `;
-  $('#sheet').hidden = false;
-  $('#close').onclick = closeSheet;
-  $('#o-save').onclick = () => {
-    const v = { dollars: $('#o-d').value, tag: $('#o-t').value, games: $('#o-g').value, minutesMult: $('#o-m').value, note: $('#o-n').value.trim() };
-    const clean = Object.fromEntries(Object.entries(v).filter(([, x]) => x !== '' && x != null));
-    if (Object.keys(clean).length) S.overrides[id] = clean; else delete S.overrides[id];
-    save(); recompute(); closeSheet(); render();
-  };
-  $('#o-clear').onclick = () => { delete S.overrides[id]; save(); recompute(); closeSheet(); render(); };
-  bindDecisions($('#sheetBody'), () => openPlayer(id));
-}
-const flagLabel = k => (FLAGS[k]?.q ?? k).replace(/^(says|describes|highlights|mentions) (that )?(the player('s)? )?/, '').replace(/^the player /, '');
-function jevSection(p) {
-  const flags = Object.entries(p.jevFlags ?? {}).sort((a, b) => b[1] - a[1]);
-  const e = p.flagEffect;
-  const moved = e && Object.entries(e).filter(([, v]) => Math.abs(v) >= (v === e.games ? 1 : 0.05));
-  const tier = p.risk && riskModel?.tiers.find(t => t.name === p.risk.tier);
-  if (!flags.length && !moved?.length && !tier) return '';
-  return `<h3>What the news says</h3>
-    ${flags.length ? `<div class="chips">${flags.map(([k, v]) => `<span class="chip" title="${esc(FLAGS[k]?.q ?? '')}">${esc(flagLabel(k))} · ${Math.round(v * 100)}%</span>`).join('')}</div>` : '<div class="muted">Jev found nothing notable in his news.</div>'}
-    ${moved?.length ? `<div class="muted" style="margin-top:6px">${flagEval?.decision?.useFlags ? 'Effect of his news on the projection (fitted on four past seasons)' : 'Correction for ESPN’s usual over-projection (about 1.3 minutes a game, four seasons)'}: ${moved.map(([k, v]) => `${k === 'games' ? 'games' : k} ${v > 0 ? '+' : ''}${k === 'games' ? v : v.toFixed(2)}`).join(', ')}</div>` : ''}
-    ${tier ? `<div class="muted" style="margin-top:6px">${tier.name === 'all' ? 'Uncertainty' : esc(tier.label)}: in past seasons 8 in 10 ${tier.name === 'all' ? 'drafted players' : 'players like this'} finished between ${money(tier.low)} and +${money(tier.high)} of their projection.</div>` : ''}`;
-}
-function sourcesTable(p) {
-  const rows = [['ESPN', p.sources?.espn], ['Stats model', p.sources?.model], ['FantasyPros', p.sources?.fp]].filter(([, v]) => v);
-  if (!rows.length) return '';
-  return `<table style="margin-top:6px"><tr><th>Source</th><th class="num">G</th><th class="num">Min</th><th class="num">Pts</th><th class="num">Reb</th><th class="num">Ast</th></tr>
-    ${rows.map(([n, v]) => `<tr><td>${n}</td><td class="num">${v.g}</td><td class="num">${(+v.min).toFixed(1)}</td><td class="num">${(+v.pts).toFixed(1)}</td><td class="num">${(+v.reb).toFixed(1)}</td><td class="num">${(+v.ast).toFixed(1)}</td></tr>`).join('')}
-    <tr><td><b>Used</b></td><td class="num"><b>${p.projG}</b></td><td class="num"><b>${p.min.toFixed(1)}</b></td><td class="num"><b>${p.pts.toFixed(1)}</b></td><td class="num"><b>${p.reb.toFixed(1)}</b></td><td class="num"><b>${p.ast.toFixed(1)}</b></td></tr></table>`;
-}
-function closeSheet() { $('#sheet').hidden = true; }
-
-// ---------- news & proposals ----------
-function proposalHtml(a) {
-  const p = byId.get(a.playerId);
-  const d = S.decisions[a.id];
-  const change = [a.games != null && `games → ${a.games}`, a.gamesDelta && `games ${a.gamesDelta > 0 ? '+' : ''}${a.gamesDelta}`,
-    a.minutesMult && `minutes ×${a.minutesMult}`, a.minutes && `minutes → ${a.minutes}`, a.statMult && Object.entries(a.statMult).map(([k, m]) => `${k} ×${m}`).join(', ')].filter(Boolean).join(', ');
-  return `<div class="news-item">
-    <div><b>${esc(p?.name ?? a.name ?? a.playerId)}</b>: ${esc(change)} ${a.effect != null ? `<span class="${a.effect >= 0 ? 'up' : 'down'}">(${a.effect >= 0 ? '+' : ''}${money(a.effect)})</span>` : ''}</div>
-    <div class="muted ${a.warn ? 'warn' : ''}">${esc(a.reason)}${a.source ? ` · ${esc(a.source)}` : ''}${a.date ? ` · ${esc(String(a.date).slice(0, 10))}` : ''}</div>
-    <div class="row" style="margin-top:6px">
-      ${d ? `<span class="muted">${d}</span><button class="ghost shrink" data-dec="${esc(a.id)}" data-v="">Undo</button>`
-          : `<button class="btn shrink" data-dec="${esc(a.id)}" data-v="accepted">Accept</button><button class="ghost shrink" data-dec="${esc(a.id)}" data-v="rejected">Reject</button>`}
-    </div></div>`;
-}
-function bindDecisions(root, after) {
-  root.querySelectorAll('[data-dec]').forEach(b => b.onclick = e => {
-    e.stopPropagation();
-    if (b.dataset.v) S.decisions[b.dataset.dec] = b.dataset.v; else delete S.decisions[b.dataset.dec];
-    save(); recompute(); after ? after() : render();
-  });
-}
-function pendingProposals() { return allProposals().filter(a => !S.decisions[a.id] && byId.has(a.playerId)); }
-
-function renderNews() {
-  const props = allProposals().filter(a => byId.has(a.playerId));
-  // Show what each pending change would do to the player's dollars before you accept it.
-  const pending = props.filter(a => !S.decisions[a.id]);
-  if (pending.length <= 40) for (const a of pending) {
-    const was = byId.get(a.playerId)?.dollars ?? 0;
-    S.decisions[a.id] = 'accepted';
-    const trial = valuesWith(allProposals());
-    delete S.decisions[a.id];
-    a.effect = (trial.find(p => p.id === a.playerId)?.dollars ?? 0) - was;
-  }
-  const decided = props.filter(a => S.decisions[a.id]);
-  const inj = (news.injuries ?? []).filter(i => basePlayers().some(p => normName(p.name) === normName(i.name)));
-  $('#view').innerHTML = `
-    ${newsCheckPanel()}
-    <div class="panel"><h2>Proposed changes (${pending.length})</h2>
-      <div class="muted">From the injury report (games missed until the expected return) and from the news job. Accepting changes the player's games or minutes, and every value is recalculated.</div>
-      ${pending.map(proposalHtml).join('') || '<div class="empty">Nothing waiting.</div>'}</div>
-    ${decided.length ? `<div class="panel"><h2>Decided</h2>${decided.map(proposalHtml).join('')}</div>` : ''}
-    <div class="panel"><h2>Depth chart moves (${(roles.changes ?? []).length})</h2><div class="muted">Each data refresh compares ESPN depth charts with the last one. A move doesn't change a value by itself: open the player and adjust minutes if you believe it.</div>
-      ${[...(roles.changes ?? [])].reverse().slice(0, 40).filter(c => byId.has(c.playerId)).map(c => `<div class="news-item" data-open="${esc(c.playerId)}"><b>${esc(c.name)}</b> ${esc(c.team)}: ${esc(c.from)} → <span class="${c.promoted ? 'up' : 'down'}">${esc(c.to)}</span><div class="muted">${esc(c.date)} · projected ${(+c.projectedMin).toFixed(0)} min</div></div>`).join('') || '<div class="empty">No moves since tracking started.</div>'}</div>
-    <div class="panel"><h2>Injuries (${inj.length})</h2><div class="muted">ESPN, fetched ${esc(news.fetchedAt?.slice(0, 16).replace('T', ' ') ?? 'never')}</div>
-      ${inj.map(i => { const p = basePlayers().find(x => normName(x.name) === normName(i.name)); return `<div class="news-item" data-open="${esc(p.id)}"><b>${esc(i.name)}</b> <span class="tag inj">${esc(i.status)}</span><div class="muted">${esc(i.comment)}</div></div>`; }).join('')}</div>
-    <div class="panel"><h2>Headlines</h2>${(news.articles ?? []).slice(0, 40).map(a => `<div class="news-item"><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.headline)}</a><div class="muted">${esc(a.published?.slice(0, 10))} · ${esc(a.description ?? '')}</div></div>`).join('') || '<div class="empty">No headlines yet.</div>'}</div>`;
-  bindDecisions($('#view'));
-  bindOpen($('#view'));
-}
-
-// ---------- draft room ----------
-function renderDraft() {
-  const D = S.draft, st = dstate();
-  const me = st.teams[D.me];
-  const myPlayers = me.players.map(id => byId.get(id)).filter(Boolean);
-  const cur = D.current && !st.drafted.has(D.current) ? byId.get(D.current) : null;
-  const options = st.board.slice(0, 400).map(p => `<option value="${esc(p.name)}">`).join('');
-
-  let up = '';
-  if (cur) {
-    const adj = st.adjusted(cur);
-    const ceiling = Math.min(Math.round(adj), me.maxBid);
-    const rivals = st.teams.map((t, i) => ({ ...t, i })).filter(t => t.i !== D.me && t.maxBid >= ceiling).length;
-    const fit = fitScore(cur, myPlayers, S.punt);
-    up = `<div class="panel">
-      <div class="row"><h2>${esc(cur.name)} ${tags(cur)}</h2><button class="ghost shrink" data-open="${esc(cur.id)}">Details</button></div>
-      <div class="muted">${esc(cur.team)} · ${esc(cur.pos.join(','))} · ${cur.projG}g</div>
-      <div class="row" style="margin-top:8px">
-        <div><div class="muted">Bid up to</div><div class="bid">${money(ceiling)}</div></div>
-        <div class="shrink muted" style="text-align:right">your ${money(mine(cur))} × inflation ${st.inflation.toFixed(2)}<br>model ${money(cur.dollars)}${marketOf(cur) != null ? ` · mkt ${money(marketOf(cur))}` : ''}<br>
-          fit ${fit >= 0 ? '+' : ''}${fit.toFixed(1)} · ${rivals} teams can go higher</div>
-      </div>
-      ${catChips(cur)}
-      <h3>Sold</h3>
-      <div class="row"><select id="d-team">${D.teams.map((t, i) => `<option value="${i}">${esc(t)}${i === D.me ? ' (me)' : ''} · max ${money(st.teams[i].maxBid)}</option>`).join('')}</select>
-        <input id="d-price" class="shrink" style="width:90px" type="number" min="1" inputmode="numeric" placeholder="$"><button class="btn shrink" id="d-sold">Sold</button></div>
-    </div>`;
-  }
-
-  const best = st.board.slice(0, 12);
-  // Players you don't want, or that the market prices above your value: someone else should pay for them.
-  const dump = st.board.filter(p => ov(p.id).tag !== 'target' && (ov(p.id).tag === 'avoid' || (marketOf(p) ?? 0) >= st.adjusted(p) + 3))
-    .sort((a, b) => (marketOf(b) ?? st.adjusted(b)) - (marketOf(a) ?? st.adjusted(a))).slice(0, 6);
-  const tot = categoryTotals(myPlayers);
-  const maxAbs = Math.max(3, ...CATS.map(c => Math.abs(tot[c])));
-
-  $('#view').innerHTML = `
-    <div class="panel">
-      <div class="stat">
-        <div><b>${st.inflation.toFixed(2)}×</b><span>inflation</span></div>
-        <div><b>${money(me.left)}</b><span>my $ · max ${money(me.maxBid)}</span></div>
-        <div><b>${me.slots}</b><span>my open spots</span></div>
-      </div>
-      <h3>Player up for bid</h3>
-      <div class="row"><input id="d-search" list="d-names" placeholder="Type the nominated player" autocomplete="off"><datalist id="d-names">${options}</datalist></div>
-    </div>
-    ${up}
-    <div class="panel"><h2>Best left (your $, inflated)</h2><div class="list">${best.map(p => playerRow(p, { right: `<div class="big">${money(st.adjusted(p))}</div><div class="small">${money(mine(p))}</div>` })).join('')}</div></div>
-    <div class="panel"><h2>Nominate these</h2><div class="muted">Players you've tagged Avoid, or that the market prices above your value. Nominate them early to drain other teams' budgets.</div>
-      <div class="list" style="margin-top:6px">${dump.map(p => playerRow(p, { right: `<div class="big">${money(st.adjusted(p))}</div>` })).join('') || '<div class="muted">Tag players Avoid, or import market prices in Setup, to see suggestions here.</div>'}</div></div>
-    <div class="panel"><h2>My team (${myPlayers.length}/${league.rosterSize})</h2>
-      ${myPlayers.map(p => `<div class="row"><span>${esc(p.name)} <span class="muted">${esc(p.pos.join(','))}</span></span><span class="shrink">${money(S.draft.picks.find(k => k.playerId === p.id).price)}</span></div>`).join('') || '<div class="muted">Nobody yet.</div>'}
-      <h3>Category totals</h3>
-      <div class="bars">${CATS.map(c => { const v = tot[c], w = Math.abs(v) / maxAbs * 50; return `<span>${CAT_LABEL[c]}</span><div class="bar"><i style="left:${v >= 0 ? 50 : 50 - w}%;width:${w}%;background:${v >= 0 ? 'var(--good)' : 'var(--bad)'}"></i></div><span class="num">${v.toFixed(1)}</span>`; }).join('')}</div>
-    </div>
-    <div class="panel"><h2>Teams</h2><table><tr><th>Team</th><th class="num">Left</th><th class="num">Spots</th><th class="num">Max bid</th></tr>
-      ${st.teams.map((t, i) => `<tr class="${i === D.me ? 'me' : ''}" data-team="${i}"><td>${esc(D.teams[i])}</td><td class="num">${money(t.left)}</td><td class="num">${t.slots}</td><td class="num">${money(t.maxBid)}</td></tr>`).join('')}</table>
-      <div class="muted" style="margin-top:6px">Money in the room ${money(st.money)} for ${st.slots} spots. Tap a team to see its roster.</div></div>
-    <div class="panel"><h2>Pick log (${D.picks.length})</h2>
-      <div class="row"><button class="ghost" id="d-undo" ${D.picks.length ? '' : 'disabled'}>Undo last</button><button class="ghost" id="d-csv">Copy CSV</button></div>
-      ${[...D.picks].reverse().slice(0, 30).map(k => `<div class="news-item">${esc(byId.get(k.playerId)?.name ?? k.playerId)} → ${esc(D.teams[k.team])} ${money(k.price)}</div>`).join('')}</div>`;
-
-  const search = $('#d-search');
-  search.onchange = () => {
-    const p = st.board.find(x => normName(x.name) === normName(search.value));
-    if (p) { D.current = p.id; save(); render(); }
-  };
-  if (cur) {
-    $('#d-sold').onclick = () => {
-      const price = Math.round(+$('#d-price').value), team = +$('#d-team').value;
-      if (!(price >= 1)) return alert('Enter the winning bid');
-      if (price > st.teams[team].maxBid) return alert(`${D.teams[team]} can bid at most ${money(st.teams[team].maxBid)}`);
-      D.picks.push({ playerId: cur.id, team, price, at: Date.now() });
-      D.current = null; save(); render();
-    };
-  }
-  $('#d-undo').onclick = () => { D.picks.pop(); save(); render(); };
-  $('#d-csv').onclick = async () => {
-    const csv = ['player,team,price', ...D.picks.map(k => `"${byId.get(k.playerId)?.name ?? k.playerId}","${D.teams[k.team]}",${k.price}`)].join('\n');
-    try { await navigator.clipboard.writeText(csv); alert('Copied'); } catch { prompt('Copy:', csv); }
-  };
-  document.querySelectorAll('[data-team]').forEach(r => r.onclick = () => {
-    const i = +r.dataset.team, t = st.teams[i];
-    $('#sheetBody').innerHTML = `<div class="row"><h2>${esc(D.teams[i])}</h2><button class="ghost shrink" id="close">Close</button></div>
-      <div class="muted">${money(t.left)} left · ${t.slots} spots · max bid ${money(t.maxBid)}</div>
-      ${t.players.map(id => { const p = byId.get(id); return `<div class="news-item">${esc(p?.name)} <span class="muted">${esc(p?.pos?.join(','))}</span> · ${money(D.picks.find(k => k.playerId === id).price)}</div>`; }).join('')}
-      <h3>Category totals</h3>${catChips({ z: categoryTotals(t.players.map(id => byId.get(id)).filter(Boolean)) }, [])}`;
-    $('#sheet').hidden = false; $('#close').onclick = closeSheet;
-  });
-  bindOpen($('#view'));
-}
-
-// ---------- setup ----------
+// ---------- pasted projections ----------
 function parseCsv(text) {
   const rows = text.trim().split(/\r?\n/).map(l => { const out = []; let cur = '', q = false; for (const ch of l) { if (ch === '"') q = !q; else if ((ch === ',' || ch === '\t') && !q) { out.push(cur); cur = ''; } else cur += ch; } out.push(cur); return out.map(s => s.trim()); });
   return rows;
@@ -476,90 +183,531 @@ function importProjections(text) {
   return players;
 }
 
-function renderSettings() {
-  const D = S.draft;
+// ======================================================================================
+// Screens. Each one opens with what it's for and what to do; the journey is
+// Prep (what's next) → Board (set your prices) → Yahoo (copy them in) → News → Draft.
+// ======================================================================================
+const DRAFT_DATE = new Date('2026-10-18T19:00:00-04:00');
+const YAHOO_DEFAULT_COUNT = 150;
+const TITLES = {
+  prep: ['Prep', 'Get ready for the 18 Oct auction'],
+  board: ['Your board', 'Your price for every player'],
+  yahoo: ['Set values in Yahoo', 'Copy your prices into Yahoo'],
+  news: ['News', 'Changes that could move a price'],
+  draft: ['Live draft', 'For draft night'],
+};
+
+const toast = msg => { const t = $('#toast'); t.textContent = msg; t.hidden = false; clearTimeout(toast.t); toast.t = setTimeout(() => (t.hidden = true), 2200); };
+const daysToDraft = () => Math.ceil((DRAFT_DATE - Date.now()) / 864e5);
+const edited = p => Object.keys(ov(p.id)).length > 0;
+const drafted = () => new Set(S.draft.picks.map(p => p.playerId));
+
+// Deal: your price against what the Yahoo room is likely to pay (on this league's scale).
+function deal(p) {
+  const m = mine(p), mk = marketOf(p);
+  if (mk == null) return { kind: 'none', diff: 0, mk: null };
+  const diff = m - mk;
+  const kind = diff >= 4 && m >= 4 ? 'bargain' : diff <= -4 && mk >= 4 ? 'pricey' : 'fair';
+  return { kind, diff, mk };
+}
+function dealChip(p) {
+  const d = deal(p);
+  if (d.kind === 'none') return `<span class="deal fair">Yahoo $0–1</span>`;
+  return `<span class="deal ${d.kind}" title="${d.kind}">Yahoo ${money(d.mk)}</span>`;
+}
+// Best and worst categories in a few words, instead of nine chips.
+function strengths(p) {
+  const zs = CATS.filter(c => !S.punt.includes(c)).map(c => [c, p.z?.[c] ?? 0]).sort((a, b) => b[1] - a[1]);
+  const good = zs.filter(([, z]) => z >= 0.7).slice(0, 3).map(([c]) => CAT_LABEL[c]);
+  const weak = zs.filter(([, z]) => z <= -0.9).slice(-2).map(([c]) => CAT_LABEL[c]);
+  return [good.length ? `<span class="good">${good.join(' ')}</span>` : '', weak.length ? `<span class="weak">weak ${weak.join(' ')}</span>` : ''].filter(Boolean).join(' · ');
+}
+function pills(p) {
+  const o = ov(p.id), inj = injuryOf(p);
+  return `${o.tag === 'target' ? '<span class="pill target">TARGET</span>' : o.tag === 'avoid' ? '<span class="pill avoid">AVOID</span>' : ''}${inj ? `<span class="pill inj">${esc(shortStatus(inj.status))}</span>` : p.injury ? `<span class="pill inj">${esc(shortStatus(p.injury))}</span>` : ''}`;
+}
+const shortStatus = s => ({ 'Day-To-Day': 'DTD', DAY_TO_DAY: 'DTD', Out: 'OUT', OUT: 'OUT', Questionable: 'Q', QUESTIONABLE: 'Q', SUSPENSION: 'SUSP' }[s] ?? String(s).slice(0, 4).toUpperCase());
+
+function playerRow(p, { right, gone, rank } = {}) {
+  const meta = [esc(p.team ?? ''), esc((p.pos ?? []).join('/')), `${(p.min ?? 0).toFixed(0)} min`].filter(Boolean).join(' · ');
+  const s = strengths(p);
+  return `<button class="prow ${gone ? 'gone' : ''}" data-open="${esc(p.id)}">
+    <div class="rk">${rank ?? p.rank}</div>
+    <div class="who"><div class="nm">${esc(p.name)}${pills(p)}</div><div class="meta">${meta}${s ? ` · ${s}` : ''}</div></div>
+    <div class="px">${right ?? `<div class="price ${edited(p) && (+ov(p.id).dollars || 0) ? 'edited' : ''}">${money(mine(p))}</div>${dealChip(p)}`}</div>
+  </button>`;
+}
+const bindOpen = root => root.querySelectorAll('[data-open]').forEach(el => el.onclick = () => openPlayer(el.dataset.open));
+
+// ---------- Prep: what's next ----------
+function renderPrep() {
+  const top = boardOrder().slice(0, S.yahooCount ?? YAHOO_DEFAULT_COUNT);
+  const done = top.filter(p => yahooState(p) === 'done').length;
+  const nEdited = ranked.filter(edited).length, nTargets = ranked.filter(p => ov(p.id).tag === 'target').length;
+  const waiting = pendingProposals().length;
+  const teamsNamed = S.draft.teams.some(t => !/^Team \d+$/.test(t));
+  const days = daysToDraft();
+  const steps = [
+    { tab: 'board', t: 'Review your board', d: nEdited ? `${nEdited} prices adjusted · ${nTargets} targets tagged` : 'Change any price you disagree with and tag the players you want', done: nEdited >= 5 },
+    { tab: 'yahoo', t: 'Set your values in Yahoo', d: `${done} of ${top.length} entered`, done: done >= top.length, progress: done / top.length },
+    { tab: 'news', t: 'Check the news', d: waiting ? `${waiting} change${waiting > 1 ? 's' : ''} waiting for your OK` : 'Nothing waiting', done: !waiting },
+    { tab: 'settings', t: 'Set up draft night', d: teamsNamed ? 'Team names entered' : 'Enter the 14 team names so the app can track budgets', done: teamsNamed },
+  ];
+  const next = steps.findIndex(s => !s.done);
+  // What the Yahoo room is likely to get wrong, from your values against Yahoo's average prices.
+  const withMkt = ranked.filter(p => marketOf(p) != null);
+  const overpay = [...withMkt].filter(p => marketOf(p) - mine(p) >= 6).sort((a, b) => (marketOf(b) - mine(b)) - (marketOf(a) - mine(a))).slice(0, 5);
+  const bargains = [...withMkt].filter(p => mine(p) >= 8 && mine(p) - marketOf(p) >= 5).sort((a, b) => (mine(b) - marketOf(b)) - (mine(a) - marketOf(a))).slice(0, 6);
   $('#view').innerHTML = `
-    <div class="panel"><h2>League</h2><div class="muted">${esc(league.name)} · ${league.teams} teams · $${league.budget} · ${league.rosterSize} players (${esc(league.rosterPositions?.join(', '))}) · 9-cat head-to-head · ${esc(league.draft)}</div>
-      <div class="muted" style="margin-top:6px">Projections: ${S.importedPlayers ? `${S.importedPlayers.length} pasted players` : `${built.players?.length ?? 0} players built ${esc(built.builtAt?.slice(0, 10) ?? 'never')}`}</div></div>
-    ${qualityPanel()}
-    <div class="panel"><h2>Draft room</h2>
-      <label>Which team is you</label><select id="s-me">${D.teams.map((t, i) => `<option value="${i}" ${i === D.me ? 'selected' : ''}>${esc(t)}</option>`).join('')}</select>
-      <label style="margin-top:8px">Team names, one per line (order doesn't matter)</label><textarea id="s-teams">${esc(D.teams.join('\n'))}</textarea>
-      <div class="row" style="margin-top:8px"><button class="btn" id="s-save">Save teams</button><button class="danger shrink" id="s-reset">Reset draft</button></div></div>
-    <div class="panel"><h2>Market prices</h2><div class="muted">Paste "Name, $" lines, e.g. Yahoo's average auction cost from the pre-draft rankings. The gap between your value and the market is where bargains are.</div>
-      <textarea id="s-market" placeholder="Nikola Jokic, 68"></textarea><div class="row" style="margin-top:8px"><button class="btn" id="s-market-go">Import ${Object.keys(S.market).length ? `(${Object.keys(S.market).length} loaded)` : ''}</button><button class="danger shrink" id="s-market-clear">Clear</button></div></div>
-    <div class="panel"><h2>Paste projections</h2><div class="muted">Optional: a CSV with per-game columns (Player, Team, Pos, G, MP, FG, FGA, 3P, FT, FTA, TRB, AST, STL, BLK, TOV, PTS), e.g. Basketball Reference's "Get table as CSV" or a projections site. It replaces the built projections on this device.</div>
-      <textarea id="s-proj"></textarea><div class="row" style="margin-top:8px"><button class="btn" id="s-proj-go">Use these</button><button class="danger shrink" id="s-proj-clear">Back to built data</button></div></div>
-    <div class="panel"><h2>Backup</h2><div class="muted">Your ranks and draft live on this device. Copy them to move to another phone or laptop.</div>
-      <div class="row" style="margin-top:8px"><button class="ghost" id="s-export">Copy backup</button><button class="ghost" id="s-import">Restore backup</button></div></div>`;
+    <div class="card hero">
+      <div class="big">${days > 1 ? `${days} days` : days === 1 ? 'Tomorrow' : days === 0 ? 'Today' : 'Draft done'}</div>
+      <div class="meta">until the auction · 14 teams · $200 each · 9-cat head-to-head</div>
+    </div>
+    <div class="section-title">Your checklist</div>
+    <div class="steps">${steps.map((s, i) => `<button class="step ${s.done ? 'done' : ''} ${i === next ? 'next' : ''}" data-go="${s.tab}">
+      <div class="n">${s.done ? '✓' : i + 1}</div>
+      <div><div class="t">${s.t}</div><div class="d">${s.d}</div>${s.progress != null ? `<div class="progress"><i style="width:${Math.round(s.progress * 100)}%"></i></div>` : ''}</div>
+      <div class="go">›</div></button>`).join('')}</div>
+    ${overpay.length ? `<div class="section-title">Let others pay for these</div>
+    <div class="card"><div class="sub" style="margin-bottom:6px">The Yahoo room usually pays well over what they're worth in your 9-cat league. Nominate them early.</div>
+      ${overpay.map(p => `<div class="mini" data-open="${esc(p.id)}"><div class="nm">${esc(p.name)}</div><div class="r"><b class="down">Yahoo ~${money(marketOf(p))}</b></div><div class="muted">${esc(p.team)} · ${strengths(p) || esc((p.pos ?? []).join('/'))}</div><div class="r muted">yours ${money(mine(p))}</div></div>`).join('')}</div>` : ''}
+    ${bargains.length ? `<div class="section-title">Bargains to target</div>
+    <div class="card"><div class="sub" style="margin-bottom:6px">Worth more to you than the Yahoo room usually pays.</div>
+      ${bargains.map(p => `<div class="mini" data-open="${esc(p.id)}"><div class="nm">${esc(p.name)}</div><div class="r"><b class="up">yours ${money(mine(p))}</b></div><div class="muted">${esc(p.team)} · ${strengths(p) || esc((p.pos ?? []).join('/'))}</div><div class="r muted">Yahoo ~${money(marketOf(p))}</div></div>`).join('')}</div>` : ''}
+    <div class="muted" style="text-align:center;margin-top:16px">Data updated ${esc(when(built.builtAt))} · refreshes 1:30 pm and 11 pm ET</div>`;
+  document.querySelectorAll('[data-go]').forEach(b => b.onclick = () => (b.dataset.go === 'settings' ? openSettings() : go(b.dataset.go)));
+  bindOpen($('#view'));
+}
+const when = d => (d ? new Date(d).toLocaleString([], { weekday: 'short', hour: 'numeric', minute: '2-digit' }) : 'never');
+
+// ---------- Board: your prices ----------
+const boardOrder = () => [...ranked].sort((a, b) => mine(b) - mine(a) || b.value - a.value);
+const BOARD_VIEWS = [['all', 'All'], ['bargain', 'Bargains'], ['pricey', 'Pricey'], ['target', 'Targets'], ['avoid', 'Avoid'], ['edited', 'Changed'], ['open', 'Undrafted']];
+function renderBoard() {
+  const f = S.filters;
+  const gone = drafted();
+  const all = boardOrder();
+  const yourRank = new Map(all.map((p, i) => [p.id, i + 1]));
+  const match = {
+    all: () => true, bargain: p => deal(p).kind === 'bargain', pricey: p => deal(p).kind === 'pricey', target: p => ov(p.id).tag === 'target',
+    avoid: p => ov(p.id).tag === 'avoid', edited, open: p => !gone.has(p.id),
+  };
+  const counts = Object.fromEntries(BOARD_VIEWS.map(([k]) => [k, all.filter(match[k]).length]));
+  let list = all.filter(match[f.show] ?? match.all);
+  if (f.pos !== 'All') list = list.filter(p => (p.pos ?? []).includes(f.pos));
+  if (f.q) list = list.filter(p => normName(p.name).includes(normName(f.q)));
+  const shown = list.slice(0, f.q ? 60 : 250);
+  let lastTier = 0;
+  const tierRange = t => ({ 1: '$50+', 2: '$38–49', 3: '$27–37', 4: '$18–26', 5: '$10–17', 6: '$4–9', 7: '$1–3', 8: '$0' }[t]);
+  $('#view').innerHTML = `
+    <div class="filters">
+      <div class="row"><input class="grow" id="q" type="search" placeholder="Find a player" value="${esc(f.q)}" autocomplete="off">
+        <select id="pos" style="width:auto">${['All', 'PG', 'SG', 'SF', 'PF', 'C'].map(x => `<option ${x === f.pos ? 'selected' : ''}>${x === 'All' ? 'All pos' : x}</option>`).join('')}</select></div>
+      <div class="seg">${BOARD_VIEWS.filter(([k]) => k !== 'open' || S.draft.picks.length).map(([k, l]) => `<button class="chip ${f.show === k ? 'on' : ''}" data-show="${k}">${l}${k !== 'all' && counts[k] ? `<span class="ct">${counts[k]}</span>` : ''}</button>`).join('')}
+        <button class="chip" id="strategy">Strategy ▾</button></div>
+    </div>
+    <p class="intro">Big number: what he's worth to <b>your</b> team. Below it, what Yahoo drafters usually pay: <b class="up">green</b> means a bargain, <b class="down">red</b> means pricey. Tap a player to change his price.</p>
+    ${S.punt.length ? `<div class="notice"><span>Punting ${S.punt.map(c => CAT_LABEL[c]).join(', ')}: those categories don't count in prices.</span><button id="unpunt">Undo</button></div>` : ''}
+    ${!ranked.length ? '<div class="empty">No projections yet. The data refresh fills them in.</div>' : ''}
+    ${!shown.length && ranked.length ? '<div class="empty">No players match.</div>' : ''}
+    <div class="list">${shown.map(p => {
+      const t = tierOf(mine(p));
+      const head = t !== lastTier && !f.q && f.show === 'all' ? `<div class="tier"><span>Tier ${t}</span><span>${tierRange(t)}</span></div>` : '';
+      lastTier = t;
+      return head + playerRow(p, { gone: gone.has(p.id), rank: yourRank.get(p.id) });
+    }).join('')}</div>`;
+  $('#q').oninput = e => { f.q = e.target.value; save(); keepFocus(renderBoard, '#q'); };
+  $('#pos').onchange = e => { f.pos = e.target.value; save(); render(); };
+  document.querySelectorAll('[data-show]').forEach(b => b.onclick = () => { f.show = b.dataset.show; save(); render(); });
+  $('#strategy').onclick = openStrategy;
+  if ($('#unpunt')) $('#unpunt').onclick = () => { S.punt = []; save(); recompute(); render(); };
+  bindOpen($('#view'));
+}
+function keepFocus(fn, sel) { const el = $(sel), pos = el.selectionStart; fn(); const n = $(sel); n.focus(); n.setSelectionRange(pos, pos); }
+
+function openStrategy() {
+  sheet(`<div class="sheet-head"><div><h2>Strategy</h2><div class="muted">Change how every price is worked out</div></div><button class="close" data-close>✕</button></div>
+    <div class="section-title">Punt categories</div>
+    <div class="muted">Planning to give up a category every week (say FT% with Giannis)? Tap it and prices ignore it.</div>
+    <div class="seg" style="flex-wrap:wrap">${CATS.map(c => `<button class="chip ${S.punt.includes(c) ? 'punted' : ''}" data-punt="${c}">${CAT_LABEL[c]}</button>`).join('')}</div>
+    <div class="section-title">Pricing formula</div>
+    <div class="seg"><button class="chip ${S.formula !== 'z' ? 'on' : ''}" data-formula="g">Head-to-head (recommended)</button><button class="chip ${S.formula === 'z' ? 'on' : ''}" data-formula="z">Season totals</button></div>
+    <div class="muted" style="margin-top:8px">Head-to-head pricing won 61–66% of weeks against season-total pricing when replaying the last three seasons.</div>
+    <button class="btn block" style="margin-top:18px" data-close>Done</button>`);
+  document.querySelectorAll('[data-punt]').forEach(b => b.onclick = () => {
+    const c = b.dataset.punt;
+    S.punt = S.punt.includes(c) ? S.punt.filter(x => x !== c) : [...S.punt, c];
+    save(); recompute(); render(); openStrategy();
+  });
+  document.querySelectorAll('[data-formula]').forEach(b => b.onclick = () => { S.formula = b.dataset.formula; save(); recompute(); render(); openStrategy(); });
+}
+
+// ---------- Player sheet: change his price first, reasons below ----------
+function setOverride(id, patch) {
+  const o = { ...ov(id), ...patch };
+  for (const k of Object.keys(o)) if (o[k] === '' || o[k] == null || (k === 'dollars' && +o[k] === 0)) delete o[k];
+  if (Object.keys(o).length) S.overrides[id] = o; else delete S.overrides[id];
+  save(); recompute(); render();
+}
+function verdict(p) {
+  const d = deal(p);
+  if (d.kind === 'none') return 'Yahoo has no average price for him: he usually goes for $1 or undrafted.';
+  if (d.kind === 'bargain') return `The Yahoo room usually pays about <b>${money(d.mk)}</b>, ${money(d.diff)} less than he's worth to you. <b class="up">A bargain to target.</b>`;
+  if (d.kind === 'pricey') return `The Yahoo room usually pays about <b>${money(d.mk)}</b>, ${money(-d.diff)} more than he's worth to you. <b class="down">Let someone else overpay.</b>`;
+  return `The Yahoo room usually pays about <b>${money(d.mk)}</b>, close to your price.`;
+}
+function catBars(p) {
+  const max = Math.max(2.5, ...CATS.map(c => Math.abs(p.z?.[c] ?? 0)));
+  return `<div class="bars">${CATS.map(c => {
+    const z = p.z?.[c] ?? 0, w = (Math.abs(z) / max) * 50;
+    return `<span class="lab ${S.punt.includes(c) ? 'punted' : ''}">${CAT_LABEL[c]}</span><div class="bar"><i style="left:${z >= 0 ? 50 : 50 - w}%;width:${w}%;background:${z >= 0 ? 'var(--good)' : 'var(--bad)'}"></i></div><span class="v">${z > 0 ? '+' : ''}${z.toFixed(1)}</span>`;
+  }).join('')}</div>`;
+}
+function openPlayer(id) {
+  const p = byId.get(id);
+  if (!p) return;
+  const o = ov(id), base = basePlayers().find(x => x.id === id) ?? {};
+  const props = allProposals().filter(a => a.playerId === id && byId.has(a.playerId));
+  const inj = injuryOf(p);
+  const heads = (news.articles ?? []).filter(a => a.athletes?.some(n => normName(n) === normName(p.name)) || normName(a.headline).includes(normName(p.name)));
+  const line = k => (p[k] ?? 0).toFixed(1);
+  const cas = lastCascade.get(id) ?? [];
+  sheet(`
+    <div class="sheet-head"><div><h2>${esc(p.name)}${pills(p)}</h2><div class="muted">${esc(p.team)} · ${esc((p.pos ?? []).join('/'))} · ${p.age ? `age ${p.age} · ` : ''}${esc(depthLabel(p))}</div></div><button class="close" data-close aria-label="Close">✕</button></div>
+    <div class="card pricecard" style="margin-top:12px">
+      <div class="muted">Your price</div>
+      <div class="stepper"><button id="minus" aria-label="Lower by $1">−</button><div class="val">${money(mine(p))}</div><button id="plus" aria-label="Raise by $1">+</button></div>
+      <div class="muted">${+o.dollars ? `Model says ${money(p.dollars)} · you've moved it ${+o.dollars > 0 ? '+' : ''}${money(+o.dollars)} · <a href="#" id="resetPrice">reset</a>` : `Model price · #${p.rank} overall`}</div>
+      <div class="verdict">${verdict(p)}</div>
+      <div class="toggles"><button class="toggle target ${o.tag === 'target' ? 'on' : ''}" id="tTarget">★ Target</button><button class="toggle avoid ${o.tag === 'avoid' ? 'on' : ''}" id="tAvoid">✕ Avoid</button></div>
+    </div>
+    ${props.length ? `<div class="section-title">News waiting for you</div>${props.map(proposalCard).join('')}` : ''}
+    ${cas.length ? `<div class="muted up" style="margin:4px 2px 10px">${cas.map(c => `+${c.extraMin.toFixed(1)} min a game while ${esc(c.cascadeFrom)} is out`).join('<br>')}</div>` : ''}
+    <div class="section-title">Why this price</div>
+    <div class="card">
+      <div class="muted" style="margin-bottom:10px">Each bar is how much he helps (+) or hurts (−) you in that category, per game.</div>
+      ${catBars(p)}
+      <div class="kv"><div><b>${p.projG}</b><span>games</span></div><div><b>${line('min')}</b><span>minutes</span></div><div><b>${line('pts')}</b><span>points</span></div></div>
+      <div class="muted" style="margin-top:10px">${line('reb')} reb · ${line('ast')} ast · ${line('stl')} stl · ${line('blk')} blk · ${line('tpm')} 3pm · ${line('tov')} to · FG ${(100 * p.fgm / (p.fga || 1)).toFixed(1)}% · FT ${(100 * p.ftm / (p.fta || 1)).toFixed(1)}%</div>
+      ${p.risk ? `<div class="muted" style="margin-top:8px">Most players finish within ${money(p.risk.low)} / +${money(p.risk.high)} of their price.</div>` : ''}
+    </div>
+    ${inj || heads.length ? `<div class="section-title">Latest</div><div class="card">${inj ? `<div class="item"><span class="pill inj" style="margin:0 6px 0 0">${esc(shortStatus(inj.status))}</span>${esc(inj.comment)}</div>` : ''}${heads.slice(0, 4).map(a => `<div class="item"><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.headline)}</a><div class="muted">${esc(a.published?.slice(0, 10))}</div></div>`).join('')}</div>` : ''}
+    <details class="more"><summary>Adjust his projection</summary><div class="inner">
+      <div class="muted">For news the app hasn't caught. Values recalculate as you type.</div>
+      <div class="row"><div class="grow"><label>Games (now ${base.projG ?? '?'})</label><input id="o-g" type="number" inputmode="numeric" value="${o.games ?? ''}" placeholder="${base.projG ?? ''}"></div>
+        <div class="grow"><label>Minutes × (e.g. 1.15)</label><input id="o-m" type="number" step="0.05" inputmode="decimal" value="${o.minutesMult ?? ''}" placeholder="1.00"></div></div>
+      <label>Note to yourself</label><input id="o-n" value="${esc(o.note ?? '')}" placeholder="e.g. named the starter">
+    </div></details>
+    <details class="more"><summary>Where the numbers come from</summary><div class="inner">
+      ${sourcesTable(p)}
+      ${p.yahoo ? `<div class="muted" style="margin-top:8px">Yahoo: rank #${p.yahoo.rank}, average auction price $${p.yahoo.avg} in Yahoo leagues (mostly 10–12 teams), shown here on your league's scale. Yahoo's own projected value: $${p.yahoo.proj}.</div>` : ''}
+      ${Object.keys(p.jevFlags ?? {}).length ? `<div class="muted" style="margin-top:8px">News reading: ${Object.entries(p.jevFlags).sort((a, b) => b[1] - a[1]).map(([k, v]) => `${esc(flagLabel(k))} (${Math.round(v * 100)}%)`).join('; ')}.</div>` : ''}
+      ${p.flags?.length ? `<div class="muted warn-ink" style="margin-top:8px">${p.flags.map(esc).join('<br>')}</div>` : ''}
+      ${p.notes?.length ? `<div class="muted" style="margin-top:8px">${p.notes.map(esc).join(' ')}</div>` : ''}
+      ${p.outlook ? `<div class="muted" style="margin-top:8px"><b>ESPN outlook.</b> ${esc(p.outlook)}</div>` : ''}
+    </div></details>`);
+  const step = d => setOverride(id, { dollars: (+ov(id).dollars || 0) + d }) || openPlayer(id);
+  $('#minus').onclick = () => { if (mine(p) > 0) step(-1); };
+  $('#plus').onclick = () => step(1);
+  if ($('#resetPrice')) $('#resetPrice').onclick = e => { e.preventDefault(); setOverride(id, { dollars: '' }); openPlayer(id); };
+  $('#tTarget').onclick = () => { setOverride(id, { tag: o.tag === 'target' ? '' : 'target' }); openPlayer(id); };
+  $('#tAvoid').onclick = () => { setOverride(id, { tag: o.tag === 'avoid' ? '' : 'avoid' }); openPlayer(id); };
+  for (const [sel, k] of [['#o-g', 'games'], ['#o-m', 'minutesMult'], ['#o-n', 'note']]) $(sel).onchange = e => setOverride(id, { [k]: e.target.value.trim() });
+  bindDecisions($('#sheetBody'), () => openPlayer(id));
+}
+const flagLabel = k => (FLAGS[k]?.q ?? k).replace(/^(says|describes|highlights|mentions) (that )?(the player('s)? )?/, '').replace(/^the player /, '');
+const depthLabel = p => (p.depth ? (p.depth.starter ? `starter at ${p.depth.pos}` : `${p.depth.pos} depth #${p.depth.rank}`) : 'no depth chart slot');
+function sourcesTable(p) {
+  const rows = [['ESPN', p.sources?.espn], ['Stats model', p.sources?.model], ['FantasyPros', p.sources?.fp]].filter(([, v]) => v);
+  if (!rows.length) return '<div class="muted">Entered by hand.</div>';
+  return `<div class="muted" style="margin-bottom:6px">Projection: ${esc({ blend: '75% ESPN + 25% stats model', espn: 'ESPN only', model: 'stats model only', manual: 'entered by hand' }[p.source] ?? '')}</div>
+    <table><tr><th>Source</th><th class="num">G</th><th class="num">Min</th><th class="num">Pts</th><th class="num">Reb</th><th class="num">Ast</th></tr>
+    ${rows.map(([n, v]) => `<tr><td>${n}</td><td class="num">${v.g}</td><td class="num">${(+v.min).toFixed(1)}</td><td class="num">${(+v.pts).toFixed(1)}</td><td class="num">${(+v.reb).toFixed(1)}</td><td class="num">${(+v.ast).toFixed(1)}</td></tr>`).join('')}
+    <tr><td><b>Used</b></td><td class="num"><b>${p.projG}</b></td><td class="num"><b>${p.min.toFixed(1)}</b></td><td class="num"><b>${p.pts.toFixed(1)}</b></td><td class="num"><b>${p.reb.toFixed(1)}</b></td><td class="num"><b>${p.ast.toFixed(1)}</b></td></tr></table>`;
+}
+
+// ---------- Yahoo: copy your prices in ----------
+// A player is 'done' when you ticked him and his price hasn't moved since; 'stale' if it moved.
+function yahooState(p) {
+  const v = S.yahooDone?.[p.id];
+  if (v == null) return 'todo';
+  return Math.abs(v - Math.round(mine(p))) >= 1 ? 'stale' : 'done';
+}
+function renderYahoo() {
+  S.yahooDone ??= {};
+  const count = S.yahooCount ?? YAHOO_DEFAULT_COUNT;
+  const top = boardOrder().slice(0, count);
+  const yahooDefault = p => p.yahoo?.proj ?? 0; // outside Yahoo's top 150: about $0
+  const change = p => (yahooDefault(p) == null ? Infinity : Math.abs(Math.round(mine(p)) - yahooDefault(p)));
+  const sort = S.yahooSort ?? 'change';
+  const order = sort === 'change' ? [...top].sort((a, b) => change(b) - change(a)) : top;
+  const done = top.filter(p => yahooState(p) === 'done').length, stale = top.filter(p => yahooState(p) === 'stale').length;
+  const show = S.yahooShow ?? 'todo';
+  const rows = order.filter(p => show === 'all' || yahooState(p) !== 'done');
+  $('#view').innerHTML = `
+    <div class="card">
+      <h2>${done} of ${top.length} entered</h2>
+      <div class="progress"><i style="width:${Math.round((done / top.length) * 100)}%"></i></div>
+      ${stale ? `<div class="muted warn-ink" style="margin-top:8px">${stale} price${stale > 1 ? 's' : ''} changed since you entered ${stale > 1 ? 'them' : 'it'}: re-enter the new value.</div>` : ''}
+      <ol class="howto">
+        <li><span>Open Yahoo Fantasy → your league → <b>Draft</b> → <b>Pre-Draft Rankings</b> → Edit.</span></li>
+        <li><span>For each player below, change Yahoo's value <span class="muted">(crossed out)</span> to <b>your value</b>. Biggest changes are first.</span></li>
+        <li><span>Tick him off here. Your list is saved on this phone.</span></li>
+      </ol>
+      <div class="muted">Yahoo's values here come from its Draft Analysis page. If your league shows a different number, just enter yours. If Yahoo only lets you reorder, use "Your order".</div>
+    </div>
+    <div class="seg">
+      <button class="chip ${sort === 'change' ? 'on' : ''}" data-ysort="change">Biggest changes</button>
+      <button class="chip ${sort === 'order' ? 'on' : ''}" data-ysort="order">Your order</button>
+      <button class="chip ${show === 'all' ? 'on' : ''}" data-yshow="${show === 'all' ? 'todo' : 'all'}">${show === 'all' ? 'Hide entered' : 'Show entered'}</button>
+      <select id="ycount" style="width:auto;min-height:36px;padding:6px 10px">${[100, 150, 182].map(n => `<option value="${n}" ${n === count ? 'selected' : ''}>Top ${n}</option>`).join('')}</select>
+    </div>
+    <div class="list" style="margin-top:10px">${rows.map(p => {
+      const st = yahooState(p), y = yahooDefault(p), m = Math.round(mine(p));
+      const same = y != null && Math.abs(m - y) < 1;
+      return `<div class="yrow ${st}">
+        <button class="check" data-ytick="${esc(p.id)}" aria-label="${st === 'done' ? 'Untick' : 'Tick'} ${esc(p.name)}"><i></i></button>
+        <div class="who" data-open="${esc(p.id)}"><div class="nm" style="font-weight:650">${esc(p.name)}</div><div class="meta muted">#${top.indexOf(p) + 1} on your board · ${esc(p.team)} · ${esc((p.pos ?? []).join('/'))}${st === 'stale' ? ` · <span class="warn-ink">was ${money(S.yahooDone[p.id])}</span>` : ''}</div></div>
+        <div class="ychange">${same ? `<span class="to">${money(m)}</span><div class="muted small">same as Yahoo</div>` : `${y != null ? `<span class="from">$${y}</span>` : ''}<span class="to">${money(m)}</span>`}</div>
+      </div>`;
+    }).join('') || '<div class="empty">All entered. Nice. New price changes will reappear here.</div>'}</div>
+    <button class="btn secondary block" id="ycopy" style="margin-top:14px">Copy the list as text</button>`;
+  document.querySelectorAll('[data-ytick]').forEach(b => b.onclick = () => {
+    const id = b.dataset.ytick, p = byId.get(id);
+    if (yahooState(p) === 'done') delete S.yahooDone[id]; else S.yahooDone[id] = Math.round(mine(p));
+    save(); render();
+  });
+  document.querySelectorAll('[data-ysort]').forEach(b => b.onclick = () => { S.yahooSort = b.dataset.ysort; save(); render(); });
+  document.querySelectorAll('[data-yshow]').forEach(b => b.onclick = () => { S.yahooShow = b.dataset.yshow; save(); render(); });
+  $('#ycount').onchange = e => { S.yahooCount = +e.target.value; save(); render(); };
+  $('#ycopy').onclick = () => copyText(top.map((p, i) => `${i + 1}. ${p.name} $${Math.round(mine(p))}`).join('\n'), 'List copied');
+  bindOpen($('#view'));
+}
+async function copyText(t, msg) { try { await navigator.clipboard.writeText(t); toast(msg); } catch { prompt('Copy:', t); } }
+
+// ---------- News: decisions waiting for you ----------
+function describe(a) {
+  const parts = [];
+  if (a.games != null) parts.push(a.games === 0 ? 'Out for the season' : `Plays ${a.games} games`);
+  if (a.gamesDelta) parts.push(a.gamesDelta < 0 ? `Misses about ${-a.gamesDelta} games` : `Plays ${a.gamesDelta} more games`);
+  if (a.minutes) parts.push(`${a.minutes} minutes a game`);
+  if (a.minutesMult) parts.push(`${a.minutesMult > 1 ? 'More' : 'Fewer'} minutes (×${a.minutesMult})`);
+  if (a.statMult) parts.push(`Bigger role: ${Object.entries(a.statMult).map(([k, m]) => `${k} ×${m}`).join(', ')}`);
+  return parts.join(' · ');
+}
+function proposalCard(a) {
+  const p = byId.get(a.playerId), d = S.decisions[a.id];
+  const now = p ? mine(p) : 0;
+  const reason = String(a.reason ?? '').replace(/Jev reads[^.]*\.\s*/g, '').replace(/\s*The note and the date disagree: check before accepting\./, '');
+  return `<div class="ncard ${a.warn && !d ? 'warned' : ''}">
+    <div class="head"><span class="nm" data-open="${esc(a.playerId)}">${esc(p?.name ?? a.name ?? '')}</span>${a.effect != null && !d ? `<span class="effect ${a.effect >= 0 ? 'up' : 'down'}">${money(now)} → ${money(now + a.effect)}</span>` : ''}</div>
+    <div class="what">${esc(describe(a))}</div>
+    <div class="why">${esc(reason)}${a.warn ? ' <span class="warn-ink">The report and the note disagree: check before accepting.</span>' : ''}${a.date ? ` · ${esc(String(a.date).slice(0, 10))}` : ''}</div>
+    <div class="acts">${d ? `<span class="muted grow" style="flex:1;align-self:center">${d === 'accepted' ? '✓ Applied to his price' : 'Ignored'}</span><button class="btn quiet" data-dec="${esc(a.id)}" data-v="">Undo</button>`
+      : `<button class="btn" data-dec="${esc(a.id)}" data-v="accepted">Apply</button><button class="btn secondary" data-dec="${esc(a.id)}" data-v="rejected">Ignore</button>`}</div>
+  </div>`;
+}
+function bindDecisions(root, after) {
+  root.querySelectorAll('[data-dec]').forEach(b => b.onclick = e => {
+    e.stopPropagation();
+    if (b.dataset.v) S.decisions[b.dataset.dec] = b.dataset.v; else delete S.decisions[b.dataset.dec];
+    save(); recompute(); render(); if (after) after();
+  });
+  root.querySelectorAll('.ncard [data-open]').forEach(el => el.onclick = () => openPlayer(el.dataset.open));
+}
+function pendingProposals() { return allProposals().filter(a => !S.decisions[a.id] && byId.has(a.playerId)); }
+function renderNews() {
+  const props = allProposals().filter(a => byId.has(a.playerId));
+  const pending = props.filter(a => !S.decisions[a.id]);
+  // What each pending change would do to his price, before you apply it.
+  if (pending.length <= 40) for (const a of pending) {
+    const was = byId.get(a.playerId)?.dollars ?? 0;
+    S.decisions[a.id] = 'accepted';
+    const trial = valuesWith(allProposals());
+    delete S.decisions[a.id];
+    a.effect = (trial.find(p => p.id === a.playerId)?.dollars ?? 0) - was;
+  }
+  pending.sort((x, y) => Math.abs(y.effect ?? 0) - Math.abs(x.effect ?? 0));
+  const decided = props.filter(a => S.decisions[a.id]);
+  const moves = [...(roles.changes ?? [])].reverse().filter(c => byId.has(c.playerId)).slice(0, 25);
+  const inj = (news.injuries ?? []).map(i => [i, basePlayers().find(x => normName(x.name) === normName(i.name))]).filter(([, p]) => p && byId.get(p.id)?.rank <= 250);
+  $('#view').innerHTML = `
+    <p class="intro">News that changes how many games or minutes a player gets. <b>Apply</b> the ones you believe and his price updates; teammates who pick up his minutes update too.</p>
+    <div class="section-title">Waiting for you · ${pending.length}</div>
+    ${pending.map(proposalCard).join('') || '<div class="card empty">Nothing waiting. New news is checked twice a day.</div>'}
+    ${moves.length ? `<details class="more"><summary>Lineup changes · ${moves.length}</summary><div class="inner">${moves.map(c => `<div class="item" data-open="${esc(c.playerId)}"><b>${esc(c.name)}</b> <span class="muted">${esc(c.team)}</span><div class="muted">${esc(c.from)} → <span class="${c.promoted ? 'up' : 'down'}">${esc(c.to)}</span> · ${esc(c.date)}</div></div>`).join('')}<div class="muted" style="margin-top:6px">Moves on ESPN's depth charts. They don't change a price by themselves: open the player and adjust his minutes if you believe it.</div></div></details>` : ''}
+    ${inj.length ? `<details class="more"><summary>Injury report · ${inj.length}</summary><div class="inner">${inj.map(([i, p]) => `<div class="item" data-open="${esc(p.id)}"><b>${esc(i.name)}</b> <span class="pill inj">${esc(shortStatus(i.status))}</span><div class="muted">${esc(i.comment)}</div></div>`).join('')}</div></details>` : ''}
+    ${(news.articles ?? []).length ? `<details class="more"><summary>Headlines · ${Math.min(40, news.articles.length)}</summary><div class="inner">${news.articles.slice(0, 40).map(a => `<div class="item"><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.headline)}</a><div class="muted">${esc(a.published?.slice(0, 10))}</div></div>`).join('')}</div></details>` : ''}
+    ${decided.length ? `<details class="more"><summary>Already decided · ${decided.length}</summary><div class="inner">${decided.map(proposalCard).join('')}</div></details>` : ''}
+    <div class="muted" style="text-align:center;margin-top:12px">Checked ${esc(when(signals?.builtAt ?? news.fetchedAt))} · next at 1:30 pm or 11 pm ET</div>`;
+  bindDecisions($('#view'));
+  bindOpen($('#view'));
+}
+
+// ---------- Draft: live room ----------
+function renderDraft() {
+  const D = S.draft, st = dstate();
+  const me = st.teams[D.me];
+  const myPlayers = me.players.map(id => byId.get(id)).filter(Boolean);
+  const cur = D.current && !st.drafted.has(D.current) ? byId.get(D.current) : null;
+  const options = st.board.slice(0, 400).map(p => `<option value="${esc(p.name)}">`).join('');
+  const teamsNamed = D.teams.some(t => !/^Team \d+$/.test(t));
+  let up = '';
+  if (cur) {
+    const ceiling = Math.min(Math.round(st.adjusted(cur)), me.maxBid);
+    const rivals = st.teams.filter((t, i) => i !== D.me && t.maxBid >= ceiling).length;
+    up = `<div class="card bidcard">
+      <div class="row" style="justify-content:space-between"><b data-open="${esc(cur.id)}" style="font-size:18px">${esc(cur.name)}${pills(cur)}</b><button class="btn quiet" id="d-clear">Clear</button></div>
+      <div class="label" style="margin-top:6px">Bid up to</div>
+      <div class="bid">${money(ceiling)}</div>
+      <div class="muted">Your price ${money(mine(cur))}${Math.abs(st.inflation - 1) >= 0.02 ? `, ${st.inflation > 1 ? 'up' : 'down'} ${Math.round(Math.abs(st.inflation - 1) * 100)}% for money left in the room` : ''} · ${rivals} team${rivals === 1 ? '' : 's'} can go higher${marketOf(cur) != null ? ` · Yahoo ~${money(marketOf(cur))}` : ''}</div>
+      <div class="muted" style="margin-top:4px">${strengths(cur) || ''}</div>
+      <div class="section-title" style="text-align:left">Who won him?</div>
+      <div class="row"><select id="d-team" class="grow">${D.teams.map((t, i) => `<option value="${i}" ${i === D.me ? 'selected' : ''}>${esc(t)}${i === D.me ? ' (me)' : ''}</option>`).join('')}</select>
+        <input id="d-price" style="width:84px" type="number" min="1" inputmode="numeric" placeholder="$"></div>
+      <button class="btn block" id="d-sold" style="margin-top:8px">Record sale</button>
+    </div>`;
+  }
+  const best = st.board.slice(0, 10);
+  const dump = st.board.filter(p => ov(p.id).tag !== 'target' && (ov(p.id).tag === 'avoid' || (marketOf(p) ?? 0) >= st.adjusted(p) + 3))
+    .sort((a, b) => (marketOf(b) ?? st.adjusted(b)) - (marketOf(a) ?? st.adjusted(a))).slice(0, 5);
+  const tot = categoryTotals(myPlayers);
+  $('#view').innerHTML = `
+    <p class="intro">During the auction: type each <b>nominated player</b> to see your top bid, then record who won him and for how much.</p>
+    ${!teamsNamed ? `<div class="notice"><span>Add the 14 team names first so budgets are tracked.</span><button id="d-setup">Set up</button></div>` : ''}
+    <div class="statrow"><div><b>${money(me.left)}</b><span>my money</span></div><div><b>${money(me.maxBid)}</b><span>my max bid</span></div><div><b>${me.slots}</b><span>spots left</span></div></div>
+    <div class="card" style="margin-top:12px"><label style="margin-top:0">Player up for bid</label><input id="d-search" list="d-names" placeholder="Start typing a name" autocomplete="off"><datalist id="d-names">${options}</datalist></div>
+    ${up}
+    <div class="section-title">Best left for you</div>
+    <div class="list">${best.map(p => playerRow(p, { right: `<div class="price">${money(st.adjusted(p))}</div><div class="muted small">bid limit</div>` })).join('')}</div>
+    ${dump.length ? `<div class="section-title">Nominate these</div><div class="muted" style="margin:0 2px 8px">Others will overpay; nominating them drains their budgets.</div><div class="list">${dump.map(p => playerRow(p, { right: `<div class="price down">~${money(marketOf(p) ?? st.adjusted(p))}</div><div class="muted small">room price</div>` })).join('')}</div>` : ''}
+    <div class="section-title">My team · ${myPlayers.length}/${league.rosterSize}</div>
+    <div class="card">${myPlayers.map(p => `<div class="item row" data-open="${esc(p.id)}"><span class="grow">${esc(p.name)} <span class="muted">${esc(p.pos.join('/'))}</span></span><b>${money(D.picks.find(k => k.playerId === p.id).price)}</b></div>`).join('') || '<div class="muted">Nobody yet.</div>'}
+      ${myPlayers.length ? `<div class="section-title">Where my team stands</div>${catBars({ z: tot })}` : ''}</div>
+    <div class="section-title">Teams</div>
+    <div class="card"><table><tr><th>Team</th><th class="num">Money</th><th class="num">Spots</th><th class="num">Max bid</th></tr>
+      ${st.teams.map((t, i) => `<tr class="${i === D.me ? 'me' : ''}" data-team="${i}"><td>${esc(D.teams[i])}</td><td class="num">${money(t.left)}</td><td class="num">${t.slots}</td><td class="num">${money(t.maxBid)}</td></tr>`).join('')}</table>
+      <div class="muted" style="margin-top:6px">${money(st.money)} left in the room for ${st.slots} spots. Tap a team to see its roster.</div></div>
+    <div class="section-title">Sales · ${D.picks.length}</div>
+    <div class="card"><div class="row"><button class="btn secondary grow" id="d-undo" ${D.picks.length ? '' : 'disabled'}>Undo last sale</button><button class="btn secondary grow" id="d-csv" ${D.picks.length ? '' : 'disabled'}>Copy results</button></div>
+      ${[...D.picks].reverse().slice(0, 30).map(k => `<div class="item">${esc(byId.get(k.playerId)?.name ?? k.playerId)} → ${esc(D.teams[k.team])} <b>${money(k.price)}</b></div>`).join('')}</div>`;
+  const search = $('#d-search');
+  search.onchange = () => { const p = st.board.find(x => normName(x.name) === normName(search.value)); if (p) { D.current = p.id; save(); render(); } };
+  if ($('#d-setup')) $('#d-setup').onclick = openSettings;
+  if (cur) {
+    $('#d-clear').onclick = () => { D.current = null; save(); render(); };
+    $('#d-sold').onclick = () => {
+      const price = Math.round(+$('#d-price').value), team = +$('#d-team').value;
+      if (!(price >= 1)) return toast('Enter the winning bid');
+      if (price > st.teams[team].maxBid) return toast(`${D.teams[team]} can bid at most ${money(st.teams[team].maxBid)}`);
+      D.picks.push({ playerId: cur.id, team, price, at: Date.now() });
+      D.current = null; save(); render(); toast(`${cur.name} → ${D.teams[team]} ${money(price)}`);
+    };
+  }
+  $('#d-undo').onclick = () => { D.picks.pop(); save(); render(); };
+  $('#d-csv').onclick = () => copyText(['player,team,price', ...D.picks.map(k => `"${byId.get(k.playerId)?.name ?? k.playerId}","${D.teams[k.team]}",${k.price}`)].join('\n'), 'Results copied');
+  document.querySelectorAll('[data-team]').forEach(r => r.onclick = () => {
+    const i = +r.dataset.team, t = st.teams[i];
+    sheet(`<div class="sheet-head"><div><h2>${esc(D.teams[i])}</h2><div class="muted">${money(t.left)} left · ${t.slots} spots · max bid ${money(t.maxBid)}</div></div><button class="close" data-close>✕</button></div>
+      <div class="card" style="margin-top:12px">${t.players.map(id => { const p = byId.get(id); return `<div class="item row"><span class="grow">${esc(p?.name)} <span class="muted">${esc(p?.pos?.join('/'))}</span></span><b>${money(D.picks.find(k => k.playerId === id).price)}</b></div>`; }).join('') || '<div class="muted">Nobody yet.</div>'}</div>
+      ${t.players.length ? `<div class="card">${catBars({ z: categoryTotals(t.players.map(id => byId.get(id)).filter(Boolean)) })}</div>` : ''}`);
+  });
+  bindOpen($('#view'));
+}
+
+// ---------- Settings (⚙): set-up jobs and the why, out of the way of the main journey ----------
+function openSettings() {
+  const D = S.draft;
+  sheet(`<div class="sheet-head"><div><h2>Settings</h2><div class="muted">${esc(league.name)}</div></div><button class="close" data-close>✕</button></div>
+    <div class="section-title">Draft night</div>
+    <div class="card">
+      <label style="margin-top:0">Team names, one per line</label>
+      <textarea id="s-teams" rows="7">${esc(D.teams.join('\n'))}</textarea>
+      <label>Which one is you?</label>
+      <select id="s-me">${D.teams.map((t, i) => `<option value="${i}" ${i === D.me ? 'selected' : ''}>${esc(t)}</option>`).join('')}</select>
+      <div class="row" style="margin-top:10px"><button class="btn grow" id="s-save">Save teams</button><button class="btn danger" id="s-reset" ${D.picks.length ? '' : 'disabled'}>Clear sales</button></div>
+    </div>
+    <div class="section-title">Market prices</div>
+    <div class="card">
+      <div class="muted">Using Yahoo's average auction prices (${ranked.filter(p => p.yahoo).length} players). Paste your own "Name, $" lines to override them, e.g. from a mock draft.</div>
+      <textarea id="s-market" placeholder="Nikola Jokic, 68" style="margin-top:8px"></textarea>
+      <div class="row" style="margin-top:8px"><button class="btn secondary grow" id="s-market-go">Use these prices</button>${Object.keys(S.market).length ? `<button class="btn danger" id="s-market-clear">Clear ${Object.keys(S.market).length}</button>` : ''}</div>
+    </div>
+    <div class="section-title">Your data</div>
+    <div class="card">
+      <div class="muted">Your prices, tags and draft are saved on this phone only. Copy a backup to move them to another device.</div>
+      <div class="row" style="margin-top:10px"><button class="btn secondary grow" id="s-export">Copy backup</button><button class="btn secondary grow" id="s-import">Restore</button></div>
+    </div>
+    <button class="btn secondary block" id="s-about" style="margin-top:4px">How the numbers work</button>
+    <details class="more" style="margin-top:12px"><summary>Advanced: use your own projections</summary><div class="inner">
+      <div class="muted">A CSV with per-game columns (Player, Team, Pos, G, MP, FG, FGA, 3P, FT, FTA, TRB, AST, STL, BLK, TOV, PTS). Replaces the built projections on this phone.</div>
+      <textarea id="s-proj"></textarea>
+      <div class="row" style="margin-top:8px"><button class="btn secondary grow" id="s-proj-go">Use these</button>${S.importedPlayers ? '<button class="btn danger" id="s-proj-clear">Back to built data</button>' : ''}</div>
+    </div></details>`);
   $('#s-save').onclick = () => {
     const names = $('#s-teams').value.split('\n').map(s => s.trim()).filter(Boolean);
-    if (names.length < 2) return alert('Enter the team names');
-    D.teams = names; D.me = Math.min(+$('#s-me').value, names.length - 1); save(); render();
+    if (names.length < 2) return toast('Enter the team names');
+    D.teams = names; D.me = Math.min(+$('#s-me').value, names.length - 1); save(); render(); openSettings(); toast('Teams saved');
   };
-  $('#s-me').onchange = e => { D.me = +e.target.value; save(); };
-  document.querySelectorAll('[data-formula]').forEach(b => b.onclick = () => { S.formula = b.dataset.formula; save(); recompute(); render(); });
-  $('#s-reset').onclick = () => { if (confirm('Clear every pick?')) { D.picks = []; D.current = null; save(); render(); } };
+  $('#s-me').onchange = e => { D.me = +e.target.value; save(); render(); };
+  $('#s-reset').onclick = () => { if (confirm('Clear every recorded sale?')) { D.picks = []; D.current = null; save(); render(); openSettings(); } };
   $('#s-market-go').onclick = () => {
     let n = 0;
     for (const l of $('#s-market').value.split('\n')) { const m = /^(.+?)[,\t]\s*\$?(\d+(?:\.\d+)?)/.exec(l.trim()); if (m) { S.market[normName(m[1])] = +m[2]; n++; } }
-    save(); alert(`${n} prices imported`); render();
+    save(); render(); openSettings(); toast(`${n} prices loaded`);
   };
-  $('#s-market-clear').onclick = () => { S.market = {}; save(); render(); };
+  if ($('#s-market-clear')) $('#s-market-clear').onclick = () => { S.market = {}; save(); render(); openSettings(); };
+  $('#s-export').onclick = () => copyText(JSON.stringify(S), 'Backup copied');
+  $('#s-import').onclick = () => { const j = prompt('Paste a backup'); if (!j) return; try { S = { ...blank(), ...JSON.parse(j) }; save(); recompute(); render(); toast('Restored'); closeSheet(); } catch { toast('That is not a backup'); } };
+  $('#s-about').onclick = openAbout;
   $('#s-proj-go').onclick = () => {
-    try { const ps = importProjections($('#s-proj').value); if (ps.length < 150) throw new Error(`Only ${ps.length} players with 12+ minutes`); S.importedPlayers = ps; save(); recompute(); alert(`${ps.length} players loaded`); render(); }
-    catch (e) { alert(e.message); }
+    try { const ps = importProjections($('#s-proj').value); if (ps.length < 150) throw new Error(`Only ${ps.length} players with 12+ minutes`); S.importedPlayers = ps; save(); recompute(); render(); toast(`${ps.length} players loaded`); }
+    catch (e) { toast(e.message); }
   };
-  $('#s-proj-clear').onclick = () => { S.importedPlayers = null; save(); recompute(); render(); };
-  $('#s-export').onclick = async () => { const j = JSON.stringify({ ...S, importedPlayers: S.importedPlayers }); try { await navigator.clipboard.writeText(j); alert('Backup copied'); } catch { prompt('Copy:', j); } };
-  $('#s-import').onclick = () => { const j = prompt('Paste a backup'); if (!j) return; try { S = { ...blank(), ...JSON.parse(j) }; save(); recompute(); render(); } catch { alert('That is not a backup'); } };
+  if ($('#s-proj-clear')) $('#s-proj-clear').onclick = () => { S.importedPlayers = null; save(); recompute(); render(); openSettings(); };
 }
 
-function newsCheckPanel() {
-  const all = (signals?.signals ?? []).filter(x => byId.has(x.playerId));
-  const list = all.filter(x => x.judge || x.kind === 'depth');
-  const info = all.filter(x => !x.judge && x.kind !== 'depth');
-  const fresh = list.filter(x => x.status === 'new');
-  const when = d => (d ? new Date(d).toLocaleString([], { weekday: 'short', hour: 'numeric', minute: '2-digit' }) : 'never');
-  return `<div class="panel"><h2>News check</h2>
-    <div class="muted">Data refreshed ${esc(when(signals?.builtAt))} · Claude's last read ${esc(when(newsRun?.ranAt))}${newsRun?.ranAt ? `: ${newsRun.proposed} proposed, ${newsRun.skipped} skipped${newsRun.note ? ` (${esc(newsRun.note)})` : ''}` : ''}. Runs at 1:30 pm and 11 pm Eastern.</div>
-    ${list.length ? `<h3>News that may matter (${fresh.length} waiting for Claude)</h3>${list.slice(0, 30).map(x => `<div class="news-item" data-open="${esc(x.playerId)}">
-      <b>${esc(x.name)}</b> <span class="muted">${esc(x.team ?? '')} · ${esc(x.kind)} · ${esc(String(x.date).slice(0, 10))}</span>${x.status === 'new' ? ' <span class="tag flag">new</span>' : ''}
-      <div class="muted">${esc(x.summary)}</div>${x.handledNote ? `<div class="muted">→ ${esc(x.handledNote)}</div>` : ''}</div>`).join('')}` : ''}
-    ${info.length ? `<div class="muted" style="margin-top:6px">Also read: ${info.length} season outlooks and projection moves (open a player to see what Jev found).</div>` : ''}
-  </div>`;
-}
-function qualityPanel() {
-  const rows = (evalData?.summary ?? []).filter(s => s.spearman != null);
-  const c = qa?.counts;
-  return `<div class="panel"><h2>Data & value quality</h2>
-    ${c ? `<div class="muted">Built ${esc(qa.builtAt?.slice(0, 16).replace('T', ' '))}: ${c.players} players · ${c.blended} from ESPN + stats, ${c.espnOnly} ESPN only (mostly rookies), ${c.modelOnly} stats only · ${qa.starters} starters on depth charts · ${c.flagged} with a ⚑ to check${qa.problems?.length ? ` · <b class="down">problems: ${esc(qa.problems.join('; '))}</b>` : ''}</div>` : ''}
-    ${rows.length ? `<h3>Backtest: projections made before each season vs what happened</h3>
-    <table><tr><th>Method</th><th class="num">Rank corr.</th><th class="num">Avg $ miss</th><th class="num">Top 50 → top 75</th></tr>
-      ${rows.map(r => `<tr><td>${esc(r.label)}<div class="muted">${esc(r.seasons.map(t => `${t - 1}-${String(t).slice(2)}`).join(', '))}</div></td><td class="num">${r.spearman.toFixed(2)}</td><td class="num">$${r.maeDollars.toFixed(2)}</td><td class="num">${Math.round(r.top50StayedTop75 * 100)}%</td></tr>`).join('')}</table>
-    <div class="muted" style="margin-top:6px">${esc(evalData.method)}</div>` : ''}
-    ${h2h.length ? `<h3>Head-to-head test: which formula wins weeks?</h3>
-    <table><tr><th>Formula</th>${h2h.map(r => `<th class="num">${r.season - 1}-${String(r.season).slice(2)}</th>`).join('')}</tr>
-      ${h2h[0].results.map((row, i) => `<tr><td>${esc(row.formula)}</td>${h2h.map(r => `<td class="num">${Math.round(r.results[i].matchupWinRate * 100)}%</td>`).join('')}</tr>`).join('')}</table>
-    <div class="muted" style="margin-top:6px">Weeks won by one team drafting with each formula from preseason projections against 13 teams using plain z-scores, replaying the real season's weekly stats. 50% = no better.</div>` : ''}
-    ${jevTest ? `<h3>Jev reading injury notes</h3><div class="muted">${Math.round(jevTest.accuracyClear * 100)}% right on ${jevTest.perOption ? Object.values(jevTest.perOption).reduce((s, o) => s + o.examples, 0) : ''} hand-labelled notes (tested ${esc(jevTest.testedOn)}); it never said a player would miss games when the note said he wouldn't (${jevTest.missesGames.fp} false alarms, ${jevTest.missesGames.tp} of ${jevTest.missesGames.tp + jevTest.missesGames.fn} real absences caught). Its readings appear on injury proposals; nothing changes until you accept.</div>` : ''}
-    ${flagEval?.decision ? `<h3>Jev's news flags: do they predict anything?</h3>
-    <div class="muted">${flagTest ? `Reading: ${Math.round(flagTest.overallAccuracy * 100)}% right on hand-labelled outlooks. ` : ''}Fitted on ${esc(flagEval.seasons.map(t => `${t - 1}-${String(t).slice(2)}`).join(', '))} preseason notes, each season predicted from the others.</div>
-    <table><tr><th>Projection</th><th class="num">Rank corr.</th><th class="num">Avg $ miss</th></tr>
-      ${[['ESPN as is', 'espn'], ['+ ESPN’s average misses corrected', 'espnPlusBias'], ['+ Jev flag effects', 'espnPlusFlags']].map(([l, k]) => `<tr><td>${l}</td><td class="num">${flagEval.decision.mean[k].spearman.toFixed(3)}</td><td class="num">$${flagEval.decision.mean[k].mae.toFixed(2)}</td></tr>`).join('')}</table>
-    <div class="muted" style="margin-top:6px">In use: ${flagEval.decision.useFlags ? 'flag effects' : flagEval.decision.useBias ? 'bias corrections only (the flags did not beat them)' : 'neither'}. Per stat: ${esc(Object.entries(flagEval.decision.choice).filter(([, c]) => c !== 'none').map(([t, c]) => `${t} ${c}`).join(', ') || 'none')}.</div>` : ''}
-    <h3>Formula</h3>
-    <div class="chips"><button class="chip ${S.formula !== 'z' ? 'on' : ''}" data-formula="g">G-scores (recommended)</button><button class="chip ${S.formula === 'z' ? 'on' : ''}" data-formula="z">Plain z-scores</button></div>
-  </div>`;
+function openAbout() {
+  const rows = (evalData?.summary ?? []).filter(s => s.spearman != null && /^(naive|model: stats|ESPN pre|blend: 75)/.test(s.label));
+  const nice = { 'naive: last season as it happened': 'Last season repeated', 'model: stats only (Basketball Reference)': 'Stats model alone', 'ESPN preseason projection': 'ESPN alone', 'blend: 75% ESPN + 25% model': 'What this app uses' };
+  const g = h2h.map(r => ({ season: r.season, z: r.results.find(x => /plain/.test(x.formula)), g: r.results.find(x => /G-scores/.test(x.formula)) }));
+  sheet(`<div class="sheet-head"><div><h2>How the numbers work</h2><div class="muted">And how well they've done</div></div><button class="close" data-close>✕</button></div>
+    <div class="card" style="margin-top:12px"><h2>1. Projections</h2>
+      <div class="muted">Each player's season: 75% ESPN's projection, 25% a stats model of his last two seasons, with ESPN's habit of projecting about 1.3 minutes a game too many corrected. Teams, rookies and depth charts come from ESPN.</div>
+      ${rows.length ? `<table style="margin-top:8px"><tr><th>Tested on four past seasons</th><th class="num">Ranking accuracy</th><th class="num">Avg $ miss</th></tr>${rows.map(r => `<tr><td>${esc(nice[r.label] ?? r.label)}</td><td class="num">${r.spearman.toFixed(2)}</td><td class="num">$${r.maeDollars.toFixed(2)}</td></tr>`).join('')}</table>` : ''}</div>
+    <div class="card"><h2>2. Prices</h2>
+      <div class="muted">Prices are built for weekly head-to-head: a category that swings a lot week to week counts a little less. The $2,800 in the room is shared out in proportion to how much better each player is than the best one left undrafted.</div>
+      ${g.length ? `<table style="margin-top:8px"><tr><th>Weeks won, replaying past seasons</th>${g.map(x => `<th class="num">${x.season - 1}-${String(x.season).slice(2)}</th>`).join('')}</tr><tr><td>Head-to-head pricing</td>${g.map(x => `<td class="num">${Math.round((x.g?.matchupWinRate ?? 0) * 100)}%</td>`).join('')}</tr><tr><td>Season-total pricing</td>${g.map(() => '<td class="num">50%</td>').join('')}</tr></table>` : ''}</div>
+    <div class="card"><h2>3. Yahoo prices</h2>
+      <div class="muted">Yahoo's average auction prices come from mostly 10–12-team leagues, so each player's Yahoo rank is priced at what that rank costs in your 14-team league. Yahoo rooms overpay stars (top 10 go for ~1.18× Yahoo's own values) and underpay the middle (#31–100 for 0.3–0.65×).</div></div>
+    <div class="card"><h2>4. News</h2>
+      <div class="muted">Twice a day the app reads ESPN and FantasyPros news. An AI reader flags injuries and role changes (95% accurate on hand-checked notes) and Claude turns the ones that matter into the changes you see on the News tab. Nothing moves a price until you apply it. When you apply an absence, teammates get the share of his minutes measured from past seasons.</div></div>
+    <div class="card"><h2>5. Uncertainty</h2>
+      <div class="muted">In past seasons 8 in 10 drafted players finished within about −$11 / +$10 of their projected price. Treat a few dollars' difference as a tie.</div>
+      ${qa?.problems?.length ? `<div class="down" style="margin-top:6px">Data problems on the last refresh: ${esc(qa.problems.join('; '))}</div>` : ''}</div>`);
 }
 
 // ---------- shell ----------
+function sheet(html) {
+  $('#sheetBody').innerHTML = `<div class="grabber"></div>${html}`;
+  $('#sheet').hidden = false;
+  document.body.style.overflow = 'hidden';
+  $('#sheetBody').querySelectorAll('[data-close]').forEach(b => b.onclick = closeSheet);
+}
+function closeSheet() { $('#sheet').hidden = true; document.body.style.overflow = ''; }
+function go(t) { tab = t; S.tab = t; save(); window.scrollTo(0, 0); render(); }
 function render() {
   document.querySelectorAll('#tabs button').forEach(b => b.classList.toggle('on', b.dataset.tab === tab));
+  const [title, eyebrow] = TITLES[tab];
+  $('#title').textContent = title;
+  $('#eyebrow').textContent = eyebrow;
   const pend = pendingProposals().length;
   $('#newsBadge').hidden = !pend; $('#newsBadge').textContent = pend;
-  $('#meta').textContent = S.punt.length ? `punting ${S.punt.map(c => CAT_LABEL[c]).join(', ')}` : '';
-  ({ ranks: renderRanks, draft: renderDraft, news: renderNews, settings: renderSettings })[tab]();
+  const top = boardOrder().slice(0, S.yahooCount ?? YAHOO_DEFAULT_COUNT);
+  const todo = top.filter(p => yahooState(p) !== 'done').length;
+  $('#yahooBadge').hidden = !todo || !S.yahooDone || !Object.keys(S.yahooDone).length;
+  $('#yahooBadge').textContent = todo; $('#yahooBadge').className = 'badge soft';
+  ({ prep: renderPrep, board: renderBoard, yahoo: renderYahoo, news: renderNews, draft: renderDraft })[tab]();
 }
 
 init();
