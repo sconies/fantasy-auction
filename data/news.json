@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-08T09:46:21.347Z",
+ "fetchedAt": "2026-10-08T22:17:02.810Z",
  "injuries": [
   {
    "name": "Aaron Wiggins",
@@ -50,19 +50,37 @@
    "name": "Joshua Jefferson",
    "team": "Brooklyn Nets",
    "status": "Day-To-Day",
-   "comment": "Jefferson (lower back) is out for Tuesday's preseason game against Charlotte, Brian Lewis of the New York Post reports.",
-   "date": "2026-10-05T16:55Z",
-   "returnDate": "2026-10-08",
+   "comment": "Jefferson (back) will not play in Thursday's preseason game against the 76ers, Brian Lewis of the New York Post reports.",
+   "date": "2026-10-08T15:10Z",
+   "returnDate": "2026-10-12",
    "injury": "Back"
   },
   {
    "name": "Mikel Brown Jr.",
    "team": "Brooklyn Nets",
    "status": "Day-To-Day",
-   "comment": "Brown (ankle) will miss Tuesday's preseason game against the Hornets, Brian Lewis of the New York Post reports.",
-   "date": "2026-10-05T16:51Z",
-   "returnDate": "2026-10-08",
+   "comment": "Brown (ankle) will miss Thursday's preseason game against Philadelphia, Brian Lewis of the New York Post reports.",
+   "date": "2026-10-08T15:07Z",
+   "returnDate": "2026-10-12",
    "injury": "Ankle"
+  },
+  {
+   "name": "Day'Ron Sharpe",
+   "team": "Brooklyn Nets",
+   "status": "Day-To-Day",
+   "comment": "Sharpe has been ruled out for Thursday's preseason matchup against Philadelphia due to left shoulder soreness, Brian Lewis of the New York Post reports.",
+   "date": "2026-10-08T15:05Z",
+   "returnDate": "2026-10-12",
+   "injury": "Shoulder"
+  },
+  {
+   "name": "Michael Porter Jr.",
+   "team": "Brooklyn Nets",
+   "status": "Day-To-Day",
+   "comment": "Porter will not play in Thursday's preseason game against Philadelphia due to left wrist soreness, Brian Lewis of the New York Post reports.",
+   "date": "2026-10-08T15:04Z",
+   "returnDate": "2026-10-12",
+   "injury": "Wrist"
   },
   {
    "name": "Brandon Miller",
@@ -164,15 +182,6 @@
    "injury": "Hamstring – Strain"
   },
   {
-   "name": "Morez Johnson Jr.",
-   "team": "Dallas Mavericks",
-   "status": "Day-To-Day",
-   "comment": "Johnson (lower leg) is expected to play in Friday's preseason opener against Houston, per Brad Townsend of The Dallas Morning News.",
-   "date": "2026-10-07T20:58Z",
-   "returnDate": "2026-10-09",
-   "injury": "Lower Leg – Soreness"
-  },
-  {
    "name": "Santi Aldama",
    "team": "Dallas Mavericks",
    "status": "Day-To-Day",
@@ -194,8 +203,8 @@
    "name": "Spencer Jones",
    "team": "Denver Nuggets",
    "status": "Day-To-Day",
-   "comment": "Jones (hamstring) did not play during Tuesday's 93-79 preseason win over the Jazz.",
-   "date": "2026-10-07T04:17Z",
+   "comment": "Jones (hamstring) participated in on-court work after Thursday's practice, Katy Winge of Altitude Sports reports.",
+   "date": "2026-10-08T21:51Z",
    "returnDate": "2026-10-11",
    "injury": "Hamstring"
   },
@@ -205,15 +214,6 @@
    "status": "Day-To-Day",
    "comment": "Duren (rest) is expected to play at some point this preseason, per Hunter Patterson of The Athletic.",
    "date": "2026-10-07T18:57Z",
-   "returnDate": "2026-10-10",
-   "injury": "Rest"
-  },
-  {
-   "name": "Al Horford",
-   "team": "Golden State Warriors",
-   "status": "Day-To-Day",
-   "comment": "Horford (rest) is out for Wednesday's preseason game against Portland, per Tomer Azarly of ClutchPoints.com.",
-   "date": "2026-10-07T20:40Z",
    "returnDate": "2026-10-10",
    "injury": "Rest"
   },
@@ -488,24 +488,6 @@
    "injury": "Hamstring"
   },
   {
-   "name": "Pelle Larsson",
-   "team": "Miami Heat",
-   "status": "Day-To-Day",
-   "comment": "Larsson didn't practice Wednesday due to an illness, Ira Winderman of the South Florida Sun Sentinel reports.",
-   "date": "2026-10-07T18:01Z",
-   "returnDate": "2026-10-08",
-   "injury": "Illness"
-  },
-  {
-   "name": "Andrew Wiggins",
-   "team": "Miami Heat",
-   "status": "Day-To-Day",
-   "comment": "Wiggins is dealing with an illness, per Ira Winderman of the South Florida Sun Sentinel.",
-   "date": "2026-10-07T18:01Z",
-   "returnDate": "2026-10-08",
-   "injury": "Illness"
-  },
-  {
    "name": "Dru Smith",
    "team": "Miami Heat",
    "status": "Day-To-Day",
@@ -668,33 +650,6 @@
    "injury": "Achilles – Ruptured"
   },
   {
-   "name": "Tyrese Maxey",
-   "team": "Philadelphia 76ers",
-   "status": "Day-To-Day",
-   "comment": "Maxey (rest) won't play in Monday's preseason game against the Knicks, Chris Hine of The Minnesota Star Tribune reports.",
-   "date": "2026-10-05T17:54Z",
-   "returnDate": "2026-10-08",
-   "injury": "Rest"
-  },
-  {
-   "name": "LeBron James",
-   "team": "Philadelphia 76ers",
-   "status": "Day-To-Day",
-   "comment": "James (rest) has been ruled out for Monday's game against the Knicks, Chris Hine of The Minnesota Star Tribune reports.",
-   "date": "2026-10-05T17:52Z",
-   "returnDate": "2026-10-08",
-   "injury": "Rest"
-  },
-  {
-   "name": "Joel Embiid",
-   "team": "Philadelphia 76ers",
-   "status": "Day-To-Day",
-   "comment": "Embiid (rest) won't play in Monday's preseason game against the Knicks, Chris Hine of The Minnesota Star Tribune reports.",
-   "date": "2026-10-05T17:49Z",
-   "returnDate": "2026-10-08",
-   "injury": "Rest"
-  },
-  {
    "name": "Tacko Fall",
    "team": "Philadelphia 76ers",
    "status": "Day-To-Day",
@@ -758,6 +713,15 @@
    "injury": "Undisclosed"
   },
   {
+   "name": "Maliq Brown",
+   "team": "San Antonio Spurs",
+   "status": "Day-To-Day",
+   "comment": "Brown (back) is out for Thursday's preseason game against the Hawks, Tom Orsborn of the San Antonio Express-News reports.",
+   "date": "2026-10-08T17:20Z",
+   "returnDate": "2026-10-10",
+   "injury": "Back"
+  },
+  {
    "name": "Jayden Quaintance",
    "team": "San Antonio Spurs",
    "status": "Out",
@@ -774,15 +738,6 @@
    "date": "2026-10-05T01:27Z",
    "returnDate": "2026-10-20",
    "injury": "Calf – Strain"
-  },
-  {
-   "name": "David Jones Garcia",
-   "team": "San Antonio Spurs",
-   "status": "Day-To-Day",
-   "comment": "Jones Garcia (ankle) agreed to a two-way contract with the Spurs on Wednesday, per Michael Scotto of HoopsHype.com.",
-   "date": "2026-07-22T19:16Z",
-   "returnDate": "2026-10-08",
-   "injury": "Ankle – Surgery"
   },
   {
    "name": "Trayce Jackson-Davis",
@@ -895,6 +850,139 @@
  ],
  "articles": [
   {
+   "headline": "Tyrese Maxey, Jaylen Brown, VJ Edgecombe make 'Abbott Elementary' cameos",
+   "description": "\"Abbott Elementary\" continues to embrace Philadelphia sports culture with its latest instance starring the 76ers.",
+   "published": "2026-10-08T20:47:07Z",
+   "url": "https://www.espn.com/nba/story/_/id/50134809/abbott-elementary-season-six-premiere-sixers-cameo",
+   "athletes": [
+    "Jaylen Brown",
+    "Tyrese Maxey",
+    "VJ Edgecombe",
+    "LeBron James"
+   ]
+  },
+  {
+   "headline": "Sources: 76ers plan to play starters in preseason game vs. Nets",
+   "description": "The 76ers plan to play their starters Thursday against the Nets, sources told ESPN.",
+   "published": "2026-10-08T20:15:04Z",
+   "url": "https://www.espn.com/nba/story/_/id/50134832/sources-76ers-plan-play-starters-preseason-game-vs-nets",
+   "athletes": [
+    "Joel Embiid",
+    "LeBron James",
+    "Tyrese Maxey",
+    "Jaylen Brown",
+    "VJ Edgecombe"
+   ]
+  },
+  {
+   "headline": "Fantasy basketball: Category league draft tiers",
+   "description": "Eric Moody groups players into tiers by each position for category-based leagues.",
+   "published": "2026-10-08T20:07:59Z",
+   "url": "https://www.espn.com/fantasy/basketball/story/_/id/50134369/fantasy-basketball-category-league-draft-tiers-2026-27",
+   "athletes": []
+  },
+  {
+   "headline": "NBA preseason buzz: Latest on trades, news and intel",
+   "description": "The NBA regular season is just a few weeks away, and we're tracking all the news, deals, and trades across the league.",
+   "published": "2026-10-08T19:10:58Z",
+   "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+   "athletes": []
+  },
+  {
+   "headline": "Haliburton tells McAfee he feels 'great' after return to court",
+   "description": "Haliburton tells McAfee he feels 'great' after return to court",
+   "published": "2026-10-08T19:08:57Z",
+   "url": "https://www.espn.com/video/clip/_/id/50134349/haliburton-tells-mcafee-feels-great-return-court",
+   "athletes": [
+    "Tyrese Haliburton",
+    "Pat McAfee"
+   ]
+  },
+  {
+   "headline": "Fantasy basketball: Points league draft tiers",
+   "description": "Eric Moody groups players into tiers by each position for points leagues.",
+   "published": "2026-10-08T18:51:37Z",
+   "url": "https://www.espn.com/fantasy/basketball/story/_/id/50125975/fantasy-basketball-points-league-draft-tiers-nba-2026-27",
+   "athletes": []
+  },
+  {
+   "headline": "Rockets, Mavs take China: Highlights, top scenes from off the court",
+   "description": "The top sights and sounds from the Dallas Mavericks and Houston Rockets' preseason trip to China.",
+   "published": "2026-10-08T13:24:48Z",
+   "url": "https://www.espn.com/nba/story/_/id/50119633/rockets-mavs-nba-china-highlights",
+   "athletes": []
+  },
+  {
+   "headline": "What does your NBA team need? The biggest hole on all 30 rosters",
+   "description": "Every NBA team is missing something, even the leading title contenders.",
+   "published": "2026-10-08T16:39:12Z",
+   "url": "https://www.espn.com/nba/story/_/id/50111204/nba-preseason-roster-holes-30-teams",
+   "athletes": []
+  },
+  {
+   "headline": "The Warriors need Yaxel Lendeborg's fast-tracked development",
+   "description": "The Golden State Warriors have high hopes for the No. 11 pick after several failed lottery picks.",
+   "published": "2026-10-08T12:40:22Z",
+   "url": "https://www.espn.com/nba/story/_/id/50125703/warriors-yaxel-lendeborg-training-camp-preseason-debut",
+   "athletes": [
+    "Yaxel Lendeborg",
+    "Stephen Curry"
+   ]
+  },
+  {
+   "headline": "Fantasy basketball draft guide: Rankings, mock drafts, sleepers, projections and analysis",
+   "description": "We've got everything you need to help you prepare for and execute a successful draft, all in one place.",
+   "published": "2026-10-08T10:40:23Z",
+   "url": "https://www.espn.com/fantasy/basketball/story/_/id/50075156/fantasy-basketball-draft-guide-rankings-mock-drafts-sleepers-projections-analysis",
+   "athletes": []
+  },
+  {
+   "headline": "Fantasy basketball: André Snellings' Ultimate Draft Board",
+   "description": "André Snellings crunches the numbers, factors in average draft position and highlights the best spots to draft key players throughout your fantasy basketball draft.",
+   "published": "2026-10-08T13:55:02Z",
+   "url": "https://www.espn.com/fantasy/basketball/story/_/id/50127220/fantasy-basketball-ultimate-draft-board-perfect-picks-every-round-nba-2026-27",
+   "athletes": [
+    "Nikola Jokic",
+    "Victor Wembanyama",
+    "Giannis Antetokounmpo",
+    "Anthony Edwards",
+    "Jayson Tatum",
+    "Donovan Mitchell",
+    "Trae Young",
+    "Josh Giddey",
+    "Tyrese Haliburton",
+    "Cooper Flagg",
+    "Domantas Sabonis",
+    "Alperen Sengun",
+    "Amen Thompson",
+    "Kevin Durant",
+    "LaMelo Ball",
+    "James Harden",
+    "Anthony Davis",
+    "Austin Reaves",
+    "Derrick White",
+    "Deni Avdija",
+    "Mikal Bridges",
+    "Nickeil Alexander-Walker",
+    "Dyson Daniels",
+    "Naz Reid",
+    "Walker Kessler",
+    "Ty Jerome",
+    "Ivica Zubac",
+    "Paul George",
+    "Kel'el Ware",
+    "Darius Acuff Jr",
+    "Jalen Green"
+   ]
+  },
+  {
+   "headline": "NBA, FIBA say Europe push to continue without EuroLeague",
+   "description": "The NBA and FIBA say they are undeterred in moving forward with the NBA Europe plan after EuroLeague's team owners rejected a merger offer this week.",
+   "published": "2026-10-08T12:17:49Z",
+   "url": "https://www.espn.com/nba/story/_/id/50131848/nba-fiba-say-europe-push-continue-euroleague",
+   "athletes": []
+  },
+  {
    "headline": "Golden State Warriors vs. Portland Trail Blazers: Game Highlights",
    "description": "Golden State Warriors vs. Portland Trail Blazers: Game Highlights",
    "published": "2026-10-08T05:05:47Z",
@@ -910,7 +998,7 @@
   {
    "headline": "Tyrese Haliburton scores 7 in 1st game in more than 16 months",
    "description": "Pacers star Tyrese Haliburton scored seven points during his 16 minutes of action against the Wolves on Wednesday. It was his first game in more than 16 months, as Haliburton was recovering from a torn Achilles.",
-   "published": "2026-10-08T03:57:18Z",
+   "published": "2026-10-08T11:14:47Z",
    "url": "https://www.espn.com/nba/story/_/id/50130092/tyrese-haliburton-scores-7-1st-game-more-16-months",
    "athletes": [
     "Tyrese Haliburton"
@@ -967,13 +1055,6 @@
    ]
   },
   {
-   "headline": "NBA preseason buzz: Latest on trades, news and intel",
-   "description": "The NBA regular season is just a few weeks away, and we're tracking all the news, deals, and trades across the league.",
-   "published": "2026-10-07T23:14:23Z",
-   "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-   "athletes": []
-  },
-  {
    "headline": "Buss siblings formally file against Jeanie over Lakers sale",
    "description": "The five Buss siblings attempting to sell the family's remaining shares in the Lakers officially filed their case against acting governor Jeanie Buss.",
    "published": "2026-10-07T23:29:41Z",
@@ -983,7 +1064,7 @@
   {
    "headline": "Trail Blazers' Dundon says he intends to bring title to Portland",
    "description": "New Trail Blazers owner Tom Dundon told season-ticket holders he intends to bring a championship to Portland.",
-   "published": "2026-10-07T21:59:02Z",
+   "published": "2026-10-08T11:15:04Z",
    "url": "https://www.espn.com/nba/story/_/id/50127764/trail-blazers-dundon-says-intends-bring-title-portland",
    "athletes": []
   },
@@ -1097,7 +1178,7 @@
   {
    "headline": "76ers lose backup center Ariel Hukporti to torn Achilles",
    "description": "The 76ers' thin frontcourt took a big blow Tuesday after an MRI confirmed backup center Ariel Hukporti suffered a torn right Achilles.",
-   "published": "2026-10-07T10:50:34Z",
+   "published": "2026-10-08T11:15:33Z",
    "url": "https://www.espn.com/nba/story/_/id/50118908/76ers-lose-backup-center-ariel-hukporti-torn-achilles",
    "athletes": [
     "Ariel Hukporti"
@@ -1231,7 +1312,7 @@
   {
    "headline": "Sources: Clippers' Max Strus (foot) out at least 4 weeks",
    "description": "Clippers wing Max Strus suffered a partial tear of the plantar fascia in his right foot and will be reevaluated in four weeks, league sources told ESPN.",
-   "published": "2026-10-07T10:51:41Z",
+   "published": "2026-10-08T11:15:51Z",
    "url": "https://www.espn.com/nba/story/_/id/50112557/sources-clippers-max-strus-foot-least-4-weeks",
    "athletes": [
     "Max Strus"
@@ -1280,130 +1361,6 @@
    "url": "https://www.espn.com/video/clip/_/id/50111525/kat-contract-negotiations-growing-cloud-new-york-knicks",
    "athletes": [
     "Karl-Anthony Towns"
-   ]
-  },
-  {
-   "headline": "Knicks' Karl-Anthony Towns not expecting contract extension soon",
-   "description": "Karl-Anthony Towns says the chances \"don't look good\" for him getting a new extension with the Knicks before the start of the regular season.",
-   "published": "2026-10-06T13:01:23Z",
-   "url": "https://www.espn.com/nba/story/_/id/50110415/knicks-karl-anthony-towns-not-expecting-extension-soon",
-   "athletes": [
-    "Karl-Anthony Towns"
-   ]
-  },
-  {
-   "headline": "Fantasy basketball: Eric Karabell's 'Do not draft' list",
-   "description": "Eric Karabell highlights the players to fade at their current average draft position in fantasy basketball drafts.",
-   "published": "2026-10-05T19:19:31Z",
-   "url": "https://www.espn.com/fantasy/basketball/story/_/id/50110301/fantasy-basketball-do-not-draft-list-nba-2026-27",
-   "athletes": [
-    "LaMelo Ball",
-    "Anthony Davis",
-    "Joel Embiid",
-    "Zion Williamson",
-    "Damian Lillard",
-    "Mikal Bridges",
-    "Lauri Markkanen",
-    "Kristaps Porzingis",
-    "Kawhi Leonard"
-   ]
-  },
-  {
-   "headline": "Behind the scenes inside LeBron's first 76ers training camp",
-   "description": "From on-court schemes to a private team dinner to an attempt at divine intervention, here's what happened in LeBron's first camp with the 76ers.",
-   "published": "2026-10-05T14:00:47Z",
-   "url": "https://www.espn.com/nba/story/_/id/50104877/lebron-james-philadelphia-76ers-training-camp",
-   "athletes": [
-    "LeBron James",
-    "Tyrese Maxey",
-    "Joel Embiid",
-    "VJ Edgecombe",
-    "Jaylen Brown"
-   ]
-  },
-  {
-   "headline": "Golden State Warriors vs. LA Clippers: Game Highlights",
-   "description": "Golden State Warriors vs. LA Clippers: Game Highlights",
-   "published": "2026-10-05T01:54:01Z",
-   "url": "https://www.espn.com/video/clip/_/id/50106572/game-highlights",
-   "athletes": [
-    "Charles Bassey",
-    "Miles Kelly",
-    "Cam Christie",
-    "Rui Hachimura",
-    "Graham Ike"
-   ]
-  },
-  {
-   "headline": "Utah Jazz vs. Denver Nuggets: Game Highlights",
-   "description": "Utah Jazz vs. Denver Nuggets: Game Highlights",
-   "published": "2026-10-05T01:53:24Z",
-   "url": "https://www.espn.com/video/clip/_/id/50106547/game-highlights",
-   "athletes": [
-    "Trevon Brazile",
-    "Jaren Jackson Jr",
-    "DeMar DeRozan",
-    "Nikola Jokic",
-    "Julian Strawther"
-   ]
-  },
-  {
-   "headline": "Spurs' Tobias Harris to miss preseason with left calf strain",
-   "description": "Spurs free agent acquisition Tobias Harris sustained a calf strain during camp that has him questionable for the team's Oct. 20 season opener vs. OKC.",
-   "published": "2026-10-07T10:52:44Z",
-   "url": "https://www.espn.com/nba/story/_/id/50104825/spurs-tobias-harris-miss-preseason-left-calf-strain",
-   "athletes": [
-    "Tobias Harris"
-   ]
-  },
-  {
-   "headline": "Pistons' Jalen Duren happy to return despite prolonged talks",
-   "description": "Despite a prolonged negotiation that appeared to turn sour at times, Jalen Duren said he is relieved and excited to return to Detroit.",
-   "published": "2026-10-05T00:23:59Z",
-   "url": "https://www.espn.com/nba/story/_/id/50104454/pistons-jalen-duren-happy-return-prolonged-talks",
-   "athletes": [
-    "Jalen Duren"
-   ]
-  },
-  {
-   "headline": "Lakers' Ziaire Williams proposes to longtime girlfriend at Bruno Mars tour",
-   "description": "The singer complemented the proposal during his second of five Inglewood shows.",
-   "published": "2026-10-04T00:40:19Z",
-   "url": "https://www.espn.com/nba/story/_/id/50094632/los-angeles-lakers-ziaire-williams-bruno-mars-romantic-tour-proposal",
-   "athletes": [
-    "Ziaire Williams"
-   ]
-  },
-  {
-   "headline": "LeBron James calls scrimmage 'great first step' for new-look 76ers",
-   "description": "Throngs of fans waited in lines more than 10-deep to watch LeBron James, Jaylen Brown and the rest of the 76ers take part in Saturday's scrimmage.",
-   "published": "2026-10-03T19:56:49Z",
-   "url": "https://www.espn.com/nba/story/_/id/50092448/lebron-james-calls-scrimmage-great-first-step-new-look-76ers",
-   "athletes": [
-    "LeBron James",
-    "Jaylen Brown",
-    "Tyrese Maxey",
-    "VJ Edgecombe",
-    "Joel Embiid"
-   ]
-  },
-  {
-   "headline": "Sources: Grizzlies waive Jordan Hawkins weeks after Pels trade",
-   "description": "The Memphis Grizzlies and guard Jordan Hawkins have agreed to part ways via waivers, allowing the 2023 lottery pick to find a new home in free agency, sources told ESPN's Shams Charania.",
-   "published": "2026-10-03T02:33:07Z",
-   "url": "https://www.espn.com/nba/story/_/id/50087727/sources-grizzlies-waive-jordan-hawkins-weeks-pels-trade",
-   "athletes": [
-    "Jordan Hawkins"
-   ]
-  },
-  {
-   "headline": "Giannis, Bam discuss 'nightmare' other teams will face when playing the Heat",
-   "description": "Giannis, Bam discuss 'nightmare' other teams will face when playing the Heat",
-   "published": "2026-10-02T20:15:35Z",
-   "url": "https://www.espn.com/video/clip/_/id/50086121/giannis-bam-discuss-nightmare-other-teams-face-playing-heat",
-   "athletes": [
-    "Bam Adebayo",
-    "Giannis Antetokounmpo"
    ]
   }
  ]

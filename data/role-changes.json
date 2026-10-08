@@ -99,6 +99,26 @@
    "to": "PG #3",
    "promoted": false,
    "projectedMin": 25.38
+  },
+  {
+   "date": "2026-10-08",
+   "playerId": "4873138",
+   "name": "Ace Bailey",
+   "team": "UTA",
+   "from": "SG #2",
+   "to": "SF #1",
+   "promoted": true,
+   "projectedMin": 26.72
+  },
+  {
+   "date": "2026-10-08",
+   "playerId": "3102530",
+   "name": "Jusuf Nurkic",
+   "team": "UTA",
+   "from": "C #1",
+   "to": "C #6",
+   "promoted": false,
+   "projectedMin": 22.06
   }
  ]
 }

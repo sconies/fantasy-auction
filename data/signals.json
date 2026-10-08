@@ -1,17 +1,36 @@
 {
- "builtAt": "2026-10-08T09:46:23.496Z",
+ "builtAt": "2026-10-08T22:17:05.019Z",
  "counts": {
-  "new": 5,
-  "toJudge": 5
+  "new": 7,
+  "toJudge": 7
  },
  "signals": [
+  {
+   "id": "headline:a0c7058923af",
+   "kind": "text",
+   "playerId": "4065778",
+   "name": "Max Strus",
+   "team": "LAC",
+   "date": "2026-10-08T11:15:51Z",
+   "source": "headline",
+   "url": "https://www.espn.com/nba/story/_/id/50112557/sources-clippers-max-strus-foot-least-4-weeks",
+   "text": "Sources: Clippers' Max Strus (foot) out at least 4 weeks. Clippers wing Max Strus suffered a partial tear of the plantar fascia in his right foot and will be reevaluated in four weeks, league sources told ESPN.",
+   "flags": {
+    "absence": 0.95
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "handled",
+   "firstSeen": "2026-10-06",
+   "handledNote": "covered by the injury proposal (ESPN return date + Jev reading)"
+  },
   {
    "id": "headline:6fe27ad3d2cf",
    "kind": "text",
    "playerId": "4396993",
    "name": "Tyrese Haliburton",
    "team": "IND",
-   "date": "2026-10-08T03:57:18Z",
+   "date": "2026-10-08T11:14:47Z",
    "source": "headline",
    "url": "https://www.espn.com/nba/story/_/id/50130092/tyrese-haliburton-scores-7-1st-game-more-16-months",
    "text": "Tyrese Haliburton scores 7 in 1st game in more than 16 months. Pacers star Tyrese Haliburton scored seven points during his 16 minutes of action against the Wolves on Wednesday. It was his first game in more than 16 months, as Haliburton was recovering from a torn Achilles.",
@@ -1616,6 +1635,30 @@
    "firstSeen": "2026-10-08"
   },
   {
+   "id": "depth:4873138:2026-10-08:SF #1",
+   "kind": "depth",
+   "playerId": "4873138",
+   "name": "Ace Bailey",
+   "team": "UTA",
+   "date": "2026-10-08",
+   "summary": "Depth chart SG #2 → SF #1",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-08"
+  },
+  {
+   "id": "depth:3102530:2026-10-08:C #6",
+   "kind": "depth",
+   "playerId": "3102530",
+   "name": "Jusuf Nurkic",
+   "team": "UTA",
+   "date": "2026-10-08",
+   "summary": "Depth chart C #1 → C #6",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-08"
+  },
+  {
    "id": "injury:d525c6c27238",
    "kind": "text",
    "playerId": "3102530",
@@ -1651,25 +1694,6 @@
    "status": "handled",
    "firstSeen": "2026-10-06",
    "handledNote": "proposed 2026-10-06-harris-calf (-2 games)"
-  },
-  {
-   "id": "headline:a0c7058923af",
-   "kind": "text",
-   "playerId": "4065778",
-   "name": "Max Strus",
-   "team": "LAC",
-   "date": "2026-10-07T10:51:41Z",
-   "source": "headline",
-   "url": "https://www.espn.com/nba/story/_/id/50112557/sources-clippers-max-strus-foot-least-4-weeks",
-   "text": "Sources: Clippers' Max Strus (foot) out at least 4 weeks. Clippers wing Max Strus suffered a partial tear of the plantar fascia in his right foot and will be reevaluated in four weeks, league sources told ESPN.",
-   "flags": {
-    "absence": 0.95
-   },
-   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
-   "judge": true,
-   "status": "handled",
-   "firstSeen": "2026-10-06",
-   "handledNote": "covered by the injury proposal (ESPN return date + Jev reading)"
   },
   {
    "id": "injury:148968a312ab",
