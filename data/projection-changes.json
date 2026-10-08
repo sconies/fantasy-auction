@@ -1,3 +1,18 @@
 {
- "changes": []
+ "changes": [
+  {
+   "date": "2026-10-08",
+   "playerId": "4683750",
+   "name": "Jordan Hawkins",
+   "team": "CHI",
+   "summary": "team MEM → CHI"
+  },
+  {
+   "date": "2026-10-08",
+   "playerId": "4433569",
+   "name": "Johni Broome",
+   "team": "MIL",
+   "summary": "team FA → MIL"
+  }
+ ]
 }

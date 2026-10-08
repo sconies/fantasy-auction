@@ -69,6 +69,36 @@
    "to": "PF #1",
    "promoted": true,
    "projectedMin": 17.24
+  },
+  {
+   "date": "2026-10-08",
+   "playerId": "4279888",
+   "name": "Ja Morant",
+   "team": "POR",
+   "from": "PG #2",
+   "to": "SG #1",
+   "promoted": true,
+   "projectedMin": 27.51
+  },
+  {
+   "date": "2026-10-08",
+   "playerId": "3995",
+   "name": "Jrue Holiday",
+   "team": "POR",
+   "from": "SG #1",
+   "to": "SG #2",
+   "promoted": false,
+   "projectedMin": 27.96
+  },
+  {
+   "date": "2026-10-08",
+   "playerId": "4683678",
+   "name": "Scoot Henderson",
+   "team": "POR",
+   "from": "SG #2",
+   "to": "PG #3",
+   "promoted": false,
+   "projectedMin": 25.38
   }
  ]
 }

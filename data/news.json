@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-07T22:10:30.887Z",
+ "fetchedAt": "2026-10-08T09:46:21.347Z",
  "injuries": [
   {
    "name": "Aaron Wiggins",
@@ -122,10 +122,28 @@
    "name": "Zach Collins",
    "team": "Chicago Bulls",
    "status": "Day-To-Day",
-   "comment": "Collins (toe) was a big part of Tuesday's practice, Joel Lorenzi of The Athletic reports.",
-   "date": "2026-10-06T17:37Z",
-   "returnDate": "2026-10-07",
+   "comment": "Collins (toe) won't play in Wednesday's preseason game against the Suns, K.C. Johnson of Chicago Sports Network reports.",
+   "date": "2026-10-07T22:53Z",
+   "returnDate": "2026-10-09",
    "injury": "Toe – Surgery"
+  },
+  {
+   "name": "Jaylin Sellers",
+   "team": "Chicago Bulls",
+   "status": "Day-To-Day",
+   "comment": "Sellers (back) won't play in Wednesday's preseason game against the Suns, Duane Rankin of The Arizona Republic reports.",
+   "date": "2026-10-07T22:33Z",
+   "returnDate": "2026-10-09",
+   "injury": "Back"
+  },
+  {
+   "name": "Tre Jones",
+   "team": "Chicago Bulls",
+   "status": "Day-To-Day",
+   "comment": "Jones won't play in Wednesday's preseason game against the Suns, Duane Rankin of The Arizona Republic reports.",
+   "date": "2026-10-07T22:32Z",
+   "returnDate": "2026-10-09",
+   "injury": "Hip"
   },
   {
    "name": "Nic Claxton",
@@ -299,31 +317,22 @@
    "injury": "Knee – Surgery"
   },
   {
-   "name": "Quenton Jackson",
+   "name": "Larry Nance Jr.",
    "team": "Indiana Pacers",
    "status": "Day-To-Day",
-   "comment": "Jackson (undisclosed) won't participate in Sunday's scrimmage, Tony East of Forbes.com reports.",
-   "date": "2026-10-04T15:25Z",
-   "returnDate": "2026-10-07",
-   "injury": "Undisclosed"
+   "comment": "Nance (hamstring) is out for Wednesday's preseason game against Minnesota, Tony East of Forbes.com reports.",
+   "date": "2026-10-07T22:45Z",
+   "returnDate": "2026-10-10",
+   "injury": "Hamstring"
   },
   {
    "name": "T.J. McConnell",
    "team": "Indiana Pacers",
    "status": "Day-To-Day",
-   "comment": "McConnell (undisclosed) will not participate in Sunday's scrimmage, Tony East of Forbes.com reports.",
-   "date": "2026-10-04T15:21Z",
-   "returnDate": "2026-10-07",
+   "comment": "McConnell (undisclosed) won't play in Wednesday's preseason game against Minnesota, per Tony East of Forbes.com.",
+   "date": "2026-10-07T22:43Z",
+   "returnDate": "2026-10-10",
    "injury": "Undisclosed"
-  },
-  {
-   "name": "Larry Nance Jr.",
-   "team": "Indiana Pacers",
-   "status": "Day-To-Day",
-   "comment": "Nance (hamstring) won't participate in Sunday's scrimmage, Tony East of Forbes.com reports.",
-   "date": "2026-10-04T15:17Z",
-   "returnDate": "2026-10-07",
-   "injury": "Hamstring"
   },
   {
    "name": "Johnny Furphy",
@@ -455,28 +464,19 @@
    "name": "Micah Peavy",
    "team": "Memphis Grizzlies",
    "status": "Day-To-Day",
-   "comment": "Peavy (ankle) did not see the floor in Monday's 132-123 preseason win over the Hawks.",
-   "date": "2026-10-06T02:01Z",
-   "returnDate": "2026-10-07",
+   "comment": "Peavy (ankle) did not play in Wednesday's 122-118 preseason loss to the Magic.",
+   "date": "2026-10-08T02:40Z",
+   "returnDate": "2026-10-09",
    "injury": "Ankle"
   },
   {
    "name": "Isaiah Stewart",
    "team": "Memphis Grizzlies",
    "status": "Day-To-Day",
-   "comment": "Stewart exited Monday's 132-123 preseason win over the Hawks in the first quarter and did not return due to a left ankle injury, finishing with one rebound in two minutes.",
-   "date": "2026-10-06T01:58Z",
-   "returnDate": "2026-10-07",
+   "comment": "Stewart (ankle) didn't participate in Tuesday's practice and will not play in Wednesday's preseason game against the Magic, Michael Wallace of the Grizzlies' official site reports.",
+   "date": "2026-10-07T23:05Z",
+   "returnDate": "2026-10-09",
    "injury": "Ankle"
-  },
-  {
-   "name": "Zach Edey",
-   "team": "Memphis Grizzlies",
-   "status": "Day-To-Day",
-   "comment": "Edey (ankle) completed a full on-court workout Monday but won't play in the Grizzlies' preseason game against the Hawks, Michael Wallace of the Grizzlies' official site reports.",
-   "date": "2026-10-05T23:03Z",
-   "returnDate": "2026-10-07",
-   "injury": "Ankle – Surgery"
   },
   {
    "name": "Keshad Johnson",
@@ -515,6 +515,15 @@
    "injury": "Calf – Strain"
   },
   {
+   "name": "Nate Ament",
+   "team": "Milwaukee Bucks",
+   "status": "Day-To-Day",
+   "comment": "Ament won't return to Wednesday's preseason game against the Thunder due to a left ankle sprain. He'll finish with three points (1-7 FG, 0-1 3Pt, 1-4 FT), four rebounds, one assist and one steal in 10 minutes.",
+   "date": "2026-10-08T01:35Z",
+   "returnDate": "2026-10-11",
+   "injury": "Ankle – Sprain"
+  },
+  {
    "name": "Donte DiVincenzo",
    "team": "Minnesota Timberwolves",
    "status": "Out",
@@ -533,93 +542,75 @@
    "injury": "Knee – Bruise"
   },
   {
-   "name": "Jaylin Williams",
-   "team": "Oklahoma City Thunder",
-   "status": "Day-To-Day",
-   "comment": "Williams (heel) won't play in Tuesday's preseason opener against the Pelicans, Clemente Almanza of USA Today reports.",
-   "date": "2026-10-06T22:13Z",
-   "returnDate": "2026-10-07",
-   "injury": "Heel"
-  },
-  {
    "name": "Thomas Sorber",
    "team": "Oklahoma City Thunder",
    "status": "Day-To-Day",
-   "comment": "Sorber (knee) will not play in Tuesday's preseason opener against New Orleans, Clemente Almanza of USA Today reports.",
-   "date": "2026-10-05T17:52Z",
-   "returnDate": "2026-10-07",
+   "comment": "Sorber (knee) won't play in Wednesday's preseason game against the Bucks, Clemente Almanza of USA Today reports.",
+   "date": "2026-10-07T22:26Z",
+   "returnDate": "2026-10-12",
    "injury": "Knee – Surgery"
-  },
-  {
-   "name": "Nikola Topic",
-   "team": "Oklahoma City Thunder",
-   "status": "Day-To-Day",
-   "comment": "Topic (back) will not play in Tuesday's preseason opener against the Pelicans, Clemente Almanza of USA Today reports.",
-   "date": "2026-10-05T17:51Z",
-   "returnDate": "2026-10-07",
-   "injury": "Back – Surgery"
-  },
-  {
-   "name": "Cason Wallace",
-   "team": "Oklahoma City Thunder",
-   "status": "Day-To-Day",
-   "comment": "Wallace will not play in Tuesday's preseason opener against New Orleans, Clemente Almanza of USA Today reports.",
-   "date": "2026-10-05T17:47Z",
-   "returnDate": "2026-10-07",
-   "injury": "Rest"
-  },
-  {
-   "name": "Alex Caruso",
-   "team": "Oklahoma City Thunder",
-   "status": "Day-To-Day",
-   "comment": "Caruso will not play in Tuesday's preseason opener against the Pelicans, Clemente Almanza of USA Today reports.",
-   "date": "2026-10-05T17:46Z",
-   "returnDate": "2026-10-07",
-   "injury": "Rest"
   },
   {
    "name": "Chet Holmgren",
    "team": "Oklahoma City Thunder",
    "status": "Day-To-Day",
-   "comment": "Holmgren (rest) will not play in Tuesday's preseason opener against New Orleans, Clemente Almanza of USA Today reports.",
-   "date": "2026-10-05T17:45Z",
-   "returnDate": "2026-10-07",
+   "comment": "Holmgren (quadriceps) won't play in Wednesday's preseason game against Milwaukee, Clemente Almanza of USA Today reports.",
+   "date": "2026-10-07T22:24Z",
+   "returnDate": "2026-10-12",
    "injury": "Rest"
+  },
+  {
+   "name": "Nikola Topic",
+   "team": "Oklahoma City Thunder",
+   "status": "Day-To-Day",
+   "comment": "Topic (back) won't play in Wednesday's preseason game against the Bucks, Clemente Almanza of USA Today reports.",
+   "date": "2026-10-07T22:24Z",
+   "returnDate": "2026-10-12",
+   "injury": "Back – Surgery"
   },
   {
    "name": "Isaiah Hartenstein",
    "team": "Oklahoma City Thunder",
    "status": "Day-To-Day",
-   "comment": "Hartenstein (rest) will not play in Tuesday's preseason opener against the Pelicans, Clemente Almanza of USA Today reports.",
-   "date": "2026-10-05T17:43Z",
-   "returnDate": "2026-10-07",
-   "injury": "Rest"
+   "comment": "Hartenstein (ankle) won't play in Wednesday's preseason game against the Bucks, Clemente Almanza of USA Today reports.",
+   "date": "2026-10-07T22:23Z",
+   "returnDate": "2026-10-12",
+   "injury": "Ankle"
   },
   {
-   "name": "Jalen Williams",
+   "name": "Jaylin Williams",
    "team": "Oklahoma City Thunder",
    "status": "Day-To-Day",
-   "comment": "Williams (not injury related) is out for Tuesday's preseason game against the Pelicans, Clemente Almanza of USA Today reports.",
-   "date": "2026-10-05T17:41Z",
-   "returnDate": "2026-10-07",
-   "injury": "Not Injury Related"
+   "comment": "Williams (heel) is out for Wednesday's preseason game against the Bucks, Clemente Almanza of USA Today reports.",
+   "date": "2026-10-07T22:22Z",
+   "returnDate": "2026-10-12",
+   "injury": "Heel"
   },
   {
-   "name": "Shai Gilgeous-Alexander",
-   "team": "Oklahoma City Thunder",
+   "name": "Noah Penda",
+   "team": "Orlando Magic",
    "status": "Day-To-Day",
-   "comment": "Gilgeous-Alexander will not play in Tuesday's preseason opener against the Pelicans, Clemente Almanza of USA Today reports.",
-   "date": "2026-10-05T17:40Z",
-   "returnDate": "2026-10-07",
-   "injury": "Not Injury Related"
+   "comment": "Penda (hamstring) is out for Wednesday's preseason game in Memphis, Jason Beede of the Orlando Sentinel reports.",
+   "date": "2026-10-07T23:40Z",
+   "returnDate": "2026-10-11",
+   "injury": "Hamstring"
+  },
+  {
+   "name": "Anthony Black",
+   "team": "Orlando Magic",
+   "status": "Day-To-Day",
+   "comment": "Black (ankle) has been ruled out for Wednesday's preseason game against the Grizzlies, Jason Beede of the Orlando Sentinel reports.",
+   "date": "2026-10-07T23:39Z",
+   "returnDate": "2026-10-11",
+   "injury": "Ankle – Sprain"
   },
   {
    "name": "Jalen Suggs",
    "team": "Orlando Magic",
    "status": "Day-To-Day",
-   "comment": "Suggs remains under the weather but was able to get on the court and run around during Tuesday's practice, Jason Beede of the Orlando Sentinel reports.",
-   "date": "2026-10-06T15:56Z",
-   "returnDate": "2026-10-07",
+   "comment": "Suggs (illness) has been ruled out for Wednesday's preseason game against the Grizzlies, Jason Beede of the Orlando Sentinel reports.",
+   "date": "2026-10-07T23:36Z",
+   "returnDate": "2026-10-11",
    "injury": "Illness"
   },
   {
@@ -630,24 +621,6 @@
    "date": "2026-10-06T15:42Z",
    "returnDate": "2026-10-11",
    "injury": "Knee – Sprain"
-  },
-  {
-   "name": "Noah Penda",
-   "team": "Orlando Magic",
-   "status": "Day-To-Day",
-   "comment": "Penda (hamstring) participated in Sunday's practice and has been progressing in his ramp-up process, Jason Beede of the Orlando Sentinel reports.",
-   "date": "2026-10-04T16:34Z",
-   "returnDate": "2026-10-07",
-   "injury": "Hamstring"
-  },
-  {
-   "name": "Anthony Black",
-   "team": "Orlando Magic",
-   "status": "Day-To-Day",
-   "comment": "Black (ankle) participated in Sunday's practice and has been progressing in his ramp-up process, Jason Beede of the Orlando Sentinel reports.",
-   "date": "2026-10-04T16:29Z",
-   "returnDate": "2026-10-07",
-   "injury": "Ankle – Sprain"
   },
   {
    "name": "Izaiyah Nelson",
@@ -729,6 +702,15 @@
    "date": "2026-10-01T22:07Z",
    "returnDate": "2026-10-16",
    "injury": "Hip"
+  },
+  {
+   "name": "Miles Bridges",
+   "team": "Phoenix Suns",
+   "status": "Day-To-Day",
+   "comment": "Bridges exited Wednesday's 124-117 preseason loss to the Bulls with a right ankle injury and did not return, Duane Rankin of The Arizona Republic reports.",
+   "date": "2026-10-08T05:12Z",
+   "returnDate": "2026-10-10",
+   "injury": "Ankle"
   },
   {
    "name": "Mark Williams",
@@ -848,6 +830,15 @@
    "injury": "Foot"
   },
   {
+   "name": "Jusuf Nurkic",
+   "team": "Utah Jazz",
+   "status": "Out",
+   "comment": "Nurkic will miss at least the next four weeks due to a partial plantar plate tear of second toe in right foot, Chris Haynes of NBA TV reports.",
+   "date": "2026-10-07T23:07Z",
+   "returnDate": "2026-11-04",
+   "injury": "Foot"
+  },
+  {
    "name": "Lauri Markkanen",
    "team": "Utah Jazz",
    "status": "Day-To-Day",
@@ -864,15 +855,6 @@
    "date": "2026-10-07T00:28Z",
    "returnDate": "2026-10-12",
    "injury": "Hip"
-  },
-  {
-   "name": "Jusuf Nurkic",
-   "team": "Utah Jazz",
-   "status": "Day-To-Day",
-   "comment": "Nurkic (foot) is listed as out for Tuesday's preseason game against Denver.",
-   "date": "2026-10-07T00:23Z",
-   "returnDate": "2026-10-12",
-   "injury": "Foot"
   },
   {
    "name": "Kyle Filipowski",
@@ -913,6 +895,92 @@
  ],
  "articles": [
   {
+   "headline": "Golden State Warriors vs. Portland Trail Blazers: Game Highlights",
+   "description": "Golden State Warriors vs. Portland Trail Blazers: Game Highlights",
+   "published": "2026-10-08T05:05:47Z",
+   "url": "https://www.espn.com/video/clip/_/id/50130536/game-highlights",
+   "athletes": [
+    "Deni Avdija",
+    "Ja Morant",
+    "Miles Kelly",
+    "Micah Potter",
+    "Damian Lillard"
+   ]
+  },
+  {
+   "headline": "Tyrese Haliburton scores 7 in 1st game in more than 16 months",
+   "description": "Pacers star Tyrese Haliburton scored seven points during his 16 minutes of action against the Wolves on Wednesday. It was his first game in more than 16 months, as Haliburton was recovering from a torn Achilles.",
+   "published": "2026-10-08T03:57:18Z",
+   "url": "https://www.espn.com/nba/story/_/id/50130092/tyrese-haliburton-scores-7-1st-game-more-16-months",
+   "athletes": [
+    "Tyrese Haliburton"
+   ]
+  },
+  {
+   "headline": "Phoenix Suns vs. Chicago Bulls: Game Highlights",
+   "description": "Phoenix Suns vs. Chicago Bulls: Game Highlights",
+   "published": "2026-10-08T03:30:26Z",
+   "url": "https://www.espn.com/video/clip/_/id/50129923/game-highlights",
+   "athletes": [
+    "Caleb Wilson",
+    "Patrick Williams",
+    "Dillon Brooks"
+   ]
+  },
+  {
+   "headline": "Milwaukee Bucks vs. Oklahoma City Thunder: Game Highlights",
+   "description": "Milwaukee Bucks vs. Oklahoma City Thunder: Game Highlights",
+   "published": "2026-10-08T03:33:27Z",
+   "url": "https://www.espn.com/video/clip/_/id/50129886/game-highlights",
+   "athletes": [
+    "Jaime Jaquez Jr",
+    "Myles Turner",
+    "Aday Mara",
+    "Cormac Ryan"
+   ]
+  },
+  {
+   "headline": "Orlando Magic vs. Memphis Grizzlies: Game Highlights",
+   "description": "Orlando Magic vs. Memphis Grizzlies: Game Highlights",
+   "published": "2026-10-08T03:33:45Z",
+   "url": "https://www.espn.com/video/clip/_/id/50129878/game-highlights",
+   "athletes": [
+    "Jamal Cain",
+    "Tristan da Silva",
+    "Ty Jerome",
+    "Kevin Knox II",
+    "Franz Wagner",
+    "Wendell Carter Jr"
+   ]
+  },
+  {
+   "headline": "Minnesota Timberwolves vs. Indiana Pacers: Game Highlights",
+   "description": "Minnesota Timberwolves vs. Indiana Pacers: Game Highlights",
+   "published": "2026-10-08T01:49:43Z",
+   "url": "https://www.espn.com/video/clip/_/id/50129245/game-highlights",
+   "athletes": [
+    "Quenton Jackson",
+    "Jarace Walker",
+    "Jonathan Kuminga",
+    "Cody Williams",
+    "Anthony Edwards"
+   ]
+  },
+  {
+   "headline": "NBA preseason buzz: Latest on trades, news and intel",
+   "description": "The NBA regular season is just a few weeks away, and we're tracking all the news, deals, and trades across the league.",
+   "published": "2026-10-07T23:14:23Z",
+   "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+   "athletes": []
+  },
+  {
+   "headline": "Buss siblings formally file against Jeanie over Lakers sale",
+   "description": "The five Buss siblings attempting to sell the family's remaining shares in the Lakers officially filed their case against acting governor Jeanie Buss.",
+   "published": "2026-10-07T23:29:41Z",
+   "url": "https://www.espn.com/nba/story/_/id/50128244/buss-siblings-formally-file-jeanie-lakers-sale",
+   "athletes": []
+  },
+  {
    "headline": "Trail Blazers' Dundon says he intends to bring title to Portland",
    "description": "New Trail Blazers owner Tom Dundon told season-ticket holders he intends to bring a championship to Portland.",
    "published": "2026-10-07T21:59:02Z",
@@ -929,21 +997,14 @@
    ]
   },
   {
-   "headline": "Mike Breen apologizes after LeBron James refutes Embiid story",
+   "headline": "Mike Breen apologizes after LeBron James disputes Embiid story",
    "description": "Broadcaster Mike Breen apologized Wednesday for the reaction to a story he shared about LeBron James calling out Joel Embiid for showing up late, a story James has since disputed.",
-   "published": "2026-10-07T20:58:30Z",
+   "published": "2026-10-08T00:01:26Z",
    "url": "https://www.espn.com/nba/story/_/id/50127138/mike-breen-apologizes-lebron-james-refutes-embiid-story",
    "athletes": [
     "LeBron James",
     "Joel Embiid"
    ]
-  },
-  {
-   "headline": "NBA preseason buzz: Latest on trades, news and intel",
-   "description": "The NBA regular season is just a few weeks away, and we're tracking all the news, deals, and trades across the league.",
-   "published": "2026-10-07T14:55:46Z",
-   "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-   "athletes": []
   },
   {
    "headline": "United grind out much needed win",
@@ -1343,95 +1404,6 @@
    "athletes": [
     "Bam Adebayo",
     "Giannis Antetokounmpo"
-   ]
-  },
-  {
-   "headline": "Shams breaks down how Jalen Duren's new deal with Pistons came to be",
-   "description": "Shams breaks down how Jalen Duren's new deal with Pistons came to be",
-   "published": "2026-10-02T20:07:10Z",
-   "url": "https://www.espn.com/video/clip/_/id/50086093/shams-breaks-how-jalen-duren-new-deal-pistons-came-be",
-   "athletes": [
-    "Jalen Duren"
-   ]
-  },
-  {
-   "headline": "Miami Heat announce 'A Night in Vice City' theme ahead of GTA VI release",
-   "description": "With Grand Theft Auto VI's long-awaited release date set for Nov. 19, the Heat are partnering with Rockstar Games to offer a topical lead-up event the night before.",
-   "published": "2026-10-02T18:38:51Z",
-   "url": "https://www.espn.com/nba/story/_/id/50085674/miami-heat-night-vice-city-game",
-   "athletes": []
-  },
-  {
-   "headline": "Trail Blazers fire new announcer over past inappropriate posts",
-   "description": "The Trail Blazers hired then on the same day fired Braiden Bell as their play-by-play announcer after a series of inappropriate social media posts from when he was a teenager came to light.",
-   "published": "2026-10-02T23:31:13Z",
-   "url": "https://www.espn.com/nba/story/_/id/50084279/trail-blazers-fire-new-announcer-inappropriate-posts",
-   "athletes": []
-  },
-  {
-   "headline": "Where NBA expansion stands ahead of the 2026-27 season",
-   "description": "As NBA training camps begin for 30 teams, here's the latest intel on the potential for the 31st and 32nd teams.",
-   "published": "2026-10-03T00:04:41Z",
-   "url": "https://www.espn.com/nba/story/_/id/50079137/nba-expansion-las-vegas-seattle",
-   "athletes": []
-  },
-  {
-   "headline": "Fantasy basketball draft guide: Rankings, mock drafts, sleepers, projections and analysis",
-   "description": "We've got everything you need to help you prepare for and execute a successful draft, all in one place.",
-   "published": "2026-10-06T21:59:26Z",
-   "url": "https://www.espn.com/fantasy/basketball/story/_/id/50075156/fantasy-basketball-draft-guide-rankings-mock-drafts-sleepers-projections-analysis",
-   "athletes": []
-  },
-  {
-   "headline": "2026 NBA free agency: Grades for offseason signings, extensions",
-   "description": "We're grading the biggest free agent signings and extensions, including Jalen Duren's new five-year deal.",
-   "published": "2026-10-02T05:05:14Z",
-   "url": "https://www.espn.com/nba/story/_/id/48957095/2026-nba-free-agency-grades-offseason-signings-deals-contracts-extensions-depth-charts",
-   "athletes": [
-    "Trae Young",
-    "Austin Reaves",
-    "Mark Williams",
-    "CJ McCollum",
-    "Coby White",
-    "Al Horford",
-    "Jose Alvarado",
-    "Andrew Wiggins",
-    "Julian Champagnie",
-    "Jusuf Nurkic",
-    "Ousmane Dieng",
-    "Tim Hardaway Jr",
-    "Keon Ellis",
-    "Luke Kennard",
-    "Dean Wade",
-    "Marcus Smart",
-    "Norman Powell",
-    "Sandro Mamukelashvili",
-    "Quentin Grimes",
-    "Collin Sexton",
-    "De'Anthony Melton",
-    "Mitchell Robinson",
-    "Anfernee Simons",
-    "Tari Eason",
-    "Victor Wembanyama",
-    "Naji Marshall",
-    "James Harden",
-    "Klay Thompson",
-    "DeMar DeRozan",
-    "Bennedict Mathurin",
-    "Jonathan Kuminga",
-    "Amen Thompson",
-    "Saddiq Bey",
-    "Pelle Larsson",
-    "Kawhi Leonard"
-   ]
-  },
-  {
-   "headline": "Jalen Duren accepts 5-year, $200M deal from Pistons",
-   "description": "Jalen Duren agreed to a five-year, $200 million fully guaranteed contract to return to the Pistons, agent Chafie Fields told ESPN's Shams Charania ahead of a Thursday night deadline the All-NBA center had to accept a 1-year qualifying offer.",
-   "published": "2026-10-02T20:11:47Z",
-   "url": "https://www.espn.com/nba/story/_/id/50081576/jalen-duren-accepts-5-year-200m-deal-pistons-agent-says",
-   "athletes": [
-    "Jalen Duren"
    ]
   }
  ]
