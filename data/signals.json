@@ -59,8 +59,9 @@
    },
    "summary": "is or will be on a minutes restriction in games (being limited in practice or held out of a practice does not count); the team will rest the player on back-to-backs or manage his load",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-07"
+   "status": "handled",
+   "firstSeen": "2026-10-07",
+   "handledNote": "skipped: preseason-only limit/rest"
   },
   {
    "id": "injury:e8c857191454",
@@ -77,8 +78,9 @@
    },
    "summary": "is or will be on a minutes restriction in games (being limited in practice or held out of a practice does not count)",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-07"
+   "status": "handled",
+   "firstSeen": "2026-10-07",
+   "handledNote": "skipped: preseason-only limit"
   },
   {
    "id": "injury:a4e132cc44a3",
@@ -95,8 +97,9 @@
    },
    "summary": "is expected to come off the bench or has lost his starting job",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-07"
+   "status": "handled",
+   "firstSeen": "2026-10-07",
+   "handledNote": "skipped: one preseason game"
   },
   {
    "id": "outlook:93085015339d",
