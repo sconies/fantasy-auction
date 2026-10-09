@@ -39,8 +39,9 @@
    },
    "summary": "is recovering or returning from a significant injury or surgery",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-08"
+   "status": "handled",
+   "firstSeen": "2026-10-08",
+   "handledNote": "skipped: preseason game, no stated restriction; projection already prices recovery"
   },
   {
    "id": "outlook:93085015339d",
@@ -1607,8 +1608,9 @@
    "date": "2026-10-08",
    "summary": "Depth chart PG #2 → SG #1",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-08"
+   "status": "handled",
+   "firstSeen": "2026-10-08",
+   "handledNote": "skipped: already ~27.5 min, label change only"
   },
   {
    "id": "depth:3995:2026-10-08:SG #2",
@@ -1619,8 +1621,9 @@
    "date": "2026-10-08",
    "summary": "Depth chart SG #1 → SG #2",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-08"
+   "status": "handled",
+   "firstSeen": "2026-10-08",
+   "handledNote": "skipped: label change, ~28 min unchanged"
   },
   {
    "id": "depth:4683678:2026-10-08:PG #3",
@@ -1643,8 +1646,9 @@
    "date": "2026-10-08",
    "summary": "Depth chart SG #2 → SF #1",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-08"
+   "status": "handled",
+   "firstSeen": "2026-10-08",
+   "handledNote": "skipped: already starter-level 26.7 min"
   },
   {
    "id": "depth:3102530:2026-10-08:C #6",
@@ -1655,8 +1659,9 @@
    "date": "2026-10-08",
    "summary": "Depth chart C #1 → C #6",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-08"
+   "status": "handled",
+   "firstSeen": "2026-10-08",
+   "handledNote": "handled by injury proposal (Nurkic out 4+ weeks)"
   },
   {
    "id": "injury:d525c6c27238",
@@ -1673,8 +1678,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-08"
+   "status": "handled",
+   "firstSeen": "2026-10-08",
+   "handledNote": "handled automatically by injury proposal"
   },
   {
    "id": "headline:af45de00a6e3",
@@ -1768,8 +1774,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-08"
+   "status": "handled",
+   "firstSeen": "2026-10-08",
+   "handledNote": "handled automatically by injury proposal"
   },
   {
    "id": "injury:87902bdf3ed9",
