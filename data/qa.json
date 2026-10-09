@@ -1,25 +1,25 @@
 {
- "builtAt": "2026-10-09T09:51:16.298Z",
+ "builtAt": "2026-10-09T21:49:11.839Z",
  "counts": {
   "players": 426,
   "espnProjected": 348,
-  "fantasyPros": 266,
-  "depthChartPlayers": 528,
+  "fantasyPros": 265,
+  "depthChartPlayers": 527,
   "blended": 310,
   "espnOnly": 38,
   "modelOnly": 78,
-  "flagged": 95,
+  "flagged": 94,
   "newTeam": 126
  },
  "top200MissingFantasyPros": [
-  "Khaman Maluach",
   "Bronny James",
   "Maxime Raynaud",
   "Alex Caruso",
+  "Walter Clayton Jr.",
   "GG Jackson",
   "Brayden Burries"
  ],
  "top200MissingDepth": [],
- "starters": 150,
+ "starters": 149,
  "problems": []
 }

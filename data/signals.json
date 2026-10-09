@@ -1,8 +1,8 @@
 {
- "builtAt": "2026-10-09T09:51:16.381Z",
+ "builtAt": "2026-10-09T21:49:11.926Z",
  "counts": {
-  "new": 1,
-  "toJudge": 1
+  "new": 6,
+  "toJudge": 6
  },
  "signals": [
   {
@@ -193,6 +193,24 @@
    "firstSeen": "2026-10-06"
   },
   {
+   "id": "outlook:312c71a9b94d",
+   "kind": "outlook",
+   "playerId": "4432816",
+   "name": "LaMelo Ball",
+   "team": "MIN",
+   "date": "2026-10-09",
+   "source": "outlook",
+   "url": null,
+   "text": "After playing his first six seasons with the Hornets, Ball was traded this offseason to the Timberwolves. Ball, the No. 3 overall pick in the 2020 NBA draft will be joining Anthony Edwards, the No. 1 overall pick in the same draft, to form one of the most explosive backcourts in the NBA. Ball is a brilliant, creative offensive talent whose passes and long-range shot attempts often look haphazard e",
+   "flags": {
+    "new_team": 0.97
+   },
+   "summary": "changed teams (traded, signed or claimed) since last season",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-06"
+  },
+  {
    "id": "outlook:c0b7fabf60ad",
    "kind": "outlook",
    "playerId": "4277905",
@@ -306,24 +324,6 @@
    "firstSeen": "2026-10-06"
   },
   {
-   "id": "outlook:312c71a9b94d",
-   "kind": "outlook",
-   "playerId": "4432816",
-   "name": "LaMelo Ball",
-   "team": "MIN",
-   "date": "2026-10-09",
-   "source": "outlook",
-   "url": null,
-   "text": "After playing his first six seasons with the Hornets, Ball was traded this offseason to the Timberwolves. Ball, the No. 3 overall pick in the 2020 NBA draft will be joining Anthony Edwards, the No. 1 overall pick in the same draft, to form one of the most explosive backcourts in the NBA. Ball is a brilliant, creative offensive talent whose passes and long-range shot attempts often look haphazard e",
-   "flags": {
-    "new_team": 0.97
-   },
-   "summary": "changed teams (traded, signed or claimed) since last season",
-   "judge": false,
-   "status": "info",
-   "firstSeen": "2026-10-06"
-  },
-  {
    "id": "outlook:43b379960365",
    "kind": "outlook",
    "playerId": "6583",
@@ -356,6 +356,26 @@
     "role_down": 0.77
    },
    "summary": "the player's role, minutes or opportunity should shrink compared with last season",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "outlook:548c83ca5fbf",
+   "kind": "outlook",
+   "playerId": "4066457",
+   "name": "Austin Reaves",
+   "team": "LAL",
+   "date": "2026-10-09",
+   "source": "outlook",
+   "url": null,
+   "text": "Reaves made a star leap last season, proving that he had the capacity to produce major numbers when given the opportunity to. With LeBron James no longer on the Lakers' roster, Reaves now slots as the full-time second option on the team behind Luka Doncic with major upside whenever Doncic is out of the lineup. In four games when both Doncic and James were out of the lineup last season, Reaves aver",
+   "flags": {
+    "role_up": 0.91,
+    "opening": 0.97,
+    "usage_up": 0.71
+   },
+   "summary": "the player's role, minutes or opportunity should grow compared with last season; a teammate's absence or departure opens up opportunity for the player; should take on a bigger scoring or offensive load (more shots or touches)",
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
@@ -455,26 +475,6 @@
    "firstSeen": "2026-10-06"
   },
   {
-   "id": "outlook:548c83ca5fbf",
-   "kind": "outlook",
-   "playerId": "4066457",
-   "name": "Austin Reaves",
-   "team": "LAL",
-   "date": "2026-10-09",
-   "source": "outlook",
-   "url": null,
-   "text": "Reaves made a star leap last season, proving that he had the capacity to produce major numbers when given the opportunity to. With LeBron James no longer on the Lakers' roster, Reaves now slots as the full-time second option on the team behind Luka Doncic with major upside whenever Doncic is out of the lineup. In four games when both Doncic and James were out of the lineup last season, Reaves aver",
-   "flags": {
-    "role_up": 0.91,
-    "opening": 0.97,
-    "usage_up": 0.71
-   },
-   "summary": "the player's role, minutes or opportunity should grow compared with last season; a teammate's absence or departure opens up opportunity for the player; should take on a bigger scoring or offensive load (more shots or touches)",
-   "judge": false,
-   "status": "info",
-   "firstSeen": "2026-10-06"
-  },
-  {
    "id": "outlook:c4145f566787",
    "kind": "outlook",
    "playerId": "3917376",
@@ -530,6 +530,25 @@
     "crowded": 0.97
    },
    "summary": "the player's role, minutes or opportunity should shrink compared with last season; changed teams (traded, signed or claimed) since last season; the team added players who could take the player's shots or minutes",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "outlook:b2beaa9199bb",
+   "kind": "outlook",
+   "playerId": "4396971",
+   "name": "Naz Reid",
+   "team": "CHA",
+   "date": "2026-10-09",
+   "source": "outlook",
+   "url": null,
+   "text": "Reid was the 2024-25 NBA Sixth Man of the Year and has been a metronome of consistent production for the last three seasons with the Timberwolves, averaging a rounded 14 points, 6 rebounds, 2 3-pointers and 2 combined blocks and steals. After being traded this summer, Reid may get starter minutes for the Hornets. If so, he has top-50 upside in category leagues.",
+   "flags": {
+    "role_up": 0.87,
+    "new_team": 0.97
+   },
+   "summary": "the player's role, minutes or opportunity should grow compared with last season; changed teams (traded, signed or claimed) since last season",
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
@@ -628,6 +647,24 @@
    "firstSeen": "2026-10-06"
   },
   {
+   "id": "news:63bd3fde3e87",
+   "kind": "text",
+   "playerId": "6442",
+   "name": "Kyrie Irving",
+   "team": "DAL",
+   "date": "2026-10-09",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/613022/kyrie-irving-suffered-calf-strain-december-recovering-from-torn-acl.php",
+   "text": "Kyrie Irving suffered calf strain in December recovering from torn ACL Kyrie Irving suffered a calf strain in December while recovering from a torn left ACL.  Fantasy Impact: It explains why Irving did not return last season. He will be good to go for the start of this season.",
+   "flags": {
+    "recovering": 0.98
+   },
+   "summary": "is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-09"
+  },
+  {
    "id": "outlook:71e5a75654d1",
    "kind": "outlook",
    "playerId": "6442",
@@ -669,43 +706,21 @@
    "firstSeen": "2026-10-06"
   },
   {
-   "id": "outlook:b2beaa9199bb",
+   "id": "outlook:19b8975ee9f0",
    "kind": "outlook",
-   "playerId": "4396971",
-   "name": "Naz Reid",
-   "team": "CHA",
+   "playerId": "4065733",
+   "name": "Ty Jerome",
+   "team": "MEM",
    "date": "2026-10-09",
    "source": "outlook",
    "url": null,
-   "text": "Reid was the 2024-25 NBA Sixth Man of the Year and has been a metronome of consistent production for the last three seasons with the Timberwolves, averaging a rounded 14 points, 6 rebounds, 2 3-pointers and 2 combined blocks and steals. After being traded this summer, Reid may get starter minutes for the Hornets. If so, he has top-50 upside in category leagues.",
+   "text": "Jerome was limited by injury to only 15 games last season, but what he accomplished in those games was startling. He averaged a rounded 20 points, 6 assists and 3 3-pointers in only 23 minutes per game. Jerome should be in for a larger role for the Grizzlies this season after Ja Morant was traded away. If he can approach his per-minute production with more minutes, he has top-50 fantasy upside.",
    "flags": {
-    "role_up": 0.87,
-    "new_team": 0.97
+    "role_up": 0.98,
+    "opening": 0.98,
+    "usage_up": 0.83
    },
-   "summary": "the player's role, minutes or opportunity should grow compared with last season; changed teams (traded, signed or claimed) since last season",
-   "judge": false,
-   "status": "info",
-   "firstSeen": "2026-10-06"
-  },
-  {
-   "id": "outlook:b808f31d6115",
-   "kind": "outlook",
-   "playerId": "3913176",
-   "name": "Brandon Ingram",
-   "team": "LAC",
-   "date": "2026-10-09",
-   "source": "outlook",
-   "url": null,
-   "text": "Ingram had surgery on his foot/heel during the offseason, then was traded to the LA Clippers in exchange for Kawhii Leonard. He will miss the start of the season recovering from the surgery but no return timeline has been announced. When fully healthy, Ingram projects as the leading scorer on a Clippers team devoid of experienced scorers. He should get more volume than he ever has and could genera",
-   "flags": {
-    "absence": 0.96,
-    "recovering": 0.97,
-    "role_up": 0.93,
-    "new_team": 0.96,
-    "opening": 0.77,
-    "usage_up": 0.97
-   },
-   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery; the player's role, minutes or opportunity should grow compared with last season; changed teams (traded, signed or claimed) since last season; a teammate's absence or departure opens up opportunity for the player; should take on a bigger scoring or offensive load (more shots or touches)",
+   "summary": "the player's role, minutes or opportunity should grow compared with last season; a teammate's absence or departure opens up opportunity for the player; should take on a bigger scoring or offensive load (more shots or touches)",
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
@@ -918,21 +933,40 @@
    "firstSeen": "2026-10-06"
   },
   {
-   "id": "outlook:19b8975ee9f0",
+   "id": "outlook:71aa9ed96e48",
    "kind": "outlook",
-   "playerId": "4065733",
-   "name": "Ty Jerome",
-   "team": "MEM",
+   "playerId": "4017837",
+   "name": "Ivica Zubac",
+   "team": "IND",
    "date": "2026-10-09",
    "source": "outlook",
    "url": null,
-   "text": "Jerome was limited by injury to only 15 games last season, but what he accomplished in those games was startling. He averaged a rounded 20 points, 6 assists and 3 3-pointers in only 23 minutes per game. Jerome should be in for a larger role for the Grizzlies this season after Ja Morant was traded away. If he can approach his per-minute production with more minutes, he has top-50 fantasy upside.",
+   "text": "Zubac was traded to the Pacers at midseason, but was already dealing with injuries that nagged him for the rest of the campaign. Prior to the injury, while with the Clippers, Zubac was continuing his breakout play from the season before as a dominant rebounder and plus scorer with solid peripheral numbers. Now healthy, Zubac should return to that level while with the Pacers. He will have the added",
    "flags": {
-    "role_up": 0.98,
-    "opening": 0.98,
-    "usage_up": 0.83
+    "recovering": 0.76,
+    "new_team": 0.95
    },
-   "summary": "the player's role, minutes or opportunity should grow compared with last season; a teammate's absence or departure opens up opportunity for the player; should take on a bigger scoring or offensive load (more shots or touches)",
+   "summary": "is recovering or returning from a significant injury or surgery; changed teams (traded, signed or claimed) since last season",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "outlook:a88f7810e87d",
+   "kind": "outlook",
+   "playerId": "4279888",
+   "name": "Ja Morant",
+   "team": "POR",
+   "date": "2026-10-09",
+   "source": "outlook",
+   "url": null,
+   "text": "Morant is an enigma. Once considered a future face of the league, off-court issues and injuries derailed his last few seasons with the Grizzlies and ultimately led to his offseason trade to the Trail Blazers. Morant is now one of four high level lead guards on the team, including Damian Lillard, Jrue Holiday and Scoot Henderson. Morant may get fewer than his typical minutes and usage, which caps h",
+   "flags": {
+    "role_down": 0.89,
+    "new_team": 0.98,
+    "crowded": 0.88
+   },
+   "summary": "the player's role, minutes or opportunity should shrink compared with last season; changed teams (traded, signed or claimed) since last season; the team added players who could take the player's shots or minutes",
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
@@ -952,6 +986,44 @@
     "opening": 0.95
    },
    "summary": "is expected to start or has been named a starter; a teammate's absence or departure opens up opportunity for the player",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "outlook:c0fe4e3b326a",
+   "kind": "outlook",
+   "playerId": "5105623",
+   "name": "Kel'el Ware",
+   "team": "MIL",
+   "date": "2026-10-09",
+   "source": "outlook",
+   "url": null,
+   "text": "Ware is a prime breakout candidate this season after he was traded to the Bucks as part of the package for Giannis Antetokounmpo. Ware averaged almost a double-double with a 3-pointer, block and steal in about 22 MPG for the Heat last season. His role is expected to be larger in Milwaukee, where he could get near starter minutes in a big man rotation that includes another big with scoring range in",
+   "flags": {
+    "role_up": 0.97,
+    "new_team": 0.98
+   },
+   "summary": "the player's role, minutes or opportunity should grow compared with last season; changed teams (traded, signed or claimed) since last season",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "outlook:126a0c69b3f7",
+   "kind": "outlook",
+   "playerId": "5124612",
+   "name": "VJ Edgecombe",
+   "team": "PHI",
+   "date": "2026-10-09",
+   "source": "outlook",
+   "url": null,
+   "text": "Edgecombe turned in an electric rookie season that established him as an impact player in the NBA. But the 76ers brought in several high level wings this offseason, including LeBron James and Jaylen Brown, that could put a ceiling on Edgecombe's upside. He demonstrated the ability to be a 20/5/5 type player with good 3-pointer and defensive numbers, but as the fourth or fifth option on a loaded 76",
+   "flags": {
+    "role_down": 0.81,
+    "crowded": 0.84
+   },
+   "summary": "the player's role, minutes or opportunity should shrink compared with last season; the team added players who could take the player's shots or minutes",
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
@@ -1009,25 +1081,6 @@
     "new_team": 0.99
    },
    "summary": "is expected to start or has been named a starter; changed teams (traded, signed or claimed) since last season",
-   "judge": false,
-   "status": "info",
-   "firstSeen": "2026-10-06"
-  },
-  {
-   "id": "outlook:71aa9ed96e48",
-   "kind": "outlook",
-   "playerId": "4017837",
-   "name": "Ivica Zubac",
-   "team": "IND",
-   "date": "2026-10-09",
-   "source": "outlook",
-   "url": null,
-   "text": "Zubac was traded to the Pacers at midseason, but was already dealing with injuries that nagged him for the rest of the campaign. Prior to the injury, while with the Clippers, Zubac was continuing his breakout play from the season before as a dominant rebounder and plus scorer with solid peripheral numbers. Now healthy, Zubac should return to that level while with the Pacers. He will have the added",
-   "flags": {
-    "recovering": 0.76,
-    "new_team": 0.95
-   },
-   "summary": "is recovering or returning from a significant injury or surgery; changed teams (traded, signed or claimed) since last season",
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
@@ -1093,45 +1146,6 @@
    "firstSeen": "2026-10-06"
   },
   {
-   "id": "outlook:a88f7810e87d",
-   "kind": "outlook",
-   "playerId": "4279888",
-   "name": "Ja Morant",
-   "team": "POR",
-   "date": "2026-10-09",
-   "source": "outlook",
-   "url": null,
-   "text": "Morant is an enigma. Once considered a future face of the league, off-court issues and injuries derailed his last few seasons with the Grizzlies and ultimately led to his offseason trade to the Trail Blazers. Morant is now one of four high level lead guards on the team, including Damian Lillard, Jrue Holiday and Scoot Henderson. Morant may get fewer than his typical minutes and usage, which caps h",
-   "flags": {
-    "role_down": 0.89,
-    "new_team": 0.98,
-    "crowded": 0.88
-   },
-   "summary": "the player's role, minutes or opportunity should shrink compared with last season; changed teams (traded, signed or claimed) since last season; the team added players who could take the player's shots or minutes",
-   "judge": false,
-   "status": "info",
-   "firstSeen": "2026-10-06"
-  },
-  {
-   "id": "outlook:126a0c69b3f7",
-   "kind": "outlook",
-   "playerId": "5124612",
-   "name": "VJ Edgecombe",
-   "team": "PHI",
-   "date": "2026-10-09",
-   "source": "outlook",
-   "url": null,
-   "text": "Edgecombe turned in an electric rookie season that established him as an impact player in the NBA. But the 76ers brought in several high level wings this offseason, including LeBron James and Jaylen Brown, that could put a ceiling on Edgecombe's upside. He demonstrated the ability to be a 20/5/5 type player with good 3-pointer and defensive numbers, but as the fourth or fifth option on a loaded 76",
-   "flags": {
-    "role_down": 0.81,
-    "crowded": 0.84
-   },
-   "summary": "the player's role, minutes or opportunity should shrink compared with last season; the team added players who could take the player's shots or minutes",
-   "judge": false,
-   "status": "info",
-   "firstSeen": "2026-10-06"
-  },
-  {
    "id": "outlook:4281a3dd94ad",
    "kind": "outlook",
    "playerId": "5037871",
@@ -1143,6 +1157,24 @@
    "text": "Harper turned in a promising rookie season, posting solid all-around numbers in 23 minutes per game. He stepped it up in the playoffs, enough so that he is expected to play closer to starter minutes in Year 2. In six starts last season, including the playoffs, Harper averaged a rounded 16 PPG, 5 RPG and 5 APG in 30 MPG.",
    "flags": {
     "role_up": 0.97
+   },
+   "summary": "the player's role, minutes or opportunity should grow compared with last season",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "outlook:8b8e935a29ae",
+   "kind": "outlook",
+   "playerId": "4869780",
+   "name": "Derik Queen",
+   "team": "NOP",
+   "date": "2026-10-09",
+   "source": "outlook",
+   "url": null,
+   "text": "The Pelicans made headlines on NBA draft night in 2025 when they traded an unprotected first round pick for Queen. Queen then went out and turned in an impressive rookie season with rounded averages of 12 PPG, 7 RPG and 4 APG in 25 MPG. While the Pelicans have several talented options in the frontcourt, Queen seems to be a big part of their future plans and thus could push for more minutes and opp",
+   "flags": {
+    "role_up": 0.93
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season",
    "judge": false,
@@ -1165,24 +1197,6 @@
     "new_team": 0.97
    },
    "summary": "is expected to come off the bench or has lost his starting job; the player's role, minutes or opportunity should shrink compared with last season; changed teams (traded, signed or claimed) since last season",
-   "judge": false,
-   "status": "info",
-   "firstSeen": "2026-10-06"
-  },
-  {
-   "id": "outlook:8b8e935a29ae",
-   "kind": "outlook",
-   "playerId": "4869780",
-   "name": "Derik Queen",
-   "team": "NOP",
-   "date": "2026-10-09",
-   "source": "outlook",
-   "url": null,
-   "text": "The Pelicans made headlines on NBA draft night in 2025 when they traded an unprotected first round pick for Queen. Queen then went out and turned in an impressive rookie season with rounded averages of 12 PPG, 7 RPG and 4 APG in 25 MPG. While the Pelicans have several talented options in the frontcourt, Queen seems to be a big part of their future plans and thus could push for more minutes and opp",
-   "flags": {
-    "role_up": 0.93
-   },
-   "summary": "the player's role, minutes or opportunity should grow compared with last season",
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
@@ -1322,25 +1336,6 @@
    "firstSeen": "2026-10-06"
   },
   {
-   "id": "outlook:c0fe4e3b326a",
-   "kind": "outlook",
-   "playerId": "5105623",
-   "name": "Kel'el Ware",
-   "team": "MIL",
-   "date": "2026-10-09",
-   "source": "outlook",
-   "url": null,
-   "text": "Ware is a prime breakout candidate this season after he was traded to the Bucks as part of the package for Giannis Antetokounmpo. Ware averaged almost a double-double with a 3-pointer, block and steal in about 22 MPG for the Heat last season. His role is expected to be larger in Milwaukee, where he could get near starter minutes in a big man rotation that includes another big with scoring range in",
-   "flags": {
-    "role_up": 0.97,
-    "new_team": 0.98
-   },
-   "summary": "the player's role, minutes or opportunity should grow compared with last season; changed teams (traded, signed or claimed) since last season",
-   "judge": false,
-   "status": "info",
-   "firstSeen": "2026-10-06"
-  },
-  {
    "id": "outlook:f59526de6ed9",
    "kind": "outlook",
    "playerId": "4431671",
@@ -1396,6 +1391,24 @@
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "news:09af7b5fddec",
+   "kind": "text",
+   "playerId": "3102531",
+   "name": "Kristaps Porzingis",
+   "team": "GSW",
+   "date": "2026-10-09",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/613021/kristaps-porzingis-undisclosed-has-been-contact-with-steve-kerr.php",
+   "text": "Kristaps Porzingis (undisclosed) has been in contact with Steve Kerr Warriors coach Steve Kerr says he has “been in contact with Kristaps Porziņģis.  Fantasy Impact: Porzingis has been away from the team due to an undisclosed illness. He remains remains without a clear timetable to return.",
+   "flags": {
+    "absence": 0.84
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-09"
   },
   {
    "id": "outlook:877827497293",
@@ -1526,19 +1539,24 @@
    "firstSeen": "2026-10-06"
   },
   {
-   "id": "outlook:4064f5c6cde9",
+   "id": "outlook:b808f31d6115",
    "kind": "outlook",
-   "playerId": "4594327",
-   "name": "Keegan Murray",
-   "team": "SAC",
+   "playerId": "3913176",
+   "name": "Brandon Ingram",
+   "team": "LAC",
    "date": "2026-10-09",
    "source": "outlook",
    "url": null,
-   "text": "Murray enters the season as Sacramento’s likely starting power forward after an injury-plagued fourth season. He averaged 14.0 PPG, 5.7 RPG and 1.6 BPG last season, but shot a career-low 27.7% from three. His defensive production gives him fantasy value even when the shot isn’t falling, while a return to his earlier shooting form would raise his ceiling considerably. Murray still has competition f",
+   "text": "Ingram had surgery on his foot/heel during the offseason, then was traded to the LA Clippers in exchange for Kawhii Leonard. He will miss the start of the season recovering from the surgery but no return timeline has been announced. When fully healthy, Ingram projects as the leading scorer on a Clippers team devoid of experienced scorers. He should get more volume than he ever has and could genera",
    "flags": {
-    "starter": 0.94
+    "absence": 0.96,
+    "recovering": 0.97,
+    "role_up": 0.93,
+    "new_team": 0.96,
+    "opening": 0.77,
+    "usage_up": 0.97
    },
-   "summary": "is expected to start or has been named a starter",
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery; the player's role, minutes or opportunity should grow compared with last season; changed teams (traded, signed or claimed) since last season; a teammate's absence or departure opens up opportunity for the player; should take on a bigger scoring or offensive load (more shots or touches)",
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
@@ -1562,6 +1580,24 @@
    "firstSeen": "2026-10-06"
   },
   {
+   "id": "outlook:4064f5c6cde9",
+   "kind": "outlook",
+   "playerId": "4594327",
+   "name": "Keegan Murray",
+   "team": "SAC",
+   "date": "2026-10-09",
+   "source": "outlook",
+   "url": null,
+   "text": "Murray enters the season as Sacramento’s likely starting power forward after an injury-plagued fourth season. He averaged 14.0 PPG, 5.7 RPG and 1.6 BPG last season, but shot a career-low 27.7% from three. His defensive production gives him fantasy value even when the shot isn’t falling, while a return to his earlier shooting form would raise his ceiling considerably. Murray still has competition f",
+   "flags": {
+    "starter": 0.94
+   },
+   "summary": "is expected to start or has been named a starter",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-06"
+  },
+  {
    "id": "outlook:4d987a96879b",
    "kind": "outlook",
    "playerId": "4432639",
@@ -1578,6 +1614,78 @@
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "depth:5105623:2026-10-09:PF #1",
+   "kind": "depth",
+   "playerId": "5105623",
+   "name": "Kel'el Ware",
+   "team": "MIL",
+   "date": "2026-10-09",
+   "summary": "Depth chart C #2 → PF #1",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-09"
+  },
+  {
+   "id": "depth:3134907:2026-10-09:PF #2",
+   "kind": "depth",
+   "playerId": "3134907",
+   "name": "Kyle Kuzma",
+   "team": "MIL",
+   "date": "2026-10-09",
+   "summary": "Depth chart PF #1 → PF #2",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-09"
+  },
+  {
+   "id": "depth:3907498:2026-10-09:SF #3",
+   "kind": "depth",
+   "playerId": "3907498",
+   "name": "Matisse Thybulle",
+   "team": "LAL",
+   "date": "2026-10-09",
+   "summary": "Depth chart PF #1 → SF #3",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-09"
+  },
+  {
+   "id": "depth:5164559:2026-10-09:PF #3",
+   "kind": "depth",
+   "playerId": "5164559",
+   "name": "Nate Ament",
+   "team": "MIL",
+   "date": "2026-10-09",
+   "summary": "Depth chart PF #2 → PF #3",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-09"
+  },
+  {
+   "id": "change:3913176:2026-10-09",
+   "kind": "change",
+   "playerId": "3913176",
+   "name": "Brandon Ingram",
+   "team": "LAC",
+   "date": "2026-10-09",
+   "summary": "games 65 → 56",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-09"
+  },
+  {
+   "id": "change:4066648:2026-10-09",
+   "kind": "change",
+   "playerId": "4066648",
+   "name": "Rui Hachimura",
+   "team": "LAC",
+   "date": "2026-10-09",
+   "summary": "minutes 26.8 → 28.9",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-09"
   },
   {
    "id": "headline:a0c7058923af",

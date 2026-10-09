@@ -119,6 +119,46 @@
    "to": "C #6",
    "promoted": false,
    "projectedMin": 22.06
+  },
+  {
+   "date": "2026-10-09",
+   "playerId": "5105623",
+   "name": "Kel'el Ware",
+   "team": "MIL",
+   "from": "C #2",
+   "to": "PF #1",
+   "promoted": true,
+   "projectedMin": 24.15
+  },
+  {
+   "date": "2026-10-09",
+   "playerId": "3134907",
+   "name": "Kyle Kuzma",
+   "team": "MIL",
+   "from": "PF #1",
+   "to": "PF #2",
+   "promoted": false,
+   "projectedMin": 24.78
+  },
+  {
+   "date": "2026-10-09",
+   "playerId": "3907498",
+   "name": "Matisse Thybulle",
+   "team": "LAL",
+   "from": "PF #1",
+   "to": "SF #3",
+   "promoted": false,
+   "projectedMin": 17.24
+  },
+  {
+   "date": "2026-10-09",
+   "playerId": "5164559",
+   "name": "Nate Ament",
+   "team": "MIL",
+   "from": "PF #2",
+   "to": "PF #3",
+   "promoted": false,
+   "projectedMin": 16.37
   }
  ]
 }

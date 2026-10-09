@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-09T09:51:13.390Z",
+ "fetchedAt": "2026-10-09T21:49:09.739Z",
  "injuries": [
   {
    "name": "Keshon Gilbert",
@@ -272,22 +272,49 @@
    "injury": "Ankle – Soreness"
   },
   {
-   "name": "Santi Aldama",
+   "name": "Marcus Sasser",
    "team": "Dallas Mavericks",
    "status": "Day-To-Day",
-   "comment": "Aldama (undisclosed) was limited during Saturday's practice, Noah Weber of TheSmokingCuban.com reported.",
-   "date": "2026-09-26T18:15Z",
-   "returnDate": "2026-10-09",
-   "injury": "Undisclosed"
+   "comment": "Sasser won't play in Friday's preseason game against the Rockets due to left adductor soreness.",
+   "date": "2026-10-09T12:11Z",
+   "returnDate": "2026-10-11",
+   "injury": "Hip"
+  },
+  {
+   "name": "P.J. Washington",
+   "team": "Dallas Mavericks",
+   "status": "Day-To-Day",
+   "comment": "Washington won't play in Friday's preseason game against the Rockets.",
+   "date": "2026-10-09T12:08Z",
+   "returnDate": "2026-10-11",
+   "injury": "Ankle – Sprain"
+  },
+  {
+   "name": "Caleb Martin",
+   "team": "Dallas Mavericks",
+   "status": "Day-To-Day",
+   "comment": "Martin won't play in Friday's preseason game against the Rocket due to an illness.",
+   "date": "2026-10-09T12:05Z",
+   "returnDate": "2026-10-11",
+   "injury": "Illness"
   },
   {
    "name": "Dereck Lively II",
    "team": "Dallas Mavericks",
    "status": "Day-To-Day",
-   "comment": "Mavericks president Masai Ujiri said Friday that Lively (foot) is \"making good progress\" in his recovery, Mike Curtis of The Dallas Morning News reports.",
-   "date": "2026-09-25T15:34Z",
-   "returnDate": "2026-10-09",
+   "comment": "Lively (foot) won't play in Friday's preseason game against the Rockets.",
+   "date": "2026-10-09T12:03Z",
+   "returnDate": "2026-10-11",
    "injury": "Foot – Surgery"
+  },
+  {
+   "name": "Santi Aldama",
+   "team": "Dallas Mavericks",
+   "status": "Day-To-Day",
+   "comment": "Aldama (knee) won't play in Friday's preseason game against the Rockets.",
+   "date": "2026-10-09T12:01Z",
+   "returnDate": "2026-10-11",
+   "injury": "Knee"
   },
   {
    "name": "Spencer Jones",
@@ -407,11 +434,20 @@
    "injury": "Knee – Surgery"
   },
   {
+   "name": "Kevin Durant",
+   "team": "Houston Rockets",
+   "status": "Day-To-Day",
+   "comment": "Durant will not play in Sunday's preseason rematch against Dallas, Varun Shankar of the Houston Chronicle reports. The forward finished Friday's preseason contest with 15 points (7-12 FG, 1-1 3Pt, 0-1 FT), two assists and one block in 23 minutes.",
+   "date": "2026-10-09T15:03Z",
+   "returnDate": "2026-10-15",
+   "injury": "Not Injury Related"
+  },
+  {
    "name": "Larry Nance Jr.",
    "team": "Indiana Pacers",
    "status": "Day-To-Day",
-   "comment": "Nance (hamstring) is out for Wednesday's preseason game against Minnesota, Tony East of Forbes.com reports.",
-   "date": "2026-10-07T22:45Z",
+   "comment": "Nance (hamstring) practiced Friday, per Tony East of Forbes.com.",
+   "date": "2026-10-09T18:20Z",
    "returnDate": "2026-10-10",
    "injury": "Hamstring"
   },
@@ -542,20 +578,20 @@
    "injury": "Undisclosed – Bruise"
   },
   {
+   "name": "Isaiah Stewart",
+   "team": "Memphis Grizzlies",
+   "status": "Day-To-Day",
+   "comment": "Stewart (ankle) didn't practice Friday, per Michael Wallace of the Grizzlies' official site.",
+   "date": "2026-10-09T18:38Z",
+   "returnDate": "2026-10-09",
+   "injury": "Ankle"
+  },
+  {
    "name": "Micah Peavy",
    "team": "Memphis Grizzlies",
    "status": "Day-To-Day",
    "comment": "Peavy (ankle) did not play in Wednesday's 122-118 preseason loss to the Magic.",
    "date": "2026-10-08T02:40Z",
-   "returnDate": "2026-10-09",
-   "injury": "Ankle"
-  },
-  {
-   "name": "Isaiah Stewart",
-   "team": "Memphis Grizzlies",
-   "status": "Day-To-Day",
-   "comment": "Stewart (ankle) didn't participate in Tuesday's practice and will not play in Wednesday's preseason game against the Magic, Michael Wallace of the Grizzlies' official site reports.",
-   "date": "2026-10-07T23:05Z",
    "returnDate": "2026-10-09",
    "injury": "Ankle"
   },
@@ -704,6 +740,15 @@
    "injury": "Heel"
   },
   {
+   "name": "Anthony Black",
+   "team": "Orlando Magic",
+   "status": "Day-To-Day",
+   "comment": "Black (ankle) was a full participant in Friday's practice, per Jason Beede of the Orlando Sentinel.",
+   "date": "2026-10-09T20:29Z",
+   "returnDate": "2026-10-11",
+   "injury": "Ankle – Sprain"
+  },
+  {
    "name": "Noah Penda",
    "team": "Orlando Magic",
    "status": "Day-To-Day",
@@ -711,15 +756,6 @@
    "date": "2026-10-07T23:40Z",
    "returnDate": "2026-10-11",
    "injury": "Hamstring"
-  },
-  {
-   "name": "Anthony Black",
-   "team": "Orlando Magic",
-   "status": "Day-To-Day",
-   "comment": "Black (ankle) has been ruled out for Wednesday's preseason game against the Grizzlies, Jason Beede of the Orlando Sentinel reports.",
-   "date": "2026-10-07T23:39Z",
-   "returnDate": "2026-10-11",
-   "injury": "Ankle – Sprain"
   },
   {
    "name": "Jalen Suggs",
@@ -797,8 +833,8 @@
    "name": "Miles Bridges",
    "team": "Phoenix Suns",
    "status": "Day-To-Day",
-   "comment": "Bridges exited Wednesday's 124-117 preseason loss to the Bulls with a right ankle injury and did not return, Duane Rankin of The Arizona Republic reports.",
-   "date": "2026-10-08T05:12Z",
+   "comment": "Head coach Jordan Ott said Friday that Bridges' X-rays came back negative, and he participated in Friday's practice, Duane Rankin of The Arizona Republic reports.",
+   "date": "2026-10-09T20:04Z",
    "returnDate": "2026-10-10",
    "injury": "Ankle"
   },
@@ -992,22 +1028,22 @@
    "injury": "Back"
   },
   {
-   "name": "Alex Sarr",
-   "team": "Washington Wizards",
-   "status": "Day-To-Day",
-   "comment": "Sarr (foot) won't play in Thursday's preseason game against the Knicks, Josh Robbins of The Athletic reports.",
-   "date": "2026-10-08T22:27Z",
-   "returnDate": "2026-10-10",
-   "injury": "Foot – Surgery"
-  },
-  {
    "name": "Khris Middleton",
    "team": "Washington Wizards",
    "status": "Day-To-Day",
-   "comment": "Middleton (rest) won't play in Thursday's preseason game against the Knicks, Josh Robbins of The Athletic reports.",
-   "date": "2026-10-08T22:22Z",
+   "comment": "Middleton (rest) is trending in the right direction for Saturday's preseason game against Detroit, per Josh Robbins of The Athletic.",
+   "date": "2026-10-09T17:08Z",
    "returnDate": "2026-10-10",
    "injury": "Rest"
+  },
+  {
+   "name": "Alex Sarr",
+   "team": "Washington Wizards",
+   "status": "Day-To-Day",
+   "comment": "Wizards head coach Brian Keefe said Friday that Sarr (foot) is trending in a positive direction regarding his availability, though his status for Saturday's preseason game remains uncertain, Josh Robbins of The Athletic reports.",
+   "date": "2026-10-09T17:08Z",
+   "returnDate": "2026-10-10",
+   "injury": "Foot – Surgery"
   },
   {
    "name": "Tristan Vukcevic",
@@ -1029,6 +1065,118 @@
   }
  ],
  "articles": [
+  {
+   "headline": "Fantasy basketball H2H Roto and Category rankings: Who is No. 1?",
+   "description": "Updated fantasy basketball rankings for roto and category leagues, with Tyrese Haliburton and Kyrie Irving back after a missed season.",
+   "published": "2026-10-09T21:16:09Z",
+   "url": "https://www.espn.com/fantasy/basketball/story/_/id/49959975/fantasy-basketball-roto-category-league-rankings-2026-27-nba-season",
+   "athletes": []
+  },
+  {
+   "headline": "Houston Rockets vs. Dallas Mavericks: Game Highlights",
+   "description": "Houston Rockets vs. Dallas Mavericks: Game Highlights",
+   "published": "2026-10-09T20:23:52Z",
+   "url": "https://www.espn.com/video/clip/_/id/50142464/game-highlights",
+   "athletes": [
+    "Tari Eason",
+    "Oscar Tshiebwe",
+    "Sergio de Larrea",
+    "Max Christie",
+    "Cooper Flagg"
+   ]
+  },
+  {
+   "headline": "Russell Westbrook wants to carry torch for L.A. Olympics",
+   "description": "Retired NBA player and Olympic gold medal winner Russell Westbrook said he wants to carry the torch when his native Los Angeles hosts the 2028 Games.",
+   "published": "2026-10-09T20:22:42Z",
+   "url": "https://www.espn.com/olympics/basketball/story/_/id/50142422/russell-westbrook-wants-carry-torch-la-olympics",
+   "athletes": []
+  },
+  {
+   "headline": "Tyrese Haliburton hopes to mend fences with Damian Lillard",
+   "description": "Tyrese Haliburton said he wishes his relationship with Damian Lillard could be repaired after the Pacers star stole Lillard's Dame Time celebration during the 2023 in-season tournament.",
+   "published": "2026-10-09T18:26:48Z",
+   "url": "https://www.espn.com/nba/story/_/id/50141686/tyrese-haliburton-hopes-mend-fences-damian-lillard",
+   "athletes": [
+    "Tyrese Haliburton",
+    "Damian Lillard"
+   ]
+  },
+  {
+   "headline": "'Very disrespectful!' Stephen A. slams James Dolan for tabling KAT, Hart contract talks",
+   "description": "'Very disrespectful!' Stephen A. slams James Dolan for tabling KAT, Hart contract talks",
+   "published": "2026-10-09T15:06:30Z",
+   "url": "https://www.espn.com/video/clip/_/id/50140615/very-disrespectful-stephen-slams-james-dolan-tabling-kat-hart-contract-talks",
+   "athletes": [
+    "Karl-Anthony Towns",
+    "Josh Hart"
+   ]
+  },
+  {
+   "headline": "NBA preseason buzz: Latest on trades, news and intel",
+   "description": "The NBA regular season is just a few weeks away, and we're tracking all the news, deals, and trades across the league.",
+   "published": "2026-10-09T14:56:46Z",
+   "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+   "athletes": []
+  },
+  {
+   "headline": "Evan Cohen perplexed by Knicks tabling contract talks with KAT, Hart",
+   "description": "Evan Cohen perplexed by Knicks tabling contract talks with KAT, Hart",
+   "published": "2026-10-09T14:14:29Z",
+   "url": "https://www.espn.com/video/clip/_/id/50140391/evan-cohen-perplexed-knicks-tabling-contract-talks-kat-hart",
+   "athletes": [
+    "Josh Hart",
+    "Karl-Anthony Towns"
+   ]
+  },
+  {
+   "headline": "Fantasy basketball points league rankings: Cade Cunningham, Jalen Johnson are first-rounders",
+   "description": "Updated fantasy basketball rankings for points leagues, with Cade Cunningham and Jalen Johnson starting the season higher than ever before.",
+   "published": "2026-10-09T13:48:38Z",
+   "url": "https://www.espn.com/fantasy/basketball/story/_/id/49960162/fantasy-basketball-points-league-rankings-2026-27-nba-season",
+   "athletes": []
+  },
+  {
+   "headline": "Knicks tabling Karl-Anthony Towns, Josh Hart contract talks",
+   "description": "The Knicks have said they are tabling contract extension talks with Karl-Anthony Towns and Josh Hart \"until later in the season and will remain solely focused on preparing for the start of the season.\"",
+   "published": "2026-10-09T15:41:06Z",
+   "url": "https://www.espn.com/nba/story/_/id/50140136/knicks-tabling-karl-anthony-towns-josh-hart-contract-talks",
+   "athletes": [
+    "Karl-Anthony Towns",
+    "Josh Hart"
+   ]
+  },
+  {
+   "headline": "Jalen Duren, Pistons need each other -- for better or worse",
+   "description": "After agreeing to a five-year, $200 million deal, how will Duren and Detroit move forward after a monthslong saga?",
+   "published": "2026-10-09T11:39:06Z",
+   "url": "https://www.espn.com/nba/story/_/id/50118254/detroit-pistons-jalen-duren-new-contract",
+   "athletes": [
+    "Jalen Duren",
+    "Cade Cunningham"
+   ]
+  },
+  {
+   "headline": "How to ace your salary cap draft: Tips and strategies to build a winning team",
+   "description": "Are you ready for your salary cap draft? Jim McCormick lays out helpful strategies and tactics you can use to ace draft day.",
+   "published": "2026-10-09T10:32:11Z",
+   "url": "https://www.espn.com/fantasy/basketball/story/_/id/50134524/fantasy-basketball-how-ace-your-salary-cap-draft-2026-2027",
+   "athletes": []
+  },
+  {
+   "headline": "Sacramento Kings vs. Los Angeles Lakers: Game Highlights",
+   "description": "Sacramento Kings vs. Los Angeles Lakers: Game Highlights",
+   "published": "2026-10-09T14:33:45Z",
+   "url": "https://www.espn.com/video/clip/_/id/50138055/game-highlights",
+   "athletes": [
+    "Emanuel Sharp",
+    "Zach LaVine",
+    "Luka Doncic",
+    "Jarred Vanderbilt",
+    "Precious Achiuwa",
+    "Daeqwon Plowden"
+   ]
+  },
   {
    "headline": "76ers' Embiid calls 'not true' LeBron report 'unfortunate'",
    "description": "Joel Embiid said a recent report about LeBron James getting on him about being late to practice \"is not true\" and caused him to wonder why he was targeted.",
@@ -1139,13 +1287,6 @@
    "description": "Eric Moody groups players into tiers by each position for category-based leagues.",
    "published": "2026-10-09T01:20:36Z",
    "url": "https://www.espn.com/fantasy/basketball/story/_/id/50134369/fantasy-basketball-category-league-draft-tiers-2026-27",
-   "athletes": []
-  },
-  {
-   "headline": "NBA preseason buzz: Latest on trades, news and intel",
-   "description": "The NBA regular season is just a few weeks away, and we're tracking all the news, deals, and trades across the league.",
-   "published": "2026-10-08T19:10:58Z",
-   "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
    "athletes": []
   },
   {
@@ -1440,122 +1581,6 @@
    "description": "The 76ers' thin frontcourt took a big blow Tuesday after an MRI confirmed backup center Ariel Hukporti suffered a torn right Achilles.",
    "published": "2026-10-08T11:15:33Z",
    "url": "https://www.espn.com/nba/story/_/id/50118908/76ers-lose-backup-center-ariel-hukporti-torn-achilles",
-   "athletes": [
-    "Ariel Hukporti"
-   ]
-  },
-  {
-   "headline": "Did you miss the NBA offseason? Here's what to know for fantasy basketball",
-   "description": "Jim McCormick highlights all the changes -- and other things to know -- heading into the new fantasy basketball season.",
-   "published": "2026-10-06T18:24:59Z",
-   "url": "https://www.espn.com/fantasy/basketball/story/_/id/50117976/fantasy-basketball-offseason-news-2026-2027",
-   "athletes": []
-  },
-  {
-   "headline": "Why Stephen A. trusts LeBron to be playoff-ready",
-   "description": "Why Stephen A. trusts LeBron to be playoff-ready",
-   "published": "2026-10-06T16:00:28Z",
-   "url": "https://www.espn.com/video/clip/_/id/50117250/why-stephen-trusts-lebron-playoff-ready",
-   "athletes": [
-    "LeBron James"
-   ]
-  },
-  {
-   "headline": "Stephen A. sounds off on James Dolan, Knicks for their handling of KAT negotiations",
-   "description": "Stephen A. sounds off on James Dolan, Knicks for their handling of KAT negotiations",
-   "published": "2026-10-06T15:22:05Z",
-   "url": "https://www.espn.com/video/clip/_/id/50117157/stephen-sounds-james-dolan-knicks-their-handling-kat-negotiations",
-   "athletes": [
-    "Karl-Anthony Towns",
-    "Jalen Brunson"
-   ]
-  },
-  {
-   "headline": "Predicting how new NBA lottery, anti-tanking rules will impact 2026-27 season",
-   "description": "How could the changes aimed at circumventing tanking likely affect on-court outcomes this season?",
-   "published": "2026-10-06T15:14:50Z",
-   "url": "https://www.espn.com/nba/story/_/id/50079138/nba-new-lottery-rules-tanking-predictions",
-   "athletes": []
-  },
-  {
-   "headline": "Both sides of the contract divide between Karl-Anthony Towns and the Knicks",
-   "description": "Karl-Anthony Towns and the Knicks are far apart on extension talks. ESPN insiders break down each side, plus project where this saga is headed.",
-   "published": "2026-10-06T18:37:19Z",
-   "url": "https://www.espn.com/nba/story/_/id/50112265/karl-anthony-towns-new-york-knicks-extension-talks-next",
-   "athletes": [
-    "Karl-Anthony Towns"
-   ]
-  },
-  {
-   "headline": "Los Angeles Lakers vs. Sacramento Kings: Game Highlights",
-   "description": "Los Angeles Lakers vs. Sacramento Kings: Game Highlights",
-   "published": "2026-10-06T05:13:35Z",
-   "url": "https://www.espn.com/video/clip/_/id/50114927/game-highlights",
-   "athletes": [
-    "Nique Clifford",
-    "Sandro Mamukelashvili",
-    "Quentin Grimes",
-    "Cameron Carr"
-   ]
-  },
-  {
-   "headline": "Minnesota Timberwolves vs. Milwaukee Bucks: Game Highlights",
-   "description": "Minnesota Timberwolves vs. Milwaukee Bucks: Game Highlights",
-   "published": "2026-10-06T03:20:59Z",
-   "url": "https://www.espn.com/video/clip/_/id/50114505/game-highlights",
-   "athletes": [
-    "Tyler Herro",
-    "Kevin Porter Jr",
-    "Antonio Reeves",
-    "Anthony Edwards",
-    "Joan Beringer"
-   ]
-  },
-  {
-   "headline": "Phoenix Suns vs. Detroit Pistons: Game Highlights",
-   "description": "Phoenix Suns vs. Detroit Pistons: Game Highlights",
-   "published": "2026-10-06T02:45:48Z",
-   "url": "https://www.espn.com/video/clip/_/id/50114231/game-highlights",
-   "athletes": [
-    "John Collins",
-    "Ronald Holland II",
-    "Jamaree Bouyea",
-    "Ebuka Okorie",
-    "Devin Booker"
-   ]
-  },
-  {
-   "headline": "Memphis Grizzlies vs. Atlanta Hawks: Game Highlights",
-   "description": "Memphis Grizzlies vs. Atlanta Hawks: Game Highlights",
-   "published": "2026-10-06T02:45:55Z",
-   "url": "https://www.espn.com/video/clip/_/id/50114093/game-highlights",
-   "athletes": [
-    "GG Jackson",
-    "Javon Small",
-    "Ty Jerome",
-    "Corey Kispert",
-    "Cameron Boozer"
-   ]
-  },
-  {
-   "headline": "New York Knicks vs. Philadelphia 76ers: Game Highlights",
-   "description": "New York Knicks vs. Philadelphia 76ers: Game Highlights",
-   "published": "2026-10-06T02:46:03Z",
-   "url": "https://www.espn.com/video/clip/_/id/50113916/game-highlights",
-   "athletes": [
-    "Caleb Love",
-    "Dillon Jones",
-    "Duke Miles",
-    "Jaylen Brown",
-    "Andre Drummond",
-    "Saint Thomas"
-   ]
-  },
-  {
-   "headline": "76ers backup center Ariel Hukporti exits preseason opener early",
-   "description": "Just five minutes into the preseason opener against the Knicks on Monday, 76ers backup center Ariel Hukporti suffered a right leg injury, causing him to leave the game.",
-   "published": "2026-10-06T03:16:14Z",
-   "url": "https://www.espn.com/nba/story/_/id/50113626/76ers-backup-center-ariel-hukporti-exits-preseason-opener-early",
    "athletes": [
     "Ariel Hukporti"
    ]
