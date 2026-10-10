@@ -20,8 +20,9 @@
    },
    "summary": "changed teams (traded, signed or claimed) since last season",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-09"
+   "status": "handled",
+   "firstSeen": "2026-10-09",
+   "handledNote": "skipped: preseason debut, PHI role already in projection"
   },
   {
    "id": "outlook:93085015339d",
@@ -661,8 +662,9 @@
    },
    "summary": "is recovering or returning from a significant injury or surgery",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-09"
+   "status": "handled",
+   "firstSeen": "2026-10-09",
+   "handledNote": "skipped: back for season start, already in projection"
   },
   {
    "id": "outlook:71e5a75654d1",
@@ -1407,8 +1409,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-09"
+   "status": "handled",
+   "firstSeen": "2026-10-09",
+   "handledNote": "skipped: illness with no timetable or ESPN date; injury proposal is automatic"
   },
   {
    "id": "outlook:877827497293",
@@ -1624,8 +1627,9 @@
    "date": "2026-10-09",
    "summary": "Depth chart C #2 → PF #1",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-09"
+   "status": "handled",
+   "firstSeen": "2026-10-09",
+   "handledNote": "skipped: position relabel, no minutes change"
   },
   {
    "id": "depth:3134907:2026-10-09:PF #2",
@@ -1636,8 +1640,9 @@
    "date": "2026-10-09",
    "summary": "Depth chart PF #1 → PF #2",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-09"
+   "status": "handled",
+   "firstSeen": "2026-10-09",
+   "handledNote": "skipped: position relabel, no minutes change"
   },
   {
    "id": "depth:3907498:2026-10-09:SF #3",
@@ -1648,8 +1653,9 @@
    "date": "2026-10-09",
    "summary": "Depth chart PF #1 → SF #3",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-09"
+   "status": "handled",
+   "firstSeen": "2026-10-09",
+   "handledNote": "skipped: position relabel, no minutes change"
   },
   {
    "id": "depth:5164559:2026-10-09:PF #3",
