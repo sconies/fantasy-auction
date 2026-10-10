@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-09T21:49:09.739Z",
+ "fetchedAt": "2026-10-10T09:15:18.934Z",
  "injuries": [
   {
    "name": "Keshon Gilbert",
@@ -209,31 +209,49 @@
    "injury": "Hamstring"
   },
   {
+   "name": "Matas Buzelis",
+   "team": "Chicago Bulls",
+   "status": "Day-To-Day",
+   "comment": "Buzelis exited to the locker room in the second quarter and will not return to Friday's preseason game against the Grizzlies due to a right ankle injury, K.C. Johnson of Chicago Sports Network reports. He'll finish with six points (3-6 FG, 0-2 3Pt) and one block in 12 minutes.",
+   "date": "2026-10-10T01:18Z",
+   "returnDate": "2026-10-11",
+   "injury": "Ankle"
+  },
+  {
+   "name": "Tre Jones",
+   "team": "Chicago Bulls",
+   "status": "Day-To-Day",
+   "comment": "Jones (hip) has been ruled out for Friday's preseason game against the Grizzlies, K.C. Johnson of Chicago Sports Network reports.",
+   "date": "2026-10-09T22:29Z",
+   "returnDate": "2026-10-11",
+   "injury": "Hip"
+  },
+  {
+   "name": "Jalen Smith",
+   "team": "Chicago Bulls",
+   "status": "Day-To-Day",
+   "comment": "Smith (foot) has been ruled out for Friday's preseason game against the Grizzlies, K.C. Johnson of Chicago Sports Network reports.",
+   "date": "2026-10-09T22:25Z",
+   "returnDate": "2026-10-11",
+   "injury": "Foot – Soreness"
+  },
+  {
    "name": "Zach Collins",
    "team": "Chicago Bulls",
    "status": "Day-To-Day",
-   "comment": "Collins (toe) won't play in Wednesday's preseason game against the Suns, K.C. Johnson of Chicago Sports Network reports.",
-   "date": "2026-10-07T22:53Z",
-   "returnDate": "2026-10-09",
+   "comment": "Collins (toe) won't play in Friday's preseason game against the Grizzlies, K.C. Johnson of Chicago Sports Network reports.",
+   "date": "2026-10-09T22:25Z",
+   "returnDate": "2026-10-11",
    "injury": "Toe – Surgery"
   },
   {
    "name": "Jaylin Sellers",
    "team": "Chicago Bulls",
    "status": "Day-To-Day",
-   "comment": "Sellers (back) won't play in Wednesday's preseason game against the Suns, Duane Rankin of The Arizona Republic reports.",
-   "date": "2026-10-07T22:33Z",
-   "returnDate": "2026-10-09",
+   "comment": "Sellers (back) won't play in Friday's preseason game against the Grizzlies, K.C. Johnson of Chicago Sports Network reports.",
+   "date": "2026-10-09T22:23Z",
+   "returnDate": "2026-10-11",
    "injury": "Back"
-  },
-  {
-   "name": "Tre Jones",
-   "team": "Chicago Bulls",
-   "status": "Day-To-Day",
-   "comment": "Jones won't play in Wednesday's preseason game against the Suns, Duane Rankin of The Arizona Republic reports.",
-   "date": "2026-10-07T22:32Z",
-   "returnDate": "2026-10-09",
-   "injury": "Hip"
   },
   {
    "name": "Nic Claxton",
@@ -578,21 +596,21 @@
    "injury": "Undisclosed – Bruise"
   },
   {
-   "name": "Isaiah Stewart",
-   "team": "Memphis Grizzlies",
-   "status": "Day-To-Day",
-   "comment": "Stewart (ankle) didn't practice Friday, per Michael Wallace of the Grizzlies' official site.",
-   "date": "2026-10-09T18:38Z",
-   "returnDate": "2026-10-09",
-   "injury": "Ankle"
-  },
-  {
    "name": "Micah Peavy",
    "team": "Memphis Grizzlies",
    "status": "Day-To-Day",
-   "comment": "Peavy (ankle) did not play in Wednesday's 122-118 preseason loss to the Magic.",
-   "date": "2026-10-08T02:40Z",
-   "returnDate": "2026-10-09",
+   "comment": "Peavy (ankle) did not see the floor in Friday's 104-100 preseason win over the Bulls.",
+   "date": "2026-10-10T02:41Z",
+   "returnDate": "2026-10-16",
+   "injury": "Ankle"
+  },
+  {
+   "name": "Isaiah Stewart",
+   "team": "Memphis Grizzlies",
+   "status": "Out",
+   "comment": "The Grizzlies announced Friday that Stewart (ankle) will miss at least two weeks.",
+   "date": "2026-10-09T23:01Z",
+   "returnDate": "2026-10-23",
    "injury": "Ankle"
   },
   {
@@ -947,6 +965,15 @@
    "injury": "Calf – Strain"
   },
   {
+   "name": "Kawhi Leonard",
+   "team": "Toronto Raptors",
+   "status": "Day-To-Day",
+   "comment": "Leonard (not injury related) won't suit up for Saturday's exhibition against the Clippers, Tomer Azarly of ClutchPoints.com reports.",
+   "date": "2026-10-09T23:32Z",
+   "returnDate": "2026-10-13",
+   "injury": "Not Injury Related"
+  },
+  {
    "name": "Trayce Jackson-Davis",
    "team": "Toronto Raptors",
    "status": "Day-To-Day",
@@ -972,15 +999,6 @@
    "date": "2026-10-05T20:15Z",
    "returnDate": "2026-10-10",
    "injury": "Groin – Not Specified"
-  },
-  {
-   "name": "Kawhi Leonard",
-   "team": "Toronto Raptors",
-   "status": "Day-To-Day",
-   "comment": "Leonard (not injury related) went through a full practice Monday, Michael Grange of Sportsnet.ca reports.",
-   "date": "2026-10-05T18:19Z",
-   "returnDate": "2026-10-10",
-   "injury": "Not Injury Related"
   },
   {
    "name": "Nate Bittle",
@@ -1066,6 +1084,32 @@
  ],
  "articles": [
   {
+   "headline": "Memphis Grizzlies vs. Chicago Bulls: Game Highlights",
+   "description": "Memphis Grizzlies vs. Chicago Bulls: Game Highlights",
+   "published": "2026-10-10T02:55:08Z",
+   "url": "https://www.espn.com/video/clip/_/id/50144244/game-highlights",
+   "athletes": [
+    "Zach Edey",
+    "Caleb Wilson",
+    "Javon Small",
+    "Ty Jerome"
+   ]
+  },
+  {
+   "headline": "Fantasy basketball draft guide: Rankings, mock drafts, sleepers, projections and analysis",
+   "description": "We've got everything you need to help you prepare for and execute a successful draft, all in one place.",
+   "published": "2026-10-09T22:18:37Z",
+   "url": "https://www.espn.com/fantasy/basketball/story/_/id/50075156/fantasy-basketball-draft-guide-rankings-mock-drafts-sleepers-projections-analysis",
+   "athletes": []
+  },
+  {
+   "headline": "Fantasy basketball cheat sheet: All the names you need to know for your draft",
+   "description": "All the names you need to know from our 2026-27 fantasy basketball draft guide on a printable PDF cheat sheet",
+   "published": "2026-10-09T22:19:51Z",
+   "url": "https://www.espn.com/fantasy/basketball/story/_/id/50134847/fantasy-basketball-guide-sleepers-busts-draft-tips-2026-2027",
+   "athletes": []
+  },
+  {
    "headline": "Fantasy basketball H2H Roto and Category rankings: Who is No. 1?",
    "description": "Updated fantasy basketball rankings for roto and category leagues, with Tyrese Haliburton and Kyrie Irving back after a missed season.",
    "published": "2026-10-09T21:16:09Z",
@@ -1088,8 +1132,15 @@
   {
    "headline": "Russell Westbrook wants to carry torch for L.A. Olympics",
    "description": "Retired NBA player and Olympic gold medal winner Russell Westbrook said he wants to carry the torch when his native Los Angeles hosts the 2028 Games.",
-   "published": "2026-10-09T20:22:42Z",
+   "published": "2026-10-10T00:17:45Z",
    "url": "https://www.espn.com/olympics/basketball/story/_/id/50142422/russell-westbrook-wants-carry-torch-la-olympics",
+   "athletes": []
+  },
+  {
+   "headline": "Fantasy basketball guide: Player rankings, schedule grid and draft tips",
+   "description": "Here is all of our key fantasy basketball draft content -- rankings, sleepers, schedule grid and draft tips -- collected into downloadable/printable PDF cheat sheets.",
+   "published": "2026-10-09T22:10:42Z",
+   "url": "https://www.espn.com/fantasy/basketball/story/_/id/50134778/fantasy-basketball-player-rankings-schedule-grid-draft-tips-2026-2027",
    "athletes": []
   },
   {
@@ -1331,13 +1382,6 @@
    ]
   },
   {
-   "headline": "Fantasy basketball draft guide: Rankings, mock drafts, sleepers, projections and analysis",
-   "description": "We've got everything you need to help you prepare for and execute a successful draft, all in one place.",
-   "published": "2026-10-08T10:40:23Z",
-   "url": "https://www.espn.com/fantasy/basketball/story/_/id/50075156/fantasy-basketball-draft-guide-rankings-mock-drafts-sleepers-projections-analysis",
-   "athletes": []
-  },
-  {
    "headline": "Fantasy basketball: André Snellings' Ultimate Draft Board",
    "description": "André Snellings crunches the numbers, factors in average draft position and highlights the best spots to draft key players throughout your fantasy basketball draft.",
    "published": "2026-10-08T13:55:02Z",
@@ -1554,36 +1598,6 @@
    "published": "2026-10-07T02:34:37Z",
    "url": "https://www.espn.com/nba/story/_/id/50121620/sources-euroleague-teams-reject-offer-merge-nba-europe",
    "athletes": []
-  },
-  {
-   "headline": "Brooklyn Nets vs. Charlotte Hornets: Game Highlights",
-   "description": "Brooklyn Nets vs. Charlotte Hornets: Game Highlights",
-   "published": "2026-10-07T02:16:20Z",
-   "url": "https://www.espn.com/video/clip/_/id/50121469/game-highlights",
-   "athletes": [
-    "Michael Porter Jr",
-    "Julius Randle",
-    "Liam McNeeley",
-    "Wyatt Fricks"
-   ]
-  },
-  {
-   "headline": "Haliburton buys Iowa St. students tickets for Pacers game",
-   "description": "Tyrese Haliburton purchased tickets for the student section at his alma mater Iowa State for the Pacers' first preseason game Wednesday.",
-   "published": "2026-10-07T10:50:12Z",
-   "url": "https://www.espn.com/nba/story/_/id/50121039/haliburton-buys-iowa-st-students-tickets-pacers-game",
-   "athletes": [
-    "Tyrese Haliburton"
-   ]
-  },
-  {
-   "headline": "76ers lose backup center Ariel Hukporti to torn Achilles",
-   "description": "The 76ers' thin frontcourt took a big blow Tuesday after an MRI confirmed backup center Ariel Hukporti suffered a torn right Achilles.",
-   "published": "2026-10-08T11:15:33Z",
-   "url": "https://www.espn.com/nba/story/_/id/50118908/76ers-lose-backup-center-ariel-hukporti-torn-achilles",
-   "athletes": [
-    "Ariel Hukporti"
-   ]
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "readAt": "2026-10-09T21:49:10.443Z",
+ "readAt": "2026-10-10T09:15:19.424Z",
  "model": "jev-latest",
  "notes": {
   "490e1efc46c74aab": {
@@ -117,20 +117,30 @@
    "choice": "none",
    "confidence": 0.92
   },
-  "d880d02c07e3d4d0": {
+  "df19473b7f07aca3": {
+   "name": "Matas Buzelis",
+   "choice": "none",
+   "confidence": 0.64
+  },
+  "c339b306e921fa2e": {
+   "name": "Tre Jones",
+   "choice": "none",
+   "confidence": 0.87
+  },
+  "cd7a48344ed36635": {
+   "name": "Jalen Smith",
+   "choice": "none",
+   "confidence": 0.87
+  },
+  "1d8aa5a956b3d985": {
    "name": "Zach Collins",
    "choice": "none",
-   "confidence": 0.88
+   "confidence": 0.87
   },
-  "dfc50855339381a1": {
+  "a47f46a3457aeb08": {
    "name": "Jaylin Sellers",
    "choice": "none",
    "confidence": 0.92
-  },
-  "ad5a1b3820878314": {
-   "name": "Tre Jones",
-   "choice": "none",
-   "confidence": 0.95
   },
   "f06bb41dcb3c1725": {
    "name": "Nic Claxton",
@@ -322,15 +332,15 @@
    "choice": "none",
    "confidence": 0.87
   },
-  "375c374064d04737": {
-   "name": "Isaiah Stewart",
-   "choice": "none",
-   "confidence": 0.64
-  },
-  "df2e65cdb7ecc1a6": {
+  "cb557137e451a09e": {
    "name": "Micah Peavy",
    "choice": "none",
-   "confidence": 0.7
+   "confidence": 0.42
+  },
+  "dd3f09b8d15847f2": {
+   "name": "Isaiah Stewart",
+   "choice": "weeks",
+   "confidence": 0.33
   },
   "0dd3cfd747d254ca": {
    "name": "Kylor Kelley",
@@ -527,6 +537,11 @@
    "choice": "uncertain",
    "confidence": 0.93
   },
+  "82aedce51711c7bd": {
+   "name": "Kawhi Leonard",
+   "choice": "none",
+   "confidence": 0.86
+  },
   "e7fd8ff9fe5fbc70": {
    "name": "Trayce Jackson-Davis",
    "choice": "none",
@@ -541,11 +556,6 @@
    "name": "Allen Graves",
    "choice": "none",
    "confidence": 0.76
-  },
-  "c9771813164cc18e": {
-   "name": "Kawhi Leonard",
-   "choice": "none",
-   "confidence": 0.95
   },
   "c908389967f4ef31": {
    "name": "Nate Bittle",
@@ -709,20 +719,30 @@
    "confidence": 0.92,
    "written": "2026-09-25"
   },
+  "Matas Buzelis": {
+   "choice": "none",
+   "confidence": 0.64,
+   "written": "2026-10-10"
+  },
+  "Tre Jones": {
+   "choice": "none",
+   "confidence": 0.87,
+   "written": "2026-10-09"
+  },
+  "Jalen Smith": {
+   "choice": "none",
+   "confidence": 0.87,
+   "written": "2026-10-09"
+  },
   "Zach Collins": {
    "choice": "none",
-   "confidence": 0.88,
-   "written": "2026-10-07"
+   "confidence": 0.87,
+   "written": "2026-10-09"
   },
   "Jaylin Sellers": {
    "choice": "none",
    "confidence": 0.92,
-   "written": "2026-10-07"
-  },
-  "Tre Jones": {
-   "choice": "none",
-   "confidence": 0.95,
-   "written": "2026-10-07"
+   "written": "2026-10-09"
   },
   "Nic Claxton": {
    "choice": "uncertain",
@@ -914,15 +934,15 @@
    "confidence": 0.87,
    "written": "2026-10-09"
   },
-  "Isaiah Stewart": {
-   "choice": "none",
-   "confidence": 0.64,
-   "written": "2026-10-09"
-  },
   "Micah Peavy": {
    "choice": "none",
-   "confidence": 0.7,
-   "written": "2026-10-08"
+   "confidence": 0.42,
+   "written": "2026-10-10"
+  },
+  "Isaiah Stewart": {
+   "choice": "weeks",
+   "confidence": 0.33,
+   "written": "2026-10-09"
   },
   "Kylor Kelley": {
    "choice": "none",
@@ -1119,6 +1139,11 @@
    "confidence": 0.93,
    "written": "2026-10-05"
   },
+  "Kawhi Leonard": {
+   "choice": "none",
+   "confidence": 0.86,
+   "written": "2026-10-09"
+  },
   "Trayce Jackson-Davis": {
    "choice": "none",
    "confidence": 0.76,
@@ -1132,11 +1157,6 @@
   "Allen Graves": {
    "choice": "none",
    "confidence": 0.76,
-   "written": "2026-10-05"
-  },
-  "Kawhi Leonard": {
-   "choice": "none",
-   "confidence": 0.95,
    "written": "2026-10-05"
   },
   "Nate Bittle": {
