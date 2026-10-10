@@ -1,5 +1,5 @@
 {
- "readAt": "2026-10-10T09:15:19.424Z",
+ "readAt": "2026-10-10T20:38:16.774Z",
  "model": "jev-latest",
  "notes": {
   "490e1efc46c74aab": {
@@ -197,15 +197,15 @@
    "choice": "none",
    "confidence": 0.92
   },
+  "744ea882c3b09cf1": {
+   "name": "Brandin Podziemski",
+   "choice": "none",
+   "confidence": 0.82
+  },
   "91a70513ecd56e61": {
    "name": "Gui Santos",
    "choice": "none",
    "confidence": 0.94
-  },
-  "0e9bd6481d9b6a63": {
-   "name": "Brandin Podziemski",
-   "choice": "none",
-   "confidence": 0.95
   },
   "3d6dad22b802cbe2": {
    "name": "Gary Payton II",
@@ -302,30 +302,30 @@
    "choice": "season",
    "confidence": 0.18
   },
+  "f8c5a4250d8e06df": {
+   "name": "Ziaire Williams",
+   "choice": "uncertain",
+   "confidence": 0.8
+  },
+  "91124c01318d1963": {
+   "name": "Arthur Kaluma",
+   "choice": "none",
+   "confidence": 0.77
+  },
+  "b4bb67dbee544ee9": {
+   "name": "Walker Kessler",
+   "choice": "none",
+   "confidence": 0.77
+  },
+  "df647b5c67f680dd": {
+   "name": "Collin Sexton",
+   "choice": "uncertain",
+   "confidence": 0.41
+  },
   "a6db60428e8deb0f": {
    "name": "Dalton Knecht",
    "choice": "none",
    "confidence": 0.9
-  },
-  "74c375edbe12a1d0": {
-   "name": "Walker Kessler",
-   "choice": "none",
-   "confidence": 0.92
-  },
-  "2a225d2111af2da7": {
-   "name": "Collin Sexton",
-   "choice": "none",
-   "confidence": 0.72
-  },
-  "d5129e2ecdacc14c": {
-   "name": "Arthur Kaluma",
-   "choice": "none",
-   "confidence": 0.78
-  },
-  "99a2bd0848b06893": {
-   "name": "Ziaire Williams",
-   "choice": "none",
-   "confidence": 0.88
   },
   "b2e009c9e08a5572": {
    "name": "Cameron Carr",
@@ -397,30 +397,70 @@
    "choice": "none",
    "confidence": 0.94
   },
-  "39a108f6857f01d5": {
+  "5f6f414418dba529": {
    "name": "Thomas Sorber",
    "choice": "none",
-   "confidence": 0.89
+   "confidence": 0.88
   },
-  "844bb8c3b0a98b0a": {
-   "name": "Chet Holmgren",
-   "choice": "none",
-   "confidence": 0.87
-  },
-  "fb4c1dd740a2203c": {
+  "71d2d7c14743dac4": {
    "name": "Nikola Topic",
    "choice": "none",
-   "confidence": 0.77
+   "confidence": 0.76
   },
-  "167aecf3df5542ae": {
-   "name": "Isaiah Hartenstein",
+  "451c69f45469e092": {
+   "name": "Chet Holmgren",
    "choice": "none",
-   "confidence": 0.9
+   "confidence": 0.92
   },
-  "3c3492399d0fa6cf": {
+  "f91f0b365a47093a": {
    "name": "Jaylin Williams",
    "choice": "none",
+   "confidence": 0.94
+  },
+  "fa629dc10ce99b30": {
+   "name": "Kenrich Williams",
+   "choice": "none",
+   "confidence": 0.95
+  },
+  "c89b4622e22aa2aa": {
+   "name": "Alex Caruso",
+   "choice": "none",
+   "confidence": 0.98
+  },
+  "2cc852b4ea43d551": {
+   "name": "Jared McCain",
+   "choice": "none",
+   "confidence": 0.41
+  },
+  "523547cca948358c": {
+   "name": "Ajay Mitchell",
+   "choice": "none",
+   "confidence": 0.96
+  },
+  "6b870615aa7bbbd5": {
+   "name": "Isaiah Hartenstein",
+   "choice": "none",
    "confidence": 0.93
+  },
+  "1b511b295a7b452c": {
+   "name": "Cason Wallace",
+   "choice": "none",
+   "confidence": 0.98
+  },
+  "7e7857457fed00a4": {
+   "name": "Jalen Williams",
+   "choice": "none",
+   "confidence": 0.98
+  },
+  "50b9afa2800e04ea": {
+   "name": "Shai Gilgeous-Alexander",
+   "choice": "none",
+   "confidence": 0.95
+  },
+  "8169204140657b94": {
+   "name": "Jalen Suggs",
+   "choice": "uncertain",
+   "confidence": 0.66
   },
   "6daa7bfd04f7f1e4": {
    "name": "Anthony Black",
@@ -431,11 +471,6 @@
    "name": "Noah Penda",
    "choice": "none",
    "confidence": 0.87
-  },
-  "09c09b9730cdd8c5": {
-   "name": "Jalen Suggs",
-   "choice": "none",
-   "confidence": 0.98
   },
   "75b3f7a7a0ac3b41": {
    "name": "Jonathan Isaac",
@@ -562,6 +597,11 @@
    "choice": "none",
    "confidence": 0.9
   },
+  "61ffde0a6b27f08e": {
+   "name": "Kyle Filipowski",
+   "choice": "uncertain",
+   "confidence": 1
+  },
   "d9bb0881ef39eead": {
    "name": "Jusuf Nurkic",
    "choice": "weeks",
@@ -576,11 +616,6 @@
    "name": "Brice Sensabaugh",
    "choice": "none",
    "confidence": 0.94
-  },
-  "93825f921779d05a": {
-   "name": "Kyle Filipowski",
-   "choice": "none",
-   "confidence": 0.89
   },
   "a17d81d3d72f5398": {
    "name": "Khris Middleton",
@@ -799,14 +834,14 @@
    "confidence": 0.92,
    "written": "2026-10-07"
   },
+  "Brandin Podziemski": {
+   "choice": "none",
+   "confidence": 0.82,
+   "written": "2026-10-10"
+  },
   "Gui Santos": {
    "choice": "none",
    "confidence": 0.94,
-   "written": "2026-10-07"
-  },
-  "Brandin Podziemski": {
-   "choice": "none",
-   "confidence": 0.95,
    "written": "2026-10-07"
   },
   "Gary Payton II": {
@@ -904,29 +939,29 @@
    "confidence": 0.18,
    "written": "2026-08-26"
   },
-  "Dalton Knecht": {
-   "choice": "none",
-   "confidence": 0.9,
-   "written": "2026-10-09"
-  },
-  "Walker Kessler": {
-   "choice": "none",
-   "confidence": 0.92,
-   "written": "2026-10-09"
-  },
-  "Collin Sexton": {
-   "choice": "none",
-   "confidence": 0.72,
-   "written": "2026-10-09"
+  "Ziaire Williams": {
+   "choice": "uncertain",
+   "confidence": 0.8,
+   "written": "2026-10-10"
   },
   "Arthur Kaluma": {
    "choice": "none",
-   "confidence": 0.78,
-   "written": "2026-10-09"
+   "confidence": 0.77,
+   "written": "2026-10-10"
   },
-  "Ziaire Williams": {
+  "Walker Kessler": {
    "choice": "none",
-   "confidence": 0.88,
+   "confidence": 0.77,
+   "written": "2026-10-10"
+  },
+  "Collin Sexton": {
+   "choice": "uncertain",
+   "confidence": 0.41,
+   "written": "2026-10-10"
+  },
+  "Dalton Knecht": {
+   "choice": "none",
+   "confidence": 0.9,
    "written": "2026-10-09"
   },
   "Cameron Carr": {
@@ -1001,28 +1036,68 @@
   },
   "Thomas Sorber": {
    "choice": "none",
-   "confidence": 0.89,
-   "written": "2026-10-07"
-  },
-  "Chet Holmgren": {
-   "choice": "none",
-   "confidence": 0.87,
-   "written": "2026-10-07"
+   "confidence": 0.88,
+   "written": "2026-10-10"
   },
   "Nikola Topic": {
    "choice": "none",
-   "confidence": 0.77,
-   "written": "2026-10-07"
+   "confidence": 0.76,
+   "written": "2026-10-10"
   },
-  "Isaiah Hartenstein": {
+  "Chet Holmgren": {
    "choice": "none",
-   "confidence": 0.9,
-   "written": "2026-10-07"
+   "confidence": 0.92,
+   "written": "2026-10-10"
   },
   "Jaylin Williams": {
    "choice": "none",
+   "confidence": 0.94,
+   "written": "2026-10-10"
+  },
+  "Kenrich Williams": {
+   "choice": "none",
+   "confidence": 0.95,
+   "written": "2026-10-10"
+  },
+  "Alex Caruso": {
+   "choice": "none",
+   "confidence": 0.98,
+   "written": "2026-10-10"
+  },
+  "Jared McCain": {
+   "choice": "none",
+   "confidence": 0.41,
+   "written": "2026-10-10"
+  },
+  "Ajay Mitchell": {
+   "choice": "none",
+   "confidence": 0.96,
+   "written": "2026-10-10"
+  },
+  "Isaiah Hartenstein": {
+   "choice": "none",
    "confidence": 0.93,
-   "written": "2026-10-07"
+   "written": "2026-10-10"
+  },
+  "Cason Wallace": {
+   "choice": "none",
+   "confidence": 0.98,
+   "written": "2026-10-10"
+  },
+  "Jalen Williams": {
+   "choice": "none",
+   "confidence": 0.98,
+   "written": "2026-10-10"
+  },
+  "Shai Gilgeous-Alexander": {
+   "choice": "none",
+   "confidence": 0.95,
+   "written": "2026-10-10"
+  },
+  "Jalen Suggs": {
+   "choice": "uncertain",
+   "confidence": 0.66,
+   "written": "2026-10-10"
   },
   "Anthony Black": {
    "choice": "none",
@@ -1032,11 +1107,6 @@
   "Noah Penda": {
    "choice": "none",
    "confidence": 0.87,
-   "written": "2026-10-07"
-  },
-  "Jalen Suggs": {
-   "choice": "none",
-   "confidence": 0.98,
    "written": "2026-10-07"
   },
   "Jonathan Isaac": {
@@ -1164,6 +1234,11 @@
    "confidence": 0.9,
    "written": "2026-10-04"
   },
+  "Kyle Filipowski": {
+   "choice": "uncertain",
+   "confidence": 1,
+   "written": "2026-10-10"
+  },
   "Jusuf Nurkic": {
    "choice": "weeks",
    "confidence": 0.88,
@@ -1177,11 +1252,6 @@
   "Brice Sensabaugh": {
    "choice": "none",
    "confidence": 0.94,
-   "written": "2026-10-07"
-  },
-  "Kyle Filipowski": {
-   "choice": "none",
-   "confidence": 0.89,
    "written": "2026-10-07"
   },
   "Khris Middleton": {
