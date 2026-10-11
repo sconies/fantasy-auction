@@ -643,8 +643,9 @@
    },
    "summary": "is recovering or returning from a significant injury or surgery",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-10"
+   "status": "handled",
+   "firstSeen": "2026-10-10",
+   "handledNote": "Kyrie return already in ESPN projection; preseason only"
   },
   {
    "id": "outlook:71e5a75654d1",
@@ -1594,8 +1595,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-10"
+   "status": "handled",
+   "firstSeen": "2026-10-10",
+   "handledNote": "ankle absence gets automatic injury proposal"
   },
   {
    "id": "injury:08b5a0256acb",
@@ -1612,8 +1614,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-10"
+   "status": "handled",
+   "firstSeen": "2026-10-10",
+   "handledNote": "ankle absence gets automatic injury proposal"
   },
   {
    "id": "headline:371ab87a7679",
