@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-11T09:32:09.051Z",
+ "fetchedAt": "2026-10-11T21:01:43.535Z",
  "injuries": [
   {
    "name": "Keshon Gilbert",
@@ -248,46 +248,37 @@
    "name": "Marcus Sasser",
    "team": "Dallas Mavericks",
    "status": "Day-To-Day",
-   "comment": "Sasser won't play in Friday's preseason game against the Rockets due to left adductor soreness.",
-   "date": "2026-10-09T12:11Z",
-   "returnDate": "2026-10-11",
+   "comment": "Sasser (adductor) won't play in Sunday's preseason game against the Rockets, Grant Afseth of DallasHoopsJournal.com reports.",
+   "date": "2026-10-11T09:55Z",
+   "returnDate": "2026-10-14",
    "injury": "Hip"
-  },
-  {
-   "name": "P.J. Washington",
-   "team": "Dallas Mavericks",
-   "status": "Day-To-Day",
-   "comment": "Washington won't play in Friday's preseason game against the Rockets.",
-   "date": "2026-10-09T12:08Z",
-   "returnDate": "2026-10-11",
-   "injury": "Ankle – Sprain"
-  },
-  {
-   "name": "Caleb Martin",
-   "team": "Dallas Mavericks",
-   "status": "Day-To-Day",
-   "comment": "Martin won't play in Friday's preseason game against the Rocket due to an illness.",
-   "date": "2026-10-09T12:05Z",
-   "returnDate": "2026-10-11",
-   "injury": "Illness"
-  },
-  {
-   "name": "Dereck Lively II",
-   "team": "Dallas Mavericks",
-   "status": "Day-To-Day",
-   "comment": "Lively (foot) won't play in Friday's preseason game against the Rockets.",
-   "date": "2026-10-09T12:03Z",
-   "returnDate": "2026-10-11",
-   "injury": "Foot – Surgery"
   },
   {
    "name": "Santi Aldama",
    "team": "Dallas Mavericks",
    "status": "Day-To-Day",
-   "comment": "Aldama (knee) won't play in Friday's preseason game against the Rockets.",
-   "date": "2026-10-09T12:01Z",
-   "returnDate": "2026-10-11",
+   "comment": "Aldama (knee) won't play in Sunday's preseason game against the Rockets, Grant Afseth of DallasHoopsJournal.com reports.",
+   "date": "2026-10-11T09:53Z",
+   "returnDate": "2026-10-14",
    "injury": "Knee"
+  },
+  {
+   "name": "Dereck Lively II",
+   "team": "Dallas Mavericks",
+   "status": "Day-To-Day",
+   "comment": "Lively (foot) won't play in Sunday's preseason game against the Rockets, Grant Afseth of DallasHoopsJournal.com reports.",
+   "date": "2026-10-11T09:50Z",
+   "returnDate": "2026-10-14",
+   "injury": "Foot – Surgery"
+  },
+  {
+   "name": "Morez Johnson Jr.",
+   "team": "Dallas Mavericks",
+   "status": "Day-To-Day",
+   "comment": "Johnson (rest) won't play in Sunday's preseason game against the Rockets, Grant Afseth of DallasHoopsJournal.com reports.",
+   "date": "2026-10-11T09:47Z",
+   "returnDate": "2026-10-14",
+   "injury": "Rest"
   },
   {
    "name": "Spencer Jones",
@@ -342,6 +333,33 @@
    "date": "2026-09-28T15:06Z",
    "returnDate": "2026-12-01",
    "injury": "Knee – Surgery"
+  },
+  {
+   "name": "Steven Adams",
+   "team": "Houston Rockets",
+   "status": "Day-To-Day",
+   "comment": "Adams (rest) isn't expected to play in Sunday's preseason game against the Mavericks, Will Guillory of The Athletic reports.",
+   "date": "2026-10-11T10:06Z",
+   "returnDate": "2026-10-15",
+   "injury": "Rest"
+  },
+  {
+   "name": "Alperen Sengun",
+   "team": "Houston Rockets",
+   "status": "Day-To-Day",
+   "comment": "Sengun (rest) isn't expected to play in Sunday's preseason game against the Mavericks, Will Guillory of The Athletic reports.",
+   "date": "2026-10-11T10:05Z",
+   "returnDate": "2026-10-15",
+   "injury": "Rest"
+  },
+  {
+   "name": "Fred VanVleet",
+   "team": "Houston Rockets",
+   "status": "Day-To-Day",
+   "comment": "VanVleet (rest) isn't expected to play in Sunday's preseason game against the Mavericks, Will Guillory of The Athletic reports.",
+   "date": "2026-10-11T10:01Z",
+   "returnDate": "2026-10-15",
+   "injury": "Rest"
   },
   {
    "name": "Kevin Durant",
@@ -434,6 +452,15 @@
    "injury": "Shoulder – Surgery"
   },
   {
+   "name": "Walker Kessler",
+   "team": "Los Angeles Lakers",
+   "status": "Day-To-Day",
+   "comment": "Kessler (finger) was a full participant in Sunday's practice, Law Murray of The Athletic reports.",
+   "date": "2026-10-11T19:52Z",
+   "returnDate": "2026-10-13",
+   "injury": "Finger"
+  },
+  {
    "name": "Ziaire Williams",
    "team": "Los Angeles Lakers",
    "status": "Day-To-Day",
@@ -450,15 +477,6 @@
    "date": "2026-10-10T20:00Z",
    "returnDate": "2026-10-13",
    "injury": "Lower Body – Not Specified"
-  },
-  {
-   "name": "Walker Kessler",
-   "team": "Los Angeles Lakers",
-   "status": "Day-To-Day",
-   "comment": "Lakers head coach JJ Redick said Kessler participated in Saturday's practice but didn't do live work, though the center might return to scrimmaging Sunday, Jovan Buha of The Athletic reports.",
-   "date": "2026-10-10T19:52Z",
-   "returnDate": "2026-10-13",
-   "injury": "Finger"
   },
   {
    "name": "Collin Sexton",
@@ -976,11 +994,11 @@
   {
    "name": "Maxime Raynaud",
    "team": "Sacramento Kings",
-   "status": "Day-To-Day",
-   "comment": "Raynaud suffered an right knee injury during the second quarter of Saturday's preseason game against the Warriors, Marc J. Spears of ESPN.com reports.",
-   "date": "2026-10-11T01:46Z",
-   "returnDate": "2026-10-13",
-   "injury": "Knee"
+   "status": "Out",
+   "comment": "Raynaud has been diagnosed with a right knee subluxation and will be re-evaluated in approximately two weeks, Michael Scotto of HoopsHype.com reports.",
+   "date": "2026-10-11T18:14Z",
+   "returnDate": "2026-10-25",
+   "injury": "Knee – Dislocated"
   },
   {
    "name": "Dylan Cardwell",
@@ -1174,6 +1192,44 @@
  ],
  "articles": [
   {
+   "headline": "Karl-Anthony Towns 'disappointed' with Knicks tabling talks",
+   "description": "Karl-Anthony Towns responded to the Knicks' statement that they are tabling all extension talks until later in the season, saying he was \"disappointed.\"",
+   "published": "2026-10-11T20:40:35Z",
+   "url": "https://www.espn.com/nba/story/_/id/50159713/karl-anthony-towns-disappointed-knicks-tabling-talks",
+   "athletes": [
+    "Karl-Anthony Towns"
+   ]
+  },
+  {
+   "headline": "Kings C Maxime Raynaud (knee) to be reevaluated in 2 weeks",
+   "description": "Kings second-year center Maxime Raynaud will be reevaluated in two weeks with a patellar subluxation in his right knee.",
+   "published": "2026-10-11T18:54:37Z",
+   "url": "https://www.espn.com/nba/story/_/id/50159419/kings-c-maxime-raynaud-knee-reevaluated-2-weeks",
+   "athletes": [
+    "Maxime Raynaud"
+   ]
+  },
+  {
+   "headline": "Kyrie Irving returns to Mavs, dazzles in China preseason game",
+   "description": "Kyrie Irving dazzled in his return to the Mavericks, scoring 17 points in his first game in 586 days.",
+   "published": "2026-10-11T15:47:32Z",
+   "url": "https://www.espn.com/nba/story/_/id/50157198/kyrie-irving-returns-mavs-dazzles-china-preseason-game",
+   "athletes": [
+    "Kyrie Irving"
+   ]
+  },
+  {
+   "headline": "Dallas Mavericks vs. Houston Rockets: Game Highlights",
+   "description": "Dallas Mavericks vs. Houston Rockets: Game Highlights",
+   "published": "2026-10-11T14:47:49Z",
+   "url": "https://www.espn.com/video/clip/_/id/50156392/game-highlights",
+   "athletes": [
+    "Kyrie Irving",
+    "Zaccharie Risacher",
+    "Marcus Smart"
+   ]
+  },
+  {
    "headline": "Detroit Pistons vs. Washington Wizards: Game Highlights",
    "description": "Detroit Pistons vs. Washington Wizards: Game Highlights",
    "published": "2026-10-11T04:03:35Z",
@@ -1225,7 +1281,7 @@
   {
    "headline": "Kings lose Maxime Raynaud to apparent serious knee injury",
    "description": "Kings second-year center Maxime Raynaud suffered what appeared to be a serious right knee injury in Saturday's preseason game against the Warriors.",
-   "published": "2026-10-11T03:53:38Z",
+   "published": "2026-10-11T17:11:03Z",
    "url": "https://www.espn.com/nba/story/_/id/50153526/kings-lose-maxime-raynaud-apparent-serious-knee-injury",
    "athletes": [
     "Maxime Raynaud"
@@ -1687,47 +1743,6 @@
     "Aday Mara",
     "Cormac Ryan"
    ]
-  },
-  {
-   "headline": "Orlando Magic vs. Memphis Grizzlies: Game Highlights",
-   "description": "Orlando Magic vs. Memphis Grizzlies: Game Highlights",
-   "published": "2026-10-08T03:33:45Z",
-   "url": "https://www.espn.com/video/clip/_/id/50129878/game-highlights",
-   "athletes": [
-    "Jamal Cain",
-    "Tristan da Silva",
-    "Ty Jerome",
-    "Kevin Knox II",
-    "Franz Wagner",
-    "Wendell Carter Jr"
-   ]
-  },
-  {
-   "headline": "Minnesota Timberwolves vs. Indiana Pacers: Game Highlights",
-   "description": "Minnesota Timberwolves vs. Indiana Pacers: Game Highlights",
-   "published": "2026-10-08T01:49:43Z",
-   "url": "https://www.espn.com/video/clip/_/id/50129245/game-highlights",
-   "athletes": [
-    "Quenton Jackson",
-    "Jarace Walker",
-    "Jonathan Kuminga",
-    "Cody Williams",
-    "Anthony Edwards"
-   ]
-  },
-  {
-   "headline": "Buss siblings formally file against Jeanie over Lakers sale",
-   "description": "The five Buss siblings attempting to sell the family's remaining shares in the Lakers officially filed their case against acting governor Jeanie Buss.",
-   "published": "2026-10-07T23:29:41Z",
-   "url": "https://www.espn.com/nba/story/_/id/50128244/buss-siblings-formally-file-jeanie-lakers-sale",
-   "athletes": []
-  },
-  {
-   "headline": "Trail Blazers' Dundon says he intends to bring title to Portland",
-   "description": "New Trail Blazers owner Tom Dundon told season-ticket holders he intends to bring a championship to Portland.",
-   "published": "2026-10-08T11:15:04Z",
-   "url": "https://www.espn.com/nba/story/_/id/50127764/trail-blazers-dundon-says-intends-bring-title-portland",
-   "athletes": []
   }
  ]
 }

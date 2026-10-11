@@ -1,5 +1,5 @@
 {
- "readAt": "2026-10-11T09:32:10.827Z",
+ "readAt": "2026-10-11T21:01:43.997Z",
  "model": "jev-latest",
  "notes": {
   "0e891173ecbf1e60": {
@@ -137,30 +137,25 @@
    "choice": "none",
    "confidence": 0.92
   },
-  "be4b2fefecd369ce": {
+  "f46a2146f56b37dc": {
    "name": "Marcus Sasser",
    "choice": "none",
-   "confidence": 0.82
+   "confidence": 0.89
   },
-  "c03b37c87bb46a92": {
-   "name": "P.J. Washington",
-   "choice": "none",
-   "confidence": 0.95
-  },
-  "1a23facb66be9b33": {
-   "name": "Caleb Martin",
-   "choice": "none",
-   "confidence": 0.94
-  },
-  "e1eda4d67e6504c8": {
-   "name": "Dereck Lively II",
-   "choice": "none",
-   "confidence": 0.92
-  },
-  "900241b2c242a16f": {
+  "4c8e05a0ac8d3855": {
    "name": "Santi Aldama",
    "choice": "none",
-   "confidence": 0.87
+   "confidence": 0.88
+  },
+  "89c995cb39adefa5": {
+   "name": "Dereck Lively II",
+   "choice": "none",
+   "confidence": 0.98
+  },
+  "7838292e6a3df73a": {
+   "name": "Morez Johnson Jr.",
+   "choice": "none",
+   "confidence": 0.98
   },
   "6f23cd422d3a3943": {
    "name": "Spencer Jones",
@@ -191,6 +186,21 @@
    "name": "Moses Moody",
    "choice": "uncertain",
    "confidence": 0.5
+  },
+  "f585939be303bc92": {
+   "name": "Steven Adams",
+   "choice": "none",
+   "confidence": 0.93
+  },
+  "9ba47160c4b6efe7": {
+   "name": "Alperen Sengun",
+   "choice": "none",
+   "confidence": 0.98
+  },
+  "8a6c33aec96d6079": {
+   "name": "Fred VanVleet",
+   "choice": "none",
+   "confidence": 0.96
   },
   "dbc98de6b4081e56": {
    "name": "Kevin Durant",
@@ -242,6 +252,11 @@
    "choice": "season",
    "confidence": 0.18
   },
+  "df6cd9882113d1bf": {
+   "name": "Walker Kessler",
+   "choice": "none",
+   "confidence": 0.92
+  },
   "f8c5a4250d8e06df": {
    "name": "Ziaire Williams",
    "choice": "uncertain",
@@ -249,11 +264,6 @@
   },
   "91124c01318d1963": {
    "name": "Arthur Kaluma",
-   "choice": "none",
-   "confidence": 0.77
-  },
-  "b4bb67dbee544ee9": {
-   "name": "Walker Kessler",
    "choice": "none",
    "confidence": 0.77
   },
@@ -542,10 +552,10 @@
    "choice": "months",
    "confidence": 0.39
   },
-  "e87c5d05c159c26a": {
+  "0bddb914051689e3": {
    "name": "Maxime Raynaud",
    "choice": "uncertain",
-   "confidence": 0.65
+   "confidence": 0.48
   },
   "3228c51e2cdf1d17": {
    "name": "Dylan Cardwell",
@@ -791,28 +801,23 @@
   },
   "Marcus Sasser": {
    "choice": "none",
-   "confidence": 0.82,
-   "written": "2026-10-09"
-  },
-  "P.J. Washington": {
-   "choice": "none",
-   "confidence": 0.95,
-   "written": "2026-10-09"
-  },
-  "Caleb Martin": {
-   "choice": "none",
-   "confidence": 0.94,
-   "written": "2026-10-09"
-  },
-  "Dereck Lively II": {
-   "choice": "none",
-   "confidence": 0.92,
-   "written": "2026-10-09"
+   "confidence": 0.89,
+   "written": "2026-10-11"
   },
   "Santi Aldama": {
    "choice": "none",
-   "confidence": 0.87,
-   "written": "2026-10-09"
+   "confidence": 0.88,
+   "written": "2026-10-11"
+  },
+  "Dereck Lively II": {
+   "choice": "none",
+   "confidence": 0.98,
+   "written": "2026-10-11"
+  },
+  "Morez Johnson Jr.": {
+   "choice": "none",
+   "confidence": 0.98,
+   "written": "2026-10-11"
   },
   "Spencer Jones": {
    "choice": "none",
@@ -843,6 +848,21 @@
    "choice": "uncertain",
    "confidence": 0.5,
    "written": "2026-09-28"
+  },
+  "Steven Adams": {
+   "choice": "none",
+   "confidence": 0.93,
+   "written": "2026-10-11"
+  },
+  "Alperen Sengun": {
+   "choice": "none",
+   "confidence": 0.98,
+   "written": "2026-10-11"
+  },
+  "Fred VanVleet": {
+   "choice": "none",
+   "confidence": 0.96,
+   "written": "2026-10-11"
   },
   "Kevin Durant": {
    "choice": "none",
@@ -894,17 +914,17 @@
    "confidence": 0.18,
    "written": "2026-08-26"
   },
+  "Walker Kessler": {
+   "choice": "none",
+   "confidence": 0.92,
+   "written": "2026-10-11"
+  },
   "Ziaire Williams": {
    "choice": "uncertain",
    "confidence": 0.8,
    "written": "2026-10-10"
   },
   "Arthur Kaluma": {
-   "choice": "none",
-   "confidence": 0.77,
-   "written": "2026-10-10"
-  },
-  "Walker Kessler": {
    "choice": "none",
    "confidence": 0.77,
    "written": "2026-10-10"
@@ -1196,7 +1216,7 @@
   },
   "Maxime Raynaud": {
    "choice": "uncertain",
-   "confidence": 0.65,
+   "confidence": 0.48,
    "written": "2026-10-11"
   },
   "Dylan Cardwell": {
