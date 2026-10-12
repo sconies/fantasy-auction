@@ -1,8 +1,8 @@
 {
- "builtAt": "2026-10-12T10:02:39.863Z",
+ "builtAt": "2026-10-12T23:43:36.019Z",
  "counts": {
-  "new": 0,
-  "toJudge": 0
+  "new": 10,
+  "toJudge": 10
  },
  "signals": [
   {
@@ -1560,6 +1560,133 @@
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "news:54050960feea",
+   "kind": "text",
+   "playerId": "4684793",
+   "name": "Kyle Filipowski",
+   "team": "UTA",
+   "date": "2026-10-12",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/613524/kyle-filipowski-back-not-yet-cleared-on-court-work.php",
+   "text": "Kyle Filipowski (back) not yet cleared for on-court work Kyle Filipowski has yet to be cleared to resume on-court work.  Fantasy Impact: Filipowski is progressing in his recovery from offseason back surgery. He remains without a clear timetable to return with the season kicking off next week.",
+   "flags": {
+    "absence": 0.76,
+    "recovering": 0.98
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-12"
+  },
+  {
+   "id": "depth:5105623:2026-10-12:PF #2",
+   "kind": "depth",
+   "playerId": "5105623",
+   "name": "Kel'el Ware",
+   "team": "MIL",
+   "date": "2026-10-12",
+   "summary": "Depth chart PF #1 → PF #2",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-12"
+  },
+  {
+   "id": "depth:3102531:2026-10-12:C #3",
+   "kind": "depth",
+   "playerId": "3102531",
+   "name": "Kristaps Porzingis",
+   "team": "GSW",
+   "date": "2026-10-12",
+   "summary": "Depth chart C #1 → C #3",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-12"
+  },
+  {
+   "id": "depth:4592691:2026-10-12:PF #1",
+   "kind": "depth",
+   "playerId": "4592691",
+   "name": "Jake LaRavia",
+   "team": "LAL",
+   "date": "2026-10-12",
+   "summary": "Depth chart PF #2 → PF #1",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-12"
+  },
+  {
+   "id": "depth:5254165:2026-10-12:SG #2",
+   "kind": "depth",
+   "playerId": "5254165",
+   "name": "Keaton Wagler",
+   "team": "LAC",
+   "date": "2026-10-12",
+   "summary": "Depth chart SG #1 → SG #2",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-12"
+  },
+  {
+   "id": "depth:3134907:2026-10-12:PF #1",
+   "kind": "depth",
+   "playerId": "3134907",
+   "name": "Kyle Kuzma",
+   "team": "MIL",
+   "date": "2026-10-12",
+   "summary": "Depth chart PF #2 → PF #1",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-12"
+  },
+  {
+   "id": "depth:4065732:2026-10-12:SF #2",
+   "kind": "depth",
+   "playerId": "4065732",
+   "name": "De'Andre Hunter",
+   "team": "SAC",
+   "date": "2026-10-12",
+   "summary": "Depth chart SF #1 → SF #2",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-12"
+  },
+  {
+   "id": "depth:6580:2026-10-12:SG #1",
+   "kind": "depth",
+   "playerId": "6580",
+   "name": "Bradley Beal",
+   "team": "LAC",
+   "date": "2026-10-12",
+   "summary": "Depth chart SG #2 → SG #1",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-12"
+  },
+  {
+   "id": "depth:4997536:2026-10-12:PF #1",
+   "kind": "depth",
+   "playerId": "4997536",
+   "name": "Gui Santos",
+   "team": "GSW",
+   "date": "2026-10-12",
+   "summary": "Depth chart SF #2 → PF #1",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-12"
+  },
+  {
+   "id": "depth:3907387:2026-10-12:PG #1",
+   "kind": "depth",
+   "playerId": "3907387",
+   "name": "Ben Simmons",
+   "team": "SAC",
+   "date": "2026-10-12",
+   "summary": "Depth chart PG #3 → PG #1",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-12"
   },
   {
    "id": "injury:1998842cf132",

@@ -1,14 +1,14 @@
 {
- "builtAt": "2026-10-12T10:02:39.799Z",
+ "builtAt": "2026-10-12T23:43:35.957Z",
  "counts": {
   "players": 426,
   "espnProjected": 348,
   "fantasyPros": 265,
-  "depthChartPlayers": 529,
+  "depthChartPlayers": 527,
   "blended": 310,
   "espnOnly": 38,
   "modelOnly": 78,
-  "flagged": 94,
+  "flagged": 96,
   "newTeam": 126
  },
  "top200MissingFantasyPros": [
@@ -20,6 +20,6 @@
   "Brayden Burries"
  ],
  "top200MissingDepth": [],
- "starters": 149,
+ "starters": 150,
  "problems": []
 }
