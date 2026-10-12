@@ -1576,8 +1576,9 @@
    },
    "summary": "is recovering or returning from a significant injury or surgery",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-11"
+   "status": "handled",
+   "firstSeen": "2026-10-11",
+   "handledNote": "skipped: one preseason game sit, no regular-season games lost"
   },
   {
    "id": "news:7bf03599a1f5",
