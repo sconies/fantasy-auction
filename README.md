@@ -1,7 +1,7 @@
 # Auction Board
 
 A phone-first draft companion for **YUL to YYZ to SEA to SFO**: a 14-team Yahoo
-head-to-head 9-category league with a $200 live auction (18–19 Oct 2026).
+head-to-head 9-category league with a $200 live auction (Mon 19 Oct 2026, 3 pm Pacific / 11 pm London).
 
 The app is organised around getting ready for the auction:
 
