@@ -104,3 +104,28 @@ test('the app script parses (a syntax slip would blank the page)', async () => {
   const { execFileSync } = await import('node:child_process');
   execFileSync(process.execPath, ['--check', 'app.js']);
 });
+
+test('room curve: steep like a real room, holds exactly the money in this league', async () => {
+  const { roomCurve } = await import('../lib/value.mjs');
+  const { readFileSync } = await import('node:fs');
+  const yahoo = readFileSync(new URL('../data/market/yahoo-auction.tsv', import.meta.url), 'utf8').trim().split('\n').slice(1).map(l => +l.split('\t')[2]);
+  const c = roomCurve(yahoo, DEFAULT_LEAGUE);
+  const n = DEFAULT_LEAGUE.teams * DEFAULT_LEAGUE.rosterSize;
+  assert.equal(c.length, n);
+  assert.ok(Math.abs(c.reduce((s, x) => s + x, 0) - DEFAULT_LEAGUE.teams * DEFAULT_LEAGUE.budget) < 1e-6);
+  for (let i = 1; i < n; i++) assert.ok(c[i] <= c[i - 1] + 1e-9);
+  assert.ok(c[0] > 5 * c[59], 'stars cost several times a #60 player');
+});
+
+test('bid limits: pay up for a player only while he beats what the money buys elsewhere', async () => {
+  const { bidItems, bidLimit } = await import('../lib/value.mjs');
+  // 3 spots, $20. A star worth 10, two middle players worth 4 for $3, and $1 fillers worth 0.
+  const ps = [{ id: 'star', value: 10 }, { id: 'm1', value: 4 }, { id: 'm2', value: 4 }, ...Array.from({ length: 4 }, (_, i) => ({ id: `f${i}`, value: 0.01 }))];
+  const items = bidItems(ps, p => ({ star: 15, m1: 3, m2: 3 }[p.id] ?? 1));
+  const at = id => items.findIndex(it => it.id === id);
+  // Without the star the best is m1 + m2 + a filler = 8. With him at $p, even star + two fillers (10, $p + $2)
+  // beats that, so he's worth up to $18: more than the room's $15, because the alternative buys little.
+  assert.equal(bidLimit(items, at('star'), 20, 3), 18);
+  // Without m1: star + m2 + filler ($19) = 14. With m1 at $p: m1 + star + m2 = 18 needs p <= 2; m1 + star + filler = 14 needs p <= 4.
+  assert.equal(bidLimit(items, at('m1'), 20, 3), 4);
+});

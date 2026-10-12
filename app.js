@@ -1,5 +1,5 @@
 import { FLAGS } from './lib/flags.mjs';
-import { CATS, CAT_LABEL, applyAdjustments, computeValues, draftState, categoryTotals, fitScore, tierOf, normName } from './lib/value.mjs';
+import { CATS, CAT_LABEL, applyAdjustments, computeValues, roomCurve, bidItems, bidLimit, draftState, categoryTotals, fitScore, tierOf, normName } from './lib/value.mjs';
 
 const KEY = 'fa:v1';
 const $ = s => document.querySelector(s);
@@ -23,6 +23,7 @@ const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch
 let league, built, news, claudeAdj, evalData, qa, roles, tau, h2h, jev, jevTest, cascade, flagEval, flagTest, signals, newsRun, riskModel;
 let tab = ['prep', 'board', 'yahoo', 'news', 'draft'].includes(S.tab) ? S.tab : 'prep';
 let lastCascade = new Map();
+let roomPrice = new Map(); // id -> what a Yahoo room pays for him, in this league's dollars (lib/value.mjs roomCurve)
 let ranked = [], byId = new Map();
 
 const loadJson = async (f, fallback) => { try { const r = await fetch(f, { cache: 'no-cache' }); return r.ok ? await r.json() : fallback; } catch { return fallback; } };
@@ -47,6 +48,8 @@ async function init() {
   $('#settingsBtn').onclick = openSettings;
   $('#sheet').onclick = e => { if (e.target.id === 'sheet') closeSheet(); };
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closeSheet(); });
+  const curve = roomCurve((built.players ?? []).map(p => p.market ?? 0), league);
+  if (curve) roomPrice = new Map((built.players ?? []).filter(p => p.market > 0).sort((a, b) => b.market - a.market).map((p, i) => [p.id, curve[i] ?? league.minBid]));
   recompute(); render();
 }
 
@@ -128,31 +131,61 @@ function cascadeAdjustments(proposals) {
   return out;
 }
 
-function valuesWith(proposals, punt = S.punt) {
+function valuesWith(proposals, punt = S.punt, only = null) {
   const cas = cascadeAdjustments(proposals);
   const players = basePlayers().map(p => applyAdjustments(p, [...adjustmentsFor(p.id, proposals), ...(cas.get(p.id) ?? [])]));
 
   // G-scores by default: they won 61-66% of simulated weeks against plain z-scores (Setup → Data & value quality).
-  return computeValues(players, { league, punt, tau: S.formula === 'z' ? null : tau });
+  return priceAgainstRoom(computeValues(players, { league, punt, tau: S.formula === 'z' ? null : tau }), only);
+}
+
+// Your price is a bid limit against the real room, not a share of the $2,800 (lib/value.mjs bidLimit):
+// the most you can pay for him and still end up with the best team $200 buys when everyone else costs
+// about what Yahoo rooms pay. Stars are worth paying up for only where they beat the cheap middle.
+// To win a player you pay the room's price plus $1; the room's $1 players go for $1.
+const roomCost = p => { const c = Math.round(S.market[normName(p.name)] ?? roomPrice.get(p.id) ?? league.minBid); return c <= league.minBid ? league.minBid : c + 1; };
+function priceAgainstRoom(v, only) {
+  if (!roomPrice.size && !Object.keys(S.market).length) return v;
+  const items = bidItems(v, roomCost, { minBid: league.minBid });
+  const idx = new Map(items.map((it, i) => [it.id, i]));
+  for (const p of v) {
+    p.shareDollars = p.dollars;
+    if (only && p.id !== only) continue;
+    const i = idx.get(p.id);
+    p.dollars = i == null || items[i].w <= 0 ? 0 : bidLimit(items, i, league.budget, league.rosterSize, league.minBid);
+  }
+  return v;
+}
+// The same limit live in the draft: your money and open spots, players still on the board, room prices
+// moved by the money left in the room.
+const liveCache = new Map();
+function liveLimit(st, me, p) {
+  const key = `${S.draft.picks.length}:${me.left}:${me.slots}:${p.id}`;
+  if (liveCache.has(key)) return liveCache.get(key);
+  const board = st.board.filter(b => b.id !== p.id);
+  const cost = b => { const c = Math.round((marketOf(b) ?? league.minBid) * (st.inflation || 1)); return c <= league.minBid ? league.minBid : c + 1; };
+  const items = [{ id: p.id, w: Math.max(0, p.value), c: 1 }, ...bidItems(board, cost, { pool: 160, minBid: league.minBid })];
+  const lim = items[0].w > 0 ? Math.max(0, bidLimit(items, 0, me.left, me.slots, league.minBid) + (+ov(p.id).dollars || 0)) : 0;
+  liveCache.set(key, lim);
+  return lim;
 }
 
 function recompute() {
   lastCascade = cascadeAdjustments(allProposals());
   ranked = valuesWith(allProposals());
   byId = new Map(ranked.map(p => [p.id, p]));
-  const curve = ranked.map(p => p.dollars);
-  scaledMarket = new Map(ranked.filter(p => p.market > 0).sort((a, b) => b.market - a.market).map((p, i) => [p.id, curve[i] ?? 0]));
+  liveCache.clear();
 }
 
 const ov = id => S.overrides[id] ?? {};
 const mine = p => Math.max(0, p.dollars + (+ov(p.id).dollars || 0));
-// Market: your pasted prices (already in this league's dollars) win. Otherwise ESPN's average auction
-// price, which comes from mostly 10-team leagues, is put on this league's scale: a player's market rank
-// is priced at what that rank costs here (scripts/market-gaps.mjs explains why raw prices mislead).
-let scaledMarket = new Map();
-const marketOf = p => S.market[normName(p.name)] ?? scaledMarket.get(p.id) ?? undefined;
+// Market: your pasted prices (already in this league's dollars) win. Otherwise Yahoo's average auction
+// price, which comes from 10-team leagues, is put on this league's scale: a player's market rank is priced
+// on the same room curve as your values, so the two differ only where the rankings differ.
+const marketOf = p => S.market[normName(p.name)] ?? roomPrice.get(p.id) ?? undefined;
 const injuryOf = p => (news.injuries ?? []).find(i => normName(i.name) === normName(p.name));
-const dstate = () => draftState(ranked, S.draft.picks, { league, teamCount: S.draft.teams.length, priceOf: mine });
+// Inflation is measured on room prices: money left in the room against what the room would pay for the players left.
+const dstate = () => draftState(ranked, S.draft.picks, { league, teamCount: S.draft.teams.length, priceOf: p => marketOf(p) ?? 0 });
 
 // ---------- pasted projections ----------
 function parseCsv(text) {
@@ -523,7 +556,7 @@ function renderNews() {
   if (pending.length <= 40) for (const a of pending) {
     const was = byId.get(a.playerId)?.dollars ?? 0;
     S.decisions[a.id] = 'accepted';
-    const trial = valuesWith(allProposals());
+    const trial = valuesWith(allProposals(), S.punt, a.playerId);
     delete S.decisions[a.id];
     a.effect = (trial.find(p => p.id === a.playerId)?.dollars ?? 0) - was;
   }
@@ -554,13 +587,13 @@ function renderDraft() {
   const teamsNamed = D.teams.some(t => !/^Team \d+$/.test(t));
   let up = '';
   if (cur) {
-    const ceiling = Math.min(Math.round(st.adjusted(cur)), me.maxBid);
+    const ceiling = Math.min(liveLimit(st, me, cur), me.maxBid);
     const rivals = st.teams.filter((t, i) => i !== D.me && t.maxBid >= ceiling).length;
     up = `<div class="card bidcard">
       <div class="row" style="justify-content:space-between"><b data-open="${esc(cur.id)}" style="font-size:18px">${esc(cur.name)}${pills(cur)}</b><button class="btn quiet" id="d-clear">Clear</button></div>
       <div class="label" style="margin-top:6px">Bid up to</div>
       <div class="bid">${money(ceiling)}</div>
-      <div class="muted">Your price ${money(mine(cur))}${Math.abs(st.inflation - 1) >= 0.02 ? `, ${st.inflation > 1 ? 'up' : 'down'} ${Math.round(Math.abs(st.inflation - 1) * 100)}% for money left in the room` : ''} · ${rivals} team${rivals === 1 ? '' : 's'} can go higher${marketOf(cur) != null ? ` · Yahoo ~${money(marketOf(cur))}` : ''}</div>
+      <div class="muted">Worked out from your ${money(me.left)} and ${me.slots} open spots against what's left${Math.abs(st.inflation - 1) >= 0.02 ? `, with room prices ${st.inflation > 1 ? 'up' : 'down'} ${Math.round(Math.abs(st.inflation - 1) * 100)}%` : ''} · before the draft ${money(mine(cur))} · ${rivals} team${rivals === 1 ? '' : 's'} can go higher${marketOf(cur) != null ? ` · room ~${money(marketOf(cur) * (st.inflation || 1))}` : ''}</div>
       <div class="muted" style="margin-top:4px">${strengths(cur) || ''}</div>
       <div class="section-title" style="text-align:left">Who won him?</div>
       <div class="row"><select id="d-team" class="grow">${D.teams.map((t, i) => `<option value="${i}" ${i === D.me ? 'selected' : ''}>${esc(t)}${i === D.me ? ' (me)' : ''}</option>`).join('')}</select>
@@ -568,9 +601,11 @@ function renderDraft() {
       <button class="btn block" id="d-sold" style="margin-top:8px">Record sale</button>
     </div>`;
   }
-  const best = st.board.slice(0, 10);
-  const dump = st.board.filter(p => ov(p.id).tag !== 'target' && (ov(p.id).tag === 'avoid' || (marketOf(p) ?? 0) >= st.adjusted(p) + 3))
-    .sort((a, b) => (marketOf(b) ?? st.adjusted(b)) - (marketOf(a) ?? st.adjusted(a))).slice(0, 5);
+  const room = p => (marketOf(p) ?? 0) * (st.inflation || 1);
+  const live = p => me.slots > 0 ? liveLimit(st, me, p) : 0;
+  const best = [...st.board].sort((a, b) => b.value - a.value).slice(0, 30).sort((a, b) => live(b) - live(a)).slice(0, 10);
+  const dump = st.board.slice(0, 30).filter(p => ov(p.id).tag !== 'target' && (ov(p.id).tag === 'avoid' || room(p) >= live(p) + 3))
+    .sort((a, b) => room(b) - room(a)).slice(0, 5);
   const tot = categoryTotals(myPlayers);
   $('#view').innerHTML = `
     <p class="intro">During the auction: type each <b>nominated player</b> to see your top bid, then record who won him and for how much.</p>
@@ -579,8 +614,8 @@ function renderDraft() {
     <div class="card" style="margin-top:12px"><label style="margin-top:0">Player up for bid</label><input id="d-search" list="d-names" placeholder="Start typing a name" autocomplete="off"><datalist id="d-names">${options}</datalist></div>
     ${up}
     <div class="section-title">Best left for you</div>
-    <div class="list">${best.map(p => playerRow(p, { right: `<div class="price">${money(st.adjusted(p))}</div><div class="muted small">bid limit</div>` })).join('')}</div>
-    ${dump.length ? `<div class="section-title">Nominate these</div><div class="muted" style="margin:0 2px 8px">Others will overpay; nominating them drains their budgets.</div><div class="list">${dump.map(p => playerRow(p, { right: `<div class="price down">~${money(marketOf(p) ?? st.adjusted(p))}</div><div class="muted small">room price</div>` })).join('')}</div>` : ''}
+    <div class="list">${best.map(p => playerRow(p, { right: `<div class="price">${money(live(p))}</div><div class="muted small">bid limit</div>` })).join('')}</div>
+    ${dump.length ? `<div class="section-title">Nominate these</div><div class="muted" style="margin:0 2px 8px">Others will overpay; nominating them drains their budgets.</div><div class="list">${dump.map(p => playerRow(p, { right: `<div class="price down">~${money(room(p))}</div><div class="muted small">room price</div>` })).join('')}</div>` : ''}
     <div class="section-title">My team · ${myPlayers.length}/${league.rosterSize}</div>
     <div class="card">${myPlayers.map(p => `<div class="item row" data-open="${esc(p.id)}"><span class="grow">${esc(p.name)} <span class="muted">${esc(p.pos.join('/'))}</span></span><b>${money(D.picks.find(k => k.playerId === p.id).price)}</b></div>`).join('') || '<div class="muted">Nobody yet.</div>'}
       ${myPlayers.length ? `<div class="section-title">Where my team stands</div>${catBars({ z: tot })}` : ''}</div>
@@ -676,10 +711,10 @@ function openAbout() {
       <div class="muted">Each player's season: 75% ESPN's projection, 25% a stats model of his last two seasons, with ESPN's habit of projecting about 1.3 minutes a game too many corrected. Teams, rookies and depth charts come from ESPN.</div>
       ${rows.length ? `<table style="margin-top:8px"><tr><th>Tested on four past seasons</th><th class="num">Ranking accuracy</th><th class="num">Avg $ miss</th></tr>${rows.map(r => `<tr><td>${esc(nice[r.label] ?? r.label)}</td><td class="num">${r.spearman.toFixed(2)}</td><td class="num">$${r.maeDollars.toFixed(2)}</td></tr>`).join('')}</table>` : ''}</div>
     <div class="card"><h2>2. Prices</h2>
-      <div class="muted">Prices are built for weekly head-to-head: a category that swings a lot week to week counts a little less. The $2,800 in the room is shared out in proportion to how much better each player is than the best one left undrafted.</div>
+      <div class="muted">The ranking is built for weekly 9-category head-to-head: a category that swings a lot week to week counts a little less. Your price for a player is a bid limit against a real Yahoo room: the most you can pay for him and still end up with the best 13-man team $200 can buy, if everyone else costs about what Yahoo rooms pay (+$1 to win). Yahoo rooms pay about $84 for #1, $60 for #10, $26 for #42 and $5 for #84 (scaled to your 14 teams). A star is worth his price only where he beats what the same money buys in the cheap middle. Today that's true of Jokic, Wembanyama and Shai, and not of most of the next tier. On draft night the limit is worked out again after every sale, from your money, your open spots and who's left.</div>
       ${g.length ? `<table style="margin-top:8px"><tr><th>Weeks won, replaying past seasons</th>${g.map(x => `<th class="num">${x.season - 1}-${String(x.season).slice(2)}</th>`).join('')}</tr><tr><td>Head-to-head pricing</td>${g.map(x => `<td class="num">${Math.round((x.g?.matchupWinRate ?? 0) * 100)}%</td>`).join('')}</tr><tr><td>Season-total pricing</td>${g.map(() => '<td class="num">50%</td>').join('')}</tr></table>` : ''}</div>
     <div class="card"><h2>3. Yahoo prices</h2>
-      <div class="muted">Yahoo's average auction prices come from mostly 10–12-team leagues, so each player's Yahoo rank is priced at what that rank costs in your 14-team league. Yahoo rooms overpay stars (top 10 go for ~1.18× Yahoo's own values) and underpay the middle (#31–100 for 0.3–0.65×).</div></div>
+      <div class="muted">Yahoo's average auction prices come from 10-team leagues (they total about $2,000), so rank #k here is matched to the same place per team there and the money is scaled to your room. Yahoo rooms pay heavily for stars and very little for the middle. Big gaps come from two places. Above, stars beyond the top three cost more than the production is worth when $5–10 buys a top-60 player. Below, the 9-category ranking disagrees with Yahoo's, usually over free-throw shooting, turnovers, or steals and blocks: Giannis's free throws, Trae's and Cade's turnovers.</div></div>
     <div class="card"><h2>4. News</h2>
       <div class="muted">Twice a day the app reads ESPN and FantasyPros news. An AI reader flags injuries and role changes (95% accurate on hand-checked notes) and Claude turns the ones that matter into the changes you see on the News tab. Nothing moves a price until you apply it. When you apply an absence, teammates get the share of his minutes measured from past seasons.</div></div>
     <div class="card"><h2>5. Uncertainty</h2>
