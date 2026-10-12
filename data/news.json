@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-11T21:01:43.535Z",
+ "fetchedAt": "2026-10-12T10:02:37.927Z",
  "injuries": [
   {
    "name": "Keshon Gilbert",
@@ -110,22 +110,22 @@
    "injury": "Wrist"
   },
   {
-   "name": "Brandon Miller",
-   "team": "Charlotte Hornets",
-   "status": "Day-To-Day",
-   "comment": "Miller (leg) is listed as out for Tuesday's preseason game versus the Nets.",
-   "date": "2026-10-06T21:21Z",
-   "returnDate": "2026-10-11",
-   "injury": "Leg – Bruise"
-  },
-  {
    "name": "Christian Anderson",
    "team": "Charlotte Hornets",
    "status": "Day-To-Day",
-   "comment": "Anderson (ankle) won't play in Tuesday's preseason game against the Nets.",
-   "date": "2026-10-06T21:16Z",
-   "returnDate": "2026-10-11",
+   "comment": "Anderson (ankle) has been ruled out for Sunday's preseason game against Milwaukee.",
+   "date": "2026-10-11T21:19Z",
+   "returnDate": "2026-10-14",
    "injury": "Ankle – Sprain"
+  },
+  {
+   "name": "Grayson Allen",
+   "team": "Charlotte Hornets",
+   "status": "Day-To-Day",
+   "comment": "Allen will not play in Sunday's preseason game against the Bucks due to right knee soreness.",
+   "date": "2026-10-11T21:18Z",
+   "returnDate": "2026-10-14",
+   "injury": "Knee – Soreness"
   },
   {
    "name": "Kylan Boswell",
@@ -164,15 +164,6 @@
    "injury": "Hamstring"
   },
   {
-   "name": "Matas Buzelis",
-   "team": "Chicago Bulls",
-   "status": "Day-To-Day",
-   "comment": "Buzelis exited to the locker room in the second quarter and will not return to Friday's preseason game against the Grizzlies due to a right ankle injury, K.C. Johnson of Chicago Sports Network reports. He'll finish with six points (3-6 FG, 0-2 3Pt) and one block in 12 minutes.",
-   "date": "2026-10-10T01:18Z",
-   "returnDate": "2026-10-11",
-   "injury": "Ankle"
-  },
-  {
    "name": "Tre Jones",
    "team": "Chicago Bulls",
    "status": "Day-To-Day",
@@ -180,15 +171,6 @@
    "date": "2026-10-09T22:29Z",
    "returnDate": "2026-10-11",
    "injury": "Hip"
-  },
-  {
-   "name": "Jalen Smith",
-   "team": "Chicago Bulls",
-   "status": "Day-To-Day",
-   "comment": "Smith (foot) has been ruled out for Friday's preseason game against the Grizzlies, K.C. Johnson of Chicago Sports Network reports.",
-   "date": "2026-10-09T22:25Z",
-   "returnDate": "2026-10-11",
-   "injury": "Foot – Soreness"
   },
   {
    "name": "Zach Collins",
@@ -218,31 +200,22 @@
    "injury": "Hamstring"
   },
   {
-   "name": "Khalifa Diop",
-   "team": "Cleveland Cavaliers",
-   "status": "Day-To-Day",
-   "comment": "Diop (undisclosed) won't play in Thursday's preseason game against Boston, Serena Winters of FanDuel Sports Network Ohio reports.",
-   "date": "2026-10-08T22:49Z",
-   "returnDate": "2026-10-11",
-   "injury": "Undisclosed"
-  },
-  {
    "name": "Nae'Qwan Tomlin",
    "team": "Cleveland Cavaliers",
    "status": "Day-To-Day",
-   "comment": "Tomlin (back) won't play in Thursday's preseason game against Boston, Serena Winters of FanDuel Sports Network Ohio reports.",
-   "date": "2026-10-08T22:48Z",
-   "returnDate": "2026-10-11",
+   "comment": "Tomlin (back) is out for Sunday's preseason game against the Magic, Serena Winters of FanDuel Sports Network Ohio reports.",
+   "date": "2026-10-11T21:41Z",
+   "returnDate": "2026-10-13",
    "injury": "Back"
   },
   {
-   "name": "James Harden",
+   "name": "Khalifa Diop",
    "team": "Cleveland Cavaliers",
    "status": "Day-To-Day",
-   "comment": "Harden (ankle) has been ruled out for Thursday's preseason game against the Celtics, Serena Winters of FanDuel Sports Network Ohio reports.",
-   "date": "2026-10-08T22:42Z",
-   "returnDate": "2026-10-11",
-   "injury": "Ankle – Soreness"
+   "comment": "Diop (knee) has been ruled out for Sunday's preseason game against the Magic, Serena Winters of FanDuel Sports Network Ohio reports.",
+   "date": "2026-10-11T21:40Z",
+   "returnDate": "2026-10-13",
+   "injury": "Knee"
   },
   {
    "name": "Marcus Sasser",
@@ -605,12 +578,30 @@
    "injury": "Calf – Strain"
   },
   {
+   "name": "Kasparas Jakucionis",
+   "team": "Milwaukee Bucks",
+   "status": "Day-To-Day",
+   "comment": "Jakucionis (coach's decision) is inactive for Sunday's preseason game against Charlotte, Justin Garcia of the Milwaukee Bucks Radio Network reports.",
+   "date": "2026-10-11T22:46Z",
+   "returnDate": "2026-10-14",
+   "injury": "Coach's Decision"
+  },
+  {
+   "name": "Brayden Burries",
+   "team": "Milwaukee Bucks",
+   "status": "Day-To-Day",
+   "comment": "Burries will not play in Sunday's preseason game against the Hornets due to a coach's decision, Justin Garcia of the Milwaukee Bucks Radio Network reports.",
+   "date": "2026-10-11T22:45Z",
+   "returnDate": "2026-10-14",
+   "injury": "Coach's Decision"
+  },
+  {
    "name": "Nate Ament",
    "team": "Milwaukee Bucks",
    "status": "Day-To-Day",
-   "comment": "Ament won't return to Wednesday's preseason game against the Thunder due to a left ankle sprain. He'll finish with three points (1-7 FG, 0-1 3Pt, 1-4 FT), four rebounds, one assist and one steal in 10 minutes.",
-   "date": "2026-10-08T01:35Z",
-   "returnDate": "2026-10-11",
+   "comment": "Ament (ankle) is out for Sunday's preseason game against the Hornets, Justin Garcia of the Milwaukee Bucks Radio Networkreports.",
+   "date": "2026-10-11T22:41Z",
+   "returnDate": "2026-10-14",
    "injury": "Ankle – Sprain"
   },
   {
@@ -830,40 +821,40 @@
    "injury": "Rest"
   },
   {
-   "name": "Jalen Suggs",
+   "name": "Jonathan Isaac",
    "team": "Orlando Magic",
    "status": "Day-To-Day",
-   "comment": "Magic head coach Sean Sweeney said Suggs (illness) increased his activity level at Saturday's practice and looked more like himself, but they can't \"skip steps\" in the point guard's recovery, Jason Beede of the Orlando Sentinel reports.",
-   "date": "2026-10-10T18:53Z",
-   "returnDate": "2026-10-11",
-   "injury": "Illness"
+   "comment": "Isaac (personal, knee) is out for Sunday's preseason game against the Cavaliers, Jason Beede of the Orlando Sentinel reports.",
+   "date": "2026-10-11T21:32Z",
+   "returnDate": "2026-10-13",
+   "injury": "Knee – Sprain"
   },
   {
    "name": "Anthony Black",
    "team": "Orlando Magic",
    "status": "Day-To-Day",
-   "comment": "Black (ankle) was a full participant in Friday's practice, per Jason Beede of the Orlando Sentinel.",
-   "date": "2026-10-09T20:29Z",
-   "returnDate": "2026-10-11",
+   "comment": "Black (ankle) is out for Sunday's preseason game against the Cavaliers, Jason Beede of the Orlando Sentinel reports.",
+   "date": "2026-10-11T21:29Z",
+   "returnDate": "2026-10-13",
    "injury": "Ankle – Sprain"
   },
   {
-   "name": "Noah Penda",
+   "name": "Desmond Bane",
    "team": "Orlando Magic",
    "status": "Day-To-Day",
-   "comment": "Penda (hamstring) is out for Wednesday's preseason game in Memphis, Jason Beede of the Orlando Sentinel reports.",
-   "date": "2026-10-07T23:40Z",
-   "returnDate": "2026-10-11",
-   "injury": "Hamstring"
+   "comment": "Bane (rest) has been ruled out for Sunday's preseason game versus Cleveland, Jason Beede of the Orlando Sentinel reports.",
+   "date": "2026-10-11T21:27Z",
+   "returnDate": "2026-10-13",
+   "injury": "Rest"
   },
   {
-   "name": "Jonathan Isaac",
+   "name": "Jalen Suggs",
    "team": "Orlando Magic",
    "status": "Day-To-Day",
-   "comment": "Isaac (knee) won't travel with the Magic for Wednesday's preseason opener against the Grizzlies due to personal reasons, Jason Beede of the Orlando Sentinel reports.",
-   "date": "2026-10-06T15:42Z",
-   "returnDate": "2026-10-11",
-   "injury": "Knee – Sprain"
+   "comment": "Suggs is out for Sunday's preseason game against the Cavaliers, Jason Beede of the Orlando Sentinel reports.",
+   "date": "2026-10-11T21:26Z",
+   "returnDate": "2026-10-13",
+   "injury": "Illness"
   },
   {
    "name": "Izaiyah Nelson",
@@ -1191,6 +1182,50 @@
   }
  ],
  "articles": [
+  {
+   "headline": "Chicago Bulls vs. Denver Nuggets: Game Highlights",
+   "description": "Chicago Bulls vs. Denver Nuggets: Game Highlights",
+   "published": "2026-10-12T03:56:27Z",
+   "url": "https://www.espn.com/video/clip/_/id/50163814/game-highlights",
+   "athletes": [
+    "Aaron Gordon",
+    "Leonard Miller",
+    "Nikola Jokic"
+   ]
+  },
+  {
+   "headline": "Milwaukee Bucks vs. Charlotte Hornets: Game Highlights",
+   "description": "Milwaukee Bucks vs. Charlotte Hornets: Game Highlights",
+   "published": "2026-10-12T01:30:56Z",
+   "url": "https://www.espn.com/video/clip/_/id/50163183/game-highlights",
+   "athletes": [
+    "Tyler Herro",
+    "Jericho Sims",
+    "Jarkel Joiner",
+    "Brandon Miller"
+   ]
+  },
+  {
+   "headline": "Orlando Magic vs. Cleveland Cavaliers: Game Highlights",
+   "description": "Orlando Magic vs. Cleveland Cavaliers: Game Highlights",
+   "published": "2026-10-12T01:30:52Z",
+   "url": "https://www.espn.com/video/clip/_/id/50163110/game-highlights",
+   "athletes": [
+    "Tristan da Silva",
+    "James Harden",
+    "Meleek Thomas",
+    "Wendell Carter Jr"
+   ]
+  },
+  {
+   "headline": "Lakers center Walker Kessler (finger) nears preseason debut",
+   "description": "Walker Kessler is closing in on making his preseason debut with the Lakers after he was a full participant in practice Sunday.",
+   "published": "2026-10-11T22:25:17Z",
+   "url": "https://www.espn.com/nba/story/_/id/50161378/lakers-center-walker-kessler-finger-nears-preseason-debut",
+   "athletes": [
+    "Walker Kessler"
+   ]
+  },
   {
    "headline": "Karl-Anthony Towns 'disappointed' with Knicks tabling talks",
    "description": "Karl-Anthony Towns responded to the Knicks' statement that they are tabling all extension talks until later in the season, saying he was \"disappointed.\"",
@@ -1698,51 +1733,6 @@
    "published": "2026-10-08T12:17:49Z",
    "url": "https://www.espn.com/nba/story/_/id/50131848/nba-fiba-say-europe-push-continue-euroleague",
    "athletes": []
-  },
-  {
-   "headline": "Golden State Warriors vs. Portland Trail Blazers: Game Highlights",
-   "description": "Golden State Warriors vs. Portland Trail Blazers: Game Highlights",
-   "published": "2026-10-08T05:05:47Z",
-   "url": "https://www.espn.com/video/clip/_/id/50130536/game-highlights",
-   "athletes": [
-    "Deni Avdija",
-    "Ja Morant",
-    "Miles Kelly",
-    "Micah Potter",
-    "Damian Lillard"
-   ]
-  },
-  {
-   "headline": "Tyrese Haliburton scores 7 in 1st game in more than 16 months",
-   "description": "Pacers star Tyrese Haliburton scored seven points during his 16 minutes of action against the Wolves on Wednesday. It was his first game in more than 16 months, as Haliburton was recovering from a torn Achilles.",
-   "published": "2026-10-08T11:14:47Z",
-   "url": "https://www.espn.com/nba/story/_/id/50130092/tyrese-haliburton-scores-7-1st-game-more-16-months",
-   "athletes": [
-    "Tyrese Haliburton"
-   ]
-  },
-  {
-   "headline": "Phoenix Suns vs. Chicago Bulls: Game Highlights",
-   "description": "Phoenix Suns vs. Chicago Bulls: Game Highlights",
-   "published": "2026-10-08T03:30:26Z",
-   "url": "https://www.espn.com/video/clip/_/id/50129923/game-highlights",
-   "athletes": [
-    "Caleb Wilson",
-    "Patrick Williams",
-    "Dillon Brooks"
-   ]
-  },
-  {
-   "headline": "Milwaukee Bucks vs. Oklahoma City Thunder: Game Highlights",
-   "description": "Milwaukee Bucks vs. Oklahoma City Thunder: Game Highlights",
-   "published": "2026-10-08T03:33:27Z",
-   "url": "https://www.espn.com/video/clip/_/id/50129886/game-highlights",
-   "athletes": [
-    "Jaime Jaquez Jr",
-    "Myles Turner",
-    "Aday Mara",
-    "Cormac Ryan"
-   ]
   }
  ]
 }
