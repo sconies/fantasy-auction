@@ -220,10 +220,10 @@ function importProjections(text) {
 // Screens. Each one opens with what it's for and what to do; the journey is
 // Prep (what's next) → Board (set your prices) → Yahoo (copy them in) → News → Draft.
 // ======================================================================================
-const DRAFT_DATE = new Date('2026-10-18T19:00:00-04:00');
+const DRAFT_DATE = new Date('2026-10-19T18:00:00-04:00');
 const YAHOO_DEFAULT_COUNT = 150;
 const TITLES = {
-  prep: ['Prep', 'Get ready for the 18 Oct auction'],
+  prep: ['Prep', 'Get ready for the 19 Oct auction'],
   board: ['Your board', 'Your price for every player'],
   yahoo: ['Set values in Yahoo', 'Copy your prices into Yahoo'],
   news: ['News', 'Changes that could move a price'],
