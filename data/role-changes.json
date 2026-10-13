@@ -259,6 +259,26 @@
    "to": "SF #2",
    "promoted": true,
    "projectedMin": 14.09
+  },
+  {
+   "date": "2026-10-13",
+   "playerId": "4432582",
+   "name": "Max Christie",
+   "team": "DAL",
+   "from": "SG #1",
+   "to": "SG #2",
+   "promoted": false,
+   "projectedMin": 26.94
+  },
+  {
+   "date": "2026-10-13",
+   "playerId": "5211175",
+   "name": "Zaccharie Risacher",
+   "team": "DAL",
+   "from": "SG #2",
+   "to": "SG #1",
+   "promoted": true,
+   "projectedMin": 21.57
   }
  ]
 }

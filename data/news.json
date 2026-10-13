@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-13T09:55:23.170Z",
+ "fetchedAt": "2026-10-13T21:55:25.273Z",
  "injuries": [
   {
    "name": "Keshon Gilbert",
@@ -182,6 +182,33 @@
    "injury": "Hamstring"
   },
   {
+   "name": "Zach Collins",
+   "team": "Chicago Bulls",
+   "status": "Day-To-Day",
+   "comment": "Collins (toe) is progressing in his recovery but has been ruled out for Wednesday's preseason meeting with the Bucks, K.C. Johnson of Chicago Sports Network reports.",
+   "date": "2026-10-13T19:11Z",
+   "returnDate": "2026-10-16",
+   "injury": "Toe – Surgery"
+  },
+  {
+   "name": "Tobe Awaka",
+   "team": "Chicago Bulls",
+   "status": "Day-To-Day",
+   "comment": "Awaka (knee) didn't practice Tuesday, per K.C. Johnson of Chicago Sports Network.",
+   "date": "2026-10-13T19:08Z",
+   "returnDate": "2026-10-14",
+   "injury": "Knee"
+  },
+  {
+   "name": "Isaac Okoro",
+   "team": "Chicago Bulls",
+   "status": "Day-To-Day",
+   "comment": "Okoro (undisclosed) didn't participate in Tuesday's practice, K.C. Johnson of Chicago Sports Network reports.",
+   "date": "2026-10-13T19:05Z",
+   "returnDate": "2026-10-14",
+   "injury": "Undisclosed"
+  },
+  {
    "name": "Jaylin Sellers",
    "team": "Chicago Bulls",
    "status": "Day-To-Day",
@@ -189,15 +216,6 @@
    "date": "2026-10-12T14:18Z",
    "returnDate": "2026-10-14",
    "injury": "Back"
-  },
-  {
-   "name": "Zach Collins",
-   "team": "Chicago Bulls",
-   "status": "Day-To-Day",
-   "comment": "Collins (toe) did not play in Sunday's 133-128 preseason loss to Denver.",
-   "date": "2026-10-12T14:14Z",
-   "returnDate": "2026-10-14",
-   "injury": "Toe – Surgery"
   },
   {
    "name": "Nic Claxton",
@@ -266,9 +284,9 @@
    "name": "Spencer Jones",
    "team": "Denver Nuggets",
    "status": "Day-To-Day",
-   "comment": "Jones (hamstring) did not play in Sunday's 133-128 preseason win over Chicago.",
-   "date": "2026-10-12T14:19Z",
-   "returnDate": "2026-10-14",
+   "comment": "Jones (hamstring) remains limited to non-contact work, Vinny Benedetto of The Denver Gazette reports.",
+   "date": "2026-10-13T19:28Z",
+   "returnDate": "2026-10-22",
    "injury": "Hamstring"
   },
   {
@@ -518,8 +536,8 @@
    "name": "Pelle Larsson",
    "team": "Miami Heat",
    "status": "Day-To-Day",
-   "comment": "Larsson (illness) didn't practice Monday, Ira Winderman of the South Florida Sun Sentinel reports.",
-   "date": "2026-10-12T20:34Z",
+   "comment": "Larsson (illness) is doubtful for Wednesday's preseason game against the Nets, Ira Winderman of the South Florida Sun Sentinel reports.",
+   "date": "2026-10-13T17:26Z",
    "returnDate": "2026-10-14",
    "injury": "Illness"
   },
@@ -830,22 +848,31 @@
    "injury": "Rest"
   },
   {
-   "name": "Jonathan Isaac",
+   "name": "Nikola Vucevic",
    "team": "Orlando Magic",
    "status": "Day-To-Day",
-   "comment": "Isaac (personal, knee) is out for Sunday's preseason game against the Cavaliers, Jason Beede of the Orlando Sentinel reports.",
-   "date": "2026-10-11T21:32Z",
-   "returnDate": "2026-10-13",
-   "injury": "Knee – Sprain"
+   "comment": "Vucevic recorded nine points (3-3 FG, 3-3 3Pt), three rebounds, one assist, one steal and one block in 12 minutes during Wednesday's 122-118 preseason win over Memphis.",
+   "date": "2026-10-13T21:47Z",
+   "returnDate": "2026-10-16",
+   "injury": "Rest"
   },
   {
    "name": "Anthony Black",
    "team": "Orlando Magic",
    "status": "Day-To-Day",
-   "comment": "Black (ankle) is out for Sunday's preseason game against the Cavaliers, Jason Beede of the Orlando Sentinel reports.",
-   "date": "2026-10-11T21:29Z",
-   "returnDate": "2026-10-13",
+   "comment": "Black (ankle) has been ruled out for Tuesday's preseason game against Cleveland, Jason Beede of the Orlando Sentinel reports.",
+   "date": "2026-10-13T21:28Z",
+   "returnDate": "2026-10-16",
    "injury": "Ankle – Sprain"
+  },
+  {
+   "name": "Jonathan Isaac",
+   "team": "Orlando Magic",
+   "status": "Day-To-Day",
+   "comment": "Isaac (knee) won't play in Tuesday's preseason game against Cleveland, Jason Beede of the Orlando Sentinel reports.",
+   "date": "2026-10-13T21:27Z",
+   "returnDate": "2026-10-16",
+   "injury": "Knee – Sprain"
   },
   {
    "name": "Desmond Bane",
@@ -853,17 +880,8 @@
    "status": "Day-To-Day",
    "comment": "Bane (rest) has been ruled out for Sunday's preseason game versus Cleveland, Jason Beede of the Orlando Sentinel reports.",
    "date": "2026-10-11T21:27Z",
-   "returnDate": "2026-10-13",
-   "injury": "Rest"
-  },
-  {
-   "name": "Jalen Suggs",
-   "team": "Orlando Magic",
-   "status": "Day-To-Day",
-   "comment": "Suggs is out for Sunday's preseason game against the Cavaliers, Jason Beede of the Orlando Sentinel reports.",
-   "date": "2026-10-11T21:26Z",
-   "returnDate": "2026-10-13",
-   "injury": "Illness"
+   "returnDate": null,
+   "injury": ""
   },
   {
    "name": "Izaiyah Nelson",
@@ -873,6 +891,15 @@
    "date": "2026-09-28T21:33Z",
    "returnDate": "2026-11-01",
    "injury": "Ankle – Surgery"
+  },
+  {
+   "name": "Dominick Barlow",
+   "team": "Philadelphia 76ers",
+   "status": "Day-To-Day",
+   "comment": "Barlow (back) was unable to practice Tuesday, Noah Levick of NBC Sports Philadelphia reports.",
+   "date": "2026-10-13T17:29Z",
+   "returnDate": "2026-10-16",
+   "injury": "Back"
   },
   {
    "name": "Adem Bona",
@@ -929,15 +956,6 @@
    "injury": "Rest"
   },
   {
-   "name": "Dominick Barlow",
-   "team": "Philadelphia 76ers",
-   "status": "Day-To-Day",
-   "comment": "Barlow (back) isn't expected to play in either of Philadelphia's next two preseason games against Brooklyn and Boston, Dave McMenamin of ESPN.com reports.",
-   "date": "2026-10-07T17:04Z",
-   "returnDate": "2026-10-16",
-   "injury": "Back"
-  },
-  {
    "name": "Ariel Hukporti",
    "team": "Philadelphia 76ers",
    "status": "Out",
@@ -986,28 +1004,10 @@
    "name": "Chris Youngblood",
    "team": "Portland Trail Blazers",
    "status": "Day-To-Day",
-   "comment": "Youngblood is out for Monday's preseason game against London with left calf soreness.",
-   "date": "2026-10-12T18:23Z",
-   "returnDate": "2026-10-13",
-   "injury": "Calf"
-  },
-  {
-   "name": "Robert Williams III",
-   "team": "Portland Trail Blazers",
-   "status": "Day-To-Day",
-   "comment": "Williams (rest) is out for Monday's preseason game against London.",
-   "date": "2026-10-12T18:21Z",
-   "returnDate": "2026-10-13",
-   "injury": "Rest"
-  },
-  {
-   "name": "Damian Lillard",
-   "team": "Portland Trail Blazers",
-   "status": "Day-To-Day",
-   "comment": "Lillard (rest) is out for Monday's preseason game against London.",
-   "date": "2026-10-12T18:18Z",
-   "returnDate": "2026-10-13",
-   "injury": "Rest"
+   "comment": "Youngblood (calf) has been ruled out for Tuesday's preseason game against the Kings.",
+   "date": "2026-10-13T19:45Z",
+   "returnDate": "2026-10-16",
+   "injury": "Calf – Soreness"
   },
   {
    "name": "Shaedon Sharpe",
@@ -1017,6 +1017,15 @@
    "date": "2026-08-24T20:23Z",
    "returnDate": "2027-03-02",
    "injury": "Knee – Surgery"
+  },
+  {
+   "name": "Dylan Cardwell",
+   "team": "Sacramento Kings",
+   "status": "Out",
+   "comment": "Cardwell will miss at least two weeks with a left calf strain, Anthony Slater of ESPN.com reports.",
+   "date": "2026-10-13T20:57Z",
+   "returnDate": "2026-10-29",
+   "injury": "Calf – Strain"
   },
   {
    "name": "Malik Monk",
@@ -1035,15 +1044,6 @@
    "date": "2026-10-12T20:32Z",
    "returnDate": "2026-10-13",
    "injury": "Undisclosed"
-  },
-  {
-   "name": "Dylan Cardwell",
-   "team": "Sacramento Kings",
-   "status": "Day-To-Day",
-   "comment": "Cardwell (calf) didn't practice Monday, per James Ham of ESPN 1320 Sacramento.",
-   "date": "2026-10-12T20:31Z",
-   "returnDate": "2026-10-13",
-   "injury": "Calf"
   },
   {
    "name": "Maxime Raynaud",
@@ -1136,6 +1136,15 @@
    "injury": "Calf – Strain"
   },
   {
+   "name": "Nate Bittle",
+   "team": "Toronto Raptors",
+   "status": "Day-To-Day",
+   "comment": "Bittle (foot) is still in a walking boot, but he has a follow-up appointment Wednesday and could ditch the boot if all goes well, Blake Murphy of Sportsnet.ca reports.",
+   "date": "2026-10-13T21:35Z",
+   "returnDate": "2026-10-21",
+   "injury": "Foot"
+  },
+  {
    "name": "Trayce Jackson-Davis",
    "team": "Toronto Raptors",
    "status": "Day-To-Day",
@@ -1145,15 +1154,6 @@
    "injury": "Teeth"
   },
   {
-   "name": "Allen Graves",
-   "team": "Toronto Raptors",
-   "status": "Day-To-Day",
-   "comment": "Graves (groin) practiced Monday, per Zulfi Sheikh of Sportsnet.",
-   "date": "2026-10-12T20:37Z",
-   "returnDate": "2026-10-13",
-   "injury": "Groin – Not Specified"
-  },
-  {
    "name": "Alijah Martin",
    "team": "Toronto Raptors",
    "status": "Day-To-Day",
@@ -1161,15 +1161,6 @@
    "date": "2026-10-10T21:01Z",
    "returnDate": "2026-10-13",
    "injury": "Knee"
-  },
-  {
-   "name": "Nate Bittle",
-   "team": "Toronto Raptors",
-   "status": "Day-To-Day",
-   "comment": "Bittle (foot) has been ruled out for Saturday's exhibition game against the Clippers, Michael Grange of Sportsnet.ca reports.",
-   "date": "2026-10-10T20:58Z",
-   "returnDate": "2026-10-13",
-   "injury": "Foot"
   },
   {
    "name": "Blake Hinson",
@@ -1236,6 +1227,133 @@
   }
  ],
  "articles": [
+  {
+   "headline": "2026 NBA free agency: Grades for offseason signings, extensions",
+   "description": "We're grading the biggest offseason signings, including Payton Pritchard's two-year extension with the Celtics.",
+   "published": "2026-10-13T21:22:39Z",
+   "url": "https://www.espn.com/nba/story/_/id/48957095/2026-nba-free-agency-grades-offseason-signings-deals-contracts-extensions-depth-charts",
+   "athletes": [
+    "Trae Young",
+    "Austin Reaves",
+    "Mark Williams",
+    "CJ McCollum",
+    "Coby White",
+    "Al Horford",
+    "Jose Alvarado",
+    "Andrew Wiggins",
+    "Julian Champagnie",
+    "Jusuf Nurkic",
+    "Ousmane Dieng",
+    "Tim Hardaway Jr",
+    "Keon Ellis",
+    "Luke Kennard",
+    "Dean Wade",
+    "Marcus Smart",
+    "Norman Powell",
+    "Sandro Mamukelashvili",
+    "Quentin Grimes",
+    "Collin Sexton",
+    "De'Anthony Melton",
+    "Mitchell Robinson",
+    "Anfernee Simons",
+    "Tari Eason",
+    "Victor Wembanyama",
+    "Naji Marshall",
+    "James Harden",
+    "Klay Thompson",
+    "DeMar DeRozan",
+    "Bennedict Mathurin",
+    "Jonathan Kuminga",
+    "Amen Thompson",
+    "Saddiq Bey",
+    "Pelle Larsson",
+    "Kawhi Leonard"
+   ]
+  },
+  {
+   "headline": "Celtics, Payton Pritchard agree to two-year extension",
+   "description": "Celtics, Payton Pritchard agree to two-year extension  ",
+   "published": "2026-10-13T20:35:01Z",
+   "url": "https://www.espn.com/video/clip/_/id/50176265/celtics-payton-pritchard-agree-two-year-extension",
+   "athletes": [
+    "Payton Pritchard"
+   ]
+  },
+  {
+   "headline": "Celtics to extend guard Payton Pritchard on 2-year, $44.2M deal",
+   "description": "Celtics guard Payton Pritchard has agreed to a two-year, $44.2 million extension with a mutual option for the 2029-30 season.",
+   "published": "2026-10-13T20:42:33Z",
+   "url": "https://www.espn.com/nba/story/_/id/50176173/celtics-extend-payton-pritchard-two-year-442m-deal",
+   "athletes": [
+    "Payton Pritchard"
+   ]
+  },
+  {
+   "headline": "Which NBA deals will get done? Bobby Marks' biggest extension decisions to watch",
+   "description": "With Monday's extension deadline looming, Bobby Marks breaks down the biggest decisions around the league.",
+   "published": "2026-10-13T19:51:07Z",
+   "url": "https://www.espn.com/nba/story/_/id/50166436/rookie-veteran-contract-extensions-towns-giannis-jokic",
+   "athletes": []
+  },
+  {
+   "headline": "NBA preseason buzz: Latest on trades, news and intel",
+   "description": "The NBA regular season is just a few weeks away, and we're tracking all the news, deals, and trades across the league.",
+   "published": "2026-10-13T20:24:57Z",
+   "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+   "athletes": []
+  },
+  {
+   "headline": "Fantasy basketball: The rookies you should be targeting in drafts",
+   "description": "André Snellings looks at the rookie class and highlights which players to target in fantasy drafts this season.",
+   "published": "2026-10-13T19:34:34Z",
+   "url": "https://www.espn.com/fantasy/basketball/story/_/id/50175002/fantasy-basketball-top-rookies-draft-nba-2026-27",
+   "athletes": [
+    "Caleb Wilson",
+    "AJ Dybantsa",
+    "Cameron Boozer",
+    "Darius Acuff Jr",
+    "Darryn Peterson",
+    "Yaxel Lendeborg",
+    "Mikel Brown Jr",
+    "Keaton Wagler",
+    "Kingston Flemings",
+    "Morez Johnson Jr",
+    "Brayden Burries",
+    "Aday Mara",
+    "Hannes Steinbach",
+    "Meleek Thomas"
+   ]
+  },
+  {
+   "headline": "NBA, WNBA campaign will remind fans of risks of betting on basketball",
+   "description": "The NBA and WNBA are partnering with the National Council on Problem Gambling on a fan education campaign regarding the risks involved on betting or trading on basketball games.",
+   "published": "2026-10-13T19:20:47Z",
+   "url": "https://www.espn.com/espn/betting/story/_/id/50173984/nba-wnba-responsible-gaming",
+   "athletes": []
+  },
+  {
+   "headline": "NBA teams reveal court designs for 2026 NBA Cup tournament",
+   "description": "Teams will be competing on these courts for the NBA Cup from Oct. 30 to Dec. 11.",
+   "published": "2026-10-13T17:35:28Z",
+   "url": "https://www.espn.com/nba/story/_/id/50174098/2026-nba-cup-tournament-court-designs",
+   "athletes": []
+  },
+  {
+   "headline": "Sources: 76ers' G League affiliate in Delaware tabs Brad Jones as GM",
+   "description": "The Delaware Blue Coats, the 76ers' G League affiliate, are hiring Brad Jones as their next general manager, team sources told ESPN.",
+   "published": "2026-10-13T14:07:47Z",
+   "url": "https://www.espn.com/nba/story/_/id/50173640/sources-76ers-g-league-team-delaware-tabs-jones-gm",
+   "athletes": []
+  },
+  {
+   "headline": "Tyrese Haliburton's return brings hope and expectations in Indiana",
+   "description": "Nearly 16 months ago, a torn Achilles cost Tyrese Haliburton -- and the Pacers -- the 2025-26 season. Now, he returns to help them reclaim their spot in the East.",
+   "published": "2026-10-13T17:10:32Z",
+   "url": "https://www.espn.com/nba/story/_/id/50168604/tyrese-haliburton-indiana-pacers-return-injury",
+   "athletes": [
+    "Tyrese Haliburton"
+   ]
+  },
   {
    "headline": "San Antonio Spurs vs. Utah Jazz: Game Highlights",
    "description": "San Antonio Spurs vs. Utah Jazz: Game Highlights",
@@ -1333,13 +1451,6 @@
    "description": "'E:60 Being Ben' trailer",
    "published": "2026-10-12T15:06:20Z",
    "url": "https://www.espn.com/video/clip/_/id/50166468/e60-being-ben-trailer",
-   "athletes": []
-  },
-  {
-   "headline": "NBA preseason buzz: Latest on trades, news and intel",
-   "description": "The NBA regular season is just a few weeks away, and we're tracking all the news, deals, and trades across the league.",
-   "published": "2026-10-12T13:27:39Z",
-   "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
    "athletes": []
   },
   {
@@ -1508,49 +1619,6 @@
    ]
   },
   {
-   "headline": "2026 NBA free agency: Grades for offseason signings, extensions",
-   "description": "We're grading the biggest free agent signings and extensions, including Jalen Duren's new five-year deal.",
-   "published": "2026-10-10T18:29:58Z",
-   "url": "https://www.espn.com/nba/story/_/id/48957095/2026-nba-free-agency-grades-offseason-signings-deals-contracts-extensions-depth-charts",
-   "athletes": [
-    "Trae Young",
-    "Austin Reaves",
-    "Mark Williams",
-    "CJ McCollum",
-    "Coby White",
-    "Al Horford",
-    "Jose Alvarado",
-    "Andrew Wiggins",
-    "Julian Champagnie",
-    "Jusuf Nurkic",
-    "Ousmane Dieng",
-    "Tim Hardaway Jr",
-    "Keon Ellis",
-    "Luke Kennard",
-    "Dean Wade",
-    "Marcus Smart",
-    "Norman Powell",
-    "Sandro Mamukelashvili",
-    "Quentin Grimes",
-    "Collin Sexton",
-    "De'Anthony Melton",
-    "Mitchell Robinson",
-    "Anfernee Simons",
-    "Tari Eason",
-    "Victor Wembanyama",
-    "Naji Marshall",
-    "James Harden",
-    "Klay Thompson",
-    "DeMar DeRozan",
-    "Bennedict Mathurin",
-    "Jonathan Kuminga",
-    "Amen Thompson",
-    "Saddiq Bey",
-    "Pelle Larsson",
-    "Kawhi Leonard"
-   ]
-  },
-  {
    "headline": "Warriors give Brandin Podziemski 5-year, $110M extension",
    "description": "Warriors guard Brandin Podziemski has agreed to a five-year, $110 million extension, his agent told ESPN's Shams Charania.",
    "published": "2026-10-11T05:33:05Z",
@@ -1671,93 +1739,6 @@
    "athletes": [
     "Karl-Anthony Towns",
     "Josh Hart"
-   ]
-  },
-  {
-   "headline": "Jalen Duren, Pistons need each other -- for better or worse",
-   "description": "After agreeing to a five-year, $200 million deal, how will Duren and Detroit move forward after a monthslong saga?",
-   "published": "2026-10-09T11:39:06Z",
-   "url": "https://www.espn.com/nba/story/_/id/50118254/detroit-pistons-jalen-duren-new-contract",
-   "athletes": [
-    "Jalen Duren",
-    "Cade Cunningham"
-   ]
-  },
-  {
-   "headline": "How to ace your salary cap draft: Tips and strategies to build a winning team",
-   "description": "Are you ready for your salary cap draft? Jim McCormick lays out helpful strategies and tactics you can use to ace draft day.",
-   "published": "2026-10-09T10:32:11Z",
-   "url": "https://www.espn.com/fantasy/basketball/story/_/id/50134524/fantasy-basketball-how-ace-your-salary-cap-draft-2026-2027",
-   "athletes": []
-  },
-  {
-   "headline": "Sacramento Kings vs. Los Angeles Lakers: Game Highlights",
-   "description": "Sacramento Kings vs. Los Angeles Lakers: Game Highlights",
-   "published": "2026-10-09T14:33:45Z",
-   "url": "https://www.espn.com/video/clip/_/id/50138055/game-highlights",
-   "athletes": [
-    "Emanuel Sharp",
-    "Zach LaVine",
-    "Luka Doncic",
-    "Jarred Vanderbilt",
-    "Precious Achiuwa",
-    "Daeqwon Plowden"
-   ]
-  },
-  {
-   "headline": "76ers' Embiid calls 'not true' LeBron report 'unfortunate'",
-   "description": "Joel Embiid said a recent report about LeBron James getting on him about being late to practice \"is not true\" and caused him to wonder why he was targeted.",
-   "published": "2026-10-09T05:27:05Z",
-   "url": "https://www.espn.com/nba/story/_/id/50137826/76ers-embiid-calls-not-true-lebron-report-unfortunate",
-   "athletes": [
-    "Joel Embiid"
-   ]
-  },
-  {
-   "headline": "LeBron James scores 10 points in 18 minutes in 76ers debut",
-   "description": "LeBron James, who joined the 76ers this summer, had 10 points, five assists and four rebounds in the first half of his debut with Philadelphia.",
-   "published": "2026-10-09T05:49:34Z",
-   "url": "https://www.espn.com/nba/story/_/id/50137673/lebron-james-scores-10-points-18-minutes-76ers-debut",
-   "athletes": [
-    "LeBron James"
-   ]
-  },
-  {
-   "headline": "Atlanta Hawks vs. San Antonio Spurs: Game Highlights",
-   "description": "Atlanta Hawks vs. San Antonio Spurs: Game Highlights",
-   "published": "2026-10-09T03:37:32Z",
-   "url": "https://www.espn.com/video/clip/_/id/50137491/game-highlights",
-   "athletes": [
-    "Dylan Harper",
-    "Nickeil Alexander-Walker",
-    "Asa Newell",
-    "CJ McCollum",
-    "Stephon Castle",
-    "Jock Landale"
-   ]
-  },
-  {
-   "headline": "Philadelphia 76ers vs. Brooklyn Nets: Game Highlights",
-   "description": "Philadelphia 76ers vs. Brooklyn Nets: Game Highlights",
-   "published": "2026-10-09T03:05:35Z",
-   "url": "https://www.espn.com/video/clip/_/id/50137286/game-highlights",
-   "athletes": [
-    "Egor Demin",
-    "Julius Randle",
-    "Jaylen Brown",
-    "Grant Nelson"
-   ]
-  },
-  {
-   "headline": "Washington Wizards vs. New York Knicks: Game Highlights",
-   "description": "Washington Wizards vs. New York Knicks: Game Highlights",
-   "published": "2026-10-09T02:36:07Z",
-   "url": "https://www.espn.com/video/clip/_/id/50137095/game-highlights",
-   "athletes": [
-    "Jalen Brunson",
-    "Landry Shamet",
-    "Anthony Davis",
-    "Bruce Brown"
    ]
   }
  ]

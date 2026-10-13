@@ -1,10 +1,46 @@
 {
- "builtAt": "2026-10-13T09:55:24.894Z",
+ "builtAt": "2026-10-13T21:55:27.568Z",
  "counts": {
-  "new": 4,
-  "toJudge": 4
+  "new": 9,
+  "toJudge": 9
  },
  "signals": [
+  {
+   "id": "injury:859c2c6d2bd1",
+   "kind": "text",
+   "playerId": "cardwdy01",
+   "name": "Dylan Cardwell",
+   "team": "SAC",
+   "date": "2026-10-13T20:57Z",
+   "source": "injury",
+   "url": null,
+   "text": "Cardwell will miss at least two weeks with a left calf strain, Anthony Slater of ESPN.com reports.",
+   "flags": {
+    "absence": 0.93
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-13"
+  },
+  {
+   "id": "headline:d669a8844961",
+   "kind": "text",
+   "playerId": "4396993",
+   "name": "Tyrese Haliburton",
+   "team": "IND",
+   "date": "2026-10-13T17:10:32Z",
+   "source": "headline",
+   "url": "https://www.espn.com/nba/story/_/id/50168604/tyrese-haliburton-indiana-pacers-return-injury",
+   "text": "Tyrese Haliburton's return brings hope and expectations in Indiana. Nearly 16 months ago, a torn Achilles cost Tyrese Haliburton -- and the Pacers -- the 2025-26 season. Now, he returns to help them reclaim their spot in the East.",
+   "flags": {
+    "recovering": 0.98
+   },
+   "summary": "is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-13"
+  },
   {
    "id": "injury:2dd65b7824e7",
    "kind": "text",
@@ -1243,6 +1279,26 @@
    "firstSeen": "2026-10-06"
   },
   {
+   "id": "news:5b0560d31bc7",
+   "kind": "text",
+   "playerId": "4066354",
+   "name": "Payton Pritchard",
+   "team": "BOS",
+   "date": "2026-10-13",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/613679/payton-pritchard-signs-two-year-extension-with-celtics.php",
+   "text": "Payton Pritchard signs two-year extension with Celtics Boston Celtics guard Payton Pritchard has agreed to a two-year, $44.2 million contract extension.  Fantasy Impact: The deal includes a mutual option in 2029-30. Pritchard is coming off a career best season and should continue to handle an even bigger role following the departure of Jaylen Brown.",
+   "flags": {
+    "role_up": 0.96,
+    "opening": 0.98,
+    "usage_up": 0.78
+   },
+   "summary": "the player's role, minutes or opportunity should grow compared with last season; a teammate's absence or departure opens up opportunity for the player; should take on a bigger scoring or offensive load (more shots or touches)",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-13"
+  },
+  {
    "id": "outlook:edfb225c8e6d",
    "kind": "outlook",
    "playerId": "4066354",
@@ -1629,6 +1685,30 @@
     "starter": 0.98
    },
    "summary": "is expected to start or has been named a starter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-13"
+  },
+  {
+   "id": "depth:4432582:2026-10-13:SG #2",
+   "kind": "depth",
+   "playerId": "4432582",
+   "name": "Max Christie",
+   "team": "DAL",
+   "date": "2026-10-13",
+   "summary": "Depth chart SG #1 → SG #2",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-13"
+  },
+  {
+   "id": "depth:5211175:2026-10-13:SG #1",
+   "kind": "depth",
+   "playerId": "5211175",
+   "name": "Zaccharie Risacher",
+   "team": "DAL",
+   "date": "2026-10-13",
+   "summary": "Depth chart SG #2 → SG #1",
    "judge": true,
    "status": "new",
    "firstSeen": "2026-10-13"
