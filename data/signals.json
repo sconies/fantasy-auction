@@ -1577,8 +1577,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-12"
+   "status": "handled",
+   "firstSeen": "2026-10-12",
+   "handledNote": "Injury absence: covered by the automatic ESPN-date injury proposal"
   },
   {
    "id": "depth:5105623:2026-10-12:PF #2",
@@ -1589,8 +1590,9 @@
    "date": "2026-10-12",
    "summary": "Depth chart PF #1 → PF #2",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-12"
+   "status": "handled",
+   "firstSeen": "2026-10-12",
+   "handledNote": "Depth-chart reshuffle only, no coach/reporter text; ESPN projection already uses it"
   },
   {
    "id": "depth:3102531:2026-10-12:C #3",
@@ -1601,8 +1603,9 @@
    "date": "2026-10-12",
    "summary": "Depth chart C #1 → C #3",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-12"
+   "status": "handled",
+   "firstSeen": "2026-10-12",
+   "handledNote": "Depth-chart reshuffle only, no coach/reporter text; ESPN projection already uses it"
   },
   {
    "id": "depth:4592691:2026-10-12:PF #1",
@@ -1613,8 +1616,9 @@
    "date": "2026-10-12",
    "summary": "Depth chart PF #2 → PF #1",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-12"
+   "status": "handled",
+   "firstSeen": "2026-10-12",
+   "handledNote": "Depth-chart reshuffle only, no coach/reporter text; ESPN projection already uses it"
   },
   {
    "id": "depth:5254165:2026-10-12:SG #2",
@@ -1625,8 +1629,9 @@
    "date": "2026-10-12",
    "summary": "Depth chart SG #1 → SG #2",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-12"
+   "status": "handled",
+   "firstSeen": "2026-10-12",
+   "handledNote": "Depth-chart reshuffle only, no coach/reporter text; ESPN projection already uses it"
   },
   {
    "id": "depth:3134907:2026-10-12:PF #1",
@@ -1637,8 +1642,9 @@
    "date": "2026-10-12",
    "summary": "Depth chart PF #2 → PF #1",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-12"
+   "status": "handled",
+   "firstSeen": "2026-10-12",
+   "handledNote": "Depth-chart reshuffle only, no coach/reporter text; ESPN projection already uses it"
   },
   {
    "id": "depth:4065732:2026-10-12:SF #2",
@@ -1649,8 +1655,9 @@
    "date": "2026-10-12",
    "summary": "Depth chart SF #1 → SF #2",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-12"
+   "status": "handled",
+   "firstSeen": "2026-10-12",
+   "handledNote": "Depth-chart reshuffle only, no coach/reporter text; ESPN projection already uses it"
   },
   {
    "id": "depth:6580:2026-10-12:SG #1",
@@ -1661,8 +1668,9 @@
    "date": "2026-10-12",
    "summary": "Depth chart SG #2 → SG #1",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-12"
+   "status": "handled",
+   "firstSeen": "2026-10-12",
+   "handledNote": "Depth-chart reshuffle only, no coach/reporter text; ESPN projection already uses it"
   },
   {
    "id": "depth:4997536:2026-10-12:PF #1",
@@ -1673,8 +1681,9 @@
    "date": "2026-10-12",
    "summary": "Depth chart SF #2 → PF #1",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-12"
+   "status": "handled",
+   "firstSeen": "2026-10-12",
+   "handledNote": "Depth-chart reshuffle only, no coach/reporter text; ESPN projection already uses it"
   },
   {
    "id": "depth:3907387:2026-10-12:PG #1",
@@ -1685,8 +1694,9 @@
    "date": "2026-10-12",
    "summary": "Depth chart PG #3 → PG #1",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-12"
+   "status": "handled",
+   "firstSeen": "2026-10-12",
+   "handledNote": "Depth-chart reshuffle only, no coach/reporter text; ESPN projection already uses it"
   },
   {
    "id": "injury:1998842cf132",
