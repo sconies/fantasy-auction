@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-12T23:43:32.948Z",
+ "fetchedAt": "2026-10-13T09:55:23.170Z",
  "injuries": [
   {
    "name": "Keshon Gilbert",
@@ -623,20 +623,11 @@
    "injury": "Ankle – Sprain"
   },
   {
-   "name": "Enrique Freeman",
-   "team": "Minnesota Timberwolves",
-   "status": "Day-To-Day",
-   "comment": "Freeman is out for Monday's preseason matchup with the Knicks due to a right shoulder injury.",
-   "date": "2026-10-12T23:24Z",
-   "returnDate": "2026-10-14",
-   "injury": "Shoulder"
-  },
-  {
    "name": "Rocco Zikarsky",
    "team": "Minnesota Timberwolves",
    "status": "Day-To-Day",
-   "comment": "Zikarsky recorded 18 points (8-13 FG, 2-5 3Pt, 0-2 FT) and six rebounds in 24 minutes during Monday's 111-84 Summer League loss to the Trail Blazers.",
-   "date": "2026-10-12T23:17Z",
+   "comment": "Zikarsky (undisclosed) has been ruled out for Monday's preseason game against the Knicks.",
+   "date": "2026-10-12T23:36Z",
    "returnDate": "2026-10-14",
    "injury": "Undisclosed"
   },
@@ -644,8 +635,8 @@
    "name": "Terrence Shannon Jr.",
    "team": "Minnesota Timberwolves",
    "status": "Day-To-Day",
-   "comment": "Shannon recorded 19 points (8-16 FG, 3-6 3Pt), six rebounds and four assists in 22 minutes during Saturday's 125-124 preseason win over the Heat.",
-   "date": "2026-10-12T23:16Z",
+   "comment": "Shannon (undisclosed) has been ruled out for Monday's preseason game against the Knicks.",
+   "date": "2026-10-12T23:30Z",
    "returnDate": "2026-10-14",
    "injury": "Undisclosed"
   },
@@ -653,10 +644,19 @@
    "name": "Jonathan Kuminga",
    "team": "Minnesota Timberwolves",
    "status": "Day-To-Day",
-   "comment": "Kuminga (rest) is not available against the Heat on Saturday.",
-   "date": "2026-10-10T23:46Z",
+   "comment": "Kuminga (general soreness) won't play in Monday's preseason game against the Knicks, Alan Horton of the Timberwolves Radio Network reports.",
+   "date": "2026-10-12T23:29Z",
    "returnDate": "2026-10-14",
    "injury": "Rest"
+  },
+  {
+   "name": "Enrique Freeman",
+   "team": "Minnesota Timberwolves",
+   "status": "Day-To-Day",
+   "comment": "Freeman is out for Monday's preseason matchup with the Knicks due to a right shoulder injury.",
+   "date": "2026-10-12T23:24Z",
+   "returnDate": "2026-10-14",
+   "injury": "Shoulder"
   },
   {
    "name": "Donte DiVincenzo",
@@ -675,6 +675,51 @@
    "date": "2026-10-08T22:28Z",
    "returnDate": "2026-10-14",
    "injury": "Toe – Bruise"
+  },
+  {
+   "name": "Karl-Anthony Towns",
+   "team": "New York Knicks",
+   "status": "Day-To-Day",
+   "comment": "Towns ended with 11 points (3-6 FG, 1-4 3Pt, 4-4 FT), four assists, two rebounds and one steal over 22 minutes in Monday's 122-104 preseason loss to Minnesota. He won't play Tuesday against Toronto for rest purposes, Stefan Bondy of The New York Post reports.",
+   "date": "2026-10-13T02:47Z",
+   "returnDate": "2026-10-15",
+   "injury": "Rest"
+  },
+  {
+   "name": "Mikal Bridges",
+   "team": "New York Knicks",
+   "status": "Day-To-Day",
+   "comment": "Bridges finished with nine points (3-6 FG, 1-2 3Pt, 2-2 FT), two rebounds and two assists over 22 minutes in Monday's 122-104 preseason loss to the Timberwolves.",
+   "date": "2026-10-13T02:47Z",
+   "returnDate": "2026-10-15",
+   "injury": "Rest"
+  },
+  {
+   "name": "Josh Hart",
+   "team": "New York Knicks",
+   "status": "Day-To-Day",
+   "comment": "Hart recorded two points (1-2 FG, 0-1 3Pt), three rebounds, three assists and one steal over 22 minutes in Monday's 122-104 preseason loss to the Timberwolves.",
+   "date": "2026-10-13T02:40Z",
+   "returnDate": "2026-10-15",
+   "injury": "Rest"
+  },
+  {
+   "name": "OG Anunoby",
+   "team": "New York Knicks",
+   "status": "Day-To-Day",
+   "comment": "Anunoby totaled 15 points (4-8 FG, 1-3 3Pt, 6-6 FT), three steals, two rebounds and one assist over 22 minutes in Monday's 122-104 preseason loss to Minnesota. He won't play Tuesday against Toronto for rest purposes, Stefan Bondy of The New York Post reports.",
+   "date": "2026-10-13T02:40Z",
+   "returnDate": "2026-10-15",
+   "injury": "Rest"
+  },
+  {
+   "name": "Jalen Brunson",
+   "team": "New York Knicks",
+   "status": "Day-To-Day",
+   "comment": "Brunson (rest) won't suit up for Tuesday's preseason game in Toronto, Stefan Bondy of The New York Post reports.",
+   "date": "2026-10-13T02:20Z",
+   "returnDate": "2026-10-15",
+   "injury": "Rest"
   },
   {
    "name": "Thomas Sorber",
@@ -1109,15 +1154,6 @@
    "injury": "Groin – Not Specified"
   },
   {
-   "name": "Chucky Hepburn",
-   "team": "Toronto Raptors",
-   "status": "Day-To-Day",
-   "comment": "The Raptors waived Hepburn (hamstring) on Monday, per Ryan Wolstat of the Toronto Sun.",
-   "date": "2026-10-12T20:12Z",
-   "returnDate": "2026-11-06",
-   "injury": "Hamstring"
-  },
-  {
    "name": "Alijah Martin",
    "team": "Toronto Raptors",
    "status": "Day-To-Day",
@@ -1134,6 +1170,15 @@
    "date": "2026-10-10T20:58Z",
    "returnDate": "2026-10-13",
    "injury": "Foot"
+  },
+  {
+   "name": "Blake Hinson",
+   "team": "Utah Jazz",
+   "status": "Day-To-Day",
+   "comment": "Hinson (adductor) has been ruled out for Monday's preseason game against San Antonio.",
+   "date": "2026-10-13T00:09Z",
+   "returnDate": "2026-10-16",
+   "injury": "Hip"
   },
   {
    "name": "Kyle Filipowski",
@@ -1154,22 +1199,13 @@
    "injury": "Foot"
   },
   {
-   "name": "Lauri Markkanen",
-   "team": "Utah Jazz",
+   "name": "Khris Middleton",
+   "team": "Washington Wizards",
    "status": "Day-To-Day",
-   "comment": "Markkanen won't play in Tuesday's preseason game against the Nuggets due to neck soreness.",
-   "date": "2026-10-07T00:50Z",
-   "returnDate": "2026-10-12",
-   "injury": "Neck – Soreness"
-  },
-  {
-   "name": "Brice Sensabaugh",
-   "team": "Utah Jazz",
-   "status": "Day-To-Day",
-   "comment": "Sensabaugh (hip) won't play in Tuesday's preseason game against the Nuggets.",
-   "date": "2026-10-07T00:28Z",
-   "returnDate": "2026-10-12",
-   "injury": "Hip"
+   "comment": "Middleton (rest) was unavailable for Monday's 131-122 preseason loss to Brooklyn, Greg Finberg of Wizardscentral.com reports.",
+   "date": "2026-10-13T01:54Z",
+   "returnDate": "2026-10-16",
+   "injury": "Rest"
   },
   {
    "name": "Anthony Davis",
@@ -1178,24 +1214,6 @@
    "comment": "Davis (rest) is out for Monday's preseason game against the Nets, Josh Robbins of The Athletic reports.",
    "date": "2026-10-12T21:24Z",
    "returnDate": "2026-10-16",
-   "injury": "Rest"
-  },
-  {
-   "name": "Khris Middleton",
-   "team": "Washington Wizards",
-   "status": "Day-To-Day",
-   "comment": "Middleton did not leave the bench during Saturday's 114-108 preseason win over the Pistons.",
-   "date": "2026-10-11T02:44Z",
-   "returnDate": "2026-10-12",
-   "injury": "Rest"
-  },
-  {
-   "name": "Tre Mann",
-   "team": "Washington Wizards",
-   "status": "Day-To-Day",
-   "comment": "Mann is out for Saturday's game against the Pistons due to general soreness, Josh Robbins of The Athletic reports.",
-   "date": "2026-10-10T21:40Z",
-   "returnDate": "2026-10-12",
    "injury": "Rest"
   },
   {
@@ -1218,6 +1236,64 @@
   }
  ],
  "articles": [
+  {
+   "headline": "San Antonio Spurs vs. Utah Jazz: Game Highlights",
+   "description": "San Antonio Spurs vs. Utah Jazz: Game Highlights",
+   "published": "2026-10-13T05:29:49Z",
+   "url": "https://www.espn.com/video/clip/_/id/50171054/game-highlights",
+   "athletes": [
+    "Jaxson Hayes",
+    "Darryn Peterson",
+    "Lauri Markkanen",
+    "Keyonte George",
+    "Ja'Kobi Gillespie"
+   ]
+  },
+  {
+   "headline": "Minnesota Timberwolves vs. New York Knicks: Game Highlights",
+   "description": "Minnesota Timberwolves vs. New York Knicks: Game Highlights",
+   "published": "2026-10-13T05:28:00Z",
+   "url": "https://www.espn.com/video/clip/_/id/50170683/game-highlights",
+   "athletes": [
+    "LaMelo Ball",
+    "Jalen Brunson",
+    "Antonio Reeves",
+    "Anthony Edwards"
+   ]
+  },
+  {
+   "headline": "Brooklyn Nets vs. Washington Wizards: Game Highlights",
+   "description": "Brooklyn Nets vs. Washington Wizards: Game Highlights",
+   "published": "2026-10-13T01:58:56Z",
+   "url": "https://www.espn.com/video/clip/_/id/50170518/game-highlights",
+   "athletes": [
+    "Chaney Johnson",
+    "Michael Porter Jr",
+    "Kyshawn George"
+   ]
+  },
+  {
+   "headline": "Oklahoma City Thunder vs. Atlanta Hawks: Game Highlights",
+   "description": "Oklahoma City Thunder vs. Atlanta Hawks: Game Highlights",
+   "published": "2026-10-13T02:00:17Z",
+   "url": "https://www.espn.com/video/clip/_/id/50170441/game-highlights",
+   "athletes": [
+    "Nickeil Alexander-Walker",
+    "Asa Newell",
+    "Bennett Stirtz",
+    "Corey Kispert"
+   ]
+  },
+  {
+   "headline": "Carmelo Anthony thinks Knicks right to halt contract talks to focus on season",
+   "description": "Former Knicks great Carmelo Anthony said the team is making the right decision in halting contract negotiations with players to focus solely on basketball.",
+   "published": "2026-10-13T00:46:18Z",
+   "url": "https://www.espn.com/nba/story/_/id/50169786/carmelo-anthony-thinks-knicks-right-halt-contract-talks-focus-season",
+   "athletes": [
+    "Josh Hart",
+    "Karl-Anthony Towns"
+   ]
+  },
   {
    "headline": "Ja Morant gets it done on both sides of the court",
    "description": "Ja Morant gets it done on both sides of the court ",
@@ -1269,7 +1345,7 @@
   {
    "headline": "Jordan game-worn 1998 NBA Finals jersey sells for $14 million",
    "description": "A game-worn, autographed Michael Jordan road jersey from the 1998 NBA Finals has been privately sold for $14 million.",
-   "published": "2026-10-12T14:07:39Z",
+   "published": "2026-10-13T02:10:53Z",
    "url": "https://www.espn.com/nba/story/_/id/50165903/jordan-game-worn-1998-nba-finals-jersey-sells-14-million",
    "athletes": []
   },
@@ -1683,62 +1759,6 @@
     "Anthony Davis",
     "Bruce Brown"
    ]
-  },
-  {
-   "headline": "New Orleans Pelicans vs. Miami Heat: Game Highlights",
-   "description": "New Orleans Pelicans vs. Miami Heat: Game Highlights",
-   "published": "2026-10-09T02:14:48Z",
-   "url": "https://www.espn.com/video/clip/_/id/50136993/game-highlights",
-   "athletes": [
-    "Giannis Antetokounmpo",
-    "Jordan Poole",
-    "Myron Gardner",
-    "Yves Missi"
-   ]
-  },
-  {
-   "headline": "Boston Celtics vs. Cleveland Cavaliers: Game Highlights",
-   "description": "Boston Celtics vs. Cleveland Cavaliers: Game Highlights",
-   "published": "2026-10-09T01:51:19Z",
-   "url": "https://www.espn.com/video/clip/_/id/50136810/game-highlights",
-   "athletes": [
-    "Jaylon Tyson",
-    "Baylor Scheierman",
-    "Luka Garza",
-    "Meleek Thomas"
-   ]
-  },
-  {
-   "headline": "Tyrese Maxey, Jaylen Brown, VJ Edgecombe make 'Abbott Elementary' cameos",
-   "description": "\"Abbott Elementary\" continues to embrace Philadelphia sports culture with its latest instance starring the 76ers.",
-   "published": "2026-10-08T20:47:07Z",
-   "url": "https://www.espn.com/nba/story/_/id/50134809/abbott-elementary-season-six-premiere-sixers-cameo",
-   "athletes": [
-    "Jaylen Brown",
-    "Tyrese Maxey",
-    "VJ Edgecombe",
-    "LeBron James"
-   ]
-  },
-  {
-   "headline": "Sources: 76ers plan to play starters in preseason game vs. Nets",
-   "description": "The 76ers plan to play their starters Thursday against the Nets, sources told ESPN.",
-   "published": "2026-10-08T20:15:04Z",
-   "url": "https://www.espn.com/nba/story/_/id/50134832/sources-76ers-plan-play-starters-preseason-game-vs-nets",
-   "athletes": [
-    "Joel Embiid",
-    "LeBron James",
-    "Tyrese Maxey",
-    "Jaylen Brown",
-    "VJ Edgecombe"
-   ]
-  },
-  {
-   "headline": "Fantasy basketball: Category league draft tiers",
-   "description": "Eric Moody groups players into tiers by each position for category-based leagues.",
-   "published": "2026-10-09T01:20:36Z",
-   "url": "https://www.espn.com/fantasy/basketball/story/_/id/50134369/fantasy-basketball-category-league-draft-tiers-2026-27",
-   "athletes": []
   }
  ]
 }
