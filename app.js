@@ -433,7 +433,7 @@ function openPlayer(id) {
     </div></details>
     <details class="more"><summary>Where the numbers come from</summary><div class="inner">
       ${sourcesTable(p)}
-      ${p.yahoo ? `<div class="muted" style="margin-top:8px">Yahoo: rank #${p.yahoo.rank}, average auction price $${p.yahoo.avg} in Yahoo leagues (mostly 10–12 teams), shown here on your league's scale. Yahoo's own projected value: $${p.yahoo.proj}.</div>` : ''}
+      ${p.yahoo ? `<div class="muted" style="margin-top:8px">Yahoo: ${p.yahoo.rank ? `rank #${p.yahoo.rank}, average auction price $${p.yahoo.avg} in Yahoo leagues (mostly 10–12 teams), shown here on your league's scale. ` : ''}Yahoo's default value in your league: $${p.yahoo.proj ?? 0}.</div>` : ''}
       ${Object.keys(p.jevFlags ?? {}).length ? `<div class="muted" style="margin-top:8px">News reading: ${Object.entries(p.jevFlags).sort((a, b) => b[1] - a[1]).map(([k, v]) => `${esc(flagLabel(k))} (${Math.round(v * 100)}%)`).join('; ')}.</div>` : ''}
       ${p.flags?.length ? `<div class="muted warn-ink" style="margin-top:8px">${p.flags.map(esc).join('<br>')}</div>` : ''}
       ${p.notes?.length ? `<div class="muted" style="margin-top:8px">${p.notes.map(esc).join(' ')}</div>` : ''}
@@ -487,7 +487,7 @@ function renderYahoo() {
         <li><span>For each player below, change Yahoo's value <span class="muted">(crossed out)</span> to <b>your value</b>. Biggest changes are first.</span></li>
         <li><span>Tick him off here. Your list is saved on this phone.</span></li>
       </ol>
-      <div class="muted">Yahoo's values here come from its Draft Analysis page. If your league shows a different number, just enter yours. If Yahoo only lets you reorder, use "Your order".</div>
+      <div class="muted">Yahoo's values here are your league's defaults from its Pre-Draft Player Values page (12 Oct). If your league shows a different number, just enter yours. If Yahoo only lets you reorder, use "Your order".</div>
     </div>
     <div class="seg">
       <button class="chip ${sort === 'change' ? 'on' : ''}" data-ysort="change">Biggest changes</button>
@@ -664,7 +664,7 @@ function openSettings() {
     </div>
     <div class="section-title">Market prices</div>
     <div class="card">
-      <div class="muted">Using Yahoo's average auction prices (${ranked.filter(p => p.yahoo).length} players). Paste your own "Name, $" lines to override them, e.g. from a mock draft.</div>
+      <div class="muted">Using Yahoo's average auction prices (${ranked.filter(p => p.yahoo?.avg != null).length} players). Paste your own "Name, $" lines to override them, e.g. from a mock draft.</div>
       <textarea id="s-market" placeholder="Nikola Jokic, 68" style="margin-top:8px"></textarea>
       <div class="row" style="margin-top:8px"><button class="btn secondary grow" id="s-market-go">Use these prices</button>${Object.keys(S.market).length ? `<button class="btn danger" id="s-market-clear">Clear ${Object.keys(S.market).length}</button>` : ''}</div>
     </div>
