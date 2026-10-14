@@ -1,5 +1,5 @@
 {
- "readAt": "2026-10-14T08:15:25.740Z",
+ "readAt": "2026-10-14T20:52:09.161Z",
  "model": "jev-latest",
  "notes": {
   "47d04791aa47cb5f": {
@@ -62,15 +62,10 @@
    "choice": "none",
    "confidence": 0.92
   },
-  "a9da5bfc34925e83": {
+  "9dfe76ebd745feaf": {
    "name": "Joshua Jefferson",
    "choice": "none",
-   "confidence": 0.93
-  },
-  "4d5190110be0e96a": {
-   "name": "Mikel Brown Jr.",
-   "choice": "none",
-   "confidence": 0.92
+   "confidence": 0.9
   },
   "8d5a34d6097e7149": {
    "name": "Christian Anderson",
@@ -177,6 +172,11 @@
    "choice": "none",
    "confidence": 0.77
   },
+  "b9853e41267e3791": {
+   "name": "Kristaps Porzingis",
+   "choice": "none",
+   "confidence": 0.48
+  },
   "44441a0da881a36e": {
    "name": "Draymond Green",
    "choice": "none",
@@ -185,11 +185,6 @@
   "109bb07fbf25df3f": {
    "name": "Al Horford",
    "choice": "none",
-   "confidence": 0.98
-  },
-  "574f2b82e8630a69": {
-   "name": "Kristaps Porzingis",
-   "choice": "uncertain",
    "confidence": 0.98
   },
   "8ea49f86c2310264": {
@@ -402,6 +397,16 @@
    "choice": "none",
    "confidence": 0.88
   },
+  "df6f486f74300f8d": {
+   "name": "Landry Shamet",
+   "choice": "none",
+   "confidence": 0.98
+  },
+  "1e279c45690a1dc6": {
+   "name": "Andre Drummond",
+   "choice": "none",
+   "confidence": 0.99
+  },
   "0c9b83d30893ef76": {
    "name": "Karl-Anthony Towns",
    "choice": "none",
@@ -522,15 +527,35 @@
    "choice": "none",
    "confidence": 0.45
   },
-  "99abdaf64f5699af": {
-   "name": "Devin Booker",
+  "864a16e2c7a66f12": {
+   "name": "Oso Ighodaro",
    "choice": "none",
-   "confidence": 1
+   "confidence": 0.9
   },
-  "ca5e67f88448c93e": {
+  "dea34a43fb75c6aa": {
+   "name": "Dillon Brooks",
+   "choice": "none",
+   "confidence": 0.84
+  },
+  "e47085f505ce1b1d": {
+   "name": "Collin Gillespie",
+   "choice": "uncertain",
+   "confidence": 0.5
+  },
+  "9e17b91c9268b16e": {
    "name": "Miles Bridges",
    "choice": "none",
-   "confidence": 0.92
+   "confidence": 0.59
+  },
+  "91b3c9a249bcca01": {
+   "name": "Jalen Green",
+   "choice": "uncertain",
+   "confidence": 0.5
+  },
+  "01f79054c6d4294f": {
+   "name": "Devin Booker",
+   "choice": "none",
+   "confidence": 0.95
   },
   "c6ccf75fed006ec1": {
    "name": "Mark Williams",
@@ -546,6 +571,11 @@
    "name": "Shaedon Sharpe",
    "choice": "months",
    "confidence": 0.39
+  },
+  "d257d2d5ed1d82ed": {
+   "name": "Precious Achiuwa",
+   "choice": "uncertain",
+   "confidence": 0.74
   },
   "66467e3b7d6115f4": {
    "name": "Ben Simmons",
@@ -587,11 +617,6 @@
    "choice": "uncertain",
    "confidence": 0.48
   },
-  "f34a63a2dee50848": {
-   "name": "Malik Williams",
-   "choice": "none",
-   "confidence": 0.9
-  },
   "11c11cf02958cf12": {
    "name": "Carter Bryant",
    "choice": "none",
@@ -631,16 +656,6 @@
    "name": "Tobias Harris",
    "choice": "uncertain",
    "confidence": 0.93
-  },
-  "fedf749b3d315444": {
-   "name": "Trey Jemison III",
-   "choice": "none",
-   "confidence": 0.8
-  },
-  "38289835b7008172": {
-   "name": "Jamison Battle",
-   "choice": "none",
-   "confidence": 0.83
   },
   "f59f1c0065b3ef44": {
    "name": "Nate Bittle",
@@ -746,13 +761,8 @@
   },
   "Joshua Jefferson": {
    "choice": "none",
-   "confidence": 0.93,
-   "written": "2026-10-12"
-  },
-  "Mikel Brown Jr.": {
-   "choice": "none",
-   "confidence": 0.92,
-   "written": "2026-10-12"
+   "confidence": 0.9,
+   "written": "2026-10-14"
   },
   "Christian Anderson": {
    "choice": "none",
@@ -859,6 +869,11 @@
    "confidence": 0.77,
    "written": "2026-10-10"
   },
+  "Kristaps Porzingis": {
+   "choice": "none",
+   "confidence": 0.48,
+   "written": "2026-10-14"
+  },
   "Draymond Green": {
    "choice": "none",
    "confidence": 0.94,
@@ -866,11 +881,6 @@
   },
   "Al Horford": {
    "choice": "none",
-   "confidence": 0.98,
-   "written": "2026-10-12"
-  },
-  "Kristaps Porzingis": {
-   "choice": "uncertain",
    "confidence": 0.98,
    "written": "2026-10-12"
   },
@@ -1084,6 +1094,16 @@
    "confidence": 0.88,
    "written": "2026-10-08"
   },
+  "Landry Shamet": {
+   "choice": "none",
+   "confidence": 0.98,
+   "written": "2026-10-14"
+  },
+  "Andre Drummond": {
+   "choice": "none",
+   "confidence": 0.99,
+   "written": "2026-10-14"
+  },
   "Karl-Anthony Towns": {
    "choice": "none",
    "confidence": 0.96,
@@ -1204,15 +1224,35 @@
    "confidence": 0.45,
    "written": "2026-10-01"
   },
-  "Devin Booker": {
+  "Oso Ighodaro": {
    "choice": "none",
-   "confidence": 1,
-   "written": "2026-10-11"
+   "confidence": 0.9,
+   "written": "2026-10-14"
+  },
+  "Dillon Brooks": {
+   "choice": "none",
+   "confidence": 0.84,
+   "written": "2026-10-14"
+  },
+  "Collin Gillespie": {
+   "choice": "uncertain",
+   "confidence": 0.5,
+   "written": "2026-10-14"
   },
   "Miles Bridges": {
    "choice": "none",
-   "confidence": 0.92,
-   "written": "2026-10-11"
+   "confidence": 0.59,
+   "written": "2026-10-14"
+  },
+  "Jalen Green": {
+   "choice": "uncertain",
+   "confidence": 0.5,
+   "written": "2026-10-14"
+  },
+  "Devin Booker": {
+   "choice": "none",
+   "confidence": 0.95,
+   "written": "2026-10-14"
   },
   "Mark Williams": {
    "choice": "uncertain",
@@ -1228,6 +1268,11 @@
    "choice": "months",
    "confidence": 0.39,
    "written": "2026-08-24"
+  },
+  "Precious Achiuwa": {
+   "choice": "uncertain",
+   "confidence": 0.74,
+   "written": "2026-10-14"
   },
   "Ben Simmons": {
    "choice": "none",
@@ -1269,11 +1314,6 @@
    "confidence": 0.48,
    "written": "2026-10-11"
   },
-  "Malik Williams": {
-   "choice": "none",
-   "confidence": 0.9,
-   "written": "2026-10-12"
-  },
   "Carter Bryant": {
    "choice": "none",
    "confidence": 0.93,
@@ -1313,16 +1353,6 @@
    "choice": "uncertain",
    "confidence": 0.93,
    "written": "2026-10-05"
-  },
-  "Trey Jemison III": {
-   "choice": "none",
-   "confidence": 0.8,
-   "written": "2026-10-13"
-  },
-  "Jamison Battle": {
-   "choice": "none",
-   "confidence": 0.83,
-   "written": "2026-10-13"
   },
   "Nate Bittle": {
    "choice": "uncertain",
