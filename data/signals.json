@@ -1630,8 +1630,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-13"
+   "status": "handled",
+   "firstSeen": "2026-10-13",
+   "handledNote": "injury; covered by automatic injury proposal"
   },
   {
    "id": "headline:d669a8844961",
@@ -1648,8 +1649,9 @@
    },
    "summary": "is recovering or returning from a significant injury or surgery",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-13"
+   "status": "handled",
+   "firstSeen": "2026-10-13",
+   "handledNote": "restates known return; in ESPN projection"
   },
   {
    "id": "injury:2dd65b7824e7",
@@ -1666,8 +1668,9 @@
    },
    "summary": "the team will rest the player on back-to-backs or manage his load",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-13"
+   "status": "handled",
+   "firstSeen": "2026-10-13",
+   "handledNote": "preseason one-game rest only"
   },
   {
    "id": "injury:b83fe9a1818f",
@@ -1684,8 +1687,9 @@
    },
    "summary": "the team will rest the player on back-to-backs or manage his load",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-13"
+   "status": "handled",
+   "firstSeen": "2026-10-13",
+   "handledNote": "preseason one-game rest only"
   },
   {
    "id": "news:5b0560d31bc7",
@@ -1704,8 +1708,9 @@
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season; a teammate's absence or departure opens up opportunity for the player; should take on a bigger scoring or offensive load (more shots or touches)",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-13"
+   "status": "handled",
+   "firstSeen": "2026-10-13",
+   "handledNote": "Brown departure already in ESPN/model minutes"
   },
   {
    "id": "news:278b4425705b",
@@ -1722,8 +1727,9 @@
    },
    "summary": "is expected to start or has been named a starter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-13"
+   "status": "handled",
+   "firstSeen": "2026-10-13",
+   "handledNote": "already starter, priced in"
   },
   {
    "id": "news:582f3a4ddbe0",
@@ -1740,8 +1746,9 @@
    },
    "summary": "is expected to start or has been named a starter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-13"
+   "status": "handled",
+   "firstSeen": "2026-10-13",
+   "handledNote": "already starter, priced in"
   },
   {
    "id": "depth:4432582:2026-10-13:SG #2",
@@ -1752,8 +1759,9 @@
    "date": "2026-10-13",
    "summary": "Depth chart SG #1 → SG #2",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-13"
+   "status": "handled",
+   "firstSeen": "2026-10-13",
+   "handledNote": "depth move, no text; priced into projection"
   },
   {
    "id": "depth:5211175:2026-10-13:SG #1",
@@ -1764,8 +1772,9 @@
    "date": "2026-10-13",
    "summary": "Depth chart SG #2 → SG #1",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-13"
+   "status": "handled",
+   "firstSeen": "2026-10-13",
+   "handledNote": "depth move, no text; priced into projection"
   },
   {
    "id": "news:54050960feea",
