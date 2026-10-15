@@ -1,5 +1,5 @@
 {
- "readAt": "2026-10-15T20:27:37.458Z",
+ "readAt": "2026-10-15T22:41:55.373Z",
  "model": "jev-latest",
  "notes": {
   "47d04791aa47cb5f": {
@@ -406,31 +406,6 @@
    "name": "Dejounte Murray",
    "choice": "uncertain",
    "confidence": 0.4
-  },
-  "0c9b83d30893ef76": {
-   "name": "Karl-Anthony Towns",
-   "choice": "none",
-   "confidence": 0.96
-  },
-  "fe4bcfe48cb2ad66": {
-   "name": "Mikal Bridges",
-   "choice": "none",
-   "confidence": 0.98
-  },
-  "64922a57bf065f09": {
-   "name": "Josh Hart",
-   "choice": "none",
-   "confidence": 0.98
-  },
-  "1cb5ea399e3baed2": {
-   "name": "OG Anunoby",
-   "choice": "none",
-   "confidence": 0.96
-  },
-  "550aa6fc8b7695a1": {
-   "name": "Jalen Brunson",
-   "choice": "none",
-   "confidence": 0.94
   },
   "1317ce887ce017ab": {
    "name": "Otega Oweh",
@@ -1093,31 +1068,6 @@
    "choice": "uncertain",
    "confidence": 0.4,
    "written": "2026-10-15"
-  },
-  "Karl-Anthony Towns": {
-   "choice": "none",
-   "confidence": 0.96,
-   "written": "2026-10-13"
-  },
-  "Mikal Bridges": {
-   "choice": "none",
-   "confidence": 0.98,
-   "written": "2026-10-13"
-  },
-  "Josh Hart": {
-   "choice": "none",
-   "confidence": 0.98,
-   "written": "2026-10-13"
-  },
-  "OG Anunoby": {
-   "choice": "none",
-   "confidence": 0.96,
-   "written": "2026-10-13"
-  },
-  "Jalen Brunson": {
-   "choice": "none",
-   "confidence": 0.94,
-   "written": "2026-10-13"
   },
   "Otega Oweh": {
    "choice": "season",
