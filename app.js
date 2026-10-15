@@ -396,6 +396,14 @@ function catBars(p) {
     return `<span class="lab ${S.punt.includes(c) ? 'punted' : ''}">${CAT_LABEL[c]}</span><div class="bar"><i style="left:${z >= 0 ? 50 : 50 - w}%;width:${w}%;background:${z >= 0 ? 'var(--good)' : 'var(--bad)'}"></i></div><span class="v">${z > 0 ? '+' : ''}${z.toFixed(1)}</span>`;
   }).join('')}</div>`;
 }
+// Injury history (scripts/build-players.mjs VET_INJURY): what past seasons say about players like him.
+function injuryNote(p) {
+  const r = p.injuryRisk;
+  if (!r) return '';
+  const played = r.lastGames === 0 ? 'missed all of last season' : `played ${r.lastGames} games last season`;
+  const cut = r.projGBefore != null ? ` Players 30+ coming off a season like that have fallen further short of their projections, so his games are cut ${r.projGBefore} → ${p.projG}.` : '';
+  return `<div class="notice" style="margin-top:10px"><span>Injury risk: he ${played}.${cut} About 1 in 4 such players play under 40 games (1 in 10 for everyone else), so a few dollars below his price is the safer bid.</span></div>`;
+}
 function openPlayer(id) {
   const p = byId.get(id);
   if (!p) return;
@@ -423,6 +431,7 @@ function openPlayer(id) {
       <div class="kv"><div><b>${p.projG}</b><span>games</span></div><div><b>${line('min')}</b><span>minutes</span></div><div><b>${line('pts')}</b><span>points</span></div></div>
       <div class="muted" style="margin-top:10px">${line('reb')} reb · ${line('ast')} ast · ${line('stl')} stl · ${line('blk')} blk · ${line('tpm')} 3pm · ${line('tov')} to · FG ${(100 * p.fgm / (p.fga || 1)).toFixed(1)}% · FT ${(100 * p.ftm / (p.fta || 1)).toFixed(1)}%</div>
       ${p.risk ? `<div class="muted" style="margin-top:8px">Most players finish within ${money(p.risk.low)} / +${money(p.risk.high)} of their price.</div>` : ''}
+      ${injuryNote(p)}
     </div>
     ${inj || heads.length ? `<div class="section-title">Latest</div><div class="card">${inj ? `<div class="item"><span class="pill inj" style="margin:0 6px 0 0">${esc(shortStatus(inj.status))}</span>${esc(inj.comment)}</div>` : ''}${heads.slice(0, 4).map(a => `<div class="item"><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.headline)}</a><div class="muted">${esc(a.published?.slice(0, 10))}</div></div>`).join('')}</div>` : ''}
     <details class="more"><summary>Adjust his projection</summary><div class="inner">
@@ -718,7 +727,7 @@ function openAbout() {
     <div class="card"><h2>4. News</h2>
       <div class="muted">Twice a day the app reads ESPN and FantasyPros news. An AI reader flags injuries and role changes (95% accurate on hand-checked notes) and Claude turns the ones that matter into the changes you see on the News tab. Nothing moves a price until you apply it. When you apply an absence, teammates get the share of his minutes measured from past seasons.</div></div>
     <div class="card"><h2>5. Uncertainty</h2>
-      <div class="muted">In past seasons 8 in 10 drafted players finished within about −$11 / +$10 of their projected price. Treat a few dollars' difference as a tie.</div>
+      <div class="muted">In past seasons 8 in 10 drafted players finished within about −$11 / +$10 of their projected price. Treat a few dollars' difference as a tie. Injuries: projected games already discount players who missed time, and over the last three seasons that discount was about right on average. The exception was players 30+ coming off a season of under 55 games, who fell about 17% further short, so their games are cut 9%. Players coming off a short season are also 2.5 times as likely to play under 40 games, which is flagged on their page.</div>
       ${qa?.problems?.length ? `<div class="down" style="margin-top:6px">Data problems on the last refresh: ${esc(qa.problems.join('; '))}</div>` : ''}</div>`);
 }
 

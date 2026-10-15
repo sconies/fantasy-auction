@@ -50,6 +50,13 @@ const yahoo = new Map(existsSync('data/market/yahoo-auction.tsv') ? readFileSync
 // Playoff weeks (18-20, mid-Feb to 21 Mar): over 2023-24..2025-26 players 32+ played 4-8% fewer games
 // in them than before, under-25s 3-5% more. Those weeks decide the title, so they count a little extra.
 const playoffFactor = age => (age == null ? 1 : age >= 32 ? 0.985 : age < 25 ? 1.008 : 1);
+// Injury-prone veterans. Projections already discount players who missed games: over 2023-24..2025-26 those
+// coming off a short season played about the same share of their projected games as everyone else (0.85-0.89
+// vs 0.88). The exception is players 30+ coming off a season of under 55 games: they fell a further 17%
+// short (23 players; short in 2 of 3 seasons). Shrunk toward no change for the small sample (23 / (23 + 20)),
+// that is a 9% cut in their games. They were also 2.5x as likely to play under 40 games (25% vs 10%).
+const VET_INJURY = { minAge: 30, maxLastGames: 55, gamesMult: 0.91, lostSeasonOdds: 0.25, baseOdds: 0.10 };
+const bbByName = new Map(bbCur.map(r => [normName(r.name), r])), bbOldByName = new Map(bbOld.map(r => [normName(r.name), r]));
 
 const players = [];
 const seen = new Set();
@@ -66,6 +73,16 @@ for (const e of espn) {
     p[s] = src === 'blend' ? ESPN_WEIGHT * e.proj[s] + (1 - ESPN_WEIGHT) * m[s] : (e.proj ?? m)[s];
     p[s] = s === 'projG' ? Math.round(p[s]) : r1(p[s]);
   }
+  // Last season's games: 0 if he played the season before but not last season (a season lost to injury).
+  const cur = bbByName.get(key), prev = bbOldByName.get(key);
+  const lastG = cur ? cur.g : prev ? 0 : null;
+  const age = cur ? cur.age + 1 : prev ? prev.age + 2 : null;
+  if (lastG != null && age != null && age >= VET_INJURY.minAge && lastG < VET_INJURY.maxLastGames) {
+    p.injuryRisk = { lastGames: lastG, age, projGBefore: p.projG, lostSeasonOdds: VET_INJURY.lostSeasonOdds, baseOdds: VET_INJURY.baseOdds };
+    p.projG = Math.round(p.projG * VET_INJURY.gamesMult);
+  } else if (lastG != null && lastG < VET_INJURY.maxLastGames) {
+    p.injuryRisk = { lastGames: lastG, age, lostSeasonOdds: VET_INJURY.lostSeasonOdds, baseOdds: VET_INJURY.baseOdds };
+  }
   const x = liveFlags.get(key) ?? null;
   if (x) p.jevFlags = Object.fromEntries(FLAG_KEYS.filter(k => x[k] >= 0.5).map(k => [k, +x[k].toFixed(2)]));
   if (useFlagEffects) {
@@ -78,7 +95,7 @@ for (const e of espn) {
   if (risk) p.risk = riskTier(x);
   const f = fp.get(key), d = depth.get(e.espnId), bb = m && bbById.get(m.id);
   p.pos = positions[e.espnId] ?? (f?.pos?.length ? f.pos : e.pos.length ? e.pos : (m ? [bb?.pos].filter(Boolean) : []));
-  p.age = m?.age ?? null;
+  p.age = m?.age ?? age;
   p.playoffFactor = playoffFactor(p.age);
   p.depth = d ? { pos: d.pos, rank: d.rank, starter: d.starter } : null;
   const y = yahoo.get(key);
