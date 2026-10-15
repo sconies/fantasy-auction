@@ -1,10 +1,64 @@
 {
- "builtAt": "2026-10-15T07:52:42.914Z",
+ "builtAt": "2026-10-15T20:27:38.860Z",
  "counts": {
-  "new": 8,
-  "toJudge": 8
+  "new": 9,
+  "toJudge": 9
  },
  "signals": [
+  {
+   "id": "injury:45f37f71540f",
+   "kind": "text",
+   "playerId": "5105637",
+   "name": "Adem Bona",
+   "team": "PHI",
+   "date": "2026-10-15T17:26Z",
+   "source": "injury",
+   "url": null,
+   "text": "Bona (foot) remains out for Friday's preseason finale against the Celtics, but he's getting closer to a return, Kyle Neubeck of AllPHLY.com reports.",
+   "flags": {
+    "recovering": 0.74
+   },
+   "summary": "is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-15"
+  },
+  {
+   "id": "injury:cb3da26b8791",
+   "kind": "text",
+   "playerId": "cardwdy01",
+   "name": "Dylan Cardwell",
+   "team": "SAC",
+   "date": "2026-10-15T14:40Z",
+   "source": "injury",
+   "url": null,
+   "text": "Cardwell (calf) is expected to miss at least the first five or six games of the regular season, with a longer absence possible, Frankie Cartoscelli of KHTK Sactown Sports 1140 reports.",
+   "flags": {
+    "absence": 0.9
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-15"
+  },
+  {
+   "id": "injury:ca7da2e43337",
+   "kind": "text",
+   "playerId": "4898371",
+   "name": "Maxime Raynaud",
+   "team": "SAC",
+   "date": "2026-10-15T14:36Z",
+   "source": "injury",
+   "url": null,
+   "text": "Raynaud (knee) is expected to miss at least the first five or six games of the regular season, and potentially longer, Frankie Cartoscelli of KHTK Sactown Sports 1140 reports.",
+   "flags": {
+    "absence": 0.96
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-15"
+  },
   {
    "id": "injury:61206f92f453",
    "kind": "text",
@@ -1619,6 +1673,78 @@
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "depth:4397424:2026-10-15:C #2",
+   "kind": "depth",
+   "playerId": "4397424",
+   "name": "Neemias Queta",
+   "team": "BOS",
+   "date": "2026-10-15",
+   "summary": "Depth chart C #1 → C #2",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-15"
+  },
+  {
+   "id": "depth:4351852:2026-10-15:C #1",
+   "kind": "depth",
+   "playerId": "4351852",
+   "name": "Mitchell Robinson",
+   "team": "BOS",
+   "date": "2026-10-15",
+   "summary": "Depth chart C #2 → C #1",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-15"
+  },
+  {
+   "id": "depth:5254165:2026-10-15:SG #1",
+   "kind": "depth",
+   "playerId": "5254165",
+   "name": "Keaton Wagler",
+   "team": "LAC",
+   "date": "2026-10-15",
+   "summary": "Depth chart SG #2 → SG #1",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-15"
+  },
+  {
+   "id": "depth:4593841:2026-10-15:SG #2",
+   "kind": "depth",
+   "playerId": "4593841",
+   "name": "Baylor Scheierman",
+   "team": "BOS",
+   "date": "2026-10-15",
+   "summary": "Depth chart SG #1 → SG #2",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-15"
+  },
+  {
+   "id": "depth:6580:2026-10-15:SG #2",
+   "kind": "depth",
+   "playerId": "6580",
+   "name": "Bradley Beal",
+   "team": "LAC",
+   "date": "2026-10-15",
+   "summary": "Depth chart SG #1 → SG #2",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-15"
+  },
+  {
+   "id": "depth:4683689:2026-10-15:PF #1",
+   "kind": "depth",
+   "playerId": "4683689",
+   "name": "Jordan Walsh",
+   "team": "BOS",
+   "date": "2026-10-15",
+   "summary": "Depth chart PF #2 → PF #1",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-15"
   },
   {
    "id": "headline:b8b9fe5df43b",

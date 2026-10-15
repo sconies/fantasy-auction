@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-15T07:52:40.648Z",
+ "fetchedAt": "2026-10-15T20:27:36.631Z",
  "injuries": [
   {
    "name": "Keshon Gilbert",
@@ -212,10 +212,28 @@
    "name": "Moussa Cisse",
    "team": "Dallas Mavericks",
    "status": "Day-To-Day",
-   "comment": "Cisse exited Wednesday's 101-97 preseason loss to New Orleans due to a left ankle sprain.",
-   "date": "2026-10-15T03:14Z",
+   "comment": "Head coach Dusty May said Cisse (ankle) didn't practice Thursday as a precaution but added that the big man \"would've been able to play\" if there was a game, Mike Curtis of The Dallas Morning News reports.",
+   "date": "2026-10-15T19:32Z",
    "returnDate": "2026-10-16",
    "injury": "Ankle – Sprain"
+  },
+  {
+   "name": "Santi Aldama",
+   "team": "Dallas Mavericks",
+   "status": "Day-To-Day",
+   "comment": "Aldama is unlikely to suit up for Friday's preseason finale against Atlanta, Mike Curtis of The Dallas Morning News reports.",
+   "date": "2026-10-15T17:46Z",
+   "returnDate": "2026-10-16",
+   "injury": "Knee"
+  },
+  {
+   "name": "Marcus Sasser",
+   "team": "Dallas Mavericks",
+   "status": "Day-To-Day",
+   "comment": "Sasser (groin) is expected to play in Friday's preseason finale against Atlanta, Mike Curtis of The Dallas Morning News reports.",
+   "date": "2026-10-15T17:45Z",
+   "returnDate": "2026-10-16",
+   "injury": "Hip"
   },
   {
    "name": "Jett Howard",
@@ -227,15 +245,6 @@
    "injury": "Illness"
   },
   {
-   "name": "Marcus Sasser",
-   "team": "Dallas Mavericks",
-   "status": "Day-To-Day",
-   "comment": "Sasser (adductor) has been ruled out for Wednesday's preseason game against New Orleans, Grant Afseth of DallasHoopsJournal.com reports.",
-   "date": "2026-10-14T22:43Z",
-   "returnDate": "2026-10-16",
-   "injury": "Hip"
-  },
-  {
    "name": "Dereck Lively II",
    "team": "Dallas Mavericks",
    "status": "Day-To-Day",
@@ -243,15 +252,6 @@
    "date": "2026-10-14T22:40Z",
    "returnDate": "2026-10-16",
    "injury": "Foot – Surgery"
-  },
-  {
-   "name": "Santi Aldama",
-   "team": "Dallas Mavericks",
-   "status": "Day-To-Day",
-   "comment": "Aldama (knee) has been ruled out for Wednesday's preseason game against New Orleans, Grant Afseth of DallasHoopsJournal.com reports.",
-   "date": "2026-10-14T22:34Z",
-   "returnDate": "2026-10-16",
-   "injury": "Knee"
   },
   {
    "name": "Morez Johnson Jr.",
@@ -319,10 +319,10 @@
   {
    "name": "Kristaps Porzingis",
    "team": "Golden State Warriors",
-   "status": "Day-To-Day",
+   "status": "Out",
    "comment": "Porzingis (undisclosed) returned Thursday to the Warriors' practice facility, per Anthony Slater of ESPN.com.",
-   "date": "2026-10-14T20:29Z",
-   "returnDate": "2026-10-21",
+   "date": "2026-10-15T16:17Z",
+   "returnDate": "2026-11-09",
    "injury": "Undisclosed"
   },
   {
@@ -398,6 +398,15 @@
    "injury": "Not Injury Related"
   },
   {
+   "name": "Aaron Nesmith",
+   "team": "Indiana Pacers",
+   "status": "Day-To-Day",
+   "comment": "Nesmith (hamstring) will not play in Friday's preseason finale against Milwaukee, Tony East of Forbes.com reports.",
+   "date": "2026-10-15T17:33Z",
+   "returnDate": "2026-10-21",
+   "injury": "Hamstring"
+  },
+  {
    "name": "T.J. McConnell",
    "team": "Indiana Pacers",
    "status": "Day-To-Day",
@@ -414,15 +423,6 @@
    "date": "2026-10-14T00:18Z",
    "returnDate": "2026-10-16",
    "injury": "Undisclosed"
-  },
-  {
-   "name": "Aaron Nesmith",
-   "team": "Indiana Pacers",
-   "status": "Day-To-Day",
-   "comment": "Nesmith will be rested for Tuesday's preseason game against the Thunder, Scott Agness of FieldhouseFiles.com reports.",
-   "date": "2026-10-14T00:17Z",
-   "returnDate": "2026-10-16",
-   "injury": "Rest"
   },
   {
    "name": "Andrew Nembhard",
@@ -466,7 +466,7 @@
    "status": "Out",
    "comment": "Beal (knee) will not be ready for the start of the regular season, NBA writer Justin Russo reports.",
    "date": "2026-10-15T01:03Z",
-   "returnDate": "2026-10-23",
+   "returnDate": "2026-11-08",
    "injury": "Knee – Inflammation"
   },
   {
@@ -475,7 +475,7 @@
    "status": "Out",
    "comment": "Strus has been diagnosed with a partially torn plantar fascia in his right foot and he will be re-evaluated in four weeks, Ohm Youngmisuk of ESPN.com reports.",
    "date": "2026-10-05T22:21Z",
-   "returnDate": "2026-11-02",
+   "returnDate": "2026-11-08",
    "injury": "Foot"
   },
   {
@@ -484,7 +484,7 @@
    "status": "Out",
    "comment": "Niederhauser (foot) won't be ready for the start of the season, Law Murray of The Athletic reports.",
    "date": "2026-09-28T18:07Z",
-   "returnDate": "2026-11-01",
+   "returnDate": "2026-11-08",
    "injury": "Foot – Surgery"
   },
   {
@@ -493,7 +493,7 @@
    "status": "Out",
    "comment": "Ingram won't be ready for the start of the season due to a partially torn Achilles, per Joey Linn of SI.com.",
    "date": "2026-09-28T18:01Z",
-   "returnDate": "2026-11-01",
+   "returnDate": "2026-11-08",
    "injury": "Achilles – Surgery"
   },
   {
@@ -509,8 +509,8 @@
    "name": "Cameron Carr",
    "team": "Los Angeles Lakers",
    "status": "Day-To-Day",
-   "comment": "Carr (undisclosed) has been ruled out for Tuesday's preseason matchup with the Warriors, Khobi Price of The California Post reports.",
-   "date": "2026-10-14T00:41Z",
+   "comment": "Carr (undisclosed) didn't practice Thursday, per Thuc Nhi Nguyen of the Los Angeles Times.",
+   "date": "2026-10-15T20:09Z",
    "returnDate": "2026-10-16",
    "injury": "Undisclosed – Bruise"
   },
@@ -518,28 +518,28 @@
    "name": "Collin Sexton",
    "team": "Los Angeles Lakers",
    "status": "Day-To-Day",
-   "comment": "Sexton (lower leg) has been ruled out for Tuesday's preseason game against the Warriors, Khobi Price of The California Post reports.",
-   "date": "2026-10-14T00:39Z",
+   "comment": "Sexton (lower leg) participated in Thursday's practice but didn't take part in any live action, Law Murray of The Athletic reports.",
+   "date": "2026-10-15T20:06Z",
    "returnDate": "2026-10-16",
    "injury": "Lower Leg"
-  },
-  {
-   "name": "Adou Thiero",
-   "team": "Los Angeles Lakers",
-   "status": "Day-To-Day",
-   "comment": "Thiero (undisclosed) is out for Tuesday's preseason game against the Warriors, Khobi Price of The California Post reports.",
-   "date": "2026-10-14T00:37Z",
-   "returnDate": "2026-10-16",
-   "injury": "Undisclosed"
   },
   {
    "name": "Ziaire Williams",
    "team": "Los Angeles Lakers",
    "status": "Day-To-Day",
-   "comment": "Williams (foot) will not play in Tuesday's preseason matchup against Golden State, Khobi Price of The California Post reports.",
-   "date": "2026-10-14T00:35Z",
+   "comment": "Williams (foot) was a full participant in Thursday's practice, Law Murray of The Athletic reports.",
+   "date": "2026-10-15T20:02Z",
    "returnDate": "2026-10-16",
    "injury": "Foot – Bruise"
+  },
+  {
+   "name": "Adou Thiero",
+   "team": "Los Angeles Lakers",
+   "status": "Day-To-Day",
+   "comment": "Thiero (undisclosed) is being managed for \"maintenance,\" per Law Murray of The Athletic.",
+   "date": "2026-10-15T20:02Z",
+   "returnDate": "2026-10-16",
+   "injury": "Undisclosed"
   },
   {
    "name": "Luka Doncic",
@@ -554,9 +554,9 @@
    "name": "Micah Peavy",
    "team": "Memphis Grizzlies",
    "status": "Day-To-Day",
-   "comment": "Peavy (ankle) did not see the floor in Friday's 104-100 preseason win over the Bulls.",
-   "date": "2026-10-10T02:41Z",
-   "returnDate": "2026-10-16",
+   "comment": "Head coach Tumos Iisalo said Thursday that Peavy (ankle) has progressed well in his recovery, though he won't play in Friday's preseason finale against Charlotte, Anthony Sain of Buff City Media reports.",
+   "date": "2026-10-15T19:05Z",
+   "returnDate": "2026-10-21",
    "injury": "Ankle"
   },
   {
@@ -683,6 +683,15 @@
    "comment": "Trent (rest) won't play Wednesday against the Bulls, K.C. Johnson of Chicago Sports Network reports.",
    "date": "2026-10-14T22:53Z",
    "returnDate": "2026-10-16",
+   "injury": "Rest"
+  },
+  {
+   "name": "Ayo Dosunmu",
+   "team": "Minnesota Timberwolves",
+   "status": "Day-To-Day",
+   "comment": "Dosunmu isn't dealing with an injury but will sit out Friday's preseason finale against the Bulls for rest purposes, Jon Krawczynski of The Athletic reports.",
+   "date": "2026-10-15T20:11Z",
+   "returnDate": "2026-10-21",
    "injury": "Rest"
   },
   {
@@ -821,6 +830,24 @@
    "injury": "Back – Surgery"
   },
   {
+   "name": "Jonathan Isaac",
+   "team": "Orlando Magic",
+   "status": "Day-To-Day",
+   "comment": "Isaac (personal, knee) participated in Thursday's practice but is still ramping up his activity, according to Orlando Magic Daily.",
+   "date": "2026-10-15T15:26Z",
+   "returnDate": "2026-10-16",
+   "injury": "Knee – Sprain"
+  },
+  {
+   "name": "Anthony Black",
+   "team": "Orlando Magic",
+   "status": "Day-To-Day",
+   "comment": "Black (ankle) participated in Thursday's practice but remains in the process of ramping up his activity, according to Orlando Magic Daily.",
+   "date": "2026-10-15T15:25Z",
+   "returnDate": "2026-10-16",
+   "injury": "Ankle – Sprain"
+  },
+  {
    "name": "Nikola Vucevic",
    "team": "Orlando Magic",
    "status": "Day-To-Day",
@@ -828,24 +855,6 @@
    "date": "2026-10-13T21:48Z",
    "returnDate": "2026-10-16",
    "injury": "Rest"
-  },
-  {
-   "name": "Anthony Black",
-   "team": "Orlando Magic",
-   "status": "Day-To-Day",
-   "comment": "Black (ankle) has been ruled out for Tuesday's preseason game against Cleveland, Jason Beede of the Orlando Sentinel reports.",
-   "date": "2026-10-13T21:28Z",
-   "returnDate": "2026-10-16",
-   "injury": "Ankle – Sprain"
-  },
-  {
-   "name": "Jonathan Isaac",
-   "team": "Orlando Magic",
-   "status": "Day-To-Day",
-   "comment": "Isaac (knee) won't play in Tuesday's preseason game against Cleveland, Jason Beede of the Orlando Sentinel reports.",
-   "date": "2026-10-13T21:27Z",
-   "returnDate": "2026-10-16",
-   "injury": "Knee – Sprain"
   },
   {
    "name": "Izaiyah Nelson",
@@ -857,6 +866,24 @@
    "injury": "Ankle – Surgery"
   },
   {
+   "name": "Anfernee Simons",
+   "team": "Philadelphia 76ers",
+   "status": "Day-To-Day",
+   "comment": "Simons (hamstring) is out for Friday's preseason game against the Celtics, Kyle Neubeck of AllPHLY.com reports.",
+   "date": "2026-10-15T17:28Z",
+   "returnDate": "2026-10-20",
+   "injury": "Hamstring"
+  },
+  {
+   "name": "Adem Bona",
+   "team": "Philadelphia 76ers",
+   "status": "Day-To-Day",
+   "comment": "Bona (foot) remains out for Friday's preseason finale against the Celtics, but he's getting closer to a return, Kyle Neubeck of AllPHLY.com reports.",
+   "date": "2026-10-15T17:26Z",
+   "returnDate": "2026-10-20",
+   "injury": "Foot – Sprain"
+  },
+  {
    "name": "Dominick Barlow",
    "team": "Philadelphia 76ers",
    "status": "Day-To-Day",
@@ -864,24 +891,6 @@
    "date": "2026-10-13T17:29Z",
    "returnDate": "2026-10-16",
    "injury": "Back"
-  },
-  {
-   "name": "Adem Bona",
-   "team": "Philadelphia 76ers",
-   "status": "Day-To-Day",
-   "comment": "Bona (foot) practiced in a limited fashion Monday, per Ky Carlin of USA Today.",
-   "date": "2026-10-12T17:27Z",
-   "returnDate": "2026-10-16",
-   "injury": "Foot – Sprain"
-  },
-  {
-   "name": "Anfernee Simons",
-   "team": "Philadelphia 76ers",
-   "status": "Day-To-Day",
-   "comment": "Simons (hamstring) was limited at Monday's practice, Ky Carlin of USA Today reports.",
-   "date": "2026-10-12T17:24Z",
-   "returnDate": "2026-10-16",
-   "injury": "Hamstring"
   },
   {
    "name": "LeBron James",
@@ -936,6 +945,15 @@
    "date": "2026-10-01T22:07Z",
    "returnDate": "2026-10-16",
    "injury": "Hip"
+  },
+  {
+   "name": "Luke Kennard",
+   "team": "Phoenix Suns",
+   "status": "Day-To-Day",
+   "comment": "Kennard experienced soreness in his left knee during Wednesday's preseason game, Amanda Pflugrad of 3TV Phoenix reports.",
+   "date": "2026-10-15T20:10Z",
+   "returnDate": "2026-10-16",
+   "injury": "Knee"
   },
   {
    "name": "Oso Ighodaro",
@@ -1019,6 +1037,24 @@
    "injury": "Knee – Surgery"
   },
   {
+   "name": "Dylan Cardwell",
+   "team": "Sacramento Kings",
+   "status": "Out",
+   "comment": "Cardwell (calf) is expected to miss at least the first five or six games of the regular season, with a longer absence possible, Frankie Cartoscelli of KHTK Sactown Sports 1140 reports.",
+   "date": "2026-10-15T14:40Z",
+   "returnDate": "2026-11-02",
+   "injury": "Calf – Strain"
+  },
+  {
+   "name": "Maxime Raynaud",
+   "team": "Sacramento Kings",
+   "status": "Out",
+   "comment": "Raynaud (knee) is expected to miss at least the first five or six games of the regular season, and potentially longer, Frankie Cartoscelli of KHTK Sactown Sports 1140 reports.",
+   "date": "2026-10-15T14:36Z",
+   "returnDate": "2026-11-02",
+   "injury": "Knee – Dislocated"
+  },
+  {
    "name": "Precious Achiuwa",
    "team": "Sacramento Kings",
    "status": "Day-To-Day",
@@ -1080,24 +1116,6 @@
    "date": "2026-10-14T00:57Z",
    "returnDate": "2026-10-16",
    "injury": "Rest"
-  },
-  {
-   "name": "Dylan Cardwell",
-   "team": "Sacramento Kings",
-   "status": "Out",
-   "comment": "Cardwell will miss at least two weeks with a left calf strain, Anthony Slater of ESPN.com reports.",
-   "date": "2026-10-13T20:57Z",
-   "returnDate": "2026-10-29",
-   "injury": "Calf – Strain"
-  },
-  {
-   "name": "Maxime Raynaud",
-   "team": "Sacramento Kings",
-   "status": "Out",
-   "comment": "Raynaud has been diagnosed with a right knee subluxation and will be re-evaluated in approximately two weeks, Michael Scotto of HoopsHype.com reports.",
-   "date": "2026-10-11T18:14Z",
-   "returnDate": "2026-10-25",
-   "injury": "Knee – Dislocated"
   },
   {
    "name": "Luke Kornet",
@@ -1219,6 +1237,127 @@
  ],
  "articles": [
   {
+   "headline": "Maxey: Healthy Embiid 'changes everything' for Sixers",
+   "description": "76ers guard Tyrese Maxey said Thursday that having a healthy Joel Embiid \"changes everything\" for the Sixers.",
+   "published": "2026-10-15T20:23:28Z",
+   "url": "https://www.espn.com/nba/story/_/id/50191473/maxey-healthy-embiid-changes-everything-sixers",
+   "athletes": [
+    "Joel Embiid",
+    "Tyrese Maxey"
+   ]
+  },
+  {
+   "headline": "Perk declares what he wants to see Wemby improve on this season",
+   "description": "Perk declares what he wants to see Wemby improve on this season  ",
+   "published": "2026-10-15T19:45:45Z",
+   "url": "https://www.espn.com/video/clip/_/id/50191249/perk-declares-wants-see-wemby-improve-season",
+   "athletes": [
+    "Victor Wembanyama"
+   ]
+  },
+  {
+   "headline": "Fantasy basketball draft guide: Rankings, mock drafts, sleepers, projections and analysis",
+   "description": "We've got everything you need to help you prepare for and execute a successful draft, all in one place.",
+   "published": "2026-10-15T18:26:10Z",
+   "url": "https://www.espn.com/fantasy/basketball/story/_/id/50075156/fantasy-basketball-draft-guide-rankings-mock-drafts-sleepers-projections-analysis",
+   "athletes": []
+  },
+  {
+   "headline": "Fantasy basketball roto league mock draft: Cooper Flagg, Derrick White go early",
+   "description": "The fantasy crew gets together for it's final mock draft before the NBA season tips off.",
+   "published": "2026-10-15T18:17:11Z",
+   "url": "https://www.espn.com/fantasy/basketball/story/_/id/50184696/fantasy-basketball-mock-draft-8-team-roto-league-2026-2027",
+   "athletes": [
+    "Derrick White",
+    "Cooper Flagg"
+   ]
+  },
+  {
+   "headline": "Victor Wembanyama, Spurs dominate annual NBA GM survey",
+   "description": "An annual survey of NBA general managers projects the Spurs to win the NBA title this season, with Victor Wembanyama earning MVP and Defensive Player of the Year honors.",
+   "published": "2026-10-15T19:48:07Z",
+   "url": "https://www.espn.com/nba/story/_/id/50190258/victor-wembanyama-spurs-dominate-annual-nba-gm-survey",
+   "athletes": [
+    "Victor Wembanyama",
+    "LeBron James",
+    "Jaylen Brown",
+    "Nikola Jokic",
+    "Anthony Edwards",
+    "Dylan Harper",
+    "Cooper Flagg",
+    "Giannis Antetokounmpo"
+   ]
+  },
+  {
+   "headline": "Las Vegas bettor Shane Hennen pleads guilty to charges related to fixing schemes",
+   "description": "A bettor indicted in three federal gambling cases pleaded guilty to charges related to schemes involving the NBA, NCAA and Chinese Basketball Association.",
+   "published": "2026-10-15T17:56:51Z",
+   "url": "https://www.espn.com/espn/betting/story/_/id/50189910/shane-hennen-pleads-guilty-charges-related-fixing-schemes",
+   "athletes": []
+  },
+  {
+   "headline": "Backup plan guide: Seven late-round picks one break away from fantasy success",
+   "description": "Jim McCormick points out which late-round picks could be close to fantasy basketball stardom.",
+   "published": "2026-10-15T18:24:48Z",
+   "url": "https://www.espn.com/fantasy/basketball/story/_/id/50189270/fantasy-basketball-late-round-picks-stash-breakouts",
+   "athletes": [
+    "Isaiah Stewart",
+    "Collin Sexton",
+    "Ace Bailey",
+    "Anthony Black",
+    "Ayo Dosunmu",
+    "Ajay Mitchell",
+    "Aday Mara"
+   ]
+  },
+  {
+   "headline": "Amar'e Stoudemire graduates from Miami Dade law enforcement academy",
+   "description": "Stoudemire will now train with the Miami-Dade Schools Police Department.",
+   "published": "2026-10-15T16:09:30Z",
+   "url": "https://www.espn.com/nba/story/_/id/50189623/amare-stoudemire-law-enforcement-academy-police",
+   "athletes": [
+    "Amar'e Stoudemire"
+   ]
+  },
+  {
+   "headline": "Stephen A.: Kawhi Leonard is the worst superstar in NBA history",
+   "description": "Stephen A.: Kawhi Leonard is the worst superstar in NBA history  ",
+   "published": "2026-10-15T16:06:26Z",
+   "url": "https://www.espn.com/video/clip/_/id/50189708/kawhi-leonard-worst-superstar-nba-history",
+   "athletes": [
+    "Kawhi Leonard"
+   ]
+  },
+  {
+   "headline": "NBA preseason buzz: Latest on trades, news and intel",
+   "description": "The NBA regular season is less than a week away, and we're tracking all the news, deals, and trades across the league.",
+   "published": "2026-10-15T14:57:34Z",
+   "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+   "athletes": []
+  },
+  {
+   "headline": "What NBA preseason has revealed about the Lakers, 76ers, Celtics and every team",
+   "description": "With 2026-27 tipoff closing in, Ben Golliver shares the key takeaways that will shape the regular season.",
+   "published": "2026-10-15T16:37:23Z",
+   "url": "https://www.espn.com/nba/story/_/id/50176718/nba-preseason-lakers-76ers-celtics-30-teams",
+   "athletes": []
+  },
+  {
+   "headline": "10 people who will define the NBA season: Zion, Kawhi, Kyrie",
+   "description": "With the NBA season just days away, let's take stock of the most important coaches, execs and players worth monitoring.",
+   "published": "2026-10-15T19:26:21Z",
+   "url": "https://www.espn.com/nba/story/_/id/50182803/nba-most-important-names-season",
+   "athletes": [
+    "Zion Williamson",
+    "LaMelo Ball",
+    "Ja Morant",
+    "Anthony Davis",
+    "Karl-Anthony Towns",
+    "Kyrie Irving",
+    "Kawhi Leonard"
+   ]
+  },
+  {
    "headline": "Denver Nuggets vs. LA Clippers: Game Highlights",
    "description": "Denver Nuggets vs. LA Clippers: Game Highlights",
    "published": "2026-10-15T05:16:35Z",
@@ -1232,8 +1371,8 @@
   },
   {
    "headline": "Spurs debut three-guard lineup of Fox, Harper, Castle in preseason win",
-   "description": "Spurs coach Mitch Johnson finally deployed the three-guard lineup featuring De'Aaron Fox, Dylan Harper and Stephon Castle in a 123-103 preseason win over the Suns on Wednesday.",
-   "published": "2026-10-15T04:54:33Z",
+   "description": "Spurs coach Mitch Johnson finally deployed a three-guard lineup featuring De'Aaron Fox, Dylan Harper and Stephon Castle in a 123-103 preseason win over the Suns.",
+   "published": "2026-10-15T13:34:59Z",
    "url": "https://www.espn.com/nba/story/_/id/50186974/spurs-debut-3-guard-lineup-deaaron-fox-dylan-harper-stephon-castle-preseason-win",
    "athletes": [
     "De'Aaron Fox",
@@ -1332,13 +1471,6 @@
    "athletes": [
     "Kawhi Leonard"
    ]
-  },
-  {
-   "headline": "NBA preseason buzz: Latest on trades, news and intel",
-   "description": "The NBA regular season is less than a week away, and we're tracking all the news, deals, and trades across the league.",
-   "published": "2026-10-14T18:01:49Z",
-   "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-   "athletes": []
   },
   {
    "headline": "Stephen A. is not having any of Mad Dog's KAT contract take",
@@ -1666,107 +1798,6 @@
    "url": "https://www.espn.com/video/clip/_/id/50169402/ja-morant-gets-done-sides-court",
    "athletes": [
     "Ja Morant"
-   ]
-  },
-  {
-   "headline": "Kristaps Porzingis expected to be at Warriors' facility on Tuesday",
-   "description": "Veteran center Kristaps Porzingis is expected to return to the Golden State Warriors practice facility Tuesday afternoon, according to head coach Steve Kerr.",
-   "published": "2026-10-12T22:02:52Z",
-   "url": "https://www.espn.com/nba/story/_/id/50168743/kristaps-porzingis-expected-warriors-facility-tue",
-   "athletes": [
-    "Kristaps Porzingis"
-   ]
-  },
-  {
-   "headline": "Kentavious Caldwell-Pope cites team chemistry as key to 76ers' success",
-   "description": "Kentavious Caldwell-Pope says the 76ers' success this season depends on how well the team's diverse personalities mesh.",
-   "published": "2026-10-14T11:08:18Z",
-   "url": "https://www.espn.com/nba/story/_/id/50168000/kentavious-caldwell-pope-cites-team-chemistry-key-76ers",
-   "athletes": [
-    "Kentavious Caldwell-Pope"
-   ]
-  },
-  {
-   "headline": "Pacers, Spurs, Nuggets, Nets unveil ABA-inspired uniforms, courts",
-   "description": "The four teams' throwback uniforms and courts pay homage to their milestone ABA anniversaries.",
-   "published": "2026-10-12T19:04:51Z",
-   "url": "https://www.espn.com/nba/story/_/id/50167264/spurs-nuggets-pacers-nets-aba-uniforms",
-   "athletes": []
-  },
-  {
-   "headline": "'E:60 Being Ben' trailer",
-   "description": "'E:60 Being Ben' trailer",
-   "published": "2026-10-12T15:06:20Z",
-   "url": "https://www.espn.com/video/clip/_/id/50166468/e60-being-ben-trailer",
-   "athletes": []
-  },
-  {
-   "headline": "Jordan game-worn 1998 NBA Finals jersey sells for $14 million",
-   "description": "A game-worn, autographed Michael Jordan road jersey from the 1998 NBA Finals has been privately sold for $14 million.",
-   "published": "2026-10-13T02:10:53Z",
-   "url": "https://www.espn.com/nba/story/_/id/50165903/jordan-game-worn-1998-nba-finals-jersey-sells-14-million",
-   "athletes": []
-  },
-  {
-   "headline": "Windhorst: Why Cooper Flagg's ascension is starting to feel inevitable",
-   "description": "The NBA China Games showcased Cooper Flagg's evolving game, leadership and, perhaps most impressive, his franchise-savior ceiling.",
-   "published": "2026-10-12T17:26:21Z",
-   "url": "https://www.espn.com/nba/story/_/id/50163354/cooper-flagg-kyrie-irving-mavericks-china",
-   "athletes": [
-    "Cooper Flagg"
-   ]
-  },
-  {
-   "headline": "Chicago Bulls vs. Denver Nuggets: Game Highlights",
-   "description": "Chicago Bulls vs. Denver Nuggets: Game Highlights",
-   "published": "2026-10-12T03:56:27Z",
-   "url": "https://www.espn.com/video/clip/_/id/50163814/game-highlights",
-   "athletes": [
-    "Aaron Gordon",
-    "Leonard Miller",
-    "Nikola Jokic"
-   ]
-  },
-  {
-   "headline": "Milwaukee Bucks vs. Charlotte Hornets: Game Highlights",
-   "description": "Milwaukee Bucks vs. Charlotte Hornets: Game Highlights",
-   "published": "2026-10-12T01:30:56Z",
-   "url": "https://www.espn.com/video/clip/_/id/50163183/game-highlights",
-   "athletes": [
-    "Tyler Herro",
-    "Jericho Sims",
-    "Jarkel Joiner",
-    "Brandon Miller"
-   ]
-  },
-  {
-   "headline": "Orlando Magic vs. Cleveland Cavaliers: Game Highlights",
-   "description": "Orlando Magic vs. Cleveland Cavaliers: Game Highlights",
-   "published": "2026-10-12T01:30:52Z",
-   "url": "https://www.espn.com/video/clip/_/id/50163110/game-highlights",
-   "athletes": [
-    "Tristan da Silva",
-    "James Harden",
-    "Meleek Thomas",
-    "Wendell Carter Jr"
-   ]
-  },
-  {
-   "headline": "Lakers center Walker Kessler (finger) nears preseason debut",
-   "description": "Walker Kessler is closing in on making his preseason debut with the Lakers after he was a full participant in practice Sunday.",
-   "published": "2026-10-11T22:25:17Z",
-   "url": "https://www.espn.com/nba/story/_/id/50161378/lakers-center-walker-kessler-finger-nears-preseason-debut",
-   "athletes": [
-    "Walker Kessler"
-   ]
-  },
-  {
-   "headline": "Karl-Anthony Towns 'disappointed' with Knicks tabling talks",
-   "description": "Karl-Anthony Towns responded to the Knicks' statement that they are tabling all extension talks until later in the season, saying he was \"disappointed.\"",
-   "published": "2026-10-11T20:40:35Z",
-   "url": "https://www.espn.com/nba/story/_/id/50159713/karl-anthony-towns-disappointed-knicks-tabling-talks",
-   "athletes": [
-    "Karl-Anthony Towns"
    ]
   }
  ]

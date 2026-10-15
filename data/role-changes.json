@@ -279,6 +279,66 @@
    "to": "SG #1",
    "promoted": true,
    "projectedMin": 21.57
+  },
+  {
+   "date": "2026-10-15",
+   "playerId": "4397424",
+   "name": "Neemias Queta",
+   "team": "BOS",
+   "from": "C #1",
+   "to": "C #2",
+   "promoted": false,
+   "projectedMin": 21.87
+  },
+  {
+   "date": "2026-10-15",
+   "playerId": "4351852",
+   "name": "Mitchell Robinson",
+   "team": "BOS",
+   "from": "C #2",
+   "to": "C #1",
+   "promoted": true,
+   "projectedMin": 22.54
+  },
+  {
+   "date": "2026-10-15",
+   "playerId": "5254165",
+   "name": "Keaton Wagler",
+   "team": "LAC",
+   "from": "SG #2",
+   "to": "SG #1",
+   "promoted": true,
+   "projectedMin": 26.77
+  },
+  {
+   "date": "2026-10-15",
+   "playerId": "4593841",
+   "name": "Baylor Scheierman",
+   "team": "BOS",
+   "from": "SG #1",
+   "to": "SG #2",
+   "promoted": false,
+   "projectedMin": 21.89
+  },
+  {
+   "date": "2026-10-15",
+   "playerId": "6580",
+   "name": "Bradley Beal",
+   "team": "LAC",
+   "from": "SG #1",
+   "to": "SG #2",
+   "promoted": false,
+   "projectedMin": 25.12
+  },
+  {
+   "date": "2026-10-15",
+   "playerId": "4683689",
+   "name": "Jordan Walsh",
+   "team": "BOS",
+   "from": "PF #2",
+   "to": "PF #1",
+   "promoted": true,
+   "projectedMin": 18.55
   }
  ]
 }
