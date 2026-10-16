@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-16T07:45:46.293Z",
+ "fetchedAt": "2026-10-16T20:00:59.561Z",
  "injuries": [
   {
    "name": "Keshon Gilbert",
@@ -94,10 +94,10 @@
   {
    "name": "Joshua Jefferson",
    "team": "Brooklyn Nets",
-   "status": "Day-To-Day",
-   "comment": "Jefferson (back) won't play in Wednesday's preseason game versus the Heat, per Erik Slater of ClutchPoints.com.",
-   "date": "2026-10-14T19:24Z",
-   "returnDate": "2026-10-21",
+   "status": "Out",
+   "comment": "Jefferson (back) has yet to fully participate in team activities and remains without a timetable for his return, Erik Slater of ClutchPoints.com reports.",
+   "date": "2026-10-16T18:37Z",
+   "returnDate": "2026-10-24",
    "injury": "Back"
   },
   {
@@ -317,6 +317,24 @@
    "injury": "Hamstring"
   },
   {
+   "name": "Moses Moody",
+   "team": "Golden State Warriors",
+   "status": "Out",
+   "comment": "Moody (knee) is progressing toward a potential return between December and January after rupturing his left patellar tendon in March, Anthony Slater of ESPN reports.",
+   "date": "2026-10-16T16:14Z",
+   "returnDate": "2026-12-01",
+   "injury": "Knee – Surgery"
+  },
+  {
+   "name": "Jimmy Butler III",
+   "team": "Golden State Warriors",
+   "status": "Out",
+   "comment": "Butler (knee) could return sometime between January and February as he continues recovering from a torn right ACL, Anthony Slater of ESPN reports.",
+   "date": "2026-10-16T16:11Z",
+   "returnDate": "2027-01-02",
+   "injury": "Knee – Surgery"
+  },
+  {
    "name": "Kristaps Porzingis",
    "team": "Golden State Warriors",
    "status": "Out",
@@ -342,24 +360,6 @@
    "date": "2026-10-12T19:41Z",
    "returnDate": "2026-10-16",
    "injury": "Rest"
-  },
-  {
-   "name": "Jimmy Butler III",
-   "team": "Golden State Warriors",
-   "status": "Out",
-   "comment": "The Warriors hope to have Butler (knee) back early in 2027, per Keith Watkins of Yahoo Sports.",
-   "date": "2026-10-02T18:48Z",
-   "returnDate": "2027-01-02",
-   "injury": "Knee – Surgery"
-  },
-  {
-   "name": "Moses Moody",
-   "team": "Golden State Warriors",
-   "status": "Out",
-   "comment": "Moody has progressed to light on-court activities as he continues his recovery from a ruptured left patellar tendon, Evan Webeck of The Mercury News reports.",
-   "date": "2026-09-28T15:06Z",
-   "returnDate": "2026-12-01",
-   "injury": "Knee – Surgery"
   },
   {
    "name": "Steven Adams",
@@ -888,7 +888,7 @@
    "team": "Phoenix Suns",
    "status": "Day-To-Day",
    "comment": "Kennard (knee) has been ruled out for the Suns' final game of the preseason Friday against Utah, John Gambadoro of Arizona Sports 98.7 FM reports.",
-   "date": "2026-10-16T07:00Z",
+   "date": "2026-10-16T19:00Z",
    "returnDate": "2026-10-21",
    "injury": "Knee"
   },
@@ -934,15 +934,6 @@
    "status": "Day-To-Day",
    "comment": "Booker (rest) won't play in Wednesday's preseason game against the Spurs, Matt Guzman of SI.com reports.",
    "date": "2026-10-14T23:11Z",
-   "returnDate": "2026-10-16",
-   "injury": "Rest"
-  },
-  {
-   "name": "Dillon Brooks",
-   "team": "Phoenix Suns",
-   "status": "Day-To-Day",
-   "comment": "Brooks is unlikely to suit up for Wednesday's preseason meeting with San Antonio after sitting out the full morning shootaround, Duane Rankin of The Arizona Republic reports.",
-   "date": "2026-10-14T16:40Z",
    "returnDate": "2026-10-16",
    "injury": "Rest"
   },
@@ -1181,5 +1172,570 @@
    "injury": "Knee"
   }
  ],
- "articles": []
+ "articles": [
+  {
+   "headline": "Spanish team challenging Thunder rookie Aday Mara's NBA eligibility",
+   "description": "A Spanish basketball team is challenging Thunder rookie Aday Mara's eligibility to play in the NBA this season, saying he is still under contract with the club.",
+   "published": "2026-10-16T17:44:36Z",
+   "url": "https://www.espn.com/nba/story/_/id/50197100/spanish-team-challenging-thunder-rookie-mara-nba-eligibility",
+   "athletes": [
+    "Aday Mara"
+   ]
+  },
+  {
+   "headline": "Buss siblings' filing challenges Jeanie's petition to oust them as trustees",
+   "description": "The legal jostling between five of the Buss siblings against their sister, Lakers acting governor Jeanie Buss, continued with an additional filing submitted to the Los Angeles Superior Court.",
+   "published": "2026-10-16T17:53:38Z",
+   "url": "https://www.espn.com/nba/story/_/id/50195321/buss-siblings-filing-challenges-jeanie-petition-oust-them",
+   "athletes": []
+  },
+  {
+   "headline": "Bucks adjust home opener to avoid World Series time conflict",
+   "description": "The Bucks are going to have an afternoon tipoff for their Oct. 23 home opener with the Bulls to avoid a direct conflict with Game 1 of the World Series.",
+   "published": "2026-10-16T16:04:49Z",
+   "url": "https://www.espn.com/nba/story/_/id/50196749/bucks-adjust-home-opener-avoid-world-series-conflict",
+   "athletes": []
+  },
+  {
+   "headline": "NBA preseason buzz: Latest on trades, news and intel",
+   "description": "The NBA regular season is less than a week away, and we're tracking all the news, deals, and trades across the league.",
+   "published": "2026-10-16T15:31:56Z",
+   "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+   "athletes": []
+  },
+  {
+   "headline": "NBA tells sportsbooks to stop certain bets, restrict parlays",
+   "description": "The NBA is prohibiting certain bets this season, including a player prop parlay used in recent scandals, according to a league memo to sportsbook partners.",
+   "published": "2026-10-16T18:09:05Z",
+   "url": "https://www.espn.com/nba/story/_/id/50196498/nba-tells-sportsbooks-stop-certain-bets-restrict-parlays",
+   "athletes": []
+  },
+  {
+   "headline": "Alone on a fantasy basketball island: 'One player I feel differently about'",
+   "description": "The fantasy basketball crew identifies one player they feel differently about than seemingly everyone else.",
+   "published": "2026-10-16T14:51:23Z",
+   "url": "https://www.espn.com/fantasy/basketball/story/_/id/50193261/fantasy-basketball-island-bold-prediction-draft-advice",
+   "athletes": [
+    "Darius Garland",
+    "Brandon Miller",
+    "Kyrie Irving",
+    "Jaren Jackson Jr",
+    "LaMelo Ball",
+    "Fred VanVleet"
+   ]
+  },
+  {
+   "headline": "NBA intel: Seattle expansion update, Towns extension drama, more from preseason",
+   "description": "What storylines dominated preseason? Brian Windhorst shares intel on Seattle expansion, extension drama in New York and a potential trade decision in Orlando.",
+   "published": "2026-10-16T11:04:22Z",
+   "url": "https://www.espn.com/nba/story/_/id/50190888/preseason-intel-expansion-seattle-towns-extensions",
+   "athletes": []
+  },
+  {
+   "headline": "Can Jimmy Butler return in time to resurrect Steph Curry's final chapter?",
+   "description": "After a quiet offseason, the Warriors know Jimmy Butler's return is their best hope of reaching the playoffs.",
+   "published": "2026-10-16T11:07:19Z",
+   "url": "https://www.espn.com/nba/story/_/id/50182801/jimmy-butler-acl-injury-return-warriors-title",
+   "athletes": [
+    "Jimmy Butler III",
+    "Stephen Curry",
+    "Draymond Green",
+    "Yaxel Lendeborg"
+   ]
+  },
+  {
+   "headline": "NBA betting: One bet to make on every team heading into the season",
+   "description": "Don't go into the NBA season without knowing which bet to make for every team.",
+   "published": "2026-10-16T10:38:47Z",
+   "url": "https://www.espn.com/sports-betting/story/_/id/50185247/nba-betting-one-bet-make-every-team-2026-2027",
+   "athletes": []
+  },
+  {
+   "headline": "Oklahoma City Thunder vs. Houston Rockets: Game Highlights",
+   "description": "Oklahoma City Thunder vs. Houston Rockets: Game Highlights",
+   "published": "2026-10-16T03:12:00Z",
+   "url": "https://www.espn.com/video/clip/_/id/50193708/game-highlights",
+   "athletes": [
+    "Reed Sheppard",
+    "Bogdan Bogdanovic",
+    "Amen Thompson",
+    "Alperen Sengun",
+    "Shai Gilgeous-Alexander"
+   ]
+  },
+  {
+   "headline": "Toronto Raptors vs. New York Knicks: Game Highlights",
+   "description": "Toronto Raptors vs. New York Knicks: Game Highlights",
+   "published": "2026-10-16T03:02:10Z",
+   "url": "https://www.espn.com/video/clip/_/id/50193529/game-highlights",
+   "athletes": [
+    "Tyler Kolek",
+    "Jalen Brunson",
+    "Nimari Burnett",
+    "Scottie Barnes",
+    "Jordan Clarkson",
+    "Landry Shamet"
+   ]
+  },
+  {
+   "headline": "Maxey: Healthy Embiid 'changes everything' for Sixers",
+   "description": "76ers guard Tyrese Maxey said Thursday that having a healthy Joel Embiid \"changes everything\" for the Sixers.",
+   "published": "2026-10-15T21:43:26Z",
+   "url": "https://www.espn.com/nba/story/_/id/50191473/maxey-healthy-embiid-changes-everything-sixers",
+   "athletes": [
+    "Joel Embiid",
+    "Tyrese Maxey"
+   ]
+  },
+  {
+   "headline": "Perk declares what he wants to see Wemby improve on this season",
+   "description": "Perk declares what he wants to see Wemby improve on this season  ",
+   "published": "2026-10-15T19:45:45Z",
+   "url": "https://www.espn.com/video/clip/_/id/50191249/perk-declares-wants-see-wemby-improve-season",
+   "athletes": [
+    "Victor Wembanyama"
+   ]
+  },
+  {
+   "headline": "Fantasy basketball draft guide: Rankings, mock drafts, sleepers, projections and analysis",
+   "description": "We've got everything you need to help you prepare for and execute a successful draft, all in one place.",
+   "published": "2026-10-15T18:26:10Z",
+   "url": "https://www.espn.com/fantasy/basketball/story/_/id/50075156/fantasy-basketball-draft-guide-rankings-mock-drafts-sleepers-projections-analysis",
+   "athletes": []
+  },
+  {
+   "headline": "Fantasy basketball roto league mock draft: Cooper Flagg, Derrick White go early",
+   "description": "The fantasy crew gets together for it's final mock draft before the NBA season tips off.",
+   "published": "2026-10-15T18:17:11Z",
+   "url": "https://www.espn.com/fantasy/basketball/story/_/id/50184696/fantasy-basketball-mock-draft-8-team-roto-league-2026-2027",
+   "athletes": [
+    "Derrick White",
+    "Cooper Flagg"
+   ]
+  },
+  {
+   "headline": "Victor Wembanyama, Spurs dominate annual NBA GM survey",
+   "description": "An annual survey of NBA general managers projects the Spurs to win the NBA title this season, with Victor Wembanyama earning MVP and Defensive Player of the Year honors.",
+   "published": "2026-10-15T19:48:07Z",
+   "url": "https://www.espn.com/nba/story/_/id/50190258/victor-wembanyama-spurs-dominate-annual-nba-gm-survey",
+   "athletes": [
+    "Victor Wembanyama",
+    "LeBron James",
+    "Jaylen Brown",
+    "Nikola Jokic",
+    "Anthony Edwards",
+    "Dylan Harper",
+    "Cooper Flagg",
+    "Giannis Antetokounmpo"
+   ]
+  },
+  {
+   "headline": "Las Vegas bettor Shane Hennen pleads guilty to charges related to fixing schemes",
+   "description": "A bettor indicted in three federal gambling cases pleaded guilty to charges related to schemes involving the NBA, NCAA and Chinese Basketball Association.",
+   "published": "2026-10-15T17:56:51Z",
+   "url": "https://www.espn.com/espn/betting/story/_/id/50189910/shane-hennen-pleads-guilty-charges-related-fixing-schemes",
+   "athletes": []
+  },
+  {
+   "headline": "Backup plan guide: Seven late-round picks one break away from fantasy success",
+   "description": "Jim McCormick points out which late-round picks could be close to fantasy basketball stardom.",
+   "published": "2026-10-15T18:24:48Z",
+   "url": "https://www.espn.com/fantasy/basketball/story/_/id/50189270/fantasy-basketball-late-round-picks-stash-breakouts",
+   "athletes": [
+    "Isaiah Stewart",
+    "Collin Sexton",
+    "Ace Bailey",
+    "Anthony Black",
+    "Ayo Dosunmu",
+    "Ajay Mitchell",
+    "Aday Mara"
+   ]
+  },
+  {
+   "headline": "Amar'e Stoudemire graduates from Miami Dade law enforcement academy",
+   "description": "Stoudemire will now train with the Miami-Dade Schools Police Department.",
+   "published": "2026-10-15T16:09:30Z",
+   "url": "https://www.espn.com/nba/story/_/id/50189623/amare-stoudemire-law-enforcement-academy-police",
+   "athletes": [
+    "Amar'e Stoudemire"
+   ]
+  },
+  {
+   "headline": "Stephen A.: Kawhi Leonard is the worst superstar in NBA history",
+   "description": "Stephen A.: Kawhi Leonard is the worst superstar in NBA history  ",
+   "published": "2026-10-15T16:06:26Z",
+   "url": "https://www.espn.com/video/clip/_/id/50189708/kawhi-leonard-worst-superstar-nba-history",
+   "athletes": [
+    "Kawhi Leonard"
+   ]
+  },
+  {
+   "headline": "What NBA preseason has revealed about the Lakers, 76ers, Celtics and every team",
+   "description": "With 2026-27 tipoff closing in, Ben Golliver shares the key takeaways that will shape the regular season.",
+   "published": "2026-10-15T16:37:23Z",
+   "url": "https://www.espn.com/nba/story/_/id/50176718/nba-preseason-lakers-76ers-celtics-30-teams",
+   "athletes": []
+  },
+  {
+   "headline": "10 people who will define the NBA season: Zion, Kawhi, Kyrie",
+   "description": "With the NBA season just days away, let's take stock of the most important coaches, execs and players worth monitoring.",
+   "published": "2026-10-15T19:26:21Z",
+   "url": "https://www.espn.com/nba/story/_/id/50182803/nba-most-important-names-season",
+   "athletes": [
+    "Zion Williamson",
+    "LaMelo Ball",
+    "Ja Morant",
+    "Anthony Davis",
+    "Karl-Anthony Towns",
+    "Kyrie Irving",
+    "Kawhi Leonard"
+   ]
+  },
+  {
+   "headline": "Denver Nuggets vs. LA Clippers: Game Highlights",
+   "description": "Denver Nuggets vs. LA Clippers: Game Highlights",
+   "published": "2026-10-15T05:16:35Z",
+   "url": "https://www.espn.com/video/clip/_/id/50187160/game-highlights",
+   "athletes": [
+    "Trevon Brazile",
+    "Gradey Dick",
+    "Julian Strawther",
+    "Rui Hachimura"
+   ]
+  },
+  {
+   "headline": "Spurs debut three-guard lineup of Fox, Harper, Castle in preseason win",
+   "description": "Spurs coach Mitch Johnson finally deployed a three-guard lineup featuring De'Aaron Fox, Dylan Harper and Stephon Castle in a 123-103 preseason win over the Suns.",
+   "published": "2026-10-15T13:34:59Z",
+   "url": "https://www.espn.com/nba/story/_/id/50186974/spurs-debut-3-guard-lineup-deaaron-fox-dylan-harper-stephon-castle-preseason-win",
+   "athletes": [
+    "De'Aaron Fox",
+    "Dylan Harper",
+    "Stephon Castle"
+   ]
+  },
+  {
+   "headline": "New Orleans Pelicans vs. Dallas Mavericks: Game Highlights",
+   "description": "New Orleans Pelicans vs. Dallas Mavericks: Game Highlights",
+   "published": "2026-10-15T03:36:41Z",
+   "url": "https://www.espn.com/video/clip/_/id/50186718/game-highlights",
+   "athletes": [
+    "Jeremiah Fears",
+    "Seth Lundy",
+    "AJ Johnson",
+    "John Poulakidas",
+    "Yves Missi",
+    "Tobi Lawal"
+   ]
+  },
+  {
+   "headline": "Detroit Pistons vs. Minnesota Timberwolves: Game Highlights",
+   "description": "Detroit Pistons vs. Minnesota Timberwolves: Game Highlights",
+   "published": "2026-10-15T03:17:08Z",
+   "url": "https://www.espn.com/video/clip/_/id/50186688/game-highlights",
+   "athletes": [
+    "John Ukomadu",
+    "Ronald Holland II",
+    "Jalen Duren",
+    "Anthony Edwards"
+   ]
+  },
+  {
+   "headline": "Phoenix Suns vs. San Antonio Spurs: Game Highlights",
+   "description": "Phoenix Suns vs. San Antonio Spurs: Game Highlights",
+   "published": "2026-10-15T02:55:16Z",
+   "url": "https://www.espn.com/video/clip/_/id/50186617/game-highlights",
+   "athletes": [
+    "Ryan Dunn",
+    "Victor Wembanyama",
+    "Maliq Brown",
+    "De'Aaron Fox",
+    "Jamaree Bouyea"
+   ]
+  },
+  {
+   "headline": "Brooklyn Nets vs. Miami Heat: Game Highlights",
+   "description": "Brooklyn Nets vs. Miami Heat: Game Highlights",
+   "published": "2026-10-15T02:25:23Z",
+   "url": "https://www.espn.com/video/clip/_/id/50186240/game-highlights",
+   "athletes": [
+    "Giannis Antetokounmpo",
+    "Michael Porter Jr",
+    "Ryan Conwell",
+    "Keshad Johnson",
+    "Andrew Wiggins"
+   ]
+  },
+  {
+   "headline": "Charlotte Hornets vs. Boston Celtics: Game Highlights",
+   "description": "Charlotte Hornets vs. Boston Celtics: Game Highlights",
+   "published": "2026-10-15T02:25:06Z",
+   "url": "https://www.espn.com/video/clip/_/id/50186153/game-highlights",
+   "athletes": [
+    "Tidjane Salaun",
+    "Jayson Tatum",
+    "Brandon Miller",
+    "Derrick White",
+    "Neemias Queta"
+   ]
+  },
+  {
+   "headline": "Caleb Wilson takes flight for alley-oop",
+   "description": "Caleb Wilson connects on alley-oop dunk",
+   "published": "2026-10-15T02:44:26Z",
+   "url": "https://www.espn.com/video/clip/_/id/50185737/caleb-wilson-takes-flight-alley-oop",
+   "athletes": [
+    "Caleb Wilson"
+   ]
+  },
+  {
+   "headline": "Warriors' Kristaps Porzingis remains out indefinitely but will be around team",
+   "description": "Warriors center Kristaps Porzingis will remain out indefinitely with a private health-related issue but will be around the team.",
+   "published": "2026-10-14T23:08:30Z",
+   "url": "https://www.espn.com/nba/story/_/id/50184641/warriors-kristaps-porzingis-indefinitely-team",
+   "athletes": [
+    "Kristaps Porzingis"
+   ]
+  },
+  {
+   "headline": "Perk: Kawhi is the 'most feared' and dangerous player in East",
+   "description": "Perk: Kawhi is the 'most feared' and dangerous player in East  ",
+   "published": "2026-10-14T20:16:49Z",
+   "url": "https://www.espn.com/video/clip/_/id/50184082/kawhi-most-feared-dangerous-player-east",
+   "athletes": [
+    "Kawhi Leonard"
+   ]
+  },
+  {
+   "headline": "Stephen A. is not having any of Mad Dog's KAT contract take",
+   "description": "Stephen A. is not having any of Mad Dog's KAT contract take",
+   "published": "2026-10-14T16:05:53Z",
+   "url": "https://www.espn.com/video/clip/_/id/50182236/stephen-not-having-mad-dog-kat-contract-take",
+   "athletes": [
+    "Karl-Anthony Towns"
+   ]
+  },
+  {
+   "headline": "Fantasy basketball points league mock draft: Where things stand with season near",
+   "description": "Our second points league mock draft of the fantasy basketball season featured some players who were drafted earlier than they were in the first mock.",
+   "published": "2026-10-14T15:47:08Z",
+   "url": "https://www.espn.com/fantasy/basketball/story/_/id/50181842/fantasy-basketball-mock-draft-10-team-h2h-points-league-nba-2026-2027",
+   "athletes": [
+    "Matas Buzelis",
+    "Cameron Boozer",
+    "Egor Demin",
+    "Ryan Rollins",
+    "Jaden McDaniels",
+    "Darius Acuff Jr",
+    "Miles Bridges",
+    "RJ Barrett",
+    "John Collins"
+   ]
+  },
+  {
+   "headline": "New era begins as Jayson Tatum and the Celtics embark on 1st season without Jaylen Brown",
+   "description": "Boston Celtics \r\n              Last season: 58-26, lost to Philadelphia in first round of playoffs.",
+   "published": "2026-10-14T14:10:28Z",
+   "url": "http://www.espn.com/nba/preview?gameId=401898407",
+   "athletes": []
+  },
+  {
+   "headline": "NBA Now or Later rankings: Which teams most need to win immediately?",
+   "description": "Which teams must win immediately, with their current cores, and which could bide their time and win later instead? We ranked all 30.",
+   "published": "2026-10-14T10:58:32Z",
+   "url": "https://www.espn.com/nba/story/_/id/50167312/2026-27-now-later-rankings-finals",
+   "athletes": []
+  },
+  {
+   "headline": "Wemby, Spurs have 'clarity' after Finals loss but know 'nothing is guaranteed'",
+   "description": "The Spurs enter the season with expectations to return to the Finals after their loss to the Knicks.",
+   "published": "2026-10-14T14:48:09Z",
+   "url": "https://www.espn.com/nba/story/_/id/50174585/san-antonio-spurs-wembanyama-expectations-nba",
+   "athletes": [
+    "Stephon Castle",
+    "De'Aaron Fox",
+    "Dylan Harper",
+    "Keldon Johnson",
+    "Victor Wembanyama",
+    "Devin Vassell"
+   ]
+  },
+  {
+   "headline": "Walker Kessler impresses in preseason debut for Lakers",
+   "description": "Lakers center Walker Kessler made a strong first impression in his preseason debut Tuesday, finishing with 11 points on 4-for-6 shooting, nine rebounds, one block and one steal while playing only in the first half.",
+   "published": "2026-10-14T07:06:18Z",
+   "url": "https://www.espn.com/nba/story/_/id/50179763/walker-kessler-impresses-preseason-debut-lakers",
+   "athletes": [
+    "Walker Kessler"
+   ]
+  },
+  {
+   "headline": "Golden State Warriors vs. Los Angeles Lakers: Game Highlights",
+   "description": "Golden State Warriors vs. Los Angeles Lakers: Game Highlights",
+   "published": "2026-10-14T05:30:44Z",
+   "url": "https://www.espn.com/video/clip/_/id/50179404/game-highlights",
+   "athletes": [
+    "Austin Reaves",
+    "Sandro Mamukelashvili"
+   ]
+  },
+  {
+   "headline": "Portland Trail Blazers vs. Sacramento Kings: Game Highlights",
+   "description": "Portland Trail Blazers vs. Sacramento Kings: Game Highlights",
+   "published": "2026-10-14T04:41:32Z",
+   "url": "https://www.espn.com/video/clip/_/id/50179402/game-highlights",
+   "athletes": [
+    "Deni Avdija",
+    "Robert Williams III",
+    "Yang Hansen",
+    "Keegan Murray"
+   ]
+  },
+  {
+   "headline": "Thunder beat the Pacers in OT",
+   "description": "Thunder beat the Pacers in OT",
+   "published": "2026-10-14T03:19:18Z",
+   "url": "https://www.espn.com/video/clip/_/id/50179040/thunder-beat-pacers-ot",
+   "athletes": [
+    "Rienk Mast",
+    "Tyrese Haliburton",
+    "Braden Smith",
+    "Zhaire Smith",
+    "Shai Gilgeous-Alexander",
+    "Kobe Brown"
+   ]
+  },
+  {
+   "headline": "New York Knicks vs. Toronto Raptors: Game Highlights",
+   "description": "New York Knicks vs. Toronto Raptors: Game Highlights",
+   "published": "2026-10-14T02:40:34Z",
+   "url": "https://www.espn.com/video/clip/_/id/50178825/game-highlights",
+   "athletes": [
+    "Trayce Jackson-Davis",
+    "Kawhi Leonard",
+    "Pacome Dadiet",
+    "James Wiseman"
+   ]
+  },
+  {
+   "headline": "Haliburton drops 24 first-half points in first game in OKC since Achilles tear",
+   "description": "Haliburton drops 24 first-half points in first game in OKC since Achilles tear",
+   "published": "2026-10-14T02:07:46Z",
+   "url": "https://www.espn.com/video/clip/_/id/50178600/haliburton-drops-24-first-half-points-first-game-okc-achilles-tear",
+   "athletes": [
+    "Tyrese Haliburton"
+   ]
+  },
+  {
+   "headline": "Kawhi drops 21 points in 17 minutes in preseason debut",
+   "description": "Kawhi drops 21 points in 17 minutes in preseason debut",
+   "published": "2026-10-14T02:08:52Z",
+   "url": "https://www.espn.com/video/clip/_/id/50178407/kawhi-drops-21-points-17-minutes-preseason-debut",
+   "athletes": [
+    "Kawhi Leonard"
+   ]
+  },
+  {
+   "headline": "Cleveland Cavaliers vs. Orlando Magic: Game Highlights",
+   "description": "Cleveland Cavaliers vs. Orlando Magic: Game Highlights",
+   "published": "2026-10-14T01:36:29Z",
+   "url": "https://www.espn.com/video/clip/_/id/50178369/game-highlights",
+   "athletes": [
+    "Tyrese Proctor",
+    "Goga Bitadze",
+    "Paolo Banchero",
+    "James Harden"
+   ]
+  },
+  {
+   "headline": "2026 NBA free agency: Grades for offseason signings, extensions",
+   "description": "We're grading the biggest offseason signings, including Payton Pritchard's two-year extension with the Celtics.",
+   "published": "2026-10-13T21:22:39Z",
+   "url": "https://www.espn.com/nba/story/_/id/48957095/2026-nba-free-agency-grades-offseason-signings-deals-contracts-extensions-depth-charts",
+   "athletes": [
+    "Trae Young",
+    "Austin Reaves",
+    "Mark Williams",
+    "CJ McCollum",
+    "Coby White",
+    "Al Horford",
+    "Jose Alvarado",
+    "Andrew Wiggins",
+    "Julian Champagnie",
+    "Jusuf Nurkic",
+    "Ousmane Dieng",
+    "Tim Hardaway Jr",
+    "Keon Ellis",
+    "Luke Kennard",
+    "Dean Wade",
+    "Marcus Smart",
+    "Norman Powell",
+    "Sandro Mamukelashvili",
+    "Quentin Grimes",
+    "Collin Sexton",
+    "De'Anthony Melton",
+    "Mitchell Robinson",
+    "Anfernee Simons",
+    "Tari Eason",
+    "Victor Wembanyama",
+    "Naji Marshall",
+    "James Harden",
+    "Klay Thompson",
+    "DeMar DeRozan",
+    "Bennedict Mathurin",
+    "Jonathan Kuminga",
+    "Amen Thompson",
+    "Saddiq Bey",
+    "Pelle Larsson",
+    "Kawhi Leonard"
+   ]
+  },
+  {
+   "headline": "Celtics, Payton Pritchard agree to two-year extension",
+   "description": "Celtics, Payton Pritchard agree to two-year extension  ",
+   "published": "2026-10-13T20:35:01Z",
+   "url": "https://www.espn.com/video/clip/_/id/50176265/celtics-payton-pritchard-agree-two-year-extension",
+   "athletes": [
+    "Payton Pritchard"
+   ]
+  },
+  {
+   "headline": "Celtics to extend guard Payton Pritchard on 2-year, $44.2M deal",
+   "description": "Celtics guard Payton Pritchard has agreed to a two-year, $44.2 million extension with a mutual option for the 2029-30 season.",
+   "published": "2026-10-14T11:08:00Z",
+   "url": "https://www.espn.com/nba/story/_/id/50176173/celtics-extend-payton-pritchard-two-year-442m-deal",
+   "athletes": [
+    "Payton Pritchard"
+   ]
+  },
+  {
+   "headline": "Which NBA deals will get done? Bobby Marks' biggest extension decisions to watch",
+   "description": "With Monday's extension deadline looming, Bobby Marks breaks down the biggest decisions around the league.",
+   "published": "2026-10-13T19:51:07Z",
+   "url": "https://www.espn.com/nba/story/_/id/50166436/rookie-veteran-contract-extensions-towns-giannis-jokic",
+   "athletes": []
+  },
+  {
+   "headline": "Fantasy basketball: The rookies you should be targeting in drafts",
+   "description": "André Snellings looks at the rookie class and highlights which players to target in fantasy drafts this season.",
+   "published": "2026-10-13T23:40:40Z",
+   "url": "https://www.espn.com/fantasy/basketball/story/_/id/50175002/fantasy-basketball-top-rookies-draft-nba-2026-27",
+   "athletes": [
+    "Caleb Wilson",
+    "AJ Dybantsa",
+    "Cameron Boozer",
+    "Darius Acuff Jr",
+    "Darryn Peterson",
+    "Yaxel Lendeborg",
+    "Mikel Brown Jr",
+    "Keaton Wagler",
+    "Kingston Flemings",
+    "Morez Johnson Jr",
+    "Brayden Burries",
+    "Aday Mara",
+    "Hannes Steinbach",
+    "Meleek Thomas"
+   ]
+  }
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "readAt": "2026-10-16T07:45:46.806Z",
+ "readAt": "2026-10-16T20:00:59.944Z",
  "model": "jev-latest",
  "notes": {
   "47d04791aa47cb5f": {
@@ -52,10 +52,10 @@
    "choice": "none",
    "confidence": 0.8
   },
-  "9dfe76ebd745feaf": {
+  "7d187fc6e1e2619f": {
    "name": "Joshua Jefferson",
-   "choice": "none",
-   "confidence": 0.9
+   "choice": "uncertain",
+   "confidence": 1
   },
   "9e9d618950587723": {
    "name": "Grayson Allen",
@@ -177,6 +177,16 @@
    "choice": "uncertain",
    "confidence": 0.84
   },
+  "1d07d71ff41fd2e5": {
+   "name": "Moses Moody",
+   "choice": "months",
+   "confidence": 0.59
+  },
+  "f6a56337cec13dc3": {
+   "name": "Jimmy Butler III",
+   "choice": "months",
+   "confidence": 0.74
+  },
   "b9853e41267e3791": {
    "name": "Kristaps Porzingis",
    "choice": "none",
@@ -191,16 +201,6 @@
    "name": "Al Horford",
    "choice": "none",
    "confidence": 0.98
-  },
-  "8ea49f86c2310264": {
-   "name": "Jimmy Butler III",
-   "choice": "months",
-   "confidence": 0.13
-  },
-  "4cf8c10f0bc9be61": {
-   "name": "Moses Moody",
-   "choice": "uncertain",
-   "confidence": 0.5
   },
   "d908066a2c3d6cca": {
    "name": "Steven Adams",
@@ -522,11 +522,6 @@
    "choice": "none",
    "confidence": 0.98
   },
-  "dea34a43fb75c6aa": {
-   "name": "Dillon Brooks",
-   "choice": "none",
-   "confidence": 0.84
-  },
   "c6ccf75fed006ec1": {
    "name": "Mark Williams",
    "choice": "uncertain",
@@ -710,9 +705,9 @@
    "written": "2026-10-14"
   },
   "Joshua Jefferson": {
-   "choice": "none",
-   "confidence": 0.9,
-   "written": "2026-10-14"
+   "choice": "uncertain",
+   "confidence": 1,
+   "written": "2026-10-16"
   },
   "Grayson Allen": {
    "choice": "none",
@@ -834,6 +829,16 @@
    "confidence": 0.84,
    "written": "2026-10-13"
   },
+  "Moses Moody": {
+   "choice": "months",
+   "confidence": 0.59,
+   "written": "2026-10-16"
+  },
+  "Jimmy Butler III": {
+   "choice": "months",
+   "confidence": 0.74,
+   "written": "2026-10-16"
+  },
   "Kristaps Porzingis": {
    "choice": "none",
    "confidence": 0.48,
@@ -848,16 +853,6 @@
    "choice": "none",
    "confidence": 0.98,
    "written": "2026-10-12"
-  },
-  "Jimmy Butler III": {
-   "choice": "months",
-   "confidence": 0.13,
-   "written": "2026-10-02"
-  },
-  "Moses Moody": {
-   "choice": "uncertain",
-   "confidence": 0.5,
-   "written": "2026-09-28"
   },
   "Steven Adams": {
    "choice": "none",
@@ -1177,11 +1172,6 @@
   "Devin Booker": {
    "choice": "none",
    "confidence": 0.98,
-   "written": "2026-10-14"
-  },
-  "Dillon Brooks": {
-   "choice": "none",
-   "confidence": 0.84,
    "written": "2026-10-14"
   },
   "Mark Williams": {

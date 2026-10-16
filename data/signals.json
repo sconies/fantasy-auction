@@ -1,10 +1,48 @@
 {
- "builtAt": "2026-10-16T07:45:47.570Z",
+ "builtAt": "2026-10-16T20:01:01.210Z",
  "counts": {
-  "new": 9,
-  "toJudge": 9
+  "new": 2,
+  "toJudge": 2
  },
  "signals": [
+  {
+   "id": "injury:e125837dce31",
+   "kind": "text",
+   "playerId": "4432171",
+   "name": "Moses Moody",
+   "team": "GSW",
+   "date": "2026-10-16T16:14Z",
+   "source": "injury",
+   "url": null,
+   "text": "Moody (knee) is progressing toward a potential return between December and January after rupturing his left patellar tendon in March, Anthony Slater of ESPN reports.",
+   "flags": {
+    "absence": 0.9,
+    "recovering": 0.98
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-16"
+  },
+  {
+   "id": "injury:229925dd3883",
+   "kind": "text",
+   "playerId": "6430",
+   "name": "Jimmy Butler III",
+   "team": "GSW",
+   "date": "2026-10-16T16:11Z",
+   "source": "injury",
+   "url": null,
+   "text": "Butler (knee) could return sometime between January and February as he continues recovering from a torn right ACL, Anthony Slater of ESPN reports.",
+   "flags": {
+    "absence": 0.93,
+    "recovering": 0.98
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-16"
+  },
   {
    "id": "outlook:93085015339d",
    "kind": "outlook",
