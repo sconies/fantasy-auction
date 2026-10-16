@@ -1,5 +1,5 @@
 {
- "readAt": "2026-10-15T22:41:55.373Z",
+ "readAt": "2026-10-16T07:45:46.806Z",
  "model": "jev-latest",
  "notes": {
   "47d04791aa47cb5f": {
@@ -202,25 +202,10 @@
    "choice": "uncertain",
    "confidence": 0.5
   },
-  "f585939be303bc92": {
+  "d908066a2c3d6cca": {
    "name": "Steven Adams",
    "choice": "none",
-   "confidence": 0.93
-  },
-  "9ba47160c4b6efe7": {
-   "name": "Alperen Sengun",
-   "choice": "none",
    "confidence": 0.98
-  },
-  "8a6c33aec96d6079": {
-   "name": "Fred VanVleet",
-   "choice": "none",
-   "confidence": 0.96
-  },
-  "dbc98de6b4081e56": {
-   "name": "Kevin Durant",
-   "choice": "none",
-   "confidence": 0.94
   },
   "c833ee32d3abb27d": {
    "name": "Aaron Nesmith",
@@ -407,35 +392,40 @@
    "choice": "uncertain",
    "confidence": 0.4
   },
+  "daa0c110eac2cdbd": {
+   "name": "Josh Hart",
+   "choice": "none",
+   "confidence": 0.57
+  },
+  "fb0251f8925aeeec": {
+   "name": "Thomas Sorber",
+   "choice": "none",
+   "confidence": 0.78
+  },
+  "8d3887d656b1f3e9": {
+   "name": "Jaylin Williams",
+   "choice": "none",
+   "confidence": 0.9
+  },
+  "0bd60de85784cb82": {
+   "name": "Cason Wallace",
+   "choice": "none",
+   "confidence": 0.86
+  },
+  "d5613cb2b962a8c9": {
+   "name": "Nikola Topic",
+   "choice": "none",
+   "confidence": 0.68
+  },
+  "f274a157ef405d03": {
+   "name": "Chet Holmgren",
+   "choice": "none",
+   "confidence": 0.82
+  },
   "1317ce887ce017ab": {
    "name": "Otega Oweh",
    "choice": "season",
    "confidence": 1
-  },
-  "4fd45ab7c960e665": {
-   "name": "Jaylin Williams",
-   "choice": "none",
-   "confidence": 0.92
-  },
-  "62ffad12b31697d0": {
-   "name": "Chet Holmgren",
-   "choice": "none",
-   "confidence": 0.89
-  },
-  "33f9d2bba6f5cfcd": {
-   "name": "Ajay Mitchell",
-   "choice": "none",
-   "confidence": 0.98
-  },
-  "88926a12ba92697c": {
-   "name": "Thomas Sorber",
-   "choice": "none",
-   "confidence": 0.46
-  },
-  "814970530394c751": {
-   "name": "Nikola Topic",
-   "choice": "uncertain",
-   "confidence": 0.48
   },
   "fd7118019710b6b0": {
    "name": "Jonathan Isaac",
@@ -502,10 +492,10 @@
    "choice": "none",
    "confidence": 0.45
   },
-  "925c36eb1106b79e": {
+  "f960ce29559c3b5c": {
    "name": "Luke Kennard",
-   "choice": "uncertain",
-   "confidence": 0.51
+   "choice": "none",
+   "confidence": 0.72
   },
   "fc14da07dacff59b": {
    "name": "Oso Ighodaro",
@@ -626,6 +616,11 @@
    "name": "Nate Bittle",
    "choice": "uncertain",
    "confidence": 0.54
+  },
+  "42a80740f9dbeb32": {
+   "name": "Chucky Hepburn",
+   "choice": "uncertain",
+   "confidence": 0.66
   },
   "4f71ddea67b56820": {
    "name": "Blake Hinson",
@@ -866,23 +861,8 @@
   },
   "Steven Adams": {
    "choice": "none",
-   "confidence": 0.93,
-   "written": "2026-10-11"
-  },
-  "Alperen Sengun": {
-   "choice": "none",
    "confidence": 0.98,
-   "written": "2026-10-11"
-  },
-  "Fred VanVleet": {
-   "choice": "none",
-   "confidence": 0.96,
-   "written": "2026-10-11"
-  },
-  "Kevin Durant": {
-   "choice": "none",
-   "confidence": 0.94,
-   "written": "2026-10-09"
+   "written": "2026-10-16"
   },
   "Aaron Nesmith": {
    "choice": "none",
@@ -1069,35 +1049,40 @@
    "confidence": 0.4,
    "written": "2026-10-15"
   },
+  "Josh Hart": {
+   "choice": "none",
+   "confidence": 0.57,
+   "written": "2026-10-16"
+  },
+  "Thomas Sorber": {
+   "choice": "none",
+   "confidence": 0.78,
+   "written": "2026-10-16"
+  },
+  "Jaylin Williams": {
+   "choice": "none",
+   "confidence": 0.9,
+   "written": "2026-10-16"
+  },
+  "Cason Wallace": {
+   "choice": "none",
+   "confidence": 0.86,
+   "written": "2026-10-16"
+  },
+  "Nikola Topic": {
+   "choice": "none",
+   "confidence": 0.68,
+   "written": "2026-10-16"
+  },
+  "Chet Holmgren": {
+   "choice": "none",
+   "confidence": 0.82,
+   "written": "2026-10-16"
+  },
   "Otega Oweh": {
    "choice": "season",
    "confidence": 1,
    "written": "2026-10-15"
-  },
-  "Jaylin Williams": {
-   "choice": "none",
-   "confidence": 0.92,
-   "written": "2026-10-13"
-  },
-  "Chet Holmgren": {
-   "choice": "none",
-   "confidence": 0.89,
-   "written": "2026-10-13"
-  },
-  "Ajay Mitchell": {
-   "choice": "none",
-   "confidence": 0.98,
-   "written": "2026-10-13"
-  },
-  "Thomas Sorber": {
-   "choice": "none",
-   "confidence": 0.46,
-   "written": "2026-10-13"
-  },
-  "Nikola Topic": {
-   "choice": "uncertain",
-   "confidence": 0.48,
-   "written": "2026-10-13"
   },
   "Jonathan Isaac": {
    "choice": "none",
@@ -1165,9 +1150,9 @@
    "written": "2026-10-01"
   },
   "Luke Kennard": {
-   "choice": "uncertain",
-   "confidence": 0.51,
-   "written": "2026-10-15"
+   "choice": "none",
+   "confidence": 0.72,
+   "written": "2026-10-16"
   },
   "Oso Ighodaro": {
    "choice": "none",
@@ -1288,6 +1273,11 @@
    "choice": "uncertain",
    "confidence": 0.54,
    "written": "2026-10-13"
+  },
+  "Chucky Hepburn": {
+   "choice": "uncertain",
+   "confidence": 0.66,
+   "written": "2026-10-12"
   },
   "Blake Hinson": {
    "choice": "none",
