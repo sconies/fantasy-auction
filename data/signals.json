@@ -1,17 +1,89 @@
 {
- "builtAt": "2026-10-17T07:22:36.089Z",
+ "builtAt": "2026-10-17T19:36:35.373Z",
  "counts": {
   "new": 8,
   "toJudge": 8
  },
  "signals": [
   {
+   "id": "headline:2933914e8276",
+   "kind": "text",
+   "playerId": "4432181",
+   "name": "Julian Strawther",
+   "team": "DEN",
+   "date": "2026-10-17T16:55:06Z",
+   "source": "headline",
+   "url": "https://www.espn.com/nba/story/_/id/50199062/strawther-indefinitely-knee-sprain-nuggets-say",
+   "text": "Nuggets' Julian Strawther out with knee sprain, will be reevaluated in six weeks. The Nuggets will be without Julian Strawther indefinitely after the versatile 24-year-old guard/forward sprained his left knee while playing a preseason game at the Clippers.",
+   "flags": {
+    "absence": 0.84
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-17"
+  },
+  {
+   "id": "headline:bea730ec7f01",
+   "kind": "text",
+   "playerId": "4066259",
+   "name": "De'Aaron Fox",
+   "team": "SAS",
+   "date": "2026-10-17T14:36:47Z",
+   "source": "headline",
+   "url": "https://www.espn.com/nba/story/_/id/50199096/spurs-start-3-guard-lineup-season-opener-vs-thunder",
+   "text": "Spurs' 3-guard lineup of Fox, Castle, Harper to start opener vs. Thunder. The Spurs will start guards De'Aaron Fox, Stephon Castle and Dylan Harper alongside Devin Vassell and Victor Wembanyama when they face the Thunder in Tuesday's season opener.",
+   "flags": {
+    "starter": 0.96
+   },
+   "summary": "is expected to start or has been named a starter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-17"
+  },
+  {
+   "id": "headline:bff94d831eb6",
+   "kind": "text",
+   "playerId": "4845367",
+   "name": "Stephon Castle",
+   "team": "SAS",
+   "date": "2026-10-17T14:36:47Z",
+   "source": "headline",
+   "url": "https://www.espn.com/nba/story/_/id/50199096/spurs-start-3-guard-lineup-season-opener-vs-thunder",
+   "text": "Spurs' 3-guard lineup of Fox, Castle, Harper to start opener vs. Thunder. The Spurs will start guards De'Aaron Fox, Stephon Castle and Dylan Harper alongside Devin Vassell and Victor Wembanyama when they face the Thunder in Tuesday's season opener.",
+   "flags": {
+    "starter": 0.95
+   },
+   "summary": "is expected to start or has been named a starter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-17"
+  },
+  {
+   "id": "headline:f300b2322693",
+   "kind": "text",
+   "playerId": "5037871",
+   "name": "Dylan Harper",
+   "team": "SAS",
+   "date": "2026-10-17T14:36:47Z",
+   "source": "headline",
+   "url": "https://www.espn.com/nba/story/_/id/50199096/spurs-start-3-guard-lineup-season-opener-vs-thunder",
+   "text": "Spurs' 3-guard lineup of Fox, Castle, Harper to start opener vs. Thunder. The Spurs will start guards De'Aaron Fox, Stephon Castle and Dylan Harper alongside Devin Vassell and Victor Wembanyama when they face the Thunder in Tuesday's season opener.",
+   "flags": {
+    "starter": 0.95
+   },
+   "summary": "is expected to start or has been named a starter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-17"
+  },
+  {
    "id": "headline:c4747e8d56cc",
    "kind": "text",
    "playerId": "1966",
    "name": "LeBron James",
    "team": "PHI",
-   "date": "2026-10-17T04:47:54Z",
+   "date": "2026-10-17T11:36:55Z",
    "source": "headline",
    "url": "https://www.espn.com/nba/story/_/id/50199345/lebron-fires-crowd-monster-slam-sixers-home-debut",
    "text": "LeBron fires up crowd with monster slam in Sixers home debut. LeBron James gave a sellout crowd a glimpse of his \"connection\" with new teammate Tyrese Maxey when James threw down an alley-oop jam in his Sixers home debut.",
@@ -1655,6 +1727,81 @@
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "news:2d0b426a101d",
+   "kind": "text",
+   "playerId": "4432181",
+   "name": "Julian Strawther",
+   "team": "DEN",
+   "date": "2026-10-17",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/614420/julian-strawther-knee-to-be-re-evaluated-six-weeks.php",
+   "text": "Julian Strawther (knee) to be re-evaluated in six weeks The Nuggets announce Julian Strawther will be re-evaluated in six weeks after suffering a left knee sprain.  Fantasy Impact: It is a big loss for the Nuggets rotation to begin the season. Cam Johnson and Christian Braun should see more run in his place.",
+   "flags": {
+    "absence": 0.85,
+    "out_of_rotation": 0.73
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; may be out of the rotation or only a deep bench option",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-17"
+  },
+  {
+   "id": "news:dafd177f9b16",
+   "kind": "text",
+   "playerId": "4432171",
+   "name": "Moses Moody",
+   "team": "GSW",
+   "date": "2026-10-17",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/614410/moses-moody-knee-could-return-december-or-january.php",
+   "text": "Moses Moody (knee) could return in December or January The Warriors hope to get Moses Moody back healthy by December or January.  Fantasy Impact: Moody continues his recovery from a ruptured left patellar tendon. He'll miss at least the first couple months of the season.",
+   "flags": {
+    "absence": 0.98,
+    "recovering": 0.98
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-17"
+  },
+  {
+   "id": "news:af39e98fe731",
+   "kind": "text",
+   "playerId": "6430",
+   "name": "Jimmy Butler III",
+   "team": "GSW",
+   "date": "2026-10-17",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/614409/jimmy-butler-iii-knee-could-return-january-or-february.php",
+   "text": "Jimmy Butler III (knee) could return in January or February The Warriors hope Jimmy Butler III can return in January or February.  Fantasy Impact: Butler will miss at least the first few months of the season. Golden State will hope to get him for the back half of the year.",
+   "flags": {
+    "absence": 0.97,
+    "recovering": 0.9
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-17"
+  },
+  {
+   "id": "news:902cdab35dce",
+   "kind": "text",
+   "playerId": "4432810",
+   "name": "Isaiah Stewart",
+   "team": "MEM",
+   "date": "2026-10-17",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/614415/isaiah-stewart-still-dealing-with-ankle-injury.php",
+   "text": "Isaiah Stewart still dealing with ankle injury Isaiah Stewart missed Friday's preseason finale for the Grizzlies.  Fantasy Impact: Stewart should be on track to be re-evaluated next week. He will likely miss the start of the season.",
+   "flags": {
+    "absence": 0.95
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-17"
   },
   {
    "id": "injury:5155e00204ce",
