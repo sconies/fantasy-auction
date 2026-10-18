@@ -1612,8 +1612,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-17"
+   "status": "handled",
+   "firstSeen": "2026-10-17",
+   "handledNote": "injury absence: automatic proposal"
   },
   {
    "id": "headline:bea730ec7f01",
@@ -1630,8 +1631,9 @@
    },
    "summary": "is expected to start or has been named a starter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-17"
+   "status": "handled",
+   "firstSeen": "2026-10-17",
+   "handledNote": "already starter, in ESPN minutes"
   },
   {
    "id": "headline:bff94d831eb6",
@@ -1648,8 +1650,9 @@
    },
    "summary": "is expected to start or has been named a starter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-17"
+   "status": "handled",
+   "firstSeen": "2026-10-17",
+   "handledNote": "already starter, in ESPN minutes"
   },
   {
    "id": "headline:f300b2322693",
@@ -1666,8 +1669,9 @@
    },
    "summary": "is expected to start or has been named a starter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-17"
+   "status": "handled",
+   "firstSeen": "2026-10-17",
+   "handledNote": "ESPN already 29.3 min, 26.3 above threshold; priced in"
   },
   {
    "id": "headline:c4747e8d56cc",
@@ -1780,8 +1784,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; may be out of the rotation or only a deep bench option",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-17"
+   "status": "handled",
+   "firstSeen": "2026-10-17",
+   "handledNote": "injury absence: automatic proposal; teammates cascade"
   },
   {
    "id": "news:dafd177f9b16",
@@ -1799,8 +1804,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-17"
+   "status": "handled",
+   "firstSeen": "2026-10-17",
+   "handledNote": "injury absence: automatic proposal"
   },
   {
    "id": "news:af39e98fe731",
@@ -1818,8 +1824,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-17"
+   "status": "handled",
+   "firstSeen": "2026-10-17",
+   "handledNote": "injury absence: automatic proposal"
   },
   {
    "id": "news:902cdab35dce",
@@ -1836,8 +1843,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-17"
+   "status": "handled",
+   "firstSeen": "2026-10-17",
+   "handledNote": "injury absence: automatic proposal"
   },
   {
    "id": "injury:5155e00204ce",
