@@ -1,5 +1,5 @@
 {
- "readAt": "2026-10-18T18:22:45.065Z",
+ "readAt": "2026-10-18T19:32:08.432Z",
  "model": "jev-latest",
  "notes": {
   "8b8c4dffed144246": {
@@ -22,6 +22,16 @@
    "choice": "uncertain",
    "confidence": 1
   },
+  "46c8c3f082bcd228": {
+   "name": "Coby White",
+   "choice": "uncertain",
+   "confidence": 0.99
+  },
+  "91a4463f40b981bc": {
+   "name": "Kon Knueppel",
+   "choice": "uncertain",
+   "confidence": 0.99
+  },
   "89f3cf365a039962": {
    "name": "Grayson Allen",
    "choice": "none",
@@ -36,16 +46,6 @@
    "name": "Kylan Boswell",
    "choice": "uncertain",
    "confidence": 0.43
-  },
-  "f0faab4beff4ee7d": {
-   "name": "Coby White",
-   "choice": "none",
-   "confidence": 0.82
-  },
-  "fe59798475a60a48": {
-   "name": "Kon Knueppel",
-   "choice": "uncertain",
-   "confidence": 0.99
   },
   "e22d89fcf210b353": {
    "name": "Grant Williams",
@@ -107,15 +107,15 @@
    "choice": "none",
    "confidence": 0.84
   },
+  "480d6f81e908ac3c": {
+   "name": "Spencer Jones",
+   "choice": "none",
+   "confidence": 0.53
+  },
   "0e09861701237e04": {
    "name": "Julian Strawther",
    "choice": "weeks",
    "confidence": 0.72
-  },
-  "a13187af6c5f8bdf": {
-   "name": "Spencer Jones",
-   "choice": "uncertain",
-   "confidence": 0.84
   },
   "1d07d71ff41fd2e5": {
    "name": "Moses Moody",
@@ -474,6 +474,16 @@
    "confidence": 1,
    "written": "2026-10-16"
   },
+  "Coby White": {
+   "choice": "uncertain",
+   "confidence": 0.99,
+   "written": "2026-10-18"
+  },
+  "Kon Knueppel": {
+   "choice": "uncertain",
+   "confidence": 0.99,
+   "written": "2026-10-18"
+  },
   "Grayson Allen": {
    "choice": "none",
    "confidence": 0.77,
@@ -488,16 +498,6 @@
    "choice": "uncertain",
    "confidence": 0.43,
    "written": "2026-10-05"
-  },
-  "Coby White": {
-   "choice": "none",
-   "confidence": 0.82,
-   "written": "2026-10-05"
-  },
-  "Kon Knueppel": {
-   "choice": "uncertain",
-   "confidence": 0.99,
-   "written": "2026-09-28"
   },
   "Grant Williams": {
    "choice": "none",
@@ -559,15 +559,15 @@
    "confidence": 0.84,
    "written": "2026-10-16"
   },
+  "Spencer Jones": {
+   "choice": "none",
+   "confidence": 0.53,
+   "written": "2026-10-18"
+  },
   "Julian Strawther": {
    "choice": "weeks",
    "confidence": 0.72,
    "written": "2026-10-17"
-  },
-  "Spencer Jones": {
-   "choice": "uncertain",
-   "confidence": 0.84,
-   "written": "2026-10-13"
   },
   "Moses Moody": {
    "choice": "months",

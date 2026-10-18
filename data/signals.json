@@ -1,10 +1,46 @@
 {
- "builtAt": "2026-10-18T18:22:45.808Z",
+ "builtAt": "2026-10-18T19:32:09.106Z",
  "counts": {
-  "new": 0,
-  "toJudge": 0
+  "new": 2,
+  "toJudge": 2
  },
  "signals": [
+  {
+   "id": "injury:45c013205058",
+   "kind": "text",
+   "playerId": "4395651",
+   "name": "Coby White",
+   "team": "CHA",
+   "date": "2026-10-18T18:27Z",
+   "source": "injury",
+   "url": null,
+   "text": "Head coach Charles Lee said Sunday that White (calf) is without a definitive timetable for a return, though he's been ramping up and taking more contact in practice, Nick Carboni of WCNC Charlotte reports.",
+   "flags": {
+    "recovering": 0.7
+   },
+   "summary": "is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-18"
+  },
+  {
+   "id": "injury:08cad91c5f7b",
+   "kind": "text",
+   "playerId": "5061575",
+   "name": "Kon Knueppel",
+   "team": "CHA",
+   "date": "2026-10-18T18:24Z",
+   "source": "injury",
+   "url": null,
+   "text": "Head coach Charles Lee said Sunday that Knueppel (hamstring) is still without a timetable for a return, though he's been ramping up and taking more contact in practice, Nick Carboni of WCNC Charlotte reports.",
+   "flags": {
+    "recovering": 0.78
+   },
+   "summary": "is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-18"
+  },
   {
    "id": "outlook:93085015339d",
    "kind": "outlook",

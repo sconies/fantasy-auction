@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-18T18:22:44.249Z",
+ "fetchedAt": "2026-10-18T19:32:08.063Z",
  "injuries": [
   {
    "name": "Henri Veesaar",
@@ -38,6 +38,24 @@
    "injury": "Back"
   },
   {
+   "name": "Coby White",
+   "team": "Charlotte Hornets",
+   "status": "Day-To-Day",
+   "comment": "Head coach Charles Lee said Sunday that White (calf) is without a definitive timetable for a return, though he's been ramping up and taking more contact in practice, Nick Carboni of WCNC Charlotte reports.",
+   "date": "2026-10-18T18:27Z",
+   "returnDate": "2026-10-21",
+   "injury": "Calf – Strain"
+  },
+  {
+   "name": "Kon Knueppel",
+   "team": "Charlotte Hornets",
+   "status": "Day-To-Day",
+   "comment": "Head coach Charles Lee said Sunday that Knueppel (hamstring) is still without a timetable for a return, though he's been ramping up and taking more contact in practice, Nick Carboni of WCNC Charlotte reports.",
+   "date": "2026-10-18T18:24Z",
+   "returnDate": "2026-10-21",
+   "injury": "Hamstring"
+  },
+  {
    "name": "Grayson Allen",
    "team": "Charlotte Hornets",
    "status": "Day-To-Day",
@@ -63,24 +81,6 @@
    "date": "2026-10-05T21:28Z",
    "returnDate": "2026-10-21",
    "injury": "Knee"
-  },
-  {
-   "name": "Coby White",
-   "team": "Charlotte Hornets",
-   "status": "Day-To-Day",
-   "comment": "The Hornets announced Monday that White suffered a left calf strain during training camp and will not play during the preseason.",
-   "date": "2026-10-05T20:56Z",
-   "returnDate": "2026-10-21",
-   "injury": "Calf – Strain"
-  },
-  {
-   "name": "Kon Knueppel",
-   "team": "Charlotte Hornets",
-   "status": "Day-To-Day",
-   "comment": "Hornets general manager Jeff Peterson said Monday that he \"doesn't know\" whether Knueppel (hamstring) will be available for the team's regular-season opener against the Nets, Owen Watterson of SI.com reports.",
-   "date": "2026-09-28T14:25Z",
-   "returnDate": "2026-10-21",
-   "injury": "Hamstring"
   },
   {
    "name": "Grant Williams",
@@ -191,6 +191,15 @@
    "injury": "Knee"
   },
   {
+   "name": "Spencer Jones",
+   "team": "Denver Nuggets",
+   "status": "Day-To-Day",
+   "comment": "Jones (hamstring) participated in Sunday's practice, Adam Mares of TheDNVR.com reports.",
+   "date": "2026-10-18T18:47Z",
+   "returnDate": "2026-10-22",
+   "injury": "Hamstring"
+  },
+  {
    "name": "Julian Strawther",
    "team": "Denver Nuggets",
    "status": "Out",
@@ -198,15 +207,6 @@
    "date": "2026-10-17T00:52Z",
    "returnDate": "2026-11-29",
    "injury": "Knee – Sprain"
-  },
-  {
-   "name": "Spencer Jones",
-   "team": "Denver Nuggets",
-   "status": "Day-To-Day",
-   "comment": "Jones (hamstring) remains limited to non-contact work, Vinny Benedetto of The Denver Gazette reports.",
-   "date": "2026-10-13T19:28Z",
-   "returnDate": "2026-10-22",
-   "injury": "Hamstring"
   },
   {
    "name": "Moses Moody",
@@ -636,7 +636,7 @@
    "team": "Phoenix Suns",
    "status": "Day-To-Day",
    "comment": "Kennard (knee) has been ruled out for the Suns' final game of the preseason Friday against Utah, John Gambadoro of Arizona Sports 98.7 FM reports.",
-   "date": "2026-10-18T18:00Z",
+   "date": "2026-10-18T19:00Z",
    "returnDate": "2026-10-21",
    "injury": "Knee – Strain"
   },
