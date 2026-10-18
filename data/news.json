@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-17T19:36:33.835Z",
+ "fetchedAt": "2026-10-18T07:37:02.013Z",
  "injuries": [
   {
    "name": "Henri Veesaar",
@@ -20,40 +20,13 @@
    "injury": "Foot – Fracture"
   },
   {
-   "name": "Sam Hauser",
+   "name": "Devin Carter",
    "team": "Boston Celtics",
    "status": "Day-To-Day",
-   "comment": "Hauser (rest) is not suiting up for Friday's preseason game against the 76ers, Sean Grande of NBC Sports Boston reports.",
-   "date": "2026-10-16T23:12Z",
+   "comment": "Carter (illness) agreed to a two-way deal with the Celtics on Saturday, Michael Scotto of HoopsHype.com reports.",
+   "date": "2026-10-18T03:08Z",
    "returnDate": "2026-10-20",
-   "injury": "Rest"
-  },
-  {
-   "name": "Mitchell Robinson",
-   "team": "Boston Celtics",
-   "status": "Day-To-Day",
-   "comment": "Robinson (rest) won't play in Friday's preseason game against the 76ers, Sean Grande of NBC Sports Boston reports.",
-   "date": "2026-10-16T23:09Z",
-   "returnDate": "2026-10-20",
-   "injury": "Rest"
-  },
-  {
-   "name": "Neemias Queta",
-   "team": "Boston Celtics",
-   "status": "Day-To-Day",
-   "comment": "Queta will not participate in Friday's preseason finale against the 76ers, Sean Grande of NBC Sports Boston reports.",
-   "date": "2026-10-16T23:08Z",
-   "returnDate": "2026-10-20",
-   "injury": "Rest"
-  },
-  {
-   "name": "Payton Pritchard",
-   "team": "Boston Celtics",
-   "status": "Day-To-Day",
-   "comment": "Pritchard (rest) won't play in Friday's preseason finale against the 76ers, Sean Grande of NBC Sports Boston reports.",
-   "date": "2026-10-16T23:06Z",
-   "returnDate": "2026-10-20",
-   "injury": "Rest"
+   "injury": "Illness"
   },
   {
    "name": "Joshua Jefferson",
@@ -461,15 +434,6 @@
    "injury": "Ankle – Sprain"
   },
   {
-   "name": "Enrique Freeman",
-   "team": "Minnesota Timberwolves",
-   "status": "Day-To-Day",
-   "comment": "Freeman (shoulder) won't play in Friday's preseason game against Chicago.",
-   "date": "2026-10-17T00:03Z",
-   "returnDate": "2026-10-21",
-   "injury": "Shoulder"
-  },
-  {
    "name": "Rocco Zikarsky",
    "team": "Minnesota Timberwolves",
    "status": "Day-To-Day",
@@ -563,10 +527,19 @@
    "name": "Jase Richardson",
    "team": "Orlando Magic",
    "status": "Day-To-Day",
-   "comment": "Richardson logged seven minutes before exiting Friday's 136-115 preseason win over the Heat due to lower-back soreness. He contributed two rebounds and two assists.",
-   "date": "2026-10-17T01:57Z",
+   "comment": "Richardson (back) is considered day-to-day, Jason Beede of the Orlando Sentinel reports.",
+   "date": "2026-10-17T23:29Z",
    "returnDate": "2026-10-21",
    "injury": "Back – Soreness"
+  },
+  {
+   "name": "Noah Penda",
+   "team": "Orlando Magic",
+   "status": "Out",
+   "comment": "Penda was diagnosed with a partially torn right hamstring Saturday, Jason Beede of the Orlando Sentinel reports.",
+   "date": "2026-10-17T22:19Z",
+   "returnDate": "2026-11-18",
+   "injury": "Hamstring"
   },
   {
    "name": "Franz Wagner",
@@ -576,15 +549,6 @@
    "date": "2026-10-17T01:55Z",
    "returnDate": "2026-10-21",
    "injury": "Shoulder – Soreness"
-  },
-  {
-   "name": "Noah Penda",
-   "team": "Orlando Magic",
-   "status": "Day-To-Day",
-   "comment": "Penda won't return to Friday's preseason game against the Heat due to right hamstring tightness, Jason Beede of the Orlando Sentinel reports. He'll finish with one steal in two minutes.",
-   "date": "2026-10-16T23:54Z",
-   "returnDate": "2026-10-21",
-   "injury": "Hamstring"
   },
   {
    "name": "Jonathan Isaac",
@@ -672,7 +636,7 @@
    "team": "Phoenix Suns",
    "status": "Day-To-Day",
    "comment": "Kennard (knee) has been ruled out for the Suns' final game of the preseason Friday against Utah, John Gambadoro of Arizona Sports 98.7 FM reports.",
-   "date": "2026-10-17T19:01Z",
+   "date": "2026-10-18T07:00Z",
    "returnDate": "2026-10-21",
    "injury": "Knee – Strain"
   },
@@ -785,15 +749,6 @@
    "injury": "Foot"
   },
   {
-   "name": "Chucky Hepburn",
-   "team": "Toronto Raptors",
-   "status": "Day-To-Day",
-   "comment": "The Raptors waived Hepburn (hamstring) on Monday, per Ryan Wolstat of the Toronto Sun.",
-   "date": "2026-10-12T20:12Z",
-   "returnDate": "2026-11-06",
-   "injury": "Hamstring"
-  },
-  {
    "name": "Blake Hinson",
    "team": "Utah Jazz",
    "status": "Day-To-Day",
@@ -858,6 +813,16 @@
   }
  ],
  "articles": [
+  {
+   "headline": "Knicks waive Bruce Brown, keep James Wiseman ahead of opener",
+   "description": "The Knicks are waiving Bruce Brown and keeping James Wiseman on the roster as the team heads into its regular-season opener, sources told ESPN.",
+   "published": "2026-10-18T01:41:18Z",
+   "url": "https://www.espn.com/nba/story/_/id/50204321/sources-knicks-waiving-bruce-brown-keeping-james-wiseman",
+   "athletes": [
+    "Bruce Brown",
+    "James Wiseman"
+   ]
+  },
   {
    "headline": "76ers, needing frontcourt help, convert 7-foot-6 Tacko Fall to two-way contract",
    "description": "The 76ers, dealing with injuries in the frontcourt, have converted center Tacko Fall to a two-way contract.",
@@ -1381,15 +1346,6 @@
     "Brandon Miller",
     "Derrick White",
     "Neemias Queta"
-   ]
-  },
-  {
-   "headline": "Caleb Wilson takes flight for alley-oop",
-   "description": "Caleb Wilson connects on alley-oop dunk",
-   "published": "2026-10-15T02:44:26Z",
-   "url": "https://www.espn.com/video/clip/_/id/50185737/caleb-wilson-takes-flight-alley-oop",
-   "athletes": [
-    "Caleb Wilson"
    ]
   }
  ]

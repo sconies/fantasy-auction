@@ -1,5 +1,5 @@
 {
- "readAt": "2026-10-17T19:36:34.158Z",
+ "readAt": "2026-10-18T07:37:02.365Z",
  "model": "jev-latest",
  "notes": {
   "8b8c4dffed144246": {
@@ -12,25 +12,10 @@
    "choice": "uncertain",
    "confidence": 0.6
   },
-  "c9354df535feb469": {
-   "name": "Sam Hauser",
+  "b6fb07a142609114": {
+   "name": "Devin Carter",
    "choice": "none",
-   "confidence": 0.95
-  },
-  "9253c33d94c19fc4": {
-   "name": "Mitchell Robinson",
-   "choice": "none",
-   "confidence": 0.94
-  },
-  "6eb9a1a5938a4f3f": {
-   "name": "Neemias Queta",
-   "choice": "none",
-   "confidence": 0.98
-  },
-  "a9333e065987b9d4": {
-   "name": "Payton Pritchard",
-   "choice": "none",
-   "confidence": 0.92
+   "confidence": 0.5
   },
   "7d187fc6e1e2619f": {
    "name": "Joshua Jefferson",
@@ -257,11 +242,6 @@
    "choice": "none",
    "confidence": 0.83
   },
-  "e57d07975c0170a0": {
-   "name": "Enrique Freeman",
-   "choice": "none",
-   "confidence": 0.88
-  },
   "262e00f7b070eb45": {
    "name": "Rocco Zikarsky",
    "choice": "none",
@@ -312,20 +292,20 @@
    "choice": "season",
    "confidence": 1
   },
-  "38fb6e8dde7f86fe": {
+  "f1df13d32dd1eb3b": {
    "name": "Jase Richardson",
-   "choice": "none",
-   "confidence": 0.65
+   "choice": "uncertain",
+   "confidence": 0.77
+  },
+  "2853b7631e172c90": {
+   "name": "Noah Penda",
+   "choice": "uncertain",
+   "confidence": 0.92
   },
   "ce1289da8b481407": {
    "name": "Franz Wagner",
    "choice": "uncertain",
    "confidence": 0.57
-  },
-  "fe562f77b84ce80d": {
-   "name": "Noah Penda",
-   "choice": "none",
-   "confidence": 0.89
   },
   "10d8011a0d6e5d6c": {
    "name": "Jonathan Isaac",
@@ -437,11 +417,6 @@
    "choice": "none",
    "confidence": 0.76
   },
-  "42a80740f9dbeb32": {
-   "name": "Chucky Hepburn",
-   "choice": "uncertain",
-   "confidence": 0.66
-  },
   "29dab8c39808b931": {
    "name": "Blake Hinson",
    "choice": "none",
@@ -489,25 +464,10 @@
    "confidence": 0.6,
    "written": "2026-07-19"
   },
-  "Sam Hauser": {
+  "Devin Carter": {
    "choice": "none",
-   "confidence": 0.95,
-   "written": "2026-10-16"
-  },
-  "Mitchell Robinson": {
-   "choice": "none",
-   "confidence": 0.94,
-   "written": "2026-10-16"
-  },
-  "Neemias Queta": {
-   "choice": "none",
-   "confidence": 0.98,
-   "written": "2026-10-16"
-  },
-  "Payton Pritchard": {
-   "choice": "none",
-   "confidence": 0.92,
-   "written": "2026-10-16"
+   "confidence": 0.5,
+   "written": "2026-10-18"
   },
   "Joshua Jefferson": {
    "choice": "uncertain",
@@ -734,11 +694,6 @@
    "confidence": 0.83,
    "written": "2026-10-17"
   },
-  "Enrique Freeman": {
-   "choice": "none",
-   "confidence": 0.88,
-   "written": "2026-10-17"
-  },
   "Rocco Zikarsky": {
    "choice": "none",
    "confidence": 0.62,
@@ -790,19 +745,19 @@
    "written": "2026-10-15"
   },
   "Jase Richardson": {
-   "choice": "none",
-   "confidence": 0.65,
+   "choice": "uncertain",
+   "confidence": 0.77,
+   "written": "2026-10-17"
+  },
+  "Noah Penda": {
+   "choice": "uncertain",
+   "confidence": 0.92,
    "written": "2026-10-17"
   },
   "Franz Wagner": {
    "choice": "uncertain",
    "confidence": 0.57,
    "written": "2026-10-17"
-  },
-  "Noah Penda": {
-   "choice": "none",
-   "confidence": 0.89,
-   "written": "2026-10-16"
   },
   "Jonathan Isaac": {
    "choice": "none",
@@ -852,7 +807,7 @@
   "Luke Kennard": {
    "choice": "none",
    "confidence": 0.72,
-   "written": "2026-10-17"
+   "written": "2026-10-18"
   },
   "Oso Ighodaro": {
    "choice": "none",
@@ -913,11 +868,6 @@
    "choice": "none",
    "confidence": 0.76,
    "written": "2026-10-17"
-  },
-  "Chucky Hepburn": {
-   "choice": "uncertain",
-   "confidence": 0.66,
-   "written": "2026-10-12"
   },
   "Blake Hinson": {
    "choice": "none",
