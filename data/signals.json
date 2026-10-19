@@ -1,10 +1,28 @@
 {
- "builtAt": "2026-10-19T20:48:15.034Z",
+ "builtAt": "2026-10-19T21:39:35.126Z",
  "counts": {
-  "new": 17,
-  "toJudge": 17
+  "new": 18,
+  "toJudge": 18
  },
  "signals": [
+  {
+   "id": "injury:2e98b39ded35",
+   "kind": "text",
+   "playerId": "barlodo01",
+   "name": "Dominick Barlow",
+   "team": "PHI",
+   "date": "2026-10-19T21:07Z",
+   "source": "injury",
+   "url": null,
+   "text": "Barlow will miss at least the next two weeks of action due to a lumbar spine bone stress response, Adam Aaronson of PhillyVoice.com reports.",
+   "flags": {
+    "absence": 0.95
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-19"
+  },
   {
    "id": "injury:626777866385",
    "kind": "text",
@@ -1796,6 +1814,18 @@
    "summary": "Depth chart PG #1 → PG #3",
    "judge": true,
    "status": "new",
+   "firstSeen": "2026-10-19"
+  },
+  {
+   "id": "depth:5214640:2026-10-19:PG #2",
+   "kind": "depth",
+   "playerId": "5214640",
+   "name": "Kasparas Jakucionis",
+   "team": "MIL",
+   "date": "2026-10-19",
+   "summary": "Depth chart PG #3 → PG #2",
+   "judge": false,
+   "status": "info",
    "firstSeen": "2026-10-19"
   },
   {

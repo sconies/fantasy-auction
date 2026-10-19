@@ -399,6 +399,16 @@
    "to": "PG #3",
    "promoted": false,
    "projectedMin": 19.87
+  },
+  {
+   "date": "2026-10-19",
+   "playerId": "5214640",
+   "name": "Kasparas Jakucionis",
+   "team": "MIL",
+   "from": "PG #3",
+   "to": "PG #2",
+   "promoted": true,
+   "projectedMin": 20.07
   }
  ]
 }

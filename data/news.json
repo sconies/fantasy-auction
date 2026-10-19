@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-19T20:48:13.033Z",
+ "fetchedAt": "2026-10-19T21:39:34.085Z",
  "injuries": [
   {
    "name": "Mouhamed Gueye",
@@ -344,15 +344,6 @@
    "injury": "Shoulder – Surgery"
   },
   {
-   "name": "Dalton Knecht",
-   "team": "Los Angeles Lakers",
-   "status": "Day-To-Day",
-   "comment": "Knecht (illness) was excused from Monday's practice, per Jovan Buha of The Athletic.",
-   "date": "2026-10-19T19:53Z",
-   "returnDate": "2026-10-21",
-   "injury": "Illness"
-  },
-  {
    "name": "Bronny James",
    "team": "Los Angeles Lakers",
    "status": "Day-To-Day",
@@ -412,15 +403,6 @@
    "status": "Day-To-Day",
    "comment": "Jackson has been ruled out for Friday's exhibition against the Hornets due to an ankle injury, Chris Herrington of The Daily Memphian reports.",
    "date": "2026-10-16T23:02Z",
-   "returnDate": "2026-10-21",
-   "injury": "Ankle"
-  },
-  {
-   "name": "Micah Peavy",
-   "team": "Memphis Grizzlies",
-   "status": "Day-To-Day",
-   "comment": "Head coach Tumos Iisalo said Thursday that Peavy (ankle) has progressed well in his recovery, though he won't play in Friday's preseason finale against Charlotte, Anthony Sain of Buff City Media reports.",
-   "date": "2026-10-15T19:05Z",
    "returnDate": "2026-10-21",
    "injury": "Ankle"
   },
@@ -614,20 +596,11 @@
    "injury": "Ankle – Surgery"
   },
   {
-   "name": "Dominick Barlow",
-   "team": "Philadelphia 76ers",
-   "status": "Day-To-Day",
-   "comment": "Barlow (back) did not participate in Monday's practice, according to 76ers reporter Paul Hudrick.",
-   "date": "2026-10-19T16:52Z",
-   "returnDate": "2026-10-20",
-   "injury": "Back"
-  },
-  {
    "name": "Dean Wade",
    "team": "Philadelphia 76ers",
    "status": "Day-To-Day",
-   "comment": "Wade (ankle) did not practice Monday, according to 76ers reporter Paul Hudrick.",
-   "date": "2026-10-19T16:47Z",
+   "comment": "Wade (ankle) is questionable for Tuesday's season opener versus the Knicks, per Adam Aaronson of PhillyVoice.com.",
+   "date": "2026-10-19T21:14Z",
    "returnDate": "2026-10-20",
    "injury": "Ankle – Sprain"
   },
@@ -635,8 +608,8 @@
    "name": "Adem Bona",
    "team": "Philadelphia 76ers",
    "status": "Day-To-Day",
-   "comment": "Bona (foot) was a full participant in Sunday's practice, Ky Carlin of USA Today reports.",
-   "date": "2026-10-18T17:59Z",
+   "comment": "Bona (foot) is questionable for Tuesday's meeting in New York, Adam Aaronson of PhillyVoice.com reports.",
+   "date": "2026-10-19T21:13Z",
    "returnDate": "2026-10-20",
    "injury": "Foot – Sprain"
   },
@@ -644,19 +617,28 @@
    "name": "Anfernee Simons",
    "team": "Philadelphia 76ers",
    "status": "Day-To-Day",
-   "comment": "Simons (hamstring) was a full participant in Sunday's practice, Ky Carlin of USA Today reports.",
-   "date": "2026-10-18T17:57Z",
+   "comment": "Simons (hamstring) is questionable for Tuesday's game against the Knicks, Adam Aaronson of PhillyVoice.com reports.",
+   "date": "2026-10-19T21:11Z",
    "returnDate": "2026-10-20",
-   "injury": "Hamstring"
+   "injury": "Hamstring – Not Specified"
   },
   {
    "name": "Tacko Fall",
    "team": "Philadelphia 76ers",
-   "status": "Day-To-Day",
-   "comment": "Fall (hip) didn't participate in Sunday's practice, Ky Carlin of USA Today reports.",
-   "date": "2026-10-18T17:53Z",
-   "returnDate": "2026-10-20",
+   "status": "Out",
+   "comment": "Fall (hip) is out for Tuesday's regular-season opener against the Knicks, Adam Aaronson of PhillyVoice.com reports.",
+   "date": "2026-10-19T21:10Z",
+   "returnDate": "2026-10-22",
    "injury": "Hip"
+  },
+  {
+   "name": "Dominick Barlow",
+   "team": "Philadelphia 76ers",
+   "status": "Out",
+   "comment": "Barlow will miss at least the next two weeks of action due to a lumbar spine bone stress response, Adam Aaronson of PhillyVoice.com reports.",
+   "date": "2026-10-19T21:07Z",
+   "returnDate": "2026-11-02",
+   "injury": "Back"
   },
   {
    "name": "Ariel Hukporti",
@@ -672,7 +654,7 @@
    "team": "Phoenix Suns",
    "status": "Day-To-Day",
    "comment": "Kennard (knee) has been ruled out for the Suns' final game of the preseason Friday against Utah, John Gambadoro of Arizona Sports 98.7 FM reports.",
-   "date": "2026-10-19T20:00Z",
+   "date": "2026-10-19T21:12Z",
    "returnDate": "2026-10-21",
    "injury": "Knee – Strain"
   },
@@ -859,20 +841,39 @@
  ],
  "articles": [
   {
-   "headline": "Warriors expect Steph Curry (ankle) to play in opener vs. Lakers",
-   "description": "The Warriors expect Stephen Curry to be available for Wednesday night's season opener against the Lakers despite tweaking his right ankle during an open scrimmage Sunday.",
-   "published": "2026-10-19T19:49:20Z",
-   "url": "https://www.espn.com/nba/story/_/id/50220689/warriors-expect-steph-curry-ankle-play-opener-vs-lakers",
+   "headline": "Sources: Grizzlies waiving former first-round pick Walter Clayton Jr.",
+   "description": "The Grizzlies are waiving 2025 No. 18 pick Walton Clayton Jr. and Micah Peavy ahead of Monday's roster cutdown deadline.",
+   "published": "2026-10-19T21:34:59Z",
+   "url": "https://www.espn.com/nba/story/_/id/50221787/sources-grizzlies-waive-walter-clayton-jr-micah-peavy",
    "athletes": [
-    "Stephen Curry"
+    "Walter Clayton Jr",
+    "Micah Peavy"
+   ]
+  },
+  {
+   "headline": "Hornets, Brandon Miller agree to 5-year, $209M rookie extension",
+   "description": "The Hornets and forward Brandon Miller agreed to a five-year, $209 million rookie-scale contract extension.",
+   "published": "2026-10-19T21:36:03Z",
+   "url": "https://www.espn.com/nba/story/_/id/50221373/hornets-brandon-miller-agree-5-year-209m-rookie-extension",
+   "athletes": [
+    "Brandon Miller"
    ]
   },
   {
    "headline": "NBA buzz: Latest on trades, news, roster moves and intel",
    "description": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
-   "published": "2026-10-19T19:37:16Z",
+   "published": "2026-10-19T21:26:49Z",
    "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
    "athletes": []
+  },
+  {
+   "headline": "Warriors expect Steph Curry (ankle) to play in opener vs. Lakers",
+   "description": "The Warriors expect Stephen Curry to be available for Wednesday night's season opener against the Lakers despite tweaking his right ankle during an open scrimmage Sunday.",
+   "published": "2026-10-19T20:47:01Z",
+   "url": "https://www.espn.com/nba/story/_/id/50220689/warriors-expect-steph-curry-ankle-play-opener-vs-lakers",
+   "athletes": [
+    "Stephen Curry"
+   ]
   },
   {
    "headline": "Mavericks waive center Dwight Powell after 12-year run",
@@ -1327,32 +1328,6 @@
    "published": "2026-10-15T18:26:10Z",
    "url": "https://www.espn.com/fantasy/basketball/story/_/id/50075156/fantasy-basketball-draft-guide-rankings-mock-drafts-sleepers-projections-analysis",
    "athletes": []
-  },
-  {
-   "headline": "Fantasy basketball roto league mock draft: Cooper Flagg, Derrick White go early",
-   "description": "The fantasy crew gets together for it's final mock draft before the NBA season tips off.",
-   "published": "2026-10-15T18:17:11Z",
-   "url": "https://www.espn.com/fantasy/basketball/story/_/id/50184696/fantasy-basketball-mock-draft-8-team-roto-league-2026-2027",
-   "athletes": [
-    "Derrick White",
-    "Cooper Flagg"
-   ]
-  },
-  {
-   "headline": "Victor Wembanyama, Spurs dominate annual NBA GM survey",
-   "description": "An annual survey of NBA general managers projects the Spurs to win the NBA title this season, with Victor Wembanyama earning MVP and Defensive Player of the Year honors.",
-   "published": "2026-10-15T19:48:07Z",
-   "url": "https://www.espn.com/nba/story/_/id/50190258/victor-wembanyama-spurs-dominate-annual-nba-gm-survey",
-   "athletes": [
-    "Victor Wembanyama",
-    "LeBron James",
-    "Jaylen Brown",
-    "Nikola Jokic",
-    "Anthony Edwards",
-    "Dylan Harper",
-    "Cooper Flagg",
-    "Giannis Antetokounmpo"
-   ]
   }
  ]
 }

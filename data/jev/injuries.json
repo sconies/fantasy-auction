@@ -1,5 +1,5 @@
 {
- "readAt": "2026-10-19T20:48:13.639Z",
+ "readAt": "2026-10-19T21:39:34.501Z",
  "model": "jev-latest",
  "notes": {
   "73fca91bdb41e025": {
@@ -192,11 +192,6 @@
    "choice": "season",
    "confidence": 0.18
   },
-  "eef123b85a92ac00": {
-   "name": "Dalton Knecht",
-   "choice": "none",
-   "confidence": 0.8
-  },
   "efdbffc9359de37c": {
    "name": "Bronny James",
    "choice": "none",
@@ -231,11 +226,6 @@
    "name": "GG Jackson",
    "choice": "none",
    "confidence": 0.74
-  },
-  "a0a04a25c91497db": {
-   "name": "Micah Peavy",
-   "choice": "none",
-   "confidence": 0.84
   },
   "dd3f09b8d15847f2": {
    "name": "Isaiah Stewart",
@@ -342,30 +332,30 @@
    "choice": "weeks",
    "confidence": 0.49
   },
-  "605f6d8e8ea4be80": {
-   "name": "Dominick Barlow",
-   "choice": "none",
-   "confidence": 0.71
-  },
-  "2550639bb1c49d25": {
+  "bc8f41f55714a17d": {
    "name": "Dean Wade",
-   "choice": "none",
-   "confidence": 0.59
+   "choice": "uncertain",
+   "confidence": 0.99
   },
-  "6be568b359f40007": {
+  "e35addc2f23b318a": {
    "name": "Adem Bona",
-   "choice": "none",
-   "confidence": 0.88
+   "choice": "uncertain",
+   "confidence": 0.82
   },
-  "9d9255e8fb6cddf4": {
+  "014336c7745cf0b9": {
    "name": "Anfernee Simons",
-   "choice": "none",
-   "confidence": 0.83
+   "choice": "uncertain",
+   "confidence": 0.81
   },
-  "3fd2f61f77dfff40": {
+  "627340f31949556d": {
    "name": "Tacko Fall",
-   "choice": "none",
-   "confidence": 0.62
+   "choice": "uncertain",
+   "confidence": 0.96
+  },
+  "5e187b319b3634d0": {
+   "name": "Dominick Barlow",
+   "choice": "weeks",
+   "confidence": 0.95
   },
   "5a52cd358ff008be": {
    "name": "Ariel Hukporti",
@@ -669,11 +659,6 @@
    "confidence": 0.18,
    "written": "2026-08-26"
   },
-  "Dalton Knecht": {
-   "choice": "none",
-   "confidence": 0.8,
-   "written": "2026-10-19"
-  },
   "Bronny James": {
    "choice": "none",
    "confidence": 0.65,
@@ -708,11 +693,6 @@
    "choice": "none",
    "confidence": 0.74,
    "written": "2026-10-16"
-  },
-  "Micah Peavy": {
-   "choice": "none",
-   "confidence": 0.84,
-   "written": "2026-10-15"
   },
   "Isaiah Stewart": {
    "choice": "weeks",
@@ -819,30 +799,30 @@
    "confidence": 0.49,
    "written": "2026-09-28"
   },
-  "Dominick Barlow": {
-   "choice": "none",
-   "confidence": 0.71,
-   "written": "2026-10-19"
-  },
   "Dean Wade": {
-   "choice": "none",
-   "confidence": 0.59,
+   "choice": "uncertain",
+   "confidence": 0.99,
    "written": "2026-10-19"
   },
   "Adem Bona": {
-   "choice": "none",
-   "confidence": 0.88,
-   "written": "2026-10-18"
+   "choice": "uncertain",
+   "confidence": 0.82,
+   "written": "2026-10-19"
   },
   "Anfernee Simons": {
-   "choice": "none",
-   "confidence": 0.83,
-   "written": "2026-10-18"
+   "choice": "uncertain",
+   "confidence": 0.81,
+   "written": "2026-10-19"
   },
   "Tacko Fall": {
-   "choice": "none",
-   "confidence": 0.62,
-   "written": "2026-10-18"
+   "choice": "uncertain",
+   "confidence": 0.96,
+   "written": "2026-10-19"
+  },
+  "Dominick Barlow": {
+   "choice": "weeks",
+   "confidence": 0.95,
+   "written": "2026-10-19"
   },
   "Ariel Hukporti": {
    "choice": "season",
