@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-18T19:32:08.063Z",
+ "fetchedAt": "2026-10-19T08:19:46.125Z",
  "injuries": [
   {
    "name": "Henri Veesaar",
@@ -155,6 +155,15 @@
    "injury": "Knee"
   },
   {
+   "name": "Santi Aldama",
+   "team": "Dallas Mavericks",
+   "status": "Day-To-Day",
+   "comment": "Aldama (knee) remains without a timetable to return, and head coach Dusty May said he \"doesn't know yet\" if the forward will play in Wednesday's regular-season opener against Houston, Mike Curtis of The Dallas Morning News reports.",
+   "date": "2026-10-18T19:19Z",
+   "returnDate": "2026-10-21",
+   "injury": "Knee"
+  },
+  {
    "name": "Tarik Biberovic",
    "team": "Dallas Mavericks",
    "status": "Day-To-Day",
@@ -182,15 +191,6 @@
    "injury": "Foot – Surgery"
   },
   {
-   "name": "Santi Aldama",
-   "team": "Dallas Mavericks",
-   "status": "Day-To-Day",
-   "comment": "Aldama (knee) won't play in Friday's preseason game against the Hawks.",
-   "date": "2026-10-16T22:21Z",
-   "returnDate": "2026-10-21",
-   "injury": "Knee"
-  },
-  {
    "name": "Spencer Jones",
    "team": "Denver Nuggets",
    "status": "Day-To-Day",
@@ -207,6 +207,15 @@
    "date": "2026-10-17T00:52Z",
    "returnDate": "2026-11-29",
    "injury": "Knee – Sprain"
+  },
+  {
+   "name": "Stephen Curry",
+   "team": "Golden State Warriors",
+   "status": "Day-To-Day",
+   "comment": "Curry sustained a right ankle injury during Sunday's practice but is expected to be fine, Dalton Johnson of NBC Sports Bay Area reports.",
+   "date": "2026-10-18T23:45Z",
+   "returnDate": "2026-10-21",
+   "injury": "Ankle – Sprain"
   },
   {
    "name": "Moses Moody",
@@ -470,6 +479,15 @@
    "injury": "Ankle – Soreness"
   },
   {
+   "name": "Cason Wallace",
+   "team": "Oklahoma City Thunder",
+   "status": "Day-To-Day",
+   "comment": "Wallace (undisclosed) has agreed to a five-year, $139 million contract extension with the Thunder on Sunday, Shams Charania of ESPN reports.",
+   "date": "2026-10-19T02:51Z",
+   "returnDate": "2026-10-20",
+   "injury": "Undisclosed"
+  },
+  {
    "name": "Thomas Sorber",
    "team": "Oklahoma City Thunder",
    "status": "Day-To-Day",
@@ -486,15 +504,6 @@
    "date": "2026-10-16T00:21Z",
    "returnDate": "2026-10-20",
    "injury": "Heel"
-  },
-  {
-   "name": "Cason Wallace",
-   "team": "Oklahoma City Thunder",
-   "status": "Day-To-Day",
-   "comment": "Wallace (undisclosed) has been ruled out for Thursday's preseason game against the Rockets, Justin Martinez of The Oklahoman reports.",
-   "date": "2026-10-16T00:19Z",
-   "returnDate": "2026-10-20",
-   "injury": "Undisclosed"
   },
   {
    "name": "Nikola Topic",
@@ -636,7 +645,7 @@
    "team": "Phoenix Suns",
    "status": "Day-To-Day",
    "comment": "Kennard (knee) has been ruled out for the Suns' final game of the preseason Friday against Utah, John Gambadoro of Arizona Sports 98.7 FM reports.",
-   "date": "2026-10-18T19:00Z",
+   "date": "2026-10-19T07:00Z",
    "returnDate": "2026-10-21",
    "injury": "Knee – Strain"
   },
@@ -644,8 +653,8 @@
    "name": "Oso Ighodaro",
    "team": "Phoenix Suns",
    "status": "Day-To-Day",
-   "comment": "Ighodaro (hip) won't play in Friday's preseason game against Utah, Kellan Olson of ArizonaSports.com reports.",
-   "date": "2026-10-17T00:33Z",
+   "comment": "Ighodaro (hip) signed a three-year, $29 million deal with the Suns on Sunday, Shams Charania of ESPN reports.",
+   "date": "2026-10-18T23:33Z",
    "returnDate": "2026-10-21",
    "injury": "Hip – Soreness"
   },
@@ -693,6 +702,15 @@
    "date": "2026-08-24T20:23Z",
    "returnDate": "2027-03-02",
    "injury": "Knee – Surgery"
+  },
+  {
+   "name": "Ben Simmons",
+   "team": "Sacramento Kings",
+   "status": "Out",
+   "comment": "Simmons is believed to have suffered a season-ending Achilles tear during practice Sunday, Shams Charania of ESPN reports.",
+   "date": "2026-10-18T23:00Z",
+   "returnDate": "2027-10-01",
+   "injury": "Achilles – Ruptured"
   },
   {
    "name": "Malik Monk",
@@ -813,6 +831,61 @@
   }
  ],
  "articles": [
+  {
+   "headline": "Knicks host the 76ers to start season",
+   "description": "Philadelphia 76ers vs. New York Knicks",
+   "published": "2026-10-19T06:04:30Z",
+   "url": "http://www.espn.com/nba/preview?gameId=401909089",
+   "athletes": []
+  },
+  {
+   "headline": "Pistons begin 2026-27 season at home against the Celtics",
+   "description": "Boston Celtics vs. Detroit Pistons",
+   "published": "2026-10-19T06:04:28Z",
+   "url": "http://www.espn.com/nba/preview?gameId=401909088",
+   "athletes": []
+  },
+  {
+   "headline": "San Antonio hosts Oklahoma City for season opener",
+   "description": "Oklahoma City Thunder vs. San Antonio Spurs",
+   "published": "2026-10-19T06:04:27Z",
+   "url": "http://www.espn.com/nba/preview?gameId=401909090",
+   "athletes": []
+  },
+  {
+   "headline": "NBA preseason buzz: Latest on trades, news and intel",
+   "description": "NBA basketball is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
+   "published": "2026-10-19T02:59:31Z",
+   "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+   "athletes": []
+  },
+  {
+   "headline": "Cruel Achilles injury has killed the Ben Simmons comeback Australia was dying to see",
+   "description": "For the first time in years, Ben Simmons had given us a reason to believe. That's what made the news of his Achilles injury hit so heavily -- he'd started to answer a question that had followed him for half a decade, Olgun Uluc writes.",
+   "published": "2026-10-19T01:30:29Z",
+   "url": "https://www.espn.com/nba/story/_/id/50215522/cruel-achilles-injury-killed-ben-simmons-comeback-australia-was-dying-see",
+   "athletes": [
+    "Ben Simmons"
+   ]
+  },
+  {
+   "headline": "Warriors' Stephen Curry 'fine' after tweaking right ankle in practice",
+   "description": "Steve Kerr said franchise superstar Stephen Curry is \"fine\" after he limped off the practice court with a right ankle issue.",
+   "published": "2026-10-19T00:01:10Z",
+   "url": "https://www.espn.com/nba/story/_/id/50214211/stephen-curry-fine-tweaking-right-ankle-practice",
+   "athletes": [
+    "Stephen Curry"
+   ]
+  },
+  {
+   "headline": "Kings guard Ben Simmons, 30, has torn Achilles tendon, will undergo surgery",
+   "description": "Kings guard Ben Simmons has sustained a torn Achilles tendon and will undergo surgery, the team announced Sunday, an injury that is likely season-ending for the 30-year-old veteran who authored an impressive training camp on short notice for Sacramento.",
+   "published": "2026-10-19T01:05:41Z",
+   "url": "https://www.espn.com/nba/story/_/id/50214131/kings-simmons-believed-achilles-tendon-tear",
+   "athletes": [
+    "Ben Simmons"
+   ]
+  },
   {
    "headline": "Knicks waive Bruce Brown, keep James Wiseman ahead of opener",
    "description": "The Knicks are waiving Bruce Brown and keeping James Wiseman on the roster as the team heads into its regular-season opener, sources told ESPN.",
@@ -1066,13 +1139,6 @@
    "athletes": []
   },
   {
-   "headline": "NBA preseason buzz: Latest on trades, news and intel",
-   "description": "The NBA regular season is less than a week away, and we're tracking all the news, deals, and trades across the league.",
-   "published": "2026-10-16T15:31:56Z",
-   "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-   "athletes": []
-  },
-  {
    "headline": "NBA tells sportsbooks to stop certain bets, restrict parlays",
    "description": "The NBA is prohibiting certain bets this season, including a player prop parlay used in recent scandals, according to a league memo to sportsbook partners.",
    "published": "2026-10-16T18:09:05Z",
@@ -1270,82 +1336,6 @@
     "Gradey Dick",
     "Julian Strawther",
     "Rui Hachimura"
-   ]
-  },
-  {
-   "headline": "Spurs debut three-guard lineup of Fox, Harper, Castle in preseason win",
-   "description": "Spurs coach Mitch Johnson finally deployed a three-guard lineup featuring De'Aaron Fox, Dylan Harper and Stephon Castle in a 123-103 preseason win over the Suns.",
-   "published": "2026-10-15T13:34:59Z",
-   "url": "https://www.espn.com/nba/story/_/id/50186974/spurs-debut-3-guard-lineup-deaaron-fox-dylan-harper-stephon-castle-preseason-win",
-   "athletes": [
-    "De'Aaron Fox",
-    "Dylan Harper",
-    "Stephon Castle"
-   ]
-  },
-  {
-   "headline": "New Orleans Pelicans vs. Dallas Mavericks: Game Highlights",
-   "description": "New Orleans Pelicans vs. Dallas Mavericks: Game Highlights",
-   "published": "2026-10-15T03:36:41Z",
-   "url": "https://www.espn.com/video/clip/_/id/50186718/game-highlights",
-   "athletes": [
-    "Jeremiah Fears",
-    "Seth Lundy",
-    "AJ Johnson",
-    "John Poulakidas",
-    "Yves Missi",
-    "Tobi Lawal"
-   ]
-  },
-  {
-   "headline": "Detroit Pistons vs. Minnesota Timberwolves: Game Highlights",
-   "description": "Detroit Pistons vs. Minnesota Timberwolves: Game Highlights",
-   "published": "2026-10-15T03:17:08Z",
-   "url": "https://www.espn.com/video/clip/_/id/50186688/game-highlights",
-   "athletes": [
-    "John Ukomadu",
-    "Ronald Holland II",
-    "Jalen Duren",
-    "Anthony Edwards"
-   ]
-  },
-  {
-   "headline": "Phoenix Suns vs. San Antonio Spurs: Game Highlights",
-   "description": "Phoenix Suns vs. San Antonio Spurs: Game Highlights",
-   "published": "2026-10-15T02:55:16Z",
-   "url": "https://www.espn.com/video/clip/_/id/50186617/game-highlights",
-   "athletes": [
-    "Ryan Dunn",
-    "Victor Wembanyama",
-    "Maliq Brown",
-    "De'Aaron Fox",
-    "Jamaree Bouyea"
-   ]
-  },
-  {
-   "headline": "Brooklyn Nets vs. Miami Heat: Game Highlights",
-   "description": "Brooklyn Nets vs. Miami Heat: Game Highlights",
-   "published": "2026-10-15T02:25:23Z",
-   "url": "https://www.espn.com/video/clip/_/id/50186240/game-highlights",
-   "athletes": [
-    "Giannis Antetokounmpo",
-    "Michael Porter Jr",
-    "Ryan Conwell",
-    "Keshad Johnson",
-    "Andrew Wiggins"
-   ]
-  },
-  {
-   "headline": "Charlotte Hornets vs. Boston Celtics: Game Highlights",
-   "description": "Charlotte Hornets vs. Boston Celtics: Game Highlights",
-   "published": "2026-10-15T02:25:06Z",
-   "url": "https://www.espn.com/video/clip/_/id/50186153/game-highlights",
-   "athletes": [
-    "Tidjane Salaun",
-    "Jayson Tatum",
-    "Brandon Miller",
-    "Derrick White",
-    "Neemias Queta"
    ]
   }
  ]

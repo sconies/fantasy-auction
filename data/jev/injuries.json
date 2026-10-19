@@ -1,5 +1,5 @@
 {
- "readAt": "2026-10-18T19:32:08.432Z",
+ "readAt": "2026-10-19T08:19:46.478Z",
  "model": "jev-latest",
  "notes": {
   "8b8c4dffed144246": {
@@ -87,6 +87,11 @@
    "choice": "none",
    "confidence": 0.9
   },
+  "49e834d86784c279": {
+   "name": "Santi Aldama",
+   "choice": "uncertain",
+   "confidence": 0.99
+  },
   "75658adaa60f1655": {
    "name": "Tarik Biberovic",
    "choice": "none",
@@ -102,11 +107,6 @@
    "choice": "none",
    "confidence": 0.46
   },
-  "359658a99d899c91": {
-   "name": "Santi Aldama",
-   "choice": "none",
-   "confidence": 0.84
-  },
   "480d6f81e908ac3c": {
    "name": "Spencer Jones",
    "choice": "none",
@@ -116,6 +116,11 @@
    "name": "Julian Strawther",
    "choice": "weeks",
    "confidence": 0.72
+  },
+  "adce74fbb40ba611": {
+   "name": "Stephen Curry",
+   "choice": "none",
+   "confidence": 0.96
   },
   "1d07d71ff41fd2e5": {
    "name": "Moses Moody",
@@ -262,6 +267,11 @@
    "choice": "none",
    "confidence": 0.57
   },
+  "cff8b63c1d6234b1": {
+   "name": "Cason Wallace",
+   "choice": "none",
+   "confidence": 0.95
+  },
   "fb0251f8925aeeec": {
    "name": "Thomas Sorber",
    "choice": "none",
@@ -271,11 +281,6 @@
    "name": "Jaylin Williams",
    "choice": "none",
    "confidence": 0.9
-  },
-  "0bd60de85784cb82": {
-   "name": "Cason Wallace",
-   "choice": "none",
-   "confidence": 0.86
   },
   "d5613cb2b962a8c9": {
    "name": "Nikola Topic",
@@ -357,10 +362,10 @@
    "choice": "none",
    "confidence": 0.72
   },
-  "d4cbe43bfb73a26f": {
+  "8f7816fd93ad220e": {
    "name": "Oso Ighodaro",
    "choice": "none",
-   "confidence": 0.83
+   "confidence": 0.76
   },
   "c6ccf75fed006ec1": {
    "name": "Mark Williams",
@@ -386,6 +391,11 @@
    "name": "Shaedon Sharpe",
    "choice": "months",
    "confidence": 0.39
+  },
+  "7fe1f315f28b77eb": {
+   "name": "Ben Simmons",
+   "choice": "season",
+   "confidence": 0.95
   },
   "a139ecacf858ffd2": {
    "name": "Malik Monk",
@@ -539,6 +549,11 @@
    "confidence": 0.9,
    "written": "2026-10-13"
   },
+  "Santi Aldama": {
+   "choice": "uncertain",
+   "confidence": 0.99,
+   "written": "2026-10-18"
+  },
   "Tarik Biberovic": {
    "choice": "none",
    "confidence": 0.72,
@@ -554,11 +569,6 @@
    "confidence": 0.46,
    "written": "2026-10-16"
   },
-  "Santi Aldama": {
-   "choice": "none",
-   "confidence": 0.84,
-   "written": "2026-10-16"
-  },
   "Spencer Jones": {
    "choice": "none",
    "confidence": 0.53,
@@ -568,6 +578,11 @@
    "choice": "weeks",
    "confidence": 0.72,
    "written": "2026-10-17"
+  },
+  "Stephen Curry": {
+   "choice": "none",
+   "confidence": 0.96,
+   "written": "2026-10-18"
   },
   "Moses Moody": {
    "choice": "months",
@@ -714,6 +729,11 @@
    "confidence": 0.57,
    "written": "2026-10-16"
   },
+  "Cason Wallace": {
+   "choice": "none",
+   "confidence": 0.95,
+   "written": "2026-10-19"
+  },
   "Thomas Sorber": {
    "choice": "none",
    "confidence": 0.78,
@@ -722,11 +742,6 @@
   "Jaylin Williams": {
    "choice": "none",
    "confidence": 0.9,
-   "written": "2026-10-16"
-  },
-  "Cason Wallace": {
-   "choice": "none",
-   "confidence": 0.86,
    "written": "2026-10-16"
   },
   "Nikola Topic": {
@@ -807,12 +822,12 @@
   "Luke Kennard": {
    "choice": "none",
    "confidence": 0.72,
-   "written": "2026-10-18"
+   "written": "2026-10-19"
   },
   "Oso Ighodaro": {
    "choice": "none",
-   "confidence": 0.83,
-   "written": "2026-10-17"
+   "confidence": 0.76,
+   "written": "2026-10-18"
   },
   "Mark Williams": {
    "choice": "uncertain",
@@ -838,6 +853,11 @@
    "choice": "months",
    "confidence": 0.39,
    "written": "2026-08-24"
+  },
+  "Ben Simmons": {
+   "choice": "season",
+   "confidence": 0.95,
+   "written": "2026-10-18"
   },
   "Malik Monk": {
    "choice": "uncertain",
