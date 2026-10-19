@@ -1,14 +1,14 @@
 {
- "builtAt": "2026-10-19T08:19:46.974Z",
+ "builtAt": "2026-10-19T20:48:14.969Z",
  "counts": {
   "players": 426,
   "espnProjected": 348,
   "fantasyPros": 264,
-  "depthChartPlayers": 521,
+  "depthChartPlayers": 518,
   "blended": 310,
   "espnOnly": 38,
   "modelOnly": 78,
-  "flagged": 116,
+  "flagged": 117,
   "newTeam": 126
  },
  "top200MissingFantasyPros": [

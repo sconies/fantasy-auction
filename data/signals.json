@@ -1,10 +1,64 @@
 {
- "builtAt": "2026-10-19T08:19:47.052Z",
+ "builtAt": "2026-10-19T20:48:15.034Z",
  "counts": {
-  "new": 5,
-  "toJudge": 5
+  "new": 17,
+  "toJudge": 17
  },
  "signals": [
+  {
+   "id": "injury:626777866385",
+   "kind": "text",
+   "playerId": "3102531",
+   "name": "Kristaps Porzingis",
+   "team": "GSW",
+   "date": "2026-10-19T19:09Z",
+   "source": "injury",
+   "url": null,
+   "text": "Porzingis (undisclosed) won't travel with the Warriors and remains out indefinitely, Luca Evans of the San Francisco Chronicle reports.",
+   "flags": {
+    "absence": 0.74
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-19"
+  },
+  {
+   "id": "injury:4a754232e667",
+   "kind": "text",
+   "playerId": "6440",
+   "name": "Tobias Harris",
+   "team": "SAS",
+   "date": "2026-10-19T17:51Z",
+   "source": "injury",
+   "url": null,
+   "text": "Harris (calf) will not be ready for the season opener Wednesday against the Thunder, Matt Guzman of SI.com reports.",
+   "flags": {
+    "absence": 0.88
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-19"
+  },
+  {
+   "id": "headline:2647d838bc1f",
+   "kind": "text",
+   "playerId": "3907387",
+   "name": "Ben Simmons",
+   "team": "SAC",
+   "date": "2026-10-19T11:52:10Z",
+   "source": "headline",
+   "url": "https://www.espn.com/nba/story/_/id/50214131/kings-simmons-believed-achilles-tendon-tear",
+   "text": "Kings guard Ben Simmons has torn Achilles tendon, will undergo surgery. Kings guard Ben Simmons has sustained a torn Achilles tendon and will undergo surgery, the team announced Sunday, an injury that is likely season-ending for the 30-year-old veteran who authored an impressive training camp on short notice for Sacramento.",
+   "flags": {
+    "absence": 0.96
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-19"
+  },
   {
    "id": "headline:73e1aa32fc11",
    "kind": "text",
@@ -454,6 +508,25 @@
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "news:55fea2fd111a",
+   "kind": "text",
+   "playerId": "5061575",
+   "name": "Kon Knueppel",
+   "team": "CHA",
+   "date": "2026-10-19",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/614802/kon-knueppel-hamstring-without-timetable-to-return.php",
+   "text": "Kon Knueppel (hamstring) without timetable to return Hornets head coach Charles Lee said there's still no timetable for the return of Kon Knueppel.  Fantasy Impact: Knueppel is continuing to work his way back from a hamstring injury. His status will need to be monitored on the injury report heading into Wednesday's opener.",
+   "flags": {
+    "absence": 0.8,
+    "recovering": 0.89
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-19"
   },
   {
    "id": "outlook:13deaedf6e83",
@@ -992,6 +1065,24 @@
    "firstSeen": "2026-10-06"
   },
   {
+   "id": "news:15b7d5ecc4e1",
+   "kind": "text",
+   "playerId": "5124612",
+   "name": "VJ Edgecombe",
+   "team": "PHI",
+   "date": "2026-10-19",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/614737/vj-edgecombe-on-track-season-opener.php",
+   "text": "VJ Edgecombe on track for season opener VJ Edgecombe is on track to play in Tuesday’s season opener against the Knicks.  Fantasy Impact: Edgecombe practiced on Sunday after dealing with soreness. He should take on his usual starting role.",
+   "flags": {
+    "starter": 0.94
+   },
+   "summary": "is expected to start or has been named a starter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-19"
+  },
+  {
    "id": "outlook:126a0c69b3f7",
    "kind": "outlook",
    "playerId": "5124612",
@@ -1084,6 +1175,25 @@
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "news:4961430101b9",
+   "kind": "text",
+   "playerId": "4395651",
+   "name": "Coby White",
+   "team": "CHA",
+   "date": "2026-10-19",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/614801/coby-white-calf-without-timetable-to-return.php",
+   "text": "Coby White (calf) without timetable to return Hornets head coach Charles Lee said there's still no timetable for the return of Coby White.  Fantasy Impact: White is continuing to work his way back from a calf injury. His status will need to be monitored on the injury report heading into Wednesday's opener.",
+   "flags": {
+    "absence": 0.82,
+    "recovering": 0.84
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-19"
   },
   {
    "id": "outlook:e98874ce8531",
@@ -1578,6 +1688,115 @@
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "news:23cbaad16daf",
+   "kind": "text",
+   "playerId": "4278067",
+   "name": "Nic Claxton",
+   "team": "CHI",
+   "date": "2026-10-19",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/614790/nic-claxton-hamstring-to-be-re-evaluated-two-weeks.php",
+   "text": "Nic Claxton (hamstring) to be re-evaluated in two weeks Nic Claxton will be re-evaluated in two weeks.  Fantasy Impact: Claxton was reportedly ramping up from his hamstring injury, but he'll now miss some time to begin the season. He'll be re-evaluated in the first week of November.",
+   "flags": {
+    "absence": 0.93,
+    "recovering": 0.84
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-19"
+  },
+  {
+   "id": "news:5eb6592b37e6",
+   "kind": "text",
+   "playerId": "4432170",
+   "name": "Isaiah Jackson",
+   "team": "LAC",
+   "date": "2026-10-19",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/614804/isaiah-jackson-to-be-clippers-starting-center.php",
+   "text": "Isaiah Jackson to be Clippers starting center Clippers coach Ty Lue said Isaiah Jackson will be the opening night starting center.  Fantasy Impact: Jackson was the starter throughout the preseason. He'll hold some deep fantasy value earning the starting job ahead of Brook Lopez.",
+   "flags": {
+    "starter": 0.99
+   },
+   "summary": "is expected to start or has been named a starter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-19"
+  },
+  {
+   "id": "depth:4873138:2026-10-19:SF #2",
+   "kind": "depth",
+   "playerId": "4873138",
+   "name": "Ace Bailey",
+   "team": "UTA",
+   "date": "2026-10-19",
+   "summary": "Depth chart SF #1 → SF #2",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-19"
+  },
+  {
+   "id": "depth:4684793:2026-10-19:PF #3",
+   "kind": "depth",
+   "playerId": "4684793",
+   "name": "Kyle Filipowski",
+   "team": "UTA",
+   "date": "2026-10-19",
+   "summary": "Depth chart PF #2 → PF #3",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-19"
+  },
+  {
+   "id": "depth:4065732:2026-10-19:SF #1",
+   "kind": "depth",
+   "playerId": "4065732",
+   "name": "De'Andre Hunter",
+   "team": "SAC",
+   "date": "2026-10-19",
+   "summary": "Depth chart SF #2 → SF #1",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-19"
+  },
+  {
+   "id": "depth:4397077:2026-10-19:C #1",
+   "kind": "depth",
+   "playerId": "4397077",
+   "name": "Jaxson Hayes",
+   "team": "UTA",
+   "date": "2026-10-19",
+   "summary": "Depth chart C #2 → C #1",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-19"
+  },
+  {
+   "id": "depth:2580365:2026-10-19:C #3",
+   "kind": "depth",
+   "playerId": "2580365",
+   "name": "Larry Nance Jr.",
+   "team": "IND",
+   "date": "2026-10-19",
+   "summary": "Depth chart C #2 → C #3",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-19"
+  },
+  {
+   "id": "depth:3907387:2026-10-19:PG #3",
+   "kind": "depth",
+   "playerId": "3907387",
+   "name": "Ben Simmons",
+   "team": "SAC",
+   "date": "2026-10-19",
+   "summary": "Depth chart PG #1 → PG #3",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-19"
   },
   {
    "id": "injury:02a7491b3800",
