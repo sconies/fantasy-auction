@@ -20,8 +20,9 @@
    },
    "summary": "is recovering or returning from a significant injury or surgery",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-18"
+   "status": "handled",
+   "firstSeen": "2026-10-18",
+   "handledNote": "injury absence, no timetable: covered by automatic ESPN/Jev proposal"
   },
   {
    "id": "injury:08cad91c5f7b",
@@ -38,8 +39,9 @@
    },
    "summary": "is recovering or returning from a significant injury or surgery",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-18"
+   "status": "handled",
+   "firstSeen": "2026-10-18",
+   "handledNote": "injury absence, no timetable: covered by automatic ESPN/Jev proposal"
   },
   {
    "id": "outlook:93085015339d",
