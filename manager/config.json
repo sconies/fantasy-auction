@@ -1,0 +1,9 @@
+{
+  "myTeam": "Shawn Kemp is my Dad",
+  "league": 81341,
+  "maxAddsPerWeek": 2,
+  "protected": ["Nikola Jokic", "Anthony Davis", "Kyrie Irving", "Dyson Daniels", "Donovan Clingan", "Michael Porter Jr."],
+  "protectedNote": "Drafted for $10 or more; never dropped or traded without Lane's yes.",
+  "rosWeight": 2,
+  "minGain": 0.15
+}
