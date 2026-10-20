@@ -259,6 +259,156 @@
    "to": "SF #2",
    "promoted": true,
    "projectedMin": 14.09
+  },
+  {
+   "date": "2026-10-13",
+   "playerId": "4432582",
+   "name": "Max Christie",
+   "team": "DAL",
+   "from": "SG #1",
+   "to": "SG #2",
+   "promoted": false,
+   "projectedMin": 26.94
+  },
+  {
+   "date": "2026-10-13",
+   "playerId": "5211175",
+   "name": "Zaccharie Risacher",
+   "team": "DAL",
+   "from": "SG #2",
+   "to": "SG #1",
+   "promoted": true,
+   "projectedMin": 21.57
+  },
+  {
+   "date": "2026-10-15",
+   "playerId": "4397424",
+   "name": "Neemias Queta",
+   "team": "BOS",
+   "from": "C #1",
+   "to": "C #2",
+   "promoted": false,
+   "projectedMin": 21.87
+  },
+  {
+   "date": "2026-10-15",
+   "playerId": "4351852",
+   "name": "Mitchell Robinson",
+   "team": "BOS",
+   "from": "C #2",
+   "to": "C #1",
+   "promoted": true,
+   "projectedMin": 22.54
+  },
+  {
+   "date": "2026-10-15",
+   "playerId": "5254165",
+   "name": "Keaton Wagler",
+   "team": "LAC",
+   "from": "SG #2",
+   "to": "SG #1",
+   "promoted": true,
+   "projectedMin": 26.77
+  },
+  {
+   "date": "2026-10-15",
+   "playerId": "4593841",
+   "name": "Baylor Scheierman",
+   "team": "BOS",
+   "from": "SG #1",
+   "to": "SG #2",
+   "promoted": false,
+   "projectedMin": 21.89
+  },
+  {
+   "date": "2026-10-15",
+   "playerId": "6580",
+   "name": "Bradley Beal",
+   "team": "LAC",
+   "from": "SG #1",
+   "to": "SG #2",
+   "promoted": false,
+   "projectedMin": 25.12
+  },
+  {
+   "date": "2026-10-15",
+   "playerId": "4683689",
+   "name": "Jordan Walsh",
+   "team": "BOS",
+   "from": "PF #2",
+   "to": "PF #1",
+   "promoted": true,
+   "projectedMin": 18.55
+  },
+  {
+   "date": "2026-10-19",
+   "playerId": "4873138",
+   "name": "Ace Bailey",
+   "team": "UTA",
+   "from": "SF #1",
+   "to": "SF #2",
+   "promoted": false,
+   "projectedMin": 26.72
+  },
+  {
+   "date": "2026-10-19",
+   "playerId": "4684793",
+   "name": "Kyle Filipowski",
+   "team": "UTA",
+   "from": "PF #2",
+   "to": "PF #3",
+   "promoted": false,
+   "projectedMin": 20.84
+  },
+  {
+   "date": "2026-10-19",
+   "playerId": "4065732",
+   "name": "De'Andre Hunter",
+   "team": "SAC",
+   "from": "SF #2",
+   "to": "SF #1",
+   "promoted": true,
+   "projectedMin": 26.01
+  },
+  {
+   "date": "2026-10-19",
+   "playerId": "4397077",
+   "name": "Jaxson Hayes",
+   "team": "UTA",
+   "from": "C #2",
+   "to": "C #1",
+   "promoted": true,
+   "projectedMin": 15.94
+  },
+  {
+   "date": "2026-10-19",
+   "playerId": "2580365",
+   "name": "Larry Nance Jr.",
+   "team": "IND",
+   "from": "C #2",
+   "to": "C #3",
+   "promoted": false,
+   "projectedMin": 15.63
+  },
+  {
+   "date": "2026-10-19",
+   "playerId": "3907387",
+   "name": "Ben Simmons",
+   "team": "SAC",
+   "from": "PG #1",
+   "to": "PG #3",
+   "promoted": false,
+   "projectedMin": 19.87
+  },
+  {
+   "date": "2026-10-19",
+   "playerId": "5214640",
+   "name": "Kasparas Jakucionis",
+   "team": "MIL",
+   "from": "PG #3",
+   "to": "PG #2",
+   "promoted": true,
+   "projectedMin": 20.07
   }
  ]
 }

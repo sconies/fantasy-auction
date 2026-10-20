@@ -9,6 +9,16 @@
    "reason": "Calf strain in camp; ESPN says he will miss the preseason and is questionable for the 20 Oct opener vs OKC. ESPN's return date is opening night, so no injury proposal covers it; -2 games for a likely slow start.",
    "source": "ESPN headline 4 Oct 2026",
    "signalId": "headline:af45de00a6e3"
+  },
+  {
+   "id": "2026-10-19-simmons-achilles",
+   "playerId": "3907387",
+   "name": "Ben Simmons",
+   "date": "2026-10-19",
+   "games": 0,
+   "reason": "Kings announced a torn Achilles requiring surgery, likely season-ending (ESPN/Shams Charania, team announcement 2026-10-18/19). Projection still had 34 games, so games set to 0.",
+   "source": "",
+   "signalId": "headline:2647d838bc1f"
   }
  ]
 }

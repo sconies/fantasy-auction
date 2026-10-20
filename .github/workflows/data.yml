@@ -8,6 +8,8 @@ on:
     - cron: '0 3 * * *'
     # Draft days (18 and 19 Oct): one more read at noon Eastern so values are fresh going in.
     - cron: '0 16 18,19 10 *'
+    # Draft is Mon 19 Oct, 3 pm Pacific (22:00 UTC): a last read an hour before.
+    - cron: '0 21 19 10 *'
   workflow_dispatch:
 
 permissions:

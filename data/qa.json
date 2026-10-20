@@ -1,15 +1,15 @@
 {
- "builtAt": "2026-10-12T23:43:35.957Z",
+ "builtAt": "2026-10-20T20:46:49.025Z",
  "counts": {
   "players": 426,
   "espnProjected": 348,
-  "fantasyPros": 265,
-  "depthChartPlayers": 527,
+  "fantasyPros": 264,
+  "depthChartPlayers": 516,
   "blended": 310,
   "espnOnly": 38,
   "modelOnly": 78,
-  "flagged": 96,
-  "newTeam": 126
+  "flagged": 119,
+  "newTeam": 130
  },
  "top200MissingFantasyPros": [
   "Bronny James",
@@ -19,7 +19,10 @@
   "GG Jackson",
   "Brayden Burries"
  ],
- "top200MissingDepth": [],
+ "top200MissingDepth": [
+  "Kevin Porter Jr.",
+  "Walter Clayton Jr."
+ ],
  "starters": 150,
  "problems": []
 }
