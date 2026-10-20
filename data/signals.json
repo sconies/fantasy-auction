@@ -1,10 +1,119 @@
 {
- "builtAt": "2026-10-20T08:04:10.565Z",
+ "builtAt": "2026-10-20T20:46:49.124Z",
  "counts": {
-  "new": 26,
-  "toJudge": 26
+  "new": 8,
+  "toJudge": 8
  },
  "signals": [
+  {
+   "id": "injury:9b0b28076f0d",
+   "kind": "text",
+   "playerId": "5061575",
+   "name": "Kon Knueppel",
+   "team": "CHA",
+   "date": "2026-10-20T20:33Z",
+   "source": "injury",
+   "url": null,
+   "text": "Knueppel (hamstring) has returned to individual on-court activity but won't play in Wednesday's game against the Nets.",
+   "flags": {
+    "absence": 0.7,
+    "recovering": 0.88
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-20"
+  },
+  {
+   "id": "injury:44017eacbef1",
+   "kind": "text",
+   "playerId": "4066218",
+   "name": "Grant Williams",
+   "team": "CHA",
+   "date": "2026-10-20T20:30Z",
+   "source": "injury",
+   "url": null,
+   "text": "Williams (hamstring) is out for Wednesday's season opener versus the Nets.",
+   "flags": {
+    "absence": 0.91
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-20"
+  },
+  {
+   "id": "injury:67cbdd885761",
+   "kind": "text",
+   "playerId": "4395651",
+   "name": "Coby White",
+   "team": "CHA",
+   "date": "2026-10-20T20:28Z",
+   "source": "injury",
+   "url": null,
+   "text": "White (calf) is out for Wednesday's season opener against the Nets.",
+   "flags": {
+    "absence": 0.86
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-20"
+  },
+  {
+   "id": "headline:53b83c67d562",
+   "kind": "text",
+   "playerId": "5142718",
+   "name": "AJ Dybantsa",
+   "team": "WAS",
+   "date": "2026-10-20T17:27:44Z",
+   "source": "headline",
+   "url": "https://www.espn.com/nba/story/_/id/50229436/wizards-aj-dybantsa-ankle-miss-season-opener",
+   "text": "Wizards' AJ Dybantsa (ankle) to miss season opener. AJ Dybantsa, the No. 1 pick in the NBA draft, will miss the Wizards' season opener Wednesday because of an ankle injury.",
+   "flags": {
+    "absence": 0.9
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-20"
+  },
+  {
+   "id": "injury:c6bdc282c38c",
+   "kind": "text",
+   "playerId": "5142718",
+   "name": "AJ Dybantsa",
+   "team": "WAS",
+   "date": "2026-10-20T16:21Z",
+   "source": "injury",
+   "url": null,
+   "text": "Dybantsa (ankle) will not debut Wednesday against the Bucks, Josh Robbins of The Athletic reports.",
+   "flags": {
+    "absence": 0.74
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-20"
+  },
+  {
+   "id": "injury:a7e8262ea79d",
+   "kind": "text",
+   "playerId": "2990962",
+   "name": "Taurean Prince",
+   "team": "DET",
+   "date": "2026-10-20T14:17Z",
+   "source": "injury",
+   "url": null,
+   "text": "Prince (personal) is out for Tuesday's game against the Celtics.",
+   "flags": {
+    "absence": 0.81
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-20"
+  },
   {
    "id": "outlook:93085015339d",
    "kind": "outlook",
@@ -1067,6 +1176,24 @@
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "news:e3e05160a9e3",
+   "kind": "text",
+   "playerId": "5142718",
+   "name": "AJ Dybantsa",
+   "team": "WAS",
+   "date": "2026-10-20",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/614926/aj-dybantsa-ankle-ruled-out-opener-wednesday.php",
+   "text": "AJ Dybantsa (ankle) ruled out for opener Wednesday AJ Dybantsa has been ruled out for Wednesday’s season opener against the Bucks.  Fantasy Impact: Dybantsa is considered day-to-day. We will have to wait a little longer to watch the No. 1 pick take the court.",
+   "flags": {
+    "absence": 0.81
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-20"
   },
   {
    "id": "outlook:73c8b5a24c5e",
@@ -2210,6 +2337,24 @@
    "firstSeen": "2026-10-20"
   },
   {
+   "id": "news:dee443438a63",
+   "kind": "text",
+   "playerId": "4432822",
+   "name": "Isaac Okoro",
+   "team": "CHI",
+   "date": "2026-10-20",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/614946/isaac-okoro-knee-likely-to-play-wednesday.php",
+   "text": "Isaac Okoro (knee) likely to play Wednesday Isaac Okoro (knee) is likely to play in Wednesday's game against the Toronto Raptors.  Fantasy Impact: Chicago is listing the veteran on their injury report due to a nagging knee issue that he's managing, but it isn't a serious issue and shouldn't affect his availability for Wednesday's season opener. He will be primed for additional work with Nic Claxto",
+   "flags": {
+    "opening": 0.9
+   },
+   "summary": "a teammate's absence or departure opens up opportunity for the player",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-20"
+  },
+  {
    "id": "news:ec26a6ab3ffa",
    "kind": "text",
    "playerId": "barlodo01",
@@ -2223,25 +2368,6 @@
     "absence": 0.84
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
-   "judge": true,
-   "status": "handled",
-   "firstSeen": "2026-10-20",
-   "handledNote": "no change: usual role, already reflected"
-  },
-  {
-   "id": "news:8d734f104bf9",
-   "kind": "text",
-   "playerId": "4432823",
-   "name": "Jaylin Williams",
-   "team": "OKC",
-   "date": "2026-10-20",
-   "source": "news",
-   "url": "https://www.fantasypros.com/nba/news/614879/jaylin-williams-heel-off-injury-report-tuesday.php",
-   "text": "Jaylin Williams (heel) off injury report Tuesday Jaylin Williams is off the injury report for Tuesday’s game against the Spurs.  Fantasy Impact: Williams will be good to go in his usual reserve role.",
-   "flags": {
-    "bench": 0.82
-   },
-   "summary": "is expected to come off the bench or has lost his starting job",
    "judge": true,
    "status": "handled",
    "firstSeen": "2026-10-20",
@@ -2270,6 +2396,25 @@
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-20"
+  },
+  {
+   "id": "news:8d734f104bf9",
+   "kind": "text",
+   "playerId": "4432823",
+   "name": "Jaylin Williams",
+   "team": "OKC",
+   "date": "2026-10-20",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/614879/jaylin-williams-heel-off-injury-report-tuesday.php",
+   "text": "Jaylin Williams (heel) off injury report Tuesday Jaylin Williams is off the injury report for Tuesday’s game against the Spurs.  Fantasy Impact: Williams will be good to go in his usual reserve role.",
+   "flags": {
+    "bench": 0.82
+   },
+   "summary": "is expected to come off the bench or has lost his starting job",
+   "judge": true,
+   "status": "handled",
+   "firstSeen": "2026-10-20",
+   "handledNote": "no change: usual role, already reflected"
   },
   {
    "id": "injury:2e98b39ded35",
