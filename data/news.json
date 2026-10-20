@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-20T00:02:18.756Z",
+ "fetchedAt": "2026-10-20T08:04:08.347Z",
  "injuries": [
   {
    "name": "Mouhamed Gueye",
@@ -627,7 +627,7 @@
    "team": "Phoenix Suns",
    "status": "Day-To-Day",
    "comment": "Kennard (knee) increased his activity in practice Monday, Duane Rankin of the Arizona Republic reports.",
-   "date": "2026-10-19T22:34Z",
+   "date": "2026-10-20T07:00Z",
    "returnDate": "2026-10-21",
    "injury": "Knee – Strain"
   },
@@ -814,9 +814,118 @@
  ],
  "articles": [
   {
+   "headline": "Ugonna Onyenso thought his NBA dream was over -- then the Detroit Pistons called him up",
+   "description": "Detroit Pistons center Ugonna Onyenso was surprised to hear his name called out 53rd at the 2026 NBA Draft, having once believed his dream of making the league was over, but is now confident he can grow into the sizable shoes left by Isaiah Stewart.",
+   "published": "2026-10-20T06:08:23Z",
+   "url": "https://www.espn.com/espn/story/_/id/50217446/ugonna-onyenso-thought-nba-dream-was-detroit-pistons-called-up",
+   "athletes": [
+    "Ugonna Onyenso"
+   ]
+  },
+  {
+   "headline": "Houston hosts Dallas in season opener",
+   "description": "Dallas Mavericks vs. Houston Rockets",
+   "published": "2026-10-20T06:04:20Z",
+   "url": "http://www.espn.com/nba/preview?gameId=401909840",
+   "athletes": []
+  },
+  {
+   "headline": "Magic open season at home against the Hawks",
+   "description": "Atlanta Hawks vs. Orlando Magic",
+   "published": "2026-10-20T06:04:19Z",
+   "url": "http://www.espn.com/nba/preview?gameId=401909834",
+   "athletes": []
+  },
+  {
+   "headline": "Raptors start 2026-27 season at home against the Bulls",
+   "description": "Chicago Bulls vs. Toronto Raptors",
+   "published": "2026-10-20T06:04:18Z",
+   "url": "http://www.espn.com/nba/preview?gameId=401909837",
+   "athletes": []
+  },
+  {
+   "headline": "Los Angeles starts season at home against Sacramento",
+   "description": "Sacramento Kings vs. Los Angeles Clippers",
+   "published": "2026-10-20T06:04:17Z",
+   "url": "http://www.espn.com/nba/preview?gameId=401909842",
+   "athletes": []
+  },
+  {
+   "headline": "Trail Blazers open season at home against the Suns",
+   "description": "Phoenix Suns vs. Portland Trail Blazers",
+   "published": "2026-10-20T06:04:16Z",
+   "url": "http://www.espn.com/nba/preview?gameId=401909841",
+   "athletes": []
+  },
+  {
+   "headline": "New Orleans begins season at home against Indiana",
+   "description": "Indiana Pacers vs. New Orleans Pelicans",
+   "published": "2026-10-20T06:04:15Z",
+   "url": "http://www.espn.com/nba/preview?gameId=401909839",
+   "athletes": []
+  },
+  {
+   "headline": "Washington hosts Milwaukee to open season",
+   "description": "Milwaukee Bucks vs. Washington Wizards",
+   "published": "2026-10-20T06:04:13Z",
+   "url": "http://www.espn.com/nba/preview?gameId=401909835",
+   "athletes": []
+  },
+  {
+   "headline": "Memphis hosts Utah to tip off season",
+   "description": "Utah Jazz vs. Memphis Grizzlies",
+   "published": "2026-10-20T06:04:12Z",
+   "url": "http://www.espn.com/nba/preview?gameId=401909838",
+   "athletes": []
+  },
+  {
+   "headline": "Lakers open season at home against the Warriors",
+   "description": "Golden State Warriors vs. Los Angeles Lakers",
+   "published": "2026-10-20T06:04:11Z",
+   "url": "http://www.espn.com/nba/preview?gameId=401909092",
+   "athletes": []
+  },
+  {
+   "headline": "Brooklyn hosts Charlotte for season opener",
+   "description": "Charlotte Hornets vs. Brooklyn Nets",
+   "published": "2026-10-20T06:04:10Z",
+   "url": "http://www.espn.com/nba/preview?gameId=401909836",
+   "athletes": []
+  },
+  {
+   "headline": "Heat open season at home against the Timberwolves",
+   "description": "Minnesota Timberwolves vs. Miami Heat",
+   "published": "2026-10-20T06:04:08Z",
+   "url": "http://www.espn.com/nba/preview?gameId=401909091",
+   "athletes": []
+  },
+  {
+   "headline": "Fantasy basketball draft guide: Rankings, mock drafts, sleepers, projections and analysis",
+   "description": "We've got everything you need to help you prepare for and execute a successful draft, all in one place.",
+   "published": "2026-10-20T04:48:54Z",
+   "url": "https://www.espn.com/fantasy/basketball/story/_/id/50075156/fantasy-basketball-draft-guide-rankings-mock-drafts-sleepers-projections-analysis",
+   "athletes": []
+  },
+  {
+   "headline": "Timberwolves agree to 1-year, $40M extension with Jaden McDaniels",
+   "description": "The Timberwolves and forward Jaden McDaniels agreed to a one-year, $40 million extension that will keep him under contract through 2029-30.",
+   "published": "2026-10-20T04:48:24Z",
+   "url": "https://www.espn.com/nba/story/_/id/50223341/timberwolves-agree-1-year-40m-extension-mcdaniels",
+   "athletes": [
+    "Jaden McDaniels"
+   ]
+  },
+  {
+   "headline": "NBA buzz: Latest on trades, news, roster moves and intel",
+   "description": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
+   "published": "2026-10-20T01:44:46Z",
+   "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+   "athletes": []
+  },
+  {
    "headline": "Bucks waive assist-leader Kevin Porter Jr. ahead of season opener",
    "description": "The Milwaukee Bucks waived guard Kevin Porter Jr. on Monday after a 2025-26 season in which he led the team in assists per game and ranked second in scoring.",
-   "published": "2026-10-19T23:52:03Z",
+   "published": "2026-10-20T01:27:44Z",
    "url": "https://www.espn.com/nba/story/_/id/50222332/bucks-waive-assist-leader-kevin-porter-ahead-season-opener",
    "athletes": [
     "Kevin Porter Jr"
@@ -862,13 +971,6 @@
    ]
   },
   {
-   "headline": "NBA buzz: Latest on trades, news, roster moves and intel",
-   "description": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
-   "published": "2026-10-19T21:37:51Z",
-   "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-   "athletes": []
-  },
-  {
    "headline": "Shams: Steph Curry on track to play in Warriors' opener",
    "description": "Shams: Steph Curry on track to play in Warriors' opener",
    "published": "2026-10-19T22:02:48Z",
@@ -893,15 +995,6 @@
    "url": "https://www.espn.com/nba/story/_/id/50220158/mavericks-waive-center-dwight-powell-12-year-run",
    "athletes": [
     "Dwight Powell"
-   ]
-  },
-  {
-   "headline": "Ugonna Onyenso thought his NBA dream was over -- then the Detroit Pistons called him up",
-   "description": "Detroit Pistons center Ugonna Onyenso was surprised to hear his name called out 53rd at the 2026 NBA Draft, having once believed his dream of making the league was over, but is now confident he can grow into the sizable shoes left by Isaiah Stewart.",
-   "published": "2026-10-19T12:53:41Z",
-   "url": "https://www.espn.com/espn/story/_/id/50217446/ugonna-onyenso-thought-nba-dream-was-detroit-pistons-called-up",
-   "athletes": [
-    "Ugonna Onyenso"
    ]
   },
   {
@@ -953,7 +1046,7 @@
   {
    "headline": "Cruel Achilles injury has killed the Ben Simmons comeback Australia was dying to see",
    "description": "For the first time in years, Ben Simmons had given us a reason to believe. That's what made the news of his Achilles injury hit so heavily -- he'd started to answer a question that had followed him for half a decade, Olgun Uluc writes.",
-   "published": "2026-10-19T22:39:26Z",
+   "published": "2026-10-20T07:35:33Z",
    "url": "https://www.espn.com/nba/story/_/page/TAB4FY26/cruel-achilles-injury-killed-ben-simmons-comeback-australia-was-dying-see",
    "athletes": [
     "Ben Simmons"
@@ -1179,128 +1272,6 @@
     "De'Aaron Fox",
     "Stephon Castle",
     "Dylan Harper"
-   ]
-  },
-  {
-   "headline": "Nuggets' Julian Strawther out with knee sprain, will be reevaluated in six weeks",
-   "description": "The Nuggets will be without Julian Strawther indefinitely after the versatile 24-year-old guard/forward sprained his left knee while playing a preseason game at the Clippers.",
-   "published": "2026-10-17T16:55:06Z",
-   "url": "https://www.espn.com/nba/story/_/id/50199062/strawther-indefinitely-knee-sprain-nuggets-say",
-   "athletes": [
-    "Julian Strawther"
-   ]
-  },
-  {
-   "headline": "Hagan, Basketball Hall of Famer and Kentucky legend, dies at 94",
-   "description": "Hall of Fame forward Cliff Hagan, a five-time All-Star who spent his entire NBA career with the St. Louis Hawks, has died at age 94.",
-   "published": "2026-10-17T00:02:11Z",
-   "url": "https://www.espn.com/nba/story/_/id/50198707/hagan-basketball-hall-famer-kentucky-legend-dies-94",
-   "athletes": []
-  },
-  {
-   "headline": "Steve Lacy delights crowd with 'LeBron, LeBron, LeBron' cover of 'Oh Yeah?'",
-   "description": "Lacy sang a few bars from the viral cover of his hit song \"Oh Yeah?\" at a concert in Camden, New Jersey, on Thursday night.",
-   "published": "2026-10-16T21:46:39Z",
-   "url": "https://www.espn.com/nba/story/_/id/50198205/steve-lacy-lebron-james-oh-yeah",
-   "athletes": [
-    "LeBron James"
-   ]
-  },
-  {
-   "headline": "Spanish team challenging Thunder rookie Aday Mara's NBA eligibility",
-   "description": "A Spanish basketball team is challenging Thunder rookie Aday Mara's eligibility to play in the NBA this season, saying he is still under contract with the club.",
-   "published": "2026-10-16T17:44:36Z",
-   "url": "https://www.espn.com/nba/story/_/id/50197100/spanish-team-challenging-thunder-rookie-mara-nba-eligibility",
-   "athletes": [
-    "Aday Mara"
-   ]
-  },
-  {
-   "headline": "Buss siblings' filing challenges Jeanie's petition to oust them as trustees",
-   "description": "The legal jostling between five of the Buss siblings against their sister, Lakers acting governor Jeanie Buss, continued with an additional filing submitted to the Los Angeles Superior Court.",
-   "published": "2026-10-16T17:53:38Z",
-   "url": "https://www.espn.com/nba/story/_/id/50195321/buss-siblings-filing-challenges-jeanie-petition-oust-them",
-   "athletes": []
-  },
-  {
-   "headline": "Bucks adjust home opener to avoid World Series time conflict",
-   "description": "The Bucks are going to have an afternoon tipoff for their Oct. 23 home opener with the Bulls to avoid a direct conflict with Game 1 of the World Series.",
-   "published": "2026-10-16T16:04:49Z",
-   "url": "https://www.espn.com/nba/story/_/id/50196749/bucks-adjust-home-opener-avoid-world-series-conflict",
-   "athletes": []
-  },
-  {
-   "headline": "NBA tells sportsbooks to stop certain bets, restrict parlays",
-   "description": "The NBA is prohibiting certain bets this season, including a player prop parlay used in recent scandals, according to a league memo to sportsbook partners.",
-   "published": "2026-10-16T18:09:05Z",
-   "url": "https://www.espn.com/nba/story/_/id/50196498/nba-tells-sportsbooks-stop-certain-bets-restrict-parlays",
-   "athletes": []
-  },
-  {
-   "headline": "Alone on a fantasy basketball island: 'One player I feel differently about'",
-   "description": "The fantasy basketball crew identifies one player they feel differently about than seemingly everyone else.",
-   "published": "2026-10-16T14:51:23Z",
-   "url": "https://www.espn.com/fantasy/basketball/story/_/id/50193261/fantasy-basketball-island-bold-prediction-draft-advice",
-   "athletes": [
-    "Darius Garland",
-    "Brandon Miller",
-    "Kyrie Irving",
-    "Jaren Jackson Jr",
-    "LaMelo Ball",
-    "Fred VanVleet"
-   ]
-  },
-  {
-   "headline": "NBA intel: Seattle expansion update, Towns extension drama, more from preseason",
-   "description": "What storylines dominated preseason? Brian Windhorst shares intel on Seattle expansion, extension drama in New York and a potential trade decision in Orlando.",
-   "published": "2026-10-16T11:04:22Z",
-   "url": "https://www.espn.com/nba/story/_/id/50190888/preseason-intel-expansion-seattle-towns-extensions",
-   "athletes": []
-  },
-  {
-   "headline": "Can Jimmy Butler return in time to resurrect Steph Curry's final chapter?",
-   "description": "After a quiet offseason, the Warriors know Jimmy Butler's return is their best hope of reaching the playoffs.",
-   "published": "2026-10-16T11:07:19Z",
-   "url": "https://www.espn.com/nba/story/_/id/50182801/jimmy-butler-acl-injury-return-warriors-title",
-   "athletes": [
-    "Jimmy Butler III",
-    "Stephen Curry",
-    "Draymond Green",
-    "Yaxel Lendeborg"
-   ]
-  },
-  {
-   "headline": "NBA betting: One bet to make on every team heading into the season",
-   "description": "Don't go into the NBA season without knowing which bet to make for every team.",
-   "published": "2026-10-16T10:38:47Z",
-   "url": "https://www.espn.com/sports-betting/story/_/id/50185247/nba-betting-one-bet-make-every-team-2026-2027",
-   "athletes": []
-  },
-  {
-   "headline": "Oklahoma City Thunder vs. Houston Rockets: Game Highlights",
-   "description": "Oklahoma City Thunder vs. Houston Rockets: Game Highlights",
-   "published": "2026-10-16T03:12:00Z",
-   "url": "https://www.espn.com/video/clip/_/id/50193708/game-highlights",
-   "athletes": [
-    "Reed Sheppard",
-    "Bogdan Bogdanovic",
-    "Amen Thompson",
-    "Alperen Sengun",
-    "Shai Gilgeous-Alexander"
-   ]
-  },
-  {
-   "headline": "Toronto Raptors vs. New York Knicks: Game Highlights",
-   "description": "Toronto Raptors vs. New York Knicks: Game Highlights",
-   "published": "2026-10-16T03:02:10Z",
-   "url": "https://www.espn.com/video/clip/_/id/50193529/game-highlights",
-   "athletes": [
-    "Tyler Kolek",
-    "Jalen Brunson",
-    "Nimari Burnett",
-    "Scottie Barnes",
-    "Jordan Clarkson",
-    "Landry Shamet"
    ]
   }
  ]
