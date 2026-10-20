@@ -893,8 +893,9 @@
    },
    "summary": "is expected to start or has been named a starter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-20"
+   "status": "handled",
+   "firstSeen": "2026-10-20",
+   "handledNote": "no change: usual role, already reflected"
   },
   {
    "id": "outlook:a56a9ee72d11",
@@ -2223,8 +2224,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-20"
+   "status": "handled",
+   "firstSeen": "2026-10-20",
+   "handledNote": "no change: usual role, already reflected"
   },
   {
    "id": "news:8d734f104bf9",
@@ -2241,8 +2243,9 @@
    },
    "summary": "is expected to come off the bench or has lost his starting job",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-20"
+   "status": "handled",
+   "firstSeen": "2026-10-20",
+   "handledNote": "no change: usual role, already reflected"
   },
   {
    "id": "change:4397140:2026-10-20",
@@ -2283,8 +2286,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-19"
+   "status": "handled",
+   "firstSeen": "2026-10-19",
+   "handledNote": "no change: usual role, already reflected"
   },
   {
    "id": "injury:626777866385",
@@ -2301,8 +2305,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-19"
+   "status": "handled",
+   "firstSeen": "2026-10-19",
+   "handledNote": "no change: usual role, already reflected"
   },
   {
    "id": "injury:4a754232e667",
@@ -2319,8 +2324,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-19"
+   "status": "handled",
+   "firstSeen": "2026-10-19",
+   "handledNote": "no change: usual role, already reflected"
   },
   {
    "id": "headline:2647d838bc1f",
@@ -2337,8 +2343,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-19"
+   "status": "handled",
+   "firstSeen": "2026-10-19",
+   "handledNote": "2026-10-19-simmons-achilles"
   },
   {
    "id": "headline:73e1aa32fc11",
@@ -2355,8 +2362,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-19"
+   "status": "handled",
+   "firstSeen": "2026-10-19",
+   "handledNote": "no change: usual role, already reflected"
   },
   {
    "id": "news:52c1220da275",
@@ -2374,8 +2382,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-20"
+   "status": "handled",
+   "firstSeen": "2026-10-20",
+   "handledNote": "injury absence, automatic or covered by Simmons proposal"
   },
   {
    "id": "news:d1437cc9ba3a",
@@ -2392,8 +2401,9 @@
    },
    "summary": "may be out of the rotation or only a deep bench option",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-20"
+   "status": "handled",
+   "firstSeen": "2026-10-20",
+   "handledNote": "no change: usual role, already reflected"
   },
   {
    "id": "news:3e16e46eea2b",
@@ -2411,8 +2421,9 @@
    },
    "summary": "is recovering or returning from a significant injury or surgery; may be out of the rotation or only a deep bench option",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-20"
+   "status": "handled",
+   "firstSeen": "2026-10-20",
+   "handledNote": "injury absence, automatic or covered by Simmons proposal"
   },
   {
    "id": "news:55fea2fd111a",
@@ -2430,8 +2441,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-19"
+   "status": "handled",
+   "firstSeen": "2026-10-19",
+   "handledNote": "injury absence, automatic or covered by Simmons proposal"
   },
   {
    "id": "news:9cf98c52935f",
@@ -2450,8 +2462,9 @@
    },
    "summary": "the player's role, minutes or opportunity should grow compared with last season; a teammate's absence or departure opens up opportunity for the player; should take on a bigger scoring or offensive load (more shots or touches)",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-20"
+   "status": "handled",
+   "firstSeen": "2026-10-20",
+   "handledNote": "injury absence, automatic or covered by Simmons proposal"
   },
   {
    "id": "news:15b7d5ecc4e1",
@@ -2468,8 +2481,9 @@
    },
    "summary": "is expected to start or has been named a starter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-19"
+   "status": "handled",
+   "firstSeen": "2026-10-19",
+   "handledNote": "no change: usual role, already reflected"
   },
   {
    "id": "news:4961430101b9",
@@ -2487,8 +2501,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-19"
+   "status": "handled",
+   "firstSeen": "2026-10-19",
+   "handledNote": "injury absence, automatic or covered by Simmons proposal"
   },
   {
    "id": "news:23cbaad16daf",
@@ -2506,8 +2521,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-19"
+   "status": "handled",
+   "firstSeen": "2026-10-19",
+   "handledNote": "injury absence, automatic or covered by Simmons proposal"
   },
   {
    "id": "news:18b5d4ffd382",
@@ -2524,8 +2540,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-20"
+   "status": "handled",
+   "firstSeen": "2026-10-20",
+   "handledNote": "no change: usual role, already reflected"
   },
   {
    "id": "news:5eb6592b37e6",
@@ -2542,8 +2559,9 @@
    },
    "summary": "is expected to start or has been named a starter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-19"
+   "status": "handled",
+   "firstSeen": "2026-10-19",
+   "handledNote": "already starter in depth; preseason role in projection"
   },
   {
    "id": "depth:4873138:2026-10-19:SF #2",
@@ -2554,8 +2572,9 @@
    "date": "2026-10-19",
    "summary": "Depth chart SF #1 → SF #2",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-19"
+   "status": "handled",
+   "firstSeen": "2026-10-19",
+   "handledNote": "depth shuffle; cascade handles it"
   },
   {
    "id": "depth:4684793:2026-10-19:PF #3",
@@ -2578,8 +2597,9 @@
    "date": "2026-10-19",
    "summary": "Depth chart SF #2 → SF #1",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-19"
+   "status": "handled",
+   "firstSeen": "2026-10-19",
+   "handledNote": "depth shuffle; cascade handles it"
   },
   {
    "id": "depth:4397077:2026-10-19:C #1",
@@ -2590,8 +2610,9 @@
    "date": "2026-10-19",
    "summary": "Depth chart C #2 → C #1",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-19"
+   "status": "handled",
+   "firstSeen": "2026-10-19",
+   "handledNote": "depth shuffle; cascade handles it"
   },
   {
    "id": "depth:2580365:2026-10-19:C #3",
@@ -2614,8 +2635,9 @@
    "date": "2026-10-19",
    "summary": "Depth chart PG #1 → PG #3",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-19"
+   "status": "handled",
+   "firstSeen": "2026-10-19",
+   "handledNote": "depth shuffle; cascade handles it"
   },
   {
    "id": "depth:5214640:2026-10-19:PG #2",
@@ -2644,8 +2666,9 @@
    },
    "summary": "changed teams (traded, signed or claimed) since last season",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-19"
+   "status": "handled",
+   "firstSeen": "2026-10-19",
+   "handledNote": "already C1 on PHX depth"
   },
   {
    "id": "injury:3504c4b8ebcb",
@@ -2662,8 +2685,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-19"
+   "status": "handled",
+   "firstSeen": "2026-10-19",
+   "handledNote": "no change: usual role, already reflected"
   },
   {
    "id": "injury:e6b9c514f42e",
@@ -2681,8 +2705,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-19"
+   "status": "handled",
+   "firstSeen": "2026-10-19",
+   "handledNote": "injury absence, automatic or covered by Simmons proposal"
   },
   {
    "id": "injury:45c013205058",
@@ -2737,8 +2762,9 @@
    },
    "summary": "is recovering or returning from a significant injury or surgery",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-19"
+   "status": "handled",
+   "firstSeen": "2026-10-19",
+   "handledNote": "injury absence, automatic or covered by Simmons proposal"
   },
   {
    "id": "change:4610139:2026-10-18",
