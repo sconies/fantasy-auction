@@ -1,5 +1,5 @@
 {
- "readAt": "2026-10-19T21:39:34.501Z",
+ "readAt": "2026-10-20T00:02:19.210Z",
  "model": "jev-latest",
  "notes": {
   "73fca91bdb41e025": {
@@ -117,6 +117,11 @@
    "choice": "weeks",
    "confidence": 0.72
   },
+  "d0e7d7c643f9607d": {
+   "name": "Taurean Prince",
+   "choice": "uncertain",
+   "confidence": 0.99
+  },
   "a4b6c001a61e1c3f": {
    "name": "Stephen Curry",
    "choice": "none",
@@ -232,20 +237,20 @@
    "choice": "weeks",
    "confidence": 0.33
   },
-  "4dd831bab9807350": {
+  "0d10404cb36ede82": {
    "name": "Dru Smith",
    "choice": "none",
    "confidence": 0.83
   },
-  "0a546db10fbcc39c": {
-   "name": "Pelle Larsson",
-   "choice": "none",
-   "confidence": 0.64
-  },
-  "2f51dba02d520620": {
+  "77ff9f391c3014c0": {
    "name": "Bam Adebayo",
    "choice": "none",
-   "confidence": 0.71
+   "confidence": 0.75
+  },
+  "c4807754fa902eb9": {
+   "name": "Pelle Larsson",
+   "choice": "none",
+   "confidence": 0.65
   },
   "2bef85b8c53c3011": {
    "name": "Jericho Sims",
@@ -267,35 +272,15 @@
    "choice": "none",
    "confidence": 0.47
   },
-  "daa0c110eac2cdbd": {
-   "name": "Josh Hart",
-   "choice": "none",
-   "confidence": 0.57
-  },
-  "cff8b63c1d6234b1": {
-   "name": "Cason Wallace",
-   "choice": "none",
-   "confidence": 0.95
-  },
-  "fb0251f8925aeeec": {
+  "b895a54474208b82": {
    "name": "Thomas Sorber",
-   "choice": "none",
-   "confidence": 0.78
+   "choice": "uncertain",
+   "confidence": 0.99
   },
-  "8d3887d656b1f3e9": {
-   "name": "Jaylin Williams",
-   "choice": "none",
-   "confidence": 0.9
-  },
-  "d5613cb2b962a8c9": {
+  "d506c30ad83e0ef6": {
    "name": "Nikola Topic",
-   "choice": "none",
-   "confidence": 0.68
-  },
-  "f274a157ef405d03": {
-   "name": "Chet Holmgren",
-   "choice": "none",
-   "confidence": 0.82
+   "choice": "uncertain",
+   "confidence": 0.94
   },
   "1317ce887ce017ab": {
    "name": "Otega Oweh",
@@ -362,10 +347,10 @@
    "choice": "season",
    "confidence": 0.96
   },
-  "f960ce29559c3b5c": {
+  "6b139a238e2257fc": {
    "name": "Luke Kennard",
    "choice": "none",
-   "confidence": 0.72
+   "confidence": 0.76
   },
   "8f7816fd93ad220e": {
    "name": "Oso Ighodaro",
@@ -584,6 +569,11 @@
    "confidence": 0.72,
    "written": "2026-10-17"
   },
+  "Taurean Prince": {
+   "choice": "uncertain",
+   "confidence": 0.99,
+   "written": "2026-10-19"
+  },
   "Stephen Curry": {
    "choice": "none",
    "confidence": 0.98,
@@ -702,17 +692,17 @@
   "Dru Smith": {
    "choice": "none",
    "confidence": 0.83,
-   "written": "2026-10-18"
-  },
-  "Pelle Larsson": {
-   "choice": "none",
-   "confidence": 0.64,
-   "written": "2026-10-18"
+   "written": "2026-10-19"
   },
   "Bam Adebayo": {
    "choice": "none",
-   "confidence": 0.71,
-   "written": "2026-10-18"
+   "confidence": 0.75,
+   "written": "2026-10-19"
+  },
+  "Pelle Larsson": {
+   "choice": "none",
+   "confidence": 0.65,
+   "written": "2026-10-19"
   },
   "Jericho Sims": {
    "choice": "none",
@@ -734,35 +724,15 @@
    "confidence": 0.47,
    "written": "2026-10-05"
   },
-  "Josh Hart": {
-   "choice": "none",
-   "confidence": 0.57,
-   "written": "2026-10-16"
-  },
-  "Cason Wallace": {
-   "choice": "none",
-   "confidence": 0.95,
+  "Thomas Sorber": {
+   "choice": "uncertain",
+   "confidence": 0.99,
    "written": "2026-10-19"
   },
-  "Thomas Sorber": {
-   "choice": "none",
-   "confidence": 0.78,
-   "written": "2026-10-16"
-  },
-  "Jaylin Williams": {
-   "choice": "none",
-   "confidence": 0.9,
-   "written": "2026-10-16"
-  },
   "Nikola Topic": {
-   "choice": "none",
-   "confidence": 0.68,
-   "written": "2026-10-16"
-  },
-  "Chet Holmgren": {
-   "choice": "none",
-   "confidence": 0.82,
-   "written": "2026-10-16"
+   "choice": "uncertain",
+   "confidence": 0.94,
+   "written": "2026-10-19"
   },
   "Otega Oweh": {
    "choice": "season",
@@ -831,7 +801,7 @@
   },
   "Luke Kennard": {
    "choice": "none",
-   "confidence": 0.72,
+   "confidence": 0.76,
    "written": "2026-10-19"
   },
   "Oso Ighodaro": {

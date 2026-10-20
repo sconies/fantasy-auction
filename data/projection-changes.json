@@ -83,6 +83,41 @@
    "name": "Orlando Robinson",
    "team": "FA",
    "summary": "team CHI → FA"
+  },
+  {
+   "date": "2026-10-20",
+   "playerId": "4397140",
+   "name": "Kevin Porter Jr.",
+   "team": "FA",
+   "summary": "team MIL → FA"
+  },
+  {
+   "date": "2026-10-20",
+   "playerId": "4896372",
+   "name": "Walter Clayton Jr.",
+   "team": "FA",
+   "summary": "team MEM → FA"
+  },
+  {
+   "date": "2026-10-20",
+   "playerId": "4897943",
+   "name": "Dalton Knecht",
+   "team": "FA",
+   "summary": "team LAL → FA"
+  },
+  {
+   "date": "2026-10-20",
+   "playerId": "4591259",
+   "name": "Koby Brea",
+   "team": "FA",
+   "summary": "team PHX → FA"
+  },
+  {
+   "date": "2026-10-20",
+   "playerId": "2531367",
+   "name": "Dwight Powell",
+   "team": "FA",
+   "summary": "team DAL → FA"
   }
  ]
 }

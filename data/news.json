@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-19T21:39:34.085Z",
+ "fetchedAt": "2026-10-20T00:02:18.756Z",
  "injuries": [
   {
    "name": "Mouhamed Gueye",
@@ -207,6 +207,15 @@
    "date": "2026-10-17T00:52Z",
    "returnDate": "2026-11-29",
    "injury": "Knee – Sprain"
+  },
+  {
+   "name": "Taurean Prince",
+   "team": "Detroit Pistons",
+   "status": "Day-To-Day",
+   "comment": "Prince is questionable for Tuesday's season opener against the Celtics for personal reasons.",
+   "date": "2026-10-19T22:13Z",
+   "returnDate": "2026-10-20",
+   "injury": "Personal"
   },
   {
    "name": "Stephen Curry",
@@ -419,28 +428,28 @@
    "name": "Dru Smith",
    "team": "Miami Heat",
    "status": "Day-To-Day",
-   "comment": "Smith (calf) participated in Sunday's practice, Anthony Chiang of the Miami Herald reports.",
-   "date": "2026-10-18T17:02Z",
+   "comment": "Smith (calf) participated in practice Monday, Anthony Chiang of the Miami Herald reports.",
+   "date": "2026-10-19T23:17Z",
    "returnDate": "2026-10-21",
    "injury": "Calf – Strain"
-  },
-  {
-   "name": "Pelle Larsson",
-   "team": "Miami Heat",
-   "status": "Day-To-Day",
-   "comment": "Larsson (illness) participated in Sunday's practice, Anthony Chiang of the Miami Herald reports.",
-   "date": "2026-10-18T16:59Z",
-   "returnDate": "2026-10-21",
-   "injury": "Illness"
   },
   {
    "name": "Bam Adebayo",
    "team": "Miami Heat",
    "status": "Day-To-Day",
-   "comment": "Adebayo (groin) participated in Sunday's practice, Ira Winderman of the South Florida Sun Sentinel reports.",
-   "date": "2026-10-18T16:55Z",
+   "comment": "Adebayo (groin) participated in Monday's practice, Anthony Chiang of the Miami Herald reports.",
+   "date": "2026-10-19T23:15Z",
    "returnDate": "2026-10-21",
    "injury": "Groin"
+  },
+  {
+   "name": "Pelle Larsson",
+   "team": "Miami Heat",
+   "status": "Day-To-Day",
+   "comment": "Larsson (illness) participated in Monday's practice, Anthony Chiang of the Miami Herald reports.",
+   "date": "2026-10-19T23:15Z",
+   "returnDate": "2026-10-21",
+   "injury": "Illness"
   },
   {
    "name": "Jericho Sims",
@@ -479,58 +488,22 @@
    "injury": "Achilles – Surgery"
   },
   {
-   "name": "Josh Hart",
-   "team": "New York Knicks",
-   "status": "Day-To-Day",
-   "comment": "Coach Mike Brown isn't concerned about Hart missing Tuesday's regular-season opener Tuesday against Philadelphia, Kristian Winfield of the New York Daily News reports.",
-   "date": "2026-10-16T03:42Z",
-   "returnDate": "2026-10-20",
-   "injury": "Ankle – Soreness"
-  },
-  {
-   "name": "Cason Wallace",
-   "team": "Oklahoma City Thunder",
-   "status": "Day-To-Day",
-   "comment": "Wallace (undisclosed) has agreed to a five-year, $139 million contract extension with the Thunder on Sunday, Shams Charania of ESPN reports.",
-   "date": "2026-10-19T02:51Z",
-   "returnDate": "2026-10-20",
-   "injury": "Undisclosed"
-  },
-  {
    "name": "Thomas Sorber",
    "team": "Oklahoma City Thunder",
-   "status": "Day-To-Day",
-   "comment": "Sorber (knee) has been ruled out for Thursday's preseason game against the Rockets, Justin Martinez of The Oklahoman reports.",
-   "date": "2026-10-16T00:24Z",
-   "returnDate": "2026-10-20",
+   "status": "Out",
+   "comment": "Sorber (knee) won't play in Tuesday's season opener against the Spurs, Justin Martinez of The Oklahoman reports.",
+   "date": "2026-10-19T22:11Z",
+   "returnDate": "2026-10-22",
    "injury": "Knee – Surgery"
-  },
-  {
-   "name": "Jaylin Williams",
-   "team": "Oklahoma City Thunder",
-   "status": "Day-To-Day",
-   "comment": "Williams (heel) won't play in Thursday's preseason game against Houston, Justin Martinez of The Oklahoman reports.",
-   "date": "2026-10-16T00:21Z",
-   "returnDate": "2026-10-20",
-   "injury": "Heel"
   },
   {
    "name": "Nikola Topic",
    "team": "Oklahoma City Thunder",
-   "status": "Day-To-Day",
-   "comment": "Topic (back) is out for Thursday's preseason game against Houston, Justin Martinez of The Oklahoman reports.",
-   "date": "2026-10-16T00:17Z",
-   "returnDate": "2026-10-20",
+   "status": "Out",
+   "comment": "Topic (back) won't play in Tuesday's season opener against the Spurs, Justin Martinez of The Oklahoman reports.",
+   "date": "2026-10-19T22:09Z",
+   "returnDate": "2026-10-22",
    "injury": "Back – Surgery"
-  },
-  {
-   "name": "Chet Holmgren",
-   "team": "Oklahoma City Thunder",
-   "status": "Day-To-Day",
-   "comment": "Holmgren (quadriceps) has been ruled out for Thursday's preseason game against the Rockets, Justin Martinez of The Oklahoman reports.",
-   "date": "2026-10-16T00:16Z",
-   "returnDate": "2026-10-20",
-   "injury": "Quadriceps – Bruise"
   },
   {
    "name": "Otega Oweh",
@@ -653,8 +626,8 @@
    "name": "Luke Kennard",
    "team": "Phoenix Suns",
    "status": "Day-To-Day",
-   "comment": "Kennard (knee) has been ruled out for the Suns' final game of the preseason Friday against Utah, John Gambadoro of Arizona Sports 98.7 FM reports.",
-   "date": "2026-10-19T21:12Z",
+   "comment": "Kennard (knee) increased his activity in practice Monday, Duane Rankin of the Arizona Republic reports.",
+   "date": "2026-10-19T22:34Z",
    "returnDate": "2026-10-21",
    "injury": "Knee – Strain"
   },
@@ -841,9 +814,38 @@
  ],
  "articles": [
   {
+   "headline": "Bucks waive assist-leader Kevin Porter Jr. ahead of season opener",
+   "description": "The Milwaukee Bucks waived guard Kevin Porter Jr. on Monday after a 2025-26 season in which he led the team in assists per game and ranked second in scoring.",
+   "published": "2026-10-19T23:52:03Z",
+   "url": "https://www.espn.com/nba/story/_/id/50222332/bucks-waive-assist-leader-kevin-porter-ahead-season-opener",
+   "athletes": [
+    "Kevin Porter Jr"
+   ]
+  },
+  {
+   "headline": "Lakers waive former first-round pick Dalton Knecht",
+   "description": "The Los Angeles Lakers waived their 2024 first-round pick Dalton Knecht on Monday, the team announced.",
+   "published": "2026-10-19T22:16:29Z",
+   "url": "https://www.espn.com/nba/story/_/id/50221792/lakers-waive-former-first-round-pick-dalton-knecht",
+   "athletes": [
+    "Dalton Knecht"
+   ]
+  },
+  {
+   "headline": "2026 NBA free agency: Grades for offseason signings, extensions",
+   "description": "We're grading the most important offseason signings, including Cason Wallace's $139 million extension with the Thunder.",
+   "published": "2026-10-19T21:51:21Z",
+   "url": "https://www.espn.com/nba/story/_/id/48957095/2026-nba-free-agency-grades-offseason-signings-deals-contracts-extensions-depth-charts",
+   "athletes": [
+    "Cason Wallace",
+    "Payton Pritchard",
+    "Brandin Podziemski"
+   ]
+  },
+  {
    "headline": "Sources: Grizzlies waiving former first-round pick Walter Clayton Jr.",
-   "description": "The Grizzlies are waiving 2025 No. 18 pick Walton Clayton Jr. and Micah Peavy ahead of Monday's roster cutdown deadline.",
-   "published": "2026-10-19T21:34:59Z",
+   "description": "The Grizzlies are waiving 2025 No. 18 pick Walton Clayton Jr. and Micah Peavy ahead of Monday's roster cut-down deadline.",
+   "published": "2026-10-19T23:42:24Z",
    "url": "https://www.espn.com/nba/story/_/id/50221787/sources-grizzlies-waive-walter-clayton-jr-micah-peavy",
    "athletes": [
     "Walter Clayton Jr",
@@ -853,7 +855,7 @@
   {
    "headline": "Hornets, Brandon Miller agree to 5-year, $209M rookie extension",
    "description": "The Hornets and forward Brandon Miller agreed to a five-year, $209 million rookie-scale contract extension.",
-   "published": "2026-10-19T21:36:03Z",
+   "published": "2026-10-19T22:22:17Z",
    "url": "https://www.espn.com/nba/story/_/id/50221373/hornets-brandon-miller-agree-5-year-209m-rookie-extension",
    "athletes": [
     "Brandon Miller"
@@ -862,14 +864,23 @@
   {
    "headline": "NBA buzz: Latest on trades, news, roster moves and intel",
    "description": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
-   "published": "2026-10-19T21:26:49Z",
+   "published": "2026-10-19T21:37:51Z",
    "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
    "athletes": []
   },
   {
+   "headline": "Shams: Steph Curry on track to play in Warriors' opener",
+   "description": "Shams: Steph Curry on track to play in Warriors' opener",
+   "published": "2026-10-19T22:02:48Z",
+   "url": "https://www.espn.com/video/clip/_/id/50221305/steph-curry-track-play-warriors-opener",
+   "athletes": [
+    "Stephen Curry"
+   ]
+  },
+  {
    "headline": "Warriors expect Steph Curry (ankle) to play in opener vs. Lakers",
    "description": "The Warriors expect Stephen Curry to be available for Wednesday night's season opener against the Lakers despite tweaking his right ankle during an open scrimmage Sunday.",
-   "published": "2026-10-19T20:47:01Z",
+   "published": "2026-10-19T22:00:38Z",
    "url": "https://www.espn.com/nba/story/_/id/50220689/warriors-expect-steph-curry-ankle-play-opener-vs-lakers",
    "athletes": [
     "Stephen Curry"
@@ -882,17 +893,6 @@
    "url": "https://www.espn.com/nba/story/_/id/50220158/mavericks-waive-center-dwight-powell-12-year-run",
    "athletes": [
     "Dwight Powell"
-   ]
-  },
-  {
-   "headline": "2026 NBA free agency: Grades for offseason signings, extensions",
-   "description": "We're grading the most important offseason signings, including Cason Wallace's $139 million extension with the Thunder.",
-   "published": "2026-10-19T13:31:46Z",
-   "url": "https://www.espn.com/nba/story/_/id/48957095/2026-nba-free-agency-grades-offseason-signings-deals-contracts-extensions-depth-charts",
-   "athletes": [
-    "Cason Wallace",
-    "Payton Pritchard",
-    "Brandin Podziemski"
    ]
   },
   {
@@ -953,8 +953,8 @@
   {
    "headline": "Cruel Achilles injury has killed the Ben Simmons comeback Australia was dying to see",
    "description": "For the first time in years, Ben Simmons had given us a reason to believe. That's what made the news of his Achilles injury hit so heavily -- he'd started to answer a question that had followed him for half a decade, Olgun Uluc writes.",
-   "published": "2026-10-19T01:30:29Z",
-   "url": "https://www.espn.com/nba/story/_/id/50215522/cruel-achilles-injury-killed-ben-simmons-comeback-australia-was-dying-see",
+   "published": "2026-10-19T22:39:26Z",
+   "url": "https://www.espn.com/nba/story/_/page/TAB4FY26/cruel-achilles-injury-killed-ben-simmons-comeback-australia-was-dying-see",
    "athletes": [
     "Ben Simmons"
    ]
@@ -1302,32 +1302,6 @@
     "Jordan Clarkson",
     "Landry Shamet"
    ]
-  },
-  {
-   "headline": "Maxey: Healthy Embiid 'changes everything' for Sixers",
-   "description": "76ers guard Tyrese Maxey said Thursday that having a healthy Joel Embiid \"changes everything\" for the Sixers.",
-   "published": "2026-10-15T21:43:26Z",
-   "url": "https://www.espn.com/nba/story/_/id/50191473/maxey-healthy-embiid-changes-everything-sixers",
-   "athletes": [
-    "Joel Embiid",
-    "Tyrese Maxey"
-   ]
-  },
-  {
-   "headline": "Perk declares what he wants to see Wemby improve on this season",
-   "description": "Perk declares what he wants to see Wemby improve on this season  ",
-   "published": "2026-10-15T19:45:45Z",
-   "url": "https://www.espn.com/video/clip/_/id/50191249/perk-declares-wants-see-wemby-improve-season",
-   "athletes": [
-    "Victor Wembanyama"
-   ]
-  },
-  {
-   "headline": "Fantasy basketball draft guide: Rankings, mock drafts, sleepers, projections and analysis",
-   "description": "We've got everything you need to help you prepare for and execute a successful draft, all in one place.",
-   "published": "2026-10-15T18:26:10Z",
-   "url": "https://www.espn.com/fantasy/basketball/story/_/id/50075156/fantasy-basketball-draft-guide-rankings-mock-drafts-sleepers-projections-analysis",
-   "athletes": []
   }
  ]
 }
