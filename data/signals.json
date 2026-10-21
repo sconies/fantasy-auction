@@ -1,17 +1,91 @@
 {
- "builtAt": "2026-10-21T08:09:32.780Z",
+ "builtAt": "2026-10-21T20:47:48.705Z",
  "counts": {
-  "new": 17,
-  "toJudge": 17
+  "new": 23,
+  "toJudge": 23
  },
  "signals": [
+  {
+   "id": "injury:8bcb27fb5877",
+   "kind": "text",
+   "playerId": "4277811",
+   "name": "Collin Sexton",
+   "team": "LAL",
+   "date": "2026-10-21T19:50Z",
+   "source": "injury",
+   "url": null,
+   "text": "Sexton (calf) won't play in Wednesday's regular-season opener against the Warriors, per Khobi Price of The California Post.",
+   "flags": {
+    "absence": 0.81
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-21"
+  },
+  {
+   "id": "headline:ea8e766085c7",
+   "kind": "text",
+   "playerId": "3102531",
+   "name": "Kristaps Porzingis",
+   "team": "GSW",
+   "date": "2026-10-21T18:45:52Z",
+   "source": "headline",
+   "url": "https://www.espn.com/nba/story/_/id/50239169/sources-warriors-exploring-trade-options-kristaps-porzingis",
+   "text": "Sources: Warriors exploring options to trade center Kristaps Porzingis. The Warriors have begun exploring trade routes for veteran center Kristaps Porzingis, who remains out indefinitely as he deals with a private health issue, league sources told ESPN's Shams Charania.",
+   "flags": {
+    "absence": 0.89
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-21"
+  },
+  {
+   "id": "injury:4a754232e667",
+   "kind": "text",
+   "playerId": "6440",
+   "name": "Tobias Harris",
+   "team": "SAS",
+   "date": "2026-10-21T14:05Z",
+   "source": "injury",
+   "url": null,
+   "text": "Harris (calf) will not be ready for the season opener Wednesday against the Thunder, Matt Guzman of SI.com reports.",
+   "flags": {
+    "absence": 0.88
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "handled",
+   "firstSeen": "2026-10-19",
+   "handledNote": "no change: usual role, already reflected"
+  },
+  {
+   "id": "injury:a7e8262ea79d",
+   "kind": "text",
+   "playerId": "2990962",
+   "name": "Taurean Prince",
+   "team": "DET",
+   "date": "2026-10-21T14:05Z",
+   "source": "injury",
+   "url": null,
+   "text": "Prince (personal) is out for Tuesday's game against the Celtics.",
+   "flags": {
+    "absence": 0.81
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "handled",
+   "firstSeen": "2026-10-20",
+   "handledNote": "one-game/short absence; injury proposal is automatic"
+  },
   {
    "id": "headline:e1da5b2ea087",
    "kind": "text",
    "playerId": "1966",
    "name": "LeBron James",
    "team": "PHI",
-   "date": "2026-10-21T06:42:20Z",
+   "date": "2026-10-21T12:51:25Z",
    "source": "headline",
    "url": "https://www.espn.com/nba/story/_/id/50234172/76ers-knicks-lebron-james-debut-championship-night",
    "text": "LeBron moonlights at center, helps limit Knicks' Towns in winning Sixers debut. LeBron James opened his 24th season with 14 points, nine rebounds and seven assists and even had a defensive impact as a center in his Sixers debut.",
@@ -171,6 +245,24 @@
    "firstSeen": "2026-10-06"
   },
   {
+   "id": "news:dd10c5fc314b",
+   "kind": "text",
+   "playerId": "4432166",
+   "name": "Cade Cunningham",
+   "team": "DET",
+   "date": "2026-10-21",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615039/cade-cunningham-puts-up-22-points-season-opener.php",
+   "text": "Cade Cunningham puts up 22 points in season opener Cade Cunningham scored 22 points (8-18 FG, 1-6 3PT, 5-5 FT) to go with eight assists and four rebounds in Tuesday's 121-113 win over the Celtics. Fantasy Impact: Cunningham got the season off to a solid start Tuesday. The star point guard led the Pistons to a victory, tying for the team lead in points while dishing out eight assists. Cunningham ha",
+   "flags": {
+    "playmaker": 0.75
+   },
+   "summary": "will handle the ball or run the offense as a primary playmaker",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-21"
+  },
+  {
    "id": "outlook:405846392c78",
    "kind": "outlook",
    "playerId": "4594268",
@@ -187,6 +279,24 @@
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "news:b29f83be5d27",
+   "kind": "text",
+   "playerId": "4065648",
+   "name": "Jayson Tatum",
+   "team": "BOS",
+   "date": "2026-10-21",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615045/jayson-tatum-dishes-out-11-assists-season-opener.php",
+   "text": "Jayson Tatum dishes out 11 assists in season opener Jayson Tatum scored 13 points (6-23 FG, 1-1 FT) to go with 11 assists and four rebounds in Tuesday's 121-113 loss to the Pistons. Fantasy Impact: Coming off an injury-plagued season, Tatum was notably inefficient with his shooting Tuesday afternoon, particularly from beyond the arc. However, he did rack up double figures in assists while playing ",
+   "flags": {
+    "recovering": 0.84
+   },
+   "summary": "is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-21"
   },
   {
    "id": "outlook:60e1b9a68461",
@@ -1279,6 +1389,24 @@
    "firstSeen": "2026-10-06"
   },
   {
+   "id": "news:f5ef3a3fa36d",
+   "kind": "text",
+   "playerId": "4066354",
+   "name": "Payton Pritchard",
+   "team": "BOS",
+   "date": "2026-10-21",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615047/payton-pritchard-scores-17-season-opener.php",
+   "text": "Payton Pritchard scores 17 in season opener Payton Pritchard scored 17 points (4-9 FG, 2-5 3PT, 7-8 FT) and grabbed four rebounds in Tuesday's 121-113 loss to the Pistons. Fantasy Impact: Fresh off signing a two-year extension with the Celtics just last week, Pritchard got right to work producing off the bench. Pritchard matched his season average in points from last season with 17, tying him for ",
+   "flags": {
+    "bench": 0.93
+   },
+   "summary": "is expected to come off the bench or has lost his starting job",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-21"
+  },
+  {
    "id": "outlook:edfb225c8e6d",
    "kind": "outlook",
    "playerId": "4066354",
@@ -2263,6 +2391,24 @@
    "firstSeen": "2026-10-20"
   },
   {
+   "id": "news:c0af95c1ae61",
+   "kind": "text",
+   "playerId": "4251",
+   "name": "Paul George",
+   "team": "BOS",
+   "date": "2026-10-21",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615044/paul-george-erupts-38-points-celtics-debut.php",
+   "text": "Paul George erupts for 38 points in Celtics debut Paul George put up 38 points (12-21 FG, 7-12 3PT, 7-8 FT), five rebounds, five steals, and three assists in Tuesday's 121-113 loss to the Pistons. Fantasy Impact: Despite a Celtics loss, George certainly made an impression in his debut for the team Tuesday afternoon. The nine-time All-Star finally looks completely healthy again, and he might be on ",
+   "flags": {
+    "new_team": 0.82
+   },
+   "summary": "changed teams (traded, signed or claimed) since last season",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-21"
+  },
+  {
    "id": "injury:7c141ddb23cf",
    "kind": "text",
    "playerId": "4709138",
@@ -2477,25 +2623,6 @@
    "text": "Dybantsa (ankle) will not debut Wednesday against the Bucks, Josh Robbins of The Athletic reports.",
    "flags": {
     "absence": 0.74
-   },
-   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
-   "judge": true,
-   "status": "handled",
-   "firstSeen": "2026-10-20",
-   "handledNote": "one-game/short absence; injury proposal is automatic"
-  },
-  {
-   "id": "injury:a7e8262ea79d",
-   "kind": "text",
-   "playerId": "2990962",
-   "name": "Taurean Prince",
-   "team": "DET",
-   "date": "2026-10-20T14:17Z",
-   "source": "injury",
-   "url": null,
-   "text": "Prince (personal) is out for Tuesday's game against the Celtics.",
-   "flags": {
-    "absence": 0.81
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
@@ -2761,25 +2888,6 @@
    "text": "Porzingis (undisclosed) won't travel with the Warriors and remains out indefinitely, Luca Evans of the San Francisco Chronicle reports.",
    "flags": {
     "absence": 0.74
-   },
-   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
-   "judge": true,
-   "status": "handled",
-   "firstSeen": "2026-10-19",
-   "handledNote": "no change: usual role, already reflected"
-  },
-  {
-   "id": "injury:4a754232e667",
-   "kind": "text",
-   "playerId": "6440",
-   "name": "Tobias Harris",
-   "team": "SAS",
-   "date": "2026-10-19T17:51Z",
-   "source": "injury",
-   "url": null,
-   "text": "Harris (calf) will not be ready for the season opener Wednesday against the Thunder, Matt Guzman of SI.com reports.",
-   "flags": {
-    "absence": 0.88
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,

@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-21T08:09:30.583Z",
+ "fetchedAt": "2026-10-21T20:47:46.937Z",
  "injuries": [
   {
    "name": "Mouhamed Gueye",
@@ -74,6 +74,24 @@
    "injury": "Calf – Strain"
   },
   {
+   "name": "Dailyn Swain",
+   "team": "Chicago Bulls",
+   "status": "Out",
+   "comment": "Swain is out for Wednesday's season opener against Toronto with an illness.",
+   "date": "2026-10-21T18:06Z",
+   "returnDate": "2026-10-24",
+   "injury": "Illness"
+  },
+  {
+   "name": "Jordan Hawkins",
+   "team": "Chicago Bulls",
+   "status": "Out",
+   "comment": "Hawkins is out for Wednesday's season opener against Toronto with an illness.",
+   "date": "2026-10-21T18:04Z",
+   "returnDate": "2026-10-24",
+   "injury": "Illness"
+  },
+  {
    "name": "Leonard Miller",
    "team": "Chicago Bulls",
    "status": "Day-To-Day",
@@ -92,15 +110,6 @@
    "injury": "Knee"
   },
   {
-   "name": "Dailyn Swain",
-   "team": "Chicago Bulls",
-   "status": "Day-To-Day",
-   "comment": "Swain (illness) is officially doubtful for Wednesday's season opener in Toronto.",
-   "date": "2026-10-20T18:43Z",
-   "returnDate": "2026-10-21",
-   "injury": "Illness"
-  },
-  {
    "name": "Zach Collins",
    "team": "Chicago Bulls",
    "status": "Day-To-Day",
@@ -117,15 +126,6 @@
    "date": "2026-10-20T18:41Z",
    "returnDate": "2026-10-21",
    "injury": "Knee"
-  },
-  {
-   "name": "Jordan Hawkins",
-   "team": "Chicago Bulls",
-   "status": "Day-To-Day",
-   "comment": "Hawkins (illness) is out for Wednesday's game against the Raptors, K.C. Johnson of Chicago Sports Network reports.",
-   "date": "2026-10-20T18:33Z",
-   "returnDate": "2026-10-21",
-   "injury": "Illness"
   },
   {
    "name": "Nic Claxton",
@@ -167,8 +167,8 @@
    "name": "Jett Howard",
    "team": "Dallas Mavericks",
    "status": "Day-To-Day",
-   "comment": "Howard (calf) is listed as questionable for Wednesday's game against the Rockets.",
-   "date": "2026-10-21T00:37Z",
+   "comment": "Howard (calf) is now doubtful for Wednesday against the Rockets.",
+   "date": "2026-10-21T17:18Z",
    "returnDate": "2026-10-21",
    "injury": "Calf"
   },
@@ -229,11 +229,29 @@
   {
    "name": "Taurean Prince",
    "team": "Detroit Pistons",
-   "status": "Out",
+   "status": "Day-To-Day",
    "comment": "Prince (personal) is out for Tuesday's game against the Celtics.",
-   "date": "2026-10-20T14:17Z",
+   "date": "2026-10-21T14:05Z",
    "returnDate": "2026-10-23",
    "injury": "Personal"
+  },
+  {
+   "name": "Kristaps Porzingis",
+   "team": "Golden State Warriors",
+   "status": "Out",
+   "comment": "Porzingis is contemplating his future in basketball as he deals with recurring symptoms from the autoimmune condition termed as postural orthostatic tachycardia syndrome, per Shams Charania of ESPN.",
+   "date": "2026-10-21T18:27Z",
+   "returnDate": "2026-12-01",
+   "injury": "Illness"
+  },
+  {
+   "name": "Charles Bassey",
+   "team": "Golden State Warriors",
+   "status": "Out",
+   "comment": "Bassey (knee) is out for Wednesday's season opener versus the Lakers.",
+   "date": "2026-10-21T18:17Z",
+   "returnDate": "2026-10-23",
+   "injury": "Knee"
   },
   {
    "name": "Stephen Curry",
@@ -252,24 +270,6 @@
    "date": "2026-10-20T23:50Z",
    "returnDate": "2026-10-23",
    "injury": "Back – Soreness"
-  },
-  {
-   "name": "Charles Bassey",
-   "team": "Golden State Warriors",
-   "status": "Day-To-Day",
-   "comment": "Bassey (knee) is questionable for Wednesday's season opener versus the Lakers, per Nick Friedell of The Athletic.",
-   "date": "2026-10-20T18:58Z",
-   "returnDate": "2026-10-21",
-   "injury": "Knee"
-  },
-  {
-   "name": "Kristaps Porzingis",
-   "team": "Golden State Warriors",
-   "status": "Out",
-   "comment": "Porzingis (undisclosed) won't travel with the Warriors and remains out indefinitely, Luca Evans of the San Francisco Chronicle reports.",
-   "date": "2026-10-19T19:09Z",
-   "returnDate": "2026-12-01",
-   "injury": "Undisclosed"
   },
   {
    "name": "Moses Moody",
@@ -380,6 +380,15 @@
    "injury": "Shoulder – Surgery"
   },
   {
+   "name": "Collin Sexton",
+   "team": "Los Angeles Lakers",
+   "status": "Out",
+   "comment": "Sexton (calf) won't play in Wednesday's regular-season opener against the Warriors, per Khobi Price of The California Post.",
+   "date": "2026-10-21T19:50Z",
+   "returnDate": "2026-10-23",
+   "injury": "Calf"
+  },
+  {
    "name": "Cameron Carr",
    "team": "Los Angeles Lakers",
    "status": "Out",
@@ -387,15 +396,6 @@
    "date": "2026-10-21T00:09Z",
    "returnDate": "2026-10-23",
    "injury": "Oblique – Strain"
-  },
-  {
-   "name": "Collin Sexton",
-   "team": "Los Angeles Lakers",
-   "status": "Day-To-Day",
-   "comment": "Sexton (calf) is questionable for Wednesday's regular-season opener against the Warriors.",
-   "date": "2026-10-21T00:06Z",
-   "returnDate": "2026-10-21",
-   "injury": "Calf"
   },
   {
    "name": "Adou Thiero",
@@ -445,18 +445,18 @@
   {
    "name": "Thomas Sorber",
    "team": "Oklahoma City Thunder",
-   "status": "Out",
+   "status": "Day-To-Day",
    "comment": "Sorber (knee) won't play in Tuesday's season opener against the Spurs, Justin Martinez of The Oklahoman reports.",
-   "date": "2026-10-19T22:11Z",
+   "date": "2026-10-21T14:05Z",
    "returnDate": "2026-10-22",
    "injury": "Knee – Surgery"
   },
   {
    "name": "Nikola Topic",
    "team": "Oklahoma City Thunder",
-   "status": "Out",
+   "status": "Day-To-Day",
    "comment": "Topic (back) won't play in Tuesday's season opener against the Spurs, Justin Martinez of The Oklahoman reports.",
-   "date": "2026-10-19T22:09Z",
+   "date": "2026-10-21T14:04Z",
    "returnDate": "2026-10-22",
    "injury": "Back – Surgery"
   },
@@ -506,6 +506,15 @@
    "injury": "Ankle – Surgery"
   },
   {
+   "name": "Tacko Fall",
+   "team": "Philadelphia 76ers",
+   "status": "Day-To-Day",
+   "comment": "Fall (hip) is out for Tuesday's regular-season opener against the Knicks, Adam Aaronson of PhillyVoice.com reports.",
+   "date": "2026-10-21T14:04Z",
+   "returnDate": "2026-10-22",
+   "injury": "Hip"
+  },
+  {
    "name": "Dean Wade",
    "team": "Philadelphia 76ers",
    "status": "Day-To-Day",
@@ -513,15 +522,6 @@
    "date": "2026-10-21T02:29Z",
    "returnDate": "2026-10-22",
    "injury": "Ankle – Sprain"
-  },
-  {
-   "name": "Tacko Fall",
-   "team": "Philadelphia 76ers",
-   "status": "Out",
-   "comment": "Fall (hip) is out for Tuesday's regular-season opener against the Knicks, Adam Aaronson of PhillyVoice.com reports.",
-   "date": "2026-10-19T21:10Z",
-   "returnDate": "2026-10-22",
-   "injury": "Hip"
   },
   {
    "name": "Dominick Barlow",
@@ -546,7 +546,7 @@
    "team": "Phoenix Suns",
    "status": "Day-To-Day",
    "comment": "Kennard (knee) is listed as questionable for Wednesday's game against Portland.",
-   "date": "2026-10-21T07:00Z",
+   "date": "2026-10-21T20:02Z",
    "returnDate": "2026-10-21",
    "injury": "Knee – Strain"
   },
@@ -558,6 +558,15 @@
    "date": "2026-09-11T16:03Z",
    "returnDate": "2027-02-03",
    "injury": "Shoulder – Surgery"
+  },
+  {
+   "name": "Micah Potter",
+   "team": "Portland Trail Blazers",
+   "status": "Day-To-Day",
+   "comment": "Potter (illness) has been upgraded to probable for Wednesday's game against the Suns.",
+   "date": "2026-10-21T20:04Z",
+   "returnDate": "2026-10-21",
+   "injury": "Illness"
   },
   {
    "name": "Branden Carlson",
@@ -576,15 +585,6 @@
    "date": "2026-10-20T23:41Z",
    "returnDate": "2026-10-23",
    "injury": "Ankle – Soreness"
-  },
-  {
-   "name": "Micah Potter",
-   "team": "Portland Trail Blazers",
-   "status": "Day-To-Day",
-   "comment": "Potter (illness) is questionable for Wednesday's regular-season opener against the Suns.",
-   "date": "2026-10-20T23:37Z",
-   "returnDate": "2026-10-21",
-   "injury": "Illness"
   },
   {
    "name": "Deni Avdija",
@@ -643,9 +643,9 @@
   {
    "name": "Tobias Harris",
    "team": "San Antonio Spurs",
-   "status": "Out",
+   "status": "Day-To-Day",
    "comment": "Harris (calf) will not be ready for the season opener Wednesday against the Thunder, Matt Guzman of SI.com reports.",
-   "date": "2026-10-19T17:51Z",
+   "date": "2026-10-21T14:05Z",
    "returnDate": "2026-10-23",
    "injury": "Calf – Strain"
   },
@@ -666,15 +666,6 @@
    "date": "2026-10-20T18:05Z",
    "returnDate": "2026-10-28",
    "injury": "Foot"
-  },
-  {
-   "name": "Blake Hinson",
-   "team": "Utah Jazz",
-   "status": "Out",
-   "comment": "Hinson (hamstring) is out for Wednesday's game against the Grizzlies.",
-   "date": "2026-10-20T22:11Z",
-   "returnDate": "2026-10-23",
-   "injury": "Hamstring – Strain"
   },
   {
    "name": "Tony Bradley",
@@ -733,9 +724,155 @@
  ],
  "articles": [
   {
+   "headline": "NBA buzz: Latest on trades, news, roster moves and intel",
+   "description": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
+   "published": "2026-10-21T20:39:39Z",
+   "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+   "athletes": []
+  },
+  {
+   "headline": "What Wilbon needs to see from Luka this season",
+   "description": "What Wilbon needs to see from Luka this season",
+   "published": "2026-10-21T20:07:04Z",
+   "url": "https://www.espn.com/video/clip/_/id/50240837/what-wilbon-needs-see-luka-season",
+   "athletes": []
+  },
+  {
+   "headline": "Shams: Warriors 'exploring trade routes' for Kristaps Porzingis",
+   "description": "Shams: Warriors 'exploring trade routes' for Kristaps Porzingis",
+   "published": "2026-10-21T18:35:52Z",
+   "url": "https://www.espn.com/video/clip/_/id/50240111/warriors-exploring-trade-routes-kristaps-porzingis",
+   "athletes": [
+    "Kristaps Porzingis"
+   ]
+  },
+  {
+   "headline": "Wednesday's fantasy basketball adds and bets to make in the NBA",
+   "description": "Andre Snellings breaks down Wednesday's 11-game slate, highlighting the fantasy streamers to add and bets to make.",
+   "published": "2026-10-21T18:20:53Z",
+   "url": "https://www.espn.com/fantasy/basketball/story/_/id/50239689/fantasy-basketball-tips-nba-betting-picks-today",
+   "athletes": [
+    "Kyshawn George",
+    "Jalen Suggs",
+    "Aaron Gordon"
+   ]
+  },
+  {
+   "headline": "Sources: Warriors exploring options to trade center Kristaps Porzingis",
+   "description": "The Warriors have begun exploring trade routes for veteran center Kristaps Porzingis, who remains out indefinitely as he deals with a private health issue, league sources told ESPN's Shams Charania.",
+   "published": "2026-10-21T18:45:52Z",
+   "url": "https://www.espn.com/nba/story/_/id/50239169/sources-warriors-exploring-trade-options-kristaps-porzingis",
+   "athletes": [
+    "Kristaps Porzingis"
+   ]
+  },
+  {
+   "headline": "Where to watch 'Inside the NBA' throughout the 2026-27 season",
+   "description": "Ernie Johnson, Charles Barkley, Shaquille O'Neal and Kenny Smith return with 'Inside the NBA.'",
+   "published": "2026-10-21T18:42:39Z",
+   "url": "https://www.espn.com/nba/story/_/id/50238842/watch-nba-2026-27-schedule",
+   "athletes": []
+  },
+  {
+   "headline": "LeBron, Savannah James take fans inside their Los Angeles home, showcase valuables",
+   "description": "From LeBron's trophies to Savannah's heartbeat necklace, the couple talked about the things that meant the most to them.",
+   "published": "2026-10-21T16:30:16Z",
+   "url": "https://www.espn.com/nba/story/_/id/50238339/lebron-james-savanna-home-tour",
+   "athletes": [
+    "LeBron James"
+   ]
+  },
+  {
+   "headline": "Luka Dončić asks Lakers fans to support 'special team' in full-page ad",
+   "description": "Lakers star Luka Dončić took out a full-page advertisement in the Los Angeles Times, addressing the city and saying \"tonight we start our run for a championship.\"",
+   "published": "2026-10-21T16:29:46Z",
+   "url": "https://www.espn.com/nba/story/_/id/50238836/luka-dončić-asks-lakers-fans-support-special-team",
+   "athletes": [
+    "Luka Doncic"
+   ]
+  },
+  {
+   "headline": "Stephen A. shares his one concern with the 76ers",
+   "description": "Stephen A. shares his one concern with the 76ers",
+   "published": "2026-10-21T14:56:22Z",
+   "url": "https://www.espn.com/video/clip/_/id/50238106/stephen-shares-one-concern-76ers",
+   "athletes": [
+    "LeBron James"
+   ]
+  },
+  {
+   "headline": "2026-27 NBA schedule: Regular season games on ESPN, ABC",
+   "description": "ESPN's coverage of the 2026-27 NBA season tips off on Wednesday.",
+   "published": "2026-10-21T14:33:59Z",
+   "url": "https://www.espn.com/nba/story/_/id/50220519/nba-season-2026-2027-espn-abc-schedule",
+   "athletes": []
+  },
+  {
+   "headline": "J-Will: It's championship or bust for the 76ers, LeBron",
+   "description": "J-Will: It's championship or bust for the 76ers, LeBron",
+   "published": "2026-10-21T13:12:57Z",
+   "url": "https://www.espn.com/video/clip/_/id/50236979/championship-bust-76ers-lebron",
+   "athletes": [
+    "Jalen Brunson",
+    "LeBron James",
+    "VJ Edgecombe",
+    "Tyrese Maxey",
+    "Jaylen Brown",
+    "Joel Embiid"
+   ]
+  },
+  {
+   "headline": "The five biggest questions still facing Luka and the Lakers",
+   "description": "After a transformative offseason on the floor and off, there are still massive unanswered questions for this Lakers team.",
+   "published": "2026-10-21T12:47:55Z",
+   "url": "https://www.espn.com/nba/story/_/id/50229178/luka-doncic-los-angeles-lakers-questions-nba-season",
+   "athletes": [
+    "Luka Doncic",
+    "Austin Reaves",
+    "Walker Kessler"
+   ]
+  },
+  {
+   "headline": "The Anthony Edwards-LaMelo Ball partnership opens with chemistry and hope",
+   "description": "The new LaMelo Ball-Anthony Edwards backcourt opens the season with a lot of flash and a renewed joy in Minnesota.",
+   "published": "2026-10-21T12:48:40Z",
+   "url": "https://www.espn.com/nba/story/_/id/50228500/anthony-edwards-lamelo-ball-minnesota-timberwolves",
+   "athletes": [
+    "Anthony Edwards",
+    "LaMelo Ball"
+   ]
+  },
+  {
+   "headline": "Takeaways: LeBron at center?! Why the 76ers had to get creative on opening night",
+   "description": "Brian Windhorst examines a surprising shift for LeBron, plus more takeaways from the NBA's season-opening tripleheader.",
+   "published": "2026-10-21T14:47:39Z",
+   "url": "https://www.espn.com/nba/story/_/id/50229896/lebron-knicks-76ers-thunder-spurs-celtics-pistons",
+   "athletes": [
+    "LeBron James",
+    "Aday Mara",
+    "Victor Wembanyama",
+    "Tyrese Maxey",
+    "Karl-Anthony Towns"
+   ]
+  },
+  {
+   "headline": "Victor Wembanyama, Giannis Antetokounmpo lead record African heritage presence in NBA",
+   "description": "Eighteen African countries are represented in the league, with Nigeria accounting for nearly half the number with 29 players of Nigerian origin.",
+   "published": "2026-10-21T09:31:10Z",
+   "url": "https://www.espn.com/espn/story/_/id/50235880/victor-wembanyama-giannis-antetokounmpo-lead-record-african-heritage-presence-nba",
+   "athletes": []
+  },
+  {
+   "headline": "BAL to confirm franchises in 2027, but no timeline on new structure - Mark Tatum",
+   "description": "NBA Deputy Commissioner Mark Tatum said the league plans to announce BAL franchises in 2027, but there is no timeline for a change in the league format.",
+   "published": "2026-10-21T09:22:16Z",
+   "url": "https://www.espn.com/espn/story/_/id/50235597/bal-confirm-franchises-2027-no-line-new-structure-mark-tatum",
+   "athletes": []
+  },
+  {
    "headline": "Spurs' Victor Wembanyama misses first 12 shots in rough opener vs. Thunder",
    "description": "Victor Wembanyama didn't record his first bucket until the end of the third quarter and shot a career-worst 8% from the field as the Thunder got their revenge on the Spurs in Tuesday's Western Conference finals rematch.",
-   "published": "2026-10-21T07:38:04Z",
+   "published": "2026-10-21T12:25:33Z",
    "url": "https://www.espn.com/nba/story/_/id/50235327/spurs-victor-wembanyama-misses-first-12-shots-rough-season-opener-vs-thunder",
    "athletes": [
     "De'Aaron Fox",
@@ -746,7 +883,7 @@
   {
    "headline": "Thunder win chippy opener vs. Spurs, throw support behind Chet Holmgren",
    "description": "The scrap early in the second quarter of Tuesday night's season opener offered some symbolism for Chet Holmgren and his Thunder teammates. Holmgren landed with a thud. As he got back to his feet, his teammates had his back.",
-   "published": "2026-10-21T07:16:33Z",
+   "published": "2026-10-21T12:01:56Z",
    "url": "https://www.espn.com/nba/story/_/id/50235276/thunder-win-chippy-opener-vs-spurs-back-chet-holmgren",
    "athletes": [
     "Chet Holmgren",
@@ -774,7 +911,7 @@
   {
    "headline": "Mike Brown: Would not have felt good about a win vs. 76ers given Knicks' play",
    "description": "Knicks coach Mike Brown would've taken the win against the 76ers -- but wouldn't have been happy with it, acknowledging that relying on late-game magic or the feel-good vibes of ring night wouldn't be enough to start the season on a positive note.",
-   "published": "2026-10-21T06:08:22Z",
+   "published": "2026-10-21T12:26:28Z",
    "url": "https://www.espn.com/nba/story/_/id/50235062/mike-brown-not-felt-good-knicks-win-vs-76ers-given-play",
    "athletes": [
     "Jalen Brunson"
@@ -783,7 +920,7 @@
   {
    "headline": "Sixers' Joel Embiid has 3 blocks in win over Knicks, eyes All-Defensive season",
    "description": "Sixers center Joel Embiid shined in a season-opening win over the Knicks on Tuesday, posting 13 points, 11 rebounds, two steals and three blocks.",
-   "published": "2026-10-21T06:20:33Z",
+   "published": "2026-10-21T12:51:40Z",
    "url": "https://www.espn.com/nba/story/_/id/50234914/sixers-joel-embiid-3-blocks-season-opener-vs-knicks",
    "athletes": [
     "Joel Embiid"
@@ -831,7 +968,7 @@
   {
    "headline": "LeBron moonlights at center, helps limit Knicks' Towns in winning Sixers debut",
    "description": "LeBron James opened his 24th season with 14 points, nine rebounds and seven assists and even had a defensive impact as a center in his Sixers debut.",
-   "published": "2026-10-21T06:42:20Z",
+   "published": "2026-10-21T12:51:25Z",
    "url": "https://www.espn.com/nba/story/_/id/50234172/76ers-knicks-lebron-james-debut-championship-night",
    "athletes": [
     "LeBron James"
@@ -906,7 +1043,7 @@
   {
    "headline": "Paul George's 38-point debut not enough as Piston rally late to down Celtics",
    "description": "Paul George scored 38 points -- the most by a Celtic in his debut, and the fifth most by a player in his first game with an NBA franchise -- in a 121-113 defeat to the Pistons on Tuesday. But as George put it: \"I'm not a moral victory guy.\"",
-   "published": "2026-10-21T01:08:10Z",
+   "published": "2026-10-21T10:30:32Z",
    "url": "https://www.espn.com/nba/story/_/id/50232192/paul-george-38-not-enough-pistons-rally-defeat-celtics",
    "athletes": [
     "Paul George",
@@ -1054,134 +1191,6 @@
    "description": "Jason Kidd believes the NBA has become increasingly global, positionless and versatile.",
    "published": "2026-10-20T11:51:12Z",
    "url": "https://www.espn.com/nba/story/_/id/50227385/jason-kidd-sees-nba-becoming-game-boundaries",
-   "athletes": []
-  },
-  {
-   "headline": "Windhorst: What playing at Madison Square Garden means to LeBron James",
-   "description": "It's only fitting that LeBron opens his final chapter inside \"The World's Most Famous Arena.\"",
-   "published": "2026-10-20T18:50:25Z",
-   "url": "https://www.espn.com/nba/story/_/id/50220047/lebron-james-opener-msg-knicks-76ers",
-   "athletes": [
-    "LeBron James"
-   ]
-  },
-  {
-   "headline": "Jalen Duren, Pistons need each other -- for better or worse",
-   "description": "After agreeing to a five-year, $200 million deal, how will Duren and Detroit move forward after a monthslong saga?",
-   "published": "2026-10-20T11:00:40Z",
-   "url": "https://www.espn.com/nba/story/_/id/50118254/detroit-pistons-jalen-duren-new-contract",
-   "athletes": [
-    "Jalen Duren",
-    "Cade Cunningham"
-   ]
-  },
-  {
-   "headline": "Wemby, Spurs have 'clarity' after Finals loss but know 'nothing is guaranteed'",
-   "description": "The Spurs enter the season with expectations to return to the Finals after their loss to the Knicks.",
-   "published": "2026-10-20T10:58:16Z",
-   "url": "https://www.espn.com/nba/story/_/id/50174585/san-antonio-spurs-wembanyama-expectations-nba",
-   "athletes": [
-    "Stephon Castle",
-    "De'Aaron Fox",
-    "Dylan Harper",
-    "Keldon Johnson",
-    "Victor Wembanyama",
-    "Devin Vassell"
-   ]
-  },
-  {
-   "headline": "Both sides of the contract divide between Karl-Anthony Towns and the Knicks",
-   "description": "Karl-Anthony Towns and the Knicks are far apart on extension talks. ESPN insiders break down each side, plus project where this saga is headed.",
-   "published": "2026-10-20T11:02:07Z",
-   "url": "https://www.espn.com/nba/story/_/id/50112265/karl-anthony-towns-new-york-knicks-extension-talks-next",
-   "athletes": [
-    "Karl-Anthony Towns"
-   ]
-  },
-  {
-   "headline": "Ugonna Onyenso thought his NBA dream was over -- then the Detroit Pistons called him up",
-   "description": "Detroit Pistons center Ugonna Onyenso was surprised to hear his name called out 53rd at the 2026 NBA Draft, having once believed his dream of making the league was over, but is now confident he can grow into the sizable shoes left by Isaiah Stewart.",
-   "published": "2026-10-20T06:08:23Z",
-   "url": "https://www.espn.com/espn/story/_/id/50217446/ugonna-onyenso-thought-nba-dream-was-detroit-pistons-called-up",
-   "athletes": [
-    "Ugonna Onyenso"
-   ]
-  },
-  {
-   "headline": "Houston hosts Dallas in season opener",
-   "description": "Dallas Mavericks vs. Houston Rockets",
-   "published": "2026-10-20T06:04:20Z",
-   "url": "http://www.espn.com/nba/preview?gameId=401909840",
-   "athletes": []
-  },
-  {
-   "headline": "Magic open season at home against the Hawks",
-   "description": "Atlanta Hawks vs. Orlando Magic",
-   "published": "2026-10-20T06:04:19Z",
-   "url": "http://www.espn.com/nba/preview?gameId=401909834",
-   "athletes": []
-  },
-  {
-   "headline": "Raptors start 2026-27 season at home against the Bulls",
-   "description": "Chicago Bulls vs. Toronto Raptors",
-   "published": "2026-10-20T06:04:18Z",
-   "url": "http://www.espn.com/nba/preview?gameId=401909837",
-   "athletes": []
-  },
-  {
-   "headline": "Los Angeles starts season at home against Sacramento",
-   "description": "Sacramento Kings vs. Los Angeles Clippers",
-   "published": "2026-10-20T06:04:17Z",
-   "url": "http://www.espn.com/nba/preview?gameId=401909842",
-   "athletes": []
-  },
-  {
-   "headline": "Trail Blazers open season at home against the Suns",
-   "description": "Phoenix Suns vs. Portland Trail Blazers",
-   "published": "2026-10-20T06:04:16Z",
-   "url": "http://www.espn.com/nba/preview?gameId=401909841",
-   "athletes": []
-  },
-  {
-   "headline": "New Orleans begins season at home against Indiana",
-   "description": "Indiana Pacers vs. New Orleans Pelicans",
-   "published": "2026-10-20T06:04:15Z",
-   "url": "http://www.espn.com/nba/preview?gameId=401909839",
-   "athletes": []
-  },
-  {
-   "headline": "Washington hosts Milwaukee to open season",
-   "description": "Milwaukee Bucks vs. Washington Wizards",
-   "published": "2026-10-20T06:04:13Z",
-   "url": "http://www.espn.com/nba/preview?gameId=401909835",
-   "athletes": []
-  },
-  {
-   "headline": "Memphis hosts Utah to tip off season",
-   "description": "Utah Jazz vs. Memphis Grizzlies",
-   "published": "2026-10-20T06:04:12Z",
-   "url": "http://www.espn.com/nba/preview?gameId=401909838",
-   "athletes": []
-  },
-  {
-   "headline": "Lakers open season at home against the Warriors",
-   "description": "Golden State Warriors vs. Los Angeles Lakers",
-   "published": "2026-10-20T06:04:11Z",
-   "url": "http://www.espn.com/nba/preview?gameId=401909092",
-   "athletes": []
-  },
-  {
-   "headline": "Brooklyn hosts Charlotte for season opener",
-   "description": "Charlotte Hornets vs. Brooklyn Nets",
-   "published": "2026-10-20T06:04:10Z",
-   "url": "http://www.espn.com/nba/preview?gameId=401909836",
-   "athletes": []
-  },
-  {
-   "headline": "Heat open season at home against the Timberwolves",
-   "description": "Minnesota Timberwolves vs. Miami Heat",
-   "published": "2026-10-20T06:04:08Z",
-   "url": "http://www.espn.com/nba/preview?gameId=401909091",
    "athletes": []
   }
  ]
