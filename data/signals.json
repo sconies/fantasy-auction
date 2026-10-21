@@ -21,8 +21,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-20"
+   "status": "handled",
+   "firstSeen": "2026-10-20",
+   "handledNote": "one-game/short absence; injury proposal is automatic"
   },
   {
    "id": "injury:44017eacbef1",
@@ -39,8 +40,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-20"
+   "status": "handled",
+   "firstSeen": "2026-10-20",
+   "handledNote": "one-game/short absence; injury proposal is automatic"
   },
   {
    "id": "injury:67cbdd885761",
@@ -57,8 +59,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-20"
+   "status": "handled",
+   "firstSeen": "2026-10-20",
+   "handledNote": "one-game/short absence; injury proposal is automatic"
   },
   {
    "id": "headline:53b83c67d562",
@@ -75,8 +78,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-20"
+   "status": "handled",
+   "firstSeen": "2026-10-20",
+   "handledNote": "one-game/short absence; injury proposal is automatic"
   },
   {
    "id": "injury:c6bdc282c38c",
@@ -93,8 +97,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-20"
+   "status": "handled",
+   "firstSeen": "2026-10-20",
+   "handledNote": "one-game/short absence; injury proposal is automatic"
   },
   {
    "id": "injury:a7e8262ea79d",
@@ -111,8 +116,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-20"
+   "status": "handled",
+   "firstSeen": "2026-10-20",
+   "handledNote": "one-game/short absence; injury proposal is automatic"
   },
   {
    "id": "outlook:93085015339d",
@@ -1192,8 +1198,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-20"
+   "status": "handled",
+   "firstSeen": "2026-10-20",
+   "handledNote": "one-game/short absence; injury proposal is automatic"
   },
   {
    "id": "outlook:73c8b5a24c5e",
@@ -2351,8 +2358,9 @@
    },
    "summary": "a teammate's absence or departure opens up opportunity for the player",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-20"
+   "status": "handled",
+   "firstSeen": "2026-10-20",
+   "handledNote": "Okoro likely to play; teammate opening is automatic cascade"
   },
   {
    "id": "news:ec26a6ab3ffa",
