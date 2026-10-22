@@ -1,17 +1,35 @@
 {
- "builtAt": "2026-10-22T08:10:24.249Z",
+ "builtAt": "2026-10-22T20:42:09.325Z",
  "counts": {
-  "new": 21,
-  "toJudge": 21
+  "new": 40,
+  "toJudge": 40
  },
  "signals": [
+  {
+   "id": "injury:547315940221",
+   "kind": "text",
+   "playerId": "4712849",
+   "name": "Anthony Black",
+   "team": "ORL",
+   "date": "2026-10-22T20:21Z",
+   "source": "injury",
+   "url": null,
+   "text": "Black (ankle) has been ruled out for Friday's game against the Timberwolves.",
+   "flags": {
+    "absence": 0.73
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-22"
+  },
   {
    "id": "injury:3a505293f895",
    "kind": "text",
    "playerId": "3913174",
    "name": "Luke Kennard",
    "team": "PHX",
-   "date": "2026-10-22T08:01Z",
+   "date": "2026-10-22T20:17Z",
    "source": "injury",
    "url": null,
    "text": "Kennard (knee) won't play Wednesday versus Portland, Duane Rankin of The Arizona Republic reports.",
@@ -22,6 +40,116 @@
    "judge": true,
    "status": "new",
    "firstSeen": "2026-10-22"
+  },
+  {
+   "id": "injury:8f939ad0d4c5",
+   "kind": "text",
+   "playerId": "3138160",
+   "name": "Caleb Martin",
+   "team": "DAL",
+   "date": "2026-10-22T20:15Z",
+   "source": "injury",
+   "url": null,
+   "text": "Martin (thumb) has been ruled out for Fridays' game against the Pacers.",
+   "flags": {
+    "absence": 0.8
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-22"
+  },
+  {
+   "id": "injury:e19fb4483a46",
+   "kind": "text",
+   "playerId": "4593125",
+   "name": "Santi Aldama",
+   "team": "DAL",
+   "date": "2026-10-22T20:13Z",
+   "source": "injury",
+   "url": null,
+   "text": "Aldama (knee) has been ruled out for Friday's game against the Pacers.",
+   "flags": {
+    "absence": 0.76
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-22"
+  },
+  {
+   "id": "injury:475f1b3941ce",
+   "kind": "text",
+   "playerId": "4683688",
+   "name": "Dereck Lively II",
+   "team": "DAL",
+   "date": "2026-10-22T20:10Z",
+   "source": "injury",
+   "url": null,
+   "text": "Lively (foot) has been ruled out for Friday's game against the Pacers.",
+   "flags": {
+    "absence": 0.78
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-22"
+  },
+  {
+   "id": "injury:6a74d3fe2f8e",
+   "kind": "text",
+   "playerId": "5142718",
+   "name": "AJ Dybantsa",
+   "team": "WAS",
+   "date": "2026-10-22T16:22Z",
+   "source": "injury",
+   "url": null,
+   "text": "Dybantsa (ankle) is out for Friday's game against the Raptors, Josh Robbins of The Athletic reports.",
+   "flags": {
+    "absence": 0.78
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-22"
+  },
+  {
+   "id": "injury:67cbdd885761",
+   "kind": "text",
+   "playerId": "4395651",
+   "name": "Coby White",
+   "team": "CHA",
+   "date": "2026-10-22T14:05Z",
+   "source": "injury",
+   "url": null,
+   "text": "White (calf) is out for Wednesday's season opener against the Nets.",
+   "flags": {
+    "absence": 0.86
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "handled",
+   "firstSeen": "2026-10-20",
+   "handledNote": "one-game/short absence; injury proposal is automatic"
+  },
+  {
+   "id": "injury:44017eacbef1",
+   "kind": "text",
+   "playerId": "4066218",
+   "name": "Grant Williams",
+   "team": "CHA",
+   "date": "2026-10-22T14:05Z",
+   "source": "injury",
+   "url": null,
+   "text": "Williams (hamstring) is out for Wednesday's season opener versus the Nets.",
+   "flags": {
+    "absence": 0.91
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "handled",
+   "firstSeen": "2026-10-20",
+   "handledNote": "one-game/short absence; injury proposal is automatic"
   },
   {
    "id": "headline:c5aa0e83b5cb",
@@ -529,24 +657,6 @@
    "firstSeen": "2026-10-06"
   },
   {
-   "id": "news:c632d7973dfc",
-   "kind": "text",
-   "playerId": "4396993",
-   "name": "Tyrese Haliburton",
-   "team": "IND",
-   "date": "2026-10-22",
-   "source": "news",
-   "url": "https://www.fantasypros.com/nba/news/615243/tyrese-haliburton-logs-double-double-return-wednesday.php",
-   "text": "Tyrese Haliburton logs double-double in return Wednesday Tyrese Haliburton scored 23 points (8-15 FG, 2-6 3PT, 5-5 FT) to go along with two rebounds, 12 assists and one steal in the Pacers 123-120 win over the Pelicans. Fantasy Impact: Haliburton picked right up where he left off returning from a torn Achilles. He should remain a locked and loaded star player all season.",
-   "flags": {
-    "recovering": 0.98
-   },
-   "summary": "is recovering or returning from a significant injury or surgery",
-   "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-22"
-  },
-  {
    "id": "outlook:bbce85ca5f43",
    "kind": "outlook",
    "playerId": "4396993",
@@ -926,6 +1036,26 @@
    "firstSeen": "2026-10-06"
   },
   {
+   "id": "news:5f057954daf7",
+   "kind": "text",
+   "playerId": "6442",
+   "name": "Kyrie Irving",
+   "team": "DAL",
+   "date": "2026-10-22",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615313/kyrie-irving-scores-15-points-return-game-wednesday.php",
+   "text": "Kyrie Irving scores 15 points in return game Wednesday Kyrie Irving scored 15 points (6-9 FG, 1-4 3PT, 2-2 FT) and grabbed four rebounds in Wednesday's 128-110 loss to the Houston Rockets. Fantasy Impact: Irving took the court again on Wednesday after missing a long period of time while recovering from a major knee injury. He looked pretty good in his first game back, scoring 15 points throughout ",
+   "flags": {
+    "recovering": 0.99,
+    "minutes_limit": 0.84,
+    "load_managed": 0.85
+   },
+   "summary": "is recovering or returning from a significant injury or surgery; is or will be on a minutes restriction in games (being limited in practice or held out of a practice does not count); the team will rest the player on back-to-backs or manage his load",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-22"
+  },
+  {
    "id": "outlook:71e5a75654d1",
    "kind": "outlook",
    "playerId": "6442",
@@ -1213,24 +1343,6 @@
    "firstSeen": "2026-10-06"
   },
   {
-   "id": "news:6ab212a4188a",
-   "kind": "text",
-   "playerId": "4279888",
-   "name": "Ja Morant",
-   "team": "POR",
-   "date": "2026-10-22",
-   "source": "news",
-   "url": "https://www.fantasypros.com/nba/news/615251/ja-morant-dishes-eight-assists-wednesday.php",
-   "text": "Ja Morant dishes eight assists Wednesday Ja Morant scored 14 points (6-8 FG, 2-3 3PT) to go along with five rebounds, eight assists and three steals in the Trail Blazers 124-83 win over the Suns. Fantasy Impact: Morant played just 23 minutes in a blowout win in his Portland debut. He should remain in a dynamic back court alongside Damian Lillard who dropped 25 points in the season opener.",
-   "flags": {
-    "new_team": 0.83
-   },
-   "summary": "changed teams (traded, signed or claimed) since last season",
-   "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-22"
-  },
-  {
    "id": "outlook:a88f7810e87d",
    "kind": "outlook",
    "playerId": "4279888",
@@ -1346,24 +1458,6 @@
    "firstSeen": "2026-10-06"
   },
   {
-   "id": "news:9da1dcd52a3c",
-   "kind": "text",
-   "playerId": "4066383",
-   "name": "Miles Bridges",
-   "team": "PHX",
-   "date": "2026-10-22",
-   "source": "news",
-   "url": "https://www.fantasypros.com/nba/news/615248/miles-bridges-struggles-wednesday.php",
-   "text": "Miles Bridges struggles Wednesday Miles Bridges scored eight points (3-11 FG, 0-5 3PT, 2-2 FT) to go along with four rebounds, one steal and one block in the Suns 124-83 loss against the Trail Blazers. Fantasy Impact: Bridges played 29 minutes in a blowout loss in his Suns debut. He'll look to bounce back on Saturday against the Warriors.",
-   "flags": {
-    "new_team": 0.7
-   },
-   "summary": "changed teams (traded, signed or claimed) since last season",
-   "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-22"
-  },
-  {
    "id": "outlook:dd16e1de2eee",
    "kind": "outlook",
    "playerId": "4066383",
@@ -1381,6 +1475,24 @@
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "news:4472a86bdb47",
+   "kind": "text",
+   "playerId": "5142718",
+   "name": "AJ Dybantsa",
+   "team": "WAS",
+   "date": "2026-10-22",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615333/aj-dybantsa-ankle-ruled-out-friday.php",
+   "text": "AJ Dybantsa (ankle) ruled out Friday AJ Dybantsa has been ruled out for Friday's game against the Raptors.  Fantasy Impact: Dybantsa will miss a second straight game due to a sprained left ankle to open the season. He could make his debut on Saturday.",
+   "flags": {
+    "absence": 0.95
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-22"
   },
   {
    "id": "outlook:73c8b5a24c5e",
@@ -1576,24 +1688,6 @@
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-20"
-  },
-  {
-   "id": "news:a39cd4cddd6f",
-   "kind": "text",
-   "playerId": "4395724",
-   "name": "Immanuel Quickley",
-   "team": "TOR",
-   "date": "2026-10-22",
-   "source": "news",
-   "url": "https://www.fantasypros.com/nba/news/615238/immanuel-quickley-knocks-down-four-shots-from-deep-wednesday.php",
-   "text": "Immanuel Quickley knocks down four shots from deep Wednesday Immanuel Quickley scored 23 points (6-13 FG, 4-9 3PT, 7-8 FT) to go along with four rebounds, seven assists and two steals in the Raptors 135-92 win over the Bulls. Fantasy Impact: Quickley was efficient from both inside and outside the arc in the win. He was one of four Toronto starters to score at least 20 points.",
-   "flags": {
-    "starter": 0.78
-   },
-   "summary": "is expected to start or has been named a starter",
-   "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-22"
   },
   {
    "id": "outlook:0321c96fd341",
@@ -2542,20 +2636,38 @@
    "firstSeen": "2026-10-20"
   },
   {
-   "id": "news:5676cca26a0a",
+   "id": "news:4fe8fe9d9900",
    "kind": "text",
-   "playerId": "4397189",
-   "name": "Jalen Smith",
-   "team": "CHI",
+   "playerId": "4432582",
+   "name": "Max Christie",
+   "team": "DAL",
    "date": "2026-10-22",
    "source": "news",
-   "url": "https://www.fantasypros.com/nba/news/615235/jalen-smith-impresses-start-wednesday.php",
-   "text": "Jalen Smith impresses in start Wednesday Jalen Smith scored 15 points (5-10 FG, 0-3 3PT, 5-6 FT) to go along with eight rebounds, one assist and one block in the Bulls 135-135-92 loss against the Raptors. Fantasy Impact: Smith will continue to start for as long as Nic Claxton (hamstring) sidelined. He'll be on the streaming radar as a starter.",
+   "url": "https://www.fantasypros.com/nba/news/615316/max-christie-struggles-loss-wednesday.php",
+   "text": "Max Christie struggles in loss Wednesday Max Christie scored five points (2-8 FG, 1-7 3OT) and grabbed three rebounds across 29 minutes of action in Wednesday's 128-110 loss to the Houston Rockets. Fantasy Impact: Christie was a starter for the Mavericks on Wednesday and saw 29 minutes of action, but he struggled to get anything going. He ended the game with just five points on two made shots, and",
    "flags": {
-    "starter": 0.97,
-    "opening": 0.92
+    "starter": 0.92
    },
-   "summary": "is expected to start or has been named a starter; a teammate's absence or departure opens up opportunity for the player",
+   "summary": "is expected to start or has been named a starter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-22"
+  },
+  {
+   "id": "news:6904c3638b72",
+   "kind": "text",
+   "playerId": "4397183",
+   "name": "Aaron Wiggins",
+   "team": "ATL",
+   "date": "2026-10-22",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615305/aaron-wiggins-delivers-solid-effort-off-bench-wednesday-night.php",
+   "text": "Aaron Wiggins delivers solid effort off the bench Wednesday night Aaron Wiggins scored 16 points (5-9 FG, 3-5 3PT, 3-3 FT) to go with three rebounds and two steals in Wednesday's 132-125 win over the Magic. Fantasy Impact: Wiggins was the top man off the Hawks' bench in Wednesday's season-opening win, as he put up 16 points in 32 minutes for his new club. After spending the first five seasons of h",
+   "flags": {
+    "bench": 0.79,
+    "new_team": 0.96
+   },
+   "summary": "is expected to come off the bench or has lost his starting job; changed teams (traded, signed or claimed) since last season",
    "judge": true,
    "status": "new",
    "firstSeen": "2026-10-22"
@@ -2609,6 +2721,138 @@
    "firstSeen": "2026-10-22"
   },
   {
+   "id": "depth:5144091:2026-10-22:SG #1",
+   "kind": "depth",
+   "playerId": "5144091",
+   "name": "Jeremiah Fears",
+   "team": "NOP",
+   "date": "2026-10-22",
+   "summary": "Depth chart PG #2 → SG #1",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-22"
+  },
+  {
+   "id": "depth:4397014:2026-10-22:SG #2",
+   "kind": "depth",
+   "playerId": "4397014",
+   "name": "Quentin Grimes",
+   "team": "LAL",
+   "date": "2026-10-22",
+   "summary": "Depth chart SF #1 → SG #2",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-22"
+  },
+  {
+   "id": "depth:4278049:2026-10-22:C #1",
+   "kind": "depth",
+   "playerId": "4278049",
+   "name": "Daniel Gafford",
+   "team": "DAL",
+   "date": "2026-10-22",
+   "summary": "Depth chart C #2 → C #1",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-22"
+  },
+  {
+   "id": "depth:4397136:2026-10-22:SF #3",
+   "kind": "depth",
+   "playerId": "4397136",
+   "name": "Saddiq Bey",
+   "team": "NOP",
+   "date": "2026-10-22",
+   "summary": "Depth chart SF #2 → SF #3",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-22"
+  },
+  {
+   "id": "depth:4592691:2026-10-22:SF #2",
+   "kind": "depth",
+   "playerId": "4592691",
+   "name": "Jake LaRavia",
+   "team": "LAL",
+   "date": "2026-10-22",
+   "summary": "Depth chart PF #1 → SF #2",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-22"
+  },
+  {
+   "id": "depth:4683688:2026-10-22:C #2",
+   "kind": "depth",
+   "playerId": "4683688",
+   "name": "Dereck Lively II",
+   "team": "DAL",
+   "date": "2026-10-22",
+   "summary": "Depth chart C #1 → C #2",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-22"
+  },
+  {
+   "id": "depth:5254165:2026-10-22:PG #2",
+   "kind": "depth",
+   "playerId": "5254165",
+   "name": "Keaton Wagler",
+   "team": "LAC",
+   "date": "2026-10-22",
+   "summary": "Depth chart SG #1 → PG #2",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-22"
+  },
+  {
+   "id": "depth:2991139:2026-10-22:SG #1",
+   "kind": "depth",
+   "playerId": "2991139",
+   "name": "Kris Dunn",
+   "team": "LAC",
+   "date": "2026-10-22",
+   "summary": "Depth chart PG #2 → SG #1",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-22"
+  },
+  {
+   "id": "depth:4277813:2026-10-22:SF #2",
+   "kind": "depth",
+   "playerId": "4277813",
+   "name": "Herbert Jones",
+   "team": "NOP",
+   "date": "2026-10-22",
+   "summary": "Depth chart SF #1 → SF #2",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-22"
+  },
+  {
+   "id": "depth:4433137:2026-10-22:SF #1",
+   "kind": "depth",
+   "playerId": "4433137",
+   "name": "Ziaire Williams",
+   "team": "LAL",
+   "date": "2026-10-22",
+   "summary": "Depth chart SG #3 → SF #1",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-22"
+  },
+  {
+   "id": "depth:3907498:2026-10-22:PF #1",
+   "kind": "depth",
+   "playerId": "3907498",
+   "name": "Matisse Thybulle",
+   "team": "LAL",
+   "date": "2026-10-22",
+   "summary": "Depth chart SF #3 → PF #1",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-22"
+  },
+  {
    "id": "change:4896372:2026-10-22",
    "kind": "change",
    "playerId": "4896372",
@@ -2618,6 +2862,97 @@
    "summary": "team FA → DAL",
    "judge": false,
    "status": "info",
+   "firstSeen": "2026-10-22"
+  },
+  {
+   "id": "news:c632d7973dfc",
+   "kind": "text",
+   "playerId": "4396993",
+   "name": "Tyrese Haliburton",
+   "team": "IND",
+   "date": "2026-10-22",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615243/tyrese-haliburton-logs-double-double-return-wednesday.php",
+   "text": "Tyrese Haliburton logs double-double in return Wednesday Tyrese Haliburton scored 23 points (8-15 FG, 2-6 3PT, 5-5 FT) to go along with two rebounds, 12 assists and one steal in the Pacers 123-120 win over the Pelicans. Fantasy Impact: Haliburton picked right up where he left off returning from a torn Achilles. He should remain a locked and loaded star player all season.",
+   "flags": {
+    "recovering": 0.98
+   },
+   "summary": "is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-22"
+  },
+  {
+   "id": "news:6ab212a4188a",
+   "kind": "text",
+   "playerId": "4279888",
+   "name": "Ja Morant",
+   "team": "POR",
+   "date": "2026-10-22",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615251/ja-morant-dishes-eight-assists-wednesday.php",
+   "text": "Ja Morant dishes eight assists Wednesday Ja Morant scored 14 points (6-8 FG, 2-3 3PT) to go along with five rebounds, eight assists and three steals in the Trail Blazers 124-83 win over the Suns. Fantasy Impact: Morant played just 23 minutes in a blowout win in his Portland debut. He should remain in a dynamic back court alongside Damian Lillard who dropped 25 points in the season opener.",
+   "flags": {
+    "new_team": 0.83
+   },
+   "summary": "changed teams (traded, signed or claimed) since last season",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-22"
+  },
+  {
+   "id": "news:9da1dcd52a3c",
+   "kind": "text",
+   "playerId": "4066383",
+   "name": "Miles Bridges",
+   "team": "PHX",
+   "date": "2026-10-22",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615248/miles-bridges-struggles-wednesday.php",
+   "text": "Miles Bridges struggles Wednesday Miles Bridges scored eight points (3-11 FG, 0-5 3PT, 2-2 FT) to go along with four rebounds, one steal and one block in the Suns 124-83 loss against the Trail Blazers. Fantasy Impact: Bridges played 29 minutes in a blowout loss in his Suns debut. He'll look to bounce back on Saturday against the Warriors.",
+   "flags": {
+    "new_team": 0.7
+   },
+   "summary": "changed teams (traded, signed or claimed) since last season",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-22"
+  },
+  {
+   "id": "news:a39cd4cddd6f",
+   "kind": "text",
+   "playerId": "4395724",
+   "name": "Immanuel Quickley",
+   "team": "TOR",
+   "date": "2026-10-22",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615238/immanuel-quickley-knocks-down-four-shots-from-deep-wednesday.php",
+   "text": "Immanuel Quickley knocks down four shots from deep Wednesday Immanuel Quickley scored 23 points (6-13 FG, 4-9 3PT, 7-8 FT) to go along with four rebounds, seven assists and two steals in the Raptors 135-92 win over the Bulls. Fantasy Impact: Quickley was efficient from both inside and outside the arc in the win. He was one of four Toronto starters to score at least 20 points.",
+   "flags": {
+    "starter": 0.78
+   },
+   "summary": "is expected to start or has been named a starter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-22"
+  },
+  {
+   "id": "news:5676cca26a0a",
+   "kind": "text",
+   "playerId": "4397189",
+   "name": "Jalen Smith",
+   "team": "CHI",
+   "date": "2026-10-22",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615235/jalen-smith-impresses-start-wednesday.php",
+   "text": "Jalen Smith impresses in start Wednesday Jalen Smith scored 15 points (5-10 FG, 0-3 3PT, 5-6 FT) to go along with eight rebounds, one assist and one block in the Bulls 135-135-92 loss against the Raptors. Fantasy Impact: Smith will continue to start for as long as Nic Claxton (hamstring) sidelined. He'll be on the streaming radar as a starter.",
+   "flags": {
+    "starter": 0.97,
+    "opening": 0.92
+   },
+   "summary": "is expected to start or has been named a starter; a teammate's absence or departure opens up opportunity for the player",
+   "judge": true,
+   "status": "new",
    "firstSeen": "2026-10-22"
   },
   {
@@ -2956,44 +3291,6 @@
    "status": "handled",
    "firstSeen": "2026-10-21",
    "handledNote": "single-game absence; automatic injury proposal"
-  },
-  {
-   "id": "injury:44017eacbef1",
-   "kind": "text",
-   "playerId": "4066218",
-   "name": "Grant Williams",
-   "team": "CHA",
-   "date": "2026-10-20T20:30Z",
-   "source": "injury",
-   "url": null,
-   "text": "Williams (hamstring) is out for Wednesday's season opener versus the Nets.",
-   "flags": {
-    "absence": 0.91
-   },
-   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
-   "judge": true,
-   "status": "handled",
-   "firstSeen": "2026-10-20",
-   "handledNote": "one-game/short absence; injury proposal is automatic"
-  },
-  {
-   "id": "injury:67cbdd885761",
-   "kind": "text",
-   "playerId": "4395651",
-   "name": "Coby White",
-   "team": "CHA",
-   "date": "2026-10-20T20:28Z",
-   "source": "injury",
-   "url": null,
-   "text": "White (calf) is out for Wednesday's season opener against the Nets.",
-   "flags": {
-    "absence": 0.86
-   },
-   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
-   "judge": true,
-   "status": "handled",
-   "firstSeen": "2026-10-20",
-   "handledNote": "one-game/short absence; injury proposal is automatic"
   },
   {
    "id": "headline:53b83c67d562",

@@ -1,5 +1,5 @@
 {
- "readAt": "2026-10-22T08:10:20.953Z",
+ "readAt": "2026-10-22T20:42:07.568Z",
  "model": "jev-latest",
  "notes": {
   "73fca91bdb41e025": {
@@ -22,16 +22,6 @@
    "choice": "uncertain",
    "confidence": 0.92
   },
-  "3bda30340f5770c0": {
-   "name": "Kon Knueppel",
-   "choice": "uncertain",
-   "confidence": 0.84
-  },
-  "32d3bcd6faf6253e": {
-   "name": "Kylan Boswell",
-   "choice": "uncertain",
-   "confidence": 0.98
-  },
   "3ed3f55812221afa": {
    "name": "Grant Williams",
    "choice": "uncertain",
@@ -42,60 +32,85 @@
    "choice": "uncertain",
    "confidence": 0.98
   },
-  "8964fbce381eb524": {
+  "3bda30340f5770c0": {
+   "name": "Kon Knueppel",
+   "choice": "uncertain",
+   "confidence": 0.84
+  },
+  "32d3bcd6faf6253e": {
+   "name": "Kylan Boswell",
+   "choice": "uncertain",
+   "confidence": 0.98
+  },
+  "64504ead9d35636e": {
    "name": "Dailyn Swain",
    "choice": "uncertain",
-   "confidence": 0.96
+   "confidence": 0.82
   },
-  "701099abd3c4fcf1": {
+  "20f278adf80fff5d": {
    "name": "Jordan Hawkins",
    "choice": "uncertain",
-   "confidence": 0.99
+   "confidence": 0.84
+  },
+  "813fb59906759814": {
+   "name": "Zach Collins",
+   "choice": "uncertain",
+   "confidence": 0.38
+  },
+  "bd16d4781d42eb4a": {
+   "name": "Tobe Awaka",
+   "choice": "uncertain",
+   "confidence": 0.59
+  },
+  "67d53c590dc2b408": {
+   "name": "Josh Giddey",
+   "choice": "uncertain",
+   "confidence": 0.48
   },
   "b7d2db03fd822c7c": {
    "name": "Nic Claxton",
    "choice": "uncertain",
    "confidence": 0.52
   },
+  "74685459be85bd8b": {
+   "name": "Jarrett Allen",
+   "choice": "none",
+   "confidence": 0.33
+  },
   "15ae6ba58f57fad1": {
    "name": "Khalifa Diop",
    "choice": "uncertain",
    "confidence": 0.71
-  },
-  "725d72262e356d62": {
-   "name": "Jarrett Allen",
-   "choice": "uncertain",
-   "confidence": 0.72
   },
   "3b4a325259559e1b": {
    "name": "Nae'Qwan Tomlin",
    "choice": "weeks",
    "confidence": 0.98
   },
-  "ee840c36ae1de11b": {
-   "name": "Caleb Martin",
-   "choice": "uncertain",
-   "confidence": 0.99
-  },
-  "5b47a177bf73e2b3": {
+  "f5ad00190c83c9a3": {
    "name": "Jett Howard",
    "choice": "uncertain",
-   "confidence": 0.56
+   "confidence": 0.66
   },
-  "6924cb85528e0336": {
-   "name": "Tarik Biberovic",
+  "67cc4605b287e5fa": {
+   "name": "Caleb Martin",
    "choice": "uncertain",
-   "confidence": 0.86
+   "confidence": 0.7
   },
-  "49d40493dcb7fc05": {
+  "edabc1afe95f4264": {
    "name": "Santi Aldama",
    "choice": "uncertain",
-   "confidence": 0.87
+   "confidence": 0.81
   },
-  "3a0e8872d9a8bb41": {
+  "e73939c0202bf572": {
+   "name": "Tarik Biberovic",
+   "choice": "uncertain",
+   "confidence": 0.68
+  },
+  "75e26cf8ccc8ce78": {
    "name": "Dereck Lively II",
    "choice": "uncertain",
-   "confidence": 0.86
+   "confidence": 0.75
   },
   "4fc56dd369b16c04": {
    "name": "Spencer Jones",
@@ -107,10 +122,10 @@
    "choice": "weeks",
    "confidence": 0.72
   },
-  "49b81f22cb765ed1": {
+  "6bb1351c57421cbf": {
    "name": "Taurean Prince",
-   "choice": "uncertain",
-   "confidence": 0.71
+   "choice": "none",
+   "confidence": 0.45
   },
   "33517f3ff56def57": {
    "name": "Brandin Podziemski",
@@ -182,6 +197,11 @@
    "choice": "season",
    "confidence": 0.18
   },
+  "4e3f0c0e0ebafa93": {
+   "name": "Jake LaRavia",
+   "choice": "none",
+   "confidence": 0.83
+  },
   "3c0afd684615e709": {
    "name": "Adou Thiero",
    "choice": "uncertain",
@@ -222,15 +242,15 @@
    "choice": "season",
    "confidence": 1
   },
-  "3dc9256cb2e0661e": {
-   "name": "Jonathan Isaac",
-   "choice": "uncertain",
-   "confidence": 0.84
-  },
-  "0271de91be0a044a": {
+  "d489e936468e20c8": {
    "name": "Anthony Black",
    "choice": "uncertain",
-   "confidence": 0.71
+   "confidence": 0.75
+  },
+  "4d7c32af67e04e92": {
+   "name": "Jonathan Isaac",
+   "choice": "uncertain",
+   "confidence": 0.75
   },
   "2853b7631e172c90": {
    "name": "Noah Penda",
@@ -242,15 +262,15 @@
    "choice": "weeks",
    "confidence": 0.49
   },
+  "41b9f10b4ef6df35": {
+   "name": "Dean Wade",
+   "choice": "none",
+   "confidence": 0.63
+  },
   "ec657bfabb274702": {
    "name": "Tacko Fall",
    "choice": "uncertain",
    "confidence": 0.74
-  },
-  "9f4e74ded96d10a0": {
-   "name": "Dean Wade",
-   "choice": "uncertain",
-   "confidence": 0.78
   },
   "5e187b319b3634d0": {
    "name": "Dominick Barlow",
@@ -277,15 +297,15 @@
    "choice": "uncertain",
    "confidence": 0.86
   },
-  "ef90698f18a34c5a": {
-   "name": "Chris Youngblood",
-   "choice": "uncertain",
-   "confidence": 0.98
-  },
   "7958bc7845bf3b9b": {
    "name": "Branden Carlson",
    "choice": "uncertain",
    "confidence": 0.82
+  },
+  "ef90698f18a34c5a": {
+   "name": "Chris Youngblood",
+   "choice": "uncertain",
+   "confidence": 0.98
   },
   "eb4212d275055af4": {
    "name": "Shaedon Sharpe",
@@ -342,10 +362,10 @@
    "choice": "weeks",
    "confidence": 0.88
   },
-  "2fd49de093f4b991": {
+  "531adcbf5ecb89e5": {
    "name": "AJ Dybantsa",
    "choice": "uncertain",
-   "confidence": 0.94
+   "confidence": 0.84
   },
   "5424849c5c05d467": {
    "name": "Tristan Vukcevic",
@@ -379,6 +399,16 @@
    "confidence": 0.92,
    "written": "2026-10-22"
   },
+  "Grant Williams": {
+   "choice": "uncertain",
+   "confidence": 0.98,
+   "written": "2026-10-22"
+  },
+  "Coby White": {
+   "choice": "uncertain",
+   "confidence": 0.98,
+   "written": "2026-10-22"
+  },
   "Kon Knueppel": {
    "choice": "uncertain",
    "confidence": 0.84,
@@ -389,24 +419,29 @@
    "confidence": 0.98,
    "written": "2026-10-20"
   },
-  "Grant Williams": {
-   "choice": "uncertain",
-   "confidence": 0.98,
-   "written": "2026-10-20"
-  },
-  "Coby White": {
-   "choice": "uncertain",
-   "confidence": 0.98,
-   "written": "2026-10-20"
-  },
   "Dailyn Swain": {
    "choice": "uncertain",
-   "confidence": 0.96,
+   "confidence": 0.82,
    "written": "2026-10-22"
   },
   "Jordan Hawkins": {
    "choice": "uncertain",
-   "confidence": 0.99,
+   "confidence": 0.84,
+   "written": "2026-10-22"
+  },
+  "Zach Collins": {
+   "choice": "uncertain",
+   "confidence": 0.38,
+   "written": "2026-10-22"
+  },
+  "Tobe Awaka": {
+   "choice": "uncertain",
+   "confidence": 0.59,
+   "written": "2026-10-22"
+  },
+  "Josh Giddey": {
+   "choice": "uncertain",
+   "confidence": 0.48,
    "written": "2026-10-22"
   },
   "Nic Claxton": {
@@ -414,14 +449,14 @@
    "confidence": 0.52,
    "written": "2026-10-19"
   },
+  "Jarrett Allen": {
+   "choice": "none",
+   "confidence": 0.33,
+   "written": "2026-10-22"
+  },
   "Khalifa Diop": {
    "choice": "uncertain",
    "confidence": 0.71,
-   "written": "2026-10-21"
-  },
-  "Jarrett Allen": {
-   "choice": "uncertain",
-   "confidence": 0.72,
    "written": "2026-10-21"
   },
   "Nae'Qwan Tomlin": {
@@ -429,30 +464,30 @@
    "confidence": 0.98,
    "written": "2026-10-20"
   },
-  "Caleb Martin": {
-   "choice": "uncertain",
-   "confidence": 0.99,
-   "written": "2026-10-22"
-  },
   "Jett Howard": {
    "choice": "uncertain",
-   "confidence": 0.56,
+   "confidence": 0.66,
    "written": "2026-10-22"
   },
-  "Tarik Biberovic": {
+  "Caleb Martin": {
    "choice": "uncertain",
-   "confidence": 0.86,
+   "confidence": 0.7,
    "written": "2026-10-22"
   },
   "Santi Aldama": {
    "choice": "uncertain",
-   "confidence": 0.87,
+   "confidence": 0.81,
+   "written": "2026-10-22"
+  },
+  "Tarik Biberovic": {
+   "choice": "uncertain",
+   "confidence": 0.68,
    "written": "2026-10-22"
   },
   "Dereck Lively II": {
    "choice": "uncertain",
-   "confidence": 0.86,
-   "written": "2026-10-20"
+   "confidence": 0.75,
+   "written": "2026-10-22"
   },
   "Spencer Jones": {
    "choice": "uncertain",
@@ -465,9 +500,9 @@
    "written": "2026-10-17"
   },
   "Taurean Prince": {
-   "choice": "uncertain",
-   "confidence": 0.71,
-   "written": "2026-10-21"
+   "choice": "none",
+   "confidence": 0.45,
+   "written": "2026-10-22"
   },
   "Brandin Podziemski": {
    "choice": "uncertain",
@@ -539,6 +574,11 @@
    "confidence": 0.18,
    "written": "2026-08-26"
   },
+  "Jake LaRavia": {
+   "choice": "none",
+   "confidence": 0.83,
+   "written": "2026-10-22"
+  },
   "Adou Thiero": {
    "choice": "uncertain",
    "confidence": 0.33,
@@ -579,14 +619,14 @@
    "confidence": 1,
    "written": "2026-10-15"
   },
-  "Jonathan Isaac": {
-   "choice": "uncertain",
-   "confidence": 0.84,
-   "written": "2026-10-22"
-  },
   "Anthony Black": {
    "choice": "uncertain",
-   "confidence": 0.71,
+   "confidence": 0.75,
+   "written": "2026-10-22"
+  },
+  "Jonathan Isaac": {
+   "choice": "uncertain",
+   "confidence": 0.75,
    "written": "2026-10-22"
   },
   "Noah Penda": {
@@ -599,14 +639,14 @@
    "confidence": 0.49,
    "written": "2026-09-28"
   },
+  "Dean Wade": {
+   "choice": "none",
+   "confidence": 0.63,
+   "written": "2026-10-22"
+  },
   "Tacko Fall": {
    "choice": "uncertain",
    "confidence": 0.74,
-   "written": "2026-10-21"
-  },
-  "Dean Wade": {
-   "choice": "uncertain",
-   "confidence": 0.78,
    "written": "2026-10-21"
   },
   "Dominick Barlow": {
@@ -634,15 +674,15 @@
    "confidence": 0.86,
    "written": "2026-09-11"
   },
+  "Branden Carlson": {
+   "choice": "uncertain",
+   "confidence": 0.82,
+   "written": "2026-10-22"
+  },
   "Chris Youngblood": {
    "choice": "uncertain",
    "confidence": 0.98,
    "written": "2026-10-22"
-  },
-  "Branden Carlson": {
-   "choice": "uncertain",
-   "confidence": 0.82,
-   "written": "2026-10-20"
   },
   "Shaedon Sharpe": {
    "choice": "months",
@@ -701,7 +741,7 @@
   },
   "AJ Dybantsa": {
    "choice": "uncertain",
-   "confidence": 0.94,
+   "confidence": 0.84,
    "written": "2026-10-22"
   },
   "Tristan Vukcevic": {

@@ -449,6 +449,116 @@
    "to": "SG #2",
    "promoted": false,
    "projectedMin": 21.57
+  },
+  {
+   "date": "2026-10-22",
+   "playerId": "5144091",
+   "name": "Jeremiah Fears",
+   "team": "NOP",
+   "from": "PG #2",
+   "to": "SG #1",
+   "promoted": true,
+   "projectedMin": 24.92
+  },
+  {
+   "date": "2026-10-22",
+   "playerId": "4397014",
+   "name": "Quentin Grimes",
+   "team": "LAL",
+   "from": "SF #1",
+   "to": "SG #2",
+   "promoted": false,
+   "projectedMin": 28.9
+  },
+  {
+   "date": "2026-10-22",
+   "playerId": "4278049",
+   "name": "Daniel Gafford",
+   "team": "DAL",
+   "from": "C #2",
+   "to": "C #1",
+   "promoted": true,
+   "projectedMin": 20.95
+  },
+  {
+   "date": "2026-10-22",
+   "playerId": "4397136",
+   "name": "Saddiq Bey",
+   "team": "NOP",
+   "from": "SF #2",
+   "to": "SF #3",
+   "promoted": false,
+   "projectedMin": 26.8
+  },
+  {
+   "date": "2026-10-22",
+   "playerId": "4592691",
+   "name": "Jake LaRavia",
+   "team": "LAL",
+   "from": "PF #1",
+   "to": "SF #2",
+   "promoted": false,
+   "projectedMin": 26.51
+  },
+  {
+   "date": "2026-10-22",
+   "playerId": "4683688",
+   "name": "Dereck Lively II",
+   "team": "DAL",
+   "from": "C #1",
+   "to": "C #2",
+   "promoted": false,
+   "projectedMin": 21.68
+  },
+  {
+   "date": "2026-10-22",
+   "playerId": "5254165",
+   "name": "Keaton Wagler",
+   "team": "LAC",
+   "from": "SG #1",
+   "to": "PG #2",
+   "promoted": false,
+   "projectedMin": 26.77
+  },
+  {
+   "date": "2026-10-22",
+   "playerId": "2991139",
+   "name": "Kris Dunn",
+   "team": "LAC",
+   "from": "PG #2",
+   "to": "SG #1",
+   "promoted": true,
+   "projectedMin": 21.73
+  },
+  {
+   "date": "2026-10-22",
+   "playerId": "4277813",
+   "name": "Herbert Jones",
+   "team": "NOP",
+   "from": "SF #1",
+   "to": "SF #2",
+   "promoted": false,
+   "projectedMin": 26.25
+  },
+  {
+   "date": "2026-10-22",
+   "playerId": "4433137",
+   "name": "Ziaire Williams",
+   "team": "LAL",
+   "from": "SG #3",
+   "to": "SF #1",
+   "promoted": true,
+   "projectedMin": 21.79
+  },
+  {
+   "date": "2026-10-22",
+   "playerId": "3907498",
+   "name": "Matisse Thybulle",
+   "team": "LAL",
+   "from": "SF #3",
+   "to": "PF #1",
+   "promoted": true,
+   "projectedMin": 17.24
   }
  ]
 }
