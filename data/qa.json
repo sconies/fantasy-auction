@@ -1,14 +1,14 @@
 {
- "builtAt": "2026-10-21T20:47:48.603Z",
+ "builtAt": "2026-10-22T08:10:24.153Z",
  "counts": {
   "players": 426,
   "espnProjected": 348,
   "fantasyPros": 264,
-  "depthChartPlayers": 516,
+  "depthChartPlayers": 517,
   "blended": 310,
   "espnOnly": 38,
   "modelOnly": 78,
-  "flagged": 119,
+  "flagged": 117,
   "newTeam": 130
  },
  "top200MissingFantasyPros": [
@@ -20,8 +20,7 @@
   "Brayden Burries"
  ],
  "top200MissingDepth": [
-  "Kevin Porter Jr.",
-  "Walter Clayton Jr."
+  "Kevin Porter Jr."
  ],
  "starters": 150,
  "problems": []

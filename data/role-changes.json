@@ -409,6 +409,46 @@
    "to": "PG #2",
    "promoted": true,
    "projectedMin": 20.07
+  },
+  {
+   "date": "2026-10-22",
+   "playerId": "4601023",
+   "name": "Oso Ighodaro",
+   "team": "PHX",
+   "from": "C #1",
+   "to": "C #2",
+   "promoted": false,
+   "projectedMin": 24.54
+  },
+  {
+   "date": "2026-10-22",
+   "playerId": "4432582",
+   "name": "Max Christie",
+   "team": "DAL",
+   "from": "SG #2",
+   "to": "SG #1",
+   "promoted": true,
+   "projectedMin": 26.94
+  },
+  {
+   "date": "2026-10-22",
+   "playerId": "5203685",
+   "name": "Khaman Maluach",
+   "team": "PHX",
+   "from": "C #2",
+   "to": "C #1",
+   "promoted": true,
+   "projectedMin": 21.67
+  },
+  {
+   "date": "2026-10-22",
+   "playerId": "5211175",
+   "name": "Zaccharie Risacher",
+   "team": "DAL",
+   "from": "SG #1",
+   "to": "SG #2",
+   "promoted": false,
+   "projectedMin": 21.57
   }
  ]
 }
