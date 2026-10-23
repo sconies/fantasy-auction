@@ -1,17 +1,35 @@
 {
- "builtAt": "2026-10-23T08:08:16.087Z",
+ "builtAt": "2026-10-23T20:34:25.377Z",
  "counts": {
-  "new": 9,
-  "toJudge": 9
+  "new": 14,
+  "toJudge": 14
  },
  "signals": [
+  {
+   "id": "injury:cb39e5184fb1",
+   "kind": "text",
+   "playerId": "4592691",
+   "name": "Jake LaRavia",
+   "team": "LAL",
+   "date": "2026-10-23T20:05Z",
+   "source": "injury",
+   "url": null,
+   "text": "LaRavia (ankle) has been ruled out for Friday's game against the Clippers, Mark Medina of TheSportingTribune.com reports.",
+   "flags": {
+    "absence": 0.78
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-23"
+  },
   {
    "id": "injury:3a505293f895",
    "kind": "text",
    "playerId": "3913174",
    "name": "Luke Kennard",
    "team": "PHX",
-   "date": "2026-10-23T07:01Z",
+   "date": "2026-10-23T20:00Z",
    "source": "injury",
    "url": null,
    "text": "Kennard (knee) won't play Wednesday versus Portland, Duane Rankin of The Arizona Republic reports.",
@@ -473,6 +491,24 @@
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "news:1865296e213f",
+   "kind": "text",
+   "playerId": "5061575",
+   "name": "Kon Knueppel",
+   "team": "CHA",
+   "date": "2026-10-23",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615478/kon-knueppel-hamstring-ruled-out-friday.php",
+   "text": "Kon Knueppel (hamstring) ruled out Friday Kon Knueppel has been ruled out for Friday's game against the Atlanta Hawks.  Fantasy Impact: Knueppel missed the Charlotte Hornets' season opener Wednesday and will remain sidelined for Friday's contest. With him unavailable, Sion James, Royce O'Neale and Grayson Allen are all in line for increased minutes. Knueppel's next opportunity to return comes Satu",
+   "flags": {
+    "absence": 0.93
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-23"
   },
   {
    "id": "outlook:13deaedf6e83",
@@ -1105,6 +1141,25 @@
    "firstSeen": "2026-10-06"
   },
   {
+   "id": "news:a882fc6758ff",
+   "kind": "text",
+   "playerId": "4395651",
+   "name": "Coby White",
+   "team": "CHA",
+   "date": "2026-10-23",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615477/coby-white-calf-ruled-out-friday.php",
+   "text": "Coby White (calf) ruled out Friday Coby White has been ruled out for Friday's game against the Atlanta Hawks.  Fantasy Impact: White will miss the Charlotte Hornets' second game of the season while recovering from a left calf strain. In his absence, Dennis Schroder is expected to start again. White's next opportunity to return comes on Saturday against the Miami Heat.",
+   "flags": {
+    "absence": 0.96,
+    "recovering": 0.85
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-23"
+  },
+  {
    "id": "outlook:e98874ce8531",
    "kind": "outlook",
    "playerId": "4395651",
@@ -1503,6 +1558,26 @@
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "news:147a7237237c",
+   "kind": "text",
+   "playerId": "6440",
+   "name": "Tobias Harris",
+   "team": "SAS",
+   "date": "2026-10-23",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615479/tobias-harris-calf-ruled-out-friday.php",
+   "text": "Tobias Harris (calf) ruled out Friday Tobias Harris has been ruled out for Friday's game against the Houston Rockets.  Fantasy Impact: Harris will have to wait to make his San Antonio Spurs debut, as he will miss the team's second game of the season while recovering from a left calf strain. His next opportunity to play comes Saturday against the Dallas Mavericks. With Harris sidelined, Dylan Harpe",
+   "flags": {
+    "absence": 0.97,
+    "recovering": 0.77,
+    "new_team": 0.76
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery; changed teams (traded, signed or claimed) since last season",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-23"
   },
   {
    "id": "outlook:cf93f7622955",
@@ -2228,6 +2303,37 @@
    "firstSeen": "2026-10-20"
   },
   {
+   "id": "news:0b0553b2031e",
+   "kind": "text",
+   "playerId": "4066218",
+   "name": "Grant Williams",
+   "team": "CHA",
+   "date": "2026-10-23",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615476/grant-williams-hamstring-ruled-out-friday.php",
+   "text": "Grant Williams (hamstring) ruled out Friday Grant Williams has been ruled out for Friday's game against the Atlanta Hawks.  Fantasy Impact: Williams will miss the Charlotte Hornets' second game of the season while recovering from a right hamstring strain. With him sidelined, Ryan Kalkbrenner and Royce O'Neale are expected to handle the majority of the frontcourt minutes off the bench. His next opp",
+   "flags": {
+    "absence": 0.94,
+    "recovering": 0.83
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-23"
+  },
+  {
+   "id": "depth:4683678:2026-10-23:PG #2",
+   "kind": "depth",
+   "playerId": "4683678",
+   "name": "Scoot Henderson",
+   "team": "POR",
+   "date": "2026-10-23",
+   "summary": "Depth chart PG #3 → PG #2",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-23"
+  },
+  {
    "id": "injury:aa961d368ad6",
    "kind": "text",
    "playerId": "6440",
@@ -2718,6 +2824,24 @@
    "handledNote": "game recap/already in projection; skipped"
   },
   {
+   "id": "news:d0737f795d32",
+   "kind": "text",
+   "playerId": "2530530",
+   "name": "T.J. McConnell",
+   "team": "IND",
+   "date": "2026-10-22",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615400/tj-mcconnell-hamstring-unavailable-friday.php",
+   "text": "T.J. McConnell (hamstring) unavailable for Friday T.J. McConnell (hamstring) is unavailable for Friday's game against the Dallas Mavericks.  Fantasy Impact: The veteran is set to miss a second-straight game on Friday as he continues to nurse his hamstring injury. His absence will continue to benefit Quenton Jackson and Jarace Walker for the foreseeable future.",
+   "flags": {
+    "absence": 0.95
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-23"
+  },
+  {
    "id": "news:4472a86bdb47",
    "kind": "text",
    "playerId": "5142718",
@@ -2766,24 +2890,6 @@
    "text": "Caleb Martin (thumb) won't play Friday Caleb Martin (thumb) won't play in Friday's game against the Indiana Pacers.  Fantasy Impact: Martin will be sidelined for a second-straight game on Friday as he continues to recover from a thumb issue. Fantasy managers should continue to expect Marcus Sasser to be one of the primary beneficiaries of his absence for the foreseeable future.",
    "flags": {
     "absence": 0.94
-   },
-   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
-   "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-23"
-  },
-  {
-   "id": "news:d0737f795d32",
-   "kind": "text",
-   "playerId": "2530530",
-   "name": "T.J. McConnell",
-   "team": "IND",
-   "date": "2026-10-22",
-   "source": "news",
-   "url": "https://www.fantasypros.com/nba/news/615400/tj-mcconnell-hamstring-unavailable-friday.php",
-   "text": "T.J. McConnell (hamstring) unavailable for Friday T.J. McConnell (hamstring) is unavailable for Friday's game against the Dallas Mavericks.  Fantasy Impact: The veteran is set to miss a second-straight game on Friday as he continues to nurse his hamstring injury. His absence will continue to benefit Quenton Jackson and Jarace Walker for the foreseeable future.",
-   "flags": {
-    "absence": 0.95
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,

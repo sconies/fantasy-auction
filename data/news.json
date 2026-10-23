@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-23T08:08:13.048Z",
+ "fetchedAt": "2026-10-23T20:34:23.829Z",
  "injuries": [
   {
    "name": "Mouhamed Gueye",
@@ -72,51 +72,6 @@
    "date": "2026-10-20T20:55Z",
    "returnDate": "2026-11-02",
    "injury": "Knee – Surgery"
-  },
-  {
-   "name": "Dailyn Swain",
-   "team": "Chicago Bulls",
-   "status": "Day-To-Day",
-   "comment": "Swain (illness) is questionable for Friday's game against the Bucks.",
-   "date": "2026-10-22T20:11Z",
-   "returnDate": "2026-10-23",
-   "injury": "Illness – Not Specified"
-  },
-  {
-   "name": "Jordan Hawkins",
-   "team": "Chicago Bulls",
-   "status": "Day-To-Day",
-   "comment": "Hawkins (illness) is questionable for Friday's game against the Bucks.",
-   "date": "2026-10-22T20:09Z",
-   "returnDate": "2026-10-23",
-   "injury": "Illness – Not Specified"
-  },
-  {
-   "name": "Zach Collins",
-   "team": "Chicago Bulls",
-   "status": "Day-To-Day",
-   "comment": "Collins (quadriceps) is probable for Friday's game against the Bucks.",
-   "date": "2026-10-22T20:07Z",
-   "returnDate": "2026-10-23",
-   "injury": "Quadriceps"
-  },
-  {
-   "name": "Tobe Awaka",
-   "team": "Chicago Bulls",
-   "status": "Day-To-Day",
-   "comment": "Awaka (knee) is probable for Friday's game against the Bucks.",
-   "date": "2026-10-22T20:05Z",
-   "returnDate": "2026-10-23",
-   "injury": "Knee – Sprain"
-  },
-  {
-   "name": "Josh Giddey",
-   "team": "Chicago Bulls",
-   "status": "Day-To-Day",
-   "comment": "Giddey (wrist) is probable for Friday's game against the Bucks.",
-   "date": "2026-10-22T20:04Z",
-   "returnDate": "2026-10-23",
-   "injury": "Wrist"
   },
   {
    "name": "Nic Claxton",
@@ -200,29 +155,20 @@
    "injury": "Knee – Sprain"
   },
   {
-   "name": "Taurean Prince",
-   "team": "Detroit Pistons",
-   "status": "Day-To-Day",
-   "comment": "Prince (personal) is listed as probable for Friday's game against the Heat.",
-   "date": "2026-10-22T19:04Z",
-   "returnDate": "2026-10-23",
-   "injury": "Personal"
-  },
-  {
    "name": "Charles Bassey",
    "team": "Golden State Warriors",
-   "status": "Day-To-Day",
-   "comment": "Bassey (knee) is listed as questionable for Friday's game against Memphis.",
-   "date": "2026-10-23T00:12Z",
-   "returnDate": "2026-10-23",
+   "status": "Out",
+   "comment": "Bassey (knee) is out for Friday's game versus the Grizzlies.",
+   "date": "2026-10-23T20:04Z",
+   "returnDate": "2026-10-24",
    "injury": "Knee"
   },
   {
    "name": "Brandin Podziemski",
    "team": "Golden State Warriors",
    "status": "Day-To-Day",
-   "comment": "Podziemski (back) is questionable for Friday's game against the Grizzlies.",
-   "date": "2026-10-23T00:04Z",
+   "comment": "Podziemski (back) is probable for Friday's game against the Grizzlies.",
+   "date": "2026-10-23T19:54Z",
    "returnDate": "2026-10-23",
    "injury": "Back – Soreness"
   },
@@ -353,6 +299,15 @@
    "injury": "Shoulder – Surgery"
   },
   {
+   "name": "Jake LaRavia",
+   "team": "Los Angeles Lakers",
+   "status": "Out",
+   "comment": "LaRavia (ankle) has been ruled out for Friday's game against the Clippers, Mark Medina of TheSportingTribune.com reports.",
+   "date": "2026-10-23T20:05Z",
+   "returnDate": "2026-10-25",
+   "injury": "Ankle – Sprain"
+  },
+  {
    "name": "Adou Thiero",
    "team": "Los Angeles Lakers",
    "status": "Out",
@@ -369,15 +324,6 @@
    "date": "2026-10-23T00:10Z",
    "returnDate": "2026-10-25",
    "injury": "Oblique – Strain"
-  },
-  {
-   "name": "Jake LaRavia",
-   "team": "Los Angeles Lakers",
-   "status": "Day-To-Day",
-   "comment": "LaRavia (ankle) is listed as questionable for Friday's game against the Clippers.",
-   "date": "2026-10-23T00:10Z",
-   "returnDate": "2026-10-23",
-   "injury": "Ankle – Sprain"
   },
   {
    "name": "Cedric Coward",
@@ -407,6 +353,15 @@
    "injury": "Achilles – Surgery"
   },
   {
+   "name": "Otega Oweh",
+   "team": "Oklahoma City Thunder",
+   "status": "Out",
+   "comment": "The Thunder plan to waive Oweh (Achilles) on Friday.",
+   "date": "2026-10-23T18:52Z",
+   "returnDate": "2027-07-01",
+   "injury": "Achilles – Surgery"
+  },
+  {
    "name": "Nikola Topic",
    "team": "Oklahoma City Thunder",
    "status": "Out",
@@ -425,20 +380,11 @@
    "injury": "Knee – Surgery"
   },
   {
-   "name": "Otega Oweh",
-   "team": "Oklahoma City Thunder",
-   "status": "Out",
-   "comment": "Oweh (Achilles) underwent surgery Wednesday and will miss the entirety of the 2026-27 season, Brandon Rahbar of DailyThunder.com reports.",
-   "date": "2026-10-15T01:22Z",
-   "returnDate": "2027-07-01",
-   "injury": "Achilles – Surgery"
-  },
-  {
    "name": "Anthony Black",
    "team": "Orlando Magic",
    "status": "Out",
-   "comment": "Black (ankle) has been ruled out for Friday's game against the Timberwolves.",
-   "date": "2026-10-22T20:21Z",
+   "comment": "Black (ankle) has been ruled out for Friday's game against Minnesota but participated in shootaround and has experienced no setbacks in his recovery, Jason Beede of the Orlando Sentinel reports.",
+   "date": "2026-10-23T16:06Z",
    "returnDate": "2026-10-25",
    "injury": "Ankle – Sprain"
   },
@@ -468,6 +414,15 @@
    "date": "2026-09-28T21:33Z",
    "returnDate": "2026-11-18",
    "injury": "Ankle – Surgery"
+  },
+  {
+   "name": "Joel Embiid",
+   "team": "Philadelphia 76ers",
+   "status": "Day-To-Day",
+   "comment": "Embiid recorded 24 points (8-16 FG, 1-4 3Pt, 7-9 FT), seven rebounds and one assist in 34 minutes during Thursday's 114-106 win over the Cavaliers.",
+   "date": "2026-10-23T14:03Z",
+   "returnDate": "2026-10-24",
+   "injury": "Rest"
   },
   {
    "name": "Tacko Fall",
@@ -510,7 +465,7 @@
    "team": "Phoenix Suns",
    "status": "Day-To-Day",
    "comment": "Kennard (knee) won't play Wednesday versus Portland, Duane Rankin of The Arizona Republic reports.",
-   "date": "2026-10-23T07:01Z",
+   "date": "2026-10-23T20:00Z",
    "returnDate": "2026-10-24",
    "injury": "Knee – Strain"
   },
@@ -560,15 +515,6 @@
    "injury": "Knee – Surgery"
   },
   {
-   "name": "Malik Monk",
-   "team": "Sacramento Kings",
-   "status": "Day-To-Day",
-   "comment": "Monk (ankle) is probable for Friday's game against Portland.",
-   "date": "2026-10-22T23:49Z",
-   "returnDate": "2026-10-23",
-   "injury": "Ankle – Soreness"
-  },
-  {
    "name": "Ben Simmons",
    "team": "Sacramento Kings",
    "status": "Out",
@@ -596,22 +542,22 @@
    "injury": "Knee – Dislocated"
   },
   {
-   "name": "De'Aaron Fox",
-   "team": "San Antonio Spurs",
-   "status": "Day-To-Day",
-   "comment": "Fox (wrist) is questionable to play in Friday's game against the Rockets.",
-   "date": "2026-10-22T22:11Z",
-   "returnDate": "2026-10-23",
-   "injury": "Wrist – Sprain"
-  },
-  {
    "name": "Keldon Johnson",
    "team": "San Antonio Spurs",
    "status": "Day-To-Day",
-   "comment": "Johnson is listed as questionable for Friday's game against the Rockets due to a mouth laceration.",
-   "date": "2026-10-22T22:05Z",
+   "comment": "Johnson (mouth) participated in shooting drills after Friday's morning shootaround, per Tom Orsborn of the San Antonio Express-News.",
+   "date": "2026-10-23T17:38Z",
    "returnDate": "2026-10-23",
    "injury": "Mouth – Laceration"
+  },
+  {
+   "name": "De'Aaron Fox",
+   "team": "San Antonio Spurs",
+   "status": "Day-To-Day",
+   "comment": "Fox (wrist) participated in Friday's morning shootaround, Tom Orsborn of the San Antonio Express-News reports.",
+   "date": "2026-10-23T17:37Z",
+   "returnDate": "2026-10-23",
+   "injury": "Wrist – Sprain"
   },
   {
    "name": "Tobias Harris",
@@ -648,15 +594,6 @@
    "date": "2026-10-22T23:02Z",
    "returnDate": "2026-10-25",
    "injury": "Knee – Bruise"
-  },
-  {
-   "name": "Tony Bradley",
-   "team": "Utah Jazz",
-   "status": "Day-To-Day",
-   "comment": "Bradley (quadriceps) is questionable for Friday's game against New Orleans.",
-   "date": "2026-10-22T23:02Z",
-   "returnDate": "2026-10-23",
-   "injury": "Quadriceps – Strain"
   },
   {
    "name": "Jusuf Nurkic",
@@ -705,6 +642,119 @@
   }
  ],
  "articles": [
+  {
+   "headline": "'Can you be any worse?' Eisen sounds off on Dolan for phishing test",
+   "description": "'Can you be any worse?' Eisen sounds off on Dolan for phishing test",
+   "published": "2026-10-23T18:15:32Z",
+   "url": "https://www.espn.com/video/clip/_/id/50259421/can-worse-eisen-sounds-dolan-phishing-test",
+   "athletes": []
+  },
+  {
+   "headline": "Friday's fantasy basketball adds and bets we like in the NBA",
+   "description": "Andre Snellings breaks down Friday's games, highlighting the fantasy streamers to add and bets to make.",
+   "published": "2026-10-23T18:10:15Z",
+   "url": "https://www.espn.com/fantasy/basketball/story/_/id/50258585/fantasy-basketball-tips-nba-betting-picks-today",
+   "athletes": [
+    "Keaton Wagler",
+    "Yves Missi",
+    "Jonathan Kuminga",
+    "Moussa Diabate"
+   ]
+  },
+  {
+   "headline": "Ex-Laker Dalton Knecht joins Knicks on two-way contract",
+   "description": "Former Lakers first-round pick Dalton Knecht has agreed to a two-way deal with the Knicks, his agents told ESPN's Shams Charania.",
+   "published": "2026-10-23T15:59:21Z",
+   "url": "https://www.espn.com/nba/story/_/id/50258464/ex-laker-dalton-knecht-joins-knicks-two-way-contract",
+   "athletes": [
+    "Dalton Knecht"
+   ]
+  },
+  {
+   "headline": "'That is so disrespectful!' 'Unsportsmanlike' discusses Dolan's ring phishing test",
+   "description": "'That is so disrespectful!' 'Unsportsmanlike' discusses Dolan's ring phishing test",
+   "published": "2026-10-23T15:59:29Z",
+   "url": "https://www.espn.com/video/clip/_/id/50258449/that-disrespectful-unsportsmanlike-discusses-dolan-ring-phishing-test",
+   "athletes": []
+  },
+  {
+   "headline": "Phishing email to Knicks employees an 'unfortunate mistake,' MSG spokesman says",
+   "description": "A Madison Square Garden spokesman admitted fault that employees in Knicks business operations and at the arena received a phishing email posing as an opportunity to claim an NBA championship ring, calling the incident \"an unfortunate mistake.\"",
+   "published": "2026-10-23T18:59:16Z",
+   "url": "https://www.espn.com/nba/story/_/id/50258240/report-knicks-coaches-get-empty-ring-boxes-staff-phished",
+   "athletes": []
+  },
+  {
+   "headline": "NBA buzz: Latest on trades, news, roster moves and intel",
+   "description": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
+   "published": "2026-10-23T14:56:48Z",
+   "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+   "athletes": []
+  },
+  {
+   "headline": "Stephen A.: 76ers' biggest strength is their togetherness as a team",
+   "description": "Stephen A.: 76ers' biggest strength is their togetherness as a team",
+   "published": "2026-10-23T14:49:49Z",
+   "url": "https://www.espn.com/video/clip/_/id/50258115/76ers-biggest-strength-their-togetherness-team",
+   "athletes": [
+    "Jaylen Brown",
+    "LeBron James",
+    "Tyrese Maxey",
+    "Joel Embiid"
+   ]
+  },
+  {
+   "headline": "Jay-Z's greatest sports lyrics, ranked ahead of his SoFi Stadium show",
+   "description": "Jay-Z's catalog is packed with sports references -- here are the ones that top our list.",
+   "published": "2026-10-23T13:07:07Z",
+   "url": "https://www.espn.com/espn/story/_/id/50232827/jayz-best-sports-references-sofi-stadium",
+   "athletes": [
+    "LeBron James"
+   ]
+  },
+  {
+   "headline": "Is this the greatest 'Who He Play For?' of all time?",
+   "description": "Is this the greatest 'Who He Play For?' of all time?",
+   "published": "2026-10-23T12:50:30Z",
+   "url": "https://www.espn.com/video/clip/_/id/50257301/is-greatest-play-all",
+   "athletes": []
+  },
+  {
+   "headline": "Is this LeBron's best start with a new team?",
+   "description": "Is this LeBron's best start with a new team?",
+   "published": "2026-10-23T12:43:33Z",
+   "url": "https://www.espn.com/video/clip/_/id/50257232/is-lebron-best-start-new-team",
+   "athletes": [
+    "LeBron James"
+   ]
+  },
+  {
+   "headline": "NBA opening week intel: New trend in contract talks; OKC's pricey future",
+   "description": "Why star contract negotiations have shifted, why OKC is preparing for more roster changes and more intel from opening week.",
+   "published": "2026-10-23T12:50:26Z",
+   "url": "https://www.espn.com/nba/story/_/id/50241622/contract-talks-thunder-payroll-opening-week",
+   "athletes": [
+    "LeBron James",
+    "Aday Mara",
+    "Victor Wembanyama",
+    "Tyrese Maxey",
+    "Karl-Anthony Towns"
+   ]
+  },
+  {
+   "headline": "What worked (and didn't) in 12 NBA season debuts: LeBron, LaMelo, more stars",
+   "description": "Which stars shined with their new teams? Which might want a do-over? Ben Golliver examines 12 opening week debuts.",
+   "published": "2026-10-23T16:01:17Z",
+   "url": "https://www.espn.com/nba/story/_/id/50241906/lebron-lamelo-kawhi-newcomer-season-debuts",
+   "athletes": []
+  },
+  {
+   "headline": "Charles Barkley 'clearly didn't do his homework'",
+   "description": "Charles Barkley might want to hit the books after a seriously rough outing on Inside the NBA's 'who he play for?'",
+   "published": "2026-10-23T17:05:15Z",
+   "url": "https://www.espn.com/video/clip/_/id/50256038/charles-barkley-clearly-do-homework",
+   "athletes": []
+  },
   {
    "headline": "Maxey, Sixers turn Philly boos into cheers in 29-point comeback over Cavaliers",
    "description": "Booed after trailing by 24 at the half, the Sixers rode a game-high 32 points from Tyrese Maxey to erase a 29-point deficit and stun the Cavs 114-106 on Thursday.",
@@ -1036,114 +1086,6 @@
    "published": "2026-10-22T06:05:15Z",
    "url": "http://www.espn.com/nba/preview?gameId=401909096",
    "athletes": []
-  },
-  {
-   "headline": "Washington and Toronto meet in conference showdown",
-   "description": "Toronto Raptors (1-0, fourth in the Eastern Conference) vs. Washington Wizards (1-0, fifth in the Eastern Conference)",
-   "published": "2026-10-22T06:05:14Z",
-   "url": "http://www.espn.com/nba/preview?gameId=401909846",
-   "athletes": []
-  },
-  {
-   "headline": "Sacramento and Portland meet in conference matchup",
-   "description": "Portland Trail Blazers vs. Sacramento Kings",
-   "published": "2026-10-22T06:05:13Z",
-   "url": "http://www.espn.com/nba/preview?gameId=401909852",
-   "athletes": []
-  },
-  {
-   "headline": "Dallas travels to Indiana for non-conference matchup",
-   "description": "Dallas Mavericks (0-1, ninth in the Western Conference) vs. Indiana Pacers (1-0, seventh in the Eastern Conference)",
-   "published": "2026-10-22T06:05:12Z",
-   "url": "http://www.espn.com/nba/preview?gameId=401909844",
-   "athletes": []
-  },
-  {
-   "headline": "New York plays Boston for conference showdown",
-   "description": "New York Knicks (0-1, eighth in the Eastern Conference) vs. Boston Celtics (0-1, 11th in the Eastern Conference)",
-   "published": "2026-10-22T06:05:11Z",
-   "url": "http://www.espn.com/nba/preview?gameId=401909095",
-   "athletes": []
-  },
-  {
-   "headline": "Miami takes on Detroit in conference matchup",
-   "description": "Detroit Pistons (1-0, first in the Eastern Conference) vs. Miami Heat (0-1, 14th in the Eastern Conference)",
-   "published": "2026-10-22T06:05:09Z",
-   "url": "http://www.espn.com/nba/preview?gameId=401909847",
-   "athletes": []
-  },
-  {
-   "headline": "Utah hosts New Orleans in conference showdown",
-   "description": "New Orleans Pelicans vs. Utah Jazz",
-   "published": "2026-10-22T06:05:08Z",
-   "url": "http://www.espn.com/nba/preview?gameId=401909849",
-   "athletes": []
-  },
-  {
-   "headline": "Kyrie Irving hounded by Rockets in return, held in check in Mavs' blowout loss",
-   "description": "With the Rockets focused on trapping him, Kyrie Irving was held to 15 points in his first regular-season game since March 2025 and the Mavs fell 128-110.",
-   "published": "2026-10-22T08:26:33Z",
-   "url": "https://www.espn.com/nba/story/_/id/50245548/kyrie-irving-held-check-rockets-mavs-blowout-loss",
-   "athletes": [
-    "Kyrie Irving"
-   ]
-  },
-  {
-   "headline": "Jason Cadee: \"He's gone through things that none of us ever will understand.\"",
-   "description": "ESPN's Olgun Uluc and Jason Cadee discuss Ben Simmons' devastating season-ending injury on the eve of the NBA season and the deflating feeling for basketball fans worldwide in Simmons' dashed comeback attempt.",
-   "published": "2026-10-22T05:16:35Z",
-   "url": "https://www.espn.com/video/clip/_/id/50245434/gone-things-us-ever-understand",
-   "athletes": [
-    "Ben Simmons"
-   ]
-  },
-  {
-   "headline": "Kawhi-less Clippers roll past the Kings in a wire-to-wire season-opening rout",
-   "description": "— Darius Garland scored 30 points and the Clippers routed the Sacramento Kings 121-96 on Wednesday night in Los Angeles' first season opener without ",
-   "published": "2026-10-22T05:12:09Z",
-   "url": "http://www.espn.com/nba/recap?gameId=401909842",
-   "athletes": []
-  },
-  {
-   "headline": "Sacramento Kings vs. LA Clippers: Game Highlights",
-   "description": "Sacramento Kings vs. LA Clippers: Game Highlights",
-   "published": "2026-10-22T17:13:07Z",
-   "url": "https://www.espn.com/video/clip/_/id/50245413/game-highlights",
-   "athletes": [
-    "Zach LaVine",
-    "Domantas Sabonis",
-    "Isaiah Jackson",
-    "Darius Garland",
-    "Daeqwon Plowden",
-    "Derrick Jones Jr"
-   ]
-  },
-  {
-   "headline": "Walker Kessler has perfect Lakers debut with 12-for-12 shooting in 127-105 win over Warriors",
-   "description": "— Walker Kessler scored 26 points on 12-for-12 shooting and grabbed nine rebounds during his auspicious debut for the Los Angeles Lakers in a 127-105 victory over the Golden State Warriors on Wednesday night.",
-   "published": "2026-10-22T04:52:09Z",
-   "url": "http://www.espn.com/nba/recap?gameId=401909092",
-   "athletes": []
-  },
-  {
-   "headline": "Tyrese Haliburton leads Pacers' opening-night win in emotional return from injury",
-   "description": "An emotional Tyrese Haliburton made his long-awaited return from the Achilles tear he suffered in Game 7 of the 2025 NBA Finals, as he led the Pacers to a gritty season-opening win over the Pelicans.",
-   "published": "2026-10-22T05:55:45Z",
-   "url": "https://www.espn.com/nba/story/_/id/50245316/tyrese-haliburton-leads-pacers-opening-night-win-vs-pelicans-emotional-return-injury",
-   "athletes": [
-    "Tyrese Haliburton"
-   ]
-  },
-  {
-   "headline": "Lakers thrash Warriors to open the season",
-   "description": "Lakers thrash Warriors to open the season",
-   "published": "2026-10-22T04:45:15Z",
-   "url": "https://www.espn.com/video/clip/_/id/50245265/lakers-thrash-warriors-open-season",
-   "athletes": [
-    "Stephen Curry",
-    "Luka Doncic",
-    "Walker Kessler"
-   ]
   }
  ]
 }
