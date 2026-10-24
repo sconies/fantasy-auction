@@ -569,6 +569,56 @@
    "to": "PG #2",
    "promoted": true,
    "projectedMin": 25.38
+  },
+  {
+   "date": "2026-10-24",
+   "playerId": "4873138",
+   "name": "Ace Bailey",
+   "team": "UTA",
+   "from": "SF #2",
+   "to": "SF #1",
+   "promoted": true,
+   "projectedMin": 26.72
+  },
+  {
+   "date": "2026-10-24",
+   "playerId": "4684793",
+   "name": "Kyle Filipowski",
+   "team": "UTA",
+   "from": "PF #3",
+   "to": "PF #2",
+   "promoted": true,
+   "projectedMin": 20.84
+  },
+  {
+   "date": "2026-10-24",
+   "playerId": "4592492",
+   "name": "Bones Hyland",
+   "team": "MIN",
+   "from": "PG #3",
+   "to": "PG #2",
+   "promoted": true,
+   "projectedMin": 14.73
+  },
+  {
+   "date": "2026-10-24",
+   "playerId": "4397077",
+   "name": "Jaxson Hayes",
+   "team": "UTA",
+   "from": "C #1",
+   "to": "C #2",
+   "promoted": false,
+   "projectedMin": 15.94
+  },
+  {
+   "date": "2026-10-24",
+   "playerId": "3136196",
+   "name": "Trey Lyles",
+   "team": "MIN",
+   "from": "PF #4",
+   "to": "PF #2",
+   "promoted": true,
+   "projectedMin": 18.37
   }
  ]
 }
