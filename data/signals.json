@@ -20,8 +20,9 @@
    },
    "summary": "changed teams (traded, signed or claimed) since last season",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-24"
+   "status": "handled",
+   "firstSeen": "2026-10-24",
+   "handledNote": "no proposal: preseason trade already in projection"
   },
   {
    "id": "headline:66b726b2aa86",
@@ -38,8 +39,9 @@
    },
    "summary": "is expected to start or has been named a starter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-24"
+   "status": "handled",
+   "firstSeen": "2026-10-24",
+   "handledNote": "no proposal: day-to-day / restates projection"
   },
   {
    "id": "injury:6a74d3fe2f8e",
@@ -75,8 +77,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-23"
+   "status": "handled",
+   "firstSeen": "2026-10-23",
+   "handledNote": "single-game absence; automatic injury proposal and cascade"
   },
   {
    "id": "injury:f2bfc70063c3",
@@ -93,8 +96,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-23"
+   "status": "handled",
+   "firstSeen": "2026-10-23",
+   "handledNote": "single-game absence; automatic injury proposal and cascade"
   },
   {
    "id": "injury:491daabe839d",
@@ -111,8 +115,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-23"
+   "status": "handled",
+   "firstSeen": "2026-10-23",
+   "handledNote": "single-game absence; automatic injury proposal and cascade"
   },
   {
    "id": "injury:67763af36a7e",
@@ -129,8 +134,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-23"
+   "status": "handled",
+   "firstSeen": "2026-10-23",
+   "handledNote": "single-game absence; automatic injury proposal and cascade"
   },
   {
    "id": "injury:8f939ad0d4c5",
@@ -185,8 +191,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-24"
+   "status": "handled",
+   "firstSeen": "2026-10-24",
+   "handledNote": "single-game absence; automatic injury proposal and cascade"
   },
   {
    "id": "injury:bf23ed598c9b",
@@ -203,8 +210,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-24"
+   "status": "handled",
+   "firstSeen": "2026-10-24",
+   "handledNote": "single-game absence; automatic injury proposal and cascade"
   },
   {
    "id": "injury:00fd890fb8d3",
@@ -221,8 +229,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-24"
+   "status": "handled",
+   "firstSeen": "2026-10-24",
+   "handledNote": "single-game absence; automatic injury proposal and cascade"
   },
   {
    "id": "outlook:93085015339d",
@@ -2424,8 +2433,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-24"
+   "status": "handled",
+   "firstSeen": "2026-10-24",
+   "handledNote": "single-game absence; automatic injury proposal and cascade"
   },
   {
    "id": "injury:dd99cee71161",
@@ -2442,8 +2452,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-24"
+   "status": "handled",
+   "firstSeen": "2026-10-24",
+   "handledNote": "2026-10-24-bsheppard-meniscus"
   },
   {
    "id": "injury:cb39e5184fb1",
@@ -2460,8 +2471,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-23"
+   "status": "handled",
+   "firstSeen": "2026-10-23",
+   "handledNote": "single-game absence; automatic injury proposal and cascade"
   },
   {
    "id": "injury:3a505293f895",
@@ -2497,8 +2509,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-23"
+   "status": "handled",
+   "firstSeen": "2026-10-23",
+   "handledNote": "single-game absence; automatic injury proposal and cascade"
   },
   {
    "id": "news:1865296e213f",
@@ -2515,8 +2528,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-23"
+   "status": "handled",
+   "firstSeen": "2026-10-23",
+   "handledNote": "single-game absence; automatic injury proposal and cascade"
   },
   {
    "id": "news:a882fc6758ff",
@@ -2534,8 +2548,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-23"
+   "status": "handled",
+   "firstSeen": "2026-10-23",
+   "handledNote": "single-game absence; automatic injury proposal and cascade"
   },
   {
    "id": "news:147a7237237c",
@@ -2554,8 +2569,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery; changed teams (traded, signed or claimed) since last season",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-23"
+   "status": "handled",
+   "firstSeen": "2026-10-23",
+   "handledNote": "single-game absence; automatic injury proposal and cascade"
   },
   {
    "id": "news:0b0553b2031e",
@@ -2573,8 +2589,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-23"
+   "status": "handled",
+   "firstSeen": "2026-10-23",
+   "handledNote": "single-game absence; automatic injury proposal and cascade"
   },
   {
    "id": "depth:4683678:2026-10-23:PG #2",
@@ -2603,8 +2620,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-23"
+   "status": "handled",
+   "firstSeen": "2026-10-23",
+   "handledNote": "single-game absence; automatic injury proposal and cascade"
   },
   {
    "id": "injury:547315940221",
@@ -2964,8 +2982,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-23"
+   "status": "handled",
+   "firstSeen": "2026-10-23",
+   "handledNote": "single-game absence; automatic injury proposal and cascade"
   },
   {
    "id": "news:4472a86bdb47",
@@ -3001,8 +3020,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-23"
+   "status": "handled",
+   "firstSeen": "2026-10-23",
+   "handledNote": "single-game absence; automatic injury proposal and cascade"
   },
   {
    "id": "news:9afaf8600f4b",
@@ -3019,8 +3039,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-23"
+   "status": "handled",
+   "firstSeen": "2026-10-23",
+   "handledNote": "single-game absence; automatic injury proposal and cascade"
   },
   {
    "id": "news:5f057954daf7",

@@ -29,6 +29,16 @@
    "reason": "RotoWire (2026-10-20): cleared from illness but \"isn't expected to be a big part of the team's rotation for the foreseeable future\". Not on the Miami depth chart, yet projected 23 mpg; cut to 12 as a deep-bench role.",
    "source": "",
    "signalId": "news:e19ab79c8dd8"
+  },
+  {
+   "id": "2026-10-24-bsheppard-meniscus",
+   "playerId": "4433076",
+   "name": "Ben Sheppard",
+   "date": "2026-10-24",
+   "gamesDelta": -20,
+   "reason": "Diagnosed with a torn meniscus in his left knee, no timetable for return (Scott Agness, FieldhouseFiles.com). Meniscus tears typically cost 6-10 weeks or more; -20 games from his 63 projected, about 25% of a season.",
+   "source": "https://www.fieldhousefiles.com",
+   "signalId": "injury:dd99cee71161"
   }
  ]
 }
