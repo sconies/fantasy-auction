@@ -619,6 +619,26 @@
    "to": "PF #2",
    "promoted": true,
    "projectedMin": 18.37
+  },
+  {
+   "date": "2026-10-25",
+   "playerId": "4432573",
+   "name": "Paolo Banchero",
+   "team": "ORL",
+   "from": "PF #1",
+   "to": "PF #5",
+   "promoted": false,
+   "projectedMin": 33.75
+  },
+  {
+   "date": "2026-10-25",
+   "playerId": "4702382",
+   "name": "Tristan da Silva",
+   "team": "ORL",
+   "from": "PF #2",
+   "to": "PF #1",
+   "promoted": true,
+   "projectedMin": 20.67
   }
  ]
 }

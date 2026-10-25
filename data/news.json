@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-25T07:57:51.608Z",
+ "fetchedAt": "2026-10-25T19:51:09.552Z",
  "injuries": [
   {
    "name": "Mouhamed Gueye",
@@ -29,22 +29,22 @@
    "injury": "Illness"
   },
   {
+   "name": "Tyler Bilodeau",
+   "team": "Brooklyn Nets",
+   "status": "Out",
+   "comment": "Bilodeau (shoulder) has been ruled out for Sunday's game against Indiana.",
+   "date": "2026-10-25T17:19Z",
+   "returnDate": "2026-10-27",
+   "injury": "Shoulder – Sprain"
+  },
+  {
    "name": "Mikel Brown Jr.",
    "team": "Brooklyn Nets",
    "status": "Out",
    "comment": "Head coach Jordi Fernandez said Brown (rest) will be held out of Sunday's game against the Pacers, Brian Lewis of the New York Post reports.",
-   "date": "2026-10-25T02:32Z",
+   "date": "2026-10-25T13:40Z",
    "returnDate": "2026-10-27",
    "injury": "Rest"
-  },
-  {
-   "name": "Tyler Bilodeau",
-   "team": "Brooklyn Nets",
-   "status": "Out",
-   "comment": "Bilodeau (shoulder) has been ruled out for Saturday's game in Cleveland.",
-   "date": "2026-10-23T21:08Z",
-   "returnDate": "2026-10-25",
-   "injury": "Shoulder"
   },
   {
    "name": "Grant Williams",
@@ -85,18 +85,18 @@
   {
    "name": "Patrick Williams",
    "team": "Chicago Bulls",
-   "status": "Out",
-   "comment": "Williams (groin) is out for Saturday's game versus the Wizards, Joel Lorenzi of The Athletic reports.",
-   "date": "2026-10-24T22:22Z",
+   "status": "Day-To-Day",
+   "comment": "Williams (groin) is listed as questionable for Monday's game against Boston.",
+   "date": "2026-10-25T17:52Z",
    "returnDate": "2026-10-26",
    "injury": "Groin – Soreness"
   },
   {
    "name": "Noa Essengue",
    "team": "Chicago Bulls",
-   "status": "Out",
-   "comment": "Essengue (head) won't suit up for Saturday's game against the Wizards, Joel Lorenzi of The Athletic reports.",
-   "date": "2026-10-24T22:20Z",
+   "status": "Day-To-Day",
+   "comment": "Essengue (head) is listed as questionable for Monday's game against Boston.",
+   "date": "2026-10-25T17:50Z",
    "returnDate": "2026-10-26",
    "injury": "Head – Bruise"
   },
@@ -112,9 +112,9 @@
   {
    "name": "Kyrie Irving",
    "team": "Dallas Mavericks",
-   "status": "Out",
+   "status": "Day-To-Day",
    "comment": "Irving is out for Saturday's game against the Spurs due to rest, Christian Clark of The Athletic reports.",
-   "date": "2026-10-24T22:20Z",
+   "date": "2026-10-25T13:37Z",
    "returnDate": "2026-10-26",
    "injury": "Knee"
   },
@@ -164,31 +164,31 @@
    "injury": "Foot – Surgery"
   },
   {
-   "name": "Alpha Diallo",
+   "name": "Spencer Jones",
    "team": "Denver Nuggets",
-   "status": "Out",
-   "comment": "Diallo (wrist) won't play Saturday against the Pelicans.",
-   "date": "2026-10-25T00:03Z",
+   "status": "Day-To-Day",
+   "comment": "Jones (hamstring) is out for Saturday's game against the Pelicans.",
+   "date": "2026-10-25T13:38Z",
    "returnDate": "2026-10-26",
-   "injury": "Wrist"
+   "injury": "Hamstring – Not Specified"
   },
   {
    "name": "Cameron Johnson",
    "team": "Denver Nuggets",
-   "status": "Out",
+   "status": "Day-To-Day",
    "comment": "Head coach David Aldeman said that Johnson is \"day-to-day\" due to his sprained right ankle, Vinny Benedetto of The Denver Gazette reports.",
-   "date": "2026-10-24T23:47Z",
+   "date": "2026-10-25T13:38Z",
    "returnDate": "2026-10-26",
    "injury": "Ankle – Sprain"
   },
   {
-   "name": "Spencer Jones",
+   "name": "Alpha Diallo",
    "team": "Denver Nuggets",
-   "status": "Out",
-   "comment": "Jones (hamstring) is out for Saturday's game against the Pelicans.",
-   "date": "2026-10-23T23:09Z",
+   "status": "Day-To-Day",
+   "comment": "Diallo (wrist) won't play Saturday against the Pelicans.",
+   "date": "2026-10-25T13:38Z",
    "returnDate": "2026-10-26",
-   "injury": "Hamstring – Not Specified"
+   "injury": "Wrist"
   },
   {
    "name": "Julian Strawther",
@@ -203,8 +203,8 @@
    "name": "Ausar Thompson",
    "team": "Detroit Pistons",
    "status": "Day-To-Day",
-   "comment": "Thompson (ankle) is listed as questionable for Sunday's game against Philadelphia.",
-   "date": "2026-10-24T20:14Z",
+   "comment": "Thompson (ankle) did not participate in Sunday morning's shootaround, Coty M. Davis of The Detroit News reports.",
+   "date": "2026-10-25T15:48Z",
    "returnDate": "2026-10-25",
    "injury": "Ankle – Sprain"
   },
@@ -212,10 +212,46 @@
    "name": "Jalen Duren",
    "team": "Detroit Pistons",
    "status": "Out",
-   "comment": "Duren has been ruled out for Sunday's game against the 76ers due to a right hamstring strain, Eric Vincent of ClutchPoints.com reports.",
-   "date": "2026-10-24T20:08Z",
-   "returnDate": "2026-10-27",
+   "comment": "Duren will be re-evaluated in two weeks due to a right hamstring strain, Eric Vincent of ClutchPoints.com reports.",
+   "date": "2026-10-25T14:56Z",
+   "returnDate": "2026-11-09",
    "injury": "Hamstring – Strain"
+  },
+  {
+   "name": "Brandin Podziemski",
+   "team": "Golden State Warriors",
+   "status": "Day-To-Day",
+   "comment": "Podziemski (back) told reporters Friday that he will not play in the second leg of the Warriors' back-to-back set Saturday against the Suns, Nick Friedell of The Athletic reports.",
+   "date": "2026-10-25T13:38Z",
+   "returnDate": "2026-10-26",
+   "injury": "Back"
+  },
+  {
+   "name": "Al Horford",
+   "team": "Golden State Warriors",
+   "status": "Day-To-Day",
+   "comment": "Horford (back) has been ruled out for Saturday's game against the Suns.",
+   "date": "2026-10-25T13:38Z",
+   "returnDate": "2026-10-26",
+   "injury": "Back"
+  },
+  {
+   "name": "Draymond Green",
+   "team": "Golden State Warriors",
+   "status": "Day-To-Day",
+   "comment": "Green (back) won't play Saturday in Phoenix.",
+   "date": "2026-10-25T13:38Z",
+   "returnDate": "2026-10-26",
+   "injury": "Back"
+  },
+  {
+   "name": "Stephen Curry",
+   "team": "Golden State Warriors",
+   "status": "Day-To-Day",
+   "comment": "Curry (rest) won't play Saturday against the Suns.",
+   "date": "2026-10-25T13:38Z",
+   "returnDate": "2026-10-26",
+   "injury": "Rest"
   },
   {
    "name": "Gui Santos",
@@ -225,42 +261,6 @@
    "date": "2026-10-25T04:58Z",
    "returnDate": "2026-10-26",
    "injury": "Undisclosed"
-  },
-  {
-   "name": "Draymond Green",
-   "team": "Golden State Warriors",
-   "status": "Out",
-   "comment": "Green (back) won't play Saturday in Phoenix.",
-   "date": "2026-10-25T00:33Z",
-   "returnDate": "2026-10-26",
-   "injury": "Back"
-  },
-  {
-   "name": "Al Horford",
-   "team": "Golden State Warriors",
-   "status": "Out",
-   "comment": "Horford (back) has been ruled out for Saturday's game against the Suns.",
-   "date": "2026-10-24T20:20Z",
-   "returnDate": "2026-10-26",
-   "injury": "Back"
-  },
-  {
-   "name": "Stephen Curry",
-   "team": "Golden State Warriors",
-   "status": "Out",
-   "comment": "Curry (rest) won't play Saturday against the Suns.",
-   "date": "2026-10-24T20:08Z",
-   "returnDate": "2026-10-26",
-   "injury": "Rest"
-  },
-  {
-   "name": "Brandin Podziemski",
-   "team": "Golden State Warriors",
-   "status": "Out",
-   "comment": "Podziemski (back) told reporters Friday that he will not play in the second leg of the Warriors' back-to-back set Saturday against the Suns, Nick Friedell of The Athletic reports.",
-   "date": "2026-10-24T14:11Z",
-   "returnDate": "2026-10-26",
-   "injury": "Back"
   },
   {
    "name": "Kristaps Porzingis",
@@ -290,31 +290,31 @@
    "injury": "Knee – Surgery"
   },
   {
+   "name": "Fred VanVleet",
+   "team": "Houston Rockets",
+   "status": "Day-To-Day",
+   "comment": "VanVleet (knee) has been ruled out for Saturday's game against the Hawks.",
+   "date": "2026-10-25T13:36Z",
+   "returnDate": "2026-10-26",
+   "injury": "Knee"
+  },
+  {
    "name": "Marcus Smart",
    "team": "Houston Rockets",
-   "status": "Out",
+   "status": "Day-To-Day",
    "comment": "Smart (forearm) has been ruled out for Saturday's game against the Hawks, Varun Shankar of the Houston Chronicle reports.",
-   "date": "2026-10-24T23:15Z",
+   "date": "2026-10-25T13:36Z",
    "returnDate": "2026-10-26",
    "injury": "Forearm – Strain"
   },
   {
    "name": "Steven Adams",
    "team": "Houston Rockets",
-   "status": "Out",
+   "status": "Day-To-Day",
    "comment": "Adams (ankle) has been ruled out for Saturday's game against the Hawks.",
-   "date": "2026-10-24T17:20Z",
+   "date": "2026-10-25T13:36Z",
    "returnDate": "2026-10-26",
    "injury": "Ankle"
-  },
-  {
-   "name": "Fred VanVleet",
-   "team": "Houston Rockets",
-   "status": "Out",
-   "comment": "VanVleet (knee) has been ruled out for Saturday's game against the Hawks.",
-   "date": "2026-10-24T17:16Z",
-   "returnDate": "2026-10-26",
-   "injury": "Knee"
   },
   {
    "name": "Aaron Nesmith",
@@ -533,40 +533,31 @@
    "injury": "Ankle – Surgery"
   },
   {
-   "name": "Joel Embiid",
+   "name": "Tacko Fall",
    "team": "Philadelphia 76ers",
-   "status": "Day-To-Day",
-   "comment": "Embiid produced 28 points (8-20 FG, 0-3 3Pt, 12-14 FT), 11 rebounds, 10 assists, one steal and four turnovers across 36 minutes in Saturday's 127-116 win over the Bucks.",
-   "date": "2026-10-25T02:15Z",
-   "returnDate": "2026-10-25",
-   "injury": "Rest"
+   "status": "Out",
+   "comment": "Fall (quadriceps) has been ruled out for Sunday's game against Detroit.",
+   "date": "2026-10-25T17:13Z",
+   "returnDate": "2026-10-28",
+   "injury": "Quadriceps – Strain"
   },
   {
    "name": "Jabari Walker",
    "team": "Philadelphia 76ers",
-   "status": "Day-To-Day",
-   "comment": "Walker (ankle) exited Saturday's 127-116 win over the Bucks in the third quarter and did not return, finishing with six points (2-3 FG, 2-3 FT), three rebounds, one assist and one steal across 12 minutes.",
-   "date": "2026-10-25T02:11Z",
-   "returnDate": "2026-10-25",
-   "injury": "Knee"
+   "status": "Out",
+   "comment": "Walker has been ruled out for Sunday's game against the Pistons due to left knee soreness.",
+   "date": "2026-10-25T17:11Z",
+   "returnDate": "2026-10-28",
+   "injury": "Knee – Soreness"
   },
   {
-   "name": "LeBron James",
+   "name": "Joel Embiid",
    "team": "Philadelphia 76ers",
    "status": "Out",
-   "comment": "James (back) has been ruled out for Saturday's game against the Bucks, Adam Aaronson of PhillyVoice.com reports.",
-   "date": "2026-10-24T17:06Z",
-   "returnDate": "2026-10-25",
-   "injury": "Back"
-  },
-  {
-   "name": "Tacko Fall",
-   "team": "Philadelphia 76ers",
-   "status": "Out",
-   "comment": "Fall (quadriceps) is out for Saturday's game against the Bucks.",
-   "date": "2026-10-23T21:10Z",
-   "returnDate": "2026-10-25",
-   "injury": "Quadriceps – Strain"
+   "comment": "Embiid has been ruled out for Sunday's game against Detroit due to right plantar fasciitis management.",
+   "date": "2026-10-25T17:08Z",
+   "returnDate": "2026-10-28",
+   "injury": "Heel"
   },
   {
    "name": "Dominick Barlow",
@@ -589,9 +580,9 @@
   {
    "name": "Oso Ighodaro",
    "team": "Phoenix Suns",
-   "status": "Out",
+   "status": "Day-To-Day",
    "comment": "Ighodaro (oblique) has been ruled out for Saturday's game against the Warriors, Duane Rankin of The Arizona Republic reports.",
-   "date": "2026-10-24T20:24Z",
+   "date": "2026-10-25T13:39Z",
    "returnDate": "2026-10-26",
    "injury": "Oblique – Strain"
   },
@@ -635,8 +626,8 @@
    "name": "Keegan Murray",
    "team": "Sacramento Kings",
    "status": "Day-To-Day",
-   "comment": "Murray is questionable to play Sunday against the Grizzlies due to left ankle capsulitis.",
-   "date": "2026-10-25T00:18Z",
+   "comment": "Murray (ankle) has been downgraded to doubtful for Sunday's game against Memphis.",
+   "date": "2026-10-25T18:37Z",
    "returnDate": "2026-10-25",
    "injury": "Ankle"
   },
@@ -742,6 +733,29 @@
  ],
  "articles": [
   {
+   "headline": "Pistons C Jalen Duren out at least two weeks with hamstring strain",
+   "description": "Pistons center Jalen Duren, who signed a five-year extension earlier this month, will be out at least two weeks with a right hamstring strain.",
+   "published": "2026-10-25T14:59:55Z",
+   "url": "https://www.espn.com/nba/story/_/id/50277066/pistons-jalen-duren-hamstring-strain-least-2-weeks",
+   "athletes": [
+    "Jalen Duren"
+   ]
+  },
+  {
+   "headline": "Sunday's fantasy basketball adds and bets to make in the NBA",
+   "description": "Jim McCormick breaks down Sunday's slate, highlighting the fantasy streamers to add and bets to make.",
+   "published": "2026-10-25T16:48:18Z",
+   "url": "https://www.espn.com/fantasy/basketball/story/_/id/50275279/fantasy-basketball-tips-nba-betting-picks-today",
+   "athletes": [
+    "Wendell Carter Jr",
+    "Paul Reed",
+    "Egor Demin",
+    "Jalen Suggs",
+    "Walker Kessler",
+    "Jaylen Brown"
+   ]
+  },
+  {
    "headline": "Indiana travels to Brooklyn for conference matchup",
    "description": "Indiana Pacers (1-1, ninth in the Eastern Conference) vs. Brooklyn Nets (0-2, 13th in the Eastern Conference)",
    "published": "2026-10-25T07:02:46Z",
@@ -811,8 +825,8 @@
   },
   {
    "headline": "Nikola Jokic rallies Nuggets from 23 down, says booing fans 'not welcome anymore'",
-   "description": "Nikola Jokic racked up his 199th career triple-double, dropping 35 points, 15 rebounds and 10 assists as the Nuggets rallied from 23 down to beat the Pelicans.",
-   "published": "2026-10-25T06:00:24Z",
+   "description": "Nikola Jokic racked up his 199th career triple-double, dropping 35 points, 15 rebounds and 10 assists as the Nuggets rallied from 23 down to beat the Pelicans, before chastising booing Denver fans.",
+   "published": "2026-10-25T14:16:32Z",
    "url": "https://www.espn.com/nba/story/_/id/50274046/nikola-jokic-says-booing-nuggets-fans-not-welcome-anymore",
    "athletes": [
     "Nikola Jokic"
@@ -883,9 +897,9 @@
    ]
   },
   {
-   "headline": "76ers' Brown claims no beef, but says Tatum has 'hell of a PR team'",
+   "headline": "76ers' Jaylen Brown claims no beef but says Jayson Tatum has 'hell of a PR team'",
    "description": "In the latest turn in the relationship between former teammates, Jaylen Brown said Jayson Tatum should \"stay ready at all times\" while denying the two have beef.",
-   "published": "2026-10-25T05:47:34Z",
+   "published": "2026-10-25T12:51:46Z",
    "url": "https://www.espn.com/nba/story/_/id/50273329/76ers-brown-claims-no-beef-says-tatum-stay-ready-all-s",
    "athletes": [
     "Jaylen Brown",
@@ -935,9 +949,9 @@
    ]
   },
   {
-   "headline": "Embiid posts triple-double as LeBron-less Sixers stay unbeaten",
-   "description": "Joel Embiid had a triple-double with LeBron James out, Jaylen Brown scored 27 points and the 76ers remained undefeated with a 127-116 win over the Bucks.",
-   "published": "2026-10-25T03:59:40Z",
+   "headline": "Joel Embiid posts triple-double as LeBron-less Sixers stay unbeaten",
+   "description": "Joel Embiid had a triple-double with LeBron James out, Jaylen Brown scored 27 points, and the 76ers remained undefeated with a 127-116 win over the Bucks.",
+   "published": "2026-10-25T19:26:37Z",
    "url": "https://www.espn.com/nba/story/_/id/50272945/embiid-posts-triple-double-james-less-76ers-stay-unbeaten",
    "athletes": [
     "Joel Embiid",
@@ -1148,25 +1162,6 @@
    "published": "2026-10-24T06:02:46Z",
    "url": "http://www.espn.com/nba/preview?gameId=401909853",
    "athletes": []
-  },
-  {
-   "headline": "Jayson Tatum insists 'there's no beef' with Jaylen Brown in wake of trade",
-   "description": "Jayson Tatum spent most of his postgame news conference addressing speculation about his relationship with former Celtics teammate Jaylen Brown in the wake of Brown's shocking trade to Philadelphia over the summer.",
-   "published": "2026-10-24T12:46:41Z",
-   "url": "https://www.espn.com/nba/story/_/id/50263591/celtics-jayson-tatum-insists-no-beef-76ers-jaylen-brown-wake-trade",
-   "athletes": [
-    "Jayson Tatum",
-    "Jaylen Brown"
-   ]
-  },
-  {
-   "headline": "Darius Acuff Jr. delivers 33-point performance for Kings in loss to Blazers",
-   "description": "Darius Acuff Jr. delivers 33-point performance for Kings in loss to Blazers",
-   "published": "2026-10-24T05:27:22Z",
-   "url": "https://www.espn.com/video/clip/_/id/50263545/darius-acuff-jr-delivers-33-point-performance-kings-loss-blazers",
-   "athletes": [
-    "Darius Acuff Jr"
-   ]
   }
  ]
 }

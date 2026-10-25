@@ -1,22 +1,135 @@
 {
- "builtAt": "2026-10-25T07:57:53.374Z",
+ "builtAt": "2026-10-25T19:51:10.675Z",
  "counts": {
-  "new": 42,
-  "toJudge": 42
+  "new": 19,
+  "toJudge": 19
  },
  "signals": [
+  {
+   "id": "injury:51f265831542",
+   "kind": "text",
+   "playerId": "3059318",
+   "name": "Joel Embiid",
+   "team": "PHI",
+   "date": "2026-10-25T17:08Z",
+   "source": "injury",
+   "url": null,
+   "text": "Embiid has been ruled out for Sunday's game against Detroit due to right plantar fasciitis management.",
+   "flags": {
+    "absence": 0.86
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-25"
+  },
+  {
+   "id": "headline:361aa6e4bd77",
+   "kind": "text",
+   "playerId": "4433621",
+   "name": "Jalen Duren",
+   "team": "DET",
+   "date": "2026-10-25T14:59:55Z",
+   "source": "headline",
+   "url": "https://www.espn.com/nba/story/_/id/50277066/pistons-jalen-duren-hamstring-strain-least-2-weeks",
+   "text": "Pistons C Jalen Duren out at least two weeks with hamstring strain. Pistons center Jalen Duren, who signed a five-year extension earlier this month, will be out at least two weeks with a right hamstring strain.",
+   "flags": {
+    "absence": 0.96
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-25"
+  },
+  {
+   "id": "injury:854a582accaf",
+   "kind": "text",
+   "playerId": "4709138",
+   "name": "Brandin Podziemski",
+   "team": "GSW",
+   "date": "2026-10-25T13:38Z",
+   "source": "injury",
+   "url": null,
+   "text": "Podziemski (back) told reporters Friday that he will not play in the second leg of the Warriors' back-to-back set Saturday against the Suns, Nick Friedell of The Athletic reports.",
+   "flags": {
+    "absence": 0.88,
+    "load_managed": 0.7
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; the team will rest the player on back-to-backs or manage his load",
+   "judge": true,
+   "status": "handled",
+   "firstSeen": "2026-10-24",
+   "handledNote": "injury absence: automatic proposal / single-game, no manual proposal"
+  },
   {
    "id": "injury:234a736ff66f",
    "kind": "text",
    "playerId": "6589",
    "name": "Draymond Green",
    "team": "GSW",
-   "date": "2026-10-25T00:33Z",
+   "date": "2026-10-25T13:38Z",
    "source": "injury",
    "url": null,
    "text": "Green (back) won't play Saturday in Phoenix.",
    "flags": {
     "absence": 0.81
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "handled",
+   "firstSeen": "2026-10-25",
+   "handledNote": "injury absence: automatic proposal / single-game, no manual proposal"
+  },
+  {
+   "id": "injury:eec9dc9428d3",
+   "kind": "text",
+   "playerId": "3213",
+   "name": "Al Horford",
+   "team": "GSW",
+   "date": "2026-10-25T13:38Z",
+   "source": "injury",
+   "url": null,
+   "text": "Horford (back) has been ruled out for Saturday's game against the Suns.",
+   "flags": {
+    "absence": 0.75
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "handled",
+   "firstSeen": "2026-10-25",
+   "handledNote": "injury absence: automatic proposal / single-game, no manual proposal"
+  },
+  {
+   "id": "injury:d7e9e09cf150",
+   "kind": "text",
+   "playerId": "2991230",
+   "name": "Fred VanVleet",
+   "team": "HOU",
+   "date": "2026-10-25T13:36Z",
+   "source": "injury",
+   "url": null,
+   "text": "VanVleet (knee) has been ruled out for Saturday's game against the Hawks.",
+   "flags": {
+    "absence": 0.76
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "handled",
+   "firstSeen": "2026-10-24",
+   "handledNote": "injury absence: automatic proposal / single-game, no manual proposal"
+  },
+  {
+   "id": "injury:a85afac53dc2",
+   "kind": "text",
+   "playerId": "2990992",
+   "name": "Marcus Smart",
+   "team": "HOU",
+   "date": "2026-10-25T13:36Z",
+   "source": "injury",
+   "url": null,
+   "text": "Smart (forearm) has been ruled out for Saturday's game against the Hawks, Varun Shankar of the Houston Chronicle reports.",
+   "flags": {
+    "absence": 0.73
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
@@ -174,6 +287,24 @@
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "news:d66fc8bdae89",
+   "kind": "text",
+   "playerId": "3908809",
+   "name": "Donovan Mitchell",
+   "team": "CLE",
+   "date": "2026-10-25",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615715/donovan-mitchell-fills-stat-sheet-saturdays-win-over-nets.php",
+   "text": "Donovan Mitchell fills stat sheet in Saturday's win over Nets Donovan Mitchell filled the stat sheet for the Cavaliers Saturday night, dishing out four assists, recording one steal, grabbing five rebounds, blocking one shot, and scoring 22 points (7-15 FG, 2-6 3PT, 6-6 FT) in a 125-121 win over the Nets. Fantasy Impact: Mitchell has been impactful on both ends of the floor to begin the season, dis",
+   "flags": {
+    "starter": 0.75
+   },
+   "summary": "is expected to start or has been named a starter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-25"
   },
   {
    "id": "outlook:2448167d3d6d",
@@ -344,6 +475,24 @@
    "firstSeen": "2026-10-06"
   },
   {
+   "id": "news:95e829f80fa6",
+   "kind": "text",
+   "playerId": "3936299",
+   "name": "Jamal Murray",
+   "team": "DEN",
+   "date": "2026-10-25",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615691/jamal-murray-leads-offense-saturdays-win-over-pelicans.php",
+   "text": "Jamal Murray leads offense in Saturday's win over Pelicans Jamal Murray led the Nuggets offense Saturday night, exploding for 42 points (12-25 FG, 8-16 3PT, 10-13 FT) while also dishing out six assists, recording one steal, grabbing three rebounds, and blocking one shot in a 141-135 win over the Pelicans. Fantasy Impact: Murray has fought inconsistency from the field to begin the season, scoring l",
+   "flags": {
+    "playmaker": 0.9
+   },
+   "summary": "will handle the ball or run the offense as a primary playmaker",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-25"
+  },
+  {
    "id": "outlook:43b379960365",
    "kind": "outlook",
    "playerId": "6583",
@@ -495,6 +644,24 @@
    "firstSeen": "2026-10-06"
   },
   {
+   "id": "news:c88c46031443",
+   "kind": "text",
+   "playerId": "3917376",
+   "name": "Jaylen Brown",
+   "team": "PHI",
+   "date": "2026-10-25",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615706/jaylen-brown-fills-stat-sheet-saturdays-win-over-bucks.php",
+   "text": "Jaylen Brown fills stat sheet in Saturday's win over Bucks Jaylen Brown filled the stat sheet for the 76ers Saturday night, dishing out five assists, recording three steals, grabbing three rebounds, and scoring 27 points (9-19 FG, 3-6 3PT, 6-6 FT) in a 127-116 win over the Bucks. Fantasy Impact: Brown continues a dynamic start to the season on both ends of the floor, grabbing three or more rebound",
+   "flags": {
+    "new_team": 0.86
+   },
+   "summary": "changed teams (traded, signed or claimed) since last season",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-25"
+  },
+  {
    "id": "outlook:c4145f566787",
    "kind": "outlook",
    "playerId": "3917376",
@@ -514,6 +681,24 @@
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "news:286b12bf021c",
+   "kind": "text",
+   "playerId": "1966",
+   "name": "LeBron James",
+   "team": "PHI",
+   "date": "2026-10-25",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615702/lebron-james-back-returns-to-lineup-sunday.php",
+   "text": "LeBron James (back) returns to lineup Sunday LeBron James (back) is off of the injury report and will return to the lineup for Sunday’s contest between the Philadelphia 76ers and Detroit Pistons according to Adam Aaronson.  Fantasy Impact: James will take the floor for head coach Nick Nurse after sitting out the first leg of a back-to-back Saturday night, boosting a Philadelphia starting five that",
+   "flags": {
+    "recovering": 0.83
+   },
+   "summary": "is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-25"
   },
   {
    "id": "outlook:0cf047317f3b",
@@ -555,6 +740,24 @@
    "firstSeen": "2026-10-06"
   },
   {
+   "id": "news:d03e54402ce9",
+   "kind": "text",
+   "playerId": "4396971",
+   "name": "Naz Reid",
+   "team": "CHA",
+   "date": "2026-10-25",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615685/naz-reid-flirts-with-double-double-saturdays-win-over-heat.php",
+   "text": "Naz Reid flirts with double-double in Saturday's win over Heat Naz Reid flirted with a double-double for the Hornets Saturday night, grabbing nine rebounds and scoring 23 points (9-16 FG, 5-8 3PT) while also blocking two shots in a 115-110 win over the Heat. Fantasy Impact: Reid has been impactful on both ends of the floor to begin the season, grabbing six or more rebounds and scoring 17 or more p",
+   "flags": {
+    "starter": 0.85
+   },
+   "summary": "is expected to start or has been named a starter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-25"
+  },
+  {
    "id": "outlook:b2beaa9199bb",
    "kind": "outlook",
    "playerId": "4396971",
@@ -590,6 +793,24 @@
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "news:58de343edf55",
+   "kind": "text",
+   "playerId": "4278104",
+   "name": "Michael Porter Jr.",
+   "team": "BKN",
+   "date": "2026-10-25",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615714/michael-porter-jr-fills-stat-sheet-saturdays-loss-to-cavaliers.php",
+   "text": "Michael Porter Jr. fills stat sheet in Saturday's loss to Cavaliers Michael Porter Jr. filled the stat sheet for the Nets Saturday night, grabbing nine rebounds, dishing out one assist, recording four steals, and scoring a team-leading 28 points (10-18 FG, 4-9 3PT, 4-4 FT) in a 125-121 loss to the Cavaliers. Fantasy Impact: Porter Jr. has been impactful on both ends of the floor early on, grabbing",
+   "flags": {
+    "starter": 0.74
+   },
+   "summary": "is expected to start or has been named a starter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-25"
   },
   {
    "id": "outlook:82530524407e",
@@ -628,6 +849,24 @@
    "firstSeen": "2026-10-06"
   },
   {
+   "id": "news:321831dcc50c",
+   "kind": "text",
+   "playerId": "3064514",
+   "name": "Julius Randle",
+   "team": "BKN",
+   "date": "2026-10-25",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615712/julius-randle-flirts-with-triple-double-saturdays-loss-to-cavaliers.php",
+   "text": "Julius Randle flirts with triple-double in Saturday's loss to Cavaliers Julius Randle flirted with a triple-double for the Nets Saturday night, dishing out five assists, grabbing six rebounds, and scoring 23 points (7-13 FG, 2-4 3PT, 7-8 FT) in a 125-121 loss to the Cavaliers. Fantasy Impact: Randle has been dynamic on both ends of the floor to begin the season, dishing out five or more assists, g",
+   "flags": {
+    "starter": 0.7
+   },
+   "summary": "is expected to start or has been named a starter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-25"
+  },
+  {
    "id": "outlook:464f04843d05",
    "kind": "outlook",
    "playerId": "3064514",
@@ -646,6 +885,24 @@
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "news:d8bbdac86ed7",
+   "kind": "text",
+   "playerId": "3907497",
+   "name": "Dejounte Murray",
+   "team": "NOP",
+   "date": "2026-10-25",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615688/dejounte-murray-flirts-with-triple-double-saturdays-loss-to-nuggets.php",
+   "text": "Dejounte Murray flirts with triple-double in Saturday's loss to Nuggets Dejounte Murray flirted with a triple-double for the Pelicans Saturday night, dishing out six assists, grabbing six rebounds, and scoring 22 points (9-18 FG, 1-6 3PT, 3-4 FT) while also blocking one shot and recording two steals in a 141-135 loss to the Nuggets. Fantasy Impact: Murray has been dynamic on both ends of the floor",
+   "flags": {
+    "starter": 0.79
+   },
+   "summary": "is expected to start or has been named a starter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-25"
   },
   {
    "id": "outlook:1b1ecc6d7b97",
@@ -728,6 +985,25 @@
    "firstSeen": "2026-10-06"
   },
   {
+   "id": "news:ef483d258c33",
+   "kind": "text",
+   "playerId": "4433287",
+   "name": "Brandon Miller",
+   "team": "CHA",
+   "date": "2026-10-25",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615684/brandon-miller-leads-offense-saturday-against-heat.php",
+   "text": "Brandon Miller leads offense Saturday against Heat Brandon Miller led the Hornets offense Saturday night, scoring 34 points (10-29 FG, 3-10 3PT, 11-12 FT) while also grabbing eight rebounds, blocking one shot, and dishing out four assists in a 115-110 win over the Heat. Fantasy Impact: Miller has been solid on the offensive end of the floor to begin the season, finishing with 18 or more points in ",
+   "flags": {
+    "opening": 0.9,
+    "playmaker": 0.7
+   },
+   "summary": "a teammate's absence or departure opens up opportunity for the player; will handle the ball or run the offense as a primary playmaker",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-25"
+  },
+  {
    "id": "outlook:91024bc12534",
    "kind": "outlook",
    "playerId": "4433287",
@@ -802,6 +1078,24 @@
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "news:55c2ade31022",
+   "kind": "text",
+   "playerId": "4397688",
+   "name": "Trey Murphy III",
+   "team": "NOP",
+   "date": "2026-10-25",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615689/trey-murphy-iii-fills-stat-sheet-saturdays-loss-to-nuggets.php",
+   "text": "Trey Murphy III fills stat sheet in Saturday's loss to Nuggets Trey Murphy III filled the stat sheet for the Pelicans Saturday night, dishing out four assists, recording one steal, grabbing six rebounds, and scoring 26 points (10-17 FG, 4-8 3PT, 2-2 FT) in a 141-135 loss to the Nuggets. Fantasy Impact: Murphy III has offered modest impact on both ends of the floor to begin the season, finishing wi",
+   "flags": {
+    "starter": 0.75
+   },
+   "summary": "is expected to start or has been named a starter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-25"
   },
   {
    "id": "outlook:d341fe637fd4",
@@ -933,6 +1227,25 @@
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "news:c18d09b2b7be",
+   "kind": "text",
+   "playerId": "3059318",
+   "name": "Joel Embiid",
+   "team": "PHI",
+   "date": "2026-10-25",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615711/joel-embiid-foot-ruled-out-sunday.php",
+   "text": "Joel Embiid (foot) ruled out Sunday Joel Embiid (foot) has been ruled out for Sunday’s contest between the Philadelphia 76ers and Detroit Pistons according to Adam Aaronson.  Fantasy Impact: Embiid will receive the second of back-to-back contests off for injury management purposes, with Adem Bona potentially in line to start at center for head coach Nick Nurse against the Pistons Sunday night.",
+   "flags": {
+    "absence": 0.94,
+    "load_managed": 0.96
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; the team will rest the player on back-to-backs or manage his load",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-25"
   },
   {
    "id": "outlook:71aa9ed96e48",
@@ -2229,23 +2542,100 @@
    "firstSeen": "2026-10-20"
   },
   {
-   "id": "injury:a85afac53dc2",
+   "id": "news:12cc3b2a4829",
    "kind": "text",
-   "playerId": "2990992",
-   "name": "Marcus Smart",
-   "team": "HOU",
-   "date": "2026-10-24T23:15Z",
-   "source": "injury",
-   "url": null,
-   "text": "Smart (forearm) has been ruled out for Saturday's game against the Hawks, Varun Shankar of the Houston Chronicle reports.",
+   "playerId": "3134907",
+   "name": "Kyle Kuzma",
+   "team": "MIL",
+   "date": "2026-10-25",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615708/kyle-kuzma-records-double-double-saturday-against-76ers.php",
+   "text": "Kyle Kuzma records double-double Saturday against 76ers Kyle Kuzma recorded a double-double for the Bucks Saturday night, grabbing 12 rebounds and chipping in 14 points (6-11 FG, 0-3 3PT, 2-2 FT) while also dishing out three assists in a 127-116 loss to the 76ers. Fantasy Impact: Kuzma has been steady on both ends of the floor of late, finishing with nine or more rebounds and 14 points in each of ",
    "flags": {
-    "absence": 0.73
+    "starter": 0.83
    },
-   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "summary": "is expected to start or has been named a starter",
    "judge": true,
-   "status": "handled",
-   "firstSeen": "2026-10-25",
-   "handledNote": "injury absence: automatic proposal / single-game, no manual proposal"
+   "status": "new",
+   "firstSeen": "2026-10-25"
+  },
+  {
+   "id": "news:04c828c3492e",
+   "kind": "text",
+   "playerId": "3135045",
+   "name": "Grayson Allen",
+   "team": "CHA",
+   "date": "2026-10-25",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615687/grayson-allen-leads-bench-attack-saturday-against-heat.php",
+   "text": "Grayson Allen leads bench attack Saturday against Heat Grayson Allen led the Hornets bench attack Saturday night, scoring 20 points (6-12 FG, 4-10 3PT, 4-5 FT) while also dishing out five assists, recording one steal, and grabbing three rebounds in a 115-110 win over the Heat. Fantasy Impact: Allen has been steady on both ends of the floor to begin the season, finishing with two or more rebounds, ",
+   "flags": {
+    "opening": 0.87
+   },
+   "summary": "a teammate's absence or departure opens up opportunity for the player",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-25"
+  },
+  {
+   "id": "news:9c59ddd406ca",
+   "kind": "text",
+   "playerId": "4431767",
+   "name": "Christian Braun",
+   "team": "DEN",
+   "date": "2026-10-25",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615692/christian-braun-posts-near-double-double-saturday-against-pelicans.php",
+   "text": "Christian Braun posts near double-double Saturday against Pelicans Christian Braun posted a near double-double for the Nuggets Saturday night, grabbing eight rebounds and chipping in 15 points (7-11 FG, 0-3 3PT, 1-2 FT) while also dishing out two assists and recording two steals in a 141-135 win over the Pelicans. Fantasy Impact: Braun has offered modest results on both ends of the floor early in ",
+   "flags": {
+    "starter": 0.84
+   },
+   "summary": "is expected to start or has been named a starter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-25"
+  },
+  {
+   "id": "news:3b7edfe289e5",
+   "kind": "text",
+   "playerId": "3032979",
+   "name": "Dennis Schroder",
+   "team": "CHA",
+   "date": "2026-10-25",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615686/dennis-schroeder-fills-stat-sheet-saturday-against-heat.php",
+   "text": "Dennis Schroeder fills stat sheet Saturday against Heat Dennis Schroeder filled the stat sheet for the Hornets Saturday night, grabbing six rebounds, dishing out four assists, and scoring 25 points (8-18 FG, 3-7 3PT, 6-6 FT) in a 115-110 win over the Heat. Fantasy Impact: Schroeder has been solid on the offensive end of the floor to begin the season, finishing with four or more assists and 19 or m",
+   "flags": {
+    "opening": 0.71
+   },
+   "summary": "a teammate's absence or departure opens up opportunity for the player",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-25"
+  },
+  {
+   "id": "depth:4432573:2026-10-25:PF #5",
+   "kind": "depth",
+   "playerId": "4432573",
+   "name": "Paolo Banchero",
+   "team": "ORL",
+   "date": "2026-10-25",
+   "summary": "Depth chart PF #1 → PF #5",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-25"
+  },
+  {
+   "id": "depth:4702382:2026-10-25:PF #1",
+   "kind": "depth",
+   "playerId": "4702382",
+   "name": "Tristan da Silva",
+   "team": "ORL",
+   "date": "2026-10-25",
+   "summary": "Depth chart PF #2 → PF #1",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-25"
   },
   {
    "id": "injury:e64c93db320e",
@@ -2297,25 +2687,6 @@
    "text": "McConnell (hamstring) is out for Sunday's game against the Nets.",
    "flags": {
     "absence": 0.83
-   },
-   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
-   "judge": true,
-   "status": "handled",
-   "firstSeen": "2026-10-25",
-   "handledNote": "injury absence: automatic proposal / single-game, no manual proposal"
-  },
-  {
-   "id": "injury:eec9dc9428d3",
-   "kind": "text",
-   "playerId": "3213",
-   "name": "Al Horford",
-   "team": "GSW",
-   "date": "2026-10-24T20:20Z",
-   "source": "injury",
-   "url": null,
-   "text": "Horford (back) has been ruled out for Saturday's game against the Suns.",
-   "flags": {
-    "absence": 0.75
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
@@ -2496,25 +2867,6 @@
    "handledNote": "injury absence: automatic proposal / single-game, no manual proposal"
   },
   {
-   "id": "injury:d7e9e09cf150",
-   "kind": "text",
-   "playerId": "2991230",
-   "name": "Fred VanVleet",
-   "team": "HOU",
-   "date": "2026-10-24T17:16Z",
-   "source": "injury",
-   "url": null,
-   "text": "VanVleet (knee) has been ruled out for Saturday's game against the Hawks.",
-   "flags": {
-    "absence": 0.76
-   },
-   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
-   "judge": true,
-   "status": "handled",
-   "firstSeen": "2026-10-24",
-   "handledNote": "injury absence: automatic proposal / single-game, no manual proposal"
-  },
-  {
    "id": "injury:e7185e08f5e4",
    "kind": "text",
    "playerId": "1966",
@@ -2547,26 +2899,6 @@
     "absence": 0.96
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
-   "judge": true,
-   "status": "handled",
-   "firstSeen": "2026-10-24",
-   "handledNote": "injury absence: automatic proposal / single-game, no manual proposal"
-  },
-  {
-   "id": "injury:854a582accaf",
-   "kind": "text",
-   "playerId": "4709138",
-   "name": "Brandin Podziemski",
-   "team": "GSW",
-   "date": "2026-10-24T14:11Z",
-   "source": "injury",
-   "url": null,
-   "text": "Podziemski (back) told reporters Friday that he will not play in the second leg of the Warriors' back-to-back set Saturday against the Suns, Nick Friedell of The Athletic reports.",
-   "flags": {
-    "absence": 0.88,
-    "load_managed": 0.7
-   },
-   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; the team will rest the player on back-to-backs or manage his load",
    "judge": true,
    "status": "handled",
    "firstSeen": "2026-10-24",
@@ -2839,25 +3171,6 @@
    "handledNote": "single-game absence; automatic injury proposal and cascade"
   },
   {
-   "id": "news:c734abbe8551",
-   "kind": "text",
-   "playerId": "3945274",
-   "name": "Luka Doncic",
-   "team": "LAL",
-   "date": "2026-10-24",
-   "source": "news",
-   "url": "https://www.fantasypros.com/nba/news/615635/luka-doncic-flirts-with-another-triple-double-fridays-win-over-clippers.php",
-   "text": "Luka Doncic flirts with another triple-double in Friday's win over Clippers Luka Doncic flirted with a triple-double for the Lakers Friday night, grabbing six rebounds, dishing out seven assists, and scoring 23 points (8-21 FG, 2-8 3PT, 5-7 FT) while also blocking one shot in a 125-117 win over the Clippers. Fantasy Impact: Doncic is off to a dynamic start to the season on both ends of the floor, ",
-   "flags": {
-    "starter": 0.88
-   },
-   "summary": "is expected to start or has been named a starter",
-   "judge": true,
-   "status": "handled",
-   "firstSeen": "2026-10-24",
-   "handledNote": "starter/performance note restates projection"
-  },
-  {
    "id": "news:6fa2f8a5ff8b",
    "kind": "text",
    "playerId": "5041939",
@@ -2877,25 +3190,6 @@
    "handledNote": "injury absence: automatic proposal / single-game, no manual proposal"
   },
   {
-   "id": "news:decab38e16e6",
-   "kind": "text",
-   "playerId": "3155942",
-   "name": "Domantas Sabonis",
-   "team": "SAC",
-   "date": "2026-10-24",
-   "source": "news",
-   "url": "https://www.fantasypros.com/nba/news/615641/domantas-sabonis-posts-triple-double-fridays-loss-to-trailblazers.php",
-   "text": "Domantas Sabonis posts triple-double in Friday's loss to Trailblazers Domantas Sabonis posted a triple-double for the Kings Friday night, dishing out 10 assists, grabbing 19 rebounds, and scoring 27 points (10-13 FG, 1-1 3PT, 6-7 FT) in a 128-120 loss to the Trailblazers. Fantasy Impact: Sabonis has been impactful on both ends of the floor early on, dishing out eight or more assists, grabbing 18 o",
-   "flags": {
-    "starter": 0.92
-   },
-   "summary": "is expected to start or has been named a starter",
-   "judge": true,
-   "status": "handled",
-   "firstSeen": "2026-10-24",
-   "handledNote": "starter/performance note restates projection"
-  },
-  {
    "id": "news:c258ca90dd9b",
    "kind": "text",
    "playerId": "4433621",
@@ -2913,6 +3207,158 @@
    "status": "handled",
    "firstSeen": "2026-10-25",
    "handledNote": "injury absence: automatic proposal / single-game, no manual proposal"
+  },
+  {
+   "id": "news:52b6082562ea",
+   "kind": "text",
+   "playerId": "4432573",
+   "name": "Paolo Banchero",
+   "team": "ORL",
+   "date": "2026-10-24",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615648/paolo-banchero-ankle-expected-to-miss-four-to-six-weeks.php",
+   "text": "Paolo Banchero (ankle) expected to miss four-to-six weeks Paolo Banchero (ankle) is expected to be sidelined for four-to-six weeks according to Shams Charania.  Fantasy Impact: Banchero exited in the third quarter of Friday night’s contest and after undergoing further testing was diagnosed with a right high ankle sprain. In his absence, Tristan da Silva should receive increased minutes in the Orla",
+   "flags": {
+    "absence": 0.96
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "handled",
+   "firstSeen": "2026-10-24",
+   "handledNote": "injury absence: automatic proposal / single-game, no manual proposal"
+  },
+  {
+   "id": "news:7c4caa1710bd",
+   "kind": "text",
+   "playerId": "6442",
+   "name": "Kyrie Irving",
+   "team": "DAL",
+   "date": "2026-10-24",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615657/kyrie-irving-knee-ruled-out-saturday.php",
+   "text": "Kyrie Irving (knee) ruled out Saturday Kyrie Irving (knee) has been ruled out for the Dallas Mavericks Saturday the club announced.  Fantasy Impact: Irving will sit due to left knee injury management, with Marcus Sasser in line to start in the Dallas backcourt in his place against the Spurs.",
+   "flags": {
+    "absence": 0.83
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "handled",
+   "firstSeen": "2026-10-25",
+   "handledNote": "injury absence: automatic proposal / single-game, no manual proposal"
+  },
+  {
+   "id": "news:2ea9104e1c0f",
+   "kind": "text",
+   "playerId": "3138196",
+   "name": "Cameron Johnson",
+   "team": "DEN",
+   "date": "2026-10-24",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615596/cameron-johnson-ankle-ruled-out-saturday.php",
+   "text": "Cameron Johnson (ankle) ruled out Saturday Cameron Johnson has been ruled out for Saturday's game against the New Orleans Pelicans.  Fantasy Impact: Johnson sprained his ankle 11 minutes into Thursday's season opener and will miss Saturday's game. With him sidelined, DeMar DeRozan and Trevon Brazile and Alpha Diallo (wrist) could all see increased minutes. Johnson's next opportunity to play comes ",
+   "flags": {
+    "absence": 0.89
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "handled",
+   "firstSeen": "2026-10-24",
+   "handledNote": "injury absence: automatic proposal / single-game, no manual proposal"
+  },
+  {
+   "id": "news:6fd5d1f52c04",
+   "kind": "text",
+   "playerId": "barlodo01",
+   "name": "Dominick Barlow",
+   "team": "PHI",
+   "date": "2026-10-24",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615591/dominick-barlow-back-to-miss-least-two-weeks.php",
+   "text": "Dominick Barlow (back) to miss at least two weeks Dominick Barlow underwent imaging that revealed a bone stress response in his lumbar spine. He will miss at least two weeks.  Fantasy Impact: Barlow missed preseason action due to the back injury and will miss all of October and likely some of November. With him sidleined, Jabari Walker and Dean Wade (ankle) could pick up extra minutes off the benc",
+   "flags": {
+    "absence": 0.97
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "handled",
+   "firstSeen": "2026-10-24",
+   "handledNote": "injury absence: automatic proposal / single-game, no manual proposal"
+  },
+  {
+   "id": "news:c11aed293891",
+   "kind": "text",
+   "playerId": "4601023",
+   "name": "Oso Ighodaro",
+   "team": "PHX",
+   "date": "2026-10-24",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615597/oso-ighodaro-oblique-doubtful-saturday.php",
+   "text": "Oso Ighodaro (oblique) doubtful Saturday Oso Ighodaro is listed as doubtful for Saturday's game against the Golden State Warriors.  Fantasy Impact: Ighodaro suffered a right oblique strain in Wednesday's season opener against the Portland Trail Blazers and is expected to miss Saturday's game. If he's ultimately ruled out, Khaman Maluach and Duop Reath could see increased playing time.",
+   "flags": {
+    "absence": 0.89
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "handled",
+   "firstSeen": "2026-10-24",
+   "handledNote": "injury absence: automatic proposal / single-game, no manual proposal"
+  },
+  {
+   "id": "news:fe695f0e1f79",
+   "kind": "text",
+   "playerId": "3913174",
+   "name": "Luke Kennard",
+   "team": "PHX",
+   "date": "2026-10-24",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615598/luke-kennard-knee-ruled-out-saturday.php",
+   "text": "Luke Kennard (knee) ruled out Saturday Luke Kennard has been ruled out for Saturday's game against the Golden State Warriors.  Fantasy Impact: Kennard continues to deal with a knee tendon strain and will miss his second consecutive game. His next opportunity to make his Phoenix Suns debut comes Monday against the Oklahoma City Thunder.",
+   "flags": {
+    "absence": 0.97
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "handled",
+   "firstSeen": "2026-10-24",
+   "handledNote": "injury absence: automatic proposal / single-game, no manual proposal"
+  },
+  {
+   "id": "news:c734abbe8551",
+   "kind": "text",
+   "playerId": "3945274",
+   "name": "Luka Doncic",
+   "team": "LAL",
+   "date": "2026-10-24",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615635/luka-doncic-flirts-with-another-triple-double-fridays-win-over-clippers.php",
+   "text": "Luka Doncic flirts with another triple-double in Friday's win over Clippers Luka Doncic flirted with a triple-double for the Lakers Friday night, grabbing six rebounds, dishing out seven assists, and scoring 23 points (8-21 FG, 2-8 3PT, 5-7 FT) while also blocking one shot in a 125-117 win over the Clippers. Fantasy Impact: Doncic is off to a dynamic start to the season on both ends of the floor, ",
+   "flags": {
+    "starter": 0.88
+   },
+   "summary": "is expected to start or has been named a starter",
+   "judge": true,
+   "status": "handled",
+   "firstSeen": "2026-10-24",
+   "handledNote": "starter/performance note restates projection"
+  },
+  {
+   "id": "news:decab38e16e6",
+   "kind": "text",
+   "playerId": "3155942",
+   "name": "Domantas Sabonis",
+   "team": "SAC",
+   "date": "2026-10-24",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615641/domantas-sabonis-posts-triple-double-fridays-loss-to-trailblazers.php",
+   "text": "Domantas Sabonis posts triple-double in Friday's loss to Trailblazers Domantas Sabonis posted a triple-double for the Kings Friday night, dishing out 10 assists, grabbing 19 rebounds, and scoring 27 points (10-13 FG, 1-1 3PT, 6-7 FT) in a 128-120 loss to the Trailblazers. Fantasy Impact: Sabonis has been impactful on both ends of the floor early on, dishing out eight or more assists, grabbing 18 o",
+   "flags": {
+    "starter": 0.92
+   },
+   "summary": "is expected to start or has been named a starter",
+   "judge": true,
+   "status": "handled",
+   "firstSeen": "2026-10-24",
+   "handledNote": "starter/performance note restates projection"
   },
   {
    "id": "news:52ec3275ea37",
@@ -2971,44 +3417,6 @@
    "judge": true,
    "status": "handled",
    "firstSeen": "2026-10-24",
-   "handledNote": "injury absence: automatic proposal / single-game, no manual proposal"
-  },
-  {
-   "id": "news:52b6082562ea",
-   "kind": "text",
-   "playerId": "4432573",
-   "name": "Paolo Banchero",
-   "team": "ORL",
-   "date": "2026-10-24",
-   "source": "news",
-   "url": "https://www.fantasypros.com/nba/news/615648/paolo-banchero-ankle-expected-to-miss-four-to-six-weeks.php",
-   "text": "Paolo Banchero (ankle) expected to miss four-to-six weeks Paolo Banchero (ankle) is expected to be sidelined for four-to-six weeks according to Shams Charania.  Fantasy Impact: Banchero exited in the third quarter of Friday night’s contest and after undergoing further testing was diagnosed with a right high ankle sprain. In his absence, Tristan da Silva should receive increased minutes in the Orla",
-   "flags": {
-    "absence": 0.96
-   },
-   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
-   "judge": true,
-   "status": "handled",
-   "firstSeen": "2026-10-24",
-   "handledNote": "injury absence: automatic proposal / single-game, no manual proposal"
-  },
-  {
-   "id": "news:7c4caa1710bd",
-   "kind": "text",
-   "playerId": "6442",
-   "name": "Kyrie Irving",
-   "team": "DAL",
-   "date": "2026-10-24",
-   "source": "news",
-   "url": "https://www.fantasypros.com/nba/news/615657/kyrie-irving-knee-ruled-out-saturday.php",
-   "text": "Kyrie Irving (knee) ruled out Saturday Kyrie Irving (knee) has been ruled out for the Dallas Mavericks Saturday the club announced.  Fantasy Impact: Irving will sit due to left knee injury management, with Marcus Sasser in line to start in the Dallas backcourt in his place against the Spurs.",
-   "flags": {
-    "absence": 0.83
-   },
-   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
-   "judge": true,
-   "status": "handled",
-   "firstSeen": "2026-10-25",
    "handledNote": "injury absence: automatic proposal / single-game, no manual proposal"
   },
   {
@@ -3105,82 +3513,6 @@
    "status": "handled",
    "firstSeen": "2026-10-24",
    "handledNote": "starter/performance note restates projection"
-  },
-  {
-   "id": "news:2ea9104e1c0f",
-   "kind": "text",
-   "playerId": "3138196",
-   "name": "Cameron Johnson",
-   "team": "DEN",
-   "date": "2026-10-24",
-   "source": "news",
-   "url": "https://www.fantasypros.com/nba/news/615596/cameron-johnson-ankle-ruled-out-saturday.php",
-   "text": "Cameron Johnson (ankle) ruled out Saturday Cameron Johnson has been ruled out for Saturday's game against the New Orleans Pelicans.  Fantasy Impact: Johnson sprained his ankle 11 minutes into Thursday's season opener and will miss Saturday's game. With him sidelined, DeMar DeRozan and Trevon Brazile and Alpha Diallo (wrist) could all see increased minutes. Johnson's next opportunity to play comes ",
-   "flags": {
-    "absence": 0.89
-   },
-   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
-   "judge": true,
-   "status": "handled",
-   "firstSeen": "2026-10-24",
-   "handledNote": "injury absence: automatic proposal / single-game, no manual proposal"
-  },
-  {
-   "id": "news:6fd5d1f52c04",
-   "kind": "text",
-   "playerId": "barlodo01",
-   "name": "Dominick Barlow",
-   "team": "PHI",
-   "date": "2026-10-24",
-   "source": "news",
-   "url": "https://www.fantasypros.com/nba/news/615591/dominick-barlow-back-to-miss-least-two-weeks.php",
-   "text": "Dominick Barlow (back) to miss at least two weeks Dominick Barlow underwent imaging that revealed a bone stress response in his lumbar spine. He will miss at least two weeks.  Fantasy Impact: Barlow missed preseason action due to the back injury and will miss all of October and likely some of November. With him sidleined, Jabari Walker and Dean Wade (ankle) could pick up extra minutes off the benc",
-   "flags": {
-    "absence": 0.97
-   },
-   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
-   "judge": true,
-   "status": "handled",
-   "firstSeen": "2026-10-24",
-   "handledNote": "injury absence: automatic proposal / single-game, no manual proposal"
-  },
-  {
-   "id": "news:c11aed293891",
-   "kind": "text",
-   "playerId": "4601023",
-   "name": "Oso Ighodaro",
-   "team": "PHX",
-   "date": "2026-10-24",
-   "source": "news",
-   "url": "https://www.fantasypros.com/nba/news/615597/oso-ighodaro-oblique-doubtful-saturday.php",
-   "text": "Oso Ighodaro (oblique) doubtful Saturday Oso Ighodaro is listed as doubtful for Saturday's game against the Golden State Warriors.  Fantasy Impact: Ighodaro suffered a right oblique strain in Wednesday's season opener against the Portland Trail Blazers and is expected to miss Saturday's game. If he's ultimately ruled out, Khaman Maluach and Duop Reath could see increased playing time.",
-   "flags": {
-    "absence": 0.89
-   },
-   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
-   "judge": true,
-   "status": "handled",
-   "firstSeen": "2026-10-24",
-   "handledNote": "injury absence: automatic proposal / single-game, no manual proposal"
-  },
-  {
-   "id": "news:fe695f0e1f79",
-   "kind": "text",
-   "playerId": "3913174",
-   "name": "Luke Kennard",
-   "team": "PHX",
-   "date": "2026-10-24",
-   "source": "news",
-   "url": "https://www.fantasypros.com/nba/news/615598/luke-kennard-knee-ruled-out-saturday.php",
-   "text": "Luke Kennard (knee) ruled out Saturday Luke Kennard has been ruled out for Saturday's game against the Golden State Warriors.  Fantasy Impact: Kennard continues to deal with a knee tendon strain and will miss his second consecutive game. His next opportunity to make his Phoenix Suns debut comes Monday against the Oklahoma City Thunder.",
-   "flags": {
-    "absence": 0.97
-   },
-   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
-   "judge": true,
-   "status": "handled",
-   "firstSeen": "2026-10-24",
-   "handledNote": "injury absence: automatic proposal / single-game, no manual proposal"
   },
   {
    "id": "news:8a63f0d54dcb",
