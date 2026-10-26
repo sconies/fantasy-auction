@@ -639,6 +639,276 @@
    "to": "PF #1",
    "promoted": true,
    "projectedMin": 20.67
+  },
+  {
+   "date": "2026-10-26",
+   "playerId": "4593803",
+   "name": "Jalen Williams",
+   "team": "OKC",
+   "from": "SF #1",
+   "to": "SF #7",
+   "promoted": false,
+   "projectedMin": 30.88
+  },
+  {
+   "date": "2026-10-26",
+   "playerId": "4397136",
+   "name": "Saddiq Bey",
+   "team": "NOP",
+   "from": "SF #3",
+   "to": "SF #2",
+   "promoted": true,
+   "projectedMin": 26.8
+  },
+  {
+   "date": "2026-10-26",
+   "playerId": "5101761",
+   "name": "Mikel Brown Jr.",
+   "team": "BKN",
+   "from": "PG #1",
+   "to": "PG #2",
+   "promoted": false,
+   "projectedMin": 28.87
+  },
+  {
+   "date": "2026-10-26",
+   "playerId": "2991350",
+   "name": "Alex Caruso",
+   "team": "OKC",
+   "from": "PF #2",
+   "to": "SF #1",
+   "promoted": true,
+   "projectedMin": 21.54
+  },
+  {
+   "date": "2026-10-26",
+   "playerId": "5105550",
+   "name": "GG Jackson",
+   "team": "MEM",
+   "from": "SF #3",
+   "to": "PF #2",
+   "promoted": true,
+   "projectedMin": 20.98
+  },
+  {
+   "date": "2026-10-26",
+   "playerId": "5082206",
+   "name": "Brayden Burries",
+   "team": "MIL",
+   "from": "SG #2",
+   "to": "PG #3",
+   "promoted": false,
+   "projectedMin": 24.47
+  },
+  {
+   "date": "2026-10-26",
+   "playerId": "4066372",
+   "name": "Kevin Huerter",
+   "team": "DET",
+   "from": "SG #3",
+   "to": "SG #2",
+   "promoted": true,
+   "projectedMin": 22.13
+  },
+  {
+   "date": "2026-10-26",
+   "playerId": "4576060",
+   "name": "Ryan Kalkbrenner",
+   "team": "CHA",
+   "from": "C #3",
+   "to": "C #2",
+   "promoted": true,
+   "projectedMin": 21.42
+  },
+  {
+   "date": "2026-10-26",
+   "playerId": "5279130",
+   "name": "Nolan Traore",
+   "team": "BKN",
+   "from": "PG #3",
+   "to": "SG #2",
+   "promoted": true,
+   "projectedMin": 22.97
+  },
+  {
+   "date": "2026-10-26",
+   "playerId": "4578893",
+   "name": "Vit Krejci",
+   "team": "POR",
+   "from": "SF #2",
+   "to": "SF #3",
+   "promoted": false,
+   "projectedMin": 23.2
+  },
+  {
+   "date": "2026-10-26",
+   "playerId": "4277956",
+   "name": "Jordan Poole",
+   "team": "NOP",
+   "from": "PG #3",
+   "to": "PG #2",
+   "promoted": true,
+   "projectedMin": 21.86
+  },
+  {
+   "date": "2026-10-26",
+   "playerId": "5106258",
+   "name": "Gradey Dick",
+   "team": "LAC",
+   "from": "SF #4",
+   "to": "PF #2",
+   "promoted": true,
+   "projectedMin": 22.53
+  },
+  {
+   "date": "2026-10-26",
+   "playerId": "4277813",
+   "name": "Herbert Jones",
+   "team": "NOP",
+   "from": "SF #2",
+   "to": "SF #3",
+   "promoted": false,
+   "projectedMin": 26.25
+  },
+  {
+   "date": "2026-10-26",
+   "playerId": "4702177",
+   "name": "Keon Ellis",
+   "team": "BKN",
+   "from": "SF #2",
+   "to": "SG #1",
+   "promoted": true,
+   "projectedMin": 19.89
+  },
+  {
+   "date": "2026-10-26",
+   "playerId": "4397475",
+   "name": "AJ Green",
+   "team": "MIL",
+   "from": "SG #3",
+   "to": "SG #2",
+   "promoted": true,
+   "projectedMin": 24.49
+  },
+  {
+   "date": "2026-10-26",
+   "playerId": "4277869",
+   "name": "Jose Alvarado",
+   "team": "NYK",
+   "from": "PG #3",
+   "to": "PG #2",
+   "promoted": true,
+   "projectedMin": 19.27
+  },
+  {
+   "date": "2026-10-26",
+   "playerId": "5281370",
+   "name": "Hannes Steinbach",
+   "team": "CHA",
+   "from": "C #2",
+   "to": "C #4",
+   "promoted": false,
+   "projectedMin": 16.57
+  },
+  {
+   "date": "2026-10-26",
+   "playerId": "6609",
+   "name": "Khris Middleton",
+   "team": "WAS",
+   "from": "PF #2",
+   "to": "PF #3",
+   "promoted": false,
+   "projectedMin": 19.6
+  },
+  {
+   "date": "2026-10-26",
+   "playerId": "3037789",
+   "name": "Bogdan Bogdanovic",
+   "team": "HOU",
+   "from": "SF #3",
+   "to": "SF #2",
+   "promoted": true,
+   "projectedMin": 17.51
+  },
+  {
+   "date": "2026-10-26",
+   "playerId": "2990984",
+   "name": "Buddy Hield",
+   "team": "CHI",
+   "from": "SG #4",
+   "to": "SG #2",
+   "promoted": true,
+   "projectedMin": 17.08
+  },
+  {
+   "date": "2026-10-26",
+   "playerId": "4431687",
+   "name": "Patrick Williams",
+   "team": "CHI",
+   "from": "PF #2",
+   "to": "PF #7",
+   "promoted": false,
+   "projectedMin": 19.14
+  },
+  {
+   "date": "2026-10-26",
+   "playerId": "2528426",
+   "name": "Jordan Clarkson",
+   "team": "NYK",
+   "from": "SF #2",
+   "to": "SG #4",
+   "promoted": false,
+   "projectedMin": 17.79
+  },
+  {
+   "date": "2026-10-26",
+   "playerId": "3133626",
+   "name": "Kenrich Williams",
+   "team": "OKC",
+   "from": "PF #3",
+   "to": "PF #2",
+   "promoted": true,
+   "projectedMin": 14.15
+  },
+  {
+   "date": "2026-10-26",
+   "playerId": "5044385",
+   "name": "Leonard Miller",
+   "team": "CHI",
+   "from": "PF #5",
+   "to": "PF #2",
+   "promoted": true,
+   "projectedMin": 12.37
+  },
+  {
+   "date": "2026-10-26",
+   "playerId": "5239561",
+   "name": "Jase Richardson",
+   "team": "ORL",
+   "from": "PG #4",
+   "to": "PG #2",
+   "promoted": true,
+   "projectedMin": 9.57
+  },
+  {
+   "date": "2026-10-26",
+   "playerId": "5242502",
+   "name": "Ben Saraf",
+   "team": "BKN",
+   "from": "PG #2",
+   "to": "PG #5",
+   "promoted": false,
+   "projectedMin": 19.47
+  },
+  {
+   "date": "2026-10-26",
+   "playerId": "5037873",
+   "name": "Drake Powell",
+   "team": "BKN",
+   "from": "SG #2",
+   "to": "SG #5",
+   "promoted": false,
+   "projectedMin": 19.67
   }
  ]
 }

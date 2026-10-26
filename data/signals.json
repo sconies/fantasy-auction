@@ -1,10 +1,281 @@
 {
- "builtAt": "2026-10-26T08:19:55.954Z",
+ "builtAt": "2026-10-26T21:45:43.338Z",
  "counts": {
-  "new": 29,
-  "toJudge": 29
+  "new": 55,
+  "toJudge": 55
  },
  "signals": [
+  {
+   "id": "injury:fe2484ed08e7",
+   "kind": "text",
+   "playerId": "4431687",
+   "name": "Patrick Williams",
+   "team": "CHI",
+   "date": "2026-10-26T21:33Z",
+   "source": "injury",
+   "url": null,
+   "text": "Williams (groin) has been ruled out for Monday's game against the Celtics.",
+   "flags": {
+    "absence": 0.82
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "injury:0252fdfc40ca",
+   "kind": "text",
+   "playerId": "4277869",
+   "name": "Jose Alvarado",
+   "team": "NYK",
+   "date": "2026-10-26T20:50Z",
+   "source": "injury",
+   "url": null,
+   "text": "Alvarado (ankle) is out for Tuesday's game against the Pistons.",
+   "flags": {
+    "absence": 0.81
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "headline:650dcaa94f46",
+   "kind": "text",
+   "playerId": "4432165",
+   "name": "Jalen Suggs",
+   "team": "ORL",
+   "date": "2026-10-26T19:09:01Z",
+   "source": "headline",
+   "url": "https://www.espn.com/nba/story/_/id/50289397/magic-jalen-suggs-least-2-weeks-knee-injury",
+   "text": "Magic's Jalen Suggs out at least 2 weeks with knee injury. Magic guard Jalen Suggs suffered a mild bone bruise in his right knee and will miss at least the next two weeks.",
+   "flags": {
+    "absence": 0.96
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "injury:eaa3b6310bab",
+   "kind": "text",
+   "playerId": "4601023",
+   "name": "Oso Ighodaro",
+   "team": "PHX",
+   "date": "2026-10-26T18:30Z",
+   "source": "injury",
+   "url": null,
+   "text": "Ighodaro (oblique) is out for Monday's matchup with the Thunder.",
+   "flags": {
+    "absence": 0.77
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "injury:407367048d62",
+   "kind": "text",
+   "playerId": "2530530",
+   "name": "T.J. McConnell",
+   "team": "IND",
+   "date": "2026-10-26T18:26Z",
+   "source": "injury",
+   "url": null,
+   "text": "McConnell (hamstring) is out for Monday's game against the Bucks.",
+   "flags": {
+    "absence": 0.86
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "injury:267cc67ac7ca",
+   "kind": "text",
+   "playerId": "4683692",
+   "name": "Cason Wallace",
+   "team": "OKC",
+   "date": "2026-10-26T18:24Z",
+   "source": "injury",
+   "url": null,
+   "text": "Wallace (shoulder) is out for Monday's game versus the Suns.",
+   "flags": {
+    "absence": 0.81
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "injury:ced214a655e0",
+   "kind": "text",
+   "playerId": "4433255",
+   "name": "Chet Holmgren",
+   "team": "OKC",
+   "date": "2026-10-26T18:22Z",
+   "source": "injury",
+   "url": null,
+   "text": "Holmgren (knee) is out for Monday's game versus the Suns.",
+   "flags": {
+    "absence": 0.84
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "injury:2e3a2a51b7d5",
+   "kind": "text",
+   "playerId": "4017837",
+   "name": "Ivica Zubac",
+   "team": "IND",
+   "date": "2026-10-26T18:20Z",
+   "source": "injury",
+   "url": null,
+   "text": "Zubac (ankle) is out for Monday's game against the Bucks.",
+   "flags": {
+    "absence": 0.84
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "injury:2c56f53f5f4f",
+   "kind": "text",
+   "playerId": "3138160",
+   "name": "Caleb Martin",
+   "team": "DAL",
+   "date": "2026-10-26T17:09Z",
+   "source": "injury",
+   "url": null,
+   "text": "Martin (thumb) is out for Monday's game against the Heat, Mike Curtis of The Dallas Morning News reports.",
+   "flags": {
+    "absence": 0.83
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "headline:0a1ea2c513b6",
+   "kind": "text",
+   "playerId": "4066354",
+   "name": "Payton Pritchard",
+   "team": "BOS",
+   "date": "2026-10-26T16:43:01Z",
+   "source": "headline",
+   "url": "https://www.espn.com/nba/story/_/id/50259828/payton-pritchard-celtics-iso-king",
+   "text": "How Payton Pritchard became Boston's unlikely iso king. The sixth man supreme doggedly sharpens his game in brutal summer practices. That's an edge the C's will need.",
+   "flags": {
+    "bench": 0.91
+   },
+   "summary": "is expected to come off the bench or has lost his starting job",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "injury:f1c1edd0a8a4",
+   "kind": "text",
+   "playerId": "2990992",
+   "name": "Marcus Smart",
+   "team": "HOU",
+   "date": "2026-10-26T16:20Z",
+   "source": "injury",
+   "url": null,
+   "text": "Smart (arm) is out for Monday's game against the Hawks.",
+   "flags": {
+    "absence": 0.86
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "injury:bc5b4b65e19d",
+   "kind": "text",
+   "playerId": "4594327",
+   "name": "Keegan Murray",
+   "team": "SAC",
+   "date": "2026-10-26T14:22Z",
+   "source": "injury",
+   "url": null,
+   "text": "Murray (ankle) has been ruled out for Sunday's game against the Grizzlies.",
+   "flags": {
+    "absence": 0.75
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "injury:8f32abe53020",
+   "kind": "text",
+   "playerId": "5124612",
+   "name": "VJ Edgecombe",
+   "team": "PHI",
+   "date": "2026-10-26T14:05Z",
+   "source": "injury",
+   "url": null,
+   "text": "Edgecombe (abdomen) is out for Sunday's game against the Pistons, Adam Aaronson of PhillyVoice.com reports.",
+   "flags": {
+    "absence": 0.7
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "injury:51f265831542",
+   "kind": "text",
+   "playerId": "3059318",
+   "name": "Joel Embiid",
+   "team": "PHI",
+   "date": "2026-10-26T14:04Z",
+   "source": "injury",
+   "url": null,
+   "text": "Embiid has been ruled out for Sunday's game against Detroit due to right plantar fasciitis management.",
+   "flags": {
+    "absence": 0.86
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "handled",
+   "firstSeen": "2026-10-25",
+   "handledNote": "absence/injury: automatic proposal, single game or injury-driven"
+  },
+  {
+   "id": "injury:13a6314b71a8",
+   "kind": "text",
+   "playerId": "6450",
+   "name": "Kawhi Leonard",
+   "team": "TOR",
+   "date": "2026-10-26T14:01Z",
+   "source": "injury",
+   "url": null,
+   "text": "Leonard is out for Sunday's game against the Timberwolves due to left knee swelling, Blake Murphy of Sportsnet.ca reports.",
+   "flags": {
+    "absence": 0.78
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-26"
+  },
   {
    "id": "headline:e0564bd7e261",
    "kind": "text",
@@ -244,6 +515,24 @@
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "news:a33009fabfe1",
+   "kind": "text",
+   "playerId": "5041939",
+   "name": "Cooper Flagg",
+   "team": "DAL",
+   "date": "2026-10-26",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616017/cooper-flagg-shoulder-upgraded-to-probable-monday.php",
+   "text": "Cooper Flagg (shoulder) upgraded to probable for Monday Cooper Flagg (shoulder) has been upgraded to probable for Monday's game against the Heat.  Fantasy Impact: Flagg was initially listed as questionable for Monday's game, but it looks like he'll be in action. Flagg only played 17 minutes in Friday's game and sat out entirely on Saturday. There's certainly a chance his minutes will be limited Mo",
+   "flags": {
+    "minutes_limit": 0.7
+   },
+   "summary": "is or will be on a minutes restriction in games (being limited in practice or held out of a practice does not count)",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-26"
   },
   {
    "id": "outlook:2448167d3d6d",
@@ -544,25 +833,6 @@
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
-  },
-  {
-   "id": "news:a120a120298a",
-   "kind": "text",
-   "playerId": "5061575",
-   "name": "Kon Knueppel",
-   "team": "CHA",
-   "date": "2026-10-26",
-   "source": "news",
-   "url": "https://www.fantasypros.com/nba/news/615952/kon-knueppel-hamstring-ruled-out-monday.php",
-   "text": "Kon Knueppel (hamstring) ruled out Monday Kon Knueppel has been ruled out for Monday's game against the Washington Wizards.  Fantasy Impact: Knueppel will miss his fourth straight game as he continues to recover from a left hamstring strain. His next opportunity to return comes Wednesday against the Detroit Pistons. In his absence, Grayson Allen and Sion James should continue to see extended playi",
-   "flags": {
-    "absence": 0.97,
-    "recovering": 0.94
-   },
-   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
-   "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
   },
   {
    "id": "outlook:13deaedf6e83",
@@ -1177,25 +1447,6 @@
    "firstSeen": "2026-10-06"
   },
   {
-   "id": "news:b2efca3294a4",
-   "kind": "text",
-   "playerId": "5142718",
-   "name": "AJ Dybantsa",
-   "team": "WAS",
-   "date": "2026-10-26",
-   "source": "news",
-   "url": "https://www.fantasypros.com/nba/news/615950/aj-dybantsa-ankle-ruled-out-monday.php",
-   "text": "AJ Dybantsa (ankle) ruled out Monday AJ Dybantsa has been ruled out for Monday's game against the Charlotte Hornets. Fantasy Impact: Dybantsa will have to wait to make his official NBA debut as he continues to recover from a left ankle sprain. His next opportunity to suit up comes Wednesday against the Cleveland Cavaliers.",
-   "flags": {
-    "absence": 0.89,
-    "recovering": 0.89
-   },
-   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
-   "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
-  },
-  {
    "id": "outlook:73c8b5a24c5e",
    "kind": "outlook",
    "playerId": "2490149",
@@ -1212,25 +1463,6 @@
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
-  },
-  {
-   "id": "news:6ae9433b9e97",
-   "kind": "text",
-   "playerId": "4395651",
-   "name": "Coby White",
-   "team": "CHA",
-   "date": "2026-10-26",
-   "source": "news",
-   "url": "https://www.fantasypros.com/nba/news/615951/coby-white-calf-ruled-out-monday.php",
-   "text": "Coby White (calf) ruled out Monday Coby White has been ruled out for Monday's game against the Washington Wizards.  Fantasy Impact: White will miss his fourth consecutive game as he continues to recover from a left calf strain. With him sidelined, Dennis Schroder is expected to start at point guard once again. White's next opportunity to make his season debut comes Wednesday against the Detroit Pi",
-   "flags": {
-    "absence": 0.98,
-    "recovering": 0.93
-   },
-   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
-   "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
   },
   {
    "id": "outlook:e98874ce8531",
@@ -1746,6 +1978,24 @@
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-20"
+  },
+  {
+   "id": "news:6c475df938f6",
+   "kind": "text",
+   "playerId": "3134908",
+   "name": "Jakob Poeltl",
+   "team": "TOR",
+   "date": "2026-10-26",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616010/jakob-poeltl-scoreless-blowout-loss-sunday.php",
+   "text": "Jakob Poeltl scoreless in blowout loss Sunday Jakob Poeltl failed to score a point (0-2 FG) and grabbed just one rebound in Sunday's 117-94 loss to the Minnesota Timberwolves. Fantasy Impact: Poeltl started and saw 19 minutes of action on Sunday, but he wasn't able to do anything at all with that time. He didn't score even a single point on the day and contributed just one rebound. This was a terr",
+   "flags": {
+    "starter": 0.81
+   },
+   "summary": "is expected to start or has been named a starter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-26"
   },
   {
    "id": "outlook:72c96852192c",
@@ -2356,25 +2606,6 @@
    "firstSeen": "2026-10-20"
   },
   {
-   "id": "news:3ead2fe0e298",
-   "kind": "text",
-   "playerId": "4066218",
-   "name": "Grant Williams",
-   "team": "CHA",
-   "date": "2026-10-26",
-   "source": "news",
-   "url": "https://www.fantasypros.com/nba/news/615953/grant-williams-hamstring-ruled-out-monday.php",
-   "text": "Grant Williams (hamstring) ruled out Monday Grant Williams has been ruled out for Monday's game against the Washington Wizards.  Fantasy Impact: Williams continues to recover from a right hamstring strain and has yet to make his season debut. His next opportunity to return comes Wednesday against the Detroit Pistons. In his absence, Royce O'Neale, Sion James and Ryan Kalkbrenner should see a sligh",
-   "flags": {
-    "absence": 0.96,
-    "recovering": 0.94
-   },
-   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
-   "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
-  },
-  {
    "id": "news:5a211d4a03e5",
    "kind": "text",
    "playerId": "4431687",
@@ -2394,17 +2625,17 @@
    "firstSeen": "2026-10-26"
   },
   {
-   "id": "injury:bc5b4b65e19d",
+   "id": "news:90459bd90048",
    "kind": "text",
-   "playerId": "4594327",
-   "name": "Keegan Murray",
-   "team": "SAC",
-   "date": "2026-10-25T23:05Z",
-   "source": "injury",
-   "url": null,
-   "text": "Murray (ankle) has been ruled out for Sunday's game against the Grizzlies.",
+   "playerId": "3138160",
+   "name": "Caleb Martin",
+   "team": "DAL",
+   "date": "2026-10-26",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616028/caleb-martin-thumb-ruled-out-monday.php",
+   "text": "Caleb Martin (thumb) ruled out Monday Caleb Martin has been ruled out for Monday's game against the Miami Heat.  Fantasy Impact: Martin was initially listed as doubtful due to a right thumb sprain but will remain sidelined. With Martin and Naji Marshall (illness) unavailable, Zaccharie Risacher, Marcus Sasser and Morez Johnson Jr. could see increased minutes. Martin's next opportunity to make his ",
    "flags": {
-    "absence": 0.75
+    "absence": 0.95
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
@@ -2412,19 +2643,511 @@
    "firstSeen": "2026-10-26"
   },
   {
-   "id": "injury:8f32abe53020",
+   "id": "news:6630bf25736d",
    "kind": "text",
-   "playerId": "5124612",
-   "name": "VJ Edgecombe",
-   "team": "PHI",
-   "date": "2026-10-25T22:50Z",
-   "source": "injury",
-   "url": null,
-   "text": "Edgecombe (abdomen) is out for Sunday's game against the Pistons, Adam Aaronson of PhillyVoice.com reports.",
+   "playerId": "4278594",
+   "name": "Naji Marshall",
+   "team": "DAL",
+   "date": "2026-10-26",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615984/naji-marshall-illness-ruled-out-monday.php",
+   "text": "Naji Marshall (illness) ruled out Monday Naji Marshall has been ruled out for Monday's game against the Miami Heat.  Fantasy Impact: Marshall will miss Monday's contest due to an illness. His next opportunity to return comes Wednesday against the Oklahoma City Thunder. With Marshall sidelined, Zaccharie Risacher, Marcus Sasser and Morez Johnson Jr. could see increased minutes.",
    "flags": {
-    "absence": 0.7
+    "absence": 0.92
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "news:6a1f223327f0",
+   "kind": "text",
+   "playerId": "4593125",
+   "name": "Santi Aldama",
+   "team": "DAL",
+   "date": "2026-10-26",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615985/santi-aldama-knee-ruled-out-monday.php",
+   "text": "Santi Aldama (knee) ruled out Monday Santi Aldama has been ruled out for Monday's game against the Miami Heat.  Fantasy Impact: Aldama continues to ramp up his activity following offseason knee surgery but will miss Monday's contest. Fantasy managers should consider him week-to-week.",
+   "flags": {
+    "absence": 0.91,
+    "recovering": 0.98
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "news:ecd9a76d0b0b",
+   "kind": "text",
+   "playerId": "3138196",
+   "name": "Cameron Johnson",
+   "team": "DEN",
+   "date": "2026-10-26",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616005/cameron-johnson-ankle-doubtful-monday.php",
+   "text": "Cameron Johnson (ankle) doubtful Monday Cameron Johnson is listed as doubtful for Monday's game against the Golden State Warriors.  Fantasy Impact: Johnson suffered a right ankle sprain in the Denver Nuggets' season opener and is expected to miss his second straight game. With Johnson and Alpha Diallo (wrist) expected to be sidelined, Cam Whitmore, Tyus Jones and Bryce Hopkins are candidates for a",
+   "flags": {
+    "absence": 0.96
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "news:59b1aefc49a8",
+   "kind": "text",
+   "playerId": "2990992",
+   "name": "Marcus Smart",
+   "team": "HOU",
+   "date": "2026-10-26",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616027/marcus-smart-forearm-ruled-out-monday.php",
+   "text": "Marcus Smart (forearm) ruled out Monday Marcus Smart has been ruled out for Monday's game against the Atlanta Hawks.  Fantasy Impact: Smart was initially listed as questionable but will miss his second straight game due to a left forearm strain. With him sidelined, Bogdan Bogdanovic and Reed Sheppard should see increased opportunities. Smart's next chance to return comes Wednesday against the Milw",
+   "flags": {
+    "absence": 0.95
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "news:1fbc3c488e99",
+   "kind": "text",
+   "playerId": "4601023",
+   "name": "Oso Ighodaro",
+   "team": "PHX",
+   "date": "2026-10-26",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615987/oso-ighodaro-oblique-doubtful-monday.php",
+   "text": "Oso Ighodaro (oblique) doubtful Monday Oso Ighodaro is listed as doubtful for Monday's game against the Indiana Pacers.  Fantasy Impact: Ighodaro is expected to miss his second straight game while recovering from a right oblique strain. If he's ultimately ruled out, Khaman Maluach should see extended playing time at center.",
+   "flags": {
+    "absence": 0.95,
+    "recovering": 0.87
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "news:7dd42ea948cb",
+   "kind": "text",
+   "playerId": "4684272",
+   "name": "Ja'Kobe Walter",
+   "team": "TOR",
+   "date": "2026-10-26",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616008/jakobe-walter-leads-team-scoring-sunday.php",
+   "text": "Ja'Kobe Walter leads team in scoring Sunday Ja'Kobe Walter put up 22 points (7-12 FG, 5-8 3PT, 3-4 FT) to go with four rebounds in two steals in Sunday's 117-94 loss to the Minnesota Timberwolves. Fantasy Impact: Walter stepped up for the Raptors on Sunday with Kawhi Leonard (knee) out. He led the team with 22 points, which left him with a good fantasy total on the day. His output will lower when ",
+   "flags": {
+    "opening": 0.97
+   },
+   "summary": "a teammate's absence or departure opens up opportunity for the player",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "news:5567ca5afebd",
+   "kind": "text",
+   "playerId": "4432847",
+   "name": "Terrence Shannon Jr.",
+   "team": "MIN",
+   "date": "2026-10-26",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616006/terrence-shannon-jr-leads-bench-scoring-sunday.php",
+   "text": "Terrence Shannon Jr. leads bench in scoring Sunday Terrence Shannon Jr. scored 15 points (5-6 FG, 3-3 3PT, 2-3 FT) and grabbed four rebounds in Sunday's 117-94 win over the Toronto Raptors. Fantasy Impact: Shannon came off of the bench on Sunday, but he was still able to leave his mark on this game. He led the second unit with 15 points against the Raptors, which helped Timberwolves to pick up a c",
+   "flags": {
+    "bench": 0.89
+   },
+   "summary": "is expected to come off the bench or has lost his starting job",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "news:25831f0853d5",
+   "kind": "text",
+   "playerId": "4431679",
+   "name": "Precious Achiuwa",
+   "team": "SAC",
+   "date": "2026-10-26",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615999/precious-achiuwa-logs-double-double-loss-sunday.php",
+   "text": "Precious Achiuwa logs double-double in loss Sunday Precious Achiuwa scored 12 points (6-13 FG, 0-6 FT) to go with ten rebounds, three blocks, and two steals in Sunday's 123-112 loss to the Memphis Grizzlies. Fantasy Impact: Achiuwa started and played well on Sunday. He logged a double-double and was able to contribute well on the defensive side of the ball with three blocks and two steals. He will",
+   "flags": {
+    "starter": 0.91
+   },
+   "summary": "is expected to start or has been named a starter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "depth:4593803:2026-10-26:SF #7",
+   "kind": "depth",
+   "playerId": "4593803",
+   "name": "Jalen Williams",
+   "team": "OKC",
+   "date": "2026-10-26",
+   "summary": "Depth chart SF #1 → SF #7",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "depth:4397136:2026-10-26:SF #2",
+   "kind": "depth",
+   "playerId": "4397136",
+   "name": "Saddiq Bey",
+   "team": "NOP",
+   "date": "2026-10-26",
+   "summary": "Depth chart SF #3 → SF #2",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "depth:5101761:2026-10-26:PG #2",
+   "kind": "depth",
+   "playerId": "5101761",
+   "name": "Mikel Brown Jr.",
+   "team": "BKN",
+   "date": "2026-10-26",
+   "summary": "Depth chart PG #1 → PG #2",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "depth:2991350:2026-10-26:SF #1",
+   "kind": "depth",
+   "playerId": "2991350",
+   "name": "Alex Caruso",
+   "team": "OKC",
+   "date": "2026-10-26",
+   "summary": "Depth chart PF #2 → SF #1",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "depth:5105550:2026-10-26:PF #2",
+   "kind": "depth",
+   "playerId": "5105550",
+   "name": "GG Jackson",
+   "team": "MEM",
+   "date": "2026-10-26",
+   "summary": "Depth chart SF #3 → PF #2",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "depth:5082206:2026-10-26:PG #3",
+   "kind": "depth",
+   "playerId": "5082206",
+   "name": "Brayden Burries",
+   "team": "MIL",
+   "date": "2026-10-26",
+   "summary": "Depth chart SG #2 → PG #3",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "depth:4066372:2026-10-26:SG #2",
+   "kind": "depth",
+   "playerId": "4066372",
+   "name": "Kevin Huerter",
+   "team": "DET",
+   "date": "2026-10-26",
+   "summary": "Depth chart SG #3 → SG #2",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "depth:4576060:2026-10-26:C #2",
+   "kind": "depth",
+   "playerId": "4576060",
+   "name": "Ryan Kalkbrenner",
+   "team": "CHA",
+   "date": "2026-10-26",
+   "summary": "Depth chart C #3 → C #2",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "depth:5279130:2026-10-26:SG #2",
+   "kind": "depth",
+   "playerId": "5279130",
+   "name": "Nolan Traore",
+   "team": "BKN",
+   "date": "2026-10-26",
+   "summary": "Depth chart PG #3 → SG #2",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "depth:4578893:2026-10-26:SF #3",
+   "kind": "depth",
+   "playerId": "4578893",
+   "name": "Vit Krejci",
+   "team": "POR",
+   "date": "2026-10-26",
+   "summary": "Depth chart SF #2 → SF #3",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "depth:4277956:2026-10-26:PG #2",
+   "kind": "depth",
+   "playerId": "4277956",
+   "name": "Jordan Poole",
+   "team": "NOP",
+   "date": "2026-10-26",
+   "summary": "Depth chart PG #3 → PG #2",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "depth:5106258:2026-10-26:PF #2",
+   "kind": "depth",
+   "playerId": "5106258",
+   "name": "Gradey Dick",
+   "team": "LAC",
+   "date": "2026-10-26",
+   "summary": "Depth chart SF #4 → PF #2",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "depth:4277813:2026-10-26:SF #3",
+   "kind": "depth",
+   "playerId": "4277813",
+   "name": "Herbert Jones",
+   "team": "NOP",
+   "date": "2026-10-26",
+   "summary": "Depth chart SF #2 → SF #3",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "depth:4702177:2026-10-26:SG #1",
+   "kind": "depth",
+   "playerId": "4702177",
+   "name": "Keon Ellis",
+   "team": "BKN",
+   "date": "2026-10-26",
+   "summary": "Depth chart SF #2 → SG #1",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "depth:4397475:2026-10-26:SG #2",
+   "kind": "depth",
+   "playerId": "4397475",
+   "name": "AJ Green",
+   "team": "MIL",
+   "date": "2026-10-26",
+   "summary": "Depth chart SG #3 → SG #2",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "depth:4277869:2026-10-26:PG #2",
+   "kind": "depth",
+   "playerId": "4277869",
+   "name": "Jose Alvarado",
+   "team": "NYK",
+   "date": "2026-10-26",
+   "summary": "Depth chart PG #3 → PG #2",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "depth:5281370:2026-10-26:C #4",
+   "kind": "depth",
+   "playerId": "5281370",
+   "name": "Hannes Steinbach",
+   "team": "CHA",
+   "date": "2026-10-26",
+   "summary": "Depth chart C #2 → C #4",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "depth:6609:2026-10-26:PF #3",
+   "kind": "depth",
+   "playerId": "6609",
+   "name": "Khris Middleton",
+   "team": "WAS",
+   "date": "2026-10-26",
+   "summary": "Depth chart PF #2 → PF #3",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "depth:3037789:2026-10-26:SF #2",
+   "kind": "depth",
+   "playerId": "3037789",
+   "name": "Bogdan Bogdanovic",
+   "team": "HOU",
+   "date": "2026-10-26",
+   "summary": "Depth chart SF #3 → SF #2",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "depth:2990984:2026-10-26:SG #2",
+   "kind": "depth",
+   "playerId": "2990984",
+   "name": "Buddy Hield",
+   "team": "CHI",
+   "date": "2026-10-26",
+   "summary": "Depth chart SG #4 → SG #2",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "depth:4431687:2026-10-26:PF #7",
+   "kind": "depth",
+   "playerId": "4431687",
+   "name": "Patrick Williams",
+   "team": "CHI",
+   "date": "2026-10-26",
+   "summary": "Depth chart PF #2 → PF #7",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "depth:2528426:2026-10-26:SG #4",
+   "kind": "depth",
+   "playerId": "2528426",
+   "name": "Jordan Clarkson",
+   "team": "NYK",
+   "date": "2026-10-26",
+   "summary": "Depth chart SF #2 → SG #4",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "depth:5242502:2026-10-26:PG #5",
+   "kind": "depth",
+   "playerId": "5242502",
+   "name": "Ben Saraf",
+   "team": "BKN",
+   "date": "2026-10-26",
+   "summary": "Depth chart PG #2 → PG #5",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "depth:5037873:2026-10-26:SG #5",
+   "kind": "depth",
+   "playerId": "5037873",
+   "name": "Drake Powell",
+   "team": "BKN",
+   "date": "2026-10-26",
+   "summary": "Depth chart SG #2 → SG #5",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "news:a120a120298a",
+   "kind": "text",
+   "playerId": "5061575",
+   "name": "Kon Knueppel",
+   "team": "CHA",
+   "date": "2026-10-26",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615952/kon-knueppel-hamstring-ruled-out-monday.php",
+   "text": "Kon Knueppel (hamstring) ruled out Monday Kon Knueppel has been ruled out for Monday's game against the Washington Wizards.  Fantasy Impact: Knueppel will miss his fourth straight game as he continues to recover from a left hamstring strain. His next opportunity to return comes Wednesday against the Detroit Pistons. In his absence, Grayson Allen and Sion James should continue to see extended playi",
+   "flags": {
+    "absence": 0.97,
+    "recovering": 0.94
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "news:b2efca3294a4",
+   "kind": "text",
+   "playerId": "5142718",
+   "name": "AJ Dybantsa",
+   "team": "WAS",
+   "date": "2026-10-26",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615950/aj-dybantsa-ankle-ruled-out-monday.php",
+   "text": "AJ Dybantsa (ankle) ruled out Monday AJ Dybantsa has been ruled out for Monday's game against the Charlotte Hornets. Fantasy Impact: Dybantsa will have to wait to make his official NBA debut as he continues to recover from a left ankle sprain. His next opportunity to suit up comes Wednesday against the Cleveland Cavaliers.",
+   "flags": {
+    "absence": 0.89,
+    "recovering": 0.89
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "news:6ae9433b9e97",
+   "kind": "text",
+   "playerId": "4395651",
+   "name": "Coby White",
+   "team": "CHA",
+   "date": "2026-10-26",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615951/coby-white-calf-ruled-out-monday.php",
+   "text": "Coby White (calf) ruled out Monday Coby White has been ruled out for Monday's game against the Washington Wizards.  Fantasy Impact: White will miss his fourth consecutive game as he continues to recover from a left calf strain. With him sidelined, Dennis Schroder is expected to start at point guard once again. White's next opportunity to make his season debut comes Wednesday against the Detroit Pi",
+   "flags": {
+    "absence": 0.98,
+    "recovering": 0.93
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "id": "news:3ead2fe0e298",
+   "kind": "text",
+   "playerId": "4066218",
+   "name": "Grant Williams",
+   "team": "CHA",
+   "date": "2026-10-26",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/615953/grant-williams-hamstring-ruled-out-monday.php",
+   "text": "Grant Williams (hamstring) ruled out Monday Grant Williams has been ruled out for Monday's game against the Washington Wizards.  Fantasy Impact: Williams continues to recover from a right hamstring strain and has yet to make his season debut. His next opportunity to return comes Wednesday against the Detroit Pistons. In his absence, Royce O'Neale, Sion James and Ryan Kalkbrenner should see a sligh",
+   "flags": {
+    "absence": 0.96,
+    "recovering": 0.94
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
    "judge": true,
    "status": "new",
    "firstSeen": "2026-10-26"
@@ -2460,24 +3183,6 @@
    "text": "Thompson (ankle) is out for Sunday's game against the 76ers, Hunter Patterson of The Athletic reports.",
    "flags": {
     "absence": 0.77
-   },
-   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
-   "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
-  },
-  {
-   "id": "injury:13a6314b71a8",
-   "kind": "text",
-   "playerId": "6450",
-   "name": "Kawhi Leonard",
-   "team": "TOR",
-   "date": "2026-10-25T22:03Z",
-   "source": "injury",
-   "url": null,
-   "text": "Leonard is out for Sunday's game against the Timberwolves due to left knee swelling, Blake Murphy of Sportsnet.ca reports.",
-   "flags": {
-    "absence": 0.78
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
@@ -2555,25 +3260,6 @@
    "judge": true,
    "status": "new",
    "firstSeen": "2026-10-26"
-  },
-  {
-   "id": "injury:51f265831542",
-   "kind": "text",
-   "playerId": "3059318",
-   "name": "Joel Embiid",
-   "team": "PHI",
-   "date": "2026-10-25T17:08Z",
-   "source": "injury",
-   "url": null,
-   "text": "Embiid has been ruled out for Sunday's game against Detroit due to right plantar fasciitis management.",
-   "flags": {
-    "absence": 0.86
-   },
-   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
-   "judge": true,
-   "status": "handled",
-   "firstSeen": "2026-10-25",
-   "handledNote": "absence/injury: automatic proposal, single game or injury-driven"
   },
   {
    "id": "injury:854a582accaf",
