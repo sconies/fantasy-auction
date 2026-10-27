@@ -1,10 +1,173 @@
 {
- "builtAt": "2026-10-27T08:31:51.093Z",
+ "builtAt": "2026-10-27T21:25:57.740Z",
  "counts": {
-  "new": 30,
-  "toJudge": 30
+  "new": 44,
+  "toJudge": 44
  },
  "signals": [
+  {
+   "id": "injury:91db831d1b57",
+   "kind": "text",
+   "playerId": "4017837",
+   "name": "Ivica Zubac",
+   "team": "IND",
+   "date": "2026-10-27T21:12Z",
+   "source": "injury",
+   "url": null,
+   "text": "The Pacers don't have a timetable for Zubac's return after he suffered a left ankle injury Sunday against Brooklyn, but he was able to walk without a boot Monday, Dustin Dopirak of The Indianapolis Star reports.",
+   "flags": {
+    "recovering": 0.84
+   },
+   "summary": "is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-27"
+  },
+  {
+   "id": "headline:493e1554aecb",
+   "kind": "text",
+   "playerId": "4277961",
+   "name": "Jaren Jackson Jr.",
+   "team": "UTA",
+   "date": "2026-10-27T20:59:07Z",
+   "source": "headline",
+   "url": "https://www.espn.com/nba/story/_/id/50300264/jazz-jaren-jackson-jr-knee-6-8-weeks-sources-say",
+   "text": "Jazz's Jaren Jackson Jr. (knee) out 6-8 weeks, sources say. Utah will be down two more of its bigs as Jaren Jackson Jr. has a torn MCL in his right knee and will miss at least six weeks, while Lauri Markkanen is day-to-day with a sprained wrist.",
+   "flags": {
+    "absence": 0.97
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-27"
+  },
+  {
+   "id": "injury:1587a2cc542f",
+   "kind": "text",
+   "playerId": "champju01",
+   "name": "Justin Champagnie",
+   "team": "WAS",
+   "date": "2026-10-27T20:50Z",
+   "source": "injury",
+   "url": null,
+   "text": "Champagnie (foot) is out for Wednesday's game versus Cleveland.",
+   "flags": {
+    "absence": 0.82
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-27"
+  },
+  {
+   "id": "injury:9d4a0287a318",
+   "kind": "text",
+   "playerId": "4871144",
+   "name": "Alperen Sengun",
+   "team": "HOU",
+   "date": "2026-10-27T20:19Z",
+   "source": "injury",
+   "url": null,
+   "text": "Sengun (back) has been ruled out for Wednesday's game against the Bucks.",
+   "flags": {
+    "absence": 0.79
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-27"
+  },
+  {
+   "id": "injury:84f78367258f",
+   "kind": "text",
+   "playerId": "4066648",
+   "name": "Rui Hachimura",
+   "team": "LAC",
+   "date": "2026-10-27T19:47Z",
+   "source": "injury",
+   "url": null,
+   "text": "Hachimura (quadriceps) has been ruled out for Wednesday's game against the Lakers, Joey Linn of SI.com reports.",
+   "flags": {
+    "absence": 0.82
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-27"
+  },
+  {
+   "id": "injury:5c726f585400",
+   "kind": "text",
+   "playerId": "4277961",
+   "name": "Jaren Jackson Jr.",
+   "team": "UTA",
+   "date": "2026-10-27T19:25Z",
+   "source": "injury",
+   "url": null,
+   "text": "Jackson has been diagnosed with a torn MCL in his right knee and will be sidelined for 6-to-8 weeks, per Shams Charania of ESPN.",
+   "flags": {
+    "absence": 0.96
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-27"
+  },
+  {
+   "id": "headline:5bfd06e18c91",
+   "kind": "text",
+   "playerId": "6450",
+   "name": "Kawhi Leonard",
+   "team": "TOR",
+   "date": "2026-10-27T16:41:14Z",
+   "source": "headline",
+   "url": "https://www.espn.com/nba/story/_/id/50298441/raptors-kawhi-leonard-weeks-due-knee-sources-say",
+   "text": "Raptors' Kawhi Leonard out weeks due to knee, sources say. Kawhi Leonard is expected to miss a period of weeks due to swelling in his left knee, sources told ESPN's Shams Charania.",
+   "flags": {
+    "absence": 0.89
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-27"
+  },
+  {
+   "id": "injury:7025cc3ed9b3",
+   "kind": "text",
+   "playerId": "6450",
+   "name": "Kawhi Leonard",
+   "team": "TOR",
+   "date": "2026-10-27T15:31Z",
+   "source": "injury",
+   "url": null,
+   "text": "Leonard (knee) is expected to miss multiple weeks due to swelling in his left knee, Shams Charania of ESPN reports.",
+   "flags": {
+    "absence": 0.91
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-27"
+  },
+  {
+   "id": "injury:ced214a655e0",
+   "kind": "text",
+   "playerId": "4433255",
+   "name": "Chet Holmgren",
+   "team": "OKC",
+   "date": "2026-10-27T14:03Z",
+   "source": "injury",
+   "url": null,
+   "text": "Holmgren (knee) is out for Monday's game versus the Suns.",
+   "flags": {
+    "absence": 0.84
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
+  },
   {
    "id": "injury:8801d05371dd",
    "kind": "text",
@@ -19,24 +182,6 @@
     "absence": 0.81
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
-   "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-27"
-  },
-  {
-   "id": "injury:91db831d1b57",
-   "kind": "text",
-   "playerId": "4017837",
-   "name": "Ivica Zubac",
-   "team": "IND",
-   "date": "2026-10-27T04:41Z",
-   "source": "injury",
-   "url": null,
-   "text": "The Pacers don't have a timetable for Zubac's return after he suffered a left ankle injury Sunday against Brooklyn, but he was able to walk without a boot Monday, Dustin Dopirak of The Indianapolis Star reports.",
-   "flags": {
-    "recovering": 0.84
-   },
-   "summary": "is recovering or returning from a significant injury or surgery",
    "judge": true,
    "status": "new",
    "firstSeen": "2026-10-27"
@@ -433,24 +578,6 @@
    "firstSeen": "2026-10-06"
   },
   {
-   "id": "news:b658fd011f96",
-   "kind": "text",
-   "playerId": "4396993",
-   "name": "Tyrese Haliburton",
-   "team": "IND",
-   "date": "2026-10-27",
-   "source": "news",
-   "url": "https://www.fantasypros.com/nba/news/616086/tyrese-haliburton-scores-22-points-monday.php",
-   "text": "Tyrese Haliburton scores 22 points Monday Tyrese Haliburton scored 22 points (8-17 FG, 4-10 3PT, 2-3 FT) to go along with six rebounds, nine assists, one steal and one block in the Pacers 110-102 loss against the Bucks. Fantasy Impact: Haliburton played both games of the team’s road back-to-back, something to note early in the season in his return from his injury.",
-   "flags": {
-    "recovering": 0.96
-   },
-   "summary": "is recovering or returning from a significant injury or surgery",
-   "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-27"
-  },
-  {
    "id": "outlook:bbce85ca5f43",
    "kind": "outlook",
    "playerId": "4396993",
@@ -582,6 +709,24 @@
    "firstSeen": "2026-10-06"
   },
   {
+   "id": "news:6338ee0ec19b",
+   "kind": "text",
+   "playerId": "6450",
+   "name": "Kawhi Leonard",
+   "team": "TOR",
+   "date": "2026-10-27",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616147/kawhi-leonard-knee-to-miss-extended-time.php",
+   "text": "Kawhi Leonard (knee) to miss extended time Kawhi Leonard (knee) is expected to miss extended time for the Toronto Raptors according to Shams Charania.  Fantasy Impact: Leonard is suffering from left knee swelling with no structural damage indicated from an MRI according to Charania. Allen Graves will continue to see increased minutes in the Toronto lineup while Scottie Barnes and Immanuel Quickley",
+   "flags": {
+    "absence": 0.94
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-27"
+  },
+  {
    "id": "outlook:8c4239951585",
    "kind": "outlook",
    "playerId": "6450",
@@ -598,6 +743,24 @@
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "news:5fb0eefd9c62",
+   "kind": "text",
+   "playerId": "4593803",
+   "name": "Jalen Williams",
+   "team": "OKC",
+   "date": "2026-10-27",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616117/jalen-williams-anklefibula-out-indefinitely.php",
+   "text": "Jalen Williams (ankle/fibula) out indefinitely Jalen Williams (ankle/fibula) will be sidelined indefinitely for the Oklahoma City Thunder according to Shams Charania.  Fantasy Impact: Williams suffered a dislocated left ankle and fractured fibula in Sunday night’s contest against the Los Angeles Clippers, as the forward had to be carted off of the floor. Williams will undergo surgery for both inju",
+   "flags": {
+    "absence": 0.98
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-27"
   },
   {
    "id": "outlook:bb6933a607b4",
@@ -870,24 +1033,6 @@
    "firstSeen": "2026-10-06"
   },
   {
-   "id": "news:fcb7316392c4",
-   "kind": "text",
-   "playerId": "4395725",
-   "name": "Tyler Herro",
-   "team": "MIL",
-   "date": "2026-10-27",
-   "source": "news",
-   "url": "https://www.fantasypros.com/nba/news/616087/tyler-herro-logs-double-double-monday.php",
-   "text": "Tyler Herro logs double-double Monday Tyler Herro scored 23 points (7-14 FG, 3-6 3PT, 6-10 FT) to go along with 10 rebounds, seven assists, one steal and one block in the Bucks 110-102 win over the Pacers. Fantasy Impact: Herro continues to lead his new team in Milwaukee. He's been both a playmaker and scorer to start his tenure with the Bucks. That should continue moving forward.",
-   "flags": {
-    "new_team": 0.91
-   },
-   "summary": "changed teams (traded, signed or claimed) since last season",
-   "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-27"
-  },
-  {
    "id": "outlook:3796a1362a31",
    "kind": "outlook",
    "playerId": "4395725",
@@ -983,25 +1128,6 @@
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
-  },
-  {
-   "id": "news:0c3f1b1dbed9",
-   "kind": "text",
-   "playerId": "4433627",
-   "name": "Keyonte George",
-   "team": "UTA",
-   "date": "2026-10-27",
-   "source": "news",
-   "url": "https://www.fantasypros.com/nba/news/616093/keyonte-george-drops-26-points-monday.php",
-   "text": "Keyonte George drops 26 points Monday Keyonte George scored 26 points (9-17 FG, 0-3 3PT, 8-9 FT) to go along with three rebounds and six assists in the 110-105 loss against the Grizzlies. Fantasy Impact: George led the entire game in scoring. He could take on an even bigger role as a scorer with both Lauri Markkanen and Jaren Jackson Jr. leaving Monday's game early.",
-   "flags": {
-    "opening": 0.87,
-    "usage_up": 0.89
-   },
-   "summary": "a teammate's absence or departure opens up opportunity for the player; should take on a bigger scoring or offensive load (more shots or touches)",
-   "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-27"
   },
   {
    "id": "outlook:6e29ecf0433b",
@@ -1343,6 +1469,24 @@
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "news:4c565ac7b788",
+   "kind": "text",
+   "playerId": "4277961",
+   "name": "Jaren Jackson Jr.",
+   "team": "UTA",
+   "date": "2026-10-27",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616150/jaren-jackson-jr-knee-to-miss-6-8-weeks.php",
+   "text": "Jaren Jackson Jr. (knee) to miss 6-8 weeks Jaren Jackson Jr. has been diagnosed with a torn MCL in his right knee and will be sidelined for 6-8 weeks.  Fantasy Impact: Jackson was limited to 10 minutes in Monday's 110-105 loss to the Memphis Grizzlies after Ty Jerome fell on his leg, resulting in a torn MCL. The good news is that he will not require surgery but is expected to miss at least six wee",
+   "flags": {
+    "absence": 0.97
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-27"
   },
   {
    "id": "outlook:59288c91a798",
@@ -2118,24 +2262,6 @@
    "firstSeen": "2026-10-20"
   },
   {
-   "id": "news:a7224180e650",
-   "kind": "text",
-   "playerId": "4873138",
-   "name": "Ace Bailey",
-   "team": "UTA",
-   "date": "2026-10-27",
-   "source": "news",
-   "url": "https://www.fantasypros.com/nba/news/616094/ace-bailey-records-double-double-monday.php",
-   "text": "Ace Bailey records double-double Monday Ace Bailey scored 17 points (6-10 FG, 3-6 3PT, 2-2 FT) to go along with 10 rebounds, three assists and three blocks in the 110-105 loss for the Jazz against the Grizzlies. Fantasy Impact: Bailey recorded his second straight double-double to continue his strong start to the season. He'll continue to see more opportunity if either or both Lauri Markkanen and J",
-   "flags": {
-    "opening": 0.9
-   },
-   "summary": "a teammate's absence or departure opens up opportunity for the player",
-   "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-27"
-  },
-  {
    "id": "outlook:a3aa65360f25",
    "kind": "outlook",
    "playerId": "4873138",
@@ -2328,6 +2454,24 @@
    "firstSeen": "2026-10-20"
   },
   {
+   "id": "news:ef38123417b8",
+   "kind": "text",
+   "playerId": "4683692",
+   "name": "Cason Wallace",
+   "team": "OKC",
+   "date": "2026-10-27",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616116/cason-wallace-labrum-out-indefinitely.php",
+   "text": "Cason Wallace (labrum) out indefinitely Cason Wallace (labrum) will be out indefinitely for the Oklahoma City Thunder according to Shams Charania.  Fantasy Impact: Wallace suffered a torn labrum in his left shoulder Sunday night against the Los Angeles Clippers and will undergo surgery to repair. Ajay Mitchell, Alex Caruso, and Jared McCain will see increased roles for the foreseeable future.",
+   "flags": {
+    "absence": 0.97
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-27"
+  },
+  {
    "id": "outlook:38c9a0c00df0",
    "kind": "outlook",
    "playerId": "4683692",
@@ -2501,6 +2645,24 @@
    "firstSeen": "2026-10-20"
   },
   {
+   "id": "news:e88215f375e6",
+   "kind": "text",
+   "playerId": "larsspe01",
+   "name": "Pelle Larsson",
+   "team": "MIA",
+   "date": "2026-10-27",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616146/pelle-larsson-leads-bench-scoring-monday.php",
+   "text": "Pelle Larsson leads bench in scoring Monday Pelle Larsson scored 12 points (3-6 FG, 1-3 3PT, 5-6 FT) to go with four assists and three steals in Monday night's 113-109 loss to the Dallas Mavericks. Fantasy Impact: Larsson saw 34 minutes of action off of the bench on Monday night. He was somewhat effective in that time, leading the second unit in points, assists, and steals in what turned out to be",
+   "flags": {
+    "bench": 0.79
+   },
+   "summary": "is expected to come off the bench or has lost his starting job",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-27"
+  },
+  {
    "id": "news:e65d3b45e0fa",
    "kind": "text",
    "playerId": "4277869",
@@ -2514,6 +2676,43 @@
     "absence": 0.93
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-27"
+  },
+  {
+   "id": "news:73a5e254255a",
+   "kind": "text",
+   "playerId": "4900671",
+   "name": "Ajay Mitchell",
+   "team": "OKC",
+   "date": "2026-10-27",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616133/ajay-mitchell-drops-30-points-win-monday.php",
+   "text": "Ajay Mitchell drops 30 points in win Monday Ajay Mitchell dropped 30 points (10-16 FG, 1-3 3PT, 9-10 FT) and dished out five assists in Monday's 125-114 win over the Phoenix Suns. Fantasy Impact: Mitchell had a stellar performance on Monday night. He saw just 25 minutes of action, but he was still able to lead the team in points with 30 on the night and in assists with five. He will continue to se",
+   "flags": {
+    "opening": 0.98,
+    "usage_up": 0.8
+   },
+   "summary": "a teammate's absence or departure opens up opportunity for the player; should take on a bigger scoring or offensive load (more shots or touches)",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-27"
+  },
+  {
+   "id": "news:5ce3a68cfa4a",
+   "kind": "text",
+   "playerId": "4683778",
+   "name": "Jared McCain",
+   "team": "OKC",
+   "date": "2026-10-27",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616134/jared-mccain-plays-well-win-monday.php",
+   "text": "Jared McCain plays well in win Monday Jared McCain scored 18 points (6-14 FG, 4-7 3PT, 2-3 FT) and dished out four assists in Monday night's 125-114 win over the Phoenix Suns. Fantasy Impact: The Thunder has needed McCain to step up after losing several key guards due to injury, and he did step up on Monday. He finished with 18 points through 30 minutes of action, and he was able to maintain solid",
+   "flags": {
+    "opening": 0.94
+   },
+   "summary": "a teammate's absence or departure opens up opportunity for the player",
    "judge": true,
    "status": "new",
    "firstSeen": "2026-10-27"
@@ -2598,6 +2797,79 @@
    "team": "OKC",
    "date": "2026-10-27",
    "summary": "Depth chart SG #2 → SG #1",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-27"
+  },
+  {
+   "id": "news:b658fd011f96",
+   "kind": "text",
+   "playerId": "4396993",
+   "name": "Tyrese Haliburton",
+   "team": "IND",
+   "date": "2026-10-27",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616086/tyrese-haliburton-scores-22-points-monday.php",
+   "text": "Tyrese Haliburton scores 22 points Monday Tyrese Haliburton scored 22 points (8-17 FG, 4-10 3PT, 2-3 FT) to go along with six rebounds, nine assists, one steal and one block in the Pacers 110-102 loss against the Bucks. Fantasy Impact: Haliburton played both games of the team’s road back-to-back, something to note early in the season in his return from his injury.",
+   "flags": {
+    "recovering": 0.96
+   },
+   "summary": "is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-27"
+  },
+  {
+   "id": "news:fcb7316392c4",
+   "kind": "text",
+   "playerId": "4395725",
+   "name": "Tyler Herro",
+   "team": "MIL",
+   "date": "2026-10-27",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616087/tyler-herro-logs-double-double-monday.php",
+   "text": "Tyler Herro logs double-double Monday Tyler Herro scored 23 points (7-14 FG, 3-6 3PT, 6-10 FT) to go along with 10 rebounds, seven assists, one steal and one block in the Bucks 110-102 win over the Pacers. Fantasy Impact: Herro continues to lead his new team in Milwaukee. He's been both a playmaker and scorer to start his tenure with the Bucks. That should continue moving forward.",
+   "flags": {
+    "new_team": 0.91
+   },
+   "summary": "changed teams (traded, signed or claimed) since last season",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-27"
+  },
+  {
+   "id": "news:0c3f1b1dbed9",
+   "kind": "text",
+   "playerId": "4433627",
+   "name": "Keyonte George",
+   "team": "UTA",
+   "date": "2026-10-27",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616093/keyonte-george-drops-26-points-monday.php",
+   "text": "Keyonte George drops 26 points Monday Keyonte George scored 26 points (9-17 FG, 0-3 3PT, 8-9 FT) to go along with three rebounds and six assists in the 110-105 loss against the Grizzlies. Fantasy Impact: George led the entire game in scoring. He could take on an even bigger role as a scorer with both Lauri Markkanen and Jaren Jackson Jr. leaving Monday's game early.",
+   "flags": {
+    "opening": 0.87,
+    "usage_up": 0.89
+   },
+   "summary": "a teammate's absence or departure opens up opportunity for the player; should take on a bigger scoring or offensive load (more shots or touches)",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-27"
+  },
+  {
+   "id": "news:a7224180e650",
+   "kind": "text",
+   "playerId": "4873138",
+   "name": "Ace Bailey",
+   "team": "UTA",
+   "date": "2026-10-27",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616094/ace-bailey-records-double-double-monday.php",
+   "text": "Ace Bailey records double-double Monday Ace Bailey scored 17 points (6-10 FG, 3-6 3PT, 2-2 FT) to go along with 10 rebounds, three assists and three blocks in the 110-105 loss for the Jazz against the Grizzlies. Fantasy Impact: Bailey recorded his second straight double-double to continue his strong start to the season. He'll continue to see more opportunity if either or both Lauri Markkanen and J",
+   "flags": {
+    "opening": 0.9
+   },
+   "summary": "a teammate's absence or departure opens up opportunity for the player",
    "judge": true,
    "status": "new",
    "firstSeen": "2026-10-27"
@@ -2818,25 +3090,6 @@
    "text": "Wallace (shoulder) is out for Monday's game versus the Suns.",
    "flags": {
     "absence": 0.81
-   },
-   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
-   "judge": true,
-   "status": "handled",
-   "firstSeen": "2026-10-26",
-   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
-  },
-  {
-   "id": "injury:ced214a655e0",
-   "kind": "text",
-   "playerId": "4433255",
-   "name": "Chet Holmgren",
-   "team": "OKC",
-   "date": "2026-10-26T18:22Z",
-   "source": "injury",
-   "url": null,
-   "text": "Holmgren (knee) is out for Monday's game versus the Suns.",
-   "flags": {
-    "absence": 0.84
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
@@ -3130,24 +3383,6 @@
    "firstSeen": "2026-10-27"
   },
   {
-   "id": "news:c5bd117fff4b",
-   "kind": "text",
-   "playerId": "4433247",
-   "name": "Jonathan Kuminga",
-   "team": "MIN",
-   "date": "2026-10-26",
-   "source": "news",
-   "url": "https://www.fantasypros.com/nba/news/616071/jonathan-kuminga-records-double-double-loss-monday.php",
-   "text": "Jonathan Kuminga records double-double in loss Monday Jonathan Kuminga scored ten points (4-10 FG, 0-4 3PT, 2-4 FT) and grabbed ten rebounds in Monday's 127-125 OT loss to the Cleveland Cavaliers. Fantasy Impact: Kuminga wasn't very effective as a scorer on Monday night, but he was able to finish with ten rebounds, which completed a double-double for him. He will continue to be a viable fantasy as",
-   "flags": {
-    "starter": 0.85
-   },
-   "summary": "is expected to start or has been named a starter",
-   "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-27"
-  },
-  {
    "id": "news:90459bd90048",
    "kind": "text",
    "playerId": "3138160",
@@ -3165,6 +3400,24 @@
    "status": "handled",
    "firstSeen": "2026-10-26",
    "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
+  },
+  {
+   "id": "news:c5bd117fff4b",
+   "kind": "text",
+   "playerId": "4433247",
+   "name": "Jonathan Kuminga",
+   "team": "MIN",
+   "date": "2026-10-26",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616071/jonathan-kuminga-records-double-double-loss-monday.php",
+   "text": "Jonathan Kuminga records double-double in loss Monday Jonathan Kuminga scored ten points (4-10 FG, 0-4 3PT, 2-4 FT) and grabbed ten rebounds in Monday's 127-125 OT loss to the Cleveland Cavaliers. Fantasy Impact: Kuminga wasn't very effective as a scorer on Monday night, but he was able to finish with ten rebounds, which completed a double-double for him. He will continue to be a viable fantasy as",
+   "flags": {
+    "starter": 0.85
+   },
+   "summary": "is expected to start or has been named a starter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-27"
   },
   {
    "id": "news:ecd9a76d0b0b",
