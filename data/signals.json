@@ -20,8 +20,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "injury:0252fdfc40ca",
@@ -38,8 +39,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "headline:650dcaa94f46",
@@ -56,8 +58,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "injury:eaa3b6310bab",
@@ -74,8 +77,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "injury:407367048d62",
@@ -92,8 +96,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "injury:267cc67ac7ca",
@@ -110,8 +115,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "injury:ced214a655e0",
@@ -128,8 +134,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "injury:2e3a2a51b7d5",
@@ -146,8 +153,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "injury:2c56f53f5f4f",
@@ -164,8 +172,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "headline:0a1ea2c513b6",
@@ -182,8 +191,9 @@
    },
    "summary": "is expected to come off the bench or has lost his starting job",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "bench/sixth-man role already in projection"
   },
   {
    "id": "injury:f1c1edd0a8a4",
@@ -200,8 +210,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "injury:bc5b4b65e19d",
@@ -218,8 +229,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "injury:8f32abe53020",
@@ -236,8 +248,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "injury:51f265831542",
@@ -273,8 +286,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "headline:e0564bd7e261",
@@ -291,8 +305,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "headline:1859a233e95d",
@@ -309,8 +324,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "injury:b88742f3deb2",
@@ -327,8 +343,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "injury:49f09b441eeb",
@@ -345,8 +362,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "injury:23015570ccd2",
@@ -363,8 +381,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "injury:4c64509c9aa5",
@@ -381,8 +400,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "outlook:93085015339d",
@@ -531,8 +551,9 @@
    },
    "summary": "is or will be on a minutes restriction in games (being limited in practice or held out of a practice does not count)",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "speculative minutes chance, no stated cap; skipped"
   },
   {
    "id": "outlook:2448167d3d6d",
@@ -1994,8 +2015,9 @@
    },
    "summary": "is expected to start or has been named a starter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "box-score recap; already in ESPN projection"
   },
   {
    "id": "outlook:72c96852192c",
@@ -2621,8 +2643,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is or will be on a minutes restriction in games (being limited in practice or held out of a practice does not count)",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "news:90459bd90048",
@@ -2639,8 +2662,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "news:6630bf25736d",
@@ -2657,8 +2681,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "news:6a1f223327f0",
@@ -2676,8 +2701,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "news:ecd9a76d0b0b",
@@ -2694,8 +2720,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "news:59b1aefc49a8",
@@ -2712,8 +2739,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "news:1fbc3c488e99",
@@ -2731,8 +2759,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "news:7dd42ea948cb",
@@ -2749,8 +2778,9 @@
    },
    "summary": "a teammate's absence or departure opens up opportunity for the player",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "box-score recap; already in ESPN projection"
   },
   {
    "id": "news:5567ca5afebd",
@@ -2767,8 +2797,9 @@
    },
    "summary": "is expected to come off the bench or has lost his starting job",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "bench/sixth-man role already in projection"
   },
   {
    "id": "news:25831f0853d5",
@@ -2785,8 +2816,9 @@
    },
    "summary": "is expected to start or has been named a starter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "box-score recap; already in ESPN projection"
   },
   {
    "id": "depth:4593803:2026-10-26:SF #7",
@@ -2797,8 +2829,9 @@
    "date": "2026-10-26",
    "summary": "Depth chart SF #1 → SF #7",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "depth move; follows cascade/automatic"
   },
   {
    "id": "depth:4397136:2026-10-26:SF #2",
@@ -2821,8 +2854,9 @@
    "date": "2026-10-26",
    "summary": "Depth chart PG #1 → PG #2",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "depth move; follows cascade/automatic"
   },
   {
    "id": "depth:2991350:2026-10-26:SF #1",
@@ -2833,8 +2867,9 @@
    "date": "2026-10-26",
    "summary": "Depth chart PF #2 → SF #1",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "depth move; follows cascade/automatic"
   },
   {
    "id": "depth:5105550:2026-10-26:PF #2",
@@ -2953,8 +2988,9 @@
    "date": "2026-10-26",
    "summary": "Depth chart SF #2 → SG #1",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "depth move; follows cascade/automatic"
   },
   {
    "id": "depth:4397475:2026-10-26:SG #2",
@@ -3092,8 +3128,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "news:b2efca3294a4",
@@ -3111,8 +3148,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "news:6ae9433b9e97",
@@ -3130,8 +3168,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "news:3ead2fe0e298",
@@ -3149,8 +3188,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "headline:361aa6e4bd77",
@@ -3186,8 +3226,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "injury:37fad66199d8",
@@ -3204,8 +3245,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "injury:e803965fa6e7",
@@ -3222,8 +3264,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "injury:9530a513d89f",
@@ -3240,8 +3283,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "injury:f2904e2fbf2a",
@@ -3258,8 +3302,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "injury:854a582accaf",
@@ -3391,8 +3436,9 @@
    },
    "summary": "is expected to start or has been named a starter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "box-score recap; already in ESPN projection"
   },
   {
    "id": "news:42632feab0b8",
@@ -3409,8 +3455,9 @@
    },
    "summary": "will handle the ball or run the offense as a primary playmaker",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "box-score recap; already in ESPN projection"
   },
   {
    "id": "news:5b0f1d99f7fb",
@@ -3427,8 +3474,9 @@
    },
    "summary": "is expected to start or has been named a starter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "box-score recap; already in ESPN projection"
   },
   {
    "id": "news:3e87182a1679",
@@ -3445,8 +3493,9 @@
    },
    "summary": "is expected to start or has been named a starter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "box-score recap; already in ESPN projection"
   },
   {
    "id": "news:39ae04c733bc",
@@ -3463,8 +3512,9 @@
    },
    "summary": "is expected to start or has been named a starter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "box-score recap; already in ESPN projection"
   },
   {
    "id": "news:4147d454cc70",
@@ -3481,8 +3531,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "news:286b12bf021c",
@@ -3518,8 +3569,9 @@
    },
    "summary": "is expected to start or has been named a starter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "box-score recap; already in ESPN projection"
   },
   {
    "id": "news:c18d09b2b7be",
@@ -3557,8 +3609,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; the team will rest the player on back-to-backs or manage his load",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "news:7eacebf3abed",
@@ -3575,8 +3628,9 @@
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "absence: automatic injury proposal (ESPN date + Jev)"
   },
   {
    "id": "news:e680bc3f26d5",
@@ -3593,8 +3647,9 @@
    },
    "summary": "is expected to start or has been named a starter",
    "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-26"
+   "status": "handled",
+   "firstSeen": "2026-10-26",
+   "handledNote": "box-score recap; already in ESPN projection"
   },
   {
    "id": "news:d66fc8bdae89",
