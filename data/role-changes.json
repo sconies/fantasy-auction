@@ -909,6 +909,76 @@
    "to": "SG #5",
    "promoted": false,
    "projectedMin": 19.67
+  },
+  {
+   "date": "2026-10-27",
+   "playerId": "5037871",
+   "name": "Dylan Harper",
+   "team": "SAS",
+   "from": "PG #2",
+   "to": "SF #1",
+   "promoted": true,
+   "projectedMin": 26.3
+  },
+  {
+   "date": "2026-10-27",
+   "playerId": "6440",
+   "name": "Tobias Harris",
+   "team": "SAS",
+   "from": "PF #1",
+   "to": "PF #2",
+   "promoted": false,
+   "projectedMin": 28.83
+  },
+  {
+   "date": "2026-10-27",
+   "playerId": "4395723",
+   "name": "Keldon Johnson",
+   "team": "SAS",
+   "from": "SF #3",
+   "to": "SF #2",
+   "promoted": true,
+   "projectedMin": 23.37
+  },
+  {
+   "date": "2026-10-27",
+   "playerId": "4683692",
+   "name": "Cason Wallace",
+   "team": "OKC",
+   "from": "SG #1",
+   "to": "PG #6",
+   "promoted": false,
+   "projectedMin": 25.2
+  },
+  {
+   "date": "2026-10-27",
+   "playerId": "4684793",
+   "name": "Kyle Filipowski",
+   "team": "UTA",
+   "from": "PF #2",
+   "to": "C #3",
+   "promoted": false,
+   "projectedMin": 20.84
+  },
+  {
+   "date": "2026-10-27",
+   "playerId": "4702384",
+   "name": "Nique Clifford",
+   "team": "SAC",
+   "from": "SG #2",
+   "to": "SG #6",
+   "promoted": false,
+   "projectedMin": 25.49
+  },
+  {
+   "date": "2026-10-27",
+   "playerId": "4683778",
+   "name": "Jared McCain",
+   "team": "OKC",
+   "from": "SG #2",
+   "to": "SG #1",
+   "promoted": true,
+   "projectedMin": 21.83
   }
  ]
 }
