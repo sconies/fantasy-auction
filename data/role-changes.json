@@ -979,6 +979,126 @@
    "to": "SG #1",
    "promoted": true,
    "projectedMin": 21.83
+  },
+  {
+   "date": "2026-10-28",
+   "playerId": "4594268",
+   "name": "Anthony Edwards",
+   "team": "MIN",
+   "from": "SG #1",
+   "to": "SG #8",
+   "promoted": false,
+   "projectedMin": 34.4
+  },
+  {
+   "date": "2026-10-28",
+   "playerId": "6450",
+   "name": "Kawhi Leonard",
+   "team": "TOR",
+   "from": "SF #1",
+   "to": "SF #6",
+   "promoted": false,
+   "projectedMin": 31.29
+  },
+  {
+   "date": "2026-10-28",
+   "playerId": "4277961",
+   "name": "Jaren Jackson Jr.",
+   "team": "UTA",
+   "from": "C #1",
+   "to": "C #5",
+   "promoted": false,
+   "projectedMin": 29.74
+  },
+  {
+   "date": "2026-10-28",
+   "playerId": "4397002",
+   "name": "Ayo Dosunmu",
+   "team": "MIN",
+   "from": "SG #2",
+   "to": "SG #1",
+   "promoted": true,
+   "projectedMin": 27.73
+  },
+  {
+   "date": "2026-10-28",
+   "playerId": "4684793",
+   "name": "Kyle Filipowski",
+   "team": "UTA",
+   "from": "C #3",
+   "to": "PF #2",
+   "promoted": true,
+   "projectedMin": 20.84
+  },
+  {
+   "date": "2026-10-28",
+   "playerId": "2991350",
+   "name": "Alex Caruso",
+   "team": "OKC",
+   "from": "SF #1",
+   "to": "SF #2",
+   "promoted": false,
+   "projectedMin": 21.54
+  },
+  {
+   "date": "2026-10-28",
+   "playerId": "5279130",
+   "name": "Nolan Traore",
+   "team": "BKN",
+   "from": "SG #2",
+   "to": "SG #1",
+   "promoted": true,
+   "projectedMin": 22.97
+  },
+  {
+   "date": "2026-10-28",
+   "playerId": "4900671",
+   "name": "Ajay Mitchell",
+   "team": "OKC",
+   "from": "PG #2",
+   "to": "SF #1",
+   "promoted": true,
+   "projectedMin": 22.19
+  },
+  {
+   "date": "2026-10-28",
+   "playerId": "4702177",
+   "name": "Keon Ellis",
+   "team": "BKN",
+   "from": "SG #1",
+   "to": "SG #2",
+   "promoted": false,
+   "projectedMin": 19.89
+  },
+  {
+   "date": "2026-10-28",
+   "playerId": "4684272",
+   "name": "Ja'Kobe Walter",
+   "team": "TOR",
+   "from": "SG #2",
+   "to": "SF #1",
+   "promoted": true,
+   "projectedMin": 20.04
+  },
+  {
+   "date": "2026-10-28",
+   "playerId": "4397077",
+   "name": "Jaxson Hayes",
+   "team": "UTA",
+   "from": "C #2",
+   "to": "C #1",
+   "promoted": true,
+   "projectedMin": 15.94
+  },
+  {
+   "date": "2026-10-28",
+   "playerId": "4277919",
+   "name": "Mo Bamba",
+   "team": "UTA",
+   "from": "C #4",
+   "to": "C #2",
+   "promoted": true,
+   "projectedMin": 11.19
   }
  ]
 }

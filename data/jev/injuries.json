@@ -1,12 +1,7 @@
 {
- "readAt": "2026-10-28T09:10:45.906Z",
+ "readAt": "2026-10-28T21:49:10.158Z",
  "model": "jev-latest",
  "notes": {
-  "2fc210caf4832966": {
-   "name": "Aaron Wiggins",
-   "choice": "uncertain",
-   "confidence": 0.51
-  },
   "73fca91bdb41e025": {
    "name": "Mouhamed Gueye",
    "choice": "uncertain",
@@ -67,15 +62,20 @@
    "choice": "weeks",
    "confidence": 0.27
   },
-  "ae4a1c610d71185f": {
-   "name": "Santi Aldama",
+  "4c67f04f3f79c6a7": {
+   "name": "Naji Marshall",
    "choice": "uncertain",
-   "confidence": 0.33
+   "confidence": 0.65
   },
-  "672c675695288979": {
+  "a3a67ec120f7348c": {
    "name": "Tarik Biberovic",
    "choice": "uncertain",
-   "confidence": 0.52
+   "confidence": 0.6
+  },
+  "c0ce6d955e99665b": {
+   "name": "Santi Aldama",
+   "choice": "uncertain",
+   "confidence": 0.65
   },
   "1ae0c2e32c676c21": {
    "name": "Sergio de Larrea",
@@ -86,11 +86,6 @@
    "name": "Caleb Martin",
    "choice": "uncertain",
    "confidence": 0.66
-  },
-  "01d077b92982645f": {
-   "name": "Naji Marshall",
-   "choice": "uncertain",
-   "confidence": 0.77
   },
   "166f9bbd3a4b0dc2": {
    "name": "Kyrie Irving",
@@ -122,25 +117,30 @@
    "choice": "weeks",
    "confidence": 0.72
   },
-  "51334fb865792bde": {
+  "2379ab66dcd2536d": {
    "name": "Isaiah Joe",
    "choice": "uncertain",
-   "confidence": 0.71
+   "confidence": 0.65
+  },
+  "badf659118632b2e": {
+   "name": "Ausar Thompson",
+   "choice": "none",
+   "confidence": 0.38
   },
   "9d13116212519435": {
    "name": "Jalen Duren",
    "choice": "weeks",
    "confidence": 0.94
   },
-  "15d4d7cf16c17915": {
+  "ada973e68e82b8ec": {
    "name": "Yaxel Lendeborg",
-   "choice": "uncertain",
-   "confidence": 0.78
+   "choice": "none",
+   "confidence": 0.68
   },
-  "a9f4f1d1dd6ae3cb": {
+  "2de19238f9dcca32": {
    "name": "Kristaps Porzingis",
    "choice": "uncertain",
-   "confidence": 0.95
+   "confidence": 0.99
   },
   "1d07d71ff41fd2e5": {
    "name": "Moses Moody",
@@ -152,10 +152,10 @@
    "choice": "months",
    "confidence": 0.74
   },
-  "62a53947812e5c22": {
+  "86aad990fac9f863": {
    "name": "Marcus Smart",
    "choice": "uncertain",
-   "confidence": 0.7
+   "confidence": 0.57
   },
   "91d7c19114ac49e7": {
    "name": "Alperen Sengun",
@@ -167,15 +167,10 @@
    "choice": "weeks",
    "confidence": 0.98
   },
-  "168429770fd3b0b7": {
-   "name": "Andrew Nembhard",
-   "choice": "uncertain",
-   "confidence": 0.53
-  },
-  "ef6fb5c1adf51b9d": {
+  "9ea9d23e3323d26a": {
    "name": "Tyrese Haliburton",
    "choice": "uncertain",
-   "confidence": 0.62
+   "confidence": 0.98
   },
   "6429d0c9dca621cb": {
    "name": "Obi Toppin",
@@ -237,25 +232,30 @@
    "choice": "season",
    "confidence": 0.18
   },
-  "97d3973473c3ac5c": {
+  "377839fb2517d037": {
    "name": "Cameron Carr",
    "choice": "uncertain",
    "confidence": 0.6
   },
-  "6f31f3e608c36f40": {
+  "830b1977fde2def3": {
    "name": "Adou Thiero",
    "choice": "uncertain",
-   "confidence": 0.75
+   "confidence": 0.76
   },
-  "9ea98b984e46c60f": {
-   "name": "Pelle Larsson",
+  "b30d6b6681e44f26": {
+   "name": "Ziaire Williams",
    "choice": "uncertain",
-   "confidence": 0.5
+   "confidence": 0.58
   },
-  "7b5a25c00427e41c": {
+  "5e37d41713d875a9": {
+   "name": "Luka Doncic",
+   "choice": "uncertain",
+   "confidence": 0.45
+  },
+  "bed7df05a527d09b": {
    "name": "Simone Fontecchio",
    "choice": "uncertain",
-   "confidence": 0.54
+   "confidence": 0.65
   },
   "17a91493a0b39beb": {
    "name": "Anthony Edwards",
@@ -267,20 +267,20 @@
    "choice": "none",
    "confidence": 0.47
   },
-  "3a6a903a0d4029bf": {
-   "name": "Jordan Poole",
-   "choice": "uncertain",
-   "confidence": 0.54
-  },
   "4d9f15d1b750de15": {
    "name": "Yves Missi",
    "choice": "uncertain",
    "confidence": 0.64
   },
-  "0629c34c1a6fdf8f": {
+  "62268c6290d47de5": {
    "name": "Jose Alvarado",
    "choice": "uncertain",
-   "confidence": 0.71
+   "confidence": 0.68
+  },
+  "88acfaa8220a7ed7": {
+   "name": "Alex Caruso",
+   "choice": "uncertain",
+   "confidence": 0.89
   },
   "2e81b0b3780a6939": {
    "name": "Thomas Sorber",
@@ -302,11 +302,6 @@
    "choice": "uncertain",
    "confidence": 0.68
   },
-  "762c5e81026ca726": {
-   "name": "Alex Caruso",
-   "choice": "uncertain",
-   "confidence": 0.39
-  },
   "eca779cd554bf779": {
    "name": "Jalen Williams",
    "choice": "uncertain",
@@ -321,6 +316,11 @@
    "name": "Otega Oweh",
    "choice": "uncertain",
    "confidence": 0.41
+  },
+  "b0f20cb1e38b1f9c": {
+   "name": "Anthony Black",
+   "choice": "none",
+   "confidence": 0.56
   },
   "ab7b820dba68345a": {
    "name": "Jonathan Isaac",
@@ -407,10 +407,10 @@
    "choice": "uncertain",
    "confidence": 0.74
   },
-  "c8bc52e27a10b4b9": {
+  "50527633f772f885": {
    "name": "Tobias Harris",
    "choice": "uncertain",
-   "confidence": 0.62
+   "confidence": 0.66
   },
   "e1297adedbaca5e1": {
    "name": "Jayden Quaintance",
@@ -452,15 +452,10 @@
    "choice": "weeks",
    "confidence": 0.88
   },
-  "80e271c8a2470410": {
+  "82e963abdd5c8f50": {
    "name": "Justin Champagnie",
-   "choice": "uncertain",
-   "confidence": 0.53
-  },
-  "7f6a579b9ce11e24": {
-   "name": "AJ Dybantsa",
-   "choice": "uncertain",
-   "confidence": 0.74
+   "choice": "months",
+   "confidence": 1
   },
   "5424849c5c05d467": {
    "name": "Tristan Vukcevic",
@@ -474,11 +469,6 @@
   }
  },
  "byName": {
-  "Aaron Wiggins": {
-   "choice": "uncertain",
-   "confidence": 0.51,
-   "written": "2026-10-27"
-  },
   "Mouhamed Gueye": {
    "choice": "uncertain",
    "confidence": 0.6,
@@ -539,15 +529,20 @@
    "confidence": 0.27,
    "written": "2026-10-26"
   },
-  "Santi Aldama": {
+  "Naji Marshall": {
    "choice": "uncertain",
-   "confidence": 0.33,
+   "confidence": 0.65,
    "written": "2026-10-28"
   },
   "Tarik Biberovic": {
    "choice": "uncertain",
-   "confidence": 0.52,
-   "written": "2026-10-27"
+   "confidence": 0.6,
+   "written": "2026-10-28"
+  },
+  "Santi Aldama": {
+   "choice": "uncertain",
+   "confidence": 0.65,
+   "written": "2026-10-28"
   },
   "Sergio de Larrea": {
    "choice": "uncertain",
@@ -557,11 +552,6 @@
   "Caleb Martin": {
    "choice": "uncertain",
    "confidence": 0.66,
-   "written": "2026-10-27"
-  },
-  "Naji Marshall": {
-   "choice": "uncertain",
-   "confidence": 0.77,
    "written": "2026-10-27"
   },
   "Kyrie Irving": {
@@ -596,7 +586,12 @@
   },
   "Isaiah Joe": {
    "choice": "uncertain",
-   "confidence": 0.71,
+   "confidence": 0.65,
+   "written": "2026-10-28"
+  },
+  "Ausar Thompson": {
+   "choice": "none",
+   "confidence": 0.38,
    "written": "2026-10-28"
   },
   "Jalen Duren": {
@@ -605,14 +600,14 @@
    "written": "2026-10-25"
   },
   "Yaxel Lendeborg": {
-   "choice": "uncertain",
-   "confidence": 0.78,
-   "written": "2026-10-27"
+   "choice": "none",
+   "confidence": 0.68,
+   "written": "2026-10-28"
   },
   "Kristaps Porzingis": {
    "choice": "uncertain",
-   "confidence": 0.95,
-   "written": "2026-10-21"
+   "confidence": 0.99,
+   "written": "2026-10-28"
   },
   "Moses Moody": {
    "choice": "months",
@@ -626,8 +621,8 @@
   },
   "Marcus Smart": {
    "choice": "uncertain",
-   "confidence": 0.7,
-   "written": "2026-10-27"
+   "confidence": 0.57,
+   "written": "2026-10-28"
   },
   "Alperen Sengun": {
    "choice": "uncertain",
@@ -639,15 +634,10 @@
    "confidence": 0.98,
    "written": "2026-10-26"
   },
-  "Andrew Nembhard": {
-   "choice": "uncertain",
-   "confidence": 0.53,
-   "written": "2026-10-27"
-  },
   "Tyrese Haliburton": {
    "choice": "uncertain",
-   "confidence": 0.62,
-   "written": "2026-10-27"
+   "confidence": 0.98,
+   "written": "2026-10-28"
   },
   "Obi Toppin": {
    "choice": "none",
@@ -712,22 +702,27 @@
   "Cameron Carr": {
    "choice": "uncertain",
    "confidence": 0.6,
-   "written": "2026-10-27"
+   "written": "2026-10-28"
   },
   "Adou Thiero": {
    "choice": "uncertain",
-   "confidence": 0.75,
-   "written": "2026-10-27"
+   "confidence": 0.76,
+   "written": "2026-10-28"
   },
-  "Pelle Larsson": {
+  "Ziaire Williams": {
    "choice": "uncertain",
-   "confidence": 0.5,
-   "written": "2026-10-27"
+   "confidence": 0.58,
+   "written": "2026-10-28"
+  },
+  "Luka Doncic": {
+   "choice": "uncertain",
+   "confidence": 0.45,
+   "written": "2026-10-28"
   },
   "Simone Fontecchio": {
    "choice": "uncertain",
-   "confidence": 0.54,
-   "written": "2026-10-27"
+   "confidence": 0.65,
+   "written": "2026-10-28"
   },
   "Anthony Edwards": {
    "choice": "months",
@@ -739,11 +734,6 @@
    "confidence": 0.47,
    "written": "2026-10-05"
   },
-  "Jordan Poole": {
-   "choice": "uncertain",
-   "confidence": 0.54,
-   "written": "2026-10-27"
-  },
   "Yves Missi": {
    "choice": "uncertain",
    "confidence": 0.64,
@@ -751,7 +741,12 @@
   },
   "Jose Alvarado": {
    "choice": "uncertain",
-   "confidence": 0.71,
+   "confidence": 0.68,
+   "written": "2026-10-28"
+  },
+  "Alex Caruso": {
+   "choice": "uncertain",
+   "confidence": 0.89,
    "written": "2026-10-28"
   },
   "Thomas Sorber": {
@@ -774,11 +769,6 @@
    "confidence": 0.68,
    "written": "2026-10-27"
   },
-  "Alex Caruso": {
-   "choice": "uncertain",
-   "confidence": 0.39,
-   "written": "2026-10-27"
-  },
   "Jalen Williams": {
    "choice": "uncertain",
    "confidence": 0.88,
@@ -793,6 +783,11 @@
    "choice": "uncertain",
    "confidence": 0.41,
    "written": "2026-10-23"
+  },
+  "Anthony Black": {
+   "choice": "none",
+   "confidence": 0.56,
+   "written": "2026-10-28"
   },
   "Jonathan Isaac": {
    "choice": "uncertain",
@@ -881,8 +876,8 @@
   },
   "Tobias Harris": {
    "choice": "uncertain",
-   "confidence": 0.62,
-   "written": "2026-10-26"
+   "confidence": 0.66,
+   "written": "2026-10-28"
   },
   "Jayden Quaintance": {
    "choice": "uncertain",
@@ -925,14 +920,9 @@
    "written": "2026-10-07"
   },
   "Justin Champagnie": {
-   "choice": "uncertain",
-   "confidence": 0.53,
-   "written": "2026-10-27"
-  },
-  "AJ Dybantsa": {
-   "choice": "uncertain",
-   "confidence": 0.74,
-   "written": "2026-10-27"
+   "choice": "months",
+   "confidence": 1,
+   "written": "2026-10-28"
   },
   "Tristan Vukcevic": {
    "choice": "uncertain",

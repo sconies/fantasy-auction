@@ -1,10 +1,409 @@
 {
- "builtAt": "2026-10-28T09:10:47.063Z",
+ "builtAt": "2026-10-28T21:49:11.865Z",
  "counts": {
-  "new": 14,
-  "toJudge": 14
+  "new": 55,
+  "toJudge": 55
  },
  "signals": [
+  {
+   "id": "headline:2d25226ef4d6",
+   "kind": "text",
+   "playerId": "4396993",
+   "name": "Tyrese Haliburton",
+   "team": "IND",
+   "date": "2026-10-28T21:43:39Z",
+   "source": "headline",
+   "url": "https://www.espn.com/nba/story/_/id/50309485/sources-pacers-tyrese-haliburton-hamstring-miss",
+   "text": "Pacers' Tyrese Haliburton (hamstring) out at least 2 weeks. Pacers star Tyrese Haliburton, who is averaging 21.8 points, has a mild\" strained left hamstring and will miss at least two weeks, coach Rick Carlisle said.",
+   "flags": {
+    "absence": 0.97
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "headline:6b791ece872d",
+   "kind": "text",
+   "playerId": "4594268",
+   "name": "Anthony Edwards",
+   "team": "MIN",
+   "date": "2026-10-28T21:39:59Z",
+   "source": "headline",
+   "url": "https://www.espn.com/nba/story/_/id/50310964/wolves-say-edwards-good-new-knee-surgery",
+   "text": "Timberwolves say Anthony Edwards will be 'good as new' after knee surgery. The Timberwolves believe Anthony Edwards will be \"good as new\" following arthroscopic surgery for a lingering injury to his right knee.",
+   "flags": {
+    "recovering": 0.96
+   },
+   "summary": "is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "headline:ada684a2414b",
+   "kind": "text",
+   "playerId": "3945274",
+   "name": "Luka Doncic",
+   "team": "LAL",
+   "date": "2026-10-28T21:03:22Z",
+   "source": "headline",
+   "url": "https://www.espn.com/nba/story/_/id/50310776/lakers-rule-luka-doncic-ziaire-williams-vs-clippers",
+   "text": "Lakers rule out Luka Doncic, Ziaire Williams vs. Clippers. Lakers star Luka Doncic (back) and starter Ziaire Williams (foot) will not play in Wednesday's game vs. the Clippers, who will be without Rui Hachimura (quad).",
+   "flags": {
+    "absence": 0.78
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "headline:351428be99c5",
+   "kind": "text",
+   "playerId": "4066648",
+   "name": "Rui Hachimura",
+   "team": "LAC",
+   "date": "2026-10-28T21:03:22Z",
+   "source": "headline",
+   "url": "https://www.espn.com/nba/story/_/id/50310776/lakers-rule-luka-doncic-ziaire-williams-vs-clippers",
+   "text": "Lakers rule out Luka Doncic, Ziaire Williams vs. Clippers. Lakers star Luka Doncic (back) and starter Ziaire Williams (foot) will not play in Wednesday's game vs. the Clippers, who will be without Rui Hachimura (quad).",
+   "flags": {
+    "absence": 0.82
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "headline:c3c7aec6243f",
+   "kind": "text",
+   "playerId": "4433137",
+   "name": "Ziaire Williams",
+   "team": "LAL",
+   "date": "2026-10-28T21:03:22Z",
+   "source": "headline",
+   "url": "https://www.espn.com/nba/story/_/id/50310776/lakers-rule-luka-doncic-ziaire-williams-vs-clippers",
+   "text": "Lakers rule out Luka Doncic, Ziaire Williams vs. Clippers. Lakers star Luka Doncic (back) and starter Ziaire Williams (foot) will not play in Wednesday's game vs. the Clippers, who will be without Rui Hachimura (quad).",
+   "flags": {
+    "absence": 0.81,
+    "starter": 0.88
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is expected to start or has been named a starter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "injury:052ebb22b192",
+   "kind": "text",
+   "playerId": "4433137",
+   "name": "Ziaire Williams",
+   "team": "LAL",
+   "date": "2026-10-28T20:06Z",
+   "source": "injury",
+   "url": null,
+   "text": "Williams (foot) is out for Wednesday's game against the Clippers.",
+   "flags": {
+    "absence": 0.79
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "injury:766c072ba754",
+   "kind": "text",
+   "playerId": "3945274",
+   "name": "Luka Doncic",
+   "team": "LAL",
+   "date": "2026-10-28T20:05Z",
+   "source": "injury",
+   "url": null,
+   "text": "Doncic (back) is out for Wednesday's game against the Clippers.",
+   "flags": {
+    "absence": 0.77
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "headline:6798143b7a72",
+   "kind": "text",
+   "playerId": "5142718",
+   "name": "AJ Dybantsa",
+   "team": "WAS",
+   "date": "2026-10-28T18:47:21Z",
+   "source": "headline",
+   "url": "https://www.espn.com/nba/story/_/id/50309151/wizards-upgrade-no-1-pick-aj-dybantsa-available-vs-cavs",
+   "text": "Wizards upgrade No. 1 pick AJ Dybantsa to available vs. Cavaliers. Wizards rookie AJ Dybantsa, who has missed the first four games of the season with an ankle injury, has been upgraded to available for Wednesday's matchup against the Cavaliers.",
+   "flags": {
+    "recovering": 0.86
+   },
+   "summary": "is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "injury:f70986fcaf64",
+   "kind": "text",
+   "playerId": "champju01",
+   "name": "Justin Champagnie",
+   "team": "WAS",
+   "date": "2026-10-28T18:38Z",
+   "source": "injury",
+   "url": null,
+   "text": "Champagnie (foot) is expected to miss several months, per Josh Robbins of The Athletic.",
+   "flags": {
+    "absence": 0.93
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "injury:ec2b965c810c",
+   "kind": "text",
+   "playerId": "6440",
+   "name": "Tobias Harris",
+   "team": "SAS",
+   "date": "2026-10-28T18:24Z",
+   "source": "injury",
+   "url": null,
+   "text": "Harris (calf) is out for Wednesday's game against Utah, Paul Garcia of ProjectSpurs.com reports.",
+   "flags": {
+    "absence": 0.8
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "injury:69fee80ab7fb",
+   "kind": "text",
+   "playerId": "4593125",
+   "name": "Santi Aldama",
+   "team": "DAL",
+   "date": "2026-10-28T18:19Z",
+   "source": "injury",
+   "url": null,
+   "text": "Aldama (knee) is out for Wednesday's game against the Thunder.",
+   "flags": {
+    "absence": 0.82
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "injury:829d388352df",
+   "kind": "text",
+   "playerId": "4277869",
+   "name": "Jose Alvarado",
+   "team": "NYK",
+   "date": "2026-10-28T18:19Z",
+   "source": "injury",
+   "url": null,
+   "text": "Alvarado (ankle) is out for Wednesday's game against the Bulls.",
+   "flags": {
+    "absence": 0.78
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "headline:260d48108df9",
+   "kind": "text",
+   "playerId": "4396993",
+   "name": "Tyrese Haliburton",
+   "team": "IND",
+   "date": "2026-10-28T18:11:46Z",
+   "source": "headline",
+   "url": "https://www.espn.com/video/clip/_/id/50309551/haliburton-miss-strained-hamstring",
+   "text": "Shams to McAfee: Haliburton to miss time with strained hamstring. Shams to McAfee: Haliburton to miss time with strained hamstring  ",
+   "flags": {
+    "absence": 0.9
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "injury:666c98538e62",
+   "kind": "text",
+   "playerId": "2991350",
+   "name": "Alex Caruso",
+   "team": "OKC",
+   "date": "2026-10-28T18:06Z",
+   "source": "injury",
+   "url": null,
+   "text": "Caruso (ankle) is expected to miss time due to an ankle sprain, Clemente Almanza of USA Today reports.",
+   "flags": {
+    "absence": 0.76
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "injury:20d766c9ad4c",
+   "kind": "text",
+   "playerId": "4396993",
+   "name": "Tyrese Haliburton",
+   "team": "IND",
+   "date": "2026-10-28T18:03Z",
+   "source": "injury",
+   "url": null,
+   "text": "Haliburton (hamstring) will miss time, though his timetable has yet to be announced, Shams Charania of ESPN reports.",
+   "flags": {
+    "absence": 0.82
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "injury:d0fe18a80d71",
+   "kind": "text",
+   "playerId": "2990992",
+   "name": "Marcus Smart",
+   "team": "HOU",
+   "date": "2026-10-28T17:34Z",
+   "source": "injury",
+   "url": null,
+   "text": "Smart (forearm) is out for Wednesday's game against the Bucks.",
+   "flags": {
+    "absence": 0.85
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "injury:3d0471e9fb17",
+   "kind": "text",
+   "playerId": "4395702",
+   "name": "Isaiah Joe",
+   "team": "DET",
+   "date": "2026-10-28T16:54Z",
+   "source": "injury",
+   "url": null,
+   "text": "Joe (hip) is out for Wednesday's game against the Hornets.",
+   "flags": {
+    "absence": 0.79
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "injury:11d62b30894d",
+   "kind": "text",
+   "playerId": "3899664",
+   "name": "Simone Fontecchio",
+   "team": "MIA",
+   "date": "2026-10-28T15:04Z",
+   "source": "injury",
+   "url": null,
+   "text": "Fontecchio (illness) is out for Wednesday's game against the Hawks.",
+   "flags": {
+    "absence": 0.86
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "injury:72e46fab61d7",
+   "kind": "text",
+   "playerId": "3102531",
+   "name": "Kristaps Porzingis",
+   "team": "GSW",
+   "date": "2026-10-28T14:25Z",
+   "source": "injury",
+   "url": null,
+   "text": "The Warriors are exploring potential trades involving Porzingis (personal), who remains away from the team indefinitely while dealing with ongoing health concerns, Anthony Slater of ESPN.com reports.",
+   "flags": {
+    "absence": 0.77
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "headline:5bfd06e18c91",
+   "kind": "text",
+   "playerId": "6450",
+   "name": "Kawhi Leonard",
+   "team": "TOR",
+   "date": "2026-10-28T11:24:58Z",
+   "source": "headline",
+   "url": "https://www.espn.com/nba/story/_/id/50298441/raptors-kawhi-leonard-weeks-due-knee-sources-say",
+   "text": "Raptors' Kawhi Leonard out weeks due to knee, sources say. Kawhi Leonard is expected to miss a period of weeks due to swelling in his left knee, sources told ESPN's Shams Charania.",
+   "flags": {
+    "absence": 0.89
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "handled",
+   "firstSeen": "2026-10-27",
+   "handledNote": "injury absence: automatic proposal / duplicate of a proposed item"
+  },
+  {
+   "id": "headline:493e1554aecb",
+   "kind": "text",
+   "playerId": "4277961",
+   "name": "Jaren Jackson Jr.",
+   "team": "UTA",
+   "date": "2026-10-28T11:24:42Z",
+   "source": "headline",
+   "url": "https://www.espn.com/nba/story/_/id/50300264/jazz-jaren-jackson-jr-knee-6-8-weeks-sources-say",
+   "text": "Jazz's Jaren Jackson Jr. (knee) out 6-8 weeks, sources say. Utah will be down two more of its bigs as Jaren Jackson Jr. has a torn MCL in his right knee and will miss at least six weeks, while Lauri Markkanen is day-to-day with a sprained wrist.",
+   "flags": {
+    "absence": 0.97
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "handled",
+   "firstSeen": "2026-10-27",
+   "handledNote": "injury absence: automatic proposal / duplicate of a proposed item"
+  },
+  {
+   "id": "headline:f7d29cc6d794",
+   "kind": "text",
+   "playerId": "4594268",
+   "name": "Anthony Edwards",
+   "team": "MIN",
+   "date": "2026-10-28T11:23:51Z",
+   "source": "headline",
+   "url": "https://www.espn.com/nba/story/_/id/50302115/timberwolves-anthony-edwards-miss-2-months-arthroscopic-knee-procedure",
+   "text": "Timberwolves' Anthony Edwards (knee) to miss up to 2 months, sources say. Timberwolves star Anthony Edwards will undergo an arthroscopic procedure on his ailing right knee Thursday that will sideline him up to two months, sources told ESPN's Shams Charania.",
+   "flags": {
+    "absence": 0.94
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
   {
    "id": "headline:41319de5abee",
    "kind": "text",
@@ -61,24 +460,6 @@
    "firstSeen": "2026-10-28"
   },
   {
-   "id": "headline:f7d29cc6d794",
-   "kind": "text",
-   "playerId": "4594268",
-   "name": "Anthony Edwards",
-   "team": "MIN",
-   "date": "2026-10-28T03:57:46Z",
-   "source": "headline",
-   "url": "https://www.espn.com/nba/story/_/id/50302115/timberwolves-anthony-edwards-miss-2-months-arthroscopic-knee-procedure",
-   "text": "Timberwolves' Anthony Edwards (knee) to miss up to 2 months, sources say. Timberwolves star Anthony Edwards will undergo an arthroscopic procedure on his ailing right knee Thursday that will sideline him up to two months, sources told ESPN's Shams Charania.",
-   "flags": {
-    "absence": 0.94
-   },
-   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
-   "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-28"
-  },
-  {
    "id": "outlook:93085015339d",
    "kind": "outlook",
    "playerId": "3112335",
@@ -113,6 +494,25 @@
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "news:57bf2924c6c4",
+   "kind": "text",
+   "playerId": "3945274",
+   "name": "Luka Doncic",
+   "team": "LAL",
+   "date": "2026-10-28",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616251/luka-doncic-back-ruled-out-wednesday.php",
+   "text": "Luka Doncic (back) ruled out Wednesday Luka Doncic (back) has been ruled out for Wednesday night’s contest between the Los Angeles Lakers and Los Angeles Clippers according to Trevor Lane.  Fantasy Impact: Doncic will take a seat on the bench for the second of back-to-back contests, with Austin Reaves to seize even more touches while leading the Lakers starting five against the Clippers Wednesday ",
+   "flags": {
+    "absence": 0.85,
+    "load_managed": 0.81
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; the team will rest the player on back-to-backs or manage his load",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
   },
   {
    "id": "outlook:014895fa1e4b",
@@ -321,6 +721,24 @@
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "news:461bac3cdf01",
+   "kind": "text",
+   "playerId": "4396993",
+   "name": "Tyrese Haliburton",
+   "team": "IND",
+   "date": "2026-10-28",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616298/tyrese-haliburton-hamstring-to-miss-least-two-weeks.php",
+   "text": "Tyrese Haliburton (hamstring) to miss at least two weeks Pacers coach Rick Carlisle told reporters Tyrese Haliburton will miss at least two weeks.  Fantasy Impact: Haliburton is dealing with a mild left hamstring strain. He will be re-evaluated in mid-November.",
+   "flags": {
+    "absence": 0.98
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
   },
   {
    "id": "outlook:bbce85ca5f43",
@@ -1541,6 +1959,24 @@
    "firstSeen": "2026-10-06"
   },
   {
+   "id": "news:ab582b228fba",
+   "kind": "text",
+   "playerId": "6440",
+   "name": "Tobias Harris",
+   "team": "SAS",
+   "date": "2026-10-28",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616232/tobias-harris-calf-ruled-out-wednesday.php",
+   "text": "Tobias Harris (calf) ruled out Wednesday Tobias Harris has been ruled out for Wednesday’s game against the Jazz.  Fantasy Impact: Harris will need to wait another game to make his debut with the Spurs.",
+   "flags": {
+    "absence": 0.91
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
    "id": "outlook:cf93f7622955",
    "kind": "outlook",
    "playerId": "6440",
@@ -1860,6 +2296,24 @@
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-20"
+  },
+  {
+   "id": "news:0ee0cd64dfbb",
+   "kind": "text",
+   "playerId": "4712849",
+   "name": "Anthony Black",
+   "team": "ORL",
+   "date": "2026-10-28",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616243/anthony-black-personal-listed-questionable-wednesday.php",
+   "text": "Anthony Black (personal) listed questionable Wednesday Anthony Black is listed as questionable for Wednesday’s game against the Raptors.  Fantasy Impact: Black missed shootaround ahead of Wednesday’s game. He will likely start if he is good to go.",
+   "flags": {
+    "starter": 0.75
+   },
+   "summary": "is expected to start or has been named a starter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
   },
   {
    "id": "outlook:3b66cf2acb39",
@@ -2264,6 +2718,283 @@
    "firstSeen": "2026-10-20"
   },
   {
+   "id": "news:284413cceed5",
+   "kind": "text",
+   "playerId": "4278594",
+   "name": "Naji Marshall",
+   "team": "DAL",
+   "date": "2026-10-28",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616234/naji-marshall-illness-now-doubtful-wednesday.php",
+   "text": "Naji Marshall (illness) now doubtful Wednesday Naji Marshall is now doubtful for Wednesday’s game against the Thunder.  Fantasy Impact: Marshall was originally listed as questionable. He is on track to miss a second straight game.",
+   "flags": {
+    "absence": 0.81
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "news:bd9d799604e9",
+   "kind": "text",
+   "playerId": "4593125",
+   "name": "Santi Aldama",
+   "team": "DAL",
+   "date": "2026-10-28",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616231/santi-aldama-knee-ruled-out-wednesday.php",
+   "text": "Santi Aldama (knee) ruled out Wednesday Santi Aldama has been ruled out for Wednesday’s game against the Thunder.  Fantasy Impact: Aldama will remain sidelined as expected after being listed as doubtful.",
+   "flags": {
+    "absence": 0.87
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "news:457c5e4e8980",
+   "kind": "text",
+   "playerId": "4395702",
+   "name": "Isaiah Joe",
+   "team": "DET",
+   "date": "2026-10-28",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616238/isaiah-joe-hip-ruled-out-wednesday.php",
+   "text": "Isaiah Joe (hip) ruled out Wednesday Isaiah Joe has been ruled out for Wednesday’s game against the Hornets.  Fantasy Impact: Joe miss a second straight game. Kevin Huerter should continue to see more run in his place.",
+   "flags": {
+    "absence": 0.94
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "news:df5d5466391b",
+   "kind": "text",
+   "playerId": "2990992",
+   "name": "Marcus Smart",
+   "team": "HOU",
+   "date": "2026-10-28",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616235/marcus-smart-forearm-ruled-out-wednesday.php",
+   "text": "Marcus Smart (forearm) ruled out Wednesday Marcus Smart has been ruled out for Wednesday’s game against the Bucks.  Fantasy Impact: Smart was originally listed as questionable. He will miss a third straight game.",
+   "flags": {
+    "absence": 0.94
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "news:f4cb31a45e48",
+   "kind": "text",
+   "playerId": "4433137",
+   "name": "Ziaire Williams",
+   "team": "LAL",
+   "date": "2026-10-28",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616253/ziaire-williams-foot-ruled-out-wednesday.php",
+   "text": "Ziaire Williams (foot) ruled out Wednesday Ziaire Williams has been ruled out for Wednesday’s game against the Clippers. Fantasy Impact: Williams will sit the second game of a back-to-back. Jake LaRavia and Quentin Grimes should see more run in his place.",
+   "flags": {
+    "absence": 0.88
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "news:4c4054b708c5",
+   "kind": "text",
+   "playerId": "3899664",
+   "name": "Simone Fontecchio",
+   "team": "MIA",
+   "date": "2026-10-28",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616242/simone-fontecchio-illness-ruled-out-wednesday.php",
+   "text": "Simone Fontecchio (illness) ruled out Wednesday Simone Fontecchio has been ruled out for Wednesday’s game against the Hawks.  Fantasy Impact: Fontecchio will be sidelined as expected after being listed as doubtful.",
+   "flags": {
+    "absence": 0.82
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "news:a88a5851e008",
+   "kind": "text",
+   "playerId": "4277869",
+   "name": "Jose Alvarado",
+   "team": "NYK",
+   "date": "2026-10-28",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616233/jose-alvarado-ankle-ruled-out-wednesday.php",
+   "text": "Jose Alvarado (ankle) ruled out Wednesday Jose Alvarado has been ruled out for Wednesday’s game against the Bulls.  Fantasy Impact: Alvarado will miss a third straight game. Miles McBride and Tyler Kolek will continue to see more run in his place.",
+   "flags": {
+    "absence": 0.95
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "news:3b64998f75a0",
+   "kind": "text",
+   "playerId": "champju01",
+   "name": "Justin Champagnie",
+   "team": "WAS",
+   "date": "2026-10-28",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616228/justin-champagnie-foot-undergoes-surgery.php",
+   "text": "Justin Champagnie (foot) undergoes surgery Justin Champagnie underwent surgery on Wednesday to repair a fracture in his right foot.  Fantasy Impact: Champagnie remains without a clear timetable to return. Bilal Coulibaly will figure to step into a bigger role in his place.",
+   "flags": {
+    "absence": 0.83,
+    "recovering": 0.84
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "depth:4594268:2026-10-28:SG #8",
+   "kind": "depth",
+   "playerId": "4594268",
+   "name": "Anthony Edwards",
+   "team": "MIN",
+   "date": "2026-10-28",
+   "summary": "Depth chart SG #1 → SG #8",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "depth:6450:2026-10-28:SF #6",
+   "kind": "depth",
+   "playerId": "6450",
+   "name": "Kawhi Leonard",
+   "team": "TOR",
+   "date": "2026-10-28",
+   "summary": "Depth chart SF #1 → SF #6",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "depth:4277961:2026-10-28:C #5",
+   "kind": "depth",
+   "playerId": "4277961",
+   "name": "Jaren Jackson Jr.",
+   "team": "UTA",
+   "date": "2026-10-28",
+   "summary": "Depth chart C #1 → C #5",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "depth:4397002:2026-10-28:SG #1",
+   "kind": "depth",
+   "playerId": "4397002",
+   "name": "Ayo Dosunmu",
+   "team": "MIN",
+   "date": "2026-10-28",
+   "summary": "Depth chart SG #2 → SG #1",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "depth:4684793:2026-10-28:PF #2",
+   "kind": "depth",
+   "playerId": "4684793",
+   "name": "Kyle Filipowski",
+   "team": "UTA",
+   "date": "2026-10-28",
+   "summary": "Depth chart C #3 → PF #2",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "depth:2991350:2026-10-28:SF #2",
+   "kind": "depth",
+   "playerId": "2991350",
+   "name": "Alex Caruso",
+   "team": "OKC",
+   "date": "2026-10-28",
+   "summary": "Depth chart SF #1 → SF #2",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "depth:5279130:2026-10-28:SG #1",
+   "kind": "depth",
+   "playerId": "5279130",
+   "name": "Nolan Traore",
+   "team": "BKN",
+   "date": "2026-10-28",
+   "summary": "Depth chart SG #2 → SG #1",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "depth:4900671:2026-10-28:SF #1",
+   "kind": "depth",
+   "playerId": "4900671",
+   "name": "Ajay Mitchell",
+   "team": "OKC",
+   "date": "2026-10-28",
+   "summary": "Depth chart PG #2 → SF #1",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "depth:4702177:2026-10-28:SG #2",
+   "kind": "depth",
+   "playerId": "4702177",
+   "name": "Keon Ellis",
+   "team": "BKN",
+   "date": "2026-10-28",
+   "summary": "Depth chart SG #1 → SG #2",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "depth:4684272:2026-10-28:SF #1",
+   "kind": "depth",
+   "playerId": "4684272",
+   "name": "Ja'Kobe Walter",
+   "team": "TOR",
+   "date": "2026-10-28",
+   "summary": "Depth chart SG #2 → SF #1",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "depth:4397077:2026-10-28:C #1",
+   "kind": "depth",
+   "playerId": "4397077",
+   "name": "Jaxson Hayes",
+   "team": "UTA",
+   "date": "2026-10-28",
+   "summary": "Depth chart C #2 → C #1",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-28"
+  },
+  {
    "id": "news:e5ab3c8f4eac",
    "kind": "text",
    "playerId": "4431687",
@@ -2481,25 +3212,6 @@
    "handledNote": "injury absence: automatic proposal / duplicate of a proposed item"
   },
   {
-   "id": "headline:493e1554aecb",
-   "kind": "text",
-   "playerId": "4277961",
-   "name": "Jaren Jackson Jr.",
-   "team": "UTA",
-   "date": "2026-10-27T20:59:07Z",
-   "source": "headline",
-   "url": "https://www.espn.com/nba/story/_/id/50300264/jazz-jaren-jackson-jr-knee-6-8-weeks-sources-say",
-   "text": "Jazz's Jaren Jackson Jr. (knee) out 6-8 weeks, sources say. Utah will be down two more of its bigs as Jaren Jackson Jr. has a torn MCL in his right knee and will miss at least six weeks, while Lauri Markkanen is day-to-day with a sprained wrist.",
-   "flags": {
-    "absence": 0.97
-   },
-   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
-   "judge": true,
-   "status": "handled",
-   "firstSeen": "2026-10-27",
-   "handledNote": "injury absence: automatic proposal / duplicate of a proposed item"
-  },
-  {
    "id": "injury:1587a2cc542f",
    "kind": "text",
    "playerId": "champju01",
@@ -2568,25 +3280,6 @@
    "text": "Jackson has been diagnosed with a torn MCL in his right knee and will be sidelined for 6-to-8 weeks, per Shams Charania of ESPN.",
    "flags": {
     "absence": 0.96
-   },
-   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
-   "judge": true,
-   "status": "handled",
-   "firstSeen": "2026-10-27",
-   "handledNote": "injury absence: automatic proposal / duplicate of a proposed item"
-  },
-  {
-   "id": "headline:5bfd06e18c91",
-   "kind": "text",
-   "playerId": "6450",
-   "name": "Kawhi Leonard",
-   "team": "TOR",
-   "date": "2026-10-27T16:41:14Z",
-   "source": "headline",
-   "url": "https://www.espn.com/nba/story/_/id/50298441/raptors-kawhi-leonard-weeks-due-knee-sources-say",
-   "text": "Raptors' Kawhi Leonard out weeks due to knee, sources say. Kawhi Leonard is expected to miss a period of weeks due to swelling in his left knee, sources told ESPN's Shams Charania.",
-   "flags": {
-    "absence": 0.89
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
    "judge": true,
