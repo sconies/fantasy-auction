@@ -39,6 +39,26 @@
    "reason": "Diagnosed with a torn meniscus in his left knee, no timetable for return (Scott Agness, FieldhouseFiles.com). Meniscus tears typically cost 6-10 weeks or more; -20 games from his 63 projected, about 25% of a season.",
    "source": "https://www.fieldhousefiles.com",
    "signalId": "injury:dd99cee71161"
+  },
+  {
+   "id": "2026-10-27-jwilliams-ankle",
+   "playerId": "4593803",
+   "name": "Jalen Williams",
+   "date": "2026-10-27",
+   "games": 10,
+   "reason": "Dislocated left ankle and fractured fibula, surgery on both, out indefinitely (ESPN/Shams Charania, via FantasyPros 2026-10-27; ESPN: Thunder guards out \"for months\"). No return date, so no injury proposal covers it. Ankle-dislocation plus fibula fracture surgery typically costs 4-6 months, i.e. back around March-April; ~10 games left this season, versus 66 projected.",
+   "source": "https://www.fantasypros.com/nba/news/616117/jalen-williams-anklefibula-out-indefinitely.php",
+   "signalId": "news:5fb0eefd9c62"
+  },
+  {
+   "id": "2026-10-27-wallace-labrum",
+   "playerId": "4683692",
+   "name": "Cason Wallace",
+   "date": "2026-10-27",
+   "games": 25,
+   "reason": "Torn labrum in left shoulder, surgery, out indefinitely (ESPN/Shams Charania, via FantasyPros 2026-10-27; ESPN: Thunder guards out \"for months\"). No return date, so no injury proposal covers it. Shoulder labrum repair typically costs 4-5 months; ~25 games after a return in March, versus 75 projected.",
+   "source": "https://www.fantasypros.com/nba/news/",
+   "signalId": "news:ef38123417b8"
   }
  ]
 }
