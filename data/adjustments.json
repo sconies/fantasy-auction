@@ -59,6 +59,16 @@
    "reason": "Torn labrum in left shoulder, surgery, out indefinitely (ESPN/Shams Charania, via FantasyPros 2026-10-27; ESPN: Thunder guards out \"for months\"). No return date, so no injury proposal covers it. Shoulder labrum repair typically costs 4-5 months; ~25 games after a return in March, versus 75 projected.",
    "source": "https://www.fantasypros.com/nba/news/",
    "signalId": "news:ef38123417b8"
+  },
+  {
+   "id": "2026-10-28-champagnie-foot",
+   "playerId": "champju01",
+   "name": "Justin Champagnie",
+   "date": "2026-10-28",
+   "gamesDelta": -30,
+   "reason": "Foot fracture surgery; expected to miss several months per Josh Robbins (The Athletic), no clear timetable. Several months taken as ~3.5 months, about 30 of the remaining games, off his 68-game projection. No injury proposal exists for him.",
+   "source": "https://www.espn.com/nba/",
+   "signalId": "injury:f70986fcaf64"
   }
  ]
 }
