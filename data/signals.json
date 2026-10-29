@@ -1,10 +1,100 @@
 {
- "builtAt": "2026-10-29T09:09:53.007Z",
+ "builtAt": "2026-10-29T21:56:07.633Z",
  "counts": {
-  "new": 27,
-  "toJudge": 27
+  "new": 33,
+  "toJudge": 33
  },
  "signals": [
+  {
+   "id": "injury:22330e909c31",
+   "kind": "text",
+   "playerId": "4017837",
+   "name": "Ivica Zubac",
+   "team": "IND",
+   "date": "2026-10-29T21:04Z",
+   "source": "injury",
+   "url": null,
+   "text": "Zubac (ankle) is out for Friday's game against the Heat.",
+   "flags": {
+    "absence": 0.81
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-29"
+  },
+  {
+   "id": "injury:ab35fb38b23c",
+   "kind": "text",
+   "playerId": "4711272",
+   "name": "Reed Sheppard",
+   "team": "HOU",
+   "date": "2026-10-29T20:36Z",
+   "source": "injury",
+   "url": null,
+   "text": "Sheppard (back) is out for Friday's game against the Mavericks.",
+   "flags": {
+    "absence": 0.76
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-29"
+  },
+  {
+   "id": "headline:8897f4d13cae",
+   "kind": "text",
+   "playerId": "4594268",
+   "name": "Anthony Edwards",
+   "team": "MIN",
+   "date": "2026-10-29T19:21:19Z",
+   "source": "headline",
+   "url": "https://www.espn.com/nba/story/_/id/50320717/timberwolves-anthony-edwards-undergoes-successful-knee-scope",
+   "text": "Timberwolves' Anthony Edwards undergoes successful knee scope. Timberwolves star Anthony Edwards underwent a \"successful\" arthroscopic procedure on his ailing right knee at the Mayo Clinic on Thursday, the team announced.",
+   "flags": {
+    "recovering": 0.77
+   },
+   "summary": "is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-29"
+  },
+  {
+   "id": "injury:be0cb43e384e",
+   "kind": "text",
+   "playerId": "4594268",
+   "name": "Anthony Edwards",
+   "team": "MIN",
+   "date": "2026-10-29T18:33Z",
+   "source": "injury",
+   "url": null,
+   "text": "Edwards underwent a successful arthroscopic procedure on his right knee Thursday, the Timberwolves announced.",
+   "flags": {
+    "recovering": 0.84
+   },
+   "summary": "is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-29"
+  },
+  {
+   "id": "injury:e340176c003c",
+   "kind": "text",
+   "playerId": "6450",
+   "name": "Kawhi Leonard",
+   "team": "TOR",
+   "date": "2026-10-29T15:39Z",
+   "source": "injury",
+   "url": null,
+   "text": "Leonard (knee) is expected to be sidelined for at least three to four weeks, Chris Haynes of NBA TV reports.",
+   "flags": {
+    "absence": 0.91
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-29"
+  },
   {
    "id": "injury:84f78367258f",
    "kind": "text",
@@ -118,6 +208,24 @@
    "firstSeen": "2026-10-29"
   },
   {
+   "id": "injury:6db63b28a037",
+   "kind": "text",
+   "playerId": "4997536",
+   "name": "Gui Santos",
+   "team": "GSW",
+   "date": "2026-10-29T04:38Z",
+   "source": "injury",
+   "url": null,
+   "text": "Santos has been ruled out for Wednesday's game against the Timberwolves due to left knee tendinitis.",
+   "flags": {
+    "absence": 0.89
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-29"
+  },
+  {
    "id": "injury:9d4a0287a318",
    "kind": "text",
    "playerId": "4871144",
@@ -135,24 +243,6 @@
    "status": "handled",
    "firstSeen": "2026-10-27",
    "handledNote": "injury absence: automatic proposal / duplicate of a proposed item"
-  },
-  {
-   "id": "injury:6db63b28a037",
-   "kind": "text",
-   "playerId": "4997536",
-   "name": "Gui Santos",
-   "team": "GSW",
-   "date": "2026-10-29T04:38Z",
-   "source": "injury",
-   "url": null,
-   "text": "Santos has been ruled out for Wednesday's game against the Timberwolves due to left knee tendinitis.",
-   "flags": {
-    "absence": 0.89
-   },
-   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
-   "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-29"
   },
   {
    "id": "injury:00f89199dbf3",
@@ -431,24 +521,6 @@
    "judge": false,
    "status": "info",
    "firstSeen": "2026-10-06"
-  },
-  {
-   "id": "news:464c69f0e87f",
-   "kind": "text",
-   "playerId": "4432166",
-   "name": "Cade Cunningham",
-   "team": "DET",
-   "date": "2026-10-29",
-   "source": "news",
-   "url": "https://www.fantasypros.com/nba/news/616349/cade-cunningham-drops-30-points-wednesday.php",
-   "text": "Cade Cunningham drops 30 points Wednesday Cade Cunningham scored 30 points (10-22 FG, 4-9 3PT, 6-8 FT) to go along with five rebounds, seven assists and two steals in the Pisrons 97-89 win over the Hornets. Fantasy Impact: Cunningham was able to bounce back from his latest performance. He should continue to handle a heavy workload for the Pistons.",
-   "flags": {
-    "playmaker": 0.71
-   },
-   "summary": "will handle the ball or run the offense as a primary playmaker",
-   "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-29"
   },
   {
    "id": "outlook:405846392c78",
@@ -2619,6 +2691,25 @@
    "firstSeen": "2026-10-20"
   },
   {
+   "id": "news:552af94426f6",
+   "kind": "text",
+   "playerId": "4066211",
+   "name": "Robert Williams III",
+   "team": "POR",
+   "date": "2026-10-29",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616417/robert-williams-iii-knee-doubtful-thursday.php",
+   "text": "Robert Williams III (knee) doubtful for Thursday Robert Williams III (knee) is unlikely to play Thursday night against the Grizzlies.  Fantasy Impact: Williams has had a strong start to the season in his bench role for the Blazers, averaging 9.7 points and 8.7 rebounds in 18 minutes per game so far. It looks like he will take a seat Thursday, however, as he's managing a knee issue. Yang Hansen cou",
+   "flags": {
+    "absence": 0.87,
+    "bench": 0.83
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; is expected to come off the bench or has lost his starting job",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-29"
+  },
+  {
    "id": "news:bbd8ad1cde30",
    "kind": "text",
    "playerId": "4351851",
@@ -2632,6 +2723,24 @@
     "bench": 0.88
    },
    "summary": "is expected to come off the bench or has lost his starting job",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-29"
+  },
+  {
+   "id": "news:464c69f0e87f",
+   "kind": "text",
+   "playerId": "4432166",
+   "name": "Cade Cunningham",
+   "team": "DET",
+   "date": "2026-10-29",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616349/cade-cunningham-drops-30-points-wednesday.php",
+   "text": "Cade Cunningham drops 30 points Wednesday Cade Cunningham scored 30 points (10-22 FG, 4-9 3PT, 6-8 FT) to go along with five rebounds, seven assists and two steals in the Pisrons 97-89 win over the Hornets. Fantasy Impact: Cunningham was able to bounce back from his latest performance. He should continue to handle a heavy workload for the Pistons.",
+   "flags": {
+    "playmaker": 0.71
+   },
+   "summary": "will handle the ball or run the offense as a primary playmaker",
    "judge": true,
    "status": "new",
    "firstSeen": "2026-10-29"
