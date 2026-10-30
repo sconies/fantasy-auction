@@ -1099,6 +1099,56 @@
    "to": "C #2",
    "promoted": true,
    "projectedMin": 11.19
+  },
+  {
+   "date": "2026-10-30",
+   "playerId": "4712849",
+   "name": "Anthony Black",
+   "team": "ORL",
+   "from": "SG #2",
+   "to": "SG #1",
+   "promoted": true,
+   "projectedMin": 27.26
+  },
+  {
+   "date": "2026-10-30",
+   "playerId": "4431785",
+   "name": "Scotty Pippen Jr.",
+   "team": "MEM",
+   "from": "PG #2",
+   "to": "PG #3",
+   "promoted": false,
+   "projectedMin": 22.81
+  },
+  {
+   "date": "2026-10-30",
+   "playerId": "4432165",
+   "name": "Jalen Suggs",
+   "team": "ORL",
+   "from": "PG #1",
+   "to": "PG #5",
+   "promoted": false,
+   "projectedMin": 25.35
+  },
+  {
+   "date": "2026-10-30",
+   "playerId": "4702382",
+   "name": "Tristan da Silva",
+   "team": "ORL",
+   "from": "PF #1",
+   "to": "PF #2",
+   "promoted": false,
+   "projectedMin": 20.67
+  },
+  {
+   "date": "2026-10-30",
+   "playerId": "5239561",
+   "name": "Jase Richardson",
+   "team": "ORL",
+   "from": "PG #2",
+   "to": "PG #1",
+   "promoted": true,
+   "projectedMin": 9.57
   }
  ]
 }

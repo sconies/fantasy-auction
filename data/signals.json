@@ -1,10 +1,138 @@
 {
- "builtAt": "2026-10-30T09:21:15.659Z",
+ "builtAt": "2026-10-30T21:39:15.436Z",
  "counts": {
-  "new": 17,
-  "toJudge": 17
+  "new": 36,
+  "toJudge": 36
  },
  "signals": [
+  {
+   "id": "injury:7946539d3989",
+   "kind": "text",
+   "playerId": "4277956",
+   "name": "Jordan Poole",
+   "team": "NOP",
+   "date": "2026-10-30T21:25Z",
+   "source": "injury",
+   "url": null,
+   "text": "Poole (ankle) has been ruled out for Saturday's game against the Hawks.",
+   "flags": {
+    "absence": 0.76
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-30"
+  },
+  {
+   "id": "headline:ac4e88f6f442",
+   "kind": "text",
+   "playerId": "4279888",
+   "name": "Ja Morant",
+   "team": "POR",
+   "date": "2026-10-30T20:36:51Z",
+   "source": "headline",
+   "url": "https://www.espn.com/nba/story/_/id/50329588/ja-morant-least-four-weeks-injury-vs-grizzlies",
+   "text": "Ja Morant out at least 4 weeks with hamstring strain suffered against Grizzlies. Trail Blazers guard Ja Morant sustained a left hamstring strain in his first game against the Grizzlies, his former team, and will be out at least four weeks.",
+   "flags": {
+    "absence": 0.96,
+    "new_team": 0.79
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter; changed teams (traded, signed or claimed) since last season",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-30"
+  },
+  {
+   "id": "injury:091324524e7c",
+   "kind": "text",
+   "playerId": "4395702",
+   "name": "Isaiah Joe",
+   "team": "DET",
+   "date": "2026-10-30T20:35Z",
+   "source": "injury",
+   "url": null,
+   "text": "Joe (hip) has been ruled out for Friday's game against the Nets.",
+   "flags": {
+    "absence": 0.78
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-30"
+  },
+  {
+   "id": "injury:421918435188",
+   "kind": "text",
+   "playerId": "4433137",
+   "name": "Ziaire Williams",
+   "team": "LAL",
+   "date": "2026-10-30T20:05Z",
+   "source": "injury",
+   "url": null,
+   "text": "Williams has been ruled out for Friday's game against the Warriors due to left foot injury management, Mark Medina of TheSportingTribune.com reports.",
+   "flags": {
+    "absence": 0.79
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-30"
+  },
+  {
+   "id": "injury:4fdca7e0261c",
+   "kind": "text",
+   "playerId": "4279888",
+   "name": "Ja Morant",
+   "team": "POR",
+   "date": "2026-10-30T18:45Z",
+   "source": "injury",
+   "url": null,
+   "text": "Morant has been diagnosed with a Grade 2 left hamstring strain and is expected to miss four weeks, Portland announced Friday.",
+   "flags": {
+    "absence": 0.9
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-30"
+  },
+  {
+   "id": "headline:2f836c811202",
+   "kind": "text",
+   "playerId": "4397018",
+   "name": "Ochai Agbaji",
+   "team": "OKC",
+   "date": "2026-10-30T18:15:00Z",
+   "source": "headline",
+   "url": "https://www.espn.com/nba/story/_/id/50329298/sources-thunder-signing-ochai-agbaji-fill-open-roster-spot",
+   "text": "Sources: Thunder signing Agbaji to fill roster after Williams, Wallace injuries. The Thunder are signing forward Ochai Agbaji to fill their open roster spot in the wake of major injuries suffered to starting wings Jalen Williams and Cason Wallace, sources told ESPN's Shams Charania.",
+   "flags": {
+    "new_team": 0.7,
+    "opening": 0.97
+   },
+   "summary": "changed teams (traded, signed or claimed) since last season; a teammate's absence or departure opens up opportunity for the player",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-30"
+  },
+  {
+   "id": "injury:13787b9e5c04",
+   "kind": "text",
+   "playerId": "5061575",
+   "name": "Kon Knueppel",
+   "team": "CHA",
+   "date": "2026-10-30T15:12Z",
+   "source": "injury",
+   "url": null,
+   "text": "Knueppel (hamstring) was recalled from the G League's Greensboro Swarm on Friday. He remains out for Friday's contest against the Wizards.",
+   "flags": {
+    "absence": 0.76
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-30"
+  },
   {
    "id": "headline:55204aec9fc1",
    "kind": "text",
@@ -1006,6 +1134,24 @@
    "firstSeen": "2026-10-06"
   },
   {
+   "id": "news:136238d42f13",
+   "kind": "text",
+   "playerId": "4279888",
+   "name": "Ja Morant",
+   "team": "POR",
+   "date": "2026-10-30",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616669/ja-morant-hamstring-to-miss-least-four-weeks.php",
+   "text": "Ja Morant (hamstring) to miss at least four weeks Ja Morant has been diagnosed with a Grade 2 left hamstring strain and will miss at least four weeks.  Fantasy Impact: Morant suffered the injury in Thursday's game against the Grizzlies. Scoot Henderson and Jrue Holiday should see more run in his place.",
+   "flags": {
+    "absence": 0.97
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-30"
+  },
+  {
    "id": "outlook:a88f7810e87d",
    "kind": "outlook",
    "playerId": "4279888",
@@ -1635,25 +1781,6 @@
    "firstSeen": "2026-10-06"
   },
   {
-   "id": "news:1a46eea905b7",
-   "kind": "text",
-   "playerId": "5144091",
-   "name": "Jeremiah Fears",
-   "team": "NOP",
-   "date": "2026-10-30",
-   "source": "news",
-   "url": "https://www.fantasypros.com/nba/news/616529/jeremiah-fears-nears-triple-double-thursday.php",
-   "text": "Jeremiah Fears nears triple-double Thursday Jeremiah Fears scored 22 points (9-16 FG, 3-5 3PT, 1-3 FT) to go along with eight rebounds, 13 assists, two steals and four blocks in the Pelicans 132-120 win over the Kings. Fantasy Impact: Fears dominated in every level of the game on Thursday on both ends of the floor. He'll continue to see heavy usage as long as Dejounte Murray remains sidelined.",
-   "flags": {
-    "opening": 0.96,
-    "playmaker": 0.74
-   },
-   "summary": "a teammate's absence or departure opens up opportunity for the player; will handle the ball or run the offense as a primary playmaker",
-   "judge": true,
-   "status": "new",
-   "firstSeen": "2026-10-30"
-  },
-  {
    "id": "outlook:70b9007fb76d",
    "kind": "outlook",
    "playerId": "5144091",
@@ -2261,6 +2388,24 @@
    "firstSeen": "2026-10-20"
   },
   {
+   "id": "news:e3e364a5d33d",
+   "kind": "text",
+   "playerId": "4277956",
+   "name": "Jordan Poole",
+   "team": "NOP",
+   "date": "2026-10-30",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616702/jordan-poole-ankle-ruled-out-saturday.php",
+   "text": "Jordan Poole (ankle) ruled out Saturday Jordan Poole has been ruled out for Saturday's game against the Hawks.  Fantasy Impact: Poole will miss a second consecutive game with a sprained left ankle. His absence does not impact the Pelicans rotation for fantasy managers.",
+   "flags": {
+    "absence": 0.93
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-30"
+  },
+  {
    "id": "outlook:722bb431e118",
    "kind": "outlook",
    "playerId": "4277956",
@@ -2300,6 +2445,60 @@
    "firstSeen": "2026-10-20"
   },
   {
+   "id": "news:4c7eb426185b",
+   "kind": "text",
+   "playerId": "3032979",
+   "name": "Dennis Schroder",
+   "team": "CHA",
+   "date": "2026-10-30",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616673/dennis-schroder-foot-now-probable-friday.php",
+   "text": "Dennis Schroder (foot) now probable Friday Dennis Schroder is now probable for Friday’s game against the Wizards.  Fantasy Impact: Schroder is on track to be good to go. He should be back in his starting role.",
+   "flags": {
+    "starter": 0.9
+   },
+   "summary": "is expected to start or has been named a starter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-30"
+  },
+  {
+   "id": "news:d846cea0c2ec",
+   "kind": "text",
+   "playerId": "4683747",
+   "name": "Jaylon Tyson",
+   "team": "CLE",
+   "date": "2026-10-30",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616704/jaylon-tyson-ankle-ruled-out-saturday.php",
+   "text": "Jaylon Tyson (ankle) ruled out Saturday Jaylon Tyson has been ruled out for Saturday's game against the Bucks.  Fantasy Impact: Tyson is out with a sprained right ankle.",
+   "flags": {
+    "absence": 0.7
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-30"
+  },
+  {
+   "id": "news:d193017eebe7",
+   "kind": "text",
+   "playerId": "3138196",
+   "name": "Cameron Johnson",
+   "team": "DEN",
+   "date": "2026-10-30",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616676/cameron-johnson-ankle-expected-to-play-friday.php",
+   "text": "Cameron Johnson (ankle) expected to play Friday Cameron Johnson is expected to play in Friday’s game against the Suns.  Fantasy Impact: Johnson remains listed as questionable. He has been sidelined since the season opener.",
+   "flags": {
+    "recovering": 0.79
+   },
+   "summary": "is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-30"
+  },
+  {
    "id": "news:744539cdb271",
    "kind": "text",
    "playerId": "4997536",
@@ -2313,6 +2512,158 @@
     "absence": 0.83
    },
    "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-30"
+  },
+  {
+   "id": "news:9f261b4f7107",
+   "kind": "text",
+   "playerId": "4433137",
+   "name": "Ziaire Williams",
+   "team": "LAL",
+   "date": "2026-10-30",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616674/ziaire-williams-foot-ruled-out-friday.php",
+   "text": "Ziaire Williams (foot) ruled out Friday Ziaire Williams has been ruled out for Friday's game against the Warriors.  Fantasy Impact: Williams will be sidelined after being listed as questionable. Jake LaRavia could see another spot start.",
+   "flags": {
+    "absence": 0.85
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-30"
+  },
+  {
+   "id": "news:107667021d98",
+   "kind": "text",
+   "playerId": "5061589",
+   "name": "Yves Missi",
+   "team": "NOP",
+   "date": "2026-10-30",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616703/yves-missi-knee-ruled-out-saturday.php",
+   "text": "Yves Missi (knee) ruled out Saturday Yves Missi has been ruled out for Saturday's game against the Hawks.  Fantasy Impact: Missi is expected to miss significant time with a left knee bone bruise. Derik Queen should benefit the most in his place.",
+   "flags": {
+    "absence": 0.95
+   },
+   "summary": "is expected to miss regular-season games because of an injury, illness, suspension or personal matter",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-30"
+  },
+  {
+   "id": "news:3429038b6e39",
+   "kind": "text",
+   "playerId": "4397018",
+   "name": "Ochai Agbaji",
+   "team": "OKC",
+   "date": "2026-10-30",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616670/ochai-agbaji-signs-with-thunder.php",
+   "text": "Ochai Agbaji signs with Thunder Ochai Agbaji has been signed to the Thunder’s final roster spot. Fantasy Impact: Agbaji will hold a role at the end of the bench for the Thunder. He will likely remain off the fantasy radar.",
+   "flags": {
+    "out_of_rotation": 0.93,
+    "new_team": 0.78
+   },
+   "summary": "may be out of the rotation or only a deep bench option; changed teams (traded, signed or claimed) since last season",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-30"
+  },
+  {
+   "id": "news:6ac212618721",
+   "kind": "text",
+   "playerId": "4431687",
+   "name": "Patrick Williams",
+   "team": "CHI",
+   "date": "2026-10-30",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616578/patrick-williams-adductor-expected-to-play-friday.php",
+   "text": "Patrick Williams (adductor) expected to play Friday Patrick Williams is expected to make his season debut on Friday against the Hornets.  Fantasy Impact: Williams said at shootaround that he’ll be available. He will remain off the fantasy radar.",
+   "flags": {
+    "recovering": 0.78
+   },
+   "summary": "is recovering or returning from a significant injury or surgery",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-30"
+  },
+  {
+   "id": "depth:4712849:2026-10-30:SG #1",
+   "kind": "depth",
+   "playerId": "4712849",
+   "name": "Anthony Black",
+   "team": "ORL",
+   "date": "2026-10-30",
+   "summary": "Depth chart SG #2 → SG #1",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-30"
+  },
+  {
+   "id": "depth:4431785:2026-10-30:PG #3",
+   "kind": "depth",
+   "playerId": "4431785",
+   "name": "Scotty Pippen Jr.",
+   "team": "MEM",
+   "date": "2026-10-30",
+   "summary": "Depth chart PG #2 → PG #3",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-30"
+  },
+  {
+   "id": "depth:4432165:2026-10-30:PG #5",
+   "kind": "depth",
+   "playerId": "4432165",
+   "name": "Jalen Suggs",
+   "team": "ORL",
+   "date": "2026-10-30",
+   "summary": "Depth chart PG #1 → PG #5",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-30"
+  },
+  {
+   "id": "depth:4702382:2026-10-30:PF #2",
+   "kind": "depth",
+   "playerId": "4702382",
+   "name": "Tristan da Silva",
+   "team": "ORL",
+   "date": "2026-10-30",
+   "summary": "Depth chart PF #1 → PF #2",
+   "judge": true,
+   "status": "new",
+   "firstSeen": "2026-10-30"
+  },
+  {
+   "id": "change:4397018:2026-10-30",
+   "kind": "change",
+   "playerId": "4397018",
+   "name": "Ochai Agbaji",
+   "team": "OKC",
+   "date": "2026-10-30",
+   "summary": "team FA → OKC",
+   "judge": false,
+   "status": "info",
+   "firstSeen": "2026-10-30"
+  },
+  {
+   "id": "news:1a46eea905b7",
+   "kind": "text",
+   "playerId": "5144091",
+   "name": "Jeremiah Fears",
+   "team": "NOP",
+   "date": "2026-10-30",
+   "source": "news",
+   "url": "https://www.fantasypros.com/nba/news/616529/jeremiah-fears-nears-triple-double-thursday.php",
+   "text": "Jeremiah Fears nears triple-double Thursday Jeremiah Fears scored 22 points (9-16 FG, 3-5 3PT, 1-3 FT) to go along with eight rebounds, 13 assists, two steals and four blocks in the Pelicans 132-120 win over the Kings. Fantasy Impact: Fears dominated in every level of the game on Thursday on both ends of the floor. He'll continue to see heavy usage as long as Dejounte Murray remains sidelined.",
+   "flags": {
+    "opening": 0.96,
+    "playmaker": 0.74
+   },
+   "summary": "a teammate's absence or departure opens up opportunity for the player; will handle the ball or run the offense as a primary playmaker",
    "judge": true,
    "status": "new",
    "firstSeen": "2026-10-30"
