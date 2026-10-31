@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-30T21:39:13.204Z",
+ "fetchedAt": "2026-10-31T09:08:25.448Z",
  "injuries": [
   {
    "name": "Mouhamed Gueye",
@@ -29,15 +29,6 @@
    "injury": "Illness"
   },
   {
-   "name": "Noah Clowney",
-   "team": "Brooklyn Nets",
-   "status": "Day-To-Day",
-   "comment": "Clowney (illness) was downgraded to questionable for Friday's game versus Detroit, Erik Slater of ClutchPoints.com reports.",
-   "date": "2026-10-30T14:16Z",
-   "returnDate": "2026-10-30",
-   "injury": "Illness"
-  },
-  {
    "name": "Egor Demin",
    "team": "Brooklyn Nets",
    "status": "Out",
@@ -54,15 +45,6 @@
    "date": "2026-10-25T17:19Z",
    "returnDate": "2026-11-01",
    "injury": "Shoulder – Sprain"
-  },
-  {
-   "name": "Dennis Schroder",
-   "team": "Charlotte Hornets",
-   "status": "Day-To-Day",
-   "comment": "Schroder (foot) is probable for Friday against the Wizards.",
-   "date": "2026-10-30T15:34Z",
-   "returnDate": "2026-10-30",
-   "injury": "Foot"
   },
   {
    "name": "Kon Knueppel",
@@ -104,28 +86,10 @@
    "name": "Dailyn Swain",
    "team": "Chicago Bulls",
    "status": "Day-To-Day",
-   "comment": "Swain is listed as questionable for Friday's game at Boston due to lower-back soreness.",
-   "date": "2026-10-30T20:38Z",
-   "returnDate": "2026-10-30",
+   "comment": "Swain (back) has been ruled out for Friday's game against Boston.",
+   "date": "2026-10-31T04:59Z",
+   "returnDate": "2026-11-02",
    "injury": "Back – Soreness"
-  },
-  {
-   "name": "Jalen Smith",
-   "team": "Chicago Bulls",
-   "status": "Day-To-Day",
-   "comment": "Smith is questionable for Friday's game against Boston with a left finger sprain.",
-   "date": "2026-10-29T18:55Z",
-   "returnDate": "2026-10-30",
-   "injury": "Finger"
-  },
-  {
-   "name": "Tobe Awaka",
-   "team": "Chicago Bulls",
-   "status": "Day-To-Day",
-   "comment": "Awaka (ankle) is questionable for Friday's game in Boston.",
-   "date": "2026-10-29T18:53Z",
-   "returnDate": "2026-10-30",
-   "injury": "Ankle"
   },
   {
    "name": "Nic Claxton",
@@ -155,40 +119,31 @@
    "injury": "Foot"
   },
   {
-   "name": "Naji Marshall",
-   "team": "Dallas Mavericks",
-   "status": "Day-To-Day",
-   "comment": "Marshall (illness) is probable for Friday's game against the Rockets.",
-   "date": "2026-10-30T20:24Z",
-   "returnDate": "2026-10-30",
-   "injury": "Illness"
-  },
-  {
-   "name": "Tarik Biberovic",
+   "name": "Sergio de Larrea",
    "team": "Dallas Mavericks",
    "status": "Out",
-   "comment": "Biberovic (heel) is listed as doubtful for Friday's game versus the Rockets.",
-   "date": "2026-10-29T22:09Z",
-   "returnDate": "2026-10-30",
-   "injury": "Heel – Inflammation"
+   "comment": "Head coach Dusty May said Friday that de Larrea (knee) will be re-evaluated next week, Noah Weber of TheSmokingCuban.com reports.",
+   "date": "2026-10-30T22:34Z",
+   "returnDate": "2026-11-04",
+   "injury": "Knee – Strain"
   },
   {
    "name": "Santi Aldama",
    "team": "Dallas Mavericks",
    "status": "Out",
-   "comment": "Aldama (knee) is listed as doubtful for Friday's game against Houston.",
-   "date": "2026-10-29T22:07Z",
-   "returnDate": "2026-10-30",
+   "comment": "Aldama (knee) is listed as out for Friday's game against the Rockets.",
+   "date": "2026-10-30T22:16Z",
+   "returnDate": "2026-11-02",
    "injury": "Knee – Surgery"
   },
   {
-   "name": "Sergio de Larrea",
+   "name": "Tarik Biberovic",
    "team": "Dallas Mavericks",
    "status": "Out",
-   "comment": "De Larrea (knee) is out for Friday's game against the Rockets.",
-   "date": "2026-10-29T22:06Z",
+   "comment": "Biberovic (heel) is out for Friday's game against the Rockets.",
+   "date": "2026-10-30T22:13Z",
    "returnDate": "2026-11-02",
-   "injury": "Knee – Strain"
+   "injury": "Heel – Inflammation"
   },
   {
    "name": "Dereck Lively II",
@@ -203,19 +158,10 @@
    "name": "Alpha Diallo",
    "team": "Denver Nuggets",
    "status": "Out",
-   "comment": "Diallo (personal) is doubtful for Friday's game against the Suns.",
-   "date": "2026-10-30T20:30Z",
-   "returnDate": "2026-10-30",
+   "comment": "Diallo (personal/wrist) has been ruled out for Friday's game against Phoenix, Vic Lombardi of Altitude Sports reports.",
+   "date": "2026-10-31T00:42Z",
+   "returnDate": "2026-11-02",
    "injury": "Personal"
-  },
-  {
-   "name": "Cameron Johnson",
-   "team": "Denver Nuggets",
-   "status": "Out",
-   "comment": "Johnson (ankle) is expected to play in Friday's game against the Suns, per John Gambadoro of Arizona Sports 98.7 FM.",
-   "date": "2026-10-30T18:41Z",
-   "returnDate": "2026-10-30",
-   "injury": "Ankle – Sprain"
   },
   {
    "name": "Spencer Jones",
@@ -254,15 +200,6 @@
    "injury": "Hamstring – Strain"
   },
   {
-   "name": "Gui Santos",
-   "team": "Golden State Warriors",
-   "status": "Day-To-Day",
-   "comment": "Santos (knee) is questionable for Friday's game against the Lakers.",
-   "date": "2026-10-30T20:37Z",
-   "returnDate": "2026-10-30",
-   "injury": "Knee – Tendinitis"
-  },
-  {
    "name": "Kristaps Porzingis",
    "team": "Golden State Warriors",
    "status": "Out",
@@ -292,28 +229,19 @@
   {
    "name": "Reed Sheppard",
    "team": "Houston Rockets",
-   "status": "Out",
+   "status": "Day-To-Day",
    "comment": "Houston picked up Sheppard's (back) fourth-year team option Friday, per Lachard Binkley of SI.com.",
-   "date": "2026-10-30T19:19Z",
+   "date": "2026-10-31T05:00Z",
    "returnDate": "2026-10-31",
    "injury": "Back"
-  },
-  {
-   "name": "Marcus Smart",
-   "team": "Houston Rockets",
-   "status": "Out",
-   "comment": "Smart (forearm) is questionable for Friday's game against the Mavericks.",
-   "date": "2026-10-29T20:35Z",
-   "returnDate": "2026-10-30",
-   "injury": "Forearm – Strain"
   },
   {
    "name": "Alperen Sengun",
    "team": "Houston Rockets",
    "status": "Day-To-Day",
-   "comment": "Sengun (back) is questionable for Friday's game against the Mavericks.",
-   "date": "2026-10-29T20:34Z",
-   "returnDate": "2026-10-30",
+   "comment": "Sengun (back) has been ruled out for Friday's game against the Mavericks, Mike Curtis of The Dallas Morning News reports.",
+   "date": "2026-10-31T05:00Z",
+   "returnDate": "2026-10-31",
    "injury": "Back – Soreness"
   },
   {
@@ -329,10 +257,10 @@
    "name": "Obi Toppin",
    "team": "Indiana Pacers",
    "status": "Day-To-Day",
-   "comment": "Toppin (back) is questionable for Friday's game against the Heat.",
-   "date": "2026-10-30T20:27Z",
-   "returnDate": "2026-10-30",
-   "injury": "Back"
+   "comment": "Toppin (back) has been ruled out for Friday's game against Miami.",
+   "date": "2026-10-31T05:01Z",
+   "returnDate": "2026-11-01",
+   "injury": "Back – Soreness"
   },
   {
    "name": "T.J. McConnell",
@@ -351,24 +279,6 @@
    "date": "2026-10-30T19:06Z",
    "returnDate": "2027-01-02",
    "injury": "Knee – Surgery"
-  },
-  {
-   "name": "Andrew Nembhard",
-   "team": "Indiana Pacers",
-   "status": "Day-To-Day",
-   "comment": "Nembhard (neck) is listed as probable for Friday's game against Miami.",
-   "date": "2026-10-29T21:08Z",
-   "returnDate": "2026-10-30",
-   "injury": "Neck – Soreness"
-  },
-  {
-   "name": "Aaron Nesmith",
-   "team": "Indiana Pacers",
-   "status": "Day-To-Day",
-   "comment": "Nesmith (hamstring) is probable for Friday's game against the Heat.",
-   "date": "2026-10-29T21:07Z",
-   "returnDate": "2026-10-30",
-   "injury": "Hamstring"
   },
   {
    "name": "Ivica Zubac",
@@ -396,15 +306,6 @@
    "date": "2026-10-28T21:30Z",
    "returnDate": "2026-11-13",
    "injury": "Hamstring – Strain"
-  },
-  {
-   "name": "Rui Hachimura",
-   "team": "LA Clippers",
-   "status": "Day-To-Day",
-   "comment": "Hachimura (quadriceps) is probable for Friday's game against Minnesota, per Ohm Youngmisuk of ESPN.com.",
-   "date": "2026-10-30T18:00Z",
-   "returnDate": "2026-10-30",
-   "injury": "Quadriceps – Soreness"
   },
   {
    "name": "Yanic Konan Niederhauser",
@@ -454,9 +355,9 @@
   {
    "name": "Ziaire Williams",
    "team": "Los Angeles Lakers",
-   "status": "Out",
+   "status": "Day-To-Day",
    "comment": "Williams has been ruled out for Friday's game against the Warriors due to left foot injury management, Mark Medina of TheSportingTribune.com reports.",
-   "date": "2026-10-30T20:05Z",
+   "date": "2026-10-31T04:52Z",
    "returnDate": "2026-11-01",
    "injury": "Foot"
   },
@@ -470,22 +371,31 @@
    "injury": "Knee – Inflammation"
   },
   {
+   "name": "Scotty Pippen Jr.",
+   "team": "Memphis Grizzlies",
+   "status": "Day-To-Day",
+   "comment": "Pippen (back) is listed as questionable for Saturday's game against the Kings.",
+   "date": "2026-10-30T22:35Z",
+   "returnDate": "2026-10-31",
+   "injury": "Back – Soreness"
+  },
+  {
+   "name": "Ty Jerome",
+   "team": "Memphis Grizzlies",
+   "status": "Day-To-Day",
+   "comment": "Jerome (back) is listed as questionable for Saturday's game against the Kings.",
+   "date": "2026-10-30T22:29Z",
+   "returnDate": "2026-10-31",
+   "injury": "Back – Soreness"
+  },
+  {
    "name": "Quinten Post",
    "team": "Memphis Grizzlies",
    "status": "Day-To-Day",
-   "comment": "Post (ankle) didn't return to Thursday's game against Portland. He recorded 10 points (3-5 FG, 2-3 3Pt, 2-2 FT) and four rebounds in seven minutes before exiting.",
-   "date": "2026-10-30T04:28Z",
+   "comment": "Post (ankle) is doubtful for Friday's game against the Kings.",
+   "date": "2026-10-30T22:23Z",
    "returnDate": "2026-10-31",
    "injury": "Ankle – Not Specified"
-  },
-  {
-   "name": "Simone Fontecchio",
-   "team": "Miami Heat",
-   "status": "Day-To-Day",
-   "comment": "Fontecchio (illness) is probable for Friday's against the Pacers.",
-   "date": "2026-10-30T20:28Z",
-   "returnDate": "2026-10-30",
-   "injury": "Illness"
   },
   {
    "name": "Anthony Edwards",
@@ -506,6 +416,15 @@
    "injury": "Achilles – Surgery"
   },
   {
+   "name": "Yves Missi",
+   "team": "New Orleans Pelicans",
+   "status": "Out",
+   "comment": "Missi (knee) won't play in Saturday's game against Atlanta.",
+   "date": "2026-10-30T21:32Z",
+   "returnDate": "2026-11-08",
+   "injury": "Knee – Bruise"
+  },
+  {
    "name": "Jordan Poole",
    "team": "New Orleans Pelicans",
    "status": "Out",
@@ -513,24 +432,6 @@
    "date": "2026-10-30T21:25Z",
    "returnDate": "2026-11-02",
    "injury": "Ankle – Sprain"
-  },
-  {
-   "name": "Yves Missi",
-   "team": "New Orleans Pelicans",
-   "status": "Out",
-   "comment": "Missi has been diagnosed with a left knee bone bruise and he will miss an extended period of time, Brett Siegel of ClutchPoints.com reports.",
-   "date": "2026-10-24T22:17Z",
-   "returnDate": "2026-11-08",
-   "injury": "Knee – Bruise"
-  },
-  {
-   "name": "Karl-Anthony Towns",
-   "team": "New York Knicks",
-   "status": "Day-To-Day",
-   "comment": "Towns (wrist) is listed as probable for Friday's game against Philadelphia.",
-   "date": "2026-10-30T20:33Z",
-   "returnDate": "2026-10-30",
-   "injury": "Wrist – Sprain"
   },
   {
    "name": "Jose Alvarado",
@@ -542,12 +443,21 @@
    "injury": "Ankle – Sprain"
   },
   {
+   "name": "Cason Wallace",
+   "team": "Oklahoma City Thunder",
+   "status": "Out",
+   "comment": "Wallace underwent surgery Friday to repair a torn labrum in his left shoulder and will be re-evaluated before the end of the regular season, Clemente Almanza of USA Today reports.",
+   "date": "2026-10-31T01:16Z",
+   "returnDate": "2027-03-02",
+   "injury": "Shoulder – Surgery"
+  },
+  {
    "name": "Chet Holmgren",
    "team": "Oklahoma City Thunder",
-   "status": "Day-To-Day",
-   "comment": "Holmgren (knee) has been ruled out for Wednesday's game against the Mavericks.",
-   "date": "2026-10-29T04:41Z",
-   "returnDate": "2026-10-31",
+   "status": "Out",
+   "comment": "Holmgren underwent a biological treatment Friday to address a small patellar tendon tear and will miss at least 8-10 weeks, Nick Crain of Slam reports.",
+   "date": "2026-10-31T01:02Z",
+   "returnDate": "2027-01-02",
    "injury": "Knee"
   },
   {
@@ -585,15 +495,6 @@
    "date": "2026-10-27T21:38Z",
    "returnDate": "2026-11-04",
    "injury": "Back"
-  },
-  {
-   "name": "Cason Wallace",
-   "team": "Oklahoma City Thunder",
-   "status": "Out",
-   "comment": "Wallace has been diagnosed with a torn labrum in his left shoulder and will require surgery, Shams Charania of ESPN reports.",
-   "date": "2026-10-26T22:05Z",
-   "returnDate": "2027-03-02",
-   "injury": "Shoulder"
   },
   {
    "name": "Jonathan Isaac",
@@ -644,9 +545,9 @@
    "name": "Jaylen Brown",
    "team": "Philadelphia 76ers",
    "status": "Day-To-Day",
-   "comment": "Brown (knee) is doubtful for Friday's game against the Knicks.",
-   "date": "2026-10-30T20:23Z",
-   "returnDate": "2026-10-30",
+   "comment": "Brown (knee) is out for Friday's game against the Knicks.",
+   "date": "2026-10-31T04:58Z",
+   "returnDate": "2026-10-31",
    "injury": "Knee"
   },
   {
@@ -686,15 +587,6 @@
    "injury": "Achilles – Surgery"
   },
   {
-   "name": "Oso Ighodaro",
-   "team": "Phoenix Suns",
-   "status": "Day-To-Day",
-   "comment": "Ighodaro (oblique) is listed as questionable for Friday's game against Denver.",
-   "date": "2026-10-30T00:20Z",
-   "returnDate": "2026-10-30",
-   "injury": "Oblique – Strain"
-  },
-  {
    "name": "Mark Williams",
    "team": "Phoenix Suns",
    "status": "Out",
@@ -704,20 +596,11 @@
    "injury": "Shoulder – Surgery"
   },
   {
-   "name": "Ja Morant",
-   "team": "Portland Trail Blazers",
-   "status": "Out",
-   "comment": "Morant has been diagnosed with a Grade 2 left hamstring strain and is expected to miss four weeks, Portland announced Friday.",
-   "date": "2026-10-30T18:45Z",
-   "returnDate": "2026-12-01",
-   "injury": "Hamstring – Not Specified"
-  },
-  {
    "name": "Robert Williams III",
    "team": "Portland Trail Blazers",
    "status": "Day-To-Day",
-   "comment": "Williams (knee) has been ruled out for Thursday's game against Memphis, Casey Holdahl of the Trail Blazers' official site reports.",
-   "date": "2026-10-30T04:23Z",
+   "comment": "Williams (knee) is questionable for Saturday's game against the Jazz.",
+   "date": "2026-10-30T23:11Z",
    "returnDate": "2026-10-31",
    "injury": "Knee"
   },
@@ -725,10 +608,19 @@
    "name": "Chris Youngblood",
    "team": "Portland Trail Blazers",
    "status": "Out",
-   "comment": "Youngblood (ankle/two-way player) is out for Tuesday's game against the Lakers.",
-   "date": "2026-10-27T04:58Z",
+   "comment": "Youngblood (ankle) is questionable for Saturday's game against Utah.",
+   "date": "2026-10-30T23:09Z",
    "returnDate": "2026-10-31",
    "injury": "Ankle – Soreness"
+  },
+  {
+   "name": "Ja Morant",
+   "team": "Portland Trail Blazers",
+   "status": "Out",
+   "comment": "Morant has been diagnosed with a Grade 2 left hamstring strain and is expected to miss four weeks, Portland announced Friday.",
+   "date": "2026-10-30T18:45Z",
+   "returnDate": "2026-12-01",
+   "injury": "Hamstring – Not Specified"
   },
   {
    "name": "Shaedon Sharpe",
@@ -779,9 +671,9 @@
    "name": "Tobias Harris",
    "team": "San Antonio Spurs",
    "status": "Out",
-   "comment": "Harris (calf) is out for Wednesday's game against Utah, Paul Garcia of ProjectSpurs.com reports.",
-   "date": "2026-10-28T18:24Z",
-   "returnDate": "2026-10-31",
+   "comment": "Harris (calf) is listed as out for Saturday's game against Minnesota.",
+   "date": "2026-10-30T21:44Z",
+   "returnDate": "2026-11-06",
    "injury": "Calf – Strain"
   },
   {
@@ -815,8 +707,8 @@
    "name": "Lauri Markkanen",
    "team": "Utah Jazz",
    "status": "Day-To-Day",
-   "comment": "Markkanen (wrist) is out for Wednesday's tilt against the Spurs.",
-   "date": "2026-10-29T04:39Z",
+   "comment": "Markkanen (wrist) is listed as questionable for Saturday's game against Portland.",
+   "date": "2026-10-30T23:13Z",
    "returnDate": "2026-10-31",
    "injury": "Wrist – Not Specified"
   },
@@ -848,15 +740,6 @@
    "injury": "Foot – Strain"
   },
   {
-   "name": "Tre Johnson",
-   "team": "Washington Wizards",
-   "status": "Day-To-Day",
-   "comment": "Johnson (Achilles) is listed as questionable for Friday's game against Charlotte.",
-   "date": "2026-10-29T21:10Z",
-   "returnDate": "2026-10-30",
-   "injury": "Achilles – Soreness"
-  },
-  {
    "name": "Justin Champagnie",
    "team": "Washington Wizards",
    "status": "Out",
@@ -886,6 +769,319 @@
  ],
  "articles": [
   {
+   "headline": "Los Angeles faces Golden State, looks to break 4-game skid",
+   "description": "Los Angeles Clippers (1-4, 14th in the Western Conference) vs. Golden State Warriors (3-3, 10th in the Western Conference)",
+   "published": "2026-10-31T07:02:49Z",
+   "url": "http://www.espn.com/nba/preview?gameId=401909905",
+   "athletes": []
+  },
+  {
+   "headline": "Los Angeles hosts Toronto after Barnes' 41-point outing",
+   "description": "Toronto Raptors (3-2, fourth in the Eastern Conference) vs. Los Angeles Lakers (4-2, fifth in the Western Conference)",
+   "published": "2026-10-31T07:02:47Z",
+   "url": "http://www.espn.com/nba/preview?gameId=401909906",
+   "athletes": []
+  },
+  {
+   "headline": "Houston and Oklahoma City meet for conference showdown",
+   "description": "Oklahoma City Thunder (4-1, third in the Western Conference) vs. Houston Rockets (5-1, second in the Western Conference)",
+   "published": "2026-10-31T07:02:46Z",
+   "url": "http://www.espn.com/nba/preview?gameId=401909902",
+   "athletes": []
+  },
+  {
+   "headline": "Curry's ankle-breaker on Luka highlights Warriors' stunning 25-point comeback",
+   "description": "Behind a theatrical 31 points from Stephen Curry late Friday night, the Golden State Warriors roared back for a 112-95 win over the Los Angeles Lakers.",
+   "published": "2026-10-31T07:26:38Z",
+   "url": "https://www.espn.com/nba/story/_/id/50333810/stephen-curry-leads-warriors-25-point-comeback-lakers",
+   "athletes": []
+  },
+  {
+   "headline": "San Antonio hosts Minnesota after overtime win against Utah",
+   "description": "Minnesota Timberwolves (4-2, seventh in the Western Conference) vs. San Antonio Spurs (3-2, eighth in the Western Conference)",
+   "published": "2026-10-31T06:03:47Z",
+   "url": "http://www.espn.com/nba/preview?gameId=401909901",
+   "athletes": []
+  },
+  {
+   "headline": "Pacers take on the Nets on 3-game skid",
+   "description": "Brooklyn Nets (0-5, 15th in the Eastern Conference) vs. Indiana Pacers (2-4, 11th in the Eastern Conference)",
+   "published": "2026-10-31T06:03:46Z",
+   "url": "http://www.espn.com/nba/preview?gameId=401909904",
+   "athletes": []
+  },
+  {
+   "headline": "Charlotte plays conference foe Philadelphia",
+   "description": "Philadelphia 76ers (5-1, second in the Eastern Conference) vs. Charlotte Hornets (3-3, seventh in the Eastern Conference)",
+   "published": "2026-10-31T06:02:59Z",
+   "url": "http://www.espn.com/nba/preview?gameId=401909897",
+   "athletes": []
+  },
+  {
+   "headline": "Celtics play the Magic, look for 5th straight victory",
+   "description": "Boston Celtics (4-1, third in the Eastern Conference) vs. Orlando Magic (2-3, ninth in the Eastern Conference)",
+   "published": "2026-10-31T06:02:58Z",
+   "url": "http://www.espn.com/nba/preview?gameId=401909903",
+   "athletes": []
+  },
+  {
+   "headline": "Stephen Curry scores 31 points and outduels Luka Doncic as Warriors come back to beat Lakers 112-95",
+   "description": "— Stephen Curry had 31 points, six assists and four rebounds, and the Golden State Warriors erased an early 25-point deficit then ran away from Luka Doncic and the Los Angeles Lakers for a 112-95 win Friday night in an NBA Cup game.",
+   "published": "2026-10-31T05:13:47Z",
+   "url": "http://www.espn.com/nba/recap?gameId=401909285",
+   "athletes": []
+  },
+  {
+   "headline": "Dillon Brooks ejected from Suns' loss after flagrant foul 2 in third quarter",
+   "description": "Phoenix Suns forward Dillon Brooks was ejected Friday night in a 127-120 loss to the Denver Nuggets for kicking guard Jamal Murray in the groin, an infraction that officials upgraded to a Flagrant 2 foul, which is an automatic ejection.",
+   "published": "2026-10-31T05:55:15Z",
+   "url": "https://www.espn.com/nba/story/_/id/50333460/suns-forward-dillon-brooks-ejected-third-quarter-loss",
+   "athletes": [
+    "Dillon Brooks"
+   ]
+  },
+  {
+   "headline": "Warriors erase big early deficit and beat the Lakers at home",
+   "description": "Warriors erase big early deficit and beat the Lakers at home",
+   "published": "2026-10-31T05:07:32Z",
+   "url": "https://www.espn.com/video/clip/_/id/50333448/warriors-erase-big-early-deficit-beat-lakers-home",
+   "athletes": [
+    "Stephen Curry",
+    "Luka Doncic",
+    "Yaxel Lendeborg"
+   ]
+  },
+  {
+   "headline": "LeBron James shines vs. Knicks in 'his best game' with 76ers",
+   "description": "LeBron James rescued Philadelphia late Friday night in what coach Nick Nurse called his best game as a Sixer.",
+   "published": "2026-10-31T05:40:09Z",
+   "url": "https://www.espn.com/nba/story/_/id/50333418/lebron-james-shines-vs-knicks-best-game-76ers",
+   "athletes": [
+    "LeBron James"
+   ]
+  },
+  {
+   "headline": "Denver Nuggets vs. Phoenix Suns: Game Highlights",
+   "description": "Denver Nuggets vs. Phoenix Suns: Game Highlights",
+   "published": "2026-10-31T05:03:09Z",
+   "url": "https://www.espn.com/video/clip/_/id/50333379/game-highlights",
+   "athletes": [
+    "Jalen Green",
+    "Jamal Murray",
+    "Cameron Johnson",
+    "Miles Bridges"
+   ]
+  },
+  {
+   "headline": "Murray scores 39 points, Braun adds 31 to lead Nuggets over the Suns 127-120 in NBA Cup",
+   "description": "— Jamal Murray scored 39 points, Christian Braun added 31 and the Denver Nuggets rode a hot-shooting night to beat the Phoenix Suns 127-120 in an NBA Cup group stage game Friday night.",
+   "published": "2026-10-31T04:40:47Z",
+   "url": "http://www.espn.com/nba/recap?gameId=401909286",
+   "athletes": []
+  },
+  {
+   "headline": "Knicks know they need to play 'the right way' as shaky start continues",
+   "description": "The Knicks returned to their inconsistent ways on offense following two straight wins.",
+   "published": "2026-10-31T05:24:44Z",
+   "url": "https://www.espn.com/nba/story/_/id/50333242/knicks-know-need-play-right-way-shaky-start-continues",
+   "athletes": []
+  },
+  {
+   "headline": "Irving scores 35 and Flagg adds 33 as Mavericks hand Rockets 1st loss of season 116-111",
+   "description": "— Kyrie Irving scored 35 points, Cooper Flagg added 33 and the Dallas Mavericks rallied for a 116-111 victory over Houston, handing the Rockets their first loss of the season in an NBA Cup opener Friday night.",
+   "published": "2026-10-31T03:10:47Z",
+   "url": "http://www.espn.com/nba/recap?gameId=401909283",
+   "athletes": []
+  },
+  {
+   "headline": "Timberwolves blow out Clippers 127-101 behind Ball's 24 points for 1st win without Edwards",
+   "description": "— LaMelo Ball had a season-high 24 points and Jaden McDaniels scored 23 as the Minnesota Timberwolves beat the Los Angeles Clippers...",
+   "published": "2026-10-31T03:19:46Z",
+   "url": "http://www.espn.com/nba/recap?gameId=401909284",
+   "athletes": []
+  },
+  {
+   "headline": "Houston Rockets vs. Dallas Mavericks: Game Highlights",
+   "description": "Houston Rockets vs. Dallas Mavericks: Game Highlights",
+   "published": "2026-10-31T02:58:44Z",
+   "url": "https://www.espn.com/video/clip/_/id/50332952/game-highlights",
+   "athletes": [
+    "Daniel Gafford",
+    "Kevin Durant",
+    "Kyrie Irving"
+   ]
+  },
+  {
+   "headline": "Indiana Pacers vs. Miami Heat: Game Highlights",
+   "description": "Indiana Pacers vs. Miami Heat: Game Highlights",
+   "published": "2026-10-31T02:54:58Z",
+   "url": "https://www.espn.com/video/clip/_/id/50332897/game-highlights",
+   "athletes": [
+    "Quenton Jackson",
+    "Giannis Antetokounmpo",
+    "Larry Nance Jr",
+    "Ryan Conwell",
+    "Bam Adebayo",
+    "Kobe Brown"
+   ]
+  },
+  {
+   "headline": "Giannis has triple-double, Heat open NBA Cup play with 145-125 win over Pacers",
+   "description": "— Giannis Antetokounmpo scored 31 points and had his second triple-double of the season, Bam Adebayo added 27 points and the Miami Heat opened NBA Cup play by beating the short-handed Indiana Pacers 145-125 on Friday night.",
+   "published": "2026-10-31T03:52:46Z",
+   "url": "http://www.espn.com/nba/recap?gameId=401909282",
+   "athletes": []
+  },
+  {
+   "headline": "LA Clippers vs. Minnesota Timberwolves: Game Highlights",
+   "description": "LA Clippers vs. Minnesota Timberwolves: Game Highlights",
+   "published": "2026-10-31T02:44:34Z",
+   "url": "https://www.espn.com/video/clip/_/id/50332874/game-highlights",
+   "athletes": [
+    "Rudy Gobert",
+    "LaMelo Ball",
+    "Darius Garland",
+    "Jaden McDaniels",
+    "Derrick Jones Jr"
+   ]
+  },
+  {
+   "headline": "Pritchard nets 30, Celtics ease past turnover-prone Bulls 125-111 in NBA Cup action",
+   "description": "— Payton Pritchard scored 30 points, and the Boston Celtics raced past the Chicago Bulls 125-111 on Friday night in the NBA Cup opener for both teams.",
+   "published": "2026-10-31T02:27:47Z",
+   "url": "http://www.espn.com/nba/recap?gameId=401909278",
+   "athletes": []
+  },
+  {
+   "headline": "Chicago Bulls vs. Boston Celtics: Game Highlights",
+   "description": "Chicago Bulls vs. Boston Celtics: Game Highlights",
+   "published": "2026-10-31T02:25:08Z",
+   "url": "https://www.espn.com/video/clip/_/id/50332742/game-highlights",
+   "athletes": [
+    "Jayson Tatum",
+    "Caleb Wilson",
+    "Tre Jones",
+    "Payton Pritchard"
+   ]
+  },
+  {
+   "headline": "Bane scores 28 points, Wagner adds 26 points and 11 assists as Magic beat Raptors 121-114",
+   "description": "— Desmond Bane scored a season-best 28 points, Franz Wagner set season highs with 26 points and 11 assists, and the Orlando Magic overcame Scottie Barnes’ first 40-point game to beat the Toronto Raptors 121-114 in NBA Cup play Friday night.",
+   "published": "2026-10-31T02:23:47Z",
+   "url": "http://www.espn.com/nba/recap?gameId=401909281",
+   "athletes": []
+  },
+  {
+   "headline": "Maxey, LeBron propel 76ers over Knicks in NBA Cup thriller",
+   "description": "Maxey, LeBron propel 76ers over Knicks in NBA Cup thriller",
+   "published": "2026-10-31T02:26:07Z",
+   "url": "https://www.espn.com/video/clip/_/id/50332718/maxey-lebron-propel-76ers-knicks-nba-cup-thriller",
+   "athletes": [
+    "Karl-Anthony Towns",
+    "VJ Edgecombe",
+    "LeBron James",
+    "Tyrese Maxey"
+   ]
+  },
+  {
+   "headline": "Orlando Magic vs. Toronto Raptors: Game Highlights",
+   "description": "Orlando Magic vs. Toronto Raptors: Game Highlights",
+   "published": "2026-10-31T02:25:22Z",
+   "url": "https://www.espn.com/video/clip/_/id/50332687/game-highlights",
+   "athletes": [
+    "Desmond Bane",
+    "Scottie Barnes",
+    "Allen Graves",
+    "Anthony Black"
+   ]
+  },
+  {
+   "headline": "LeBron James scores 20 points to help 76ers beat champion Knicks for 2nd time this season, 98-93",
+   "description": "— LeBron James scored 20 points and hit the go-ahead fadeaway late, and Tyrese Maxey had 27 points to lead the Philadelphia 76ers to a 98-93 win over the New York Knicks in an NBA Cup group game on Friday night.",
+   "published": "2026-10-31T02:15:48Z",
+   "url": "http://www.espn.com/nba/recap?gameId=401909280",
+   "athletes": []
+  },
+  {
+   "headline": "Pistons rout the winless Nets 110-94 in an NBA Cup opener",
+   "description": "— Cade Cunningham scored 20 points, Duncan Robinson added 17 and the Detroit Pistons routed the Brooklyn Nets 110-94 on Friday night in an NBA Cup opener.",
+   "published": "2026-10-31T02:11:46Z",
+   "url": "http://www.espn.com/nba/recap?gameId=401909279",
+   "athletes": []
+  },
+  {
+   "headline": "Detroit Pistons vs. Brooklyn Nets: Game Highlights",
+   "description": "Detroit Pistons vs. Brooklyn Nets: Game Highlights",
+   "published": "2026-10-31T02:44:54Z",
+   "url": "https://www.espn.com/video/clip/_/id/50332599/game-highlights",
+   "athletes": [
+    "Chaney Johnson",
+    "Moritz Wagner",
+    "Ronald Holland II",
+    "Cade Cunningham"
+   ]
+  },
+  {
+   "headline": "Charlotte Hornets vs. Washington Wizards: Game Highlights",
+   "description": "Charlotte Hornets vs. Washington Wizards: Game Highlights",
+   "published": "2026-10-31T02:47:36Z",
+   "url": "https://www.espn.com/video/clip/_/id/50332492/game-highlights",
+   "athletes": [
+    "Anthony Davis",
+    "Brandon Miller"
+   ]
+  },
+  {
+   "headline": "AJ Dybantsa sharp in his home debut as the Wizards smother Charlotte 95-79",
+   "description": "— Trae Young had 21 points, nine assists and seven rebounds, AJ Dybantsa scored 17 points in his home debut, and the Washington Wizards routed the Charlotte Hornets 95-79 on Friday night.",
+   "published": "2026-10-31T01:40:47Z",
+   "url": "http://www.espn.com/nba/recap?gameId=401909277",
+   "athletes": []
+  },
+  {
+   "headline": "Thunder's Chet Holmgren out 8-10 weeks due to patellar tendon tear",
+   "description": "Chet Holmgren will be out eight to 10 weeks because of a knee injury, the latest setback for an OKC team that lost Jalen Williams and Cason Wallace for an extended time early this week.",
+   "published": "2026-10-31T01:44:11Z",
+   "url": "https://www.espn.com/nba/story/_/id/50332283/thunder-say-chet-holmgren-8-10-weeks-due-knee",
+   "athletes": [
+    "Chet Holmgren",
+    "Cason Wallace"
+   ]
+  },
+  {
+   "headline": "Halloween 2026: Breaking down top athlete costumes from across the sports world",
+   "description": "Athletes far and wide across the sports world showed off special costumes for Halloween.",
+   "published": "2026-10-31T00:38:27Z",
+   "url": "https://www.espn.com/nba/story/_/id/50321862/halloween-athlete-costumes-2026",
+   "athletes": []
+  },
+  {
+   "headline": "Without injured Brown, 76ers outlast Knicks in NBA Cup Group Play",
+   "description": "Philadelphia forward Jaylen Brown missed Friday night's NBA Cup game against the New York Knicks because of a left patella injury, the 76ers announced shortly before their 98-93 victory at the Xfinity Mobile Arena.",
+   "published": "2026-10-31T02:48:07Z",
+   "url": "https://www.espn.com/nba/story/_/id/50331446/76ers-jaylen-brown-friday-nba-cup-game",
+   "athletes": [
+    "Jaylen Brown"
+   ]
+  },
+  {
+   "headline": "Sources: Mark Walter, Josh Kushner finalize all terms of $12.5B Lakers sale",
+   "description": "Lakers owner Mark Walter and Thrive Capital founder Josh Kushner met Thursday to finalize the transaction and are expected to sign the formal agreement soon, sources told ESPN.",
+   "published": "2026-10-30T22:54:46Z",
+   "url": "https://www.espn.com/nba/story/_/id/50331319/sources-mark-walter-josh-kushner-finalize-lakers-sale",
+   "athletes": []
+  },
+  {
+   "headline": "Inside the stunning 72-hour Lakers sale -- and the uncertainty that still looms",
+   "description": "Three days of secret talks resulted in Mark Walter flipping the Lakers -- and reignited yet another round of bickering among the six Buss siblings.",
+   "published": "2026-10-30T22:33:34Z",
+   "url": "https://www.espn.com/nba/story/_/id/50287529/los-angeles-lakers-sale-mark-walter-iger-kushner-luka",
+   "athletes": [
+    "Luka Doncic",
+    "Austin Reaves"
+   ]
+  },
+  {
    "headline": "Source: Fever hires Blazers' Sheri Sam as assistant GM",
    "description": "Sheri Sam, who was the scouting manager for the Trail Blazers, has been hired as assistant general manager of the WNBA's Fever, a source told ESPN.",
    "published": "2026-10-30T20:02:38Z",
@@ -894,8 +1090,8 @@
   },
   {
    "headline": "Ja Morant out at least 4 weeks with hamstring strain suffered against Grizzlies",
-   "description": "Trail Blazers guard Ja Morant sustained a left hamstring strain in his first game against the Grizzlies, his former team, and will be out at least four weeks.",
-   "published": "2026-10-30T20:36:51Z",
+   "description": "Trail Blazers guard Ja Morant sustained a left hamstring strain in his first game against the Grizzlies, his former team, and will be out for at least four weeks.",
+   "published": "2026-10-31T01:54:53Z",
    "url": "https://www.espn.com/nba/story/_/id/50329588/ja-morant-least-four-weeks-injury-vs-grizzlies",
    "athletes": [
     "Ja Morant"
@@ -941,7 +1137,7 @@
   {
    "headline": "A trade? More cost-cutting? Where OKC could be headed this season",
    "description": "What should OKC do after two season-altering injuries? Brian Windhorst and Tim MacMahon take the pulse of the league.",
-   "published": "2026-10-30T10:57:03Z",
+   "published": "2026-10-31T01:26:56Z",
    "url": "https://www.espn.com/nba/story/_/id/50322550/thunder-trade-jalen-williams-cason-wallace",
    "athletes": []
   },
@@ -953,13 +1149,6 @@
    "athletes": [
     "Kevin Durant"
    ]
-  },
-  {
-   "headline": "2026 NBA Cup: Schedule, format, groups, updates and more",
-   "description": "Here's everything you need to know about the fourth annual in-season tournament.",
-   "published": "2026-10-30T10:55:06Z",
-   "url": "https://www.espn.com/nba/story/_/id/49577473/2026-nba-season-tournament-cup-format-highlights-updates",
-   "athletes": []
   },
   {
    "headline": "Jazz take on the Trail Blazers on 3-game skid",
@@ -999,338 +1188,11 @@
    ]
   },
   {
-   "headline": "Boozer posts first career triple-double in Grizzlies win over Blazers",
-   "description": "— Cameron Boozer had the first triple-double of his NBA career with 18 points, 12 rebounds and 12 assists, and the Memphis Grizzlies beat the Portland Trail Blazers 124-103 on Thursday night to move to 5-0.",
-   "published": "2026-10-30T04:59:47Z",
-   "url": "http://www.espn.com/nba/recap?gameId=401909895",
+   "headline": "2026 NBA Cup: Schedule, format, groups, updates and more",
+   "description": "Here's everything you need to know about the fourth annual in-season tournament.",
+   "published": "2026-10-31T05:35:57Z",
+   "url": "https://www.espn.com/nba/story/_/id/49577473/2026-nba-season-tournament-cup-format-highlights-updates",
    "athletes": []
-  },
-  {
-   "headline": "Cam Boozer shines as Grizzlies move to 5-0",
-   "description": "Cam Boozer shines as Grizzlies move to 5-0",
-   "published": "2026-10-30T04:53:46Z",
-   "url": "https://www.espn.com/video/clip/_/id/50325289/cam-boozer-shines-grizzlies-move-5-0",
-   "athletes": [
-    "Ja Morant",
-    "Zach Edey",
-    "Jerami Grant",
-    "Isaiah Stewart",
-    "Cameron Boozer",
-    "Toumani Camara"
-   ]
-  },
-  {
-   "headline": "Cleveland Cavaliers vs. Atlanta Hawks: Game Highlights",
-   "description": "Cleveland Cavaliers vs. Atlanta Hawks: Game Highlights",
-   "published": "2026-10-30T02:57:45Z",
-   "url": "https://www.espn.com/video/clip/_/id/50324587/game-highlights",
-   "athletes": [
-    "Nickeil Alexander-Walker",
-    "Donovan Mitchell",
-    "Onyeka Okongwu",
-    "James Harden"
-   ]
-  },
-  {
-   "headline": "Onyeka Okongwu has 29 points and 12 rebounds as Hawks beat Cavs 114-111 to snap skid",
-   "description": "— Onyeka Okongwu scored a season-high 29 points and had 12 rebounds, leading the Atlanta Hawks to a 114-111 victory over the Cleveland Cavaliers on Thursday night.",
-   "published": "2026-10-30T02:45:47Z",
-   "url": "http://www.espn.com/nba/recap?gameId=401909893",
-   "athletes": []
-  },
-  {
-   "headline": "Jeremiah Fears leads Pelicans past Kings for first win of the season",
-   "description": "— Jeremiah Fears had 22 points, a career-high 13 assists and eight rebounds to lead the New Orleans Pelicans to a 132-120 win over the Sacramento Kings on Thursday night.",
-   "published": "2026-10-30T02:43:47Z",
-   "url": "http://www.espn.com/nba/recap?gameId=401909894",
-   "athletes": []
-  },
-  {
-   "headline": "Sacramento Kings vs. New Orleans Pelicans: Game Highlights",
-   "description": "Sacramento Kings vs. New Orleans Pelicans: Game Highlights",
-   "published": "2026-10-30T02:39:51Z",
-   "url": "https://www.espn.com/video/clip/_/id/50324469/game-highlights",
-   "athletes": [
-    "Darius Acuff Jr",
-    "Jeremiah Fears",
-    "Precious Achiuwa",
-    "Karlo Matkovic",
-    "De'Andre Hunter"
-   ]
-  },
-  {
-   "headline": "Knicks' Jose Alvarado (ankle) to miss fourth straight vs. 76ers",
-   "description": "Knicks reserve guard Jose Alvarado will miss Friday's NBA Cup game against the 76ers because of a right ankle injury.",
-   "published": "2026-10-30T01:22:15Z",
-   "url": "https://www.espn.com/nba/story/_/id/50323505/knicks-jose-alvarado-ankle-injury-76ers",
-   "athletes": [
-    "Jose Alvarado"
-   ]
-  },
-  {
-   "headline": "Timberwolves' Anthony Edwards undergoes successful knee scope",
-   "description": "Timberwolves star Anthony Edwards underwent a \"successful\" arthroscopic procedure on his ailing right knee at the Mayo Clinic on Thursday, the team announced.",
-   "published": "2026-10-29T19:21:19Z",
-   "url": "https://www.espn.com/nba/story/_/id/50320717/timberwolves-anthony-edwards-undergoes-successful-knee-scope",
-   "athletes": [
-    "Anthony Edwards"
-   ]
-  },
-  {
-   "headline": "Thursday's fantasy basketball adds and bets to make in the NBA",
-   "description": "Eric Moody breaks down Thursday's games, highlighting the fantasy streamers to add and bets to make.",
-   "published": "2026-10-29T17:06:24Z",
-   "url": "https://www.espn.com/fantasy/basketball/story/_/id/50289500/fantasy-basketball-tips-nba-betting-picks-today",
-   "athletes": [
-    "Evan Mobley",
-    "Domantas Sabonis",
-    "Deni Avdija",
-    "Peyton Watson",
-    "Cedric Coward",
-    "Toumani Camara",
-    "Jrue Holiday"
-   ]
-  },
-  {
-   "headline": "Debunk or double down? Judging 10 early-season NBA overreactions",
-   "description": "A 29-year-old is the NBA's next breakout star. Miami's Giannis era is already cooked. And so are the Thunder, Knicks and Warriors. Which overreactions are valid?",
-   "published": "2026-10-29T20:10:00Z",
-   "url": "https://www.espn.com/nba/story/_/id/50301628/giannis-heat-ty-jerome-warriors-overreactions",
-   "athletes": [
-    "Giannis Antetokounmpo",
-    "Jimmy Butler III",
-    "Walker Kessler",
-    "Jalen Williams",
-    "Cason Wallace"
-   ]
-  },
-  {
-   "headline": "Fantasy basketball: Seven preseason assumptions already being challenged",
-   "description": "The fantasy basketball experts go over what hasn't gone as planned during the opening week of the NBA season.",
-   "published": "2026-10-29T10:43:57Z",
-   "url": "https://www.espn.com/fantasy/basketball/story/_/id/50312576/fantasy-basketball-preseason-assumptions-being-challenged",
-   "athletes": [
-    "Alex Sarr",
-    "Nikola Vucevic",
-    "Jabari Smith Jr",
-    "Bam Adebayo",
-    "Tyrese Maxey",
-    "Joel Embiid",
-    "Jaylen Brown",
-    "LeBron James"
-   ]
-  },
-  {
-   "headline": "Timberwolves host Clippers Friday for NBA Cup group stage matchup",
-   "description": "Los Angeles Clippers (1-3, 12th in the Western Conference) vs. Minnesota Timberwolves (3-2, eighth in the Western Conference)",
-   "published": "2026-10-29T07:03:46Z",
-   "url": "http://www.espn.com/nba/preview?gameId=401909284",
-   "athletes": []
-  },
-  {
-   "headline": "Warriors host Lakers Friday for NBA Cup group stage game",
-   "description": "Los Angeles Lakers (4-1, fourth in the Western Conference) vs. Golden State Warriors (2-3, 10th in the Western Conference)",
-   "published": "2026-10-29T07:02:48Z",
-   "url": "http://www.espn.com/nba/preview?gameId=401909285",
-   "athletes": []
-  },
-  {
-   "headline": "Heat and Pacers meet Friday in NBA Cup group stage",
-   "description": "Indiana Pacers (2-3, 10th in the Eastern Conference) vs. Miami Heat (1-4, 14th in the Eastern Conference)",
-   "published": "2026-10-29T07:02:47Z",
-   "url": "http://www.espn.com/nba/preview?gameId=401909282",
-   "athletes": []
-  },
-  {
-   "headline": "Golden State Warriors' Charles Bassey reflects on 'long, adverse' NBA journey thanks to injuries",
-   "description": "Golden State Warriors center Charles Bassey says his continued presence in the NBA, after repeated injury setbacks, is a reflection of the adversity he has had to overcome.",
-   "published": "2026-10-29T07:02:21Z",
-   "url": "https://www.espn.com/espn/story/_/id/50315423/golden-state-warriors-charles-bassey-reflects-long-adverse-nba-journey-thanks-injuries",
-   "athletes": [
-    "Charles Bassey"
-   ]
-  },
-  {
-   "headline": "Hornets visit Wizards Friday in NBA Cup group stage",
-   "description": "Charlotte Hornets (3-2, sixth in the Eastern Conference) vs. Washington Wizards (2-3, ninth in the Eastern Conference)",
-   "published": "2026-10-29T06:02:55Z",
-   "url": "http://www.espn.com/nba/preview?gameId=401909277",
-   "athletes": []
-  },
-  {
-   "headline": "Celtics and Bulls meet Friday in NBA Cup group stage",
-   "description": "Chicago Bulls (1-4, 12th in the Eastern Conference) vs. Boston Celtics (3-1, fourth in the Eastern Conference)",
-   "published": "2026-10-29T06:02:54Z",
-   "url": "http://www.espn.com/nba/preview?gameId=401909278",
-   "athletes": []
-  },
-  {
-   "headline": "Suns and Nuggets meet Friday in NBA Cup group stage",
-   "description": "Denver Nuggets (2-2, ninth in the Western Conference) vs. Phoenix Suns (1-2, 11th in the Western Conference)",
-   "published": "2026-10-29T06:02:53Z",
-   "url": "http://www.espn.com/nba/preview?gameId=401909286",
-   "athletes": []
-  },
-  {
-   "headline": "Hawks face the Cavaliers on 3-game skid",
-   "description": "Cleveland Cavaliers (3-1, fifth in the Eastern Conference) vs. Atlanta Hawks (2-3, seventh in the Eastern Conference)",
-   "published": "2026-10-29T06:02:52Z",
-   "url": "http://www.espn.com/nba/preview?gameId=401909893",
-   "athletes": []
-  },
-  {
-   "headline": "Mavericks and Rockets meet Friday in NBA Cup group stage",
-   "description": "Houston Rockets (5-0, first in the Western Conference) vs. Dallas Mavericks (3-2, seventh in the Western Conference)",
-   "published": "2026-10-29T06:02:51Z",
-   "url": "http://www.espn.com/nba/preview?gameId=401909283",
-   "athletes": []
-  },
-  {
-   "headline": "Magic visit Raptors Friday in NBA Cup group stage",
-   "description": "Orlando Magic (1-3, 11th in the Eastern Conference) vs. Toronto Raptors (3-1, third in the Eastern Conference)",
-   "published": "2026-10-29T06:02:49Z",
-   "url": "http://www.espn.com/nba/preview?gameId=401909281",
-   "athletes": []
-  },
-  {
-   "headline": "Nets and Pistons meet Friday in NBA Cup group stage",
-   "description": "Detroit Pistons (4-1, first in the Eastern Conference) vs. Brooklyn Nets (0-4, 15th in the Eastern Conference)",
-   "published": "2026-10-29T06:02:48Z",
-   "url": "http://www.espn.com/nba/preview?gameId=401909279",
-   "athletes": []
-  },
-  {
-   "headline": "76ers and Knicks meet Friday in NBA Cup group stage",
-   "description": "New York Knicks (2-3, eighth in the Eastern Conference) vs. Philadelphia 76ers (3-1, second in the Eastern Conference)",
-   "published": "2026-10-29T06:02:47Z",
-   "url": "http://www.espn.com/nba/preview?gameId=401909280",
-   "athletes": []
-  },
-  {
-   "headline": "New Orleans takes on Sacramento, seeks to stop 4-game skid",
-   "description": "Sacramento Kings (0-4, 15th in the Western Conference) vs. New Orleans Pelicans (0-4, 14th in the Western Conference)",
-   "published": "2026-10-29T06:02:46Z",
-   "url": "http://www.espn.com/nba/preview?gameId=401909894",
-   "athletes": []
-  },
-  {
-   "headline": "Stephen Curry torches Wolves for 44 as Warriors win 2nd straight after 0-3 start",
-   "description": "Stephen Curry exploded for 44 points to lead the Warriors to their second straight win Wednesday night in a 119-114 victory over the Timberwolves.",
-   "published": "2026-10-29T07:48:37Z",
-   "url": "https://www.espn.com/nba/story/_/id/50315043/stephen-curry-torches-wolves-44-warriors-win-2nd-straight",
-   "athletes": [
-    "Stephen Curry"
-   ]
-  },
-  {
-   "headline": "Los Angeles Lakers vs. LA Clippers: Game Highlights",
-   "description": "Los Angeles Lakers vs. LA Clippers: Game Highlights",
-   "published": "2026-10-29T05:16:49Z",
-   "url": "https://www.espn.com/video/clip/_/id/50314992/game-highlights",
-   "athletes": [
-    "Keaton Wagler",
-    "Isaiah Jackson",
-    "Matisse Thybulle",
-    "Quentin Grimes"
-   ]
-  },
-  {
-   "headline": "Lakers rout Clippers 103-87 without Luka Doncic",
-   "description": "— Quentin Grimes scored 23 points, Collin Sexton added a season-high 21 points off the bench, and the Los Angeles Lakers — without Luka Doncic — beat the Los Angeles Clippers 103-87 on Wednesday night for the second time in a week.",
-   "published": "2026-10-29T05:16:47Z",
-   "url": "http://www.espn.com/nba/recap?gameId=401909892",
-   "athletes": []
-  },
-  {
-   "headline": "Mavericks hand the Thunder their first loss of the season",
-   "description": "Mavericks hand the Thunder their first loss of the season",
-   "published": "2026-10-29T04:21:40Z",
-   "url": "https://www.espn.com/video/clip/_/id/50314681/mavericks-hand-thunder-their-first-loss-season",
-   "athletes": [
-    "Daniel Gafford",
-    "Kyrie Irving",
-    "Zaccharie Risacher",
-    "Morez Johnson Jr",
-    "Aday Mara",
-    "Cooper Flagg",
-    "Shai Gilgeous-Alexander"
-   ]
-  },
-  {
-   "headline": "Cooper Flagg has 26 points, 8 assists as Mavericks beat depleted Thunder 120-96",
-   "description": "— Cooper Flagg had 26 points and eight assists and P.J. Washington scored 18 points as the Dallas Mavericks beat the injury-depleted Oklahoma City Thunder 120-96 on Wednesday night.",
-   "published": "2026-10-29T04:47:46Z",
-   "url": "http://www.espn.com/nba/recap?gameId=401909891",
-   "athletes": []
-  },
-  {
-   "headline": "Wembanyama scores 36 points and the Spurs clamp down in overtime to beat the Jazz 117-111",
-   "description": "— Victor Wembanyama had 36 points and 14 rebounds, and the San Antonia Spurs beat the short-handed Utah Jazz 117-111 in overtime on Wednesday night.",
-   "published": "2026-10-29T03:59:47Z",
-   "url": "http://www.espn.com/nba/recap?gameId=401909890",
-   "athletes": []
-  },
-  {
-   "headline": "San Antonio Spurs vs. Utah Jazz: Game Highlights",
-   "description": "San Antonio Spurs vs. Utah Jazz: Game Highlights",
-   "published": "2026-10-29T03:52:38Z",
-   "url": "https://www.espn.com/video/clip/_/id/50314386/game-highlights",
-   "athletes": [
-    "Victor Wembanyama",
-    "De'Aaron Fox",
-    "Devin Vassell",
-    "Stephon Castle",
-    "Keyonte George"
-   ]
-  },
-  {
-   "headline": "Nikola Jokic records 200th career triple-double in Nuggets' win over Pelicans",
-   "description": "Denver's Nikola Jokic had 21 points, 13 rebounds and 10 assists for his 200th career triple-double Wednesday night as the Nuggets beat the Pelicans. He needs 10 more to supplant the retired Russell Westbrook as the NBA leader.",
-   "published": "2026-10-29T14:28:02Z",
-   "url": "https://www.espn.com/nba/story/_/id/50314211/nuggets-nikola-jokic-notches-200th-career-triple-double-win-vs-pelicans",
-   "athletes": [
-    "Nikola Jokic"
-   ]
-  },
-  {
-   "headline": "Curry scores 44 points as the Warriors hold on to beat the Timberwolves 119-114",
-   "description": "— Stephen Curry scored a season-high 44 points, rookie Yaxel Lendeborg had 26 and Golden State Warriors held on Wednesday night for a 119-114 victory over the Minnesota Timberwolves, who were without injured guard Anthony Edwards.",
-   "published": "2026-10-29T02:58:47Z",
-   "url": "http://www.espn.com/nba/recap?gameId=401909888",
-   "athletes": []
-  },
-  {
-   "headline": "Giannis Antetokounmpo, Bam Adebayo lead Heat into win column",
-   "description": "Giannis Antetokounmpo had 24 points and 18 rebounds in his first victory with the Heat, who watched Bam Adebayo become the franchise's rebounding leader.",
-   "published": "2026-10-29T11:12:30Z",
-   "url": "https://www.espn.com/nba/story/_/id/50313794/giannis-antetokounmpo-bam-adebayo-lead-heat-win-column",
-   "athletes": [
-    "Giannis Antetokounmpo",
-    "Bam Adebayo"
-   ]
-  },
-  {
-   "headline": "Golden State Warriors vs. Minnesota Timberwolves: Game Highlights",
-   "description": "Golden State Warriors vs. Minnesota Timberwolves: Game Highlights",
-   "published": "2026-10-29T03:00:25Z",
-   "url": "https://www.espn.com/video/clip/_/id/50313786/game-highlights",
-   "athletes": [
-    "Stephen Curry",
-    "Jonathan Kuminga",
-    "Brandon Williams",
-    "Gary Payton II"
-   ]
-  },
-  {
-   "headline": "New York Knicks vs. Chicago Bulls: Game Highlights",
-   "description": "New York Knicks vs. Chicago Bulls: Game Highlights",
-   "published": "2026-10-29T02:57:27Z",
-   "url": "https://www.espn.com/video/clip/_/id/50313736/game-highlights",
-   "athletes": [
-    "Jalen Brunson",
-    "Landry Shamet",
-    "Norman Powell"
-   ]
   }
  ]
 }
