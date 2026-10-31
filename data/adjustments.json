@@ -69,6 +69,16 @@
    "reason": "Foot fracture surgery; expected to miss several months per Josh Robbins (The Athletic), no clear timetable. Several months taken as ~3.5 months, about 30 of the remaining games, off his 68-game projection. No injury proposal exists for him.",
    "source": "https://www.espn.com/nba/",
    "signalId": "injury:f70986fcaf64"
+  },
+  {
+   "id": "2026-10-30-agbaji-bench",
+   "playerId": "4397018",
+   "name": "Ochai Agbaji",
+   "date": "2026-10-30",
+   "minutes": 10,
+   "reason": "RotoWire/Shams: Thunder signed Agbaji to the final roster spot after Jalen Williams and Cason Wallace injuries; RotoWire says he will hold a role at the end of the bench and stay off the fantasy radar. Projection had 18.3 mpg; table size for out-of-rotation is 10 or less.",
+   "source": "https://x.com/ShamsCharania",
+   "signalId": "news:3429038b6e39"
   }
  ]
 }
